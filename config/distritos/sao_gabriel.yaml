@@ -1,0 +1,16 @@
+# Distrito de São Gabriel — piloto
+# Códigos IBGE: validar antes da Fase 2 (integração Conab)
+id: sao_gabriel
+nome: Distrito de São Gabriel
+uf: RS
+regiao: Fronteira Oeste / Campanha
+cultura_principal: soja
+fontes_colheita: [emater_rs, conab]
+municipios:
+  - { id: sao_gabriel, nome: São Gabriel, ibge: 4318002, lat: -30.34, lon: -54.32, area_soja_ha: 125000 }
+  - { id: alegrete, nome: Alegrete, ibge: 4300406, lat: -29.78, lon: -55.79, area_soja_ha: 95000 }
+  - { id: santana_livramento, nome: Sant'Ana do Livramento, ibge: 4317103, lat: -30.89, lon: -55.53, area_soja_ha: 68000 }
+  - { id: rosario_do_sul, nome: Rosário do Sul, ibge: 4316402, lat: -30.25, lon: -54.91, area_soja_ha: 72000 }
+  - { id: manoel_viana, nome: Manoel Viana, ibge: 4311759, lat: -29.59, lon: -55.49, area_soja_ha: 38000 }
+  - { id: macambara, nome: Maçambará, ibge: 4311734, lat: -29.14, lon: -56.06, area_soja_ha: 55000 }
+  - { id: sao_borja, nome: São Borja, ibge: 4318101, lat: -28.66, lon: -56.00, area_soja_ha: 105000 }
