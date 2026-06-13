@@ -1,125 +1,138 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="dark">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Boletim Agroclimatico - Observatorio de Distritos</title>
+<title>Monitor Agroclimatico - Observatorio de Distritos</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-  :root{
-    --bg:#0a0e14; --panel:#0d1218; --panel2:#080b10;
+  /* ===== TEMA ESCURO (padrao) ===== */
+  [data-theme="dark"]{
+    --bg:#0a0e14; --panel:#0d1218; --panel2:#080b10; --panelHover:#0f1620;
     --border:#1e293b; --border2:#334155;
     --tx:#e2e8f0; --mut:#94a3b8; --dim:#64748b; --vdim:#475569;
     --amber:#f59e0b; --amberL:#fcd34d; --sky:#0ea5e9; --skyL:#7dd3fc;
     --emerald:#10b981; --emeraldL:#6ee7b7; --red:#ef4444; --redL:#fca5a5;
     --violet:#a78bfa; --violetL:#c4b5fd; --cyan:#67e8f9;
+    --grid:rgba(148,163,184,.10); --shadow:rgba(0,0,0,.4);
+    --headGrad:linear-gradient(to bottom,rgba(120,53,15,.15),transparent);
+  }
+  /* ===== TEMA CLARO ===== */
+  [data-theme="light"]{
+    --bg:#f5f3ee; --panel:#ffffff; --panel2:#efece5; --panelHover:#faf9f6;
+    --border:#e2ddd2; --border2:#cdc6b8;
+    --tx:#2a2620; --mut:#6b6456; --dim:#8a8275; --vdim:#a8a092;
+    --amber:#c2740a; --amberL:#a85f06;
+    --emerald:#0f8a5f; --emeraldL:#0a6b49; --red:#c43d3d; --redL:#9b2c2c;
+    --violet:#7c5cd6; --violetL:#6442c0; --cyan:#0e7490;
+    --sky:#0369a1; --skyL:#0284c7;
+    --grid:rgba(100,90,70,.12); --shadow:rgba(120,100,70,.10);
+    --headGrad:linear-gradient(to bottom,rgba(194,116,10,.10),transparent);
   }
   *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--bg);color:var(--tx);font-family:'IBM Plex Sans',system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
+  body{background:var(--bg);color:var(--tx);font-family:'IBM Plex Sans',system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;transition:background .3s,color .3s}
   .mono{font-family:'IBM Plex Mono',monospace}
   .serif{font-family:'Fraunces',Georgia,serif}
   .wrap{max-width:1280px;margin:0 auto;padding:0 24px}
 
-  header{border-bottom:1px solid rgba(245,158,11,.12);background:linear-gradient(to bottom,rgba(120,53,15,.15),transparent)}
-  .head-in{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px;padding:30px 0}
+  header{border-bottom:1px solid var(--border);background:var(--headGrad)}
+  .head-in{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px;padding:28px 0}
   .eyebrow{display:flex;align-items:center;gap:12px;margin-bottom:8px}
   .eyebrow .bar{width:4px;height:30px;background:var(--amber)}
-  .eyebrow span{font-family:'IBM Plex Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:.3em;color:rgba(245,158,11,.8)}
-  h1{font-family:'Fraunces',Georgia,serif;font-weight:300;font-size:clamp(30px,5vw,46px);line-height:1.05}
+  .eyebrow span{font-family:'IBM Plex Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:.3em;color:var(--amber)}
+  h1{font-family:'Fraunces',Georgia,serif;font-weight:300;font-size:clamp(28px,5vw,44px);line-height:1.05}
   h1 em{font-style:italic;color:var(--amberL)}
+  .head-right{display:flex;flex-direction:column;align-items:flex-end;gap:10px}
   .head-meta{text-align:right;font-size:12px;color:var(--dim)}
   .head-meta .big{font-family:'IBM Plex Mono',monospace;font-size:17px;color:var(--amberL)}
+  .theme-btn{display:inline-flex;align-items:center;gap:7px;padding:7px 13px;border:1px solid var(--border2);background:var(--panel);color:var(--mut);border-radius:20px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.05em;transition:.15s}
+  .theme-btn:hover{border-color:var(--amber);color:var(--amber)}
 
   .crumb{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:14px 0;font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--dim);border-bottom:1px solid var(--border)}
   .crumb button{background:none;border:none;color:var(--mut);cursor:pointer;font:inherit;padding:2px 0}
-  .crumb button:hover{color:var(--amberL)}
+  .crumb button:hover{color:var(--amber)}
   .crumb .sep{color:var(--vdim)}
-  .crumb .cur{color:var(--amberL)}
+  .crumb .cur{color:var(--amber)}
 
   main{padding:28px 0 60px}
   .loading{text-align:center;color:var(--dim);padding:80px 0;font-family:'IBM Plex Mono',monospace;font-size:13px}
 
-  .grid{display:grid;gap:14px}
-  .nav-card{border:1px solid var(--border);background:var(--panel);border-radius:3px;padding:22px;cursor:pointer;transition:.15s;text-align:left;font:inherit;color:inherit}
-  .nav-card:hover{border-color:var(--border2);background:#0f1620;transform:translateY(-1px)}
-  .nav-card .kicker{font-family:'IBM Plex Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.18em;color:var(--dim);margin-bottom:8px}
-  .nav-card h3{font-family:'Fraunces',Georgia,serif;font-weight:400;font-size:22px;color:var(--tx);margin-bottom:6px}
+  .grid{display:grid;gap:16px}
+  .nav-card{border:1px solid var(--border);background:var(--panel);border-radius:8px;padding:24px;cursor:pointer;transition:.18s;text-align:left;font:inherit;color:inherit;box-shadow:0 1px 3px var(--shadow)}
+  .nav-card:hover{border-color:var(--amber);transform:translateY(-2px);box-shadow:0 6px 20px var(--shadow)}
+  .nav-card .kicker{font-family:'IBM Plex Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.18em;color:var(--dim);margin-bottom:10px;display:flex;align-items:center;gap:7px}
+  .nav-card h3{font-family:'Fraunces',Georgia,serif;font-weight:400;font-size:23px;color:var(--tx);margin-bottom:6px}
   .nav-card .sub{font-size:13px;color:var(--mut)}
-  .nav-card .arrow{float:right;color:var(--vdim);font-size:18px}
+  .nav-card .arrow{float:right;color:var(--vdim);font-size:18px;transition:.18s}
+  .nav-card:hover .arrow{color:var(--amber);transform:translateX(3px)}
 
-  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-bottom:24px}
-  .kpi{border:1px solid var(--border);background:var(--panel);border-radius:3px;padding:16px;position:relative}
-  .kpi.amber{border-color:rgba(245,158,11,.2);background:rgba(245,158,11,.04)}
-  .kpi.sky{border-color:rgba(14,165,233,.2);background:rgba(14,165,233,.04)}
-  .kpi.violet{border-color:rgba(167,139,250,.2);background:rgba(167,139,250,.04)}
-  .kpi.cyan{border-color:rgba(34,211,238,.2);background:rgba(34,211,238,.04)}
-  .kpi.emerald{border-color:rgba(16,185,129,.2);background:rgba(16,185,129,.04)}
-  .kpi .lab{font-family:'IBM Plex Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.15em;color:var(--mut);opacity:.7;margin-bottom:6px}
-  .kpi .val{font-family:'Fraunces',Georgia,serif;font-weight:300;font-size:30px;line-height:1.05}
-  .kpi.amber .val{color:var(--amberL)} .kpi.sky .val{color:var(--skyL)} .kpi.violet .val{color:var(--violetL)} .kpi.cyan .val{color:var(--cyan)} .kpi.emerald .val{color:var(--emeraldL)}
-  .kpi .sub{font-size:12px;color:var(--mut);opacity:.6;margin-top:4px}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin-bottom:26px}
+  .kpi{border:1px solid var(--border);background:var(--panel);border-radius:8px;padding:18px;position:relative;overflow:hidden;box-shadow:0 1px 3px var(--shadow)}
+  .kpi::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--accent,var(--amber))}
+  .kpi.amber{--accent:var(--amber)} .kpi.sky{--accent:var(--sky)} .kpi.violet{--accent:var(--violet)} .kpi.cyan{--accent:var(--cyan)} .kpi.emerald{--accent:var(--emerald)} .kpi.red{--accent:var(--red)}
+  .kpi .kicker{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+  .kpi .kicker .ic{color:var(--accent,var(--amber));opacity:.85}
+  .kpi .lab{font-family:'IBM Plex Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.13em;color:var(--mut)}
+  .kpi .val{font-family:'Fraunces',Georgia,serif;font-weight:300;font-size:32px;line-height:1;color:var(--accent,var(--amber))}
+  .kpi .sub{font-size:12px;color:var(--mut);margin-top:5px}
 
-  .alert{display:flex;gap:12px;align-items:flex-start;border:1px solid rgba(239,68,68,.3);background:rgba(127,29,29,.25);border-radius:3px;padding:14px 16px;margin-bottom:12px}
-  .alert .ico{color:var(--redL);flex-shrink:0;font-weight:700}
+  .alert{display:flex;gap:13px;align-items:flex-start;border:1px solid var(--border);background:var(--panel);border-left:3px solid var(--red);border-radius:8px;padding:15px 17px;margin-bottom:12px;box-shadow:0 1px 3px var(--shadow)}
+  .alert .ico{color:var(--red);flex-shrink:0;margin-top:1px}
   .alert .t{font-weight:600;color:var(--redL)}
-  .alert .d{color:#cbd5e1;font-size:13px}
-  .alert.empty{border-color:rgba(16,185,129,.3);background:rgba(6,78,59,.25)}
-  .alert.empty .ico,.alert.empty .t{color:var(--emeraldL)}
+  .alert .d{color:var(--mut);font-size:13px;margin-top:2px}
+  .alert.empty{border-left-color:var(--emerald)}
+  .alert.empty .ico{color:var(--emerald)} .alert.empty .t{color:var(--emeraldL)}
 
-  .panel{border:1px solid var(--border);background:var(--panel);border-radius:3px;padding:22px;margin-bottom:24px}
-  .stitle{font-family:'IBM Plex Mono',monospace;font-size:12px;text-transform:uppercase;letter-spacing:.2em;color:var(--mut);margin-bottom:18px;font-weight:500}
-  .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:20px}
-  .chart-box{position:relative;height:280px}
+  .panel{border:1px solid var(--border);background:var(--panel);border-radius:8px;padding:24px;margin-bottom:22px;box-shadow:0 1px 3px var(--shadow)}
+  .stitle{font-family:'IBM Plex Mono',monospace;font-size:12px;text-transform:uppercase;letter-spacing:.18em;color:var(--mut);margin-bottom:18px;font-weight:500;display:flex;align-items:center;gap:9px}
+  .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(400px,1fr));gap:18px}
 
-  .fita{border:1px solid var(--border);background:var(--panel);border-radius:3px;margin-bottom:10px;overflow:hidden}
-  .fita-head{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 18px;cursor:pointer;transition:.15s}
-  .fita-head:hover{background:#0f1620}
-  .fita-id{display:flex;align-items:baseline;gap:12px;min-width:0}
-  .fita-id .nm{font-family:'Fraunces',Georgia,serif;font-size:19px;color:var(--tx);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .fita-id .co{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--dim)}
-  .fita-now{display:flex;align-items:center;gap:18px;flex-shrink:0}
-  .micro{text-align:right}
-  .micro .v{font-family:'IBM Plex Mono',monospace;font-size:15px}
-  .micro .l{font-family:'IBM Plex Mono',monospace;font-size:8px;text-transform:uppercase;letter-spacing:.1em;color:var(--dim)}
-  .tmax{color:var(--amberL)} .tmin{color:var(--violetL)} .rain{color:var(--skyL)} .toggle{color:var(--vdim);font-size:12px;width:16px;text-align:center;font-family:'IBM Plex Mono',monospace}
+  /* CARD DE MUNICIPIO (rico) */
+  .muncard{border:1px solid var(--border);background:var(--panel);border-radius:10px;overflow:hidden;margin-bottom:16px;box-shadow:0 1px 3px var(--shadow);transition:.18s}
+  .muncard:hover{box-shadow:0 6px 22px var(--shadow)}
+  .muncard-head{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 22px;background:linear-gradient(to right,rgba(245,158,11,.06),transparent);border-bottom:1px solid var(--border)}
+  .muncard-id .nm{font-family:'Fraunces',Georgia,serif;font-size:21px;color:var(--tx)}
+  .muncard-id .co{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--dim);margin-top:2px}
+  .muncard-now{display:flex;align-items:center;gap:18px}
+  .muncard-temp{display:flex;align-items:center;gap:12px}
+  .muncard-temp .big{font-family:'Fraunces',Georgia,serif;font-weight:300;font-size:40px;line-height:1;color:var(--amberL)}
+  .muncard-temp .mm{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--mut);text-align:left}
+  .muncard-temp .mm .mx{color:var(--amber)} .muncard-temp .mm .mn{color:var(--violet)}
+  .muncard-body{padding:18px 22px;display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:14px}
+  .metric{text-align:center;padding:10px;background:var(--panel2);border-radius:7px}
+  .metric .mv{font-family:'IBM Plex Mono',monospace;font-size:18px;color:var(--tx)}
+  .metric .ml{font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:var(--dim);margin-top:3px}
+  .metric .mv.sky{color:var(--skyL)} .metric .mv.cyan{color:var(--cyan)} .metric .mv.amber{color:var(--amberL)}
 
-  .strip{display:flex;border-top:1px solid var(--border);background:var(--panel2)}
-  .day{flex:1;text-align:center;padding:12px 4px;border-right:1px solid var(--border);min-width:0}
-  .day:last-child{border-right:none}
-  .day.today{background:rgba(245,158,11,.06)}
-  .day .dn{font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;color:var(--dim)}
-  .day .ic{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;margin:6px 0;padding:2px 0}
-  .day .ic.sol{color:var(--amberL)} .day .ic.nubl{color:var(--mut)} .day .ic.chuva{color:var(--skyL)} .day .ic.garoa{color:var(--cyan)}
-  .day .dmax{font-family:'Fraunces',Georgia,serif;font-size:17px;color:var(--tx)}
-  .day .dmin{font-size:11px;color:var(--dim)}
-  .day .dr{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--skyL);margin-top:4px}
+  /* FAIXA DE 7 DIAS */
+  .week{display:flex;gap:8px;padding:18px 22px;border-top:1px solid var(--border);overflow-x:auto}
+  .wday{flex:1;min-width:84px;text-align:center;padding:14px 8px;background:var(--panel2);border-radius:8px;border:1px solid transparent;transition:.15s}
+  .wday.today{border-color:var(--amber);background:linear-gradient(to bottom,rgba(245,158,11,.08),var(--panel2))}
+  .wday .wd{font-family:'IBM Plex Mono',monospace;font-size:10px;text-transform:uppercase;color:var(--dim);letter-spacing:.05em}
+  .wday .wi{margin:10px auto;width:34px;height:34px}
+  .wday .wmax{font-family:'Fraunces',Georgia,serif;font-size:20px;color:var(--tx)}
+  .wday .wmin{font-size:11px;color:var(--dim)}
+  .wday .wr{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--skyL);margin-top:6px}
 
-  .soon{border:1px dashed var(--border2);border-radius:3px;padding:28px;text-align:center;color:var(--dim)}
-  .soon .tag{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--violetL);border:1px solid rgba(167,139,250,.3);background:rgba(167,139,250,.08);border-radius:2px;padding:3px 10px;margin-bottom:12px}
+  .soon{border:1px dashed var(--border2);border-radius:10px;padding:32px;text-align:center;color:var(--dim)}
+  .soon .tag{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--violetL);border:1px solid var(--violet);background:rgba(167,139,250,.08);border-radius:20px;padding:4px 12px;margin-bottom:14px}
 
   .tabs{display:flex;gap:4px;border-bottom:1px solid var(--border);margin-bottom:24px;overflow-x:auto}
-  .tab{display:flex;align-items:center;gap:7px;padding:13px 16px;font-size:14px;font-weight:500;color:var(--mut);background:none;border:none;border-bottom:2px solid transparent;cursor:pointer;white-space:nowrap;font-family:inherit}
-  .tab.on{color:var(--amberL);border-bottom-color:var(--amber)}
+  .tab{display:flex;align-items:center;gap:8px;padding:13px 18px;font-size:14px;font-weight:500;color:var(--mut);background:none;border:none;border-bottom:2px solid transparent;cursor:pointer;white-space:nowrap;font-family:inherit;transition:.15s}
+  .tab:hover{color:var(--tx)}
+  .tab.on{color:var(--amber);border-bottom-color:var(--amber)}
+  .tab .ic{display:inline-flex}
 
-  table{width:100%;font-size:14px;border-collapse:collapse}
-  thead{background:rgba(15,23,42,.6)}
-  th{font-family:'IBM Plex Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:var(--mut);padding:12px 16px;text-align:left}
-  th.r,td.r{text-align:right} th.c,td.c{text-align:center}
-  td{padding:12px 16px;border-top:1px solid var(--border)}
-  .barmini{display:inline-block;width:64px;height:6px;background:var(--border);border-radius:3px;overflow:hidden;vertical-align:middle}
-  .barmini > div{height:100%;background:var(--emerald)}
-
-  footer{border-top:1px solid var(--border);background:var(--panel2);padding:22px 0;margin-top:40px}
+  footer{border-top:1px solid var(--border);background:var(--panel2);padding:24px 0;margin-top:40px}
   .foot{font-family:'IBM Plex Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.15em;color:var(--vdim);text-align:center}
   .src{font-size:12px;color:var(--mut);text-align:center;margin-bottom:10px;line-height:1.6}
 
-  @media(max-width:600px){
-    .fita-now{gap:10px}
-    .micro.hide-sm{display:none}
-    .strip{flex-wrap:wrap}
-    .day{flex:1 0 25%;border-bottom:1px solid var(--border)}
+  @media(max-width:640px){
+    .muncard-head{flex-direction:column;align-items:flex-start;gap:12px}
+    .week{flex-wrap:wrap}
+    .wday{min-width:calc(25% - 8px)}
   }
 </style>
 </head>
@@ -127,13 +140,16 @@
 <header>
   <div class="wrap head-in">
     <div>
-      <div class="eyebrow"><div class="bar"></div><span>Boletim Agroclimatico - Observatorio de Distritos</span></div>
+      <div class="eyebrow"><div class="bar"></div><span>Boletim Agroclimatico</span></div>
       <h1>Monitor <em>Agroclimatico</em></h1>
     </div>
-    <div class="head-meta">
-      <div class="mono" style="font-size:10px;text-transform:uppercase;letter-spacing:.15em">Dados atualizados</div>
-      <div class="big" id="upd">-</div>
-      <div id="upd-sub" style="margin-top:3px">automatico - 2x ao dia</div>
+    <div class="head-right">
+      <button class="theme-btn" id="themeBtn" onclick="toggleTema()"><span id="themeIco"></span><span id="themeTxt">Tema claro</span></button>
+      <div class="head-meta">
+        <div class="mono" style="font-size:10px;text-transform:uppercase;letter-spacing:.15em">Dados atualizados</div>
+        <div class="big" id="upd">-</div>
+        <div id="upd-sub" style="margin-top:2px">automatico - 2x ao dia</div>
+      </div>
     </div>
   </div>
 </header>
@@ -146,108 +162,153 @@
   </div>
 </footer>
 <script>
-// ===== CONFIG: le dados do proprio Vercel (sem chamada externa) =====
+// ===== CONFIG =====
 var BASE = "data/out";
+var INDEX = null, cacheDistrito = {}, nav = {nivel:"regionais",regional:null,distrito:null}, tabAtiva = "clima";
 
-// ===== ESTADO =====
-var INDEX = null;
-var cacheDistrito = {};
-var nav = { nivel: "regionais", regional: null, distrito: null };
-var tabAtiva = "clima";
-var charts = {};
+// ===== TEMA CLARO/ESCURO =====
+var tema = "dark";
+function aplicaTema(t){
+  tema = t;
+  document.documentElement.setAttribute("data-theme", t);
+  var ico = document.getElementById("themeIco");
+  var txt = document.getElementById("themeTxt");
+  if(t === "dark"){ ico.innerHTML = iconeSol(16,"#fcd34d"); txt.textContent = "Tema claro"; }
+  else { ico.innerHTML = iconeLua(16,"#6442c0"); txt.textContent = "Tema escuro"; }
+  try{ localStorage.setItem("tema_obs", t); }catch(e){}
+  // redesenha graficos para pegar as cores do tema
+  if(nav.nivel==="distrito" && tabAtiva==="clima" && cacheDistrito[nav.distrito]){
+    setTimeout(function(){ desenhaGraficos(cacheDistrito[nav.distrito]); }, 30);
+  }
+}
+function toggleTema(){ aplicaTema(tema === "dark" ? "light" : "dark"); }
+
+// ===== ICONES SVG DE TEMPO (desenhados a mao) =====
+function svgWrap(inner, size){ return '<svg viewBox="0 0 48 48" width="'+size+'" height="'+size+'" fill="none" xmlns="http://www.w3.org/2000/svg">'+inner+'</svg>'; }
+function iconeSol(size, cor){
+  cor = cor || "#f59e0b";
+  var r='<circle cx="24" cy="24" r="9" fill="'+cor+'"/>';
+  for(var i=0;i<8;i++){
+    var a=i*Math.PI/4, x1=24+Math.cos(a)*14, y1=24+Math.sin(a)*14, x2=24+Math.cos(a)*19, y2=24+Math.sin(a)*19;
+    r+='<line x1="'+x1.toFixed(1)+'" y1="'+y1.toFixed(1)+'" x2="'+x2.toFixed(1)+'" y2="'+y2.toFixed(1)+'" stroke="'+cor+'" stroke-width="2.5" stroke-linecap="round"/>';
+  }
+  return svgWrap(r,size);
+}
+function iconeLua(size, cor){
+  cor = cor || "#c4b5fd";
+  return svgWrap('<path d="M30 8a16 16 0 1 0 10 28A13 13 0 0 1 30 8z" fill="'+cor+'"/>',size);
+}
+function iconeNuvem(size, cor){
+  cor = cor || "#94a3b8";
+  return svgWrap('<path d="M14 34h20a7 7 0 0 0 .5-14A10 10 0 0 0 15 22a7 7 0 0 0-1 12z" fill="'+cor+'"/>',size);
+}
+function iconeSolNuvem(size){
+  var r='<circle cx="18" cy="18" r="6.5" fill="#f59e0b"/>';
+  for(var i=0;i<8;i++){ var a=i*Math.PI/4,x1=18+Math.cos(a)*9.5,y1=18+Math.sin(a)*9.5,x2=18+Math.cos(a)*13,y2=18+Math.sin(a)*13; r+='<line x1="'+x1.toFixed(1)+'" y1="'+y1.toFixed(1)+'" x2="'+x2.toFixed(1)+'" y2="'+y2.toFixed(1)+'" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>'; }
+  r+='<path d="M16 36h20a7 7 0 0 0 .5-14A10 10 0 0 0 17 24a7 7 0 0 0-1 12z" fill="#94a3b8"/>';
+  return svgWrap(r,size);
+}
+function iconeChuva(size){
+  var r='<path d="M14 28h20a7 7 0 0 0 .5-14A10 10 0 0 0 15 16a7 7 0 0 0-1 12z" fill="#94a3b8"/>';
+  r+='<line x1="18" y1="34" x2="16" y2="40" stroke="#0ea5e9" stroke-width="2.5" stroke-linecap="round"/>';
+  r+='<line x1="25" y1="34" x2="23" y2="41" stroke="#0ea5e9" stroke-width="2.5" stroke-linecap="round"/>';
+  r+='<line x1="32" y1="34" x2="30" y2="40" stroke="#0ea5e9" stroke-width="2.5" stroke-linecap="round"/>';
+  return svgWrap(r,size);
+}
+function iconeGaroa(size){
+  var r='<path d="M14 28h20a7 7 0 0 0 .5-14A10 10 0 0 0 15 16a7 7 0 0 0-1 12z" fill="#94a3b8"/>';
+  r+='<line x1="20" y1="34" x2="19" y2="38" stroke="#67e8f9" stroke-width="2.5" stroke-linecap="round"/>';
+  r+='<line x1="29" y1="34" x2="28" y2="38" stroke="#67e8f9" stroke-width="2.5" stroke-linecap="round"/>';
+  return svgWrap(r,size);
+}
+function iconeTempo(chuva, prob, size){
+  if(chuva>=10) return iconeChuva(size);
+  if(chuva>=1) return iconeGaroa(size);
+  if(prob>=50) return iconeSolNuvem(size);
+  return iconeSol(size);
+}
+// icones de KPI
+function icoTermo(s,c){ return svgWrap('<path d="M28 28V10a4 4 0 0 0-8 0v18a8 8 0 1 0 8 0z" stroke="'+(c||"#f59e0b")+'" stroke-width="2.5" fill="none"/><circle cx="24" cy="34" r="4" fill="'+(c||"#f59e0b")+'"/>',s); }
+function icoGota(s,c){ return svgWrap('<path d="M24 8s12 13 12 21a12 12 0 0 1-24 0c0-8 12-21 12-21z" stroke="'+(c||"#0ea5e9")+'" stroke-width="2.5" fill="none"/>',s); }
+function icoMapa(s,c){ return svgWrap('<path d="M24 6c-7 0-12 5-12 12 0 9 12 24 12 24s12-15 12-24c0-7-5-12-12-12z" stroke="'+(c||"#67e8f9")+'" stroke-width="2.5" fill="none"/><circle cx="24" cy="18" r="4" fill="'+(c||"#67e8f9")+'"/>',s); }
+function icoAviso(s,c){ return svgWrap('<path d="M24 6l20 34H4L24 6z" stroke="'+(c||"#ef4444")+'" stroke-width="2.5" fill="none" stroke-linejoin="round"/><line x1="24" y1="20" x2="24" y2="30" stroke="'+(c||"#ef4444")+'" stroke-width="2.5" stroke-linecap="round"/><circle cx="24" cy="35" r="1.6" fill="'+(c||"#ef4444")+'"/>',s); }
+function icoCheck(s,c){ return svgWrap('<circle cx="24" cy="24" r="18" stroke="'+(c||"#10b981")+'" stroke-width="2.5" fill="none"/><path d="M16 24l6 6 11-12" stroke="'+(c||"#10b981")+'" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>',s); }
+function icoBroto(s,c){ return svgWrap('<path d="M24 40V22" stroke="'+(c||"#10b981")+'" stroke-width="2.5" stroke-linecap="round"/><path d="M24 26c-6 0-10-4-10-10 6 0 10 4 10 10z" fill="'+(c||"#10b981")+'"/><path d="M24 22c5 0 9-3 9-9-5 0-9 3-9 9z" fill="'+(c||"#10b981")+'" opacity=".7"/>',s); }
 
 // ===== HELPERS =====
 function $(id){ return document.getElementById(id); }
-function fmtData(iso){ try { return new Date(iso).toLocaleString("pt-BR",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"}); } catch(e){ return iso || "-"; } }
-function diaSemana(iso){ try { return new Date(iso+"T12:00").toLocaleDateString("pt-BR",{weekday:"short"}).replace(".","").toUpperCase(); } catch(e){ return ""; } }
-function ddmm(iso){ return iso ? iso.slice(8,10)+"/"+iso.slice(5,7) : ""; }
+function fmtData(iso){ try{ return new Date(iso).toLocaleString("pt-BR",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"}); }catch(e){ return iso||"-"; } }
+function diaSemana(iso){ try{ return new Date(iso+"T12:00").toLocaleDateString("pt-BR",{weekday:"short"}).replace(".","").toUpperCase(); }catch(e){ return ""; } }
+function ddmm(iso){ return iso?iso.slice(8,10)+"/"+iso.slice(5,7):""; }
 function hoje(){ return new Date().toISOString().slice(0,10); }
 function rnd(v){ return Math.round(v==null?0:v); }
-function classeTempo(chuva,prob){
-  if(chuva>=10) return "chuva"; if(chuva>=1) return "garoa";
-  if(prob>=50) return "nubl"; return "sol";
-}
-function rotuloTempo(chuva,prob){
-  if(chuva>=10) return "CHUVA"; if(chuva>=1) return "GAROA";
-  if(prob>=50) return "NUBL"; return "SOL";
-}
+function escX(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
 function carregaJSON(url){ return fetch(url,{cache:"no-store"}).then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); }); }
-function destruirCharts(){ charts = {}; }
 
 // ===== BREADCRUMB =====
 function renderCrumb(){
-  var c = $("crumb"); c.innerHTML = "";
-  function add(txt, fn, cur){ var b = document.createElement(fn?"button":"span"); b.textContent = txt; if(cur) b.className="cur"; if(fn) b.onclick = fn; c.appendChild(b); }
-  function sep(){ var s = document.createElement("span"); s.className="sep"; s.textContent=">"; c.appendChild(s); }
-  add("Regionais", function(){ nav={nivel:"regionais",regional:null,distrito:null}; render(); }, nav.nivel==="regionais");
-  if(nav.regional){ sep(); add(nav.regional, function(){ nav={nivel:"distritos",regional:nav.regional,distrito:null}; render(); }, nav.nivel==="distritos"); }
-  if(nav.distrito){ sep(); var d=cacheDistrito[nav.distrito]; add(d?d.distrito.nome:nav.distrito, null, true); }
+  var c=$("crumb"); c.innerHTML="";
+  function add(t,fn,cur){ var b=document.createElement(fn?"button":"span"); b.textContent=t; if(cur)b.className="cur"; if(fn)b.onclick=fn; c.appendChild(b); }
+  function sep(){ var s=document.createElement("span"); s.className="sep"; s.textContent=">"; c.appendChild(s); }
+  add("Regionais",function(){ nav={nivel:"regionais",regional:null,distrito:null}; render(); },nav.nivel==="regionais");
+  if(nav.regional){ sep(); add(nav.regional,function(){ nav={nivel:"distritos",regional:nav.regional,distrito:null}; render(); },nav.nivel==="distritos"); }
+  if(nav.distrito){ sep(); var d=cacheDistrito[nav.distrito]; add(d?d.distrito.nome:nav.distrito,null,true); }
 }
 
-// ===== NIVEL REGIONAIS =====
+// ===== NIVEIS DE NAVEGACAO =====
 function viewRegionais(){
-  var regs = INDEX.regionais || [];
+  var regs=INDEX.regionais||[];
   if(regs.length===1){ nav={nivel:"distritos",regional:regs[0].nome,distrito:null}; return viewDistritos(); }
-  var h = '<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">';
+  var h='<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">';
   for(var i=0;i<regs.length;i++){
-    var r=regs[i];
-    var nm=0; for(var j=0;j<r.distritos.length;j++){ nm+=(r.distritos[j].n_municipios||0); }
-    h += '<button class="nav-card" onclick="irRegional(\'' + r.nome.replace(/'/g,"\\'") + '\')">'
-       + '<span class="arrow">&rarr;</span><div class="kicker">Regional</div>'
-       + '<h3>' + r.nome + '</h3>'
-       + '<div class="sub">' + r.distritos.length + ' distrito(s) - ' + nm + ' municipio(s)</div></button>';
+    var r=regs[i], nm=0; for(var j=0;j<r.distritos.length;j++) nm+=(r.distritos[j].n_municipios||0);
+    h+='<button class="nav-card" onclick="irRegional(\''+r.nome.replace(/'/g,"\\'")+'\')">'
+      +'<span class="arrow">&#8594;</span><div class="kicker">'+icoMapa(14,"currentColor")+' Regional</div>'
+      +'<h3>'+escX(r.nome)+'</h3><div class="sub">'+r.distritos.length+' distrito(s) - '+nm+' municipio(s)</div></button>';
   }
-  return h + "</div>";
+  return h+"</div>";
 }
-function irRegional(nome){ nav={nivel:"distritos",regional:nome,distrito:null}; render(); }
+function irRegional(n){ nav={nivel:"distritos",regional:n,distrito:null}; render(); }
 
-// ===== NIVEL DISTRITOS =====
 function viewDistritos(){
   var reg=null, regs=INDEX.regionais||[];
   for(var i=0;i<regs.length;i++){ if(regs[i].nome===nav.regional) reg=regs[i]; }
   if(!reg) return '<div class="loading">Regional nao encontrada.</div>';
-  var h='<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">';
+  var h='<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">';
   for(var k=0;k<reg.distritos.length;k++){
     var d=reg.distritos[k];
-    h += '<button class="nav-card" onclick="irDistrito(\'' + d.id + '\')">'
-       + '<span class="arrow">&rarr;</span><div class="kicker">Distrito - ' + (d.uf||"") + '</div>'
-       + '<h3>' + d.nome + '</h3>'
-       + '<div class="sub">' + d.n_municipios + ' municipio(s)</div></button>';
+    h+='<button class="nav-card" onclick="irDistrito(\''+d.id+'\')">'
+      +'<span class="arrow">&#8594;</span><div class="kicker">'+icoBroto(14,"currentColor")+' Distrito - '+(d.uf||"")+'</div>'
+      +'<h3>'+escX(d.nome)+'</h3><div class="sub">'+d.n_municipios+' municipio(s)</div></button>';
   }
-  return h + "</div>";
+  return h+"</div>";
 }
 function irDistrito(id){ nav={nivel:"distrito",regional:nav.regional,distrito:id}; tabAtiva="clima"; render(); }
 
-// ===== AGREGACOES =====
+// ===== AGREGA =====
+function diaHoje(m){ var dias=(m.clima&&m.clima.dias)||[],dh=null; for(var j=0;j<dias.length;j++){ if(dias[j].data===hoje()) dh=dias[j]; } return dh||dias[0]||{}; }
+function fut7(m){ var dias=(m.clima&&m.clima.dias)||[],r=[]; for(var j=0;j<dias.length;j++){ if(dias[j].data>=hoje()&&r.length<7) r.push(dias[j]); } return r; }
 function agrega(d){
-  var ms=d.municipios||[], tmaxMax=-99, tminMin=99, n=0;
+  var ms=d.municipios||[],tmaxMax=-99,tminMin=99,chuva7=0,n=0;
   for(var i=0;i<ms.length;i++){
-    var dias=(ms[i].clima&&ms[i].clima.dias)||[];
-    var dh=null; for(var j=0;j<dias.length;j++){ if(dias[j].data===hoje()) dh=dias[j]; }
-    if(!dh && dias.length) dh=dias[Math.min(7,dias.length-1)];
-    if(dh){ if(dh.tmax>tmaxMax)tmaxMax=dh.tmax; if(dh.tmin<tminMin)tminMin=dh.tmin; n++; }
+    var dh=diaHoje(ms[i]); if(dh.tmax>tmaxMax)tmaxMax=dh.tmax; if(dh.tmin<tminMin)tminMin=dh.tmin; n++;
+    var f=fut7(ms[i]),s=0; for(var k=0;k<f.length;k++) s+=(f[k].chuva_mm||0); chuva7+=s;
   }
-  var chuva7=0,c7n=0;
-  for(var a=0;a<ms.length;a++){
-    var ds=(ms[a].clima&&ms[a].clima.dias)||[]; var s=0,cnt=0;
-    for(var b=0;b<ds.length;b++){ if(ds[b].data>=hoje() && cnt<7){ s+=(ds[b].chuva_mm||0); cnt++; } }
-    chuva7+=s; c7n++;
-  }
-  return { tmaxMax:rnd(tmaxMax), tminMin:rnd(tminMin), chuva7:(chuva7/(c7n||1)).toFixed(0), n:n };
+  return {tmaxMax:rnd(tmaxMax),tminMin:rnd(tminMin),chuva7:(chuva7/(n||1)).toFixed(0),n:n};
 }
 
-// ===== NIVEL DISTRITO (abas) =====
+// ===== DISTRITO (abas) =====
 function viewDistrito(){
   var id=nav.distrito;
-  if(cacheDistrito[id]){ return Promise.resolve(montaDistrito(cacheDistrito[id])); }
+  if(cacheDistrito[id]) return Promise.resolve(montaDistrito(cacheDistrito[id]));
   return carregaJSON(BASE+"/"+id+"/latest.json").then(function(d){ cacheDistrito[id]=d; return montaDistrito(d); })
     .catch(function(e){ return '<div class="loading">Nao foi possivel carregar este distrito.<br><span style="color:var(--vdim)">'+e.message+'</span></div>'; });
 }
 function montaDistrito(d){
-  if(d.gerado_em) $("upd").textContent = fmtData(d.gerado_em);
-  var tabs=[["clima","Clima & Previsao"],["colheita","Colheita"],["municipios","Municipios"]];
+  if(d.gerado_em) $("upd").textContent=fmtData(d.gerado_em);
+  var tabs=[["clima",icoTermo(15,"currentColor"),"Clima & Previsao"],["colheita",icoBroto(15,"currentColor"),"Colheita"],["municipios",icoMapa(15,"currentColor"),"Municipios"]];
   var h='<div class="tabs">';
-  for(var i=0;i<tabs.length;i++){ h+='<button class="tab '+(tabAtiva===tabs[i][0]?"on":"")+'" onclick="setTab(\''+tabs[i][0]+'\')">'+tabs[i][1]+'</button>'; }
+  for(var i=0;i<tabs.length;i++){ h+='<button class="tab '+(tabAtiva===tabs[i][0]?"on":"")+'" onclick="setTab(\''+tabs[i][0]+'\')"><span class="ic">'+tabs[i][1]+'</span>'+tabs[i][2]+'</button>'; }
   h+="</div>";
   if(tabAtiva==="clima") h+=tabClima(d);
   else if(tabAtiva==="colheita") h+=tabColheita(d);
@@ -257,203 +318,140 @@ function montaDistrito(d){
 function setTab(k){ tabAtiva=k; render(); }
 
 function tabClima(d){
-  var a=agrega(d);
-  var al=(d.alertas&&d.alertas.ativos)||[];
+  var a=agrega(d), al=(d.alertas&&d.alertas.ativos)||[];
   var h='<div class="kpis">';
-  h+=kpi("amber","Temp. maxima hoje",a.tmaxMax+"&deg;","maior entre os municipios");
-  h+=kpi("violet","Temp. minima hoje",a.tminMin+"&deg;","menor entre os municipios");
-  h+=kpi("sky","Chuva prox. 7 dias",a.chuva7+" mm","media do distrito");
-  h+=kpi("cyan","Municipios",a.n,"monitorados");
+  h+=kpi("amber",icoTermo(18),"Temp. maxima hoje",a.tmaxMax+"&deg;","maior entre os municipios");
+  h+=kpi("violet",icoTermo(18,"#a78bfa"),"Temp. minima hoje",a.tminMin+"&deg;","menor entre os municipios");
+  h+=kpi("sky",icoGota(18),"Chuva prox. 7 dias",a.chuva7+" mm","media do distrito");
+  h+=kpi("cyan",icoMapa(18),"Municipios",a.n,"monitorados");
   h+="</div>";
   if(al.length){
-    for(var i=0;i<al.length && i<4;i++){
-      var x=al[i];
-      h+='<div class="alert"><div class="ico">!</div><div><span class="t">'+(x.evento||"Aviso")+'</span>'+(x.severidade?" - "+x.severidade:"")+'<div class="d">'+[x.inicio,x.fim].filter(Boolean).join(" ate ")+'</div></div></div>';
+    for(var i=0;i<al.length&&i<4;i++){ var x=al[i];
+      h+='<div class="alert"><div class="ico">'+icoAviso(20)+'</div><div><span class="t">'+escX(x.evento||"Aviso")+'</span>'+(x.severidade?" - "+escX(x.severidade):"")+'<div class="d">'+[x.inicio,x.fim].filter(Boolean).join(" ate ")+'</div></div></div>';
     }
   } else {
-    h+='<div class="alert empty"><div class="ico">OK</div><div><span class="t">Sem alertas ativos</span><div class="d">Nenhum aviso do INMET vigente para '+(d.distrito.uf||"a UF")+' neste momento.</div></div></div>';
+    h+='<div class="alert empty"><div class="ico">'+icoCheck(20)+'</div><div><span class="t">Sem alertas ativos</span><div class="d">Nenhum aviso do INMET vigente para '+(d.distrito.uf||"a UF")+' neste momento.</div></div></div>';
   }
-  // graficos
   h+='<div class="grid2">';
-  h+='<div class="panel"><div class="stitle">Temperatura por municipio - hoje</div><div id="chTemp"></div></div>';
-  h+='<div class="panel"><div class="stitle">Chuva acumulada prox. 7 dias - por municipio</div><div id="chChuva"></div></div>';
+  h+='<div class="panel"><div class="stitle">'+icoTermo(14,"currentColor")+' Temperatura por municipio - hoje</div><div id="chTemp"></div></div>';
+  h+='<div class="panel"><div class="stitle">'+icoGota(14,"currentColor")+' Chuva acumulada 7 dias - por municipio</div><div id="chChuva"></div></div>';
   h+="</div>";
-  // fitas
-  h+='<div class="panel"><div class="stitle">Previsao por municipio - proximos dias</div>';
-  for(var m=0;m<(d.municipios||[]).length;m++){ h+=fita(d.municipios[m],false); }
+  h+='<div class="panel"><div class="stitle">'+icoMapa(14,"currentColor")+' Previsao detalhada por municipio</div>';
+  for(var m=0;m<(d.municipios||[]).length;m++) h+=muncard(d.municipios[m]);
   h+="</div>";
   return h;
 }
-
 function tabMunicipios(d){
-  var h='<div class="panel"><div class="stitle">'+(d.municipios||[]).length+' municipios - clima observado e previsto</div>';
-  for(var i=0;i<(d.municipios||[]).length;i++){ h+=fita(d.municipios[i],true); }
+  var h="";
+  for(var i=0;i<(d.municipios||[]).length;i++) h+=muncard(d.municipios[i]);
+  return h;
+}
+function tabColheita(d){
+  var c=d.colheita||{status:"pendente"};
+  if(c.status==="pendente"||!(c.itens&&c.itens.length)){
+    return '<div class="soon"><div class="tag">Fase 2 - em breve</div>'
+      +'<div style="font-family:Fraunces,serif;font-size:21px;color:var(--mut);margin-bottom:8px">Acompanhamento de colheita</div>'
+      +'<p style="max-width:540px;margin:0 auto;font-size:13px;line-height:1.6">Esta aba exibira o avanco da colheita por municipio (% colhido, produtividade, projecoes), '
+      +'alimentada por Conab e pelos informativos dos orgaos estaduais (Emater-RS, Epagri-SC e outros), com marcacao de dado oficial vs. estimativa.</p></div>';
+  }
+  var h='<div class="panel"><div class="stitle">'+icoBroto(14,"currentColor")+' Colheita - '+escX(c.fonte||"")+'</div>';
+  for(var i=0;i<c.itens.length;i++){ var it=c.itens[i];
+    h+='<div style="display:flex;justify-content:space-between;align-items:center;padding:12px 0;border-bottom:1px solid var(--border)"><span class="serif" style="font-size:17px">'+escX(it.municipio||"")+'</span>'
+      +'<span class="mono" style="color:var(--emeraldL);font-size:16px">'+(it.pct_colhido!=null?it.pct_colhido+"%":"-")+'</span></div>';
+  }
   return h+"</div>";
 }
 
-function tabColheita(d){
-  var c=d.colheita||{status:"pendente"};
-  if(c.status==="pendente" || !(c.itens&&c.itens.length)){
-    return '<div class="soon"><div class="tag">Fase 2 - em breve</div>'
-      +'<div style="font-family:Fraunces,serif;font-size:20px;color:var(--mut);margin-bottom:8px">Acompanhamento de colheita</div>'
-      +'<p style="max-width:520px;margin:0 auto;font-size:13px;line-height:1.6">Esta aba exibira o avanco da colheita por municipio (% colhido, produtividade, projecoes), '
-      +'alimentada por Conab e pelos informativos dos orgaos estaduais (Emater-RS, Epagri-SC e outros), com marcacao de dado oficial vs. estimativa. '
-      +'A estrutura de dados ja esta reservada - so falta ligar os conectores da Fase 2.</p></div>';
+function kpi(cls,ico,lab,val,sub){
+  return '<div class="kpi '+cls+'"><div class="kicker"><span class="ic">'+ico+'</span><span class="lab">'+lab+'</span></div><div class="val">'+val+'</div><div class="sub">'+sub+'</div></div>';
+}
+
+// ===== CARD RICO DE MUNICIPIO =====
+function muncard(m){
+  var dh=diaHoje(m), f=fut7(m);
+  var h='<div class="muncard"><div class="muncard-head">'
+    +'<div class="muncard-id"><div class="nm">'+escX(m.nome)+'</div><div class="co">'+((m.lat||0).toFixed(3))+' S - '+(Math.abs(m.lon||0).toFixed(3))+' W</div></div>'
+    +'<div class="muncard-now"><div style="width:46px;height:46px">'+iconeTempo(dh.chuva_mm||0,dh.prob_chuva||0,46)+'</div>'
+    +'<div class="muncard-temp"><div class="big">'+rnd(dh.tmax)+'&deg;</div>'
+    +'<div class="mm"><div class="mx">max '+rnd(dh.tmax)+'&deg;</div><div class="mn">min '+rnd(dh.tmin)+'&deg;</div></div></div></div></div>';
+  // metricas
+  h+='<div class="muncard-body">';
+  h+=metric("sky",(dh.chuva_mm==null?0:dh.chuva_mm)+" mm","chuva hoje");
+  h+=metric("cyan",(dh.prob_chuva==null?0:dh.prob_chuva)+"%","prob. chuva");
+  h+=metric("",(dh.umidade_pct==null?"-":dh.umidade_pct)+"%","umidade");
+  h+=metric("",(dh.vento_rajada_kmh==null?"-":rnd(dh.vento_rajada_kmh))+" km/h","vento raj.");
+  h+="</div>";
+  // faixa 7 dias
+  h+='<div class="week">';
+  for(var k=0;k<f.length;k++){ var dia=f[k], today=dia.data===hoje();
+    h+='<div class="wday'+(today?" today":"")+'"><div class="wd">'+diaSemana(dia.data)+" "+ddmm(dia.data)+'</div>'
+      +'<div class="wi">'+iconeTempo(dia.chuva_mm||0,dia.prob_chuva||0,34)+'</div>'
+      +'<div class="wmax">'+rnd(dia.tmax)+'&deg;</div><div class="wmin">'+rnd(dia.tmin)+'&deg;</div>'
+      +'<div class="wr">'+((dia.chuva_mm||0)>0?(dia.chuva_mm+" mm"):"&mdash;")+'</div></div>';
   }
-  var h='<div class="panel"><div class="stitle">Colheita - '+(c.fonte||"")+'</div>'
-      +'<table><thead><tr><th>Municipio</th><th class="r">Colhido</th><th class="r">Produtividade</th><th class="r">Projecao</th></tr></thead><tbody>';
-  for(var i=0;i<c.itens.length;i++){
-    var it=c.itens[i];
-    h+='<tr><td>'+(it.municipio||"")+'</td>'
-      +'<td class="r"><span class="barmini"><div style="width:'+(it.pct_colhido||0)+'%"></div></span> <span class="mono" style="color:var(--emeraldL)">'+(it.pct_colhido!=null?it.pct_colhido+"%":"-")+'</span></td>'
-      +'<td class="r mono">'+(it.produtividade!=null?it.produtividade+" kg/ha":"-")+'</td>'
-      +'<td class="r mono" style="color:var(--emeraldL)">'+(it.proj_fim||"-")+'</td></tr>';
-  }
-  return h+"</tbody></table></div>";
+  h+="</div></div>";
+  return h;
 }
+function metric(cls,val,lab){ return '<div class="metric"><div class="mv '+cls+'">'+val+'</div><div class="ml">'+lab+'</div></div>'; }
 
-function kpi(cls,lab,val,sub){
-  return '<div class="kpi '+cls+'"><div class="lab">'+lab+'</div><div class="val">'+val+'</div><div class="sub">'+sub+'</div></div>';
-}
-
-function fita(m, aberto){
-  var dias=(m.clima&&m.clima.dias)||[];
-  var dh=null; for(var i=0;i<dias.length;i++){ if(dias[i].data===hoje()) dh=dias[i]; }
-  if(!dh) dh=dias[0]||{};
-  var fut=[]; for(var j=0;j<dias.length;j++){ if(dias[j].data>=hoje() && fut.length<7) fut.push(dias[j]); }
-  var fid="f_"+m.id;
-  var h='<div class="fita"><div class="fita-head" onclick="toggleFita(\''+fid+'\')">'
-    +'<div class="fita-id"><span class="nm">'+m.nome+'</span><span class="co">'+((m.lat||0).toFixed(2))+' S '+(Math.abs(m.lon||0).toFixed(2))+' W</span></div>'
-    +'<div class="fita-now">'
-    +'<div class="micro hide-sm"><div class="v rain">'+(dh.chuva_mm==null?0:dh.chuva_mm)+' mm</div><div class="l">chuva hoje</div></div>'
-    +'<div class="micro"><div class="v tmin">'+rnd(dh.tmin)+'&deg;</div><div class="l">min</div></div>'
-    +'<div class="micro"><div class="v tmax">'+rnd(dh.tmax)+'&deg;</div><div class="l">max</div></div>'
-    +'<div class="toggle">[+]</div></div></div>'
-    +'<div class="strip" id="'+fid+'" style="display:'+(aberto?"flex":"none")+'">';
-  for(var k=0;k<fut.length;k++){
-    var dia=fut[k]; var today=dia.data===hoje();
-    var cl=classeTempo(dia.chuva_mm||0,dia.prob_chuva||0);
-    h+='<div class="day'+(today?" today":"")+'"><div class="dn">'+diaSemana(dia.data)+" "+ddmm(dia.data)+'</div>'
-     +'<div class="ic '+cl+'">'+rotuloTempo(dia.chuva_mm||0,dia.prob_chuva||0)+'</div>'
-     +'<div class="dmax">'+rnd(dia.tmax)+'&deg;</div><div class="dmin">min '+rnd(dia.tmin)+'&deg;</div>'
-     +'<div class="dr">'+((dia.chuva_mm||0)>0?(dia.chuva_mm+" mm"):"-")+'</div></div>';
-  }
-  return h+"</div></div>";
-}
-function toggleFita(fid){ var e=$(fid); if(e) e.style.display = (e.style.display==="none"?"flex":"none"); }
-
-// ===== DESENHA GRAFICOS EM SVG PURO (sem biblioteca externa) =====
-function svgBarras(series, unidade, mostrarLegenda){
-  // series: lista de {nome, valores:[{label,valor,cor}]}
-  // Aqui usamos formato simples: passamos nomes + grupos de barras.
-  return null; // substituido por desenhaGraficos abaixo
-}
-function escapeXml(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
-
-function graficoBarrasSVG(nomes, grupos, opts){
-  // nomes: array de rotulos no eixo X
-  // grupos: array de {nome, cor, dados:[]}
-  // opts: {unidade, legenda:true}
-  var W=560, H=260, padL=36, padR=12, padT=28, padB=46;
-  var plotW=W-padL-padR, plotH=H-padT-padB;
-  var maxV=0;
-  for(var g=0;g<grupos.length;g++){ for(var i=0;i<grupos[g].dados.length;i++){ if(grupos[g].dados[i]>maxV) maxV=grupos[g].dados[i]; } }
+// ===== GRAFICOS SVG =====
+function corVar(nome){ var s=getComputedStyle(document.documentElement).getPropertyValue(nome); return (s||"").trim()||"#888"; }
+function graficoBarras(nomes,grupos,opts){
+  var W=560,H=250,padL=34,padR=12,padT=opts&&opts.legenda?30:14,padB=42;
+  var plotW=W-padL-padR,plotH=H-padT-padB,maxV=0;
+  for(var g=0;g<grupos.length;g++) for(var i=0;i<grupos[g].dados.length;i++) if(grupos[g].dados[i]>maxV) maxV=grupos[g].dados[i];
   if(maxV<=0) maxV=1;
-  // arredonda o topo da escala
-  var step=Math.pow(10,Math.floor(Math.log(maxV)/Math.LN10));
-  var topo=Math.ceil(maxV/step)*step; if(topo===maxV) topo+=step; if(topo<=0) topo=1;
-  var n=nomes.length, ng=grupos.length;
-  var slot=plotW/n, bw=Math.min(slot*0.7/ng, 26);
+  var step=Math.pow(10,Math.floor(Math.log(maxV)/Math.LN10)),topo=Math.ceil(maxV/step)*step; if(topo<=maxV) topo+=step;
+  var n=nomes.length,ng=grupos.length,slot=plotW/n,bw=Math.min(slot*0.66/ng,24);
+  var cgrid=corVar("--grid"),cmut=corVar("--mut"),cdim=corVar("--dim");
   var svg='<svg viewBox="0 0 '+W+' '+H+'" width="100%" preserveAspectRatio="xMidYMid meet" style="font-family:IBM Plex Mono,monospace">';
-  // linhas de grade horizontais + rotulos Y
   var linhas=4;
-  for(var L=0;L<=linhas;L++){
-    var val=topo*L/linhas;
-    var y=padT+plotH-(val/topo)*plotH;
-    svg+='<line x1="'+padL+'" y1="'+y.toFixed(1)+'" x2="'+(W-padR)+'" y2="'+y.toFixed(1)+'" stroke="rgba(148,163,184,.10)" stroke-width="1"/>';
-    svg+='<text x="'+(padL-6)+'" y="'+(y+3).toFixed(1)+'" fill="#64748b" font-size="9" text-anchor="end">'+Math.round(val)+'</text>';
+  for(var L=0;L<=linhas;L++){ var val=topo*L/linhas,y=padT+plotH-(val/topo)*plotH;
+    svg+='<line x1="'+padL+'" y1="'+y.toFixed(1)+'" x2="'+(W-padR)+'" y2="'+y.toFixed(1)+'" stroke="'+cgrid+'" stroke-width="1"/>';
+    svg+='<text x="'+(padL-6)+'" y="'+(y+3).toFixed(1)+'" fill="'+cdim+'" font-size="9" text-anchor="end">'+Math.round(val)+'</text>';
   }
-  // barras
-  for(var x=0;x<n;x++){
-    var cx=padL + slot*x + slot/2;
-    var totalW=bw*ng;
-    var startX=cx - totalW/2;
-    for(var gi=0;gi<ng;gi++){
-      var v=grupos[gi].dados[x]||0;
-      var bh=(v/topo)*plotH;
-      var bx=startX+gi*bw;
-      var by=padT+plotH-bh;
-      svg+='<rect x="'+bx.toFixed(1)+'" y="'+by.toFixed(1)+'" width="'+(bw-2).toFixed(1)+'" height="'+bh.toFixed(1)+'" fill="'+grupos[gi].cor+'" rx="2"/>';
-      svg+='<text x="'+(bx+(bw-2)/2).toFixed(1)+'" y="'+(by-3).toFixed(1)+'" fill="'+grupos[gi].cor+'" font-size="9" text-anchor="middle">'+Math.round(v)+'</text>';
+  for(var x=0;x<n;x++){ var cx=padL+slot*x+slot/2,startX=cx-(bw*ng)/2;
+    for(var gi=0;gi<ng;gi++){ var v=grupos[gi].dados[x]||0,bh=(v/topo)*plotH,bx=startX+gi*bw,by=padT+plotH-bh;
+      svg+='<rect x="'+bx.toFixed(1)+'" y="'+by.toFixed(1)+'" width="'+(bw-2).toFixed(1)+'" height="'+Math.max(0,bh).toFixed(1)+'" fill="'+grupos[gi].cor+'" rx="2"/>';
+      svg+='<text x="'+(bx+(bw-2)/2).toFixed(1)+'" y="'+(by-3).toFixed(1)+'" fill="'+grupos[gi].cor+'" font-size="8.5" text-anchor="middle">'+Math.round(v)+'</text>';
     }
-    // rotulo X (encurta nomes longos)
     var nm=nomes[x]; if(nm.length>9) nm=nm.slice(0,8)+".";
-    svg+='<text x="'+cx.toFixed(1)+'" y="'+(H-padB+16)+'" fill="#94a3b8" font-size="9" text-anchor="middle">'+escapeXml(nm)+'</text>';
+    svg+='<text x="'+cx.toFixed(1)+'" y="'+(H-padB+15)+'" fill="'+cmut+'" font-size="9" text-anchor="middle">'+escX(nm)+'</text>';
   }
-  // legenda
-  if(opts && opts.legenda && ng>1){
-    var lx=padL, ly=16;
-    for(var le=0;le<ng;le++){
-      svg+='<rect x="'+lx+'" y="'+(ly-8)+'" width="10" height="10" fill="'+grupos[le].cor+'" rx="2"/>';
-      svg+='<text x="'+(lx+14)+'" y="'+ly+'" fill="#94a3b8" font-size="10">'+escapeXml(grupos[le].nome)+'</text>';
-      lx+=14+grupos[le].nome.length*6.5+18;
-    }
+  if(opts&&opts.legenda&&ng>1){ var lx=padL,ly=14;
+    for(var le=0;le<ng;le++){ svg+='<rect x="'+lx+'" y="'+(ly-8)+'" width="10" height="10" fill="'+grupos[le].cor+'" rx="2"/><text x="'+(lx+14)+'" y="'+ly+'" fill="'+cmut+'" font-size="10">'+escX(grupos[le].nome)+'</text>'; lx+=14+grupos[le].nome.length*6.5+18; }
   }
-  svg+='</svg>';
-  return svg;
+  return svg+"</svg>";
 }
-
 function desenhaGraficos(d){
-  var ms=d.municipios||[];
-  var nomes=[], tmax=[], tmin=[], chuva=[];
-  for(var i=0;i<ms.length;i++){
-    var nome=ms[i].nome.replace("Sant'Ana do Livramento","Livramento");
-    var dias=(ms[i].clima&&ms[i].clima.dias)||[];
-    var dh=null; for(var j=0;j<dias.length;j++){ if(dias[j].data===hoje()) dh=dias[j]; }
-    if(!dh) dh=dias[0]||{};
-    var s=0,cnt=0; for(var k=0;k<dias.length;k++){ if(dias[k].data>=hoje() && cnt<7){ s+=(dias[k].chuva_mm||0); cnt++; } }
-    nomes.push(nome); tmax.push(rnd(dh.tmax)); tmin.push(rnd(dh.tmin)); chuva.push(Number(s.toFixed(1)));
+  var ms=d.municipios||[],nomes=[],tmax=[],tmin=[],chuva=[];
+  for(var i=0;i<ms.length;i++){ var dh=diaHoje(ms[i]),f=fut7(ms[i]),s=0; for(var k=0;k<f.length;k++) s+=(f[k].chuva_mm||0);
+    nomes.push(ms[i].nome.replace("Sant'Ana do Livramento","Livramento")); tmax.push(rnd(dh.tmax)); tmin.push(rnd(dh.tmin)); chuva.push(Number(s.toFixed(1)));
   }
-  var cTemp=$("chTemp");
-  if(cTemp){
-    cTemp.innerHTML=graficoBarrasSVG(nomes,[
-      {nome:"Max",cor:"#f59e0b",dados:tmax},
-      {nome:"Min",cor:"#a78bfa",dados:tmin}
-    ],{legenda:true});
-  }
-  var cChuva=$("chChuva");
-  if(cChuva){
-    cChuva.innerHTML=graficoBarrasSVG(nomes,[
-      {nome:"Chuva 7d (mm)",cor:"#0ea5e9",dados:chuva}
-    ],{legenda:true});
-  }
+  var cT=$("chTemp"); if(cT) cT.innerHTML=graficoBarras(nomes,[{nome:"Max",cor:corVar("--amber"),dados:tmax},{nome:"Min",cor:corVar("--violet"),dados:tmin}],{legenda:true});
+  var cC=$("chChuva"); if(cC) cC.innerHTML=graficoBarras(nomes,[{nome:"Chuva 7d (mm)",cor:corVar("--sky"),dados:chuva}],{legenda:true});
 }
 
 // ===== ROTEADOR =====
 function render(){
-  destruirCharts();
   renderCrumb();
   var v=$("view");
-  if(nav.nivel==="regionais"){ v.innerHTML=viewRegionais(); }
-  else if(nav.nivel==="distritos"){ v.innerHTML=viewDistritos(); }
+  if(nav.nivel==="regionais") v.innerHTML=viewRegionais();
+  else if(nav.nivel==="distritos") v.innerHTML=viewDistritos();
   else if(nav.nivel==="distrito"){
     v.innerHTML='<div class="loading">Carregando distrito...</div>';
-    viewDistrito().then(function(html){
-      v.innerHTML=html;
-      if(tabAtiva==="clima" && cacheDistrito[nav.distrito]){ setTimeout(function(){ desenhaGraficos(cacheDistrito[nav.distrito]); },50); }
+    viewDistrito().then(function(html){ v.innerHTML=html;
+      if(tabAtiva==="clima"&&cacheDistrito[nav.distrito]) setTimeout(function(){ desenhaGraficos(cacheDistrito[nav.distrito]); },40);
     });
   }
 }
 
 // ===== BOOT =====
+(function(){ try{ var t=localStorage.getItem("tema_obs"); if(t) tema=t; }catch(e){} aplicaTema(tema); })();
 carregaJSON(BASE+"/index.json").then(function(idx){
-  INDEX=idx;
-  if(idx.gerado_em) $("upd").textContent=fmtData(idx.gerado_em);
-  render();
+  INDEX=idx; if(idx.gerado_em) $("upd").textContent=fmtData(idx.gerado_em); render();
 }).catch(function(e){
-  $("view").innerHTML='<div class="loading">Nao foi possivel carregar o indice de distritos.<br>'
-    +'<span style="color:var(--vdim)">'+e.message+'</span><br><br>'
-    +'Verifique se web/data/out/index.json foi publicado no deploy.</div>';
+  $("view").innerHTML='<div class="loading">Nao foi possivel carregar o indice.<br><span style="color:var(--vdim)">'+e.message+'</span></div>';
 });
 
 </script>
