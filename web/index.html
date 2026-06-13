@@ -144,7 +144,7 @@
       <h1>Monitor <em>Agroclimatico</em></h1>
     </div>
     <div class="head-right">
-      <button class="theme-btn" id="themeBtn" onclick="toggleTema()"><span id="themeIco"></span><span id="themeTxt">Tema claro</span></button>
+      <button class="theme-btn" id="themeBtn" onclick="toggleTema()"><span id="themeIco"></span><span id="themeTxt">Tema escuro</span></button>
       <div class="head-meta">
         <div class="mono" style="font-size:10px;text-transform:uppercase;letter-spacing:.15em">Dados atualizados</div>
         <div class="big" id="upd">-</div>
@@ -173,8 +173,9 @@ function aplicaTema(t){
   document.documentElement.setAttribute("data-theme", t);
   var ico = document.getElementById("themeIco");
   var txt = document.getElementById("themeTxt");
-  if(t === "dark"){ ico.innerHTML = iconeSol(16,"#fcd34d"); txt.textContent = "Tema claro"; }
-  else { ico.innerHTML = iconeLua(16,"#6442c0"); txt.textContent = "Tema escuro"; }
+  if(t === "dark"){ ico.innerHTML = iconeLua(16,"#fcd34d"); txt.textContent = "Tema escuro"; }
+  else { ico.innerHTML = iconeSol(16,"#a85f06"); txt.textContent = "Tema claro"; }
+  // botao reflete o tema ATUAL em uso
   try{ localStorage.setItem("tema_obs", t); }catch(e){}
   // redesenha graficos para pegar as cores do tema
   if(nav.nivel==="distrito" && tabAtiva==="clima" && cacheDistrito[nav.distrito]){
