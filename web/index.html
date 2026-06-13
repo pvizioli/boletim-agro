@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boletim Agroclimático · Observatório de Distritos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0a0e14; --panel:#0d1218; --panel2:#080b10;
+    --border:#1e293b; --border2:#334155;
+    --tx:#e2e8f0; --mut:#94a3b8; --dim:#64748b; --vdim:#475569;
+    --amber:#f59e0b; --amberL:#fcd34d; --sky:#0ea5e9; --skyL:#7dd3fc;
+    --emerald:#10b981; --emeraldL:#6ee7b7; --red:#ef4444; --redL:#fca5a5;
+    --violet:#a78bfa; --violetL:#c4b5fd; --cyan:#67e8f9;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--tx);font-family:'IBM Plex Sans',system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  .mono{font-family:'IBM Plex Mono',monospace}
+  .serif{font-family:'Fraunces',Georgia,serif}
+  .wrap{max-width:1280px;margin:0 auto;padding:0 24px}
+
+  /* HEADER */
+  header{border-bottom:1px solid rgba(245,158,11,.12);background:linear-gradient(to bottom,rgba(120,53,15,.15),transparent)}
+  .head-in{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px;padding:30px 0}
+  .eyebrow{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+  .eyebrow .bar{width:4px;height:30px;background:var(--amber)}
+  .eyebrow span{font-family:'IBM Plex Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:.3em;color:rgba(245,158,11,.8)}
+  h1{font-family:'Fraunces',Georgia,serif;font-weight:300;font-size:clamp(30px,5vw,46px);line-height:1.05}
+  h1 em{font-style:italic;color:var(--amberL)}
+  .head-meta{text-align:right;font-size:12px;color:var(--dim)}
+  .head-meta .big{font-family:'IBM Plex Mono',monospace;font-size:17px;color:var(--amberL)}
+
+  /* NAV BREADCRUMB */
+  .crumb{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:14px 0;font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--dim);border-bottom:1px solid var(--border)}
+  .crumb button{background:none;border:none;color:var(--mut);cursor:pointer;font:inherit;padding:2px 0}
+  .crumb button:hover{color:var(--amberL)}
+  .crumb .sep{color:var(--vdim)}
+  .crumb .cur{color:var(--amberL)}
+
+  main{padding:28px 0 60px}
+  .loading{text-align:center;color:var(--dim);padding:80px 0;font-family:'IBM Plex Mono',monospace;font-size:13px}
+
+  /* CARDS DE NAVEGAÇÃO */
+  .grid{display:grid;gap:14px}
+  .nav-card{border:1px solid var(--border);background:var(--panel);border-radius:3px;padding:22px;cursor:pointer;transition:.15s;text-align:left;font:inherit;color:inherit}
+  .nav-card:hover{border-color:var(--border2);background:#0f1620;transform:translateY(-1px)}
+  .nav-card .kicker{font-family:'IBM Plex Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.18em;color:var(--dim);margin-bottom:8px}
+  .nav-card h3{font-family:'Fraunces',Georgia,serif;font-weight:400;font-size:22px;color:var(--tx);margin-bottom:6px}
+  .nav-card .sub{font-size:13px;color:var(--mut)}
+  .nav-card .arrow{float:right;color:var(--vdim);font-size:18px}
+
+  /* KPIs */
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-bottom:28px}
+  .kpi{border:1px solid var(--border);background:var(--panel);border-radius:3px;padding:16px}
+  .kpi.amber{border-color:rgba(245,158,11,.2);background:rgba(245,158,11,.04)}
+  .kpi.sky{border-color:rgba(14,165,233,.2);background:rgba(14,165,233,.04)}
+  .kpi.violet{border-color:rgba(167,139,250,.2);background:rgba(167,139,250,.04)}
+  .kpi.cyan{border-color:rgba(34,211,238,.2);background:rgba(34,211,238,.04)}
+  .kpi .lab{font-family:'IBM Plex Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.15em;color:var(--mut);opacity:.7;margin-bottom:6px}
+  .kpi .val{font-family:'Fraunces',Georgia,serif;font-weight:300;font-size:30px;line-height:1.05}
+  .kpi.amber .val{color:var(--amberL)} .kpi.sky .val{color:var(--skyL)} .kpi.violet .val{color:var(--violetL)} .kpi.cyan .val{color:var(--cyan)}
+  .kpi .sub{font-size:12px;color:var(--mut);opacity:.6;margin-top:4px}
+
+  /* ALERTAS */
+  .alert{display:flex;gap:12px;align-items:flex-start;border:1px solid rgba(239,68,68,.3);background:rgba(127,29,29,.25);border-radius:3px;padding:14px 16px;margin-bottom:12px}
+  .alert .ico{color:var(--redL);flex-shrink:0;font-size:18px;line-height:1.3}
+  .alert .t{font-weight:600;color:var(--redL)}
+  .alert .d{color:#cbd5e1;font-size:13px}
+  .alert.empty{border-color:rgba(16,185,129,.3);background:rgba(6,78,59,.25)}
+  .alert.empty .ico,.alert.empty .t{color:var(--emeraldL)}
+
+  /* SEÇÕES */
+  .panel{border:1px solid var(--border);background:var(--panel);border-radius:3px;padding:22px;margin-bottom:24px}
+  .stitle{font-family:'IBM Plex Mono',monospace;font-size:12px;text-transform:uppercase;letter-spacing:.2em;color:var(--mut);margin-bottom:18px;font-weight:500}
+
+  /* FITA DE MUNICÍPIO (elemento-assinatura) */
+  .fita{border:1px solid var(--border);background:var(--panel);border-radius:3px;margin-bottom:10px;overflow:hidden}
+  .fita-head{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 18px;cursor:pointer;transition:.15s}
+  .fita-head:hover{background:#0f1620}
+  .fita-id{display:flex;align-items:baseline;gap:12px;min-width:0}
+  .fita-id .nm{font-family:'Fraunces',Georgia,serif;font-size:19px;color:var(--tx);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .fita-id .co{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--dim)}
+  .fita-now{display:flex;align-items:center;gap:18px;flex-shrink:0}
+  .micro{text-align:right}
+  .micro .v{font-family:'IBM Plex Mono',monospace;font-size:15px}
+  .micro .l{font-family:'IBM Plex Mono',monospace;font-size:8px;text-transform:uppercase;letter-spacing:.1em;color:var(--dim)}
+  .tmax{color:var(--amberL)} .tmin{color:var(--violetL)} .rain{color:var(--skyL)} .toggle{color:var(--vdim);font-size:14px;width:16px;text-align:center}
+
+  /* mini-faixa de 7 dias */
+  .strip{display:flex;border-top:1px solid var(--border);background:var(--panel2)}
+  .day{flex:1;text-align:center;padding:12px 4px;border-right:1px solid var(--border);min-width:0}
+  .day:last-child{border-right:none}
+  .day.today{background:rgba(245,158,11,.06)}
+  .day .dn{font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;color:var(--dim)}
+  .day .ic{font-size:18px;margin:6px 0}
+  .day .dmax{font-family:'Fraunces',Georgia,serif;font-size:17px;color:var(--tx)}
+  .day .dmin{font-size:11px;color:var(--dim)}
+  .day .dr{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--skyL);margin-top:4px}
+
+  /* COLHEITA placeholder */
+  .soon{border:1px dashed var(--border2);border-radius:3px;padding:28px;text-align:center;color:var(--dim)}
+  .soon .tag{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--violetL);border:1px solid rgba(167,139,250,.3);background:rgba(167,139,250,.08);border-radius:2px;padding:3px 10px;margin-bottom:12px}
+
+  /* TABS */
+  .tabs{display:flex;gap:4px;border-bottom:1px solid var(--border);margin-bottom:24px;overflow-x:auto}
+  .tab{display:flex;align-items:center;gap:7px;padding:13px 16px;font-size:14px;font-weight:500;color:var(--mut);background:none;border:none;border-bottom:2px solid transparent;cursor:pointer;white-space:nowrap;font-family:inherit}
+  .tab.on{color:var(--amberL);border-bottom-color:var(--amber)}
+  .tab .ico{font-size:15px}
+
+  footer{border-top:1px solid var(--border);background:var(--panel2);padding:22px 0;margin-top:40px}
+  .foot{font-family:'IBM Plex Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.15em;color:var(--vdim);text-align:center}
+  .src{font-size:12px;color:var(--mut);text-align:center;margin-bottom:10px;line-height:1.6}
+
+  @media(max-width:600px){
+    .fita-now{gap:10px}
+    .micro.hide-sm{display:none}
+    .strip{flex-wrap:wrap}
+    .day{flex:1 0 25%;border-bottom:1px solid var(--border)}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap head-in">
+    <div>
+      <div class="eyebrow"><div class="bar"></div><span>Boletim Agroclimático · Observatório de Distritos</span></div>
+      <h1>Monitor <em>Agroclimático</em></h1>
+    </div>
+    <div class="head-meta">
+      <div class="mono" style="font-size:10px;text-transform:uppercase;letter-spacing:.15em">Dados atualizados</div>
+      <div class="big" id="upd">—</div>
+      <div id="upd-sub" style="margin-top:3px">automático · 2× ao dia</div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <nav class="crumb" id="crumb"></nav>
+</div>
+
+<main class="wrap">
+  <div id="view"><div class="loading">Carregando observatório…</div></div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="src" id="foot-src">Fontes: Open-Meteo (previsão) · INMET (alertas) · Conab e órgãos estaduais (colheita · Fase 2)</div>
+    <div class="foot">Observatório de Distritos · Atualização automática via APIs públicas</div>
+  </div>
+</footer>
+
+<script>
+// ====== CONFIG ======
+// Lê os JSONs diretamente do seu repositório GitHub (raw).
+// TROQUE estes dois valores pelos seus:
+const GH_USER = "pvizioli";
+const GH_REPO = "boletim-agro";
+const GH_BRANCH = "main";
+const BASE = `https://raw.githubusercontent.com/${GH_USER}/${GH_REPO}/${GH_BRANCH}/data/out`;
+
+// ====== ESTADO ======
+let INDEX = null;
+const cacheDistrito = {};
+let nav = { nivel: "regionais", regional: null, distrito: null };
+
+// ====== HELPERS ======
+const $ = (id) => document.getElementById(id);
+const fmtData = (iso) => { try { return new Date(iso).toLocaleString('pt-BR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'}); } catch { return iso || '—'; } };
+const diaSemana = (iso) => { try { return new Date(iso+'T12:00').toLocaleDateString('pt-BR',{weekday:'short'}).replace('.','').toUpperCase(); } catch { return ''; } };
+const ddmm = (iso) => iso ? iso.slice(8,10)+'/'+iso.slice(5,7) : '';
+const hoje = () => new Date().toISOString().slice(0,10);
+function icone(chuva, prob){
+  if(chuva>=10) return '🌧️'; if(chuva>=1) return '🌦️';
+  if(prob>=50) return '⛅'; return '☀️';
+}
+async function carregaJSON(url){ const r = await fetch(url,{cache:'no-store'}); if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); }
+
+// ====== RENDER: BREADCRUMB ======
+function renderCrumb(){
+  const c = $('crumb'); c.innerHTML='';
+  const add=(txt,fn,cur)=>{const b=document.createElement(fn?'button':'span'); b.textContent=txt; if(cur)b.className='cur'; if(fn)b.onclick=fn; c.appendChild(b);};
+  const sep=()=>{const s=document.createElement('span');s.className='sep';s.textContent='›';c.appendChild(s);};
+  add('Regionais', ()=>{nav={nivel:'regionais',regional:null,distrito:null};render();}, nav.nivel==='regionais');
+  if(nav.regional){ sep(); add(nav.regional, ()=>{nav={nivel:'distritos',regional:nav.regional,distrito:null};render();}, nav.nivel==='distritos'); }
+  if(nav.distrito){ sep(); const d=cacheDistrito[nav.distrito]; add(d?d.distrito.nome:nav.distrito, null, true); }
+}
+
+// ====== RENDER: NÍVEL REGIONAIS ======
+function viewRegionais(){
+  const regs = INDEX.regionais || [];
+  if(regs.length===1){ // atalho: 1 regional só → vai direto aos distritos
+    nav={nivel:'distritos',regional:regs[0].nome,distrito:null}; return viewDistritos();
+  }
+  let h = '<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">';
+  for(const r of regs){
+    const nd=r.distritos.length, nm=r.distritos.reduce((s,x)=>s+(x.n_municipios||0),0);
+    h+=`<button class="nav-card" onclick="irRegional('${r.nome.replace(/'/g,"\\'")}')">
+      <span class="arrow">→</span>
+      <div class="kicker">Regional</div>
+      <h3>${r.nome}</h3>
+      <div class="sub">${nd} distrito${nd!==1?'s':''} · ${nm} município${nm!==1?'s':''}</div>
+    </button>`;
+  }
+  h+='</div>';
+  return h;
+}
+function irRegional(nome){ nav={nivel:'distritos',regional:nome,distrito:null}; render(); }
+
+// ====== RENDER: NÍVEL DISTRITOS ======
+function viewDistritos(){
+  const reg = (INDEX.regionais||[]).find(r=>r.nome===nav.regional);
+  if(!reg) return '<div class="loading">Regional não encontrada.</div>';
+  let h = '<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">';
+  for(const d of reg.distritos){
+    h+=`<button class="nav-card" onclick="irDistrito('${d.id}')">
+      <span class="arrow">→</span>
+      <div class="kicker">Distrito · ${d.uf||''}</div>
+      <h3>${d.nome}</h3>
+      <div class="sub">${d.n_municipios} município${d.n_municipios!==1?'s':''}</div>
+    </button>`;
+  }
+  h+='</div>';
+  return h;
+}
+function irDistrito(id){ nav={nivel:'distrito',regional:nav.regional,distrito:id}; render(); }
+
+// ====== RENDER: NÍVEL DISTRITO (abas) ======
+let tabAtiva='clima';
+async function viewDistrito(){
+  const id=nav.distrito;
+  let d=cacheDistrito[id];
+  if(!d){
+    try{ d=await carregaJSON(`${BASE}/${id}/latest.json`); cacheDistrito[id]=d; }
+    catch(e){ return `<div class="loading">Não foi possível carregar este distrito.<br><span style="color:var(--vdim)">${e.message}</span></div>`; }
+  }
+  if(d.gerado_em){ $('upd').textContent=fmtData(d.gerado_em); }
+
+  const tabs=[['clima','◴ Clima & Previsão'],['colheita','🌱 Colheita'],['municipios','📍 Municípios']];
+  let h='<div class="tabs">';
+  for(const [k,lab] of tabs) h+=`<button class="tab ${tabAtiva===k?'on':''}" onclick="setTab('${k}')">${lab}</button>`;
+  h+='</div>';
+
+  if(tabAtiva==='clima') h+=tabClima(d);
+  else if(tabAtiva==='colheita') h+=tabColheita(d);
+  else h+=tabMunicipios(d);
+  return h;
+}
+function setTab(k){ tabAtiva=k; render(); }
+
+// agrega clima do distrito (médias e extremos do dia de hoje)
+function agrega(d){
+  const ms=d.municipios||[]; let tmaxMax=-99,tminMin=99,chuvaSoma=0,n=0;
+  for(const m of ms){
+    const dias=(m.clima&&m.clima.dias)||[]; const dh=dias.find(x=>x.data===hoje())||dias[Math.min(7,dias.length-1)];
+    if(dh){ if(dh.tmax>tmaxMax)tmaxMax=dh.tmax; if(dh.tmin<tminMin)tminMin=dh.tmin; chuvaSoma+=(dh.chuva_mm||0); n++; }
+  }
+  // chuva prevista próximos 7 dias (média dos municípios)
+  let chuva7=0,c7n=0;
+  for(const m of ms){ const dias=(m.clima&&m.clima.dias)||[]; const fut=dias.filter(x=>x.data>=hoje()).slice(0,7); const s=fut.reduce((a,x)=>a+(x.chuva_mm||0),0); chuva7+=s; c7n++; }
+  return { tmaxMax:Math.round(tmaxMax), tminMin:Math.round(tminMin), chuvaHoje:(chuvaSoma/(n||1)).toFixed(0), chuva7:(chuva7/(c7n||1)).toFixed(0), n };
+}
+
+function tabClima(d){
+  const a=agrega(d);
+  const al=(d.alertas&&d.alertas.ativos)||[];
+  let h='<div class="kpis">';
+  h+=kpi('amber','Temp. máxima hoje',a.tmaxMax+'°','maior entre os municípios');
+  h+=kpi('violet','Temp. mínima hoje',a.tminMin+'°','menor entre os municípios');
+  h+=kpi('sky','Chuva próx. 7 dias',a.chuva7+' mm','média do distrito');
+  h+=kpi('cyan','Municípios',a.n,'monitorados');
+  h+='</div>';
+  // alertas
+  if(al.length){
+    for(const x of al.slice(0,4)){
+      h+=`<div class="alert"><div class="ico">⚠</div><div><span class="t">${x.evento||'Aviso'}</span>${x.severidade?' · '+x.severidade:''}<div class="d">${[x.inicio,x.fim].filter(Boolean).join(' → ')||''}</div></div></div>`;
+    }
+  } else {
+    h+=`<div class="alert empty"><div class="ico">✓</div><div><span class="t">Sem alertas ativos</span><div class="d">Nenhum aviso do INMET vigente para ${d.distrito.uf||'a UF'} neste momento.</div></div></div>`;
+  }
+  // fitas resumidas (clima atual + 7d) — reaproveita o componente da aba municípios
+  h+='<div class="panel"><div class="stitle">Previsão por município · próximos dias</div>';
+  for(const m of (d.municipios||[])) h+=fita(m,false);
+  h+='</div>';
+  return h;
+}
+
+function tabMunicipios(d){
+  let h='<div class="panel"><div class="stitle">'+ (d.municipios||[]).length +' municípios · clima observado e previsto</div>';
+  for(const m of (d.municipios||[])) h+=fita(m,true);
+  h+='</div>';
+  return h;
+}
+
+function tabColheita(d){
+  const c=d.colheita||{status:'pendente'};
+  if(c.status==='pendente' || !(c.itens&&c.itens.length)){
+    return `<div class="soon">
+      <div class="tag">Fase 2 · em breve</div>
+      <div style="font-family:'Fraunces',serif;font-size:20px;color:var(--mut);margin-bottom:8px">Acompanhamento de colheita</div>
+      <p style="max-width:520px;margin:0 auto;font-size:13px;line-height:1.6">
+        Esta aba exibirá o avanço da colheita por município (% colhido, produtividade, projeções),
+        alimentada por Conab e pelos informativos dos órgãos estaduais (Emater-RS, Epagri-SC e outros),
+        com marcação de dado oficial vs. estimativa. A estrutura de dados já está reservada — só falta
+        ligar os conectores da Fase 2.
+      </p>
+    </div>`;
+  }
+  // quando a Fase 2 preencher, renderiza tabela
+  let h='<div class="panel"><div class="stitle">Colheita · '+(c.fonte||'')+'</div><div class="grid">';
+  for(const it of c.itens){
+    h+=`<div class="fita"><div class="fita-head"><div class="fita-id"><span class="nm">${it.municipio||''}</span></div><div class="fita-now"><div class="micro"><div class="v tmax">${it.pct_colhido??'—'}%</div><div class="l">colhido</div></div></div></div></div>`;
+  }
+  h+='</div></div>';
+  return h;
+}
+
+function kpi(cls,lab,val,sub){
+  return `<div class="kpi ${cls}"><div class="lab">${lab}</div><div class="val">${val}</div><div class="sub">${sub}</div></div>`;
+}
+
+// FITA — elemento-assinatura: linha por município, expansível em faixa de 7 dias
+function fita(m, expandivelAberto){
+  const dias=(m.clima&&m.clima.dias)||[];
+  const dh=dias.find(x=>x.data===hoje())||dias[0]||{};
+  const fut=dias.filter(x=>x.data>=hoje()).slice(0,7);
+  const fid='f_'+m.id;
+  let h=`<div class="fita">
+    <div class="fita-head" onclick="(function(){var e=document.getElementById('${fid}');e.style.display=e.style.display==='none'?'flex':'none';})()">
+      <div class="fita-id"><span class="nm">${m.nome}</span><span class="co">${(m.lat||0).toFixed(2)}°S ${Math.abs(m.lon||0).toFixed(2)}°W</span></div>
+      <div class="fita-now">
+        <div class="micro hide-sm"><div class="v rain">${(dh.chuva_mm??0)} mm</div><div class="l">chuva hoje</div></div>
+        <div class="micro"><div class="v tmin">${Math.round(dh.tmin??0)}°</div><div class="l">mín</div></div>
+        <div class="micro"><div class="v tmax">${Math.round(dh.tmax??0)}°</div><div class="l">máx</div></div>
+        <div class="toggle">▾</div>
+      </div>
+    </div>
+    <div class="strip" id="${fid}" style="display:${expandivelAberto?'flex':'none'}">`;
+  for(const dia of fut){
+    const today=dia.data===hoje();
+    h+=`<div class="day ${today?'today':''}">
+      <div class="dn">${diaSemana(dia.data)} ${ddmm(dia.data)}</div>
+      <div class="ic">${icone(dia.chuva_mm||0,dia.prob_chuva||0)}</div>
+      <div class="dmax">${Math.round(dia.tmax??0)}°</div>
+      <div class="dmin">mín ${Math.round(dia.tmin??0)}°</div>
+      <div class="dr">${(dia.chuva_mm||0)>0?(dia.chuva_mm+' mm'):'—'}</div>
+    </div>`;
+  }
+  h+='</div></div>';
+  return h;
+}
+
+// ====== ROTEADOR ======
+async function render(){
+  renderCrumb();
+  const v=$('view');
+  if(nav.nivel==='regionais') v.innerHTML=viewRegionais();
+  else if(nav.nivel==='distritos') v.innerHTML=viewDistritos();
+  else if(nav.nivel==='distrito'){ v.innerHTML='<div class="loading">Carregando distrito…</div>'; v.innerHTML=await viewDistrito(); }
+}
+
+// ====== BOOT ======
+(async function(){
+  try{
+    INDEX=await carregaJSON(`${BASE}/index.json`);
+    if(INDEX.gerado_em) $('upd').textContent=fmtData(INDEX.gerado_em);
+    render();
+  }catch(e){
+    $('view').innerHTML=`<div class="loading">Não foi possível carregar o índice de distritos.<br>
+      <span style="color:var(--vdim)">${e.message}</span><br><br>
+      Verifique se <span class="mono">data/out/index.json</span> já foi gerado pelo workflow,
+      e se <span class="mono">GH_USER/GH_REPO</span> no código estão corretos.</div>`;
+  }
+})();
+</script>
+</body>
+</html>
