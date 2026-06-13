@@ -7,7 +7,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<script src="chart.min.js"></script>
 <style>
   :root{
     --bg:#0a0e14; --panel:#0d1218; --panel2:#080b10;
@@ -173,7 +172,7 @@ function rotuloTempo(chuva,prob){
   if(prob>=50) return "NUBL"; return "SOL";
 }
 function carregaJSON(url){ return fetch(url,{cache:"no-store"}).then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); }); }
-function destruirCharts(){ for(var k in charts){ try{ charts[k].destroy(); }catch(e){} } charts = {}; }
+function destruirCharts(){ charts = {}; }
 
 // ===== BREADCRUMB =====
 function renderCrumb(){
@@ -276,8 +275,8 @@ function tabClima(d){
   }
   // graficos
   h+='<div class="grid2">';
-  h+='<div class="panel"><div class="stitle">Temperatura por municipio - hoje</div><div class="chart-box"><canvas id="chTemp"></canvas></div></div>';
-  h+='<div class="panel"><div class="stitle">Chuva acumulada prox. 7 dias - por municipio</div><div class="chart-box"><canvas id="chChuva"></canvas></div></div>';
+  h+='<div class="panel"><div class="stitle">Temperatura por municipio - hoje</div><div id="chTemp"></div></div>';
+  h+='<div class="panel"><div class="stitle">Chuva acumulada prox. 7 dias - por municipio</div><div id="chChuva"></div></div>';
   h+="</div>";
   // fitas
   h+='<div class="panel"><div class="stitle">Previsao por municipio - proximos dias</div>';
@@ -343,9 +342,68 @@ function fita(m, aberto){
 }
 function toggleFita(fid){ var e=$(fid); if(e) e.style.display = (e.style.display==="none"?"flex":"none"); }
 
-// ===== DESENHA GRAFICOS (apos render do HTML) =====
+// ===== DESENHA GRAFICOS EM SVG PURO (sem biblioteca externa) =====
+function svgBarras(series, unidade, mostrarLegenda){
+  // series: lista de {nome, valores:[{label,valor,cor}]}
+  // Aqui usamos formato simples: passamos nomes + grupos de barras.
+  return null; // substituido por desenhaGraficos abaixo
+}
+function escapeXml(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+
+function graficoBarrasSVG(nomes, grupos, opts){
+  // nomes: array de rotulos no eixo X
+  // grupos: array de {nome, cor, dados:[]}
+  // opts: {unidade, legenda:true}
+  var W=560, H=260, padL=36, padR=12, padT=28, padB=46;
+  var plotW=W-padL-padR, plotH=H-padT-padB;
+  var maxV=0;
+  for(var g=0;g<grupos.length;g++){ for(var i=0;i<grupos[g].dados.length;i++){ if(grupos[g].dados[i]>maxV) maxV=grupos[g].dados[i]; } }
+  if(maxV<=0) maxV=1;
+  // arredonda o topo da escala
+  var step=Math.pow(10,Math.floor(Math.log(maxV)/Math.LN10));
+  var topo=Math.ceil(maxV/step)*step; if(topo===maxV) topo+=step; if(topo<=0) topo=1;
+  var n=nomes.length, ng=grupos.length;
+  var slot=plotW/n, bw=Math.min(slot*0.7/ng, 26);
+  var svg='<svg viewBox="0 0 '+W+' '+H+'" width="100%" preserveAspectRatio="xMidYMid meet" style="font-family:IBM Plex Mono,monospace">';
+  // linhas de grade horizontais + rotulos Y
+  var linhas=4;
+  for(var L=0;L<=linhas;L++){
+    var val=topo*L/linhas;
+    var y=padT+plotH-(val/topo)*plotH;
+    svg+='<line x1="'+padL+'" y1="'+y.toFixed(1)+'" x2="'+(W-padR)+'" y2="'+y.toFixed(1)+'" stroke="rgba(148,163,184,.10)" stroke-width="1"/>';
+    svg+='<text x="'+(padL-6)+'" y="'+(y+3).toFixed(1)+'" fill="#64748b" font-size="9" text-anchor="end">'+Math.round(val)+'</text>';
+  }
+  // barras
+  for(var x=0;x<n;x++){
+    var cx=padL + slot*x + slot/2;
+    var totalW=bw*ng;
+    var startX=cx - totalW/2;
+    for(var gi=0;gi<ng;gi++){
+      var v=grupos[gi].dados[x]||0;
+      var bh=(v/topo)*plotH;
+      var bx=startX+gi*bw;
+      var by=padT+plotH-bh;
+      svg+='<rect x="'+bx.toFixed(1)+'" y="'+by.toFixed(1)+'" width="'+(bw-2).toFixed(1)+'" height="'+bh.toFixed(1)+'" fill="'+grupos[gi].cor+'" rx="2"/>';
+      svg+='<text x="'+(bx+(bw-2)/2).toFixed(1)+'" y="'+(by-3).toFixed(1)+'" fill="'+grupos[gi].cor+'" font-size="9" text-anchor="middle">'+Math.round(v)+'</text>';
+    }
+    // rotulo X (encurta nomes longos)
+    var nm=nomes[x]; if(nm.length>9) nm=nm.slice(0,8)+".";
+    svg+='<text x="'+cx.toFixed(1)+'" y="'+(H-padB+16)+'" fill="#94a3b8" font-size="9" text-anchor="middle">'+escapeXml(nm)+'</text>';
+  }
+  // legenda
+  if(opts && opts.legenda && ng>1){
+    var lx=padL, ly=16;
+    for(var le=0;le<ng;le++){
+      svg+='<rect x="'+lx+'" y="'+(ly-8)+'" width="10" height="10" fill="'+grupos[le].cor+'" rx="2"/>';
+      svg+='<text x="'+(lx+14)+'" y="'+ly+'" fill="#94a3b8" font-size="10">'+escapeXml(grupos[le].nome)+'</text>';
+      lx+=14+grupos[le].nome.length*6.5+18;
+    }
+  }
+  svg+='</svg>';
+  return svg;
+}
+
 function desenhaGraficos(d){
-  if(typeof Chart==="undefined") return;
   var ms=d.municipios||[];
   var nomes=[], tmax=[], tmin=[], chuva=[];
   for(var i=0;i<ms.length;i++){
@@ -356,23 +414,18 @@ function desenhaGraficos(d){
     var s=0,cnt=0; for(var k=0;k<dias.length;k++){ if(dias[k].data>=hoje() && cnt<7){ s+=(dias[k].chuva_mm||0); cnt++; } }
     nomes.push(nome); tmax.push(rnd(dh.tmax)); tmin.push(rnd(dh.tmin)); chuva.push(Number(s.toFixed(1)));
   }
-  var grid={color:"rgba(148,163,184,.08)"}, tick={color:"#94a3b8",font:{size:10}};
   var cTemp=$("chTemp");
   if(cTemp){
-    charts.temp=new Chart(cTemp,{type:"bar",data:{labels:nomes,datasets:[
-      {label:"Max",data:tmax,backgroundColor:"#f59e0b",borderRadius:2},
-      {label:"Min",data:tmin,backgroundColor:"#a78bfa",borderRadius:2}]},
-      options:{responsive:true,maintainAspectRatio:false,
-        plugins:{legend:{labels:{color:"#94a3b8",font:{size:11}}}},
-        scales:{x:{grid:grid,ticks:tick},y:{grid:grid,ticks:tick}}}});
+    cTemp.innerHTML=graficoBarrasSVG(nomes,[
+      {nome:"Max",cor:"#f59e0b",dados:tmax},
+      {nome:"Min",cor:"#a78bfa",dados:tmin}
+    ],{legenda:true});
   }
   var cChuva=$("chChuva");
   if(cChuva){
-    charts.chuva=new Chart(cChuva,{type:"bar",data:{labels:nomes,datasets:[
-      {label:"Chuva 7d (mm)",data:chuva,backgroundColor:"#0ea5e9",borderRadius:2}]},
-      options:{responsive:true,maintainAspectRatio:false,
-        plugins:{legend:{labels:{color:"#94a3b8",font:{size:11}}}},
-        scales:{x:{grid:grid,ticks:tick},y:{grid:grid,ticks:tick}}}});
+    cChuva.innerHTML=graficoBarrasSVG(nomes,[
+      {nome:"Chuva 7d (mm)",cor:"#0ea5e9",dados:chuva}
+    ],{legenda:true});
   }
 }
 
