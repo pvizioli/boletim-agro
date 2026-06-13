@@ -1,0 +1,1003 @@
+{
+  "distrito": {
+    "id": "sao_gabriel",
+    "nome": "Distrito de São Gabriel",
+    "regional": "Sul",
+    "uf": "RS",
+    "regiao": "Fronteira Oeste / Campanha",
+    "cultura_principal": "soja"
+  },
+  "gerado_em": "2026-06-13T02:03:40+00:00",
+  "municipios": [
+    {
+      "id": "sao_gabriel",
+      "nome": "São Gabriel",
+      "ibge": 4318002,
+      "lat": -30.34,
+      "lon": -54.32,
+      "area_soja_ha": 125000,
+      "clima": {
+        "fonte": "open-meteo",
+        "dias": [
+          {
+            "data": "2026-06-01",
+            "tmax": 22.5,
+            "tmin": 9.1,
+            "chuva_mm": 0.0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-02",
+            "tmax": 22.7,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-03",
+            "tmax": 22.9,
+            "tmin": 9.1,
+            "chuva_mm": 2.5,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-04",
+            "tmax": 23.1,
+            "tmin": 9.1,
+            "chuva_mm": 12,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-05",
+            "tmax": 23.3,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-06",
+            "tmax": 23.5,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-07",
+            "tmax": 23.7,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-08",
+            "tmax": 23.9,
+            "tmin": 9.1,
+            "chuva_mm": 5,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-09",
+            "tmax": 24.1,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-10",
+            "tmax": 24.3,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-11",
+            "tmax": 24.5,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-12",
+            "tmax": 24.7,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-13",
+            "tmax": 24.9,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-14",
+            "tmax": 25.1,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          }
+        ]
+      }
+    },
+    {
+      "id": "alegrete",
+      "nome": "Alegrete",
+      "ibge": 4300406,
+      "lat": -29.78,
+      "lon": -55.79,
+      "area_soja_ha": 95000,
+      "clima": {
+        "fonte": "open-meteo",
+        "dias": [
+          {
+            "data": "2026-06-01",
+            "tmax": 22.5,
+            "tmin": 9.1,
+            "chuva_mm": 0.0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-02",
+            "tmax": 22.7,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-03",
+            "tmax": 22.9,
+            "tmin": 9.1,
+            "chuva_mm": 2.5,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-04",
+            "tmax": 23.1,
+            "tmin": 9.1,
+            "chuva_mm": 12,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-05",
+            "tmax": 23.3,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-06",
+            "tmax": 23.5,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-07",
+            "tmax": 23.7,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-08",
+            "tmax": 23.9,
+            "tmin": 9.1,
+            "chuva_mm": 5,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-09",
+            "tmax": 24.1,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-10",
+            "tmax": 24.3,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-11",
+            "tmax": 24.5,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-12",
+            "tmax": 24.7,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-13",
+            "tmax": 24.9,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-14",
+            "tmax": 25.1,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          }
+        ]
+      }
+    },
+    {
+      "id": "santana_livramento",
+      "nome": "Sant'Ana do Livramento",
+      "ibge": 4317103,
+      "lat": -30.89,
+      "lon": -55.53,
+      "area_soja_ha": 68000,
+      "clima": {
+        "fonte": "open-meteo",
+        "dias": [
+          {
+            "data": "2026-06-01",
+            "tmax": 22.5,
+            "tmin": 9.1,
+            "chuva_mm": 0.0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-02",
+            "tmax": 22.7,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-03",
+            "tmax": 22.9,
+            "tmin": 9.1,
+            "chuva_mm": 2.5,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-04",
+            "tmax": 23.1,
+            "tmin": 9.1,
+            "chuva_mm": 12,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-05",
+            "tmax": 23.3,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-06",
+            "tmax": 23.5,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-07",
+            "tmax": 23.7,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-08",
+            "tmax": 23.9,
+            "tmin": 9.1,
+            "chuva_mm": 5,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-09",
+            "tmax": 24.1,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-10",
+            "tmax": 24.3,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-11",
+            "tmax": 24.5,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-12",
+            "tmax": 24.7,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-13",
+            "tmax": 24.9,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-14",
+            "tmax": 25.1,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          }
+        ]
+      }
+    },
+    {
+      "id": "rosario_do_sul",
+      "nome": "Rosário do Sul",
+      "ibge": 4316402,
+      "lat": -30.25,
+      "lon": -54.91,
+      "area_soja_ha": 72000,
+      "clima": {
+        "fonte": "open-meteo",
+        "dias": [
+          {
+            "data": "2026-06-01",
+            "tmax": 22.5,
+            "tmin": 9.1,
+            "chuva_mm": 0.0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-02",
+            "tmax": 22.7,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-03",
+            "tmax": 22.9,
+            "tmin": 9.1,
+            "chuva_mm": 2.5,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-04",
+            "tmax": 23.1,
+            "tmin": 9.1,
+            "chuva_mm": 12,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-05",
+            "tmax": 23.3,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-06",
+            "tmax": 23.5,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-07",
+            "tmax": 23.7,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-08",
+            "tmax": 23.9,
+            "tmin": 9.1,
+            "chuva_mm": 5,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-09",
+            "tmax": 24.1,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-10",
+            "tmax": 24.3,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-11",
+            "tmax": 24.5,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-12",
+            "tmax": 24.7,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-13",
+            "tmax": 24.9,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-14",
+            "tmax": 25.1,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          }
+        ]
+      }
+    },
+    {
+      "id": "manoel_viana",
+      "nome": "Manoel Viana",
+      "ibge": 4311759,
+      "lat": -29.59,
+      "lon": -55.49,
+      "area_soja_ha": 38000,
+      "clima": {
+        "fonte": "open-meteo",
+        "dias": [
+          {
+            "data": "2026-06-01",
+            "tmax": 22.5,
+            "tmin": 9.1,
+            "chuva_mm": 0.0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-02",
+            "tmax": 22.7,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-03",
+            "tmax": 22.9,
+            "tmin": 9.1,
+            "chuva_mm": 2.5,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-04",
+            "tmax": 23.1,
+            "tmin": 9.1,
+            "chuva_mm": 12,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-05",
+            "tmax": 23.3,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-06",
+            "tmax": 23.5,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-07",
+            "tmax": 23.7,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-08",
+            "tmax": 23.9,
+            "tmin": 9.1,
+            "chuva_mm": 5,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-09",
+            "tmax": 24.1,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-10",
+            "tmax": 24.3,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-11",
+            "tmax": 24.5,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-12",
+            "tmax": 24.7,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-13",
+            "tmax": 24.9,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-14",
+            "tmax": 25.1,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          }
+        ]
+      }
+    },
+    {
+      "id": "macambara",
+      "nome": "Maçambará",
+      "ibge": 4311734,
+      "lat": -29.14,
+      "lon": -56.06,
+      "area_soja_ha": 55000,
+      "clima": {
+        "fonte": "open-meteo",
+        "dias": [
+          {
+            "data": "2026-06-01",
+            "tmax": 22.5,
+            "tmin": 9.1,
+            "chuva_mm": 0.0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-02",
+            "tmax": 22.7,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-03",
+            "tmax": 22.9,
+            "tmin": 9.1,
+            "chuva_mm": 2.5,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-04",
+            "tmax": 23.1,
+            "tmin": 9.1,
+            "chuva_mm": 12,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-05",
+            "tmax": 23.3,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-06",
+            "tmax": 23.5,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-07",
+            "tmax": 23.7,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-08",
+            "tmax": 23.9,
+            "tmin": 9.1,
+            "chuva_mm": 5,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-09",
+            "tmax": 24.1,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-10",
+            "tmax": 24.3,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-11",
+            "tmax": 24.5,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-12",
+            "tmax": 24.7,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-13",
+            "tmax": 24.9,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-14",
+            "tmax": 25.1,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          }
+        ]
+      }
+    },
+    {
+      "id": "sao_borja",
+      "nome": "São Borja",
+      "ibge": 4318101,
+      "lat": -28.66,
+      "lon": -56.0,
+      "area_soja_ha": 105000,
+      "clima": {
+        "fonte": "open-meteo",
+        "dias": [
+          {
+            "data": "2026-06-01",
+            "tmax": 22.5,
+            "tmin": 9.1,
+            "chuva_mm": 0.0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-02",
+            "tmax": 22.7,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-03",
+            "tmax": 22.9,
+            "tmin": 9.1,
+            "chuva_mm": 2.5,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-04",
+            "tmax": 23.1,
+            "tmin": 9.1,
+            "chuva_mm": 12,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-05",
+            "tmax": 23.3,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-06",
+            "tmax": 23.5,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-07",
+            "tmax": 23.7,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-08",
+            "tmax": 23.9,
+            "tmin": 9.1,
+            "chuva_mm": 5,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-09",
+            "tmax": 24.1,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-10",
+            "tmax": 24.3,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-11",
+            "tmax": 24.5,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-12",
+            "tmax": 24.7,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-13",
+            "tmax": 24.9,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          },
+          {
+            "data": "2026-06-14",
+            "tmax": 25.1,
+            "tmin": 9.1,
+            "chuva_mm": 0,
+            "prob_chuva": 10,
+            "vento_rajada_kmh": 30.0,
+            "umidade_pct": 70
+          }
+        ]
+      }
+    }
+  ],
+  "alertas": {
+    "fonte": "inmet",
+    "ativos": [
+      {
+        "evento": "Declínio de Temperatura",
+        "severidade": "Perigo Potencial",
+        "inicio": "2026-06-10",
+        "fim": "2026-06-11",
+        "municipios": null
+      }
+    ]
+  },
+  "colheita": {
+    "status": "pendente",
+    "fonte": null,
+    "itens": []
+  }
+}
