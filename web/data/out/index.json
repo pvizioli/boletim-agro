@@ -1,0 +1,16 @@
+{
+  "gerado_em": "2026-06-13T02:03:40+00:00",
+  "regionais": [
+    {
+      "nome": "Sul",
+      "distritos": [
+        {
+          "id": "sao_gabriel",
+          "nome": "Distrito de São Gabriel",
+          "uf": "RS",
+          "n_municipios": 7
+        }
+      ]
+    }
+  ]
+}
