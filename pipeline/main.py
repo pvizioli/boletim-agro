@@ -33,13 +33,13 @@ def processar_distrito(d):
         clima = open_meteo.buscar(m["lat"], m["lon"])
         municipios.append({**m, "clima": clima})
     alertas = inmet.alertas_uf(d.get("uf"))
-    chaves = ("id", "nome", "uf", "regiao", "cultura_principal")
+    chaves = ("id", "nome", "regional", "uf", "regiao", "cultura_principal")
     return {
         "distrito": {k: d[k] for k in chaves if k in d},
         "gerado_em": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
         "municipios": municipios,
         "alertas": alertas,
-        # Fase 2 acrescenta aqui: "colheita": {...}
+        "colheita": {"status": "pendente", "fonte": None, "itens": []},  # Fase 2 preenche
     }
 
 
@@ -53,6 +53,28 @@ def salvar(distrito_id, payload):
     hoje = datetime.date.today().isoformat()
     with open(os.path.join(hist, f"{hoje}.json"), "w", encoding="utf-8") as fh:
         json.dump(payload, fh, ensure_ascii=False)
+
+
+def salvar_indice(distritos):
+    """Gera data/out/index.json com a árvore Regional → Distrito para o site."""
+    regionais = {}
+    for d in distritos:
+        reg = d.get("regional") or "Sem regional"
+        regionais.setdefault(reg, []).append({
+            "id": d["id"],
+            "nome": d.get("nome", d["id"]),
+            "uf": d.get("uf"),
+            "n_municipios": len(d.get("municipios", [])),
+        })
+    indice = {
+        "gerado_em": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
+        "regionais": [
+            {"nome": nome, "distritos": sorted(ds, key=lambda x: x["nome"])}
+            for nome, ds in sorted(regionais.items())
+        ],
+    }
+    with open(os.path.join(OUT_DIR, "index.json"), "w", encoding="utf-8") as fh:
+        json.dump(indice, fh, ensure_ascii=False, indent=2)
 
 
 def main():
@@ -71,6 +93,8 @@ def main():
         except Exception as e:  # noqa: BLE001
             erros += 1
             print(f"[ERRO] {did}: {e}", file=sys.stderr)
+    salvar_indice(distritos)
+    print(f"[indice] {len(distritos)} distrito(s) catalogado(s)")
     if erros:
         sys.exit(1)
 
