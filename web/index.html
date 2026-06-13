@@ -172,8 +172,8 @@ const diaSemana = (iso) => { try { return new Date(iso+'T12:00').toLocaleDateStr
 const ddmm = (iso) => iso ? iso.slice(8,10)+'/'+iso.slice(5,7) : '';
 const hoje = () => new Date().toISOString().slice(0,10);
 function icone(chuva, prob){
-  if(chuva>=10) return '🌧️'; if(chuva>=1) return '🌦️';
-  if(prob>=50) return '⛅'; return '☀️';
+  if(chuva>=10) return 'CHUVA'; if(chuva>=1) return 'GAROA';
+  if(prob>=50) return 'NUBL'; return 'SOL';
 }
 async function carregaJSON(url){ const r = await fetch(url,{cache:'no-store'}); if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); }
 
@@ -181,7 +181,7 @@ async function carregaJSON(url){ const r = await fetch(url,{cache:'no-store'}); 
 function renderCrumb(){
   const c = $('crumb'); c.innerHTML='';
   const add=(txt,fn,cur)=>{const b=document.createElement(fn?'button':'span'); b.textContent=txt; if(cur)b.className='cur'; if(fn)b.onclick=fn; c.appendChild(b);};
-  const sep=()=>{const s=document.createElement('span');s.className='sep';s.textContent='›';c.appendChild(s);};
+  const sep=()=>{const s=document.createElement('span');s.className='sep';s.textContent='>';c.appendChild(s);};
   add('Regionais', ()=>{nav={nivel:'regionais',regional:null,distrito:null};render();}, nav.nivel==='regionais');
   if(nav.regional){ sep(); add(nav.regional, ()=>{nav={nivel:'distritos',regional:nav.regional,distrito:null};render();}, nav.nivel==='distritos'); }
   if(nav.distrito){ sep(); const d=cacheDistrito[nav.distrito]; add(d?d.distrito.nome:nav.distrito, null, true); }
@@ -196,12 +196,7 @@ function viewRegionais(){
   let h = '<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">';
   for(const r of regs){
     const nd=r.distritos.length, nm=r.distritos.reduce((s,x)=>s+(x.n_municipios||0),0);
-    h+=`<button class="nav-card" onclick="irRegional('${r.nome.replace(/'/g,"\\'")}')">
-      <span class="arrow">→</span>
-      <div class="kicker">Regional</div>
-      <h3>${r.nome}</h3>
-      <div class="sub">${nd} distrito${nd!==1?'s':''} · ${nm} município${nm!==1?'s':''}</div>
-    </button>`;
+    h+='<button class="nav-card" onclick="irRegional(\'' + (r.nome.replace(/'/g,"\\'")) + '\')">\n      <span class="arrow">→</span>\n      <div class="kicker">Regional</div>\n      <h3>' + (r.nome) + '</h3>\n      <div class="sub">' + (nd) + ' distrito' + (nd!==1?'s':'') + ' · ' + (nm) + ' município' + (nm!==1?'s':'') + '</div>\n    </button>';
   }
   h+='</div>';
   return h;
@@ -214,12 +209,7 @@ function viewDistritos(){
   if(!reg) return '<div class="loading">Regional não encontrada.</div>';
   let h = '<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">';
   for(const d of reg.distritos){
-    h+=`<button class="nav-card" onclick="irDistrito('${d.id}')">
-      <span class="arrow">→</span>
-      <div class="kicker">Distrito · ${d.uf||''}</div>
-      <h3>${d.nome}</h3>
-      <div class="sub">${d.n_municipios} município${d.n_municipios!==1?'s':''}</div>
-    </button>`;
+    h+='<button class="nav-card" onclick="irDistrito(\'' + (d.id) + '\')">\n      <span class="arrow">→</span>\n      <div class="kicker">Distrito · ' + (d.uf||'') + '</div>\n      <h3>' + (d.nome) + '</h3>\n      <div class="sub">' + (d.n_municipios) + ' município' + (d.n_municipios!==1?'s':'') + '</div>\n    </button>';
   }
   h+='</div>';
   return h;
@@ -232,14 +222,14 @@ async function viewDistrito(){
   const id=nav.distrito;
   let d=cacheDistrito[id];
   if(!d){
-    try{ d=await carregaJSON(${BASE}/${id}/latest.json); cacheDistrito[id]=d; }
-    catch(e){ return <div class="loading">Não foi possível carregar este distrito.<br><span style="color:var(--vdim)">${e.message}</span></div>; }
+    try{ d=await carregaJSON((BASE) + '/' + (id) + '/latest.json'); cacheDistrito[id]=d; }
+    catch(e){ return '<div class="loading">Não foi possível carregar este distrito.<br><span style="color:var(--vdim)">' + (e.message) + '</span></div>'; }
   }
   if(d.gerado_em){ $('upd').textContent=fmtData(d.gerado_em); }
 
-  const tabs=[['clima','◴ Clima & Previsão'],['colheita','🌱 Colheita'],['municipios','📍 Municípios']];
+  const tabs=[['clima','Clima &amp; Previsao'],['colheita','Colheita'],['municipios','Municipios']];
   let h='<div class="tabs">';
-  for(const [k,lab] of tabs) h+=<button class="tab ${tabAtiva===k?'on':''}" onclick="setTab('${k}')">${lab}</button>;
+  for(const [k,lab] of tabs) h+='<button class="tab ' + (tabAtiva===k?'on':'') + '" onclick="setTab(\'' + (k) + '\')">' + (lab) + '</button>';
   h+='</div>';
 
   if(tabAtiva==='clima') h+=tabClima(d);
@@ -274,10 +264,10 @@ function tabClima(d){
   // alertas
   if(al.length){
     for(const x of al.slice(0,4)){
-      h+=<div class="alert"><div class="ico">⚠️</div><div><span class="t">${x.evento||'Aviso'}</span>${x.severidade?' · '+x.severidade:''}<div class="d">${[x.inicio,x.fim].filter(Boolean).join(' → ')||''}</div></div></div>;
+      h+='<div class="alert"><div class="ico">⚠</div><div><span class="t">' + (x.evento||'Aviso') + '</span>' + (x.severidade?' · '+x.severidade:'') + '<div class="d">' + ([x.inicio,x.fim].filter(Boolean).join(' → ')||'') + '</div></div></div>';
     }
   } else {
-    h+=<div class="alert empty"><div class="ico">✓</div><div><span class="t">Sem alertas ativos</span><div class="d">Nenhum aviso do INMET vigente para ${d.distrito.uf||'a UF'} neste momento.</div></div></div>;
+    h+='<div class="alert empty"><div class="ico">✓</div><div><span class="t">Sem alertas ativos</span><div class="d">Nenhum aviso do INMET vigente para ' + (d.distrito.uf||'a UF') + ' neste momento.</div></div></div>';
   }
   // fitas resumidas (clima atual + 7d) — reaproveita o componente da aba municípios
   h+='<div class="panel"><div class="stitle">Previsão por município · próximos dias</div>';
@@ -296,28 +286,19 @@ function tabMunicipios(d){
 function tabColheita(d){
   const c=d.colheita||{status:'pendente'};
   if(c.status==='pendente' || !(c.itens&&c.itens.length)){
-    return `<div class="soon">
-      <div class="tag">Fase 2 · em breve</div>
-      <div style="font-family:'Fraunces',serif;font-size:20px;color:var(--mut);margin-bottom:8px">Acompanhamento de colheita</div>
-      <p style="max-width:520px;margin:0 auto;font-size:13px;line-height:1.6">
-        Esta aba exibirá o avanço da colheita por município (% colhido, produtividade, projeções),
-        alimentada por Conab e pelos informativos dos órgãos estaduais (Emater-RS, Epagri-SC e outros),
-        com marcação de dado oficial vs. estimativa. A estrutura de dados já está reservada — só falta
-        ligar os conectores da Fase 2.
-      </p>
-    </div>`;
+    return '<div class="soon">\n      <div class="tag">Fase 2 · em breve</div>\n      <div style="font-family:\'Fraunces\',serif;font-size:20px;color:var(--mut);margin-bottom:8px">Acompanhamento de colheita</div>\n      <p style="max-width:520px;margin:0 auto;font-size:13px;line-height:1.6">\n        Esta aba exibirá o avanço da colheita por município (% colhido, produtividade, projeções),\n        alimentada por Conab e pelos informativos dos órgãos estaduais (Emater-RS, Epagri-SC e outros),\n        com marcação de dado oficial vs. estimativa. A estrutura de dados já está reservada — só falta\n        ligar os conectores da Fase 2.\n      </p>\n    </div>';
   }
   // quando a Fase 2 preencher, renderiza tabela
   let h='<div class="panel"><div class="stitle">Colheita · '+(c.fonte||'')+'</div><div class="grid">';
   for(const it of c.itens){
-    h+=<div class="fita"><div class="fita-head"><div class="fita-id"><span class="nm">${it.municipio||''}</span></div><div class="fita-now"><div class="micro"><div class="v tmax">${it.pct_colhido??'—'}%</div><div class="l">colhido</div></div></div></div></div>;
+    h+='<div class="fita"><div class="fita-head"><div class="fita-id"><span class="nm">' + (it.municipio||'') + '</span></div><div class="fita-now"><div class="micro"><div class="v tmax">' + (it.pct_colhido??'—') + '%</div><div class="l">colhido</div></div></div></div></div>';
   }
   h+='</div></div>';
   return h;
 }
 
 function kpi(cls,lab,val,sub){
-  return <div class="kpi ${cls}"><div class="lab">${lab}</div><div class="val">${val}</div><div class="sub">${sub}</div></div>;
+  return '<div class="kpi ' + (cls) + '"><div class="lab">' + (lab) + '</div><div class="val">' + (val) + '</div><div class="sub">' + (sub) + '</div></div>';
 }
 
 // FITA — elemento-assinatura: linha por município, expansível em faixa de 7 dias
@@ -326,26 +307,10 @@ function fita(m, expandivelAberto){
   const dh=dias.find(x=>x.data===hoje())||dias[0]||{};
   const fut=dias.filter(x=>x.data>=hoje()).slice(0,7);
   const fid='f_'+m.id;
-  let h=`<div class="fita">
-    <div class="fita-head" onclick="(function(){var e=document.getElementById('${fid}');e.style.display=e.style.display==='none'?'flex':'none';})()">
-      <div class="fita-id"><span class="nm">${m.nome}</span><span class="co">${(m.lat||0).toFixed(2)}°S ${Math.abs(m.lon||0).toFixed(2)}°W</span></div>
-      <div class="fita-now">
-        <div class="micro hide-sm"><div class="v rain">${(dh.chuva_mm??0)} mm</div><div class="l">chuva hoje</div></div>
-        <div class="micro"><div class="v tmin">${Math.round(dh.tmin??0)}°</div><div class="l">mín</div></div>
-        <div class="micro"><div class="v tmax">${Math.round(dh.tmax??0)}°</div><div class="l">máx</div></div>
-        <div class="toggle">▾</div>
-      </div>
-    </div>
-    <div class="strip" id="${fid}" style="display:${expandivelAberto?'flex':'none'}">`;
+  let h='<div class="fita">\n    <div class="fita-head" onclick="(function(){var e=document.getElementById(\'' + (fid) + '\');e.style.display=e.style.display===\'none\'?\'flex\':\'none\';})()">\n      <div class="fita-id"><span class="nm">' + (m.nome) + '</span><span class="co">' + ((m.lat||0).toFixed(2)) + '°S ' + (Math.abs(m.lon||0).toFixed(2)) + '°W</span></div>\n      <div class="fita-now">\n        <div class="micro hide-sm"><div class="v rain">' + ((dh.chuva_mm??0)) + ' mm</div><div class="l">chuva hoje</div></div>\n        <div class="micro"><div class="v tmin">' + (Math.round(dh.tmin??0)) + '°</div><div class="l">mín</div></div>\n        <div class="micro"><div class="v tmax">' + (Math.round(dh.tmax??0)) + '°</div><div class="l">máx</div></div>\n        <div class="toggle">v</div>\n      </div>\n    </div>\n    <div class="strip" id="' + (fid) + '" style="display:' + (expandivelAberto?'flex':'none') + '">';
   for(const dia of fut){
     const today=dia.data===hoje();
-    h+=`<div class="day ${today?'today':''}">
-      <div class="dn">${diaSemana(dia.data)} ${ddmm(dia.data)}</div>
-      <div class="ic">${icone(dia.chuva_mm||0,dia.prob_chuva||0)}</div>
-      <div class="dmax">${Math.round(dia.tmax??0)}°</div>
-      <div class="dmin">mín ${Math.round(dia.tmin??0)}°</div>
-      <div class="dr">${(dia.chuva_mm||0)>0?(dia.chuva_mm+' mm'):'—'}</div>
-    </div>`;
+    h+='<div class="day ' + (today?'today':'') + '">\n      <div class="dn">' + (diaSemana(dia.data)) + ' ' + (ddmm(dia.data)) + '</div>\n      <div class="ic">' + (icone(dia.chuva_mm||0,dia.prob_chuva||0)) + '</div>\n      <div class="dmax">' + (Math.round(dia.tmax??0)) + '°</div>\n      <div class="dmin">mín ' + (Math.round(dia.tmin??0)) + '°</div>\n      <div class="dr">' + ((dia.chuva_mm||0)>0?(dia.chuva_mm+' mm'):'—') + '</div>\n    </div>';
   }
   h+='</div></div>';
   return h;
@@ -363,14 +328,11 @@ async function render(){
 // ====== BOOT ======
 (async function(){
   try{
-    INDEX=await carregaJSON(${BASE}/index.json);
+    INDEX=await carregaJSON((BASE) + '/index.json');
     if(INDEX.gerado_em) $('upd').textContent=fmtData(INDEX.gerado_em);
     render();
   }catch(e){
-    $('view').innerHTML=`<div class="loading">Não foi possível carregar o índice de distritos.<br>
-      <span style="color:var(--vdim)">${e.message}</span><br><br>
-      Verifique se <span class="mono">web/data/out/index.json</span> foi publicado no deploy
-      (o workflow copia os dados para a pasta web automaticamente).</div>`;
+    $('view').innerHTML='<div class="loading">Não foi possível carregar o índice de distritos.<br>\n      <span style="color:var(--vdim)">' + (e.message) + '</span><br><br>\n      Verifique se <span class="mono">web/data/out/index.json</span> foi publicado no deploy\n      (o workflow copia os dados para a pasta web automaticamente).</div>';
   }
 })();
 </script>
