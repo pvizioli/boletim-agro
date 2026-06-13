@@ -2,6 +2,7 @@
 # Códigos IBGE: validar antes da Fase 2 (integração Conab)
 id: sao_gabriel
 nome: Distrito de São Gabriel
+regional: Sul          # agrupa distritos; ajuste depois (ex.: Fronteira Oeste)
 uf: RS
 regiao: Fronteira Oeste / Campanha
 cultura_principal: soja
