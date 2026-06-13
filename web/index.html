@@ -155,12 +155,10 @@
 
 <script>
 // ====== CONFIG ======
-// Lê os JSONs diretamente do seu repositório GitHub (raw).
-// TROQUE estes dois valores pelos seus:
-const GH_USER = "pvizioli";
-const GH_REPO = "boletim-agro";
-const GH_BRANCH = "main";
-const BASE = `https://raw.githubusercontent.com/${GH_USER}/${GH_REPO}/${GH_BRANCH}/data/out`;
+// Os dados são publicados JUNTO com o site no Vercel (pasta web/data/out),
+// então lemos por caminho relativo — sem chamada externa ao GitHub.
+// Isso evita bloqueios de rede corporativa (Forcepoint) ao raw.githubusercontent.
+const BASE = "data/out";
 
 // ====== ESTADO ======
 let INDEX = null;
@@ -234,14 +232,14 @@ async function viewDistrito(){
   const id=nav.distrito;
   let d=cacheDistrito[id];
   if(!d){
-    try{ d=await carregaJSON(`${BASE}/${id}/latest.json`); cacheDistrito[id]=d; }
-    catch(e){ return `<div class="loading">Não foi possível carregar este distrito.<br><span style="color:var(--vdim)">${e.message}</span></div>`; }
+    try{ d=await carregaJSON(${BASE}/${id}/latest.json); cacheDistrito[id]=d; }
+    catch(e){ return <div class="loading">Não foi possível carregar este distrito.<br><span style="color:var(--vdim)">${e.message}</span></div>; }
   }
   if(d.gerado_em){ $('upd').textContent=fmtData(d.gerado_em); }
 
   const tabs=[['clima','◴ Clima & Previsão'],['colheita','🌱 Colheita'],['municipios','📍 Municípios']];
   let h='<div class="tabs">';
-  for(const [k,lab] of tabs) h+=`<button class="tab ${tabAtiva===k?'on':''}" onclick="setTab('${k}')">${lab}</button>`;
+  for(const [k,lab] of tabs) h+=<button class="tab ${tabAtiva===k?'on':''}" onclick="setTab('${k}')">${lab}</button>;
   h+='</div>';
 
   if(tabAtiva==='clima') h+=tabClima(d);
@@ -276,10 +274,10 @@ function tabClima(d){
   // alertas
   if(al.length){
     for(const x of al.slice(0,4)){
-      h+=`<div class="alert"><div class="ico">⚠</div><div><span class="t">${x.evento||'Aviso'}</span>${x.severidade?' · '+x.severidade:''}<div class="d">${[x.inicio,x.fim].filter(Boolean).join(' → ')||''}</div></div></div>`;
+      h+=<div class="alert"><div class="ico">⚠️</div><div><span class="t">${x.evento||'Aviso'}</span>${x.severidade?' · '+x.severidade:''}<div class="d">${[x.inicio,x.fim].filter(Boolean).join(' → ')||''}</div></div></div>;
     }
   } else {
-    h+=`<div class="alert empty"><div class="ico">✓</div><div><span class="t">Sem alertas ativos</span><div class="d">Nenhum aviso do INMET vigente para ${d.distrito.uf||'a UF'} neste momento.</div></div></div>`;
+    h+=<div class="alert empty"><div class="ico">✓</div><div><span class="t">Sem alertas ativos</span><div class="d">Nenhum aviso do INMET vigente para ${d.distrito.uf||'a UF'} neste momento.</div></div></div>;
   }
   // fitas resumidas (clima atual + 7d) — reaproveita o componente da aba municípios
   h+='<div class="panel"><div class="stitle">Previsão por município · próximos dias</div>';
@@ -312,14 +310,14 @@ function tabColheita(d){
   // quando a Fase 2 preencher, renderiza tabela
   let h='<div class="panel"><div class="stitle">Colheita · '+(c.fonte||'')+'</div><div class="grid">';
   for(const it of c.itens){
-    h+=`<div class="fita"><div class="fita-head"><div class="fita-id"><span class="nm">${it.municipio||''}</span></div><div class="fita-now"><div class="micro"><div class="v tmax">${it.pct_colhido??'—'}%</div><div class="l">colhido</div></div></div></div></div>`;
+    h+=<div class="fita"><div class="fita-head"><div class="fita-id"><span class="nm">${it.municipio||''}</span></div><div class="fita-now"><div class="micro"><div class="v tmax">${it.pct_colhido??'—'}%</div><div class="l">colhido</div></div></div></div></div>;
   }
   h+='</div></div>';
   return h;
 }
 
 function kpi(cls,lab,val,sub){
-  return `<div class="kpi ${cls}"><div class="lab">${lab}</div><div class="val">${val}</div><div class="sub">${sub}</div></div>`;
+  return <div class="kpi ${cls}"><div class="lab">${lab}</div><div class="val">${val}</div><div class="sub">${sub}</div></div>;
 }
 
 // FITA — elemento-assinatura: linha por município, expansível em faixa de 7 dias
@@ -365,14 +363,14 @@ async function render(){
 // ====== BOOT ======
 (async function(){
   try{
-    INDEX=await carregaJSON(`${BASE}/index.json`);
+    INDEX=await carregaJSON(${BASE}/index.json);
     if(INDEX.gerado_em) $('upd').textContent=fmtData(INDEX.gerado_em);
     render();
   }catch(e){
     $('view').innerHTML=`<div class="loading">Não foi possível carregar o índice de distritos.<br>
       <span style="color:var(--vdim)">${e.message}</span><br><br>
-      Verifique se <span class="mono">data/out/index.json</span> já foi gerado pelo workflow,
-      e se <span class="mono">GH_USER/GH_REPO</span> no código estão corretos.</div>`;
+      Verifique se <span class="mono">web/data/out/index.json</span> foi publicado no deploy
+      (o workflow copia os dados para a pasta web automaticamente).</div>`;
   }
 })();
 </script>
