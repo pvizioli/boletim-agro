@@ -1,44 +1,44 @@
 """
-Conector Open-Meteo - boletim-agro
-==================================
+Conector Open-Meteo - boletim-agro (v2: pacing + tratamento de 429 + API key)
+=============================================================================
 
-Busca previsao diaria (7 dias) para MUITOS municipios de uma vez, agrupando
-coordenadas numa unica chamada HTTP (batch). A API de forecast aceita listas
-de latitude/longitude separadas por virgula e devolve um ARRAY de previsoes
-na mesma ordem enviada.
+Busca previsao diaria (7 dias) para muitos municipios agrupando coordenadas
+numa unica chamada HTTP (batch). A API conta CADA coordenada como uma chamada
+contra a cota - entao o controle de ritmo (pacing) e o tratamento de 429 sao
+essenciais em escala nacional.
 
-Por que batch:
-  Escala nacional = ~5.562 municipios. Uma chamada por municipio estouraria a
-  cota gratuita (~10 mil/dia). Agrupando em lotes de TAMANHO_LOTE coordenadas,
-  caem para ~56 chamadas por rodada (2x/dia = ~112/dia). Folgado.
+Limites do plano gratuito (nao-comercial): ~600/min, ~5.000/hora, ~10.000/dia.
+Para produto comercial / volume maior: defina a variavel de ambiente
+OPEN_METEO_APIKEY (usa o endpoint customer-api e remove os limites do free).
 
-Principios do projeto respeitados:
-  - stdlib apenas (urllib): nada de pip, nada que o Forcepoint bloqueie no runner.
-  - Falha de fonte nao derruba o boletim: em erro, retorna None para o lote e
-    o main.py mantem a ultima versao valida com carimbo.
-  - Cada metrica carrega fonte + data: ver campo "fonte" e "atualizado_em".
+Estrategia:
+  - pacing: dorme entre lotes para nao passar de TARGET_CHAMADAS_MIN/minuto.
+  - 429: respeita o cabecalho Retry-After (ou backoff longo) antes de tentar de novo.
+  - falha de fonte nao derruba o boletim: lote que falha de vez retorna nada e o
+    main.py mantem a ultima versao valida.
 
-PONTO DE INTEGRACAO (conferir no main.py):
-  A funcao publica e buscar_clima(municipios). Recebe uma lista de dicts com
-  pelo menos {ibge, lat, lon} e devolve {ibge: bloco_clima}. O main.py deve
-  encaixar cada bloco_clima dentro do latest.json do distrito. Os nomes de
-  campo do bloco_clima estao documentados em montar_bloco() abaixo - se o site
-  ja espera outros nomes, ajuste ali (um lugar so).
+Interface publica inalterada: buscar_clima(municipios) -> {ibge: bloco_clima}.
 """
 
 import json
+import os
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 
-URL_BASE = "https://api.open-meteo.com/v1/forecast"
-TAMANHO_LOTE = 100        # coordenadas por chamada (limite pratico de URL)
-DIAS_PREVISAO = 7
-TENTATIVAS = 3
-ESPERA_BASE = 2.0         # segundos; backoff exponencial entre tentativas
+APIKEY = os.environ.get("OPEN_METEO_APIKEY", "").strip()
+URL_BASE = ("https://customer-api.open-meteo.com/v1/forecast" if APIKEY
+            else "https://api.open-meteo.com/v1/forecast")
 
-# Variaveis diarias pedidas a API (ordem importa para leitura do JSON)
+TAMANHO_LOTE = 100
+DIAS_PREVISAO = 7
+TENTATIVAS = 4
+ESPERA_BASE = 3.0          # backoff base p/ erros de rede (s)
+ESPERA_429 = 20.0          # espera minima ao tomar 429, se nao houver Retry-After
+TARGET_CHAMADAS_MIN = 500  # ritmo alvo (margem sob os 600/min do free)
+
 DAILY = [
     "temperature_2m_max",
     "temperature_2m_min",
@@ -49,17 +49,16 @@ DAILY = [
 
 
 def _lotes(seq, n):
-    """Quebra uma lista em pedacos de tamanho n."""
     for i in range(0, len(seq), n):
         yield seq[i:i + n]
 
 
-def _chamar_api(lats, lons):
-    """
-    Faz UMA chamada multi-coordenada. Retorna lista de previsoes (uma por
-    coordenada) ou levanta excecao. A API devolve dict quando ha 1 so
-    coordenada e lista quando ha varias - normalizamos para lista sempre.
-    """
+def _pausa_por_chamadas(n):
+    """Segundos necessarios para 'pagar' n chamadas no ritmo alvo."""
+    return n / (TARGET_CHAMADAS_MIN / 60.0)
+
+
+def _montar_url(lats, lons):
     params = {
         "latitude": ",".join(str(x) for x in lats),
         "longitude": ",".join(str(x) for x in lons),
@@ -67,32 +66,49 @@ def _chamar_api(lats, lons):
         "timezone": "auto",
         "forecast_days": DIAS_PREVISAO,
     }
-    url = URL_BASE + "?" + urllib.parse.urlencode(params)
+    if APIKEY:
+        params["apikey"] = APIKEY
+    return URL_BASE + "?" + urllib.parse.urlencode(params)
+
+
+def _chamar_api(lats, lons):
+    """Uma chamada multi-coordenada. Normaliza para lista. Propaga HTTPError."""
+    url = _montar_url(lats, lons)
     req = urllib.request.Request(url, headers={"User-Agent": "boletim-agro/2.0"})
     with urllib.request.urlopen(req, timeout=60) as resp:
         dados = json.loads(resp.read().decode("utf-8"))
-    if isinstance(dados, dict):
-        dados = [dados]
-    return dados
+    return [dados] if isinstance(dados, dict) else dados
 
 
 def _chamar_com_retry(lats, lons):
-    """Chama a API com ate TENTATIVAS, backoff exponencial. None se falhar."""
+    """Chama com pacing-aware retry. None se esgotar as tentativas."""
     for tentativa in range(1, TENTATIVAS + 1):
         try:
             return _chamar_api(lats, lons)
-        except Exception as e:  # rede, timeout, 5xx, json invalido
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                ra = e.headers.get("Retry-After") if e.headers else None
+                try:
+                    espera = float(ra) if ra else ESPERA_429
+                except (TypeError, ValueError):
+                    espera = ESPERA_429
+                espera = max(espera, ESPERA_429)
+                print("  [open_meteo] 429 (cota); aguardando " + str(espera) + "s")
+            else:
+                espera = ESPERA_BASE * (2 ** (tentativa - 1))
+                print("  [open_meteo] HTTP " + str(e.code) + " tentativa " +
+                      str(tentativa) + "/" + str(TENTATIVAS) + "; aguardando " +
+                      str(espera) + "s")
+        except Exception as e:  # rede, timeout SSL, json invalido
             espera = ESPERA_BASE * (2 ** (tentativa - 1))
-            print("  [open_meteo] tentativa " + str(tentativa) + "/" +
-                  str(TENTATIVAS) + " falhou (" + str(e) + "); aguardando " +
+            print("  [open_meteo] erro tentativa " + str(tentativa) + "/" +
+                  str(TENTATIVAS) + " (" + str(e) + "); aguardando " +
                   str(espera) + "s")
-            if tentativa < TENTATIVAS:
-                time.sleep(espera)
+        if tentativa < TENTATIVAS:
+            time.sleep(espera)
     return None
 
 
-# WMO weathercode -> categoria simples para o site escolher o icone SVG.
-# Mantido aqui para haver um unico lugar com a regra.
 def categoria_tempo(code):
     if code is None:
         return "indef"
@@ -100,7 +116,7 @@ def categoria_tempo(code):
     if c == 0:
         return "sol"
     if c in (1, 2):
-        return "parcial"        # sol entre nuvens
+        return "parcial"
     if c == 3:
         return "nuvem"
     if c in (45, 48):
@@ -117,24 +133,17 @@ def categoria_tempo(code):
 
 
 def montar_bloco(mun, prev, agora):
-    """
-    Monta o bloco_clima de UM municipio a partir da resposta da API.
-
-    Campos do bloco (ALINHAR COM O SITE/main.py SE PRECISO):
-      atual:       tmax, tmin, precip_mm, prob_chuva, weathercode, tempo (categoria)
-      previsao_7d: lista de {data, tmax, tmin, precip_mm, prob_chuva, weathercode, tempo}
-      fonte, atualizado_em
-    """
     d = prev.get("daily", {})
     datas = d.get("time", [])
+
+    def get(lst, i):
+        return lst[i] if i < len(lst) else None
+
     tmax = d.get("temperature_2m_max", [])
     tmin = d.get("temperature_2m_min", [])
     pp = d.get("precipitation_sum", [])
     prob = d.get("precipitation_probability_max", [])
     wc = d.get("weathercode", [])
-
-    def get(lst, i):
-        return lst[i] if i < len(lst) else None
 
     dias = []
     for i in range(len(datas)):
@@ -147,49 +156,32 @@ def montar_bloco(mun, prev, agora):
             "weathercode": get(wc, i),
             "tempo": categoria_tempo(get(wc, i)),
         })
-
     atual = dias[0] if dias else {}
     return {
-        "ibge": mun["ibge"],
-        "nome": mun.get("nome"),
-        "uf": mun.get("uf"),
-        "lat": mun["lat"],
-        "lon": mun["lon"],
+        "ibge": mun["ibge"], "nome": mun.get("nome"), "uf": mun.get("uf"),
+        "lat": mun["lat"], "lon": mun["lon"],
         "atual": {
-            "tmax": atual.get("tmax"),
-            "tmin": atual.get("tmin"),
-            "precip_mm": atual.get("precip_mm"),
-            "prob_chuva": atual.get("prob_chuva"),
-            "weathercode": atual.get("weathercode"),
-            "tempo": atual.get("tempo"),
+            "tmax": atual.get("tmax"), "tmin": atual.get("tmin"),
+            "precip_mm": atual.get("precip_mm"), "prob_chuva": atual.get("prob_chuva"),
+            "weathercode": atual.get("weathercode"), "tempo": atual.get("tempo"),
         },
         "previsao_7d": dias,
-        "fonte": "Open-Meteo",
-        "atualizado_em": agora,
+        "fonte": "Open-Meteo", "atualizado_em": agora,
     }
 
 
 def buscar_clima(municipios):
-    """
-    FUNCAO PUBLICA. Recebe lista de dicts {ibge, lat, lon, nome?, uf?} e devolve
-    {ibge: bloco_clima}. Municipios cujo lote falhar ficam de fora do dict
-    retornado (o main.py mantem a ultima versao valida deles).
-
-    Uso no main.py:
-        from conectores.open_meteo import buscar_clima
-        clima = buscar_clima(lista_de_municipios_do_distrito)
-        for mun in distrito["municipios"]:
-            bloco = clima.get(mun["ibge"])
-            if bloco:
-                mun["clima"] = bloco            # ou onde o latest.json espera
-    """
+    """Lista de {ibge,lat,lon,nome?,uf?} -> {ibge: bloco_clima}. Lotes que
+    falham ficam de fora (o main.py mantem a ultima versao valida)."""
     agora = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     resultado = {}
     total = len(municipios)
+    modo = "com API key" if APIKEY else "free (com pacing)"
     print("[open_meteo] " + str(total) + " municipios em lotes de " +
-          str(TAMANHO_LOTE))
+          str(TAMANHO_LOTE) + " (" + modo + ")")
 
-    for lote in _lotes(municipios, TAMANHO_LOTE):
+    lotes = list(_lotes(municipios, TAMANHO_LOTE))
+    for idx, lote in enumerate(lotes):
         lats = [m["lat"] for m in lote]
         lons = [m["lon"] for m in lote]
         previsoes = _chamar_com_retry(lats, lons)
@@ -197,16 +189,16 @@ def buscar_clima(municipios):
         if previsoes is None:
             print("  [open_meteo] lote de " + str(len(lote)) +
                   " municipios falhou; mantendo versao anterior")
-            continue
+        else:
+            if len(previsoes) != len(lote):
+                print("  [open_meteo] AVISO: " + str(len(previsoes)) +
+                      " previsoes para " + str(len(lote)) + " coordenadas")
+            for mun, prev in zip(lote, previsoes):
+                resultado[mun["ibge"]] = montar_bloco(mun, prev, agora)
 
-        if len(previsoes) != len(lote):
-            print("  [open_meteo] AVISO: API devolveu " + str(len(previsoes)) +
-                  " previsoes para " + str(len(lote)) + " coordenadas")
-
-        for mun, prev in zip(lote, previsoes):
-            resultado[mun["ibge"]] = montar_bloco(mun, prev, agora)
-
-        time.sleep(0.5)  # gentileza com a API entre lotes
+        # pacing: dorme proporcional as chamadas feitas, exceto no ultimo lote
+        if idx < len(lotes) - 1 and not APIKEY:
+            time.sleep(_pausa_por_chamadas(len(lote)))
 
     print("[open_meteo] ok para " + str(len(resultado)) + "/" + str(total) +
           " municipios")
@@ -214,14 +206,9 @@ def buscar_clima(municipios):
 
 
 if __name__ == "__main__":
-    # Teste rapido com 3 municipios do distrito-piloto (coordenadas reais)
     amostra = [
         {"ibge": 4318309, "nome": "Sao Gabriel", "uf": "RS", "lat": -30.3337, "lon": -54.3217},
         {"ibge": 4318002, "nome": "Sao Borja", "uf": "RS", "lat": -28.6578, "lon": -56.0036},
-        {"ibge": 4300406, "nome": "Alegrete", "uf": "RS", "lat": -29.7902, "lon": -55.7949},
     ]
-    out = buscar_clima(amostra)
-    for ibge, bloco in out.items():
-        a = bloco["atual"]
-        print(bloco["nome"], "-> tmax", a["tmax"], "tmin", a["tmin"],
-              "chuva", a["precip_mm"], "mm", "(" + str(a["tempo"]) + ")")
+    for ibge, b in buscar_clima(amostra).items():
+        print(b["nome"], "tmax", b["atual"]["tmax"], "(" + str(b["atual"]["tempo"]) + ")")
