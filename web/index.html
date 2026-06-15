@@ -114,6 +114,17 @@
   .panel{border:1px solid var(--border);background:var(--panel);border-radius:8px;padding:24px;margin-bottom:22px;box-shadow:0 1px 3px var(--shadow)}
   .stitle{font-family:'IBM Plex Mono',monospace;font-size:12px;text-transform:uppercase;letter-spacing:.18em;color:var(--mut);margin-bottom:18px;font-weight:500;display:flex;align-items:center;gap:9px}
   .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:18px}
+  .chart-scroll{overflow-x:auto;overflow-y:hidden}
+  .filtro{padding:18px 22px}
+  .filtro-top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+  .filtro-acts{display:flex;align-items:center;gap:8px}
+  .filtro-acts .fcount{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--dim)}
+  .fbtn{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--mut);background:var(--panel2);border:1px solid var(--border);border-radius:14px;padding:5px 12px;cursor:pointer;transition:.12s}
+  .fbtn:hover{border-color:var(--brand);color:var(--brand)}
+  .chips{display:flex;flex-wrap:wrap;gap:7px;max-height:148px;overflow-y:auto}
+  .chip{font-size:12px;color:var(--mut);background:var(--panel2);border:1px solid var(--border);border-radius:14px;padding:5px 11px;cursor:pointer;transition:.12s;white-space:nowrap}
+  .chip:hover{border-color:var(--border2);color:var(--tx)}
+  .chip.on{color:#0b1410;background:var(--brand);border-color:var(--brand);font-weight:500}
 
   .muncard{border:1px solid var(--border);background:var(--panel);border-radius:10px;overflow:hidden;margin-bottom:16px;box-shadow:0 1px 3px var(--shadow);transition:.18s}
   .muncard:hover{box-shadow:0 6px 22px var(--shadow)}
@@ -404,9 +415,10 @@ function tabClima(d){
   } else {
     h+='<div class="alert empty"><div class="ico">'+icoCheck(20)+'</div><div><span class="t">Sem alertas ativos</span><div class="d">Nenhum aviso do INMET vigente para '+escX(ufs)+' neste momento.</div></div></div>';
   }
+  h+=filtroMunicipios(d);
   h+='<div class="grid2">';
-  h+='<div class="panel"><div class="stitle">'+icoTermo(14,"currentColor")+' Temperatura por munic&iacute;pio - hoje</div><div id="chTemp"></div></div>';
-  h+='<div class="panel"><div class="stitle">'+icoGota(14,"currentColor")+' Chuva acumulada 7 dias - por munic&iacute;pio</div><div id="chChuva"></div></div>';
+  h+='<div class="panel"><div class="stitle">'+icoTermo(14,"currentColor")+' Temperatura por munic&iacute;pio - hoje</div><div class="chart-scroll"><div id="chTemp"></div></div></div>';
+  h+='<div class="panel"><div class="stitle">'+icoGota(14,"currentColor")+' Chuva acumulada 7 dias - por munic&iacute;pio</div><div class="chart-scroll"><div id="chChuva"></div></div></div>';
   h+="</div>";
   h+='<div class="panel"><div class="stitle">'+icoMapa(14,"currentColor")+' Previs&atilde;o detalhada por munic&iacute;pio</div>';
   for(var m=0;m<(d.municipios||[]).length;m++) h+=muncard(d.municipios[m]);
@@ -465,39 +477,70 @@ function metric(cls,val,lab){ return '<div class="metric"><div class="mv '+cls+'
 // ===== GRAFICOS SVG =====
 function corVar(nome){ var s=getComputedStyle(document.documentElement).getPropertyValue(nome); return (s||"").trim()||"#888"; }
 function graficoBarras(nomes,grupos,opts){
-  var W=560,H=250,padL=34,padR=12,padT=opts&&opts.legenda?30:14,padB=42;
-  var plotW=W-padL-padR,plotH=H-padT-padB,maxV=0;
-  for(var g=0;g<grupos.length;g++) for(var i=0;i<grupos[g].dados.length;i++) if(grupos[g].dados[i]>maxV) maxV=grupos[g].dados[i];
+  opts=opts||{};
+  var n=nomes.length, ng=grupos.length, H=250;
+  var mostraRot = n>0 && n <= (opts.maxRotulos||14);
+  var padL=34,padR=12,padT=opts.legenda?30:14,padB=mostraRot?42:16;
+  var plotW=Math.max(n*(mostraRot?46:12),470), W=padL+padR+plotW, plotH=H-padT-padB, maxV=0;
+  for(var g=0;g<ng;g++) for(var i=0;i<grupos[g].dados.length;i++) if(grupos[g].dados[i]>maxV) maxV=grupos[g].dados[i];
   if(maxV<=0) maxV=1;
   var step=Math.pow(10,Math.floor(Math.log(maxV)/Math.LN10)),topo=Math.ceil(maxV/step)*step; if(topo<=maxV) topo+=step;
-  var n=nomes.length,ng=grupos.length,slot=plotW/n,bw=Math.min(slot*0.66/ng,24);
+  var slot=plotW/n, bw=Math.min(slot*0.66/ng,24);
   var cgrid=corVar("--grid"),cmut=corVar("--mut"),cdim=corVar("--dim");
-  var svg='<svg viewBox="0 0 '+W+' '+H+'" width="100%" preserveAspectRatio="xMidYMid meet" style="font-family:IBM Plex Mono,monospace">';
-  var linhas=4;
-  for(var L=0;L<=linhas;L++){ var val=topo*L/linhas,y=padT+plotH-(val/topo)*plotH;
+  var svg='<svg viewBox="0 0 '+W+' '+H+'" width="'+W+'" height="'+H+'" preserveAspectRatio="xMinYMid meet" style="font-family:IBM Plex Mono,monospace">';
+  for(var L=0;L<=4;L++){ var val=topo*L/4,y=padT+plotH-(val/topo)*plotH;
     svg+='<line x1="'+padL+'" y1="'+y.toFixed(1)+'" x2="'+(W-padR)+'" y2="'+y.toFixed(1)+'" stroke="'+cgrid+'" stroke-width="1"/>';
     svg+='<text x="'+(padL-6)+'" y="'+(y+3).toFixed(1)+'" fill="'+cdim+'" font-size="9" text-anchor="end">'+Math.round(val)+'</text>';
   }
   for(var x=0;x<n;x++){ var cx=padL+slot*x+slot/2,startX=cx-(bw*ng)/2;
     for(var gi=0;gi<ng;gi++){ var v=grupos[gi].dados[x]||0,bh=(v/topo)*plotH,bx=startX+gi*bw,by=padT+plotH-bh;
-      svg+='<rect x="'+bx.toFixed(1)+'" y="'+by.toFixed(1)+'" width="'+(bw-2).toFixed(1)+'" height="'+Math.max(0,bh).toFixed(1)+'" fill="'+grupos[gi].cor+'" rx="2"/>';
-      svg+='<text x="'+(bx+(bw-2)/2).toFixed(1)+'" y="'+(by-3).toFixed(1)+'" fill="'+grupos[gi].cor+'" font-size="8.5" text-anchor="middle">'+Math.round(v)+'</text>';
+      svg+='<rect x="'+bx.toFixed(1)+'" y="'+by.toFixed(1)+'" width="'+Math.max(1,bw-2).toFixed(1)+'" height="'+Math.max(0,bh).toFixed(1)+'" fill="'+grupos[gi].cor+'" rx="1.5"/>';
+      if(mostraRot) svg+='<text x="'+(bx+(bw-2)/2).toFixed(1)+'" y="'+(by-3).toFixed(1)+'" fill="'+grupos[gi].cor+'" font-size="8.5" text-anchor="middle">'+Math.round(v)+'</text>';
     }
-    var nm=nomes[x]; if(nm.length>9) nm=nm.slice(0,8)+".";
-    svg+='<text x="'+cx.toFixed(1)+'" y="'+(H-padB+15)+'" fill="'+cmut+'" font-size="9" text-anchor="middle">'+escX(nm)+'</text>';
+    var tip=(opts.tips&&opts.tips[x])||nomes[x];
+    svg+='<rect x="'+(padL+slot*x).toFixed(1)+'" y="'+padT+'" width="'+slot.toFixed(1)+'" height="'+plotH+'" fill="transparent" style="cursor:pointer"><title>'+escX(tip)+'</title></rect>';
+    if(mostraRot){ var nm=nomes[x]; if(nm.length>9) nm=nm.slice(0,8)+".";
+      svg+='<text x="'+cx.toFixed(1)+'" y="'+(H-padB+15)+'" fill="'+cmut+'" font-size="9" text-anchor="middle">'+escX(nm)+'</text>'; }
   }
-  if(opts&&opts.legenda&&ng>1){ var lx=padL,ly=14;
+  if(opts.legenda&&ng>1){ var lx=padL,ly=14;
     for(var le=0;le<ng;le++){ svg+='<rect x="'+lx+'" y="'+(ly-8)+'" width="10" height="10" fill="'+grupos[le].cor+'" rx="2"/><text x="'+(lx+14)+'" y="'+ly+'" fill="'+cmut+'" font-size="10">'+escX(grupos[le].nome)+'</text>'; lx+=14+grupos[le].nome.length*6.5+18; }
   }
   return svg+"</svg>";
 }
 function desenhaGraficos(d){
-  var ms=d.municipios||[],nomes=[],tmax=[],tmin=[],chuva=[];
-  for(var i=0;i<ms.length;i++){ if(!ms[i].clima) continue; var a=climaAtual(ms[i]),s=somaChuva7(ms[i]);
-    nomes.push(String(ms[i].nome).replace("Sant'Ana do Livramento","Livramento")); tmax.push(rnd(a.tmax)); tmin.push(rnd(a.tmin)); chuva.push(Number(s.toFixed(1)));
+  var sel=selDoDistrito(d), all=d.municipios||[], ms=[];
+  for(var i=0;i<all.length;i++){ if(all[i].clima && sel[all[i].id]) ms.push(all[i]); }
+  var cT=$("chTemp"),cC=$("chChuva");
+  if(!ms.length){ var msg='<div style="color:var(--dim);font-family:IBM Plex Mono,monospace;font-size:12px;padding:30px 0;text-align:center">Selecione ao menos um munic&iacute;pio para comparar.</div>'; if(cT)cT.innerHTML=msg; if(cC)cC.innerHTML=msg; return; }
+  var nomes=[],tmax=[],tmin=[],chuva=[],tipsT=[],tipsC=[];
+  for(var j=0;j<ms.length;j++){ var a=climaAtual(ms[j]),s=Number(somaChuva7(ms[j]).toFixed(1)),nm=String(ms[j].nome);
+    nomes.push(nm.replace("Sant'Ana do Livramento","Livramento")); tmax.push(rnd(a.tmax)); tmin.push(rnd(a.tmin)); chuva.push(s);
+    tipsT.push(nm+" - max "+rnd(a.tmax)+"\u00b0 / min "+rnd(a.tmin)+"\u00b0");
+    tipsC.push(nm+" - "+s+" mm em 7 dias");
   }
-  var cT=$("chTemp"); if(cT) cT.innerHTML=graficoBarras(nomes,[{nome:"Max",cor:corVar("--chartMax"),dados:tmax},{nome:"Min",cor:corVar("--chartMin"),dados:tmin}],{legenda:true});
-  var cC=$("chChuva"); if(cC) cC.innerHTML=graficoBarras(nomes,[{nome:"Chuva 7d (mm)",cor:corVar("--sky"),dados:chuva}],{legenda:true});
+  if(cT) cT.innerHTML=graficoBarras(nomes,[{nome:"Max",cor:corVar("--chartMax"),dados:tmax},{nome:"Min",cor:corVar("--chartMin"),dados:tmin}],{legenda:true,tips:tipsT});
+  if(cC) cC.innerHTML=graficoBarras(nomes,[{nome:"Chuva 7d (mm)",cor:corVar("--sky"),dados:chuva}],{legenda:true,tips:tipsC});
+}
+
+// ===== FILTRO DE MUNICIPIOS =====
+var muniSel={};
+function selDoDistrito(d){
+  var id=d.distrito.id;
+  if(!muniSel[id]){ muniSel[id]={}; var ms=d.municipios||[]; for(var i=0;i<ms.length;i++){ if(ms[i].clima) muniSel[id][ms[i].id]=true; } }
+  return muniSel[id];
+}
+function toggleMuni(mid){ var s=muniSel[nav.distrito]; if(!s) return; s[mid]=!s[mid]; render(); }
+function todosMuni(v){ var s=muniSel[nav.distrito]; if(!s) return; for(var k in s){ s[k]=v; } render(); }
+function filtroMunicipios(d){
+  var all=(d.municipios||[]).filter(function(m){ return m.clima; });
+  if(all.length<=1) return "";
+  var sel=selDoDistrito(d), nsel=0; for(var k in sel){ if(sel[k]) nsel++; }
+  var h='<div class="panel filtro"><div class="filtro-top"><div class="stitle" style="margin:0">'+icoMapa(14,"currentColor")+' Comparar munic&iacute;pios</div>'
+    +'<div class="filtro-acts"><span class="fcount">'+nsel+' de '+all.length+'</span>'
+    +'<button class="fbtn" onclick="todosMuni(true)">Todos</button><button class="fbtn" onclick="todosMuni(false)">Limpar</button></div></div>';
+  h+='<div class="chips">';
+  for(var i=0;i<all.length;i++){ var m=all[i]; h+='<button class="chip'+(sel[m.id]?" on":"")+'" onclick="toggleMuni(\''+m.id+'\')">'+escX(m.nome)+'</button>'; }
+  return h+'</div></div>';
 }
 
 // ===== ROTEADOR =====
@@ -505,6 +548,11 @@ function render(){
   renderSidebar();
   var v=$("view");
   if(!nav.distrito){ v.innerHTML=viewMapa(); return; }
+  if(cacheDistrito[nav.distrito]){
+    v.innerHTML=montaDistrito(cacheDistrito[nav.distrito]);
+    if(tabAtiva==="clima") setTimeout(function(){ desenhaGraficos(cacheDistrito[nav.distrito]); },30);
+    return;
+  }
   v.innerHTML='<div class="loading">Carregando distrito...</div>';
   viewDistrito().then(function(html){ v.innerHTML=html;
     if(tabAtiva==="clima"&&cacheDistrito[nav.distrito]) setTimeout(function(){ desenhaGraficos(cacheDistrito[nav.distrito]); },40);
