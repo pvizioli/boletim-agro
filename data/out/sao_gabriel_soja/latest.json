@@ -10,7 +10,7 @@
     ],
     "cultura_principal": "soja"
   },
-  "gerado_em": "2026-06-15T02:21:48+00:00",
+  "gerado_em": "2026-06-15T02:48:19+00:00",
   "municipios": [
     {
       "id": "alegrete",
@@ -100,7 +100,8 @@
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z"
+        "atualizado_em": "2026-06-15T02:21:45Z",
+        "_obsoleto": true
       }
     },
     {
@@ -191,7 +192,8 @@
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z"
+        "atualizado_em": "2026-06-15T02:21:45Z",
+        "_obsoleto": true
       }
     },
     {
@@ -282,7 +284,8 @@
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z"
+        "atualizado_em": "2026-06-15T02:21:45Z",
+        "_obsoleto": true
       }
     },
     {
@@ -373,7 +376,8 @@
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z"
+        "atualizado_em": "2026-06-15T02:21:45Z",
+        "_obsoleto": true
       }
     },
     {
@@ -464,7 +468,8 @@
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z"
+        "atualizado_em": "2026-06-15T02:21:45Z",
+        "_obsoleto": true
       }
     },
     {
@@ -555,7 +560,8 @@
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z"
+        "atualizado_em": "2026-06-15T02:21:45Z",
+        "_obsoleto": true
       }
     },
     {
@@ -646,7 +652,8 @@
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z"
+        "atualizado_em": "2026-06-15T02:21:45Z",
+        "_obsoleto": true
       }
     },
     {
@@ -737,7 +744,8 @@
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z"
+        "atualizado_em": "2026-06-15T02:21:45Z",
+        "_obsoleto": true
       }
     },
     {
@@ -828,7 +836,8 @@
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z"
+        "atualizado_em": "2026-06-15T02:21:45Z",
+        "_obsoleto": true
       }
     },
     {
@@ -919,7 +928,8 @@
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z"
+        "atualizado_em": "2026-06-15T02:21:45Z",
+        "_obsoleto": true
       }
     },
     {
@@ -1010,7 +1020,8 @@
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z"
+        "atualizado_em": "2026-06-15T02:21:45Z",
+        "_obsoleto": true
       }
     },
     {
@@ -1101,7 +1112,8 @@
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z"
+        "atualizado_em": "2026-06-15T02:21:45Z",
+        "_obsoleto": true
       }
     },
     {
@@ -1192,7 +1204,8 @@
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z"
+        "atualizado_em": "2026-06-15T02:21:45Z",
+        "_obsoleto": true
       }
     },
     {
@@ -1283,7 +1296,8 @@
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z"
+        "atualizado_em": "2026-06-15T02:21:45Z",
+        "_obsoleto": true
       }
     },
     {
@@ -1374,7 +1388,8 @@
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z"
+        "atualizado_em": "2026-06-15T02:21:45Z",
+        "_obsoleto": true
       }
     },
     {
@@ -1465,7 +1480,8 @@
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z"
+        "atualizado_em": "2026-06-15T02:21:45Z",
+        "_obsoleto": true
       }
     }
   ],

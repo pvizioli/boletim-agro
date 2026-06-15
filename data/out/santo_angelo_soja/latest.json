@@ -1,0 +1,227 @@
+{
+  "distrito": {
+    "id": "santo_angelo_soja",
+    "nome": "SANTO ANGELO-SOJA",
+    "regional": "RS SOJA",
+    "codigo_regional": "RSSO",
+    "uf": "RS",
+    "ufs": [
+      "RS"
+    ],
+    "cultura_principal": "soja"
+  },
+  "gerado_em": "2026-06-15T02:48:12+00:00",
+  "municipios": [
+    {
+      "id": "bossoroca",
+      "nome": "BOSSOROCA",
+      "ibge": 4302501,
+      "uf": "RS",
+      "lat": -28.7291,
+      "lon": -54.9035,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "caibate",
+      "nome": "CAIBATÉ",
+      "ibge": 4303301,
+      "uf": "RS",
+      "lat": -28.2905,
+      "lon": -54.6454,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "capao_do_cipo",
+      "nome": "CAPÃO DO CIPÓ",
+      "ibge": 4304655,
+      "uf": "RS",
+      "lat": -28.9312,
+      "lon": -54.5558,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "cerro_largo",
+      "nome": "CERRO LARGO",
+      "ibge": 4305207,
+      "uf": "RS",
+      "lat": -28.1463,
+      "lon": -54.7428,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "dezesseis_de_novembro",
+      "nome": "DEZESSEIS DE NOVEMBRO",
+      "ibge": 4306353,
+      "uf": "RS",
+      "lat": -28.219,
+      "lon": -55.0617,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "garruchos",
+      "nome": "GARRUCHOS",
+      "ibge": 4308656,
+      "uf": "RS",
+      "lat": -28.1944,
+      "lon": -55.6383,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "guarani_das_missoes",
+      "nome": "GUARANI DAS MISSÕES",
+      "ibge": 4309506,
+      "uf": "RS",
+      "lat": -28.1491,
+      "lon": -54.5629,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "mato_queimado",
+      "nome": "MATO QUEIMADO",
+      "ibge": 4312179,
+      "uf": "RS",
+      "lat": -28.252,
+      "lon": -54.6159,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "pirapo",
+      "nome": "PIRAPÓ",
+      "ibge": 4314555,
+      "uf": "RS",
+      "lat": -28.0439,
+      "lon": -55.2001,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "porto_xavier",
+      "nome": "PORTO XAVIER",
+      "ibge": 4315107,
+      "uf": "RS",
+      "lat": -27.9082,
+      "lon": -55.1379,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "rolador",
+      "nome": "ROLADOR",
+      "ibge": 4315958,
+      "uf": "RS",
+      "lat": -28.2566,
+      "lon": -54.8186,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "roque_gonzales",
+      "nome": "ROQUE GONZALES",
+      "ibge": 4316303,
+      "uf": "RS",
+      "lat": -28.1297,
+      "lon": -55.0266,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "salvador_das_missoes",
+      "nome": "SALVADOR DAS MISSÕES",
+      "ibge": 4316477,
+      "uf": "RS",
+      "lat": -28.1233,
+      "lon": -54.8373,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "santo_angelo",
+      "nome": "SANTO ÂNGELO",
+      "ibge": 4317509,
+      "uf": "RS",
+      "lat": -28.3001,
+      "lon": -54.2668,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "santo_antonio_das_missoes",
+      "nome": "SANTO ANTÔNIO DAS MISSÕES",
+      "ibge": 4317707,
+      "uf": "RS",
+      "lat": -28.514,
+      "lon": -55.2251,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "sao_luiz_gonzaga",
+      "nome": "SÃO LUIZ GONZAGA",
+      "ibge": 4318903,
+      "uf": "RS",
+      "lat": -28.412,
+      "lon": -54.9559,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "sao_nicolau",
+      "nome": "SÃO NICOLAU",
+      "ibge": 4319208,
+      "uf": "RS",
+      "lat": -28.1834,
+      "lon": -55.2654,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "sao_paulo_das_missoes",
+      "nome": "SÃO PAULO DAS MISSÕES",
+      "ibge": 4319307,
+      "uf": "RS",
+      "lat": -28.0195,
+      "lon": -54.9404,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "sao_pedro_do_butia",
+      "nome": "SÃO PEDRO DO BUTIÁ",
+      "ibge": 4319372,
+      "uf": "RS",
+      "lat": -28.1243,
+      "lon": -54.8926,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "sete_de_setembro",
+      "nome": "SETE DE SETEMBRO",
+      "ibge": 4320578,
+      "uf": "RS",
+      "lat": -28.1362,
+      "lon": -54.4637,
+      "area_soja_ha": null,
+      "clima": null
+    }
+  ],
+  "alertas": {
+    "ativos": [],
+    "ufs": [
+      "RS"
+    ]
+  },
+  "colheita": {
+    "status": "pendente",
+    "fonte": null,
+    "itens": []
+  }
+}

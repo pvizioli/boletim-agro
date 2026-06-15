@@ -1,0 +1,2395 @@
+{
+  "distrito": {
+    "id": "catalao_soja_ics",
+    "nome": "CATALAO-SOJA & ICS",
+    "regional": "CENTRO SOJA",
+    "codigo_regional": "CESO",
+    "uf": "GO",
+    "ufs": [
+      "GO",
+      "MG"
+    ],
+    "cultura_principal": "soja"
+  },
+  "gerado_em": "2026-06-15T02:25:21+00:00",
+  "municipios": [
+    {
+      "id": "anhanguera",
+      "nome": "ANHANGUERA",
+      "ibge": 5201207,
+      "uf": "GO",
+      "lat": -18.3339,
+      "lon": -48.2204,
+      "area_soja_ha": null,
+      "clima": {
+        "ibge": 5201207,
+        "nome": "ANHANGUERA",
+        "uf": "GO",
+        "lat": -18.3339,
+        "lon": -48.2204,
+        "atual": {
+          "tmax": 26.9,
+          "tmin": 18.3,
+          "precip_mm": 6.3,
+          "prob_chuva": 84,
+          "weathercode": 63,
+          "tempo": "chuva"
+        },
+        "previsao_7d": [
+          {
+            "data": "2026-06-14",
+            "tmax": 26.9,
+            "tmin": 18.3,
+            "precip_mm": 6.3,
+            "prob_chuva": 84,
+            "weathercode": 63,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-15",
+            "tmax": 27.0,
+            "tmin": 16.8,
+            "precip_mm": 0.7,
+            "prob_chuva": 33,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-16",
+            "tmax": 25.3,
+            "tmin": 17.9,
+            "precip_mm": 0.3,
+            "prob_chuva": 33,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-17",
+            "tmax": 25.9,
+            "tmin": 15.6,
+            "precip_mm": 0.0,
+            "prob_chuva": 2,
+            "weathercode": 3,
+            "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-18",
+            "tmax": 27.1,
+            "tmin": 14.0,
+            "precip_mm": 0.0,
+            "prob_chuva": 2,
+            "weathercode": 3,
+            "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-19",
+            "tmax": 28.2,
+            "tmin": 16.7,
+            "precip_mm": 2.7,
+            "prob_chuva": 21,
+            "weathercode": 55,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-20",
+            "tmax": 28.2,
+            "tmin": 17.3,
+            "precip_mm": 1.5,
+            "prob_chuva": 24,
+            "weathercode": 55,
+            "tempo": "garoa"
+          }
+        ],
+        "fonte": "Open-Meteo",
+        "atualizado_em": "2026-06-15T02:25:19Z"
+      }
+    },
+    {
+      "id": "campo_alegre_de_goias",
+      "nome": "CAMPO ALEGRE DE GOIÁS",
+      "ibge": 5204805,
+      "uf": "GO",
+      "lat": -17.6363,
+      "lon": -47.7768,
+      "area_soja_ha": null,
+      "clima": {
+        "ibge": 5204805,
+        "nome": "CAMPO ALEGRE DE GOIÁS",
+        "uf": "GO",
+        "lat": -17.6363,
+        "lon": -47.7768,
+        "atual": {
+          "tmax": 25.8,
+          "tmin": 16.8,
+          "precip_mm": 1.2,
+          "prob_chuva": 76,
+          "weathercode": 53,
+          "tempo": "garoa"
+        },
+        "previsao_7d": [
+          {
+            "data": "2026-06-14",
+            "tmax": 25.8,
+            "tmin": 16.8,
+            "precip_mm": 1.2,
+            "prob_chuva": 76,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-15",
+            "tmax": 27.5,
+            "tmin": 16.6,
+            "precip_mm": 2.9,
+            "prob_chuva": 65,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-16",
+            "tmax": 23.3,
+            "tmin": 16.3,
+            "precip_mm": 1.1,
+            "prob_chuva": 54,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-17",
+            "tmax": 24.8,
+            "tmin": 15.9,
+            "precip_mm": 0.5,
+            "prob_chuva": 9,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-18",
+            "tmax": 25.2,
+            "tmin": 14.5,
+            "precip_mm": 0.0,
+            "prob_chuva": 6,
+            "weathercode": 1,
+            "tempo": "parcial"
+          },
+          {
+            "data": "2026-06-19",
+            "tmax": 24.5,
+            "tmin": 16.2,
+            "precip_mm": 0.5,
+            "prob_chuva": 9,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-20",
+            "tmax": 27.0,
+            "tmin": 16.4,
+            "precip_mm": 1.0,
+            "prob_chuva": 27,
+            "weathercode": 51,
+            "tempo": "garoa"
+          }
+        ],
+        "fonte": "Open-Meteo",
+        "atualizado_em": "2026-06-15T02:25:19Z"
+      }
+    },
+    {
+      "id": "catalao",
+      "nome": "CATALÃO",
+      "ibge": 5205109,
+      "uf": "GO",
+      "lat": -18.1656,
+      "lon": -47.944,
+      "area_soja_ha": null,
+      "clima": {
+        "ibge": 5205109,
+        "nome": "CATALÃO",
+        "uf": "GO",
+        "lat": -18.1656,
+        "lon": -47.944,
+        "atual": {
+          "tmax": 25.4,
+          "tmin": 16.9,
+          "precip_mm": 5.6,
+          "prob_chuva": 88,
+          "weathercode": 80,
+          "tempo": "chuva"
+        },
+        "previsao_7d": [
+          {
+            "data": "2026-06-14",
+            "tmax": 25.4,
+            "tmin": 16.9,
+            "precip_mm": 5.6,
+            "prob_chuva": 88,
+            "weathercode": 80,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-15",
+            "tmax": 25.8,
+            "tmin": 16.8,
+            "precip_mm": 6.2,
+            "prob_chuva": 47,
+            "weathercode": 80,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-16",
+            "tmax": 23.1,
+            "tmin": 16.3,
+            "precip_mm": 1.8,
+            "prob_chuva": 44,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-17",
+            "tmax": 23.7,
+            "tmin": 15.8,
+            "precip_mm": 0.2,
+            "prob_chuva": 7,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-18",
+            "tmax": 24.6,
+            "tmin": 13.7,
+            "precip_mm": 0.0,
+            "prob_chuva": 2,
+            "weathercode": 2,
+            "tempo": "parcial"
+          },
+          {
+            "data": "2026-06-19",
+            "tmax": 24.8,
+            "tmin": 16.7,
+            "precip_mm": 1.8,
+            "prob_chuva": 17,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-20",
+            "tmax": 26.0,
+            "tmin": 16.9,
+            "precip_mm": 2.6,
+            "prob_chuva": 20,
+            "weathercode": 53,
+            "tempo": "garoa"
+          }
+        ],
+        "fonte": "Open-Meteo",
+        "atualizado_em": "2026-06-15T02:25:19Z"
+      }
+    },
+    {
+      "id": "corumbaiba",
+      "nome": "CORUMBAÍBA",
+      "ibge": 5205901,
+      "uf": "GO",
+      "lat": -18.1415,
+      "lon": -48.5626,
+      "area_soja_ha": null,
+      "clima": {
+        "ibge": 5205901,
+        "nome": "CORUMBAÍBA",
+        "uf": "GO",
+        "lat": -18.1415,
+        "lon": -48.5626,
+        "atual": {
+          "tmax": 26.5,
+          "tmin": 17.8,
+          "precip_mm": 3.0,
+          "prob_chuva": 76,
+          "weathercode": 53,
+          "tempo": "garoa"
+        },
+        "previsao_7d": [
+          {
+            "data": "2026-06-14",
+            "tmax": 26.5,
+            "tmin": 17.8,
+            "precip_mm": 3.0,
+            "prob_chuva": 76,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-15",
+            "tmax": 27.4,
+            "tmin": 17.0,
+            "precip_mm": 2.9,
+            "prob_chuva": 37,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-16",
+            "tmax": 24.7,
+            "tmin": 17.7,
+            "precip_mm": 0.4,
+            "prob_chuva": 39,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-17",
+            "tmax": 25.0,
+            "tmin": 15.3,
+            "precip_mm": 0.0,
+            "prob_chuva": 0,
+            "weathercode": 3,
+            "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-18",
+            "tmax": 26.9,
+            "tmin": 13.7,
+            "precip_mm": 0.0,
+            "prob_chuva": 2,
+            "weathercode": 2,
+            "tempo": "parcial"
+          },
+          {
+            "data": "2026-06-19",
+            "tmax": 28.4,
+            "tmin": 18.0,
+            "precip_mm": 4.3,
+            "prob_chuva": 24,
+            "weathercode": 55,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-20",
+            "tmax": 27.4,
+            "tmin": 17.7,
+            "precip_mm": 1.4,
+            "prob_chuva": 27,
+            "weathercode": 55,
+            "tempo": "garoa"
+          }
+        ],
+        "fonte": "Open-Meteo",
+        "atualizado_em": "2026-06-15T02:25:19Z"
+      }
+    },
+    {
+      "id": "cristalina",
+      "nome": "CRISTALINA",
+      "ibge": 5206206,
+      "uf": "GO",
+      "lat": -16.7676,
+      "lon": -47.6131,
+      "area_soja_ha": null,
+      "clima": {
+        "ibge": 5206206,
+        "nome": "CRISTALINA",
+        "uf": "GO",
+        "lat": -16.7676,
+        "lon": -47.6131,
+        "atual": {
+          "tmax": 23.8,
+          "tmin": 14.7,
+          "precip_mm": 0.8,
+          "prob_chuva": 55,
+          "weathercode": 51,
+          "tempo": "garoa"
+        },
+        "previsao_7d": [
+          {
+            "data": "2026-06-14",
+            "tmax": 23.8,
+            "tmin": 14.7,
+            "precip_mm": 0.8,
+            "prob_chuva": 55,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-15",
+            "tmax": 25.6,
+            "tmin": 16.5,
+            "precip_mm": 1.0,
+            "prob_chuva": 69,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-16",
+            "tmax": 23.1,
+            "tmin": 15.1,
+            "precip_mm": 3.1,
+            "prob_chuva": 91,
+            "weathercode": 61,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-17",
+            "tmax": 23.0,
+            "tmin": 15.5,
+            "precip_mm": 1.2,
+            "prob_chuva": 47,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-18",
+            "tmax": 23.1,
+            "tmin": 13.7,
+            "precip_mm": 0.0,
+            "prob_chuva": 4,
+            "weathercode": 1,
+            "tempo": "parcial"
+          },
+          {
+            "data": "2026-06-19",
+            "tmax": 22.2,
+            "tmin": 14.2,
+            "precip_mm": 0.0,
+            "prob_chuva": 7,
+            "weathercode": 3,
+            "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-20",
+            "tmax": 24.8,
+            "tmin": 15.5,
+            "precip_mm": 1.2,
+            "prob_chuva": 11,
+            "weathercode": 51,
+            "tempo": "garoa"
+          }
+        ],
+        "fonte": "Open-Meteo",
+        "atualizado_em": "2026-06-15T02:25:19Z"
+      }
+    },
+    {
+      "id": "cumari",
+      "nome": "CUMARI",
+      "ibge": 5206602,
+      "uf": "GO",
+      "lat": -18.2644,
+      "lon": -48.1511,
+      "area_soja_ha": null,
+      "clima": {
+        "ibge": 5206602,
+        "nome": "CUMARI",
+        "uf": "GO",
+        "lat": -18.2644,
+        "lon": -48.1511,
+        "atual": {
+          "tmax": 25.8,
+          "tmin": 17.4,
+          "precip_mm": 5.9,
+          "prob_chuva": 84,
+          "weathercode": 81,
+          "tempo": "chuva"
+        },
+        "previsao_7d": [
+          {
+            "data": "2026-06-14",
+            "tmax": 25.8,
+            "tmin": 17.4,
+            "precip_mm": 5.9,
+            "prob_chuva": 84,
+            "weathercode": 81,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-15",
+            "tmax": 26.4,
+            "tmin": 16.6,
+            "precip_mm": 2.5,
+            "prob_chuva": 33,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-16",
+            "tmax": 23.6,
+            "tmin": 17.0,
+            "precip_mm": 0.2,
+            "prob_chuva": 33,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-17",
+            "tmax": 24.0,
+            "tmin": 15.9,
+            "precip_mm": 0.0,
+            "prob_chuva": 2,
+            "weathercode": 2,
+            "tempo": "parcial"
+          },
+          {
+            "data": "2026-06-18",
+            "tmax": 25.7,
+            "tmin": 14.3,
+            "precip_mm": 0.0,
+            "prob_chuva": 2,
+            "weathercode": 2,
+            "tempo": "parcial"
+          },
+          {
+            "data": "2026-06-19",
+            "tmax": 26.4,
+            "tmin": 17.2,
+            "precip_mm": 2.4,
+            "prob_chuva": 21,
+            "weathercode": 55,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-20",
+            "tmax": 27.2,
+            "tmin": 16.9,
+            "precip_mm": 2.3,
+            "prob_chuva": 24,
+            "weathercode": 55,
+            "tempo": "garoa"
+          }
+        ],
+        "fonte": "Open-Meteo",
+        "atualizado_em": "2026-06-15T02:25:19Z"
+      }
+    },
+    {
+      "id": "davinopolis",
+      "nome": "DAVINÓPOLIS",
+      "ibge": 5206909,
+      "uf": "GO",
+      "lat": -18.1501,
+      "lon": -47.5568,
+      "area_soja_ha": null,
+      "clima": {
+        "ibge": 5206909,
+        "nome": "DAVINÓPOLIS",
+        "uf": "GO",
+        "lat": -18.1501,
+        "lon": -47.5568,
+        "atual": {
+          "tmax": 26.9,
+          "tmin": 16.8,
+          "precip_mm": 3.5,
+          "prob_chuva": 98,
+          "weathercode": 61,
+          "tempo": "chuva"
+        },
+        "previsao_7d": [
+          {
+            "data": "2026-06-14",
+            "tmax": 26.9,
+            "tmin": 16.8,
+            "precip_mm": 3.5,
+            "prob_chuva": 98,
+            "weathercode": 61,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-15",
+            "tmax": 27.7,
+            "tmin": 16.6,
+            "precip_mm": 2.1,
+            "prob_chuva": 63,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-16",
+            "tmax": 24.1,
+            "tmin": 16.6,
+            "precip_mm": 0.2,
+            "prob_chuva": 35,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-17",
+            "tmax": 24.9,
+            "tmin": 14.7,
+            "precip_mm": 0.0,
+            "prob_chuva": 4,
+            "weathercode": 3,
+            "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-18",
+            "tmax": 25.8,
+            "tmin": 13.8,
+            "precip_mm": 0.0,
+            "prob_chuva": 0,
+            "weathercode": 2,
+            "tempo": "parcial"
+          },
+          {
+            "data": "2026-06-19",
+            "tmax": 24.1,
+            "tmin": 16.3,
+            "precip_mm": 0.8,
+            "prob_chuva": 6,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-20",
+            "tmax": 27.5,
+            "tmin": 16.7,
+            "precip_mm": 1.9,
+            "prob_chuva": 14,
+            "weathercode": 51,
+            "tempo": "garoa"
+          }
+        ],
+        "fonte": "Open-Meteo",
+        "atualizado_em": "2026-06-15T02:25:19Z"
+      }
+    },
+    {
+      "id": "goiandira",
+      "nome": "GOIANDIRA",
+      "ibge": 5208509,
+      "uf": "GO",
+      "lat": -18.1352,
+      "lon": -48.0875,
+      "area_soja_ha": null,
+      "clima": {
+        "ibge": 5208509,
+        "nome": "GOIANDIRA",
+        "uf": "GO",
+        "lat": -18.1352,
+        "lon": -48.0875,
+        "atual": {
+          "tmax": 26.4,
+          "tmin": 17.3,
+          "precip_mm": 6.5,
+          "prob_chuva": 88,
+          "weathercode": 80,
+          "tempo": "chuva"
+        },
+        "previsao_7d": [
+          {
+            "data": "2026-06-14",
+            "tmax": 26.4,
+            "tmin": 17.3,
+            "precip_mm": 6.5,
+            "prob_chuva": 88,
+            "weathercode": 80,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-15",
+            "tmax": 26.7,
+            "tmin": 16.6,
+            "precip_mm": 3.7,
+            "prob_chuva": 47,
+            "weathercode": 61,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-16",
+            "tmax": 23.6,
+            "tmin": 16.4,
+            "precip_mm": 0.0,
+            "prob_chuva": 44,
+            "weathercode": 3,
+            "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-17",
+            "tmax": 24.4,
+            "tmin": 15.4,
+            "precip_mm": 0.0,
+            "prob_chuva": 7,
+            "weathercode": 2,
+            "tempo": "parcial"
+          },
+          {
+            "data": "2026-06-18",
+            "tmax": 25.8,
+            "tmin": 14.5,
+            "precip_mm": 0.0,
+            "prob_chuva": 2,
+            "weathercode": 2,
+            "tempo": "parcial"
+          },
+          {
+            "data": "2026-06-19",
+            "tmax": 26.7,
+            "tmin": 17.7,
+            "precip_mm": 1.3,
+            "prob_chuva": 17,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-20",
+            "tmax": 26.9,
+            "tmin": 16.9,
+            "precip_mm": 1.7,
+            "prob_chuva": 20,
+            "weathercode": 53,
+            "tempo": "garoa"
+          }
+        ],
+        "fonte": "Open-Meteo",
+        "atualizado_em": "2026-06-15T02:25:19Z"
+      }
+    },
+    {
+      "id": "ipameri",
+      "nome": "IPAMERI",
+      "ibge": 5210109,
+      "uf": "GO",
+      "lat": -17.7215,
+      "lon": -48.1581,
+      "area_soja_ha": null,
+      "clima": {
+        "ibge": 5210109,
+        "nome": "IPAMERI",
+        "uf": "GO",
+        "lat": -17.7215,
+        "lon": -48.1581,
+        "atual": {
+          "tmax": 26.5,
+          "tmin": 16.8,
+          "precip_mm": 2.3,
+          "prob_chuva": 84,
+          "weathercode": 53,
+          "tempo": "garoa"
+        },
+        "previsao_7d": [
+          {
+            "data": "2026-06-14",
+            "tmax": 26.5,
+            "tmin": 16.8,
+            "precip_mm": 2.3,
+            "prob_chuva": 84,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-15",
+            "tmax": 27.5,
+            "tmin": 17.0,
+            "precip_mm": 5.1,
+            "prob_chuva": 66,
+            "weathercode": 61,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-16",
+            "tmax": 23.5,
+            "tmin": 17.0,
+            "precip_mm": 0.9,
+            "prob_chuva": 50,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-17",
+            "tmax": 24.7,
+            "tmin": 15.6,
+            "precip_mm": 0.2,
+            "prob_chuva": 2,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-18",
+            "tmax": 26.1,
+            "tmin": 14.0,
+            "precip_mm": 0.0,
+            "prob_chuva": 6,
+            "weathercode": 2,
+            "tempo": "parcial"
+          },
+          {
+            "data": "2026-06-19",
+            "tmax": 27.1,
+            "tmin": 17.1,
+            "precip_mm": 2.8,
+            "prob_chuva": 23,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-20",
+            "tmax": 26.9,
+            "tmin": 16.8,
+            "precip_mm": 2.2,
+            "prob_chuva": 18,
+            "weathercode": 51,
+            "tempo": "garoa"
+          }
+        ],
+        "fonte": "Open-Meteo",
+        "atualizado_em": "2026-06-15T02:25:19Z"
+      }
+    },
+    {
+      "id": "nova_aurora",
+      "nome": "NOVA AURORA",
+      "ibge": 5214804,
+      "uf": "GO",
+      "lat": -18.0597,
+      "lon": -48.2552,
+      "area_soja_ha": null,
+      "clima": {
+        "ibge": 5214804,
+        "nome": "NOVA AURORA",
+        "uf": "GO",
+        "lat": -18.0597,
+        "lon": -48.2552,
+        "atual": {
+          "tmax": 26.5,
+          "tmin": 17.0,
+          "precip_mm": 5.0,
+          "prob_chuva": 82,
+          "weathercode": 63,
+          "tempo": "chuva"
+        },
+        "previsao_7d": [
+          {
+            "data": "2026-06-14",
+            "tmax": 26.5,
+            "tmin": 17.0,
+            "precip_mm": 5.0,
+            "prob_chuva": 82,
+            "weathercode": 63,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-15",
+            "tmax": 27.2,
+            "tmin": 16.7,
+            "precip_mm": 3.8,
+            "prob_chuva": 59,
+            "weathercode": 55,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-16",
+            "tmax": 23.9,
+            "tmin": 16.5,
+            "precip_mm": 0.4,
+            "prob_chuva": 49,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-17",
+            "tmax": 24.5,
+            "tmin": 15.5,
+            "precip_mm": 0.3,
+            "prob_chuva": 2,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-18",
+            "tmax": 25.8,
+            "tmin": 13.7,
+            "precip_mm": 0.0,
+            "prob_chuva": 2,
+            "weathercode": 2,
+            "tempo": "parcial"
+          },
+          {
+            "data": "2026-06-19",
+            "tmax": 26.8,
+            "tmin": 16.8,
+            "precip_mm": 2.2,
+            "prob_chuva": 17,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-20",
+            "tmax": 26.9,
+            "tmin": 16.6,
+            "precip_mm": 1.1,
+            "prob_chuva": 18,
+            "weathercode": 53,
+            "tempo": "garoa"
+          }
+        ],
+        "fonte": "Open-Meteo",
+        "atualizado_em": "2026-06-15T02:25:19Z"
+      }
+    },
+    {
+      "id": "orizona",
+      "nome": "ORIZONA",
+      "ibge": 5215306,
+      "uf": "GO",
+      "lat": -17.0334,
+      "lon": -48.2964,
+      "area_soja_ha": null,
+      "clima": {
+        "ibge": 5215306,
+        "nome": "ORIZONA",
+        "uf": "GO",
+        "lat": -17.0334,
+        "lon": -48.2964,
+        "atual": {
+          "tmax": 26.3,
+          "tmin": 16.3,
+          "precip_mm": 4.7,
+          "prob_chuva": 75,
+          "weathercode": 61,
+          "tempo": "chuva"
+        },
+        "previsao_7d": [
+          {
+            "data": "2026-06-14",
+            "tmax": 26.3,
+            "tmin": 16.3,
+            "precip_mm": 4.7,
+            "prob_chuva": 75,
+            "weathercode": 61,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-15",
+            "tmax": 28.8,
+            "tmin": 17.0,
+            "precip_mm": 2.9,
+            "prob_chuva": 67,
+            "weathercode": 61,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-16",
+            "tmax": 23.9,
+            "tmin": 15.9,
+            "precip_mm": 1.2,
+            "prob_chuva": 65,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-17",
+            "tmax": 25.5,
+            "tmin": 15.9,
+            "precip_mm": 0.2,
+            "prob_chuva": 24,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-18",
+            "tmax": 26.7,
+            "tmin": 14.4,
+            "precip_mm": 0.0,
+            "prob_chuva": 2,
+            "weathercode": 3,
+            "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-19",
+            "tmax": 27.1,
+            "tmin": 16.2,
+            "precip_mm": 2.8,
+            "prob_chuva": 33,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-20",
+            "tmax": 27.8,
+            "tmin": 16.9,
+            "precip_mm": 1.1,
+            "prob_chuva": 20,
+            "weathercode": 51,
+            "tempo": "garoa"
+          }
+        ],
+        "fonte": "Open-Meteo",
+        "atualizado_em": "2026-06-15T02:25:19Z"
+      }
+    },
+    {
+      "id": "ouvidor",
+      "nome": "OUVIDOR",
+      "ibge": 5215504,
+      "uf": "GO",
+      "lat": -18.2277,
+      "lon": -47.8355,
+      "area_soja_ha": null,
+      "clima": {
+        "ibge": 5215504,
+        "nome": "OUVIDOR",
+        "uf": "GO",
+        "lat": -18.2277,
+        "lon": -47.8355,
+        "atual": {
+          "tmax": 25.8,
+          "tmin": 17.0,
+          "precip_mm": 3.1,
+          "prob_chuva": 94,
+          "weathercode": 55,
+          "tempo": "garoa"
+        },
+        "previsao_7d": [
+          {
+            "data": "2026-06-14",
+            "tmax": 25.8,
+            "tmin": 17.0,
+            "precip_mm": 3.1,
+            "prob_chuva": 94,
+            "weathercode": 55,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-15",
+            "tmax": 26.0,
+            "tmin": 16.2,
+            "precip_mm": 3.0,
+            "prob_chuva": 60,
+            "weathercode": 80,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-16",
+            "tmax": 23.6,
+            "tmin": 16.1,
+            "precip_mm": 1.2,
+            "prob_chuva": 47,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-17",
+            "tmax": 23.9,
+            "tmin": 15.2,
+            "precip_mm": 0.2,
+            "prob_chuva": 6,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-18",
+            "tmax": 25.2,
+            "tmin": 12.7,
+            "precip_mm": 0.0,
+            "prob_chuva": 0,
+            "weathercode": 2,
+            "tempo": "parcial"
+          },
+          {
+            "data": "2026-06-19",
+            "tmax": 24.8,
+            "tmin": 15.7,
+            "precip_mm": 5.6,
+            "prob_chuva": 10,
+            "weathercode": 63,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-20",
+            "tmax": 26.4,
+            "tmin": 16.4,
+            "precip_mm": 4.8,
+            "prob_chuva": 24,
+            "weathercode": 63,
+            "tempo": "chuva"
+          }
+        ],
+        "fonte": "Open-Meteo",
+        "atualizado_em": "2026-06-15T02:25:19Z"
+      }
+    },
+    {
+      "id": "palmelo",
+      "nome": "PALMELO",
+      "ibge": 5215801,
+      "uf": "GO",
+      "lat": -17.3258,
+      "lon": -48.426,
+      "area_soja_ha": null,
+      "clima": {
+        "ibge": 5215801,
+        "nome": "PALMELO",
+        "uf": "GO",
+        "lat": -17.3258,
+        "lon": -48.426,
+        "atual": {
+          "tmax": 26.6,
+          "tmin": 16.2,
+          "precip_mm": 10.0,
+          "prob_chuva": 76,
+          "weathercode": 63,
+          "tempo": "chuva"
+        },
+        "previsao_7d": [
+          {
+            "data": "2026-06-14",
+            "tmax": 26.6,
+            "tmin": 16.2,
+            "precip_mm": 10.0,
+            "prob_chuva": 76,
+            "weathercode": 63,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-15",
+            "tmax": 28.7,
+            "tmin": 17.0,
+            "precip_mm": 2.9,
+            "prob_chuva": 45,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-16",
+            "tmax": 23.7,
+            "tmin": 16.9,
+            "precip_mm": 0.6,
+            "prob_chuva": 51,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-17",
+            "tmax": 25.5,
+            "tmin": 15.6,
+            "precip_mm": 0.2,
+            "prob_chuva": 16,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-18",
+            "tmax": 26.6,
+            "tmin": 14.8,
+            "precip_mm": 0.0,
+            "prob_chuva": 8,
+            "weathercode": 1,
+            "tempo": "parcial"
+          },
+          {
+            "data": "2026-06-19",
+            "tmax": 27.9,
+            "tmin": 17.5,
+            "precip_mm": 4.5,
+            "prob_chuva": 24,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-20",
+            "tmax": 27.7,
+            "tmin": 16.5,
+            "precip_mm": 2.6,
+            "prob_chuva": 21,
+            "weathercode": 53,
+            "tempo": "garoa"
+          }
+        ],
+        "fonte": "Open-Meteo",
+        "atualizado_em": "2026-06-15T02:25:19Z"
+      }
+    },
+    {
+      "id": "pires_do_rio",
+      "nome": "PIRES DO RIO",
+      "ibge": 5217401,
+      "uf": "GO",
+      "lat": -17.3019,
+      "lon": -48.2768,
+      "area_soja_ha": null,
+      "clima": {
+        "ibge": 5217401,
+        "nome": "PIRES DO RIO",
+        "uf": "GO",
+        "lat": -17.3019,
+        "lon": -48.2768,
+        "atual": {
+          "tmax": 26.4,
+          "tmin": 16.2,
+          "precip_mm": 10.2,
+          "prob_chuva": 78,
+          "weathercode": 63,
+          "tempo": "chuva"
+        },
+        "previsao_7d": [
+          {
+            "data": "2026-06-14",
+            "tmax": 26.4,
+            "tmin": 16.2,
+            "precip_mm": 10.2,
+            "prob_chuva": 78,
+            "weathercode": 63,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-15",
+            "tmax": 27.9,
+            "tmin": 16.6,
+            "precip_mm": 1.8,
+            "prob_chuva": 67,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-16",
+            "tmax": 23.9,
+            "tmin": 16.6,
+            "precip_mm": 0.6,
+            "prob_chuva": 46,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-17",
+            "tmax": 25.6,
+            "tmin": 15.5,
+            "precip_mm": 0.0,
+            "prob_chuva": 2,
+            "weathercode": 3,
+            "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-18",
+            "tmax": 26.7,
+            "tmin": 14.5,
+            "precip_mm": 0.0,
+            "prob_chuva": 2,
+            "weathercode": 3,
+            "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-19",
+            "tmax": 27.8,
+            "tmin": 17.3,
+            "precip_mm": 5.7,
+            "prob_chuva": 25,
+            "weathercode": 61,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-20",
+            "tmax": 27.8,
+            "tmin": 16.4,
+            "precip_mm": 0.9,
+            "prob_chuva": 25,
+            "weathercode": 51,
+            "tempo": "garoa"
+          }
+        ],
+        "fonte": "Open-Meteo",
+        "atualizado_em": "2026-06-15T02:25:19Z"
+      }
+    },
+    {
+      "id": "santa_cruz_de_goias",
+      "nome": "SANTA CRUZ DE GOIÁS",
+      "ibge": 5219209,
+      "uf": "GO",
+      "lat": -17.3155,
+      "lon": -48.4809,
+      "area_soja_ha": null,
+      "clima": {
+        "ibge": 5219209,
+        "nome": "SANTA CRUZ DE GOIÁS",
+        "uf": "GO",
+        "lat": -17.3155,
+        "lon": -48.4809,
+        "atual": {
+          "tmax": 26.6,
+          "tmin": 16.2,
+          "precip_mm": 10.0,
+          "prob_chuva": 76,
+          "weathercode": 63,
+          "tempo": "chuva"
+        },
+        "previsao_7d": [
+          {
+            "data": "2026-06-14",
+            "tmax": 26.6,
+            "tmin": 16.2,
+            "precip_mm": 10.0,
+            "prob_chuva": 76,
+            "weathercode": 63,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-15",
+            "tmax": 28.7,
+            "tmin": 17.0,
+            "precip_mm": 2.9,
+            "prob_chuva": 45,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-16",
+            "tmax": 23.7,
+            "tmin": 16.9,
+            "precip_mm": 0.6,
+            "prob_chuva": 51,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-17",
+            "tmax": 25.5,
+            "tmin": 15.6,
+            "precip_mm": 0.2,
+            "prob_chuva": 16,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-18",
+            "tmax": 26.6,
+            "tmin": 14.8,
+            "precip_mm": 0.0,
+            "prob_chuva": 8,
+            "weathercode": 1,
+            "tempo": "parcial"
+          },
+          {
+            "data": "2026-06-19",
+            "tmax": 27.9,
+            "tmin": 17.5,
+            "precip_mm": 4.5,
+            "prob_chuva": 24,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-20",
+            "tmax": 27.7,
+            "tmin": 16.5,
+            "precip_mm": 2.6,
+            "prob_chuva": 21,
+            "weathercode": 53,
+            "tempo": "garoa"
+          }
+        ],
+        "fonte": "Open-Meteo",
+        "atualizado_em": "2026-06-15T02:25:19Z"
+      }
+    },
+    {
+      "id": "tres_ranchos",
+      "nome": "TRÊS RANCHOS",
+      "ibge": 5221304,
+      "uf": "GO",
+      "lat": -18.3539,
+      "lon": -47.776,
+      "area_soja_ha": null,
+      "clima": {
+        "ibge": 5221304,
+        "nome": "TRÊS RANCHOS",
+        "uf": "GO",
+        "lat": -18.3539,
+        "lon": -47.776,
+        "atual": {
+          "tmax": 25.9,
+          "tmin": 18.4,
+          "precip_mm": 2.6,
+          "prob_chuva": 94,
+          "weathercode": 53,
+          "tempo": "garoa"
+        },
+        "previsao_7d": [
+          {
+            "data": "2026-06-14",
+            "tmax": 25.9,
+            "tmin": 18.4,
+            "precip_mm": 2.6,
+            "prob_chuva": 94,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-15",
+            "tmax": 25.3,
+            "tmin": 17.8,
+            "precip_mm": 3.6,
+            "prob_chuva": 60,
+            "weathercode": 80,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-16",
+            "tmax": 23.5,
+            "tmin": 18.4,
+            "precip_mm": 0.6,
+            "prob_chuva": 47,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-17",
+            "tmax": 24.1,
+            "tmin": 16.8,
+            "precip_mm": 0.0,
+            "prob_chuva": 6,
+            "weathercode": 3,
+            "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-18",
+            "tmax": 25.0,
+            "tmin": 15.6,
+            "precip_mm": 0.0,
+            "prob_chuva": 0,
+            "weathercode": 2,
+            "tempo": "parcial"
+          },
+          {
+            "data": "2026-06-19",
+            "tmax": 24.4,
+            "tmin": 17.2,
+            "precip_mm": 2.8,
+            "prob_chuva": 10,
+            "weathercode": 61,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-20",
+            "tmax": 26.2,
+            "tmin": 17.8,
+            "precip_mm": 3.4,
+            "prob_chuva": 24,
+            "weathercode": 61,
+            "tempo": "chuva"
+          }
+        ],
+        "fonte": "Open-Meteo",
+        "atualizado_em": "2026-06-15T02:25:19Z"
+      }
+    },
+    {
+      "id": "urutai",
+      "nome": "URUTAÍ",
+      "ibge": 5221809,
+      "uf": "GO",
+      "lat": -17.4651,
+      "lon": -48.2015,
+      "area_soja_ha": null,
+      "clima": {
+        "ibge": 5221809,
+        "nome": "URUTAÍ",
+        "uf": "GO",
+        "lat": -17.4651,
+        "lon": -48.2015,
+        "atual": {
+          "tmax": 26.2,
+          "tmin": 17.1,
+          "precip_mm": 2.8,
+          "prob_chuva": 78,
+          "weathercode": 53,
+          "tempo": "garoa"
+        },
+        "previsao_7d": [
+          {
+            "data": "2026-06-14",
+            "tmax": 26.2,
+            "tmin": 17.1,
+            "precip_mm": 2.8,
+            "prob_chuva": 78,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-15",
+            "tmax": 28.3,
+            "tmin": 17.2,
+            "precip_mm": 3.1,
+            "prob_chuva": 59,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-16",
+            "tmax": 24.2,
+            "tmin": 16.9,
+            "precip_mm": 0.8,
+            "prob_chuva": 51,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-17",
+            "tmax": 25.8,
+            "tmin": 15.6,
+            "precip_mm": 0.2,
+            "prob_chuva": 11,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-18",
+            "tmax": 26.9,
+            "tmin": 15.4,
+            "precip_mm": 0.0,
+            "prob_chuva": 2,
+            "weathercode": 1,
+            "tempo": "parcial"
+          },
+          {
+            "data": "2026-06-19",
+            "tmax": 27.8,
+            "tmin": 17.7,
+            "precip_mm": 5.9,
+            "prob_chuva": 23,
+            "weathercode": 61,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-20",
+            "tmax": 27.5,
+            "tmin": 16.9,
+            "precip_mm": 1.6,
+            "prob_chuva": 9,
+            "weathercode": 51,
+            "tempo": "garoa"
+          }
+        ],
+        "fonte": "Open-Meteo",
+        "atualizado_em": "2026-06-15T02:25:19Z"
+      }
+    },
+    {
+      "id": "abadia_dos_dourados",
+      "nome": "ABADIA DOS DOURADOS",
+      "ibge": 3100104,
+      "uf": "MG",
+      "lat": -18.4831,
+      "lon": -47.3916,
+      "area_soja_ha": null,
+      "clima": {
+        "ibge": 3100104,
+        "nome": "ABADIA DOS DOURADOS",
+        "uf": "MG",
+        "lat": -18.4831,
+        "lon": -47.3916,
+        "atual": {
+          "tmax": 26.5,
+          "tmin": 16.8,
+          "precip_mm": 7.9,
+          "prob_chuva": 100,
+          "weathercode": 61,
+          "tempo": "chuva"
+        },
+        "previsao_7d": [
+          {
+            "data": "2026-06-14",
+            "tmax": 26.5,
+            "tmin": 16.8,
+            "precip_mm": 7.9,
+            "prob_chuva": 100,
+            "weathercode": 61,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-15",
+            "tmax": 26.6,
+            "tmin": 16.0,
+            "precip_mm": 2.3,
+            "prob_chuva": 68,
+            "weathercode": 55,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-16",
+            "tmax": 24.1,
+            "tmin": 16.4,
+            "precip_mm": 0.6,
+            "prob_chuva": 68,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-17",
+            "tmax": 24.5,
+            "tmin": 14.5,
+            "precip_mm": 0.0,
+            "prob_chuva": 14,
+            "weathercode": 3,
+            "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-18",
+            "tmax": 25.5,
+            "tmin": 13.8,
+            "precip_mm": 0.0,
+            "prob_chuva": 2,
+            "weathercode": 2,
+            "tempo": "parcial"
+          },
+          {
+            "data": "2026-06-19",
+            "tmax": 23.2,
+            "tmin": 15.7,
+            "precip_mm": 0.2,
+            "prob_chuva": 6,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-20",
+            "tmax": 26.3,
+            "tmin": 16.4,
+            "precip_mm": 3.0,
+            "prob_chuva": 20,
+            "weathercode": 51,
+            "tempo": "garoa"
+          }
+        ],
+        "fonte": "Open-Meteo",
+        "atualizado_em": "2026-06-15T02:25:19Z"
+      }
+    },
+    {
+      "id": "cascalho_rico",
+      "nome": "CASCALHO RICO",
+      "ibge": 3115003,
+      "uf": "MG",
+      "lat": -18.5772,
+      "lon": -47.8716,
+      "area_soja_ha": null,
+      "clima": {
+        "ibge": 3115003,
+        "nome": "CASCALHO RICO",
+        "uf": "MG",
+        "lat": -18.5772,
+        "lon": -47.8716,
+        "atual": {
+          "tmax": 26.1,
+          "tmin": 18.2,
+          "precip_mm": 7.7,
+          "prob_chuva": 100,
+          "weathercode": 81,
+          "tempo": "chuva"
+        },
+        "previsao_7d": [
+          {
+            "data": "2026-06-14",
+            "tmax": 26.1,
+            "tmin": 18.2,
+            "precip_mm": 7.7,
+            "prob_chuva": 100,
+            "weathercode": 81,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-15",
+            "tmax": 25.4,
+            "tmin": 17.8,
+            "precip_mm": 2.8,
+            "prob_chuva": 52,
+            "weathercode": 80,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-16",
+            "tmax": 24.1,
+            "tmin": 17.9,
+            "precip_mm": 0.3,
+            "prob_chuva": 43,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-17",
+            "tmax": 24.9,
+            "tmin": 16.2,
+            "precip_mm": 0.0,
+            "prob_chuva": 7,
+            "weathercode": 2,
+            "tempo": "parcial"
+          },
+          {
+            "data": "2026-06-18",
+            "tmax": 24.9,
+            "tmin": 15.5,
+            "precip_mm": 0.0,
+            "prob_chuva": 0,
+            "weathercode": 3,
+            "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-19",
+            "tmax": 24.5,
+            "tmin": 17.3,
+            "precip_mm": 1.0,
+            "prob_chuva": 7,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-20",
+            "tmax": 26.2,
+            "tmin": 18.3,
+            "precip_mm": 1.0,
+            "prob_chuva": 14,
+            "weathercode": 53,
+            "tempo": "garoa"
+          }
+        ],
+        "fonte": "Open-Meteo",
+        "atualizado_em": "2026-06-15T02:25:19Z"
+      }
+    },
+    {
+      "id": "douradoquara",
+      "nome": "DOURADOQUARA",
+      "ibge": 3123502,
+      "uf": "MG",
+      "lat": -18.4338,
+      "lon": -47.5993,
+      "area_soja_ha": null,
+      "clima": {
+        "ibge": 3123502,
+        "nome": "DOURADOQUARA",
+        "uf": "MG",
+        "lat": -18.4338,
+        "lon": -47.5993,
+        "atual": {
+          "tmax": 26.6,
+          "tmin": 17.8,
+          "precip_mm": 5.2,
+          "prob_chuva": 100,
+          "weathercode": 63,
+          "tempo": "chuva"
+        },
+        "previsao_7d": [
+          {
+            "data": "2026-06-14",
+            "tmax": 26.6,
+            "tmin": 17.8,
+            "precip_mm": 5.2,
+            "prob_chuva": 100,
+            "weathercode": 63,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-15",
+            "tmax": 26.0,
+            "tmin": 17.2,
+            "precip_mm": 2.2,
+            "prob_chuva": 68,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-16",
+            "tmax": 24.3,
+            "tmin": 17.0,
+            "precip_mm": 0.8,
+            "prob_chuva": 68,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-17",
+            "tmax": 24.3,
+            "tmin": 15.1,
+            "precip_mm": 0.0,
+            "prob_chuva": 14,
+            "weathercode": 3,
+            "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-18",
+            "tmax": 26.1,
+            "tmin": 13.7,
+            "precip_mm": 0.0,
+            "prob_chuva": 2,
+            "weathercode": 2,
+            "tempo": "parcial"
+          },
+          {
+            "data": "2026-06-19",
+            "tmax": 24.5,
+            "tmin": 16.3,
+            "precip_mm": 1.6,
+            "prob_chuva": 6,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-20",
+            "tmax": 26.8,
+            "tmin": 16.8,
+            "precip_mm": 2.2,
+            "prob_chuva": 20,
+            "weathercode": 53,
+            "tempo": "garoa"
+          }
+        ],
+        "fonte": "Open-Meteo",
+        "atualizado_em": "2026-06-15T02:25:19Z"
+      }
+    },
+    {
+      "id": "estrela_do_sul",
+      "nome": "ESTRELA DO SUL",
+      "ibge": 3124807,
+      "uf": "MG",
+      "lat": -18.7399,
+      "lon": -47.6956,
+      "area_soja_ha": null,
+      "clima": {
+        "ibge": 3124807,
+        "nome": "ESTRELA DO SUL",
+        "uf": "MG",
+        "lat": -18.7399,
+        "lon": -47.6956,
+        "atual": {
+          "tmax": 24.8,
+          "tmin": 16.5,
+          "precip_mm": 12.7,
+          "prob_chuva": 100,
+          "weathercode": 81,
+          "tempo": "chuva"
+        },
+        "previsao_7d": [
+          {
+            "data": "2026-06-14",
+            "tmax": 24.8,
+            "tmin": 16.5,
+            "precip_mm": 12.7,
+            "prob_chuva": 100,
+            "weathercode": 81,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-15",
+            "tmax": 25.4,
+            "tmin": 15.8,
+            "precip_mm": 2.8,
+            "prob_chuva": 83,
+            "weathercode": 61,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-16",
+            "tmax": 23.2,
+            "tmin": 16.3,
+            "precip_mm": 1.1,
+            "prob_chuva": 63,
+            "weathercode": 55,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-17",
+            "tmax": 24.0,
+            "tmin": 14.2,
+            "precip_mm": 0.0,
+            "prob_chuva": 27,
+            "weathercode": 3,
+            "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-18",
+            "tmax": 24.3,
+            "tmin": 13.7,
+            "precip_mm": 0.0,
+            "prob_chuva": 0,
+            "weathercode": 3,
+            "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-19",
+            "tmax": 23.7,
+            "tmin": 15.2,
+            "precip_mm": 0.2,
+            "prob_chuva": 9,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-20",
+            "tmax": 24.9,
+            "tmin": 15.8,
+            "precip_mm": 0.6,
+            "prob_chuva": 16,
+            "weathercode": 51,
+            "tempo": "garoa"
+          }
+        ],
+        "fonte": "Open-Meteo",
+        "atualizado_em": "2026-06-15T02:25:19Z"
+      }
+    },
+    {
+      "id": "grupiara",
+      "nome": "GRUPIARA",
+      "ibge": 3127909,
+      "uf": "MG",
+      "lat": -18.5003,
+      "lon": -47.7318,
+      "area_soja_ha": null,
+      "clima": {
+        "ibge": 3127909,
+        "nome": "GRUPIARA",
+        "uf": "MG",
+        "lat": -18.5003,
+        "lon": -47.7318,
+        "atual": {
+          "tmax": 26.2,
+          "tmin": 18.3,
+          "precip_mm": 5.4,
+          "prob_chuva": 100,
+          "weathercode": 63,
+          "tempo": "chuva"
+        },
+        "previsao_7d": [
+          {
+            "data": "2026-06-14",
+            "tmax": 26.2,
+            "tmin": 18.3,
+            "precip_mm": 5.4,
+            "prob_chuva": 100,
+            "weathercode": 63,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-15",
+            "tmax": 25.5,
+            "tmin": 17.9,
+            "precip_mm": 2.5,
+            "prob_chuva": 52,
+            "weathercode": 55,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-16",
+            "tmax": 23.8,
+            "tmin": 17.9,
+            "precip_mm": 1.1,
+            "prob_chuva": 43,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-17",
+            "tmax": 24.4,
+            "tmin": 16.1,
+            "precip_mm": 0.0,
+            "prob_chuva": 7,
+            "weathercode": 2,
+            "tempo": "parcial"
+          },
+          {
+            "data": "2026-06-18",
+            "tmax": 25.3,
+            "tmin": 15.0,
+            "precip_mm": 0.0,
+            "prob_chuva": 0,
+            "weathercode": 2,
+            "tempo": "parcial"
+          },
+          {
+            "data": "2026-06-19",
+            "tmax": 24.2,
+            "tmin": 17.0,
+            "precip_mm": 2.0,
+            "prob_chuva": 7,
+            "weathercode": 55,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-20",
+            "tmax": 26.2,
+            "tmin": 17.8,
+            "precip_mm": 2.1,
+            "prob_chuva": 14,
+            "weathercode": 55,
+            "tempo": "garoa"
+          }
+        ],
+        "fonte": "Open-Meteo",
+        "atualizado_em": "2026-06-15T02:25:19Z"
+      }
+    },
+    {
+      "id": "guarda_mor",
+      "nome": "GUARDA-MOR",
+      "ibge": 3128600,
+      "uf": "MG",
+      "lat": -17.7673,
+      "lon": -47.0998,
+      "area_soja_ha": null,
+      "clima": {
+        "ibge": 3128600,
+        "nome": "GUARDA-MOR",
+        "uf": "MG",
+        "lat": -17.7673,
+        "lon": -47.0998,
+        "atual": {
+          "tmax": 26.7,
+          "tmin": 17.3,
+          "precip_mm": 1.3,
+          "prob_chuva": 61,
+          "weathercode": 53,
+          "tempo": "garoa"
+        },
+        "previsao_7d": [
+          {
+            "data": "2026-06-14",
+            "tmax": 26.7,
+            "tmin": 17.3,
+            "precip_mm": 1.3,
+            "prob_chuva": 61,
+            "weathercode": 53,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-15",
+            "tmax": 26.5,
+            "tmin": 17.5,
+            "precip_mm": 4.2,
+            "prob_chuva": 57,
+            "weathercode": 55,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-16",
+            "tmax": 25.3,
+            "tmin": 16.9,
+            "precip_mm": 0.3,
+            "prob_chuva": 57,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-17",
+            "tmax": 26.4,
+            "tmin": 16.0,
+            "precip_mm": 0.1,
+            "prob_chuva": 18,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-18",
+            "tmax": 24.8,
+            "tmin": 15.0,
+            "precip_mm": 0.0,
+            "prob_chuva": 2,
+            "weathercode": 3,
+            "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-19",
+            "tmax": 23.6,
+            "tmin": 15.9,
+            "precip_mm": 0.6,
+            "prob_chuva": 4,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-20",
+            "tmax": 26.5,
+            "tmin": 17.2,
+            "precip_mm": 3.3,
+            "prob_chuva": 4,
+            "weathercode": 53,
+            "tempo": "garoa"
+          }
+        ],
+        "fonte": "Open-Meteo",
+        "atualizado_em": "2026-06-15T02:25:19Z"
+      }
+    },
+    {
+      "id": "monte_carmelo",
+      "nome": "MONTE CARMELO",
+      "ibge": 3143104,
+      "uf": "MG",
+      "lat": -18.7302,
+      "lon": -47.4912,
+      "area_soja_ha": null,
+      "clima": {
+        "ibge": 3143104,
+        "nome": "MONTE CARMELO",
+        "uf": "MG",
+        "lat": -18.7302,
+        "lon": -47.4912,
+        "atual": {
+          "tmax": 25.3,
+          "tmin": 16.4,
+          "precip_mm": 12.0,
+          "prob_chuva": 100,
+          "weathercode": 63,
+          "tempo": "chuva"
+        },
+        "previsao_7d": [
+          {
+            "data": "2026-06-14",
+            "tmax": 25.3,
+            "tmin": 16.4,
+            "precip_mm": 12.0,
+            "prob_chuva": 100,
+            "weathercode": 63,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-15",
+            "tmax": 24.8,
+            "tmin": 16.0,
+            "precip_mm": 4.1,
+            "prob_chuva": 80,
+            "weathercode": 61,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-16",
+            "tmax": 22.8,
+            "tmin": 16.3,
+            "precip_mm": 0.2,
+            "prob_chuva": 55,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-17",
+            "tmax": 23.8,
+            "tmin": 14.2,
+            "precip_mm": 0.0,
+            "prob_chuva": 24,
+            "weathercode": 3,
+            "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-18",
+            "tmax": 23.9,
+            "tmin": 13.7,
+            "precip_mm": 0.0,
+            "prob_chuva": 0,
+            "weathercode": 3,
+            "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-19",
+            "tmax": 22.7,
+            "tmin": 14.9,
+            "precip_mm": 0.2,
+            "prob_chuva": 5,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-20",
+            "tmax": 24.9,
+            "tmin": 15.7,
+            "precip_mm": 0.9,
+            "prob_chuva": 13,
+            "weathercode": 51,
+            "tempo": "garoa"
+          }
+        ],
+        "fonte": "Open-Meteo",
+        "atualizado_em": "2026-06-15T02:25:19Z"
+      }
+    },
+    {
+      "id": "paracatu",
+      "nome": "PARACATU",
+      "ibge": 3147006,
+      "uf": "MG",
+      "lat": -17.2252,
+      "lon": -46.8711,
+      "area_soja_ha": null,
+      "clima": {
+        "ibge": 3147006,
+        "nome": "PARACATU",
+        "uf": "MG",
+        "lat": -17.2252,
+        "lon": -46.8711,
+        "atual": {
+          "tmax": 26.2,
+          "tmin": 17.0,
+          "precip_mm": 1.5,
+          "prob_chuva": 57,
+          "weathercode": 55,
+          "tempo": "garoa"
+        },
+        "previsao_7d": [
+          {
+            "data": "2026-06-14",
+            "tmax": 26.2,
+            "tmin": 17.0,
+            "precip_mm": 1.5,
+            "prob_chuva": 57,
+            "weathercode": 55,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-15",
+            "tmax": 26.8,
+            "tmin": 17.0,
+            "precip_mm": 4.4,
+            "prob_chuva": 34,
+            "weathercode": 81,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-16",
+            "tmax": 24.6,
+            "tmin": 16.8,
+            "precip_mm": 0.7,
+            "prob_chuva": 61,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-17",
+            "tmax": 25.1,
+            "tmin": 16.2,
+            "precip_mm": 0.2,
+            "prob_chuva": 16,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-18",
+            "tmax": 24.8,
+            "tmin": 15.3,
+            "precip_mm": 0.0,
+            "prob_chuva": 3,
+            "weathercode": 2,
+            "tempo": "parcial"
+          },
+          {
+            "data": "2026-06-19",
+            "tmax": 24.8,
+            "tmin": 16.8,
+            "precip_mm": 0.3,
+            "prob_chuva": 4,
+            "weathercode": 51,
+            "tempo": "garoa"
+          },
+          {
+            "data": "2026-06-20",
+            "tmax": 26.7,
+            "tmin": 17.1,
+            "precip_mm": 0.3,
+            "prob_chuva": 4,
+            "weathercode": 51,
+            "tempo": "garoa"
+          }
+        ],
+        "fonte": "Open-Meteo",
+        "atualizado_em": "2026-06-15T02:25:19Z"
+      }
+    },
+    {
+      "id": "vazante",
+      "nome": "VAZANTE",
+      "ibge": 3171006,
+      "uf": "MG",
+      "lat": -17.9827,
+      "lon": -46.9088,
+      "area_soja_ha": null,
+      "clima": {
+        "ibge": 3171006,
+        "nome": "VAZANTE",
+        "uf": "MG",
+        "lat": -17.9827,
+        "lon": -46.9088,
+        "atual": {
+          "tmax": 25.6,
+          "tmin": 16.7,
+          "precip_mm": 4.0,
+          "prob_chuva": 94,
+          "weathercode": 61,
+          "tempo": "chuva"
+        },
+        "previsao_7d": [
+          {
+            "data": "2026-06-14",
+            "tmax": 25.6,
+            "tmin": 16.7,
+            "precip_mm": 4.0,
+            "prob_chuva": 94,
+            "weathercode": 61,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-15",
+            "tmax": 26.3,
+            "tmin": 16.1,
+            "precip_mm": 6.9,
+            "prob_chuva": 71,
+            "weathercode": 81,
+            "tempo": "chuva"
+          },
+          {
+            "data": "2026-06-16",
+            "tmax": 24.2,
+            "tmin": 16.2,
+            "precip_mm": 0.0,
+            "prob_chuva": 56,
+            "weathercode": 3,
+            "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-17",
+            "tmax": 25.1,
+            "tmin": 15.0,
+            "precip_mm": 0.0,
+            "prob_chuva": 16,
+            "weathercode": 3,
+            "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-18",
+            "tmax": 24.6,
+            "tmin": 14.1,
+            "precip_mm": 0.0,
+            "prob_chuva": 4,
+            "weathercode": 2,
+            "tempo": "parcial"
+          },
+          {
+            "data": "2026-06-19",
+            "tmax": 22.9,
+            "tmin": 16.1,
+            "precip_mm": 0.0,
+            "prob_chuva": 3,
+            "weathercode": 3,
+            "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-20",
+            "tmax": 25.5,
+            "tmin": 16.6,
+            "precip_mm": 1.2,
+            "prob_chuva": 4,
+            "weathercode": 51,
+            "tempo": "garoa"
+          }
+        ],
+        "fonte": "Open-Meteo",
+        "atualizado_em": "2026-06-15T02:25:19Z"
+      }
+    }
+  ],
+  "alertas": {
+    "ativos": [],
+    "ufs": [
+      "GO",
+      "MG"
+    ]
+  },
+  "colheita": {
+    "status": "pendente",
+    "fonte": null,
+    "itens": []
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "distrito": {
+    "id": "julio_de_castilhos_soja",
+    "nome": "JULIO DE CASTILHOS-SOJA",
+    "regional": "RS SOJA",
+    "codigo_regional": "RSSO",
+    "uf": "RS",
+    "ufs": [
+      "RS"
+    ],
+    "cultura_principal": "soja"
+  },
+  "gerado_em": "2026-06-15T02:42:15+00:00",
+  "municipios": [
+    {
+      "id": "augusto_pestana",
+      "nome": "AUGUSTO PESTANA",
+      "ibge": 4301503,
+      "uf": "RS",
+      "lat": -28.5172,
+      "lon": -53.9883,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "boa_vista_do_cadeado",
+      "nome": "BOA VISTA DO CADEADO",
+      "ibge": 4302220,
+      "uf": "RS",
+      "lat": -28.5791,
+      "lon": -53.8108,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "boa_vista_do_incra",
+      "nome": "BOA VISTA DO INCRA",
+      "ibge": 4302238,
+      "uf": "RS",
+      "lat": -28.8185,
+      "lon": -53.391,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "cruz_alta",
+      "nome": "CRUZ ALTA",
+      "ibge": 4306106,
+      "uf": "RS",
+      "lat": -28.645,
+      "lon": -53.6048,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "entre_ijuis",
+      "nome": "ENTRE-IJUÍS",
+      "ibge": 4306932,
+      "uf": "RS",
+      "lat": -28.3686,
+      "lon": -54.2686,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "eugenio_de_castro",
+      "nome": "EUGÊNIO DE CASTRO",
+      "ibge": 4307831,
+      "uf": "RS",
+      "lat": -28.5315,
+      "lon": -54.1506,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "ivora",
+      "nome": "IVORÁ",
+      "ibge": 4310751,
+      "uf": "RS",
+      "lat": -29.5232,
+      "lon": -53.5842,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "jaguari",
+      "nome": "JAGUARI",
+      "ibge": 4311106,
+      "uf": "RS",
+      "lat": -29.4936,
+      "lon": -54.703,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "jari",
+      "nome": "JARI",
+      "ibge": 4311130,
+      "uf": "RS",
+      "lat": -29.2922,
+      "lon": -54.2237,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "joia",
+      "nome": "JÓIA",
+      "ibge": 4311155,
+      "uf": "RS",
+      "lat": -28.6435,
+      "lon": -54.1141,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "julio_de_castilhos",
+      "nome": "JÚLIO DE CASTILHOS",
+      "ibge": 4311205,
+      "uf": "RS",
+      "lat": -29.2299,
+      "lon": -53.6772,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "nova_esperanca_do_sul",
+      "nome": "NOVA ESPERANÇA DO SUL",
+      "ibge": 4313037,
+      "uf": "RS",
+      "lat": -29.4066,
+      "lon": -54.8293,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "pejucara",
+      "nome": "PEJUÇARA",
+      "ibge": 4314308,
+      "uf": "RS",
+      "lat": -28.4283,
+      "lon": -53.6579,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "pinhal_grande",
+      "nome": "PINHAL GRANDE",
+      "ibge": 4314472,
+      "uf": "RS",
+      "lat": -29.345,
+      "lon": -53.3206,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "quevedos",
+      "nome": "QUEVEDOS",
+      "ibge": 4315321,
+      "uf": "RS",
+      "lat": -29.3504,
+      "lon": -54.0789,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "santiago",
+      "nome": "SANTIAGO",
+      "ibge": 4317400,
+      "uf": "RS",
+      "lat": -29.1897,
+      "lon": -54.8666,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "sao_francisco_de_assis",
+      "nome": "SÃO FRANCISCO DE ASSIS",
+      "ibge": 4318101,
+      "uf": "RS",
+      "lat": -29.5547,
+      "lon": -55.1253,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "sao_martinho_da_serra",
+      "nome": "SÃO MARTINHO DA SERRA",
+      "ibge": 4319125,
+      "uf": "RS",
+      "lat": -29.5397,
+      "lon": -53.859,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "sao_miguel_das_missoes",
+      "nome": "SÃO MIGUEL DAS MISSÕES",
+      "ibge": 4319158,
+      "uf": "RS",
+      "lat": -28.556,
+      "lon": -54.5559,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "tupancireta",
+      "nome": "TUPANCIRETÃ",
+      "ibge": 4322202,
+      "uf": "RS",
+      "lat": -29.0858,
+      "lon": -53.8445,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "vitoria_das_missoes",
+      "nome": "VITÓRIA DAS MISSÕES",
+      "ibge": 4323754,
+      "uf": "RS",
+      "lat": -28.3516,
+      "lon": -54.504,
+      "area_soja_ha": null,
+      "clima": null
+    }
+  ],
+  "alertas": {
+    "ativos": [],
+    "ufs": [
+      "RS"
+    ]
+  },
+  "colheita": {
+    "status": "pendente",
+    "fonte": null,
+    "itens": []
+  }
+}

@@ -1,0 +1,417 @@
+{
+  "distrito": {
+    "id": "erechim_soja",
+    "nome": "ERECHIM-SOJA",
+    "regional": "RS SOJA",
+    "codigo_regional": "RSSO",
+    "uf": "RS",
+    "ufs": [
+      "RS"
+    ],
+    "cultura_principal": "soja"
+  },
+  "gerado_em": "2026-06-15T02:40:54+00:00",
+  "municipios": [
+    {
+      "id": "aratiba",
+      "nome": "ARATIBA",
+      "ibge": 4300901,
+      "uf": "RS",
+      "lat": -27.3978,
+      "lon": -52.2975,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "aurea",
+      "nome": "ÁUREA",
+      "ibge": 4301552,
+      "uf": "RS",
+      "lat": -27.6936,
+      "lon": -52.0505,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "barao_de_cotegipe",
+      "nome": "BARÃO DE COTEGIPE",
+      "ibge": 4301701,
+      "uf": "RS",
+      "lat": -27.6208,
+      "lon": -52.3798,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "barra_do_rio_azul",
+      "nome": "BARRA DO RIO AZUL",
+      "ibge": 4301925,
+      "uf": "RS",
+      "lat": -27.4069,
+      "lon": -52.4084,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "barracao",
+      "nome": "BARRACÃO",
+      "ibge": 4301800,
+      "uf": "RS",
+      "lat": -27.6739,
+      "lon": -51.4585,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "benjamin_constant_do_sul",
+      "nome": "BENJAMIN CONSTANT DO SUL",
+      "ibge": 4302055,
+      "uf": "RS",
+      "lat": -27.5086,
+      "lon": -52.5995,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "cacique_doble",
+      "nome": "CACIQUE DOBLE",
+      "ibge": 4303202,
+      "uf": "RS",
+      "lat": -27.767,
+      "lon": -51.6597,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "campinas_do_sul",
+      "nome": "CAMPINAS DO SUL",
+      "ibge": 4303806,
+      "uf": "RS",
+      "lat": -27.7174,
+      "lon": -52.6248,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "carlos_gomes",
+      "nome": "CARLOS GOMES",
+      "ibge": 4304853,
+      "uf": "RS",
+      "lat": -27.7167,
+      "lon": -51.9121,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "centenario",
+      "nome": "CENTENÁRIO",
+      "ibge": 4305116,
+      "uf": "RS",
+      "lat": -27.7615,
+      "lon": -51.9984,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "cruzaltense",
+      "nome": "CRUZALTENSE",
+      "ibge": 4306130,
+      "uf": "RS",
+      "lat": -27.6672,
+      "lon": -52.6522,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "erebango",
+      "nome": "EREBANGO",
+      "ibge": 4306973,
+      "uf": "RS",
+      "lat": -27.8544,
+      "lon": -52.3005,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "erechim",
+      "nome": "ERECHIM",
+      "ibge": 4307005,
+      "uf": "RS",
+      "lat": -27.6364,
+      "lon": -52.2697,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "erval_grande",
+      "nome": "ERVAL GRANDE",
+      "ibge": 4307203,
+      "uf": "RS",
+      "lat": -27.3926,
+      "lon": -52.574,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "estacao",
+      "nome": "ESTAÇÃO",
+      "ibge": 4307559,
+      "uf": "RS",
+      "lat": -27.9135,
+      "lon": -52.2635,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "faxinalzinho",
+      "nome": "FAXINALZINHO",
+      "ibge": 4308052,
+      "uf": "RS",
+      "lat": -27.4238,
+      "lon": -52.6789,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "floriano_peixoto",
+      "nome": "FLORIANO PEIXOTO",
+      "ibge": 4308250,
+      "uf": "RS",
+      "lat": -27.8614,
+      "lon": -52.0838,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "gaurama",
+      "nome": "GAURAMA",
+      "ibge": 4308706,
+      "uf": "RS",
+      "lat": -27.5856,
+      "lon": -52.0915,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "getulio_vargas",
+      "nome": "GETÚLIO VARGAS",
+      "ibge": 4308904,
+      "uf": "RS",
+      "lat": -27.8911,
+      "lon": -52.2294,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "ipiranga_do_sul",
+      "nome": "IPIRANGA DO SUL",
+      "ibge": 4310462,
+      "uf": "RS",
+      "lat": -27.9404,
+      "lon": -52.4271,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "itatiba_do_sul",
+      "nome": "ITATIBA DO SUL",
+      "ibge": 4310702,
+      "uf": "RS",
+      "lat": -27.3846,
+      "lon": -52.4538,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "jacutinga",
+      "nome": "JACUTINGA",
+      "ibge": 4310900,
+      "uf": "RS",
+      "lat": -27.7291,
+      "lon": -52.5372,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "machadinho",
+      "nome": "MACHADINHO",
+      "ibge": 4311700,
+      "uf": "RS",
+      "lat": -27.5667,
+      "lon": -51.6668,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "marcelino_ramos",
+      "nome": "MARCELINO RAMOS",
+      "ibge": 4311908,
+      "uf": "RS",
+      "lat": -27.4676,
+      "lon": -51.9095,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "mariano_moro",
+      "nome": "MARIANO MORO",
+      "ibge": 4312005,
+      "uf": "RS",
+      "lat": -27.3568,
+      "lon": -52.1467,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "maximiliano_de_almeida",
+      "nome": "MAXIMILIANO DE ALMEIDA",
+      "ibge": 4312203,
+      "uf": "RS",
+      "lat": -27.6325,
+      "lon": -51.802,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "paim_filho",
+      "nome": "PAIM FILHO",
+      "ibge": 4313607,
+      "uf": "RS",
+      "lat": -27.7075,
+      "lon": -51.763,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "paulo_bento",
+      "nome": "PAULO BENTO",
+      "ibge": 4314134,
+      "uf": "RS",
+      "lat": -27.7051,
+      "lon": -52.4169,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "ponte_preta",
+      "nome": "PONTE PRETA",
+      "ibge": 4314787,
+      "uf": "RS",
+      "lat": -27.6587,
+      "lon": -52.4848,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "quatro_irmaos",
+      "nome": "QUATRO IRMÃOS",
+      "ibge": 4315313,
+      "uf": "RS",
+      "lat": -27.8257,
+      "lon": -52.4424,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "santo_expedito_do_sul",
+      "nome": "SANTO EXPEDITO DO SUL",
+      "ibge": 4317954,
+      "uf": "RS",
+      "lat": -27.9074,
+      "lon": -51.6434,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "sao_joao_da_urtiga",
+      "nome": "SÃO JOÃO DA URTIGA",
+      "ibge": 4318424,
+      "uf": "RS",
+      "lat": -27.8195,
+      "lon": -51.8257,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "sao_jose_do_ouro",
+      "nome": "SÃO JOSÉ DO OURO",
+      "ibge": 4318606,
+      "uf": "RS",
+      "lat": -27.7707,
+      "lon": -51.5966,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "sao_valentim",
+      "nome": "SÃO VALENTIM",
+      "ibge": 4319703,
+      "uf": "RS",
+      "lat": -27.5583,
+      "lon": -52.5237,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "sertao",
+      "nome": "SERTÃO",
+      "ibge": 4320503,
+      "uf": "RS",
+      "lat": -27.9798,
+      "lon": -52.2588,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "severiano_de_almeida",
+      "nome": "SEVERIANO DE ALMEIDA",
+      "ibge": 4320602,
+      "uf": "RS",
+      "lat": -27.4362,
+      "lon": -52.1217,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "tres_arroios",
+      "nome": "TRÊS ARROIOS",
+      "ibge": 4321634,
+      "uf": "RS",
+      "lat": -27.5003,
+      "lon": -52.1448,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "tupanci_do_sul",
+      "nome": "TUPANCI DO SUL",
+      "ibge": 4322186,
+      "uf": "RS",
+      "lat": -27.9241,
+      "lon": -51.5383,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "viadutos",
+      "nome": "VIADUTOS",
+      "ibge": 4322905,
+      "uf": "RS",
+      "lat": -27.5716,
+      "lon": -52.0211,
+      "area_soja_ha": null,
+      "clima": null
+    }
+  ],
+  "alertas": {
+    "ativos": [],
+    "ufs": [
+      "RS"
+    ]
+  },
+  "colheita": {
+    "status": "pendente",
+    "fonte": null,
+    "itens": []
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "distrito": {
+    "id": "santa_maria_soja",
+    "nome": "SANTA MARIA-SOJA",
+    "regional": "RS SOJA",
+    "codigo_regional": "RSSO",
+    "uf": "RS",
+    "ufs": [
+      "RS"
+    ],
+    "cultura_principal": "soja"
+  },
+  "gerado_em": "2026-06-15T02:46:58+00:00",
+  "municipios": [
+    {
+      "id": "agudo",
+      "nome": "AGUDO",
+      "ibge": 4300109,
+      "uf": "RS",
+      "lat": -29.6447,
+      "lon": -53.2515,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "cacapava_do_sul",
+      "nome": "CAÇAPAVA DO SUL",
+      "ibge": 4302808,
+      "uf": "RS",
+      "lat": -30.5144,
+      "lon": -53.4827,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "cacequi",
+      "nome": "CACEQUI",
+      "ibge": 4302907,
+      "uf": "RS",
+      "lat": -29.8883,
+      "lon": -54.822,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "cachoeira_do_sul",
+      "nome": "CACHOEIRA DO SUL",
+      "ibge": 4303004,
+      "uf": "RS",
+      "lat": -30.033,
+      "lon": -52.8928,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "dilermando_de_aguiar",
+      "nome": "DILERMANDO DE AGUIAR",
+      "ibge": 4306379,
+      "uf": "RS",
+      "lat": -29.7054,
+      "lon": -54.2122,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "dona_francisca",
+      "nome": "DONA FRANCISCA",
+      "ibge": 4306700,
+      "uf": "RS",
+      "lat": -29.6195,
+      "lon": -53.3617,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "encruzilhada_do_sul",
+      "nome": "ENCRUZILHADA DO SUL",
+      "ibge": 4306908,
+      "uf": "RS",
+      "lat": -30.543,
+      "lon": -52.5204,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "faxinal_do_soturno",
+      "nome": "FAXINAL DO SOTURNO",
+      "ibge": 4308003,
+      "uf": "RS",
+      "lat": -29.5788,
+      "lon": -53.4484,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "formigueiro",
+      "nome": "FORMIGUEIRO",
+      "ibge": 4308409,
+      "uf": "RS",
+      "lat": -30.0035,
+      "lon": -53.4959,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "itaara",
+      "nome": "ITAARA",
+      "ibge": 4310538,
+      "uf": "RS",
+      "lat": -29.6013,
+      "lon": -53.7725,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "mata",
+      "nome": "MATA",
+      "ibge": 4312104,
+      "uf": "RS",
+      "lat": -29.5649,
+      "lon": -54.4641,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "nova_palma",
+      "nome": "NOVA PALMA",
+      "ibge": 4313102,
+      "uf": "RS",
+      "lat": -29.471,
+      "lon": -53.4689,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "novo_cabrais",
+      "nome": "NOVO CABRAIS",
+      "ibge": 4313391,
+      "uf": "RS",
+      "lat": -29.7338,
+      "lon": -52.9489,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "pantano_grande",
+      "nome": "PANTANO GRANDE",
+      "ibge": 4313953,
+      "uf": "RS",
+      "lat": -30.1902,
+      "lon": -52.3729,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "paraiso_do_sul",
+      "nome": "PARAÍSO DO SUL",
+      "ibge": 4314027,
+      "uf": "RS",
+      "lat": -29.6717,
+      "lon": -53.144,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "restinga_seca",
+      "nome": "RESTINGA SÊCA",
+      "ibge": 4315503,
+      "uf": "RS",
+      "lat": -29.8188,
+      "lon": -53.3807,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "rio_pardo",
+      "nome": "RIO PARDO",
+      "ibge": 4315701,
+      "uf": "RS",
+      "lat": -29.988,
+      "lon": -52.3711,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "santa_maria",
+      "nome": "SANTA MARIA",
+      "ibge": 4316907,
+      "uf": "RS",
+      "lat": -29.6868,
+      "lon": -53.8149,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "santana_da_boa_vista",
+      "nome": "SANTANA DA BOA VISTA",
+      "ibge": 4317004,
+      "uf": "RS",
+      "lat": -30.8697,
+      "lon": -53.11,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "sao_joao_do_polesine",
+      "nome": "SÃO JOÃO DO POLÊSINE",
+      "ibge": 4318432,
+      "uf": "RS",
+      "lat": -29.6194,
+      "lon": -53.4439,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "sao_pedro_do_sul",
+      "nome": "SÃO PEDRO DO SUL",
+      "ibge": 4319406,
+      "uf": "RS",
+      "lat": -29.6202,
+      "lon": -54.1855,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "sao_sepe",
+      "nome": "SÃO SEPÉ",
+      "ibge": 4319604,
+      "uf": "RS",
+      "lat": -30.1643,
+      "lon": -53.5603,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "sao_vicente_do_sul",
+      "nome": "SÃO VICENTE DO SUL",
+      "ibge": 4319802,
+      "uf": "RS",
+      "lat": -29.6882,
+      "lon": -54.6826,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "silveira_martins",
+      "nome": "SILVEIRA MARTINS",
+      "ibge": 4320651,
+      "uf": "RS",
+      "lat": -29.6467,
+      "lon": -53.591,
+      "area_soja_ha": null,
+      "clima": null
+    },
+    {
+      "id": "toropi",
+      "nome": "TOROPI",
+      "ibge": 4321493,
+      "uf": "RS",
+      "lat": -29.4782,
+      "lon": -54.2244,
+      "area_soja_ha": null,
+      "clima": null
+    }
+  ],
+  "alertas": {
+    "ativos": [],
+    "ufs": [
+      "RS"
+    ]
+  },
+  "colheita": {
+    "status": "pendente",
+    "fonte": null,
+    "itens": []
+  }
+}
