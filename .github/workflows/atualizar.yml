@@ -34,28 +34,21 @@ jobs:
         run: |
           INPUT="${{ github.event.inputs.alvo }}"
           if [ "${{ github.event_name }}" = "schedule" ] || [ -z "$INPUT" ]; then
-            # 24 slots: cada distrito 1x/dia, poucos por rodada. (12 = 2x/dia, só com API key.)
             echo "alvo=$(( $(date -u +%H) % 24 ))/24" >> "$GITHUB_OUTPUT"
           else
             echo "alvo=$INPUT" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Executar pipeline
-        # Para usar plano pago: descomente e cadastre o secret OPEN_METEO_APIKEY
+        # Plano pago: descomente e cadastre o secret OPEN_METEO_APIKEY
         # env:
         #   OPEN_METEO_APIKEY: ${{ secrets.OPEN_METEO_APIKEY }}
         run: python pipeline/main.py "${{ steps.alvo.outputs.alvo }}"
-
-      - name: Publicar dados junto com o site (web/data/out)
-        run: |
-          mkdir -p web/data
-          rm -rf web/data/out
-          cp -r data/out web/data/out
 
       - name: Commit dos dados atualizados
         run: |
           git config user.name "boletim-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/out web/data/out
+          git add web/data/out
           git diff --cached --quiet || git commit -m "dados: $(date -u +'%Y-%m-%d %H:%M UTC') alvo=${{ steps.alvo.outputs.alvo }}"
           git push
