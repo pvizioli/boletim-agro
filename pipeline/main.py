@@ -32,7 +32,7 @@ from conectores import inmet, open_meteo  # noqa: E402
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CSV_PATH = os.path.join(BASE, "config", "municipios.csv")
-OUT_DIR = os.path.join(BASE, "data", "out")
+OUT_DIR = os.path.join(BASE, "web", "data", "out")
 RETENCAO_HISTORICO_DIAS = 45   # snapshots mais antigos que isso são podados
 
 
