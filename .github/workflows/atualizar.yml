@@ -3,22 +3,25 @@ name: Atualizar dados
 on:
   workflow_dispatch:
     inputs:
-      distrito:
-        description: "distrito_id para testar só um (vazio = todos)"
+      alvo:
+        description: "vazio=slot da hora (seguro) | distrito_id | k/n | 'todos' (só com API key)"
         required: false
         default: ""
   schedule:
-    - cron: "0 9,21 * * *"     # 06h e 18h de Brasília (UTC-3)
+    - cron: "0 * * * *"        # de hora em hora; cada hora processa um slot
 
 permissions:
   contents: write
+
+concurrency:
+  group: atualizar-dados
+  cancel-in-progress: false
 
 jobs:
   atualizar:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -26,8 +29,22 @@ jobs:
       - name: Instalar dependências
         run: pip install -r pipeline/requirements.txt
 
+      - name: Definir alvo
+        id: alvo
+        run: |
+          INPUT="${{ github.event.inputs.alvo }}"
+          if [ "${{ github.event_name }}" = "schedule" ] || [ -z "$INPUT" ]; then
+            # 24 slots: cada distrito 1x/dia, poucos por rodada. (12 = 2x/dia, só com API key.)
+            echo "alvo=$(( $(date -u +%H) % 24 ))/24" >> "$GITHUB_OUTPUT"
+          else
+            echo "alvo=$INPUT" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Executar pipeline
-        run: python pipeline/main.py "${{ github.event.inputs.distrito }}"
+        # Para usar plano pago: descomente e cadastre o secret OPEN_METEO_APIKEY
+        # env:
+        #   OPEN_METEO_APIKEY: ${{ secrets.OPEN_METEO_APIKEY }}
+        run: python pipeline/main.py "${{ steps.alvo.outputs.alvo }}"
 
       - name: Publicar dados junto com o site (web/data/out)
         run: |
@@ -40,5 +57,5 @@ jobs:
           git config user.name "boletim-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/out web/data/out
-          git diff --cached --quiet || git commit -m "dados: atualização automática $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git diff --cached --quiet || git commit -m "dados: $(date -u +'%Y-%m-%d %H:%M UTC') alvo=${{ steps.alvo.outputs.alvo }}"
           git push
