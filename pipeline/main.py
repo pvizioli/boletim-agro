@@ -33,6 +33,7 @@ from conectores import inmet, open_meteo  # noqa: E402
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CSV_PATH = os.path.join(BASE, "config", "municipios.csv")
 OUT_DIR = os.path.join(BASE, "data", "out")
+RETENCAO_HISTORICO_DIAS = 45   # snapshots mais antigos que isso são podados
 
 
 def _slug(s):
@@ -136,16 +137,43 @@ def processar_distrito(d, alertas_cache):
     return payload, reap, semd
 
 
+def _gravar_json(caminho, obj):
+    """Escrita compacta (sem indentação) para reduzir tamanho/churn no repo."""
+    with open(caminho, "w", encoding="utf-8") as fh:
+        json.dump(obj, fh, ensure_ascii=False, separators=(",", ":"))
+
+
+def _podar_historico(pasta_hist, manter_dias):
+    """Remove snapshots mais antigos que manter_dias (nome AAAA-MM-DD.json)."""
+    corte = datetime.date.today() - datetime.timedelta(days=manter_dias)
+    if not os.path.isdir(pasta_hist):
+        return 0
+    removidos = 0
+    for nome in os.listdir(pasta_hist):
+        if not nome.endswith(".json"):
+            continue
+        try:
+            d = datetime.date.fromisoformat(nome[:-5])
+        except ValueError:
+            continue
+        if d < corte:
+            try:
+                os.remove(os.path.join(pasta_hist, nome))
+                removidos += 1
+            except OSError:
+                pass
+    return removidos
+
+
 def salvar(distrito_id, payload):
     pasta = os.path.join(OUT_DIR, distrito_id)
     os.makedirs(pasta, exist_ok=True)
-    with open(os.path.join(pasta, "latest.json"), "w", encoding="utf-8") as fh:
-        json.dump(payload, fh, ensure_ascii=False, indent=2)
+    _gravar_json(os.path.join(pasta, "latest.json"), payload)
     hist = os.path.join(pasta, "historico")
     os.makedirs(hist, exist_ok=True)
     hoje = datetime.date.today().isoformat()
-    with open(os.path.join(hist, hoje + ".json"), "w", encoding="utf-8") as fh:
-        json.dump(payload, fh, ensure_ascii=False)
+    _gravar_json(os.path.join(hist, hoje + ".json"), payload)
+    _podar_historico(hist, RETENCAO_HISTORICO_DIAS)
 
 
 def salvar_indice(distritos):
@@ -171,8 +199,7 @@ def salvar_indice(distritos):
         "regionais": lista,
     }
     os.makedirs(OUT_DIR, exist_ok=True)
-    with open(os.path.join(OUT_DIR, "index.json"), "w", encoding="utf-8") as fh:
-        json.dump(indice, fh, ensure_ascii=False, indent=2)
+    _gravar_json(os.path.join(OUT_DIR, "index.json"), indice)
 
 
 def selecionar(distritos, arg):
