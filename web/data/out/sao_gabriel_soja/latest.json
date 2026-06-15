@@ -10,7 +10,7 @@
     ],
     "cultura_principal": "soja"
   },
-  "gerado_em": "2026-06-15T02:48:19+00:00",
+  "gerado_em": "2026-06-15T03:07:02+00:00",
   "municipios": [
     {
       "id": "alegrete",
@@ -27,27 +27,18 @@
         "lat": -29.7902,
         "lon": -55.7949,
         "atual": {
-          "tmax": 15.9,
-          "tmin": 8.5,
+          "tmax": 12.9,
+          "tmin": 4.2,
           "precip_mm": 0.0,
-          "prob_chuva": 2,
+          "prob_chuva": 0,
           "weathercode": 3,
           "tempo": "nuvem"
         },
         "previsao_7d": [
           {
-            "data": "2026-06-14",
-            "tmax": 15.9,
-            "tmin": 8.5,
-            "precip_mm": 0.0,
-            "prob_chuva": 2,
-            "weathercode": 3,
-            "tempo": "nuvem"
-          },
-          {
             "data": "2026-06-15",
-            "tmax": 13.0,
-            "tmin": 3.9,
+            "tmax": 12.9,
+            "tmin": 4.2,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -55,7 +46,7 @@
           },
           {
             "data": "2026-06-16",
-            "tmax": 15.6,
+            "tmax": 15.5,
             "tmin": 1.1,
             "precip_mm": 0.0,
             "prob_chuva": 0,
@@ -64,8 +55,8 @@
           },
           {
             "data": "2026-06-17",
-            "tmax": 17.0,
-            "tmin": 4.2,
+            "tmax": 16.6,
+            "tmin": 4.4,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -73,35 +64,43 @@
           },
           {
             "data": "2026-06-18",
-            "tmax": 17.5,
-            "tmin": 9.3,
+            "tmax": 17.3,
+            "tmin": 8.3,
             "precip_mm": 13.3,
-            "prob_chuva": 77,
+            "prob_chuva": 73,
             "weathercode": 63,
             "tempo": "chuva"
           },
           {
             "data": "2026-06-19",
             "tmax": 16.0,
-            "tmin": 11.5,
+            "tmin": 12.0,
             "precip_mm": 21.5,
-            "prob_chuva": 92,
+            "prob_chuva": 88,
             "weathercode": 63,
             "tempo": "chuva"
           },
           {
             "data": "2026-06-20",
-            "tmax": 16.7,
-            "tmin": 8.6,
+            "tmax": 16.4,
+            "tmin": 6.9,
             "precip_mm": 0.0,
-            "prob_chuva": 2,
+            "prob_chuva": 4,
             "weathercode": 3,
             "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-21",
+            "tmax": 14.8,
+            "tmin": 7.5,
+            "precip_mm": 5.0,
+            "prob_chuva": 15,
+            "weathercode": 53,
+            "tempo": "garoa"
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z",
-        "_obsoleto": true
+        "atualizado_em": "2026-06-15T03:06:31Z"
       }
     },
     {
@@ -119,27 +118,18 @@
         "lat": -30.2029,
         "lon": -57.5497,
         "atual": {
-          "tmax": 13.8,
-          "tmin": 8.6,
-          "precip_mm": 0.3,
-          "prob_chuva": 2,
-          "weathercode": 51,
-          "tempo": "garoa"
+          "tmax": 13.3,
+          "tmin": 5.6,
+          "precip_mm": 0.0,
+          "prob_chuva": 0,
+          "weathercode": 3,
+          "tempo": "nuvem"
         },
         "previsao_7d": [
           {
-            "data": "2026-06-14",
-            "tmax": 13.8,
-            "tmin": 8.6,
-            "precip_mm": 0.3,
-            "prob_chuva": 2,
-            "weathercode": 51,
-            "tempo": "garoa"
-          },
-          {
             "data": "2026-06-15",
-            "tmax": 13.5,
-            "tmin": 5.2,
+            "tmax": 13.3,
+            "tmin": 5.6,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -147,8 +137,8 @@
           },
           {
             "data": "2026-06-16",
-            "tmax": 16.0,
-            "tmin": 5.4,
+            "tmax": 15.7,
+            "tmin": 5.7,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -156,8 +146,8 @@
           },
           {
             "data": "2026-06-17",
-            "tmax": 17.6,
-            "tmin": 6.4,
+            "tmax": 17.2,
+            "tmin": 6.5,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -166,34 +156,42 @@
           {
             "data": "2026-06-18",
             "tmax": 16.7,
-            "tmin": 11.0,
+            "tmin": 10.5,
             "precip_mm": 20.3,
-            "prob_chuva": 97,
+            "prob_chuva": 92,
             "weathercode": 63,
             "tempo": "chuva"
           },
           {
             "data": "2026-06-19",
-            "tmax": 14.9,
-            "tmin": 9.6,
+            "tmax": 15.0,
+            "tmin": 9.3,
             "precip_mm": 5.5,
-            "prob_chuva": 98,
+            "prob_chuva": 92,
             "weathercode": 63,
             "tempo": "chuva"
           },
           {
             "data": "2026-06-20",
-            "tmax": 16.1,
-            "tmin": 7.0,
+            "tmax": 16.0,
+            "tmin": 6.6,
             "precip_mm": 0.0,
-            "prob_chuva": 4,
+            "prob_chuva": 2,
+            "weathercode": 3,
+            "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-21",
+            "tmax": 15.3,
+            "tmin": 10.8,
+            "precip_mm": 0.0,
+            "prob_chuva": 11,
             "weathercode": 3,
             "tempo": "nuvem"
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z",
-        "_obsoleto": true
+        "atualizado_em": "2026-06-15T03:06:31Z"
       }
     },
     {
@@ -211,8 +209,8 @@
         "lat": -28.7913,
         "lon": -55.2447,
         "atual": {
-          "tmax": 17.0,
-          "tmin": 10.5,
+          "tmax": 14.4,
+          "tmin": 6.0,
           "precip_mm": 0.0,
           "prob_chuva": 0,
           "weathercode": 3,
@@ -220,18 +218,9 @@
         },
         "previsao_7d": [
           {
-            "data": "2026-06-14",
-            "tmax": 17.0,
-            "tmin": 10.5,
-            "precip_mm": 0.0,
-            "prob_chuva": 0,
-            "weathercode": 3,
-            "tempo": "nuvem"
-          },
-          {
             "data": "2026-06-15",
             "tmax": 14.4,
-            "tmin": 5.9,
+            "tmin": 6.0,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -239,7 +228,7 @@
           },
           {
             "data": "2026-06-16",
-            "tmax": 16.1,
+            "tmax": 15.8,
             "tmin": 3.9,
             "precip_mm": 0.0,
             "prob_chuva": 0,
@@ -248,8 +237,8 @@
           },
           {
             "data": "2026-06-17",
-            "tmax": 18.6,
-            "tmin": 5.5,
+            "tmax": 18.4,
+            "tmin": 4.7,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -257,35 +246,43 @@
           },
           {
             "data": "2026-06-18",
-            "tmax": 20.0,
-            "tmin": 10.1,
+            "tmax": 19.2,
+            "tmin": 9.4,
             "precip_mm": 4.4,
-            "prob_chuva": 55,
+            "prob_chuva": 45,
             "weathercode": 61,
             "tempo": "chuva"
           },
           {
             "data": "2026-06-19",
-            "tmax": 17.8,
-            "tmin": 9.9,
+            "tmax": 15.8,
+            "tmin": 12.5,
             "precip_mm": 22.3,
-            "prob_chuva": 88,
+            "prob_chuva": 97,
             "weathercode": 63,
             "tempo": "chuva"
           },
           {
             "data": "2026-06-20",
-            "tmax": 16.3,
-            "tmin": 7.7,
+            "tmax": 16.2,
+            "tmin": 9.1,
             "precip_mm": 0.0,
-            "prob_chuva": 4,
+            "prob_chuva": 6,
             "weathercode": 3,
             "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-21",
+            "tmax": 18.8,
+            "tmin": 8.8,
+            "precip_mm": 18.0,
+            "prob_chuva": 25,
+            "weathercode": 61,
+            "tempo": "chuva"
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z",
-        "_obsoleto": true
+        "atualizado_em": "2026-06-15T03:06:31Z"
       }
     },
     {
@@ -303,27 +300,18 @@
         "lat": -29.1311,
         "lon": -56.5515,
         "atual": {
-          "tmax": 17.2,
-          "tmin": 11.1,
-          "precip_mm": 0.1,
+          "tmax": 14.3,
+          "tmin": 6.5,
+          "precip_mm": 0.0,
           "prob_chuva": 0,
-          "weathercode": 51,
-          "tempo": "garoa"
+          "weathercode": 3,
+          "tempo": "nuvem"
         },
         "previsao_7d": [
           {
-            "data": "2026-06-14",
-            "tmax": 17.2,
-            "tmin": 11.1,
-            "precip_mm": 0.1,
-            "prob_chuva": 0,
-            "weathercode": 51,
-            "tempo": "garoa"
-          },
-          {
             "data": "2026-06-15",
-            "tmax": 14.4,
-            "tmin": 6.7,
+            "tmax": 14.3,
+            "tmin": 6.5,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -331,8 +319,8 @@
           },
           {
             "data": "2026-06-16",
-            "tmax": 16.4,
-            "tmin": 6.2,
+            "tmax": 16.1,
+            "tmin": 5.9,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -340,8 +328,8 @@
           },
           {
             "data": "2026-06-17",
-            "tmax": 18.4,
-            "tmin": 6.1,
+            "tmax": 18.1,
+            "tmin": 5.6,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -349,35 +337,43 @@
           },
           {
             "data": "2026-06-18",
-            "tmax": 18.9,
-            "tmin": 11.3,
+            "tmax": 18.3,
+            "tmin": 10.7,
             "precip_mm": 15.1,
-            "prob_chuva": 90,
+            "prob_chuva": 80,
             "weathercode": 63,
             "tempo": "chuva"
           },
           {
             "data": "2026-06-19",
-            "tmax": 16.7,
-            "tmin": 11.3,
+            "tmax": 16.1,
+            "tmin": 10.8,
             "precip_mm": 13.4,
-            "prob_chuva": 93,
+            "prob_chuva": 88,
             "weathercode": 63,
             "tempo": "chuva"
           },
           {
             "data": "2026-06-20",
-            "tmax": 17.7,
-            "tmin": 9.8,
+            "tmax": 17.4,
+            "tmin": 8.2,
             "precip_mm": 0.0,
-            "prob_chuva": 4,
+            "prob_chuva": 2,
             "weathercode": 3,
             "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-21",
+            "tmax": 16.8,
+            "tmin": 11.7,
+            "precip_mm": 11.0,
+            "prob_chuva": 17,
+            "weathercode": 61,
+            "tempo": "chuva"
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z",
-        "_obsoleto": true
+        "atualizado_em": "2026-06-15T03:06:31Z"
       }
     },
     {
@@ -395,27 +391,18 @@
         "lat": -30.8071,
         "lon": -53.8931,
         "atual": {
-          "tmax": 12.2,
-          "tmin": 7.0,
+          "tmax": 10.9,
+          "tmin": 3.1,
           "precip_mm": 0.0,
-          "prob_chuva": 4,
-          "weathercode": 3,
-          "tempo": "nuvem"
+          "prob_chuva": 0,
+          "weathercode": 2,
+          "tempo": "parcial"
         },
         "previsao_7d": [
           {
-            "data": "2026-06-14",
-            "tmax": 12.2,
-            "tmin": 7.0,
-            "precip_mm": 0.0,
-            "prob_chuva": 4,
-            "weathercode": 3,
-            "tempo": "nuvem"
-          },
-          {
             "data": "2026-06-15",
-            "tmax": 11.0,
-            "tmin": 3.2,
+            "tmax": 10.9,
+            "tmin": 3.1,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 2,
@@ -432,8 +419,8 @@
           },
           {
             "data": "2026-06-17",
-            "tmax": 15.0,
-            "tmin": 7.1,
+            "tmax": 14.7,
+            "tmin": 7.2,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -441,35 +428,43 @@
           },
           {
             "data": "2026-06-18",
-            "tmax": 14.4,
-            "tmin": 5.7,
+            "tmax": 14.0,
+            "tmin": 5.2,
             "precip_mm": 0.0,
-            "prob_chuva": 31,
+            "prob_chuva": 27,
             "weathercode": 3,
             "tempo": "nuvem"
           },
           {
             "data": "2026-06-19",
-            "tmax": 13.5,
-            "tmin": 9.1,
+            "tmax": 13.6,
+            "tmin": 10.2,
             "precip_mm": 13.2,
-            "prob_chuva": 92,
+            "prob_chuva": 88,
             "weathercode": 63,
             "tempo": "chuva"
           },
           {
             "data": "2026-06-20",
-            "tmax": 14.2,
-            "tmin": 5.9,
+            "tmax": 13.9,
+            "tmin": 7.6,
             "precip_mm": 0.0,
             "prob_chuva": 8,
             "weathercode": 3,
             "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-21",
+            "tmax": 13.1,
+            "tmin": 6.4,
+            "precip_mm": 9.4,
+            "prob_chuva": 17,
+            "weathercode": 61,
+            "tempo": "chuva"
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z",
-        "_obsoleto": true
+        "atualizado_em": "2026-06-15T03:06:31Z"
       }
     },
     {
@@ -487,26 +482,17 @@
         "lat": -29.1445,
         "lon": -56.0674,
         "atual": {
-          "tmax": 17.1,
-          "tmin": 10.6,
-          "precip_mm": 0.2,
-          "prob_chuva": 47,
-          "weathercode": 51,
-          "tempo": "garoa"
+          "tmax": 14.1,
+          "tmin": 5.9,
+          "precip_mm": 0.0,
+          "prob_chuva": 0,
+          "weathercode": 3,
+          "tempo": "nuvem"
         },
         "previsao_7d": [
           {
-            "data": "2026-06-14",
-            "tmax": 17.1,
-            "tmin": 10.6,
-            "precip_mm": 0.2,
-            "prob_chuva": 47,
-            "weathercode": 51,
-            "tempo": "garoa"
-          },
-          {
             "data": "2026-06-15",
-            "tmax": 14.2,
+            "tmax": 14.1,
             "tmin": 5.9,
             "precip_mm": 0.0,
             "prob_chuva": 0,
@@ -515,8 +501,8 @@
           },
           {
             "data": "2026-06-16",
-            "tmax": 16.9,
-            "tmin": 5.2,
+            "tmax": 16.7,
+            "tmin": 4.8,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -524,8 +510,8 @@
           },
           {
             "data": "2026-06-17",
-            "tmax": 18.5,
-            "tmin": 5.4,
+            "tmax": 18.4,
+            "tmin": 5.7,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -533,35 +519,43 @@
           },
           {
             "data": "2026-06-18",
-            "tmax": 19.3,
+            "tmax": 18.4,
             "tmin": 10.0,
             "precip_mm": 7.1,
-            "prob_chuva": 82,
+            "prob_chuva": 77,
             "weathercode": 63,
             "tempo": "chuva"
           },
           {
             "data": "2026-06-19",
-            "tmax": 16.4,
-            "tmin": 10.5,
+            "tmax": 16.7,
+            "tmin": 11.6,
             "precip_mm": 17.5,
-            "prob_chuva": 94,
+            "prob_chuva": 92,
             "weathercode": 63,
             "tempo": "chuva"
           },
           {
             "data": "2026-06-20",
-            "tmax": 17.4,
-            "tmin": 9.5,
+            "tmax": 17.0,
+            "tmin": 7.4,
             "precip_mm": 0.0,
             "prob_chuva": 6,
             "weathercode": 3,
             "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-21",
+            "tmax": 17.6,
+            "tmin": 10.6,
+            "precip_mm": 25.0,
+            "prob_chuva": 17,
+            "weathercode": 63,
+            "tempo": "chuva"
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z",
-        "_obsoleto": true
+        "atualizado_em": "2026-06-15T03:06:31Z"
       }
     },
     {
@@ -579,27 +573,18 @@
         "lat": -29.5859,
         "lon": -55.4841,
         "atual": {
-          "tmax": 16.0,
-          "tmin": 9.8,
-          "precip_mm": 0.1,
-          "prob_chuva": 10,
-          "weathercode": 51,
-          "tempo": "garoa"
+          "tmax": 13.2,
+          "tmin": 4.3,
+          "precip_mm": 0.0,
+          "prob_chuva": 0,
+          "weathercode": 3,
+          "tempo": "nuvem"
         },
         "previsao_7d": [
           {
-            "data": "2026-06-14",
-            "tmax": 16.0,
-            "tmin": 9.8,
-            "precip_mm": 0.1,
-            "prob_chuva": 10,
-            "weathercode": 51,
-            "tempo": "garoa"
-          },
-          {
             "data": "2026-06-15",
             "tmax": 13.2,
-            "tmin": 4.4,
+            "tmin": 4.3,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -607,8 +592,8 @@
           },
           {
             "data": "2026-06-16",
-            "tmax": 15.9,
-            "tmin": 3.4,
+            "tmax": 15.7,
+            "tmin": 3.3,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -616,8 +601,8 @@
           },
           {
             "data": "2026-06-17",
-            "tmax": 17.0,
-            "tmin": 4.5,
+            "tmax": 16.6,
+            "tmin": 4.2,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -625,35 +610,43 @@
           },
           {
             "data": "2026-06-18",
-            "tmax": 18.6,
-            "tmin": 8.6,
+            "tmax": 17.8,
+            "tmin": 7.5,
             "precip_mm": 8.1,
-            "prob_chuva": 78,
+            "prob_chuva": 64,
             "weathercode": 61,
             "tempo": "chuva"
           },
           {
             "data": "2026-06-19",
-            "tmax": 15.9,
-            "tmin": 10.6,
+            "tmax": 16.6,
+            "tmin": 11.8,
             "precip_mm": 17.4,
-            "prob_chuva": 92,
+            "prob_chuva": 91,
             "weathercode": 63,
             "tempo": "chuva"
           },
           {
             "data": "2026-06-20",
-            "tmax": 16.9,
-            "tmin": 8.7,
+            "tmax": 16.4,
+            "tmin": 7.2,
             "precip_mm": 0.0,
             "prob_chuva": 6,
             "weathercode": 3,
             "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-21",
+            "tmax": 16.0,
+            "tmin": 7.2,
+            "precip_mm": 18.6,
+            "prob_chuva": 19,
+            "weathercode": 63,
+            "tempo": "chuva"
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z",
-        "_obsoleto": true
+        "atualizado_em": "2026-06-15T03:06:31Z"
       }
     },
     {
@@ -671,27 +664,18 @@
         "lat": -30.384,
         "lon": -56.4483,
         "atual": {
-          "tmax": 14.8,
-          "tmin": 6.3,
+          "tmax": 12.7,
+          "tmin": 2.8,
           "precip_mm": 0.0,
-          "prob_chuva": 4,
+          "prob_chuva": 0,
           "weathercode": 3,
           "tempo": "nuvem"
         },
         "previsao_7d": [
           {
-            "data": "2026-06-14",
-            "tmax": 14.8,
-            "tmin": 6.3,
-            "precip_mm": 0.0,
-            "prob_chuva": 4,
-            "weathercode": 3,
-            "tempo": "nuvem"
-          },
-          {
             "data": "2026-06-15",
             "tmax": 12.7,
-            "tmin": 2.7,
+            "tmin": 2.8,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -699,8 +683,8 @@
           },
           {
             "data": "2026-06-16",
-            "tmax": 15.3,
-            "tmin": 3.5,
+            "tmax": 15.1,
+            "tmin": 2.9,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -708,7 +692,7 @@
           },
           {
             "data": "2026-06-17",
-            "tmax": 17.5,
+            "tmax": 17.0,
             "tmin": 3.7,
             "precip_mm": 0.0,
             "prob_chuva": 0,
@@ -717,35 +701,43 @@
           },
           {
             "data": "2026-06-18",
-            "tmax": 16.2,
-            "tmin": 9.6,
+            "tmax": 16.1,
+            "tmin": 8.7,
             "precip_mm": 8.5,
-            "prob_chuva": 87,
+            "prob_chuva": 80,
             "weathercode": 63,
             "tempo": "chuva"
           },
           {
             "data": "2026-06-19",
             "tmax": 15.8,
-            "tmin": 10.1,
+            "tmin": 11.4,
             "precip_mm": 8.9,
-            "prob_chuva": 92,
+            "prob_chuva": 90,
             "weathercode": 63,
             "tempo": "chuva"
           },
           {
             "data": "2026-06-20",
-            "tmax": 16.0,
-            "tmin": 5.6,
+            "tmax": 15.7,
+            "tmin": 6.0,
             "precip_mm": 0.0,
-            "prob_chuva": 2,
+            "prob_chuva": 4,
             "weathercode": 3,
             "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-21",
+            "tmax": 14.3,
+            "tmin": 7.6,
+            "precip_mm": 0.6,
+            "prob_chuva": 11,
+            "weathercode": 51,
+            "tempo": "garoa"
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z",
-        "_obsoleto": true
+        "atualizado_em": "2026-06-15T03:06:31Z"
       }
     },
     {
@@ -763,27 +755,18 @@
         "lat": -30.2515,
         "lon": -54.9221,
         "atual": {
-          "tmax": 15.5,
-          "tmin": 8.4,
+          "tmax": 12.7,
+          "tmin": 4.2,
           "precip_mm": 0.0,
-          "prob_chuva": 2,
-          "weathercode": 3,
-          "tempo": "nuvem"
+          "prob_chuva": 0,
+          "weathercode": 2,
+          "tempo": "parcial"
         },
         "previsao_7d": [
           {
-            "data": "2026-06-14",
-            "tmax": 15.5,
-            "tmin": 8.4,
-            "precip_mm": 0.0,
-            "prob_chuva": 2,
-            "weathercode": 3,
-            "tempo": "nuvem"
-          },
-          {
             "data": "2026-06-15",
             "tmax": 12.7,
-            "tmin": 4.1,
+            "tmin": 4.2,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 2,
@@ -791,8 +774,8 @@
           },
           {
             "data": "2026-06-16",
-            "tmax": 15.8,
-            "tmin": 3.4,
+            "tmax": 15.6,
+            "tmin": 3.2,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -801,7 +784,7 @@
           {
             "data": "2026-06-17",
             "tmax": 16.5,
-            "tmin": 4.3,
+            "tmin": 4.2,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -809,35 +792,43 @@
           },
           {
             "data": "2026-06-18",
-            "tmax": 16.1,
-            "tmin": 8.5,
+            "tmax": 15.7,
+            "tmin": 7.9,
             "precip_mm": 1.2,
-            "prob_chuva": 54,
+            "prob_chuva": 46,
             "weathercode": 53,
             "tempo": "garoa"
           },
           {
             "data": "2026-06-19",
-            "tmax": 16.7,
-            "tmin": 11.0,
+            "tmax": 16.5,
+            "tmin": 11.7,
             "precip_mm": 16.2,
-            "prob_chuva": 88,
+            "prob_chuva": 89,
             "weathercode": 63,
             "tempo": "chuva"
           },
           {
             "data": "2026-06-20",
-            "tmax": 15.7,
-            "tmin": 6.9,
+            "tmax": 15.5,
+            "tmin": 7.5,
             "precip_mm": 0.0,
-            "prob_chuva": 4,
+            "prob_chuva": 8,
             "weathercode": 3,
             "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-21",
+            "tmax": 14.6,
+            "tmin": 7.8,
+            "precip_mm": 6.4,
+            "prob_chuva": 15,
+            "weathercode": 53,
+            "tempo": "garoa"
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z",
-        "_obsoleto": true
+        "atualizado_em": "2026-06-15T03:06:31Z"
       }
     },
     {
@@ -855,27 +846,18 @@
         "lat": -30.3393,
         "lon": -54.0817,
         "atual": {
-          "tmax": 15.3,
-          "tmin": 9.0,
+          "tmax": 12.8,
+          "tmin": 4.5,
           "precip_mm": 0.0,
-          "prob_chuva": 2,
-          "weathercode": 3,
-          "tempo": "nuvem"
+          "prob_chuva": 0,
+          "weathercode": 2,
+          "tempo": "parcial"
         },
         "previsao_7d": [
           {
-            "data": "2026-06-14",
-            "tmax": 15.3,
-            "tmin": 9.0,
-            "precip_mm": 0.0,
-            "prob_chuva": 2,
-            "weathercode": 3,
-            "tempo": "nuvem"
-          },
-          {
             "data": "2026-06-15",
             "tmax": 12.8,
-            "tmin": 4.0,
+            "tmin": 4.5,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 2,
@@ -883,8 +865,8 @@
           },
           {
             "data": "2026-06-16",
-            "tmax": 14.8,
-            "tmin": 3.3,
+            "tmax": 14.6,
+            "tmin": 3.0,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 2,
@@ -892,8 +874,8 @@
           },
           {
             "data": "2026-06-17",
-            "tmax": 16.2,
-            "tmin": 4.7,
+            "tmax": 16.4,
+            "tmin": 4.4,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -901,35 +883,43 @@
           },
           {
             "data": "2026-06-18",
-            "tmax": 16.1,
-            "tmin": 8.1,
+            "tmax": 15.3,
+            "tmin": 7.8,
             "precip_mm": 0.0,
-            "prob_chuva": 31,
+            "prob_chuva": 19,
             "weathercode": 3,
             "tempo": "nuvem"
           },
           {
             "data": "2026-06-19",
-            "tmax": 16.5,
-            "tmin": 9.4,
+            "tmax": 15.0,
+            "tmin": 11.5,
             "precip_mm": 19.8,
-            "prob_chuva": 87,
+            "prob_chuva": 86,
             "weathercode": 63,
             "tempo": "chuva"
           },
           {
             "data": "2026-06-20",
-            "tmax": 15.6,
-            "tmin": 7.3,
+            "tmax": 15.3,
+            "tmin": 8.9,
             "precip_mm": 0.0,
-            "prob_chuva": 8,
+            "prob_chuva": 6,
             "weathercode": 3,
             "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-21",
+            "tmax": 15.9,
+            "tmin": 8.0,
+            "precip_mm": 10.2,
+            "prob_chuva": 17,
+            "weathercode": 61,
+            "tempo": "chuva"
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z",
-        "_obsoleto": true
+        "atualizado_em": "2026-06-15T03:06:31Z"
       }
     },
     {
@@ -947,27 +937,18 @@
         "lat": -30.8773,
         "lon": -55.5392,
         "atual": {
-          "tmax": 13.3,
-          "tmin": 6.5,
+          "tmax": 12.3,
+          "tmin": 2.8,
           "precip_mm": 0.0,
           "prob_chuva": 0,
-          "weathercode": 3,
-          "tempo": "nuvem"
+          "weathercode": 2,
+          "tempo": "parcial"
         },
         "previsao_7d": [
           {
-            "data": "2026-06-14",
-            "tmax": 13.3,
-            "tmin": 6.5,
-            "precip_mm": 0.0,
-            "prob_chuva": 0,
-            "weathercode": 3,
-            "tempo": "nuvem"
-          },
-          {
             "data": "2026-06-15",
-            "tmax": 12.2,
-            "tmin": 2.6,
+            "tmax": 12.3,
+            "tmin": 2.8,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 2,
@@ -975,8 +956,8 @@
           },
           {
             "data": "2026-06-16",
-            "tmax": 15.3,
-            "tmin": 2.5,
+            "tmax": 15.2,
+            "tmin": 2.6,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 2,
@@ -984,8 +965,8 @@
           },
           {
             "data": "2026-06-17",
-            "tmax": 16.0,
-            "tmin": 5.5,
+            "tmax": 15.9,
+            "tmin": 5.3,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -993,35 +974,43 @@
           },
           {
             "data": "2026-06-18",
-            "tmax": 15.3,
-            "tmin": 7.6,
+            "tmax": 14.3,
+            "tmin": 7.3,
             "precip_mm": 3.3,
-            "prob_chuva": 72,
+            "prob_chuva": 58,
             "weathercode": 53,
             "tempo": "garoa"
           },
           {
             "data": "2026-06-19",
-            "tmax": 14.7,
-            "tmin": 9.3,
+            "tmax": 16.1,
+            "tmin": 10.1,
             "precip_mm": 13.5,
-            "prob_chuva": 96,
+            "prob_chuva": 90,
             "weathercode": 63,
             "tempo": "chuva"
           },
           {
             "data": "2026-06-20",
-            "tmax": 15.7,
+            "tmax": 15.3,
             "tmin": 5.4,
             "precip_mm": 0.0,
             "prob_chuva": 4,
             "weathercode": 3,
             "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-21",
+            "tmax": 13.1,
+            "tmin": 7.3,
+            "precip_mm": 3.0,
+            "prob_chuva": 16,
+            "weathercode": 51,
+            "tempo": "garoa"
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z",
-        "_obsoleto": true
+        "atualizado_em": "2026-06-15T03:06:31Z"
       }
     },
     {
@@ -1039,26 +1028,17 @@
         "lat": -28.6578,
         "lon": -56.0036,
         "atual": {
-          "tmax": 18.3,
-          "tmin": 11.3,
+          "tmax": 15.0,
+          "tmin": 7.3,
           "precip_mm": 0.0,
-          "prob_chuva": 2,
+          "prob_chuva": 0,
           "weathercode": 3,
           "tempo": "nuvem"
         },
         "previsao_7d": [
           {
-            "data": "2026-06-14",
-            "tmax": 18.3,
-            "tmin": 11.3,
-            "precip_mm": 0.0,
-            "prob_chuva": 2,
-            "weathercode": 3,
-            "tempo": "nuvem"
-          },
-          {
             "data": "2026-06-15",
-            "tmax": 15.1,
+            "tmax": 15.0,
             "tmin": 7.3,
             "precip_mm": 0.0,
             "prob_chuva": 0,
@@ -1067,8 +1047,8 @@
           },
           {
             "data": "2026-06-16",
-            "tmax": 16.9,
-            "tmin": 5.9,
+            "tmax": 16.8,
+            "tmin": 5.7,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -1076,8 +1056,8 @@
           },
           {
             "data": "2026-06-17",
-            "tmax": 19.1,
-            "tmin": 6.5,
+            "tmax": 18.8,
+            "tmin": 6.4,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -1085,17 +1065,17 @@
           },
           {
             "data": "2026-06-18",
-            "tmax": 19.8,
-            "tmin": 11.5,
+            "tmax": 19.3,
+            "tmin": 10.7,
             "precip_mm": 10.9,
-            "prob_chuva": 79,
+            "prob_chuva": 68,
             "weathercode": 63,
             "tempo": "chuva"
           },
           {
             "data": "2026-06-19",
-            "tmax": 17.1,
-            "tmin": 11.1,
+            "tmax": 16.2,
+            "tmin": 12.9,
             "precip_mm": 18.5,
             "prob_chuva": 94,
             "weathercode": 63,
@@ -1103,17 +1083,25 @@
           },
           {
             "data": "2026-06-20",
-            "tmax": 17.0,
-            "tmin": 9.8,
+            "tmax": 16.7,
+            "tmin": 8.6,
             "precip_mm": 0.0,
-            "prob_chuva": 2,
+            "prob_chuva": 4,
             "weathercode": 3,
             "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-21",
+            "tmax": 18.2,
+            "tmin": 10.4,
+            "precip_mm": 9.2,
+            "prob_chuva": 20,
+            "weathercode": 61,
+            "tempo": "chuva"
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z",
-        "_obsoleto": true
+        "atualizado_em": "2026-06-15T03:06:31Z"
       }
     },
     {
@@ -1131,27 +1119,18 @@
         "lat": -30.3337,
         "lon": -54.3217,
         "atual": {
-          "tmax": 15.1,
-          "tmin": 9.1,
+          "tmax": 12.6,
+          "tmin": 4.8,
           "precip_mm": 0.0,
-          "prob_chuva": 4,
-          "weathercode": 3,
-          "tempo": "nuvem"
+          "prob_chuva": 0,
+          "weathercode": 2,
+          "tempo": "parcial"
         },
         "previsao_7d": [
           {
-            "data": "2026-06-14",
-            "tmax": 15.1,
-            "tmin": 9.1,
-            "precip_mm": 0.0,
-            "prob_chuva": 4,
-            "weathercode": 3,
-            "tempo": "nuvem"
-          },
-          {
             "data": "2026-06-15",
             "tmax": 12.6,
-            "tmin": 3.7,
+            "tmin": 4.8,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 2,
@@ -1159,8 +1138,8 @@
           },
           {
             "data": "2026-06-16",
-            "tmax": 15.0,
-            "tmin": 1.0,
+            "tmax": 14.8,
+            "tmin": 1.7,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -1168,8 +1147,8 @@
           },
           {
             "data": "2026-06-17",
-            "tmax": 16.4,
-            "tmin": 4.5,
+            "tmax": 16.3,
+            "tmin": 4.4,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -1177,35 +1156,43 @@
           },
           {
             "data": "2026-06-18",
-            "tmax": 16.2,
-            "tmin": 8.1,
+            "tmax": 15.5,
+            "tmin": 7.8,
             "precip_mm": 0.2,
-            "prob_chuva": 41,
+            "prob_chuva": 33,
             "weathercode": 51,
             "tempo": "garoa"
           },
           {
             "data": "2026-06-19",
-            "tmax": 16.6,
-            "tmin": 9.7,
+            "tmax": 15.3,
+            "tmin": 11.6,
             "precip_mm": 17.2,
-            "prob_chuva": 84,
+            "prob_chuva": 87,
             "weathercode": 63,
             "tempo": "chuva"
           },
           {
             "data": "2026-06-20",
-            "tmax": 15.6,
-            "tmin": 7.1,
+            "tmax": 15.4,
+            "tmin": 8.9,
             "precip_mm": 0.0,
-            "prob_chuva": 8,
+            "prob_chuva": 6,
             "weathercode": 3,
             "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-21",
+            "tmax": 15.4,
+            "tmin": 7.8,
+            "precip_mm": 7.8,
+            "prob_chuva": 16,
+            "weathercode": 55,
+            "tempo": "garoa"
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z",
-        "_obsoleto": true
+        "atualizado_em": "2026-06-15T03:06:31Z"
       }
     },
     {
@@ -1223,27 +1210,18 @@
         "lat": -29.04,
         "lon": -55.1517,
         "atual": {
-          "tmax": 15.6,
-          "tmin": 8.8,
-          "precip_mm": 0.1,
-          "prob_chuva": 4,
-          "weathercode": 51,
-          "tempo": "garoa"
+          "tmax": 13.3,
+          "tmin": 5.3,
+          "precip_mm": 0.0,
+          "prob_chuva": 0,
+          "weathercode": 3,
+          "tempo": "nuvem"
         },
         "previsao_7d": [
           {
-            "data": "2026-06-14",
-            "tmax": 15.6,
-            "tmin": 8.8,
-            "precip_mm": 0.1,
-            "prob_chuva": 4,
-            "weathercode": 51,
-            "tempo": "garoa"
-          },
-          {
             "data": "2026-06-15",
-            "tmax": 13.1,
-            "tmin": 5.2,
+            "tmax": 13.3,
+            "tmin": 5.3,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -1251,8 +1229,8 @@
           },
           {
             "data": "2026-06-16",
-            "tmax": 15.5,
-            "tmin": 4.1,
+            "tmax": 15.2,
+            "tmin": 4.2,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -1260,8 +1238,8 @@
           },
           {
             "data": "2026-06-17",
-            "tmax": 18.5,
-            "tmin": 7.4,
+            "tmax": 18.2,
+            "tmin": 7.3,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -1269,35 +1247,43 @@
           },
           {
             "data": "2026-06-18",
-            "tmax": 18.7,
-            "tmin": 11.3,
+            "tmax": 18.5,
+            "tmin": 10.9,
             "precip_mm": 1.0,
-            "prob_chuva": 57,
+            "prob_chuva": 41,
             "weathercode": 53,
             "tempo": "garoa"
           },
           {
             "data": "2026-06-19",
-            "tmax": 16.3,
-            "tmin": 9.4,
+            "tmax": 14.2,
+            "tmin": 11.4,
             "precip_mm": 23.0,
-            "prob_chuva": 92,
+            "prob_chuva": 98,
             "weathercode": 63,
             "tempo": "chuva"
           },
           {
             "data": "2026-06-20",
-            "tmax": 15.3,
-            "tmin": 8.4,
+            "tmax": 15.7,
+            "tmin": 9.2,
             "precip_mm": 0.0,
-            "prob_chuva": 6,
+            "prob_chuva": 4,
             "weathercode": 3,
             "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-21",
+            "tmax": 17.8,
+            "tmin": 8.4,
+            "precip_mm": 14.2,
+            "prob_chuva": 21,
+            "weathercode": 61,
+            "tempo": "chuva"
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z",
-        "_obsoleto": true
+        "atualizado_em": "2026-06-15T03:06:31Z"
       }
     },
     {
@@ -1315,35 +1301,17 @@
         "lat": -29.7614,
         "lon": -57.0853,
         "atual": {
-          "tmax": 15.8,
-          "tmin": 8.6,
-          "precip_mm": 0.1,
-          "prob_chuva": 2,
-          "weathercode": 51,
-          "tempo": "garoa"
+          "tmax": 13.8,
+          "tmin": 5.2,
+          "precip_mm": 0.0,
+          "prob_chuva": 0,
+          "weathercode": 3,
+          "tempo": "nuvem"
         },
         "previsao_7d": [
           {
-            "data": "2026-06-14",
-            "tmax": 15.8,
-            "tmin": 8.6,
-            "precip_mm": 0.1,
-            "prob_chuva": 2,
-            "weathercode": 51,
-            "tempo": "garoa"
-          },
-          {
             "data": "2026-06-15",
-            "tmax": 13.9,
-            "tmin": 5.3,
-            "precip_mm": 0.0,
-            "prob_chuva": 0,
-            "weathercode": 3,
-            "tempo": "nuvem"
-          },
-          {
-            "data": "2026-06-16",
-            "tmax": 16.1,
+            "tmax": 13.8,
             "tmin": 5.2,
             "precip_mm": 0.0,
             "prob_chuva": 0,
@@ -1351,9 +1319,18 @@
             "tempo": "nuvem"
           },
           {
+            "data": "2026-06-16",
+            "tmax": 15.8,
+            "tmin": 5.1,
+            "precip_mm": 0.0,
+            "prob_chuva": 0,
+            "weathercode": 3,
+            "tempo": "nuvem"
+          },
+          {
             "data": "2026-06-17",
-            "tmax": 18.0,
-            "tmin": 6.4,
+            "tmax": 17.6,
+            "tmin": 6.3,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -1361,35 +1338,43 @@
           },
           {
             "data": "2026-06-18",
-            "tmax": 18.2,
-            "tmin": 10.6,
+            "tmax": 17.2,
+            "tmin": 10.1,
             "precip_mm": 17.7,
-            "prob_chuva": 95,
+            "prob_chuva": 87,
             "weathercode": 63,
             "tempo": "chuva"
           },
           {
             "data": "2026-06-19",
-            "tmax": 15.6,
-            "tmin": 10.9,
+            "tmax": 15.4,
+            "tmin": 10.2,
             "precip_mm": 6.6,
-            "prob_chuva": 96,
+            "prob_chuva": 91,
             "weathercode": 63,
             "tempo": "chuva"
           },
           {
             "data": "2026-06-20",
-            "tmax": 16.8,
-            "tmin": 7.7,
+            "tmax": 16.7,
+            "tmin": 6.6,
             "precip_mm": 0.0,
             "prob_chuva": 2,
             "weathercode": 3,
             "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-21",
+            "tmax": 15.6,
+            "tmin": 10.5,
+            "precip_mm": 0.6,
+            "prob_chuva": 15,
+            "weathercode": 51,
+            "tempo": "garoa"
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z",
-        "_obsoleto": true
+        "atualizado_em": "2026-06-15T03:06:31Z"
       }
     },
     {
@@ -1407,27 +1392,18 @@
         "lat": -30.3461,
         "lon": -53.876,
         "atual": {
-          "tmax": 14.3,
-          "tmin": 8.6,
+          "tmax": 11.9,
+          "tmin": 5.0,
           "precip_mm": 0.0,
-          "prob_chuva": 2,
-          "weathercode": 3,
-          "tempo": "nuvem"
+          "prob_chuva": 0,
+          "weathercode": 1,
+          "tempo": "parcial"
         },
         "previsao_7d": [
           {
-            "data": "2026-06-14",
-            "tmax": 14.3,
-            "tmin": 8.6,
-            "precip_mm": 0.0,
-            "prob_chuva": 2,
-            "weathercode": 3,
-            "tempo": "nuvem"
-          },
-          {
             "data": "2026-06-15",
-            "tmax": 11.7,
-            "tmin": 3.9,
+            "tmax": 11.9,
+            "tmin": 5.0,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 1,
@@ -1435,8 +1411,8 @@
           },
           {
             "data": "2026-06-16",
-            "tmax": 13.6,
-            "tmin": 4.4,
+            "tmax": 13.4,
+            "tmin": 4.5,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 2,
@@ -1444,8 +1420,8 @@
           },
           {
             "data": "2026-06-17",
-            "tmax": 15.6,
-            "tmin": 6.7,
+            "tmax": 16.0,
+            "tmin": 6.4,
             "precip_mm": 0.0,
             "prob_chuva": 0,
             "weathercode": 3,
@@ -1453,35 +1429,43 @@
           },
           {
             "data": "2026-06-18",
-            "tmax": 15.1,
-            "tmin": 7.3,
+            "tmax": 14.3,
+            "tmin": 7.1,
             "precip_mm": 0.0,
-            "prob_chuva": 31,
+            "prob_chuva": 19,
             "weathercode": 3,
             "tempo": "nuvem"
           },
           {
             "data": "2026-06-19",
-            "tmax": 15.7,
-            "tmin": 9.8,
+            "tmax": 14.1,
+            "tmin": 11.2,
             "precip_mm": 16.5,
-            "prob_chuva": 87,
+            "prob_chuva": 86,
             "weathercode": 61,
             "tempo": "chuva"
           },
           {
             "data": "2026-06-20",
-            "tmax": 15.0,
-            "tmin": 8.3,
+            "tmax": 14.7,
+            "tmin": 9.1,
             "precip_mm": 0.0,
-            "prob_chuva": 8,
+            "prob_chuva": 6,
             "weathercode": 3,
             "tempo": "nuvem"
+          },
+          {
+            "data": "2026-06-21",
+            "tmax": 15.4,
+            "tmin": 8.1,
+            "precip_mm": 13.6,
+            "prob_chuva": 17,
+            "weathercode": 61,
+            "tempo": "chuva"
           }
         ],
         "fonte": "Open-Meteo",
-        "atualizado_em": "2026-06-15T02:21:45Z",
-        "_obsoleto": true
+        "atualizado_em": "2026-06-15T03:06:31Z"
       }
     }
   ],
