@@ -420,8 +420,16 @@ function tabClima(d){
   h+='<div class="panel"><div class="stitle">'+icoTermo(14,"currentColor")+' Temperatura por munic&iacute;pio - hoje</div><div class="chart-scroll"><div id="chTemp"></div></div></div>';
   h+='<div class="panel"><div class="stitle">'+icoGota(14,"currentColor")+' Chuva acumulada 7 dias - por munic&iacute;pio</div><div class="chart-scroll"><div id="chChuva"></div></div></div>';
   h+="</div>";
+  var selc=selDoDistrito(d), allm=d.municipios||[], temClima=false;
+  for(var t=0;t<allm.length;t++){ if(allm[t].clima){ temClima=true; break; } }
   h+='<div class="panel"><div class="stitle">'+icoMapa(14,"currentColor")+' Previs&atilde;o detalhada por munic&iacute;pio</div>';
-  for(var m=0;m<(d.municipios||[]).length;m++) h+=muncard(d.municipios[m]);
+  if(!temClima){
+    for(var m=0;m<allm.length;m++) h+=muncard(allm[m]);
+  } else {
+    var algum=false;
+    for(var m=0;m<allm.length;m++){ if(selc[allm[m].id]){ h+=muncard(allm[m]); algum=true; } }
+    if(!algum) h+='<div style="color:var(--dim);font-family:IBM Plex Mono,monospace;font-size:12px;padding:24px 0;text-align:center">Selecione ao menos um munic&iacute;pio no filtro acima.</div>';
+  }
   h+="</div>";
   return h;
 }
