@@ -1,7 +1,12 @@
 name: Atualizar dados
 
 on:
-  workflow_dispatch: {}        # botão "Run workflow" para disparo manual
+  workflow_dispatch:
+    inputs:
+      distrito:
+        description: "distrito_id para testar só um (vazio = todos)"
+        required: false
+        default: ""
   schedule:
     - cron: "0 9,21 * * *"     # 06h e 18h de Brasília (UTC-3)
 
@@ -22,7 +27,7 @@ jobs:
         run: pip install -r pipeline/requirements.txt
 
       - name: Executar pipeline
-        run: python pipeline/main.py
+        run: python pipeline/main.py "${{ github.event.inputs.distrito }}"
 
       - name: Publicar dados junto com o site (web/data/out)
         run: |
