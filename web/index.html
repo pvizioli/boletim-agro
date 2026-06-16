@@ -125,6 +125,22 @@
   .chip{font-size:12px;color:var(--mut);background:var(--panel2);border:1px solid var(--border);border-radius:14px;padding:5px 11px;cursor:pointer;transition:.12s;white-space:nowrap}
   .chip:hover{border-color:var(--border2);color:var(--tx)}
   .chip.on{color:#0b1410;background:var(--brand);border-color:var(--brand);font-weight:500}
+  .fontes{border:1px solid var(--border);background:var(--panel2);border-radius:8px;padding:12px 16px;margin-bottom:18px}
+  .ftitle{display:flex;align-items:center;gap:7px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--mut);margin-bottom:8px}
+  .fonte-row{display:grid;grid-template-columns:80px 1fr auto auto;gap:10px;align-items:baseline;padding:4px 0;font-size:12.5px}
+  .fonte-row .fl{font-family:'IBM Plex Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:var(--dim)}
+  .fonte-row .ff{color:var(--tx);font-weight:500}
+  .fonte-row .fe{color:var(--mut);font-size:11px}
+  .fonte-row .fd{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--dim);white-space:nowrap}
+  .fonte-banner{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--mut);background:var(--panel2);border:1px solid var(--border);border-radius:6px;padding:8px 12px;margin-bottom:16px}
+  .colh-head,.colh-row{display:grid;grid-template-columns:2fr 1fr 1fr 1.1fr 1.1fr;gap:8px;align-items:center}
+  .colh-head{font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--dim);padding:6px 0;border-bottom:1px solid var(--border)}
+  .colh-row{padding:11px 0;border-bottom:1px solid var(--border);font-family:'IBM Plex Mono',monospace;font-size:13px;color:var(--tx)}
+  .cr-nome{font-family:'Fraunces',Georgia,serif;font-size:16px;display:flex;flex-direction:column}
+  .cr-gran{font-family:'IBM Plex Mono',monospace;font-size:9px;color:var(--dim);text-transform:uppercase;letter-spacing:.06em;margin-top:2px}
+  .cr-colh{color:var(--brandL);font-weight:500}
+  .cr-meta{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--dim);padding:2px 0 10px;border-bottom:1px solid var(--border)}
+  .cpos{color:var(--emeraldL)} .cneg{color:var(--redL)} .cmut{color:var(--mut)}
 
   .muncard{border:1px solid var(--border);background:var(--panel);border-radius:10px;overflow:hidden;margin-bottom:16px;box-shadow:0 1px 3px var(--shadow);transition:.18s}
   .muncard:hover{box-shadow:0 6px 22px var(--shadow)}
@@ -389,7 +405,7 @@ function breadDistrito(d){
 function montaDistrito(d){
   if(d.gerado_em) $("upd").textContent=fmtData(d.gerado_em);
   var tabs=[["clima",icoTermo(15,"currentColor"),"Clima e Previs&atilde;o"],["colheita",icoBroto(15,"currentColor"),"Colheita"],["municipios",icoMapa(15,"currentColor"),"Munic&iacute;pios"]];
-  var h=breadDistrito(d)+'<div class="tabs">';
+  var h=breadDistrito(d)+fontesDistrito(d)+'<div class="tabs">';
   for(var i=0;i<tabs.length;i++){ h+='<button class="tab '+(tabAtiva===tabs[i][0]?"on":"")+'" onclick="setTab(\''+tabs[i][0]+'\')"><span class="ic">'+tabs[i][1]+'</span>'+tabs[i][2]+'</button>'; }
   h+="</div>";
   if(tabAtiva==="clima") h+=tabClima(d);
@@ -398,6 +414,22 @@ function montaDistrito(d){
   return h;
 }
 function setTab(k){ tabAtiva=k; render(); }
+
+function fontesDistrito(d){
+  var ufs=((d.distrito.ufs&&d.distrito.ufs.length)?d.distrito.ufs:[d.distrito.uf]).filter(Boolean).join(", ");
+  var c=d.colheita||{}, temColh=(c.status&&c.status!=="pendente"&&c.itens&&c.itens.length);
+  var colFonte = temColh ? (escX(c.fonte||"")+(c.granularidade?(" &middot; "+escX(c.granularidade)):"")) : "pendente (Fase 2)";
+  var dataGer = d.gerado_em?fmtData(d.gerado_em):"-";
+  var colData = temColh && c.data_referencia ? escX(c.data_referencia) : dataGer;
+  function linha(lab,fonte,escopo,data){
+    return '<div class="fonte-row"><span class="fl">'+lab+'</span><span class="ff">'+fonte+'</span><span class="fe">'+escopo+'</span><span class="fd">'+data+'</span></div>';
+  }
+  var h='<div class="fontes"><div class="ftitle">'+icoMapa(13,"currentColor")+' Fontes deste distrito</div>';
+  h+=linha("Clima","Open-Meteo","previs&atilde;o por munic&iacute;pio",dataGer);
+  h+=linha("Alertas","INMET","UF: "+escX(ufs||"-"),dataGer);
+  h+=linha("Colheita",colFonte,"",colData);
+  return h+"</div>";
+}
 
 function tabClima(d){
   var a=agrega(d), al=(d.alertas&&d.alertas.ativos)||[];
@@ -438,14 +470,21 @@ function tabColheita(d){
   var c=d.colheita||{status:"pendente"};
   if(c.status==="pendente"||!(c.itens&&c.itens.length)){
     return '<div class="soon"><div class="tag">Fase 2 - em breve</div>'
-      +'<div style="font-family:Fraunces,serif;font-size:21px;color:var(--mut);margin-bottom:8px">Acompanhamento de colheita</div>'
-      +'<p style="max-width:540px;margin:0 auto;font-size:13px;line-height:1.6">Esta aba exibir&aacute; o avan&ccedil;o da colheita por munic&iacute;pio (% colhido, produtividade, proje&ccedil;&otilde;es), '
-      +'alimentada por Conab e pelos informativos dos &oacute;rg&atilde;os estaduais (Emater-RS, Deral-PR, Epagri-SC e outros), com marca&ccedil;&atilde;o de dado oficial vs. estimativa.</p></div>';
+      +'<div style="font-family:Fraunces,serif;font-size:21px;color:var(--mut);margin-bottom:8px">Timing e posi&ccedil;&atilde;o de plantio e colheita</div>'
+      +'<p style="max-width:560px;margin:0 auto;font-size:13px;line-height:1.6">Esta aba mostrar&aacute; % plantado e % colhido por regi&atilde;o (Emater-RS, Deral-PR, Epagri-SC) e por UF (Conab), '
+      +'com a posi&ccedil;&atilde;o vs. m&eacute;dia e vs. safra anterior - cada n&uacute;mero com sua fonte e data.</p></div>';
   }
-  var h='<div class="panel"><div class="stitle">'+icoBroto(14,"currentColor")+' Colheita - '+escX(c.fonte||"")+'</div>';
+  function pos(v){ if(v==null) return '<span class="cmut">-</span>'; var s=v>0?"+":""; var cls=v>0?"cpos":(v<0?"cneg":"cmut"); return '<span class="'+cls+'">'+s+v+" p.p.</span>"; }
+  function cond(t){ if(!t) return ""; var M={boa:"cpos",media:"cmut",ruim:"cneg"}; return '<span class="'+(M[String(t).toLowerCase()]||"cmut")+'">'+escX(t)+'</span>'; }
+  var h='<div class="panel"><div class="stitle">'+icoBroto(14,"currentColor")+' Colheita &amp; plantio - posi&ccedil;&atilde;o</div>';
+  h+='<div class="fonte-banner">Fonte: '+escX(c.fonte||"-")+(c.granularidade?(" &middot; "+escX(c.granularidade)):"")+(c.data_referencia?(" &middot; ref. "+escX(c.data_referencia)):"")+'</div>';
+  h+='<div class="colh-head"><span>Regi&atilde;o</span><span>Plantado</span><span>Colhido</span><span>vs m&eacute;dia 5a</span><span>vs safra ant.</span></div>';
   for(var i=0;i<c.itens.length;i++){ var it=c.itens[i];
-    h+='<div style="display:flex;justify-content:space-between;align-items:center;padding:12px 0;border-bottom:1px solid var(--border)"><span class="serif" style="font-size:17px">'+escX(it.municipio||"")+'</span>'
-      +'<span class="mono" style="color:var(--emeraldL);font-size:16px">'+(it.pct_colhido!=null?it.pct_colhido+"%":"-")+'</span></div>';
+    h+='<div class="colh-row"><span class="cr-nome">'+escX(it.regiao||it.uf||it.municipio||"-")+(it.granularidade?'<span class="cr-gran">'+escX(it.granularidade)+'</span>':'')+'</span>'
+      +'<span>'+(it.pct_plantado!=null?it.pct_plantado+"%":"-")+'</span>'
+      +'<span class="cr-colh">'+(it.pct_colhido!=null?it.pct_colhido+"%":"-")+'</span>'
+      +'<span>'+pos(it.vs_media5anos)+'</span><span>'+pos(it.vs_safra_anterior)+'</span></div>';
+    if(it.condicao_lavoura||it.fonte){ h+='<div class="cr-meta">'+(it.condicao_lavoura?("Lavoura: "+cond(it.condicao_lavoura)+" &middot; "):"")+(it.fonte?("Fonte: "+escX(it.fonte)):"")+(it.data_referencia?(" &middot; "+escX(it.data_referencia)):"")+'</div>'; }
   }
   return h+"</div>";
 }
