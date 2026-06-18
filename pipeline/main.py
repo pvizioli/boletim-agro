@@ -28,10 +28,11 @@ import unicodedata
 from collections import Counter, OrderedDict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from conectores import inmet, open_meteo  # noqa: E402
+from conectores import inmet, open_meteo, colheita_csv  # noqa: E402
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CSV_PATH = os.path.join(BASE, "config", "municipios.csv")
+COLHEITA_CSV = os.path.join(BASE, "data", "colheita", "colheita.csv")
 OUT_DIR = os.path.join(BASE, "web", "data", "out")
 RETENCAO_HISTORICO_DIAS = 45   # snapshots mais antigos que isso são podados
 
@@ -111,7 +112,7 @@ def alertas_para_ufs(ufs, cache):
     return {"ativos": ativos, "ufs": sorted(set(ufs))}
 
 
-def processar_distrito(d, alertas_cache):
+def processar_distrito(d, alertas_cache, colheita_itens):
     clima_anterior, colheita_anterior = ler_anterior(d["id"])
     clima_novo = open_meteo.buscar_clima(d["municipios"])
     municipios_out, reap, semd = [], 0, 0
@@ -125,7 +126,9 @@ def processar_distrito(d, alertas_cache):
                 semd += 1
         municipios_out.append({**m, "clima": bloco})
     alertas = alertas_para_ufs(d["ufs"], alertas_cache)
-    colheita = colheita_anterior or {"status": "pendente", "fonte": None, "itens": []}
+    colheita = (colheita_csv.bloco_para_distrito(colheita_itens, d["ufs"])
+                or colheita_anterior
+                or {"status": "pendente", "fonte": None, "itens": []})
     chaves = ("id", "nome", "regional", "codigo_regional", "uf", "ufs", "cultura_principal")
     payload = {
         "distrito": {k: d[k] for k in chaves if k in d},
@@ -224,9 +227,12 @@ def main():
     print("[selecao] " + rotulo + " -> " + str(len(selecionados)) + " distrito(s)")
 
     alertas_cache, erros = {}, 0
+    colheita_itens = colheita_csv.carregar(COLHEITA_CSV)
+    if colheita_itens:
+        print("[colheita] CSV: " + ", ".join(sorted(colheita_itens)))
     for d in selecionados:
         try:
-            payload, reap, semd = processar_distrito(d, alertas_cache)
+            payload, reap, semd = processar_distrito(d, alertas_cache, colheita_itens)
             salvar(d["id"], payload)
             n_al = len(payload["alertas"].get("ativos", []))
             msg = "[ok] " + d["id"] + ": " + str(len(payload["municipios"])) + " mun · " + str(n_al) + " INMET"
