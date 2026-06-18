@@ -56,6 +56,9 @@ def _item(row):
         "area_ha": _num(row.get("area_ha")),
         "producao_t": _num(row.get("producao_t")),
         "var_producao_pct": _num(row.get("vs_safra_anterior")),
+        "preco_rs_sc": _num(row.get("preco_rs_sc")),
+        "preco_data": (row.get("preco_data") or "").strip() or None,
+        "preco_fonte": (row.get("preco_fonte") or "").strip() or None,
     }
 
 
@@ -117,3 +120,14 @@ def colheita_municipio(estado, area_ha):
         if pc is not None:
             out["ha_colhido_estim"] = int(round(area_ha * pc / 100.0))
     return out
+
+
+def preco_para_distrito(itens_por_uf, ufs):
+    """Preco da saca para o distrito: a primeira UF dele que tiver preco."""
+    for u in ufs:
+        it = itens_por_uf.get(u)
+        if it and it.get("preco_rs_sc") is not None:
+            return {"valor": it["preco_rs_sc"], "uf": u,
+                    "data": it.get("preco_data"), "fonte": it.get("preco_fonte"),
+                    "unidade": "R$/sc 60kg"}
+    return None
