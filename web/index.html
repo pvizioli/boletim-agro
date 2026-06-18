@@ -22,15 +22,15 @@
   }
   /* ===== TEMA CLARO (verde suave, texto de alto contraste) ===== */
   [data-theme="light"]{
-    --bg:#dde9d6; --panel:#f4f9f1; --panel2:#cddec2; --panelHover:#eef5ea;
-    --border:#c7d8bd; --border2:#a9c19a;
-    --tx:#14241a; --mut:#3f5a48; --dim:#5d7466; --vdim:#7d9184;
-    --brand:#2f7d54; --brandL:#236343; --chartMax:#a85d58; --chartMin:#4f897a;
+    --bg:#eef2ea; --panel:#ffffff; --panel2:#e6ece0; --panelHover:#f6f8f3;
+    --border:#dde4d5; --border2:#c5d0ba;
+    --tx:#1a2520; --mut:#52615a; --dim:#79867d; --vdim:#a3aea3;
+    --brand:#2f7d54; --brandL:#236343; --chartMax:#b06b62; --chartMin:#4f897a;
     --amber:#b3690a; --amberL:#8f5208; --sky:#0b6ea8; --skyL:#075f93;
     --emerald:#0f8a5f; --emeraldL:#0a6b49; --red:#c0392b; --redL:#962d22;
     --violet:#6b4fc0; --violetL:#553aa6; --cyan:#0e7490;
-    --grid:rgba(40,70,50,.14); --shadow:rgba(40,70,50,.10);
-    --headGrad:linear-gradient(to bottom,rgba(47,125,84,.12),transparent);
+    --grid:rgba(40,70,50,.08); --shadow:rgba(40,70,50,.06);
+    --headGrad:linear-gradient(to bottom,rgba(47,125,84,.08),transparent);
   }
   *{box-sizing:border-box;margin:0;padding:0}
   body{background:var(--bg);color:var(--tx);font-family:'IBM Plex Sans',system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;transition:background .3s,color .3s}
@@ -142,10 +142,6 @@
   .cr-colh{color:var(--brandL);font-weight:500}
   .cr-meta{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--dim);padding:2px 0 10px;border-bottom:1px solid var(--border)}
   .cpos{color:var(--emeraldL)} .cneg{color:var(--redL)} .cmut{color:var(--mut)}
-  .mun-colh{margin-top:12px;padding-top:12px;border-top:1px dashed var(--border)}
-  .mc-h{display:flex;align-items:center;gap:6px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--mut);margin-bottom:8px}
-  .mc-deriv{margin-left:6px;font-size:8.5px;letter-spacing:.06em;color:var(--dim);border:1px solid var(--border);border-radius:4px;padding:1px 5px;text-transform:uppercase}
-  .mc-fonte{font-family:'IBM Plex Mono',monospace;font-size:9.5px;color:var(--dim);margin-top:8px}
 
   .muncard{border:1px solid var(--border);background:var(--panel);border-radius:10px;overflow:hidden;margin-bottom:16px;box-shadow:0 1px 3px var(--shadow);transition:.18s}
   .muncard:hover{box-shadow:0 6px 22px var(--shadow)}
@@ -399,7 +395,7 @@ function agrega(d){
 function viewDistrito(){
   var id=nav.distrito;
   if(cacheDistrito[id]) return Promise.resolve(montaDistrito(cacheDistrito[id]));
-  return carregaJSON(BASE+"/"+id+"/latest.json?t="+Date.now()).then(function(d){ cacheDistrito[id]=d; return montaDistrito(d); })
+  return carregaJSON(BASE+"/"+id+"/latest.json").then(function(d){ cacheDistrito[id]=d; return montaDistrito(d); })
     .catch(function(e){ return '<div class="loading">N&atilde;o foi poss&iacute;vel carregar este distrito.<br><span style="color:var(--vdim)">'+e.message+'</span></div>'; });
 }
 function breadDistrito(d){
@@ -491,23 +487,6 @@ function tabColheita(d){
       +'<span>'+pos(it.vs_media5anos)+'</span><span>'+pos(it.vs_safra_anterior)+'</span></div>';
     if(it.condicao_lavoura||it.fonte){ h+='<div class="cr-meta">'+(it.condicao_lavoura?("Lavoura: "+cond(it.condicao_lavoura)+" &middot; "):"")+(it.fonte?("Fonte: "+escX(it.fonte)):"")+(it.data_referencia?(" &middot; "+escX(it.data_referencia)):"")+'</div>'; }
   }
-  h+="</div>";
-  h+=colheitaMunicipios(d);
-  return h;
-}
-function colheitaMunicipios(d){
-  var ms=(d.municipios||[]).filter(function(m){return m.colheita;});
-  if(!ms.length) return "";
-  var h='<div class="panel"><div class="stitle">'+icoBroto(14,"currentColor")+' Colheita estimada por munic&iacute;pio</div>';
-  h+='<div class="fonte-banner">Estimativa derivada: &aacute;rea plantada (PAM/IBGE 2024) &times; % estadual. Valores marcados como <b>derivado</b>.</div>';
-  h+='<div class="colh-head"><span>Munic&iacute;pio</span><span>&Aacute;rea (ha)</span><span>Plantado</span><span>Colhido</span><span>Colhido (ha est.)</span></div>';
-  for(var i=0;i<ms.length;i++){ var m=ms[i], mc=m.colheita;
-    h+='<div class="colh-row"><span class="cr-nome">'+escX(m.nome)+'</span>'
-      +'<span>'+fmtMil(mc.area_soja_ha)+'</span>'
-      +'<span>'+(mc.pct_plantado!=null?mc.pct_plantado+"%":"-")+'</span>'
-      +'<span class="cr-colh">'+(mc.pct_colhido!=null?mc.pct_colhido+"%":"-")+'</span>'
-      +'<span>'+fmtMil(mc.ha_colhido_estim)+'</span></div>';
-  }
   return h+"</div>";
 }
 function kpi(cls,ico,lab,val,sub){ return '<div class="kpi '+cls+'"><div class="kicker"><span class="ic">'+ico+'</span><span class="lab">'+lab+'</span></div><div class="val">'+val+'</div><div class="sub">'+sub+'</div></div>'; }
@@ -538,21 +517,9 @@ function muncard(m){
       +'<div class="wmax">'+rnd(dia.tmax)+'&deg;</div><div class="wmin">'+rnd(dia.tmin)+'&deg;</div>'
       +'<div class="wr">'+((dia.precip_mm||0)>0?(dia.precip_mm+" mm"):"&mdash;")+'</div></div>';
   }
-  h+="</div>";
-  if(m.colheita){ var mc=m.colheita;
-    h+='<div class="mun-colh"><div class="mc-h">'+icoBroto(12,"currentColor")+' Colheita'+(mc.derivado?'<span class="mc-deriv">estimado</span>':'')+'</div>';
-    h+='<div class="muncard-body">';
-    h+=metric("brand",fmtMil(mc.area_soja_ha)+" ha","&aacute;rea de soja");
-    h+=metric("sky",(mc.pct_plantado!=null?mc.pct_plantado+"%":"-"),"plantado");
-    h+=metric("cyan",(mc.pct_colhido!=null?mc.pct_colhido+"%":"-"),"colhido");
-    h+=metric("brand",fmtMil(mc.ha_colhido_estim)+" ha","colhido est.");
-    h+='</div>';
-    h+='<div class="mc-fonte">'+escX(mc.fonte||"")+(mc.data_referencia?(" &middot; "+escX(mc.data_referencia)):"")+'</div></div>';
-  }
-  h+="</div>";
+  h+="</div></div>";
   return h;
 }
-function fmtMil(n){ return (n==null||n==="")?"-":Number(n).toLocaleString("pt-BR"); }
 function metric(cls,val,lab){ return '<div class="metric"><div class="mv '+cls+'">'+val+'</div><div class="ml">'+lab+'</div></div>'; }
 
 // ===== GRAFICOS SVG =====
