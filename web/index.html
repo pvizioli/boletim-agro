@@ -22,7 +22,7 @@
   }
   /* ===== TEMA CLARO (verde suave, texto de alto contraste) ===== */
   [data-theme="light"]{
-    --bg:#e9f1e4; --panel:#f4f9f1; --panel2:#dde9d6; --panelHover:#eef5ea;
+    --bg:#dde9d6; --panel:#f4f9f1; --panel2:#cddec2; --panelHover:#eef5ea;
     --border:#c7d8bd; --border2:#a9c19a;
     --tx:#14241a; --mut:#3f5a48; --dim:#5d7466; --vdim:#7d9184;
     --brand:#2f7d54; --brandL:#236343; --chartMax:#a85d58; --chartMin:#4f897a;
@@ -39,6 +39,7 @@
   .wrap{max-width:1280px;margin:0 auto;padding:0 24px}
 
   header{border-bottom:1px solid var(--border);background:var(--headGrad)}
+  [data-theme="light"] header{background:var(--panel2)}
   .head-in{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px;padding:26px 0}
   .eyebrow{display:flex;align-items:center;gap:12px;margin-bottom:8px}
   .eyebrow .bar{width:4px;height:30px;background:var(--brand)}
