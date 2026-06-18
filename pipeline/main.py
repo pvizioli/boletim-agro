@@ -138,6 +138,7 @@ def processar_distrito(d, alertas_cache, colheita_itens):
         "municipios": municipios_out,
         "alertas": alertas,
         "colheita": colheita,
+        "preco": colheita_csv.preco_para_distrito(colheita_itens, d["ufs"]),
     }
     return payload, reap, semd
 
