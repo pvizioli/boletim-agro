@@ -124,7 +124,9 @@ def processar_distrito(d, alertas_cache, colheita_itens):
                 bloco = dict(antigo); bloco["_obsoleto"] = True; reap += 1
             else:
                 semd += 1
-        municipios_out.append({**m, "clima": bloco})
+        mcol = colheita_csv.colheita_municipio(
+            colheita_itens.get(m["uf"]), m.get("area_soja_ha"))
+        municipios_out.append({**m, "clima": bloco, "colheita": mcol})
     alertas = alertas_para_ufs(d["ufs"], alertas_cache)
     colheita = (colheita_csv.bloco_para_distrito(colheita_itens, d["ufs"])
                 or colheita_anterior
