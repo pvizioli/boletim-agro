@@ -89,3 +89,31 @@ def bloco_para_distrito(itens_por_uf, ufs):
         "cultura": "soja",
         "itens": sel,
     }
+
+
+def colheita_municipio(estado, area_ha):
+    """Colheita derivada de um municipio: area real (PAM) x % estadual.
+
+    estado  = item estadual retornado por carregar() (tem pct_plantado/colhido)
+    area_ha = area_soja_ha do municipio (pode ser None)
+    Retorna None se nao houver dado estadual para a UF do municipio.
+    """
+    if not estado:
+        return None
+    pp = estado.get("pct_plantado")
+    pc = estado.get("pct_colhido")
+    out = {
+        "pct_plantado": pp,
+        "pct_colhido": pc,
+        "area_soja_ha": area_ha,
+        "fonte": estado.get("fonte"),
+        "data_referencia": estado.get("data_referencia"),
+        "granularidade": "estadual aplicado ao municipio",
+        "derivado": True,
+    }
+    if area_ha is not None:
+        if pp is not None:
+            out["ha_plantado_estim"] = int(round(area_ha * pp / 100.0))
+        if pc is not None:
+            out["ha_colhido_estim"] = int(round(area_ha * pc / 100.0))
+    return out
