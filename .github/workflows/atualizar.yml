@@ -4,11 +4,15 @@ on:
   workflow_dispatch:
     inputs:
       alvo:
-        description: "vazio=slot da hora (seguro) | distrito_id | k/n | 'todos' (só com API key)"
+        description: "vazio = TODOS os distritos | distrito_id | k/n (lote manual)"
         required: false
         default: ""
   schedule:
-    - cron: "0 * * * *"        # de hora em hora; cada hora processa um slot
+    # 3x/dia (02:00, 10:00, 18:00 UTC = 23h, 07h, 15h BRT).
+    # Cada run processa TODOS os distritos; o conector Open-Meteo faz pacing
+    # (lotes de 100, ~500 chamadas/min sob o limite free de 600), entao
+    # rodar os ~1300 municipios de uma vez leva ~3-4 min e e seguro sem API key.
+    - cron: "0 2,10,18 * * *"
 
 permissions:
   contents: write
@@ -26,29 +30,25 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Instalar dependências
+      - name: Instalar dependencias
         run: pip install -r pipeline/requirements.txt
 
-      - name: Definir alvo
-        id: alvo
-        run: |
-          INPUT="${{ github.event.inputs.alvo }}"
-          if [ "${{ github.event_name }}" = "schedule" ] || [ -z "$INPUT" ]; then
-            echo "alvo=$(( $(date -u +%H) % 24 ))/24" >> "$GITHUB_OUTPUT"
-          else
-            echo "alvo=$INPUT" >> "$GITHUB_OUTPUT"
-          fi
-
       - name: Executar pipeline
-        # Plano pago: descomente e cadastre o secret OPEN_METEO_APIKEY
+        # Plano pago: descomente e cadastre o secret OPEN_METEO_APIKEY para ir
+        # ainda mais rapido e sem pacing.
         # env:
         #   OPEN_METEO_APIKEY: ${{ secrets.OPEN_METEO_APIKEY }}
-        run: python pipeline/main.py "${{ steps.alvo.outputs.alvo }}"
+        run: python pipeline/main.py "${{ github.event.inputs.alvo }}"
 
       - name: Commit dos dados atualizados
+        # always(): mesmo que um distrito falhe (exit 1), os demais ja gravados
+        # sao commitados — uma fonte com problema nao trava o boletim inteiro.
+        if: always()
         run: |
           git config user.name "boletim-bot"
           git config user.email "actions@users.noreply.github.com"
           git add web/data/out
-          git diff --cached --quiet || git commit -m "dados: $(date -u +'%Y-%m-%d %H:%M UTC') alvo=${{ steps.alvo.outputs.alvo }}"
+          git diff --cached --quiet && { echo "nada a commitar"; exit 0; }
+          git commit -m "dados: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git pull --rebase --autostash origin main || true
           git push
