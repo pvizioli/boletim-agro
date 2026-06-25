@@ -79,7 +79,9 @@ def bloco_para_distrito(itens_por_uf, ufs):
     """Monta o bloco `colheita` de um distrito a partir das UFs dele.
     Retorna None se nao houver dado para nenhuma UF (o pipeline entao
     preserva a colheita anterior, sem regredir)."""
-    sel = [itens_por_uf[u] for u in ufs if u in itens_por_uf]
+    sel = [it for it in (itens_por_uf.get(u) for u in ufs)
+           if it and (it.get("pct_plantado") is not None
+                      or it.get("pct_colhido") is not None)]
     if not sel:
         return None
     datas = [i["data_referencia"] for i in sel if i.get("data_referencia")]
@@ -105,6 +107,8 @@ def colheita_municipio(estado, area_ha):
         return None
     pp = estado.get("pct_plantado")
     pc = estado.get("pct_colhido")
+    if pp is None and pc is None:
+        return None
     out = {
         "pct_plantado": pp,
         "pct_colhido": pc,
