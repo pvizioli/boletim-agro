@@ -182,7 +182,49 @@ def salvar(distrito_id, payload):
     _podar_historico(hist, RETENCAO_HISTORICO_DIAS)
 
 
-def salvar_indice(distritos):
+def _resumo(distritos, colheita_itens):
+    """Area total de soja + % plantado/colhido ponderado por area (sobre a area
+    que tem dado de colheita), nacional e por regional. Alimenta a home e a
+    view de regional do site."""
+    def agg(muns):
+        area = 0
+        area_uf = {}
+        for m in muns:
+            a = m.get("area_soja_ha") or 0
+            area += a
+            uf = m.get("uf")
+            if uf:
+                area_uf[uf] = area_uf.get(uf, 0) + a
+        np_ = dp = nc = dc = 0.0
+        ufs_dado = set()
+        for uf, a in area_uf.items():
+            it = colheita_itens.get(uf)
+            if not it:
+                continue
+            pp, pc = it.get("pct_plantado"), it.get("pct_colhido")
+            if pp is not None:
+                np_ += a * pp; dp += a; ufs_dado.add(uf)
+            if pc is not None:
+                nc += a * pc; dc += a; ufs_dado.add(uf)
+        return {
+            "area_soja_ha": int(round(area)),
+            "pct_plantado": round(np_ / dp, 1) if dp else None,
+            "pct_colhido": round(nc / dc, 1) if dc else None,
+            "area_com_dado_ha": int(round(dc or dp or 0)),
+            "ufs_com_dado": sorted(ufs_dado),
+        }
+    nacional = agg([m for d in distritos for m in d.get("municipios", [])])
+    por_regional = OrderedDict()
+    regs = OrderedDict()
+    for d in distritos:
+        regs.setdefault(d.get("regional") or "Sem regional", []).extend(
+            d.get("municipios", []))
+    for reg, muns in regs.items():
+        por_regional[reg] = agg(muns)
+    return {"nacional": nacional, "por_regional": por_regional}
+
+
+def salvar_indice(distritos, colheita_itens=None):
     """index.json com a árvore Regional → Distrito. Sempre do catálogo completo."""
     regionais = OrderedDict()
     for d in distritos:
@@ -202,6 +244,7 @@ def salvar_indice(distritos):
         "gerado_em": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
         "total_distritos": len(distritos),
         "total_municipios": sum(len(d.get("municipios", [])) for d in distritos),
+        "resumo": _resumo(distritos, colheita_itens or {}),
         "regionais": lista,
     }
     os.makedirs(OUT_DIR, exist_ok=True)
@@ -246,7 +289,7 @@ def main():
             erros += 1
             print("[ERRO] " + d["id"] + ": " + str(e), file=sys.stderr)
 
-    salvar_indice(catalogo)   # sempre do catálogo completo — nunca encolhe
+    salvar_indice(catalogo, colheita_itens)   # sempre do catálogo completo — nunca encolhe
     print("[indice] " + str(len(catalogo)) + " distrito(s) catalogado(s)")
     if erros:
         sys.exit(1)
