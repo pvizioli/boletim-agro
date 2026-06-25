@@ -2,3 +2,24 @@ uf,regiao,granularidade,cultura,safra,data_referencia,pct_plantado,pct_colhido,p
 RS,Rio Grande do Sul,estadual,soja,2025/2026,2026-06-11,100,100,2707,6690000,18132401,+32.9,"Safra encerrada; forte variabilidade regional (1.200-4.200 kg/ha); produtividade -14,8% vs projeção inicial",Emater/RS-Ascar - Informativo Conjuntural (via SEAPI-RS / Canal Rural),128.74,2026-06-12,Grao Direto (Centro Ocidental RS)
 PR,Paraná,estadual,soja,2025/2026,2026-05-25,100,100,3796,5738000,21780000,+2.8,"Safra encerrada; produtividade 3.796 kg/ha (+3,2% vs ciclo anterior); área estável",Deral/SEAB-PR - PSS / Boletim de Safra (via Canal Rural / IDR-Paraná),128.50,2026-06-17,"Canal Rural (Paranagua, porto)"
 SC,Santa Catarina,estadual,soja,2025/2026,2026-05-01,100,100,3774,757000,3100000,-7.0,"Safra encerrada; 1a safra -7% produção (produtividade -5,5%, área -1,6%); 2a safra +21,4% área; total ~3,1 mi t (1a+2a)",Epagri/Cepa - Boletim Agropecuário mensal (via Observatório Agro Catarinense),,,
+ES,Espírito Santo,estadual,soja,,,,,,,,,,,,,
+MG,Minas Gerais,estadual,soja,2025/2026,2026-06-11,100,100,,,,,Safra 2025/26 encerrada,Conab - 9o Levantamento Safra de Graos (jun/2026),113.00,2026-05-06,Portal Agron (Triangulo Mineiro)
+SP,São Paulo,estadual,soja,2025/2026,2026-06-11,100,100,,,,,Safra 2025/26 encerrada,Conab - 9o Levantamento Safra de Graos (jun/2026),,,
+GO,Goiás,estadual,soja,2025/2026,2026-06-11,100,100,,,20100000,,Safra 2025/26 encerrada,Conab - 9o Levantamento Safra de Graos (jun/2026),113.00,2026-05-06,Portal Agron (Rio Verde/GO)
+RJ,Rio de Janeiro,estadual,soja,,,,,,,,,,,,,
+MA,Maranhão,estadual,soja,2025/2026,2026-06-11,100,100,,,,,Safra 2025/26 encerrada,Conab - 9o Levantamento Safra de Graos (jun/2026),,,
+PB,Paraíba,estadual,soja,,,,,,,,,,,,,
+PE,Pernambuco,estadual,soja,,,,,,,,,,,,,
+PI,Piauí,estadual,soja,2025/2026,2026-06-11,100,100,,,,,Safra 2025/26 encerrada,Conab - 9o Levantamento Safra de Graos (jun/2026),,,
+RN,Rio Grande do Norte,estadual,soja,,,,,,,,,,,,,
+SE,Sergipe,estadual,soja,,,,,,,,,,,,,
+TO,Tocantins,estadual,soja,2025/2026,2026-06-11,100,100,,,,,Safra 2025/26 encerrada,Conab - 9o Levantamento Safra de Graos (jun/2026),,,
+DF,Distrito Federal,estadual,soja,2025/2026,2026-06-11,100,100,,,,,Safra 2025/26 encerrada,Conab - 9o Levantamento Safra de Graos (jun/2026),112.00,2026-05-06,Portal Agron (DF)
+AP,Amapá,estadual,soja,,,,,,,,,,,,,
+PA,Pará,estadual,soja,2025/2026,2026-06-11,100,100,,,,,Safra 2025/26 encerrada,Conab - 9o Levantamento Safra de Graos (jun/2026),,,
+RR,Roraima,estadual,soja,,,,,,,,,,,,,
+MS,Mato Grosso do Sul,estadual,soja,2025/2026,2026-06-11,100,100,,,,,Safra 2025/26 encerrada,Conab - 9o Levantamento Safra de Graos (jun/2026),,,
+BA,Bahia,estadual,soja,2025/2026,2026-06-11,100,100,,,,,Safra 2025/26 encerrada,Conab - 9o Levantamento Safra de Graos (jun/2026),,,
+MT,Mato Grosso,estadual,soja,2025/2026,2026-06-11,100,100,,,51600000,,Safra 2025/26 encerrada,Conab - 9o Levantamento Safra de Graos (jun/2026),104.74,2026-06-12,Grao Direto (Sudoeste MT)
+AM,Amazonas,estadual,soja,,,,,,,,,,,,,
+RO,Rondônia,estadual,soja,2025/2026,2026-06-11,100,100,,,,,Safra 2025/26 encerrada,Conab - 9o Levantamento Safra de Graos (jun/2026),,,
