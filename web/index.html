@@ -109,6 +109,7 @@
   .nav-card{border:1px solid var(--border);background:var(--panel);border-radius:8px;padding:24px;cursor:pointer;transition:.18s;text-align:left;font:inherit;color:inherit;box-shadow:0 1px 3px var(--shadow)}
 
   .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-bottom:26px}
+  .resumo-kpis{margin-top:8px}
   .kpi{border:1px solid var(--border);background:var(--panel);border-radius:8px;padding:18px;position:relative;overflow:hidden;box-shadow:0 1px 3px var(--shadow)}
   .kpi::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--accent,var(--brand))}
   .kpi.amber{--accent:var(--amber)} .kpi.sky{--accent:var(--sky)} .kpi.violet{--accent:var(--violet)} .kpi.cyan{--accent:var(--cyan)} .kpi.emerald{--accent:var(--emerald)} .kpi.brand{--accent:var(--brand)} .kpi.tmax{--accent:var(--chartMax)} .kpi.tmin{--accent:var(--chartMin)}
@@ -355,6 +356,26 @@ function selRegional(nome){ if(nav.regional===nome && !nav.distrito){ nav={regio
 function selDistrito(id){ nav.distrito=id; tabAtiva="clima"; render(); }
 function selEstado(uf){ var nomeId=BR.dominante[uf]; var nome=regNomePorId(nomeId); if(nome){ nav={regional:nome,distrito:null}; render(); } }
 
+// ===== RESUMO (area + colheita) PARA HOME E REGIONAL =====
+function fmtArea(ha){
+  if(ha==null||ha==="") return "-";
+  if(ha>=1000000) return (ha/1000000).toLocaleString("pt-BR",{minimumFractionDigits:1,maximumFractionDigits:1})+" mi ha";
+  if(ha>=1000) return Math.round(ha/1000).toLocaleString("pt-BR")+" mil ha";
+  return Number(ha).toLocaleString("pt-BR")+" ha";
+}
+function resumoCards(){
+  var R=INDEX&&INDEX.resumo; if(!R) return "";
+  var sc=nav.regional?(R.por_regional&&R.por_regional[nav.regional]):R.nacional;
+  if(!sc) return "";
+  var pp=sc.pct_plantado, pc=sc.pct_colhido;
+  var h='<div class="kpis resumo-kpis">';
+  h+=kpi("brand",icoMapa(18,"currentColor"),"&Aacute;rea de soja",fmtArea(sc.area_soja_ha),(nav.regional?"nesta regional":"total monitorado"));
+  h+=kpi("sky",icoBroto(18,"currentColor"),"Plantado",(pp!=null?pp+"%":"-"),(pp!=null?"ponderado por &aacute;rea":"sem dado de colheita"));
+  h+=kpi("emerald",icoBroto(18,"currentColor"),"Colhido",(pc!=null?pc+"%":"-"),(pc!=null?"ponderado por &aacute;rea":"sem dado de colheita"));
+  h+='</div>';
+  return h;
+}
+
 // ===== MAPA DO BRASIL =====
 function viewMapa(){
   var regId = nav.regional ? slugReg(nav.regional) : null;
@@ -386,7 +407,8 @@ function viewMapa(){
   var sub = nav.regional
     ? "Estados com munic&iacute;pios desta regional em destaque. Selecione um distrito no menu &agrave; esquerda."
     : "Cada estado pintado pela regional predominante. Clique numa regional (mapa ou menu) para abrir os distritos.";
-  return '<div class="maprow"><div class="mapbox"><div class="maptitle serif">'+titulo+'</div><div class="mapsub">'+sub+'</div><div class="map">'+svg+'</div></div>'
+  return '<div class="maptitle serif">'+titulo+'</div><div class="mapsub">'+sub+'</div>'+resumoCards()
+    +'<div class="maprow"><div class="mapbox"><div class="map">'+svg+'</div></div>'
     +'<div class="legend">'+leg+'</div></div>';
 }
 
