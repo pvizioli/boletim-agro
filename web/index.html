@@ -3,6 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0b1410">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>Boletim de Clima &amp; Colheita</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -68,6 +73,7 @@
   /* ===== LAYOUT: MENU LATERAL + CONTEUDO ===== */
   .app{display:flex;max-width:1280px;margin:0 auto;align-items:flex-start}
   .sidebar{width:290px;flex-shrink:0;border-right:1px solid var(--border);padding:22px 14px}
+  .nav-toggle{display:none}
   .side-title{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--mut);margin:0 8px 12px}
   .side-item{display:flex;align-items:center;gap:10px;width:100%;text-align:left;background:none;border:none;color:var(--tx);font:inherit;padding:10px;border-radius:8px;cursor:pointer;transition:.12s}
   .side-item:hover{background:var(--panelHover)}
@@ -209,13 +215,36 @@
 
   @media(max-width:900px){
     .app{flex-direction:column}
-    .sidebar{width:auto;border-right:none;border-bottom:1px solid var(--border)}
+    .nav-toggle{display:flex;align-items:center;gap:10px;width:100%;padding:14px 16px;background:var(--panel2);border:none;border-bottom:1px solid var(--border);color:var(--tx);font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.1em;text-transform:uppercase;cursor:pointer}
+    .sidebar{display:none;width:auto;border-right:none;border-bottom:1px solid var(--border)}
+    .sidebar.aberta{display:block}
     .content{padding:22px 20px 50px}
   }
   @media(max-width:640px){
     .muncard-head{flex-direction:column;align-items:flex-start;gap:12px}
     .week{flex-wrap:wrap}
     .wday{min-width:calc(25% - 8px)}
+    .wrap{padding:0 14px}
+    .content{padding:16px 14px 40px}
+    .kpis{grid-template-columns:repeat(2,1fr);gap:10px}
+    .chip{padding:9px 14px;font-size:13px}
+    .chips{max-height:200px}
+    .tab{flex:1;justify-content:center;padding:12px 10px}
+    .map svg{width:100%;height:auto;max-height:56vh}
+    .preco-box{padding:10px 14px}
+    .preco-box .preco-meta{margin-left:0;flex-basis:100%}
+    .colh-head{display:none}
+    .colh-row{grid-template-columns:1fr 1fr;row-gap:10px;padding:14px 0;font-size:13.5px}
+    .colh-row .cr-nome{grid-column:1 / -1;font-weight:600}
+    .colh-row span::before{display:block;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--dim);margin-bottom:2px}
+    .colh-mun .colh-row span:nth-child(2)::before{content:"\00c1rea (ha)"}
+    .colh-mun .colh-row span:nth-child(3)::before{content:"Plantado"}
+    .colh-mun .colh-row span:nth-child(4)::before{content:"Colhido"}
+    .colh-mun .colh-row span:nth-child(5)::before{content:"Colhido (ha est.)"}
+    .colh-uf .colh-row span:nth-child(2)::before{content:"Plantado"}
+    .colh-uf .colh-row span:nth-child(3)::before{content:"Colhido"}
+    .colh-uf .colh-row span:nth-child(4)::before{content:"vs m\00e9dia 5a"}
+    .colh-uf .colh-row span:nth-child(5)::before{content:"vs safra ant."}
   }
 </style>
 </head>
@@ -238,6 +267,10 @@
 </header>
 
 <div class="app">
+  <button class="nav-toggle" id="navToggle" onclick="toggleNav()">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    <span id="navToggleLabel">Navegar</span>
+  </button>
   <aside class="sidebar" id="sidebar"></aside>
   <main class="content"><div id="view"><div class="loading">Carregando...</div></div></main>
 </div>
@@ -352,9 +385,12 @@ function renderSidebar(){
   }
   sb.innerHTML=h;
 }
-function voltarBrasil(){ nav={regional:null,distrito:null}; render(); }
-function selRegional(nome){ if(nav.regional===nome && !nav.distrito){ nav={regional:null,distrito:null}; } else { nav={regional:nome,distrito:null}; } render(); }
-function selDistrito(id){ nav.distrito=id; tabAtiva="clima"; render(); }
+function toggleNav(){ var s=document.getElementById("sidebar"); if(s) s.classList.toggle("aberta"); }
+function fecharNav(){ var s=document.getElementById("sidebar"); if(s) s.classList.remove("aberta"); }
+function rotuloNav(){ var el=document.getElementById("navToggleLabel"); if(!el) return; el.textContent = nav.distrito ? "Trocar distrito ou regi\u00e3o" : (nav.regional ? nav.regional : "Navegar"); }
+function voltarBrasil(){ nav={regional:null,distrito:null}; render(); fecharNav(); rotuloNav(); window.scrollTo(0,0); }
+function selRegional(nome){ if(nav.regional===nome && !nav.distrito){ nav={regional:null,distrito:null}; } else { nav={regional:nome,distrito:null}; } render(); rotuloNav(); }
+function selDistrito(id){ nav.distrito=id; tabAtiva="clima"; render(); fecharNav(); rotuloNav(); window.scrollTo(0,0); }
 function selEstado(uf){ var nomeId=BR.dominante[uf]; var nome=regNomePorId(nomeId); if(nome){ nav={regional:nome,distrito:null}; render(); } }
 
 // ===== RESUMO (area + colheita) PARA HOME E REGIONAL =====
@@ -533,7 +569,7 @@ function tabColheita(d){
   }
   function pos(v){ if(v==null) return '<span class="cmut">-</span>'; var s=v>0?"+":""; var cls=v>0?"cpos":(v<0?"cneg":"cmut"); return '<span class="'+cls+'">'+s+v+" p.p.</span>"; }
   function cond(t){ if(!t) return ""; var M={boa:"cpos",media:"cmut",ruim:"cneg"}; return '<span class="'+(M[String(t).toLowerCase()]||"cmut")+'">'+escX(t)+'</span>'; }
-  var h='<div class="panel"><div class="stitle">'+icoBroto(14,"currentColor")+' Colheita &amp; plantio - posi&ccedil;&atilde;o</div>';
+  var h='<div class="panel colh-uf"><div class="stitle">'+icoBroto(14,"currentColor")+' Colheita &amp; plantio - posi&ccedil;&atilde;o</div>';
   h+='<div class="fonte-banner">Fonte: '+escX(c.fonte||"-")+(c.granularidade?(" &middot; "+escX(c.granularidade)):"")+(c.data_referencia?(" &middot; ref. "+fmtDia(c.data_referencia)):"")+'</div>';
   h+='<div class="colh-head"><span>Regi&atilde;o</span><span>Plantado</span><span>Colhido</span><span>vs m&eacute;dia 5a</span><span>vs safra ant.</span></div>';
   for(var i=0;i<c.itens.length;i++){ var it=c.itens[i];
@@ -550,7 +586,7 @@ function tabColheita(d){
 function colheitaMunicipios(d){
   var ms=(d.municipios||[]).filter(function(m){return m.colheita;});
   if(!ms.length) return "";
-  var h='<div class="panel"><div class="stitle">'+icoBroto(14,"currentColor")+' Colheita estimada por munic&iacute;pio</div>';
+  var h='<div class="panel colh-mun"><div class="stitle">'+icoBroto(14,"currentColor")+' Colheita estimada por munic&iacute;pio</div>';
   h+='<div class="fonte-banner">Estimativa derivada: &aacute;rea plantada (PAM/IBGE 2024) &times; % estadual. Valores marcados como <b>derivado</b>.</div>';
   h+='<div class="colh-head"><span>Munic&iacute;pio</span><span>&Aacute;rea (ha)</span><span>Plantado</span><span>Colhido</span><span>Colhido (ha est.)</span></div>';
   for(var i=0;i<ms.length;i++){ var m=ms[i], mc=m.colheita;
