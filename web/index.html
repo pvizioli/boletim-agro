@@ -470,14 +470,14 @@ function precoDistrito(d){
   if(p.data){ var t=Date.parse(p.data); if(!isNaN(t)&&(Date.now()-t)>30*86400000){ stale='<span class="preco-stale">defasado</span>'; } }
   return '<div class="preco-box"><span class="preco-lab">Pre&ccedil;o da saca</span>'
     +'<span class="preco-v">R$ '+v+'</span><span class="preco-u">/sc 60kg</span>'+stale
-    +'<span class="preco-meta">'+escX(p.uf||"")+(p.data?(" &middot; "+escX(p.data)):"")+(p.fonte?(" &middot; "+escX(p.fonte)):"")+'</span></div>';
+    +'<span class="preco-meta">'+escX(p.uf||"")+(p.data?(" &middot; "+fmtDia(p.data)):"")+(p.fonte?(" &middot; "+escX(p.fonte)):"")+'</span></div>';
 }
 function fontesDistrito(d){
   var ufs=((d.distrito.ufs&&d.distrito.ufs.length)?d.distrito.ufs:[d.distrito.uf]).filter(Boolean).join(", ");
   var c=d.colheita||{}, temColh=(c.status&&c.status!=="pendente"&&c.itens&&c.itens.length);
   var colFonte = temColh ? (escX(c.fonte||"")+(c.granularidade?(" &middot; "+escX(c.granularidade)):"")) : "pendente (Fase 2)";
   var dataGer = d.gerado_em?fmtData(d.gerado_em):"-";
-  var colData = temColh && c.data_referencia ? escX(c.data_referencia) : dataGer;
+  var colData = temColh && c.data_referencia ? fmtDia(c.data_referencia) : dataGer;
   function linha(lab,fonte,escopo,data){
     return '<div class="fonte-row"><span class="fl">'+lab+'</span><span class="ff">'+fonte+'</span><span class="fe">'+escopo+'</span><span class="fd">'+data+'</span></div>';
   }
@@ -534,14 +534,14 @@ function tabColheita(d){
   function pos(v){ if(v==null) return '<span class="cmut">-</span>'; var s=v>0?"+":""; var cls=v>0?"cpos":(v<0?"cneg":"cmut"); return '<span class="'+cls+'">'+s+v+" p.p.</span>"; }
   function cond(t){ if(!t) return ""; var M={boa:"cpos",media:"cmut",ruim:"cneg"}; return '<span class="'+(M[String(t).toLowerCase()]||"cmut")+'">'+escX(t)+'</span>'; }
   var h='<div class="panel"><div class="stitle">'+icoBroto(14,"currentColor")+' Colheita &amp; plantio - posi&ccedil;&atilde;o</div>';
-  h+='<div class="fonte-banner">Fonte: '+escX(c.fonte||"-")+(c.granularidade?(" &middot; "+escX(c.granularidade)):"")+(c.data_referencia?(" &middot; ref. "+escX(c.data_referencia)):"")+'</div>';
+  h+='<div class="fonte-banner">Fonte: '+escX(c.fonte||"-")+(c.granularidade?(" &middot; "+escX(c.granularidade)):"")+(c.data_referencia?(" &middot; ref. "+fmtDia(c.data_referencia)):"")+'</div>';
   h+='<div class="colh-head"><span>Regi&atilde;o</span><span>Plantado</span><span>Colhido</span><span>vs m&eacute;dia 5a</span><span>vs safra ant.</span></div>';
   for(var i=0;i<c.itens.length;i++){ var it=c.itens[i];
     h+='<div class="colh-row"><span class="cr-nome">'+escX(it.regiao||it.uf||it.municipio||"-")+(it.granularidade?'<span class="cr-gran">'+escX(it.granularidade)+'</span>':'')+'</span>'
       +'<span>'+(it.pct_plantado!=null?it.pct_plantado+"%":"-")+'</span>'
       +'<span class="cr-colh">'+(it.pct_colhido!=null?it.pct_colhido+"%":"-")+'</span>'
       +'<span>'+pos(it.vs_media5anos)+'</span><span>'+pos(it.vs_safra_anterior)+'</span></div>';
-    if(it.condicao_lavoura||it.fonte||it.produtividade_kg_ha){ var prodm=it.produtividade_kg_ha?("Produtividade: "+Math.round(it.produtividade_kg_ha/60)+" sc/ha ("+fmtMil(it.produtividade_kg_ha)+" kg/ha) &middot; "):""; h+='<div class="cr-meta">'+prodm+(it.condicao_lavoura?("Lavoura: "+cond(it.condicao_lavoura)+" &middot; "):"")+(it.fonte?("Fonte: "+escX(it.fonte)):"")+(it.data_referencia?(" &middot; "+escX(it.data_referencia)):"")+'</div>'; }
+    if(it.condicao_lavoura||it.fonte||it.produtividade_kg_ha){ var prodm=it.produtividade_kg_ha?("Produtividade: "+Math.round(it.produtividade_kg_ha/60)+" sc/ha ("+fmtMil(it.produtividade_kg_ha)+" kg/ha) &middot; "):""; h+='<div class="cr-meta">'+prodm+(it.condicao_lavoura?("Lavoura: "+cond(it.condicao_lavoura)+" &middot; "):"")+(it.fonte?("Fonte: "+escX(it.fonte)):"")+(it.data_referencia?(" &middot; "+fmtDia(it.data_referencia)):"")+'</div>'; }
   }
   h+="</div>";
   h+=colheitaMunicipios(d);
@@ -599,12 +599,13 @@ function muncard(m){
     h+=metric("cyan",(mc.pct_colhido!=null?mc.pct_colhido+"%":"-"),"colhido");
     h+=metric("brand",fmtMil(mc.ha_colhido_estim)+" ha","colhido est.");
     h+='</div>';
-    h+='<div class="mc-fonte">'+escX(mc.fonte||"")+(mc.data_referencia?(" &middot; "+escX(mc.data_referencia)):"")+'</div></div>';
+    h+='<div class="mc-fonte">'+escX(mc.fonte||"")+(mc.data_referencia?(" &middot; "+fmtDia(mc.data_referencia)):"")+'</div></div>';
   }
   h+="</div>";
   return h;
 }
 function fmtMil(n){ return (n==null||n==="")?"-":Number(n).toLocaleString("pt-BR"); }
+function fmtDia(s){ var m=String(s||"").match(/^(\d{4})-(\d{2})-(\d{2})/); return m?(m[3]+"/"+m[2]+"/"+m[1]):escX(String(s||"")); }
 function metric(cls,val,lab){ return '<div class="metric"><div class="mv '+cls+'">'+val+'</div><div class="ml">'+lab+'</div></div>'; }
 
 // ===== GRAFICOS SVG =====
