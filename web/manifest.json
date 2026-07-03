@@ -1,0 +1,17 @@
+{
+  "name": "Boletim de Clima & Colheita",
+  "short_name": "Boletim Agro",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b1410",
+  "theme_color": "#0b1410",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Crect%20width%3D%22100%22%20height%3D%22100%22%20rx%3D%2222%22%20fill%3D%22%230b1410%22/%3E%3Cpath%20d%3D%22M50%2080%20V48%22%20stroke%3D%22%233fa872%22%20stroke-width%3D%226%22%20stroke-linecap%3D%22round%22/%3E%3Cpath%20d%3D%22M50%2054%20C50%2038%2038%2031%2025%2031%20C25%2047%2037%2054%2050%2054%20Z%22%20fill%3D%22%233fa872%22/%3E%3Cpath%20d%3D%22M50%2046%20C50%2031%2061%2025%2074%2025%20C74%2040%2063%2046%2050%2046%20Z%22%20fill%3D%22%2357c48d%22/%3E%3C/svg%3E",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
