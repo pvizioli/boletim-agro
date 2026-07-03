@@ -161,6 +161,7 @@
   .preco-v{font-family:'Fraunces',Georgia,serif;font-size:24px;font-weight:500;color:var(--brandL)}
   .preco-u{font-size:12px;color:var(--mut)}
   .preco-meta{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--dim);margin-left:auto}
+  .preco-stale{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--amberL);border:1px solid var(--amber);border-radius:4px;padding:1px 6px}
   .mun-colh{margin-top:12px;padding-top:12px;border-top:1px dashed var(--border)}
   .mc-h{display:flex;align-items:center;gap:6px;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut);margin-bottom:8px}
   .mc-deriv{margin-left:6px;font-size:9px;letter-spacing:.06em;color:var(--dim);border:1px solid var(--border);border-radius:4px;padding:1px 5px;text-transform:uppercase}
@@ -368,10 +369,11 @@ function resumoCards(){
   var sc=nav.regional?(R.por_regional&&R.por_regional[nav.regional]):R.nacional;
   if(!sc) return "";
   var pp=sc.pct_plantado, pc=sc.pct_colhido;
+  var saf=(R.safra?("safra "+escX(R.safra)+" &middot; "):"");
   var h='<div class="kpis resumo-kpis">';
   h+=kpi("brand",icoMapa(18,"currentColor"),"&Aacute;rea de soja",fmtArea(sc.area_soja_ha),(nav.regional?"nesta regional":"total monitorado"));
-  h+=kpi("sky",icoBroto(18,"currentColor"),"Plantado",(pp!=null?pp+"%":"-"),(pp!=null?"ponderado por &aacute;rea":"sem dado de colheita"));
-  h+=kpi("emerald",icoBroto(18,"currentColor"),"Colhido",(pc!=null?pc+"%":"-"),(pc!=null?"ponderado por &aacute;rea":"sem dado de colheita"));
+  h+=kpi("sky",icoBroto(18,"currentColor"),"Plantado",(pp!=null?pp+"%":"-"),(pp!=null?saf+"ponderado por &aacute;rea":"sem dado de colheita"));
+  h+=kpi("emerald",icoBroto(18,"currentColor"),"Colhido",(pc!=null?pc+"%":"-"),(pc!=null?saf+"ponderado por &aacute;rea":"sem dado de colheita"));
   h+='</div>';
   return h;
 }
@@ -464,8 +466,10 @@ function precoDistrito(d){
   var p=d.preco;
   if(!p||p.valor==null) return "";
   var v=Number(p.valor).toLocaleString("pt-BR",{minimumFractionDigits:2,maximumFractionDigits:2});
+  var stale="";
+  if(p.data){ var t=Date.parse(p.data); if(!isNaN(t)&&(Date.now()-t)>30*86400000){ stale='<span class="preco-stale">defasado</span>'; } }
   return '<div class="preco-box"><span class="preco-lab">Pre&ccedil;o da saca</span>'
-    +'<span class="preco-v">R$ '+v+'</span><span class="preco-u">/sc 60kg</span>'
+    +'<span class="preco-v">R$ '+v+'</span><span class="preco-u">/sc 60kg</span>'+stale
     +'<span class="preco-meta">'+escX(p.uf||"")+(p.data?(" &middot; "+escX(p.data)):"")+(p.fonte?(" &middot; "+escX(p.fonte)):"")+'</span></div>';
 }
 function fontesDistrito(d){
@@ -690,7 +694,7 @@ function render(){
 
 // ===== BOOT =====
 (function(){ try{ var t=localStorage.getItem("tema_obs"); if(t) tema=t; }catch(e){} aplicaTema(tema); })();
-carregaJSON(BASE+"/index.json").then(function(idx){
+carregaJSON(BASE+"/index.json?t="+Date.now()).then(function(idx){
   INDEX=idx; if(idx.gerado_em) $("upd").textContent=fmtData(idx.gerado_em); render();
 }).catch(function(e){
   $("view").innerHTML='<div class="loading">N&atilde;o foi poss&iacute;vel carregar o &iacute;ndice.<br><span style="color:var(--vdim)">'+e.message+'</span></div>';
