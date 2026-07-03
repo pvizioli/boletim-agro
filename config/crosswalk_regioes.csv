@@ -1,0 +1,79 @@
+codigo_ibge,uf,cidade,orgao,regiao_id,regiao_nome,confianca
+5103502,MT,DIAMANTINO,imea,medio_norte,Médio-Norte,alta
+5106000,MT,NORTELÂNDIA,imea,centro_sul,Centro-Sul,alta
+5108907,MT,NOVA MARINGÁ,imea,medio_norte,Médio-Norte,alta
+5106224,MT,NOVA MUTUM,imea,medio_norte,Médio-Norte,alta
+5107768,MT,SANTA RITA DO TRIVELATO,imea,medio_norte,Médio-Norte,alta
+5107305,MT,SÃO JOSÉ DO RIO CLARO,imea,medio_norte,Médio-Norte,alta
+5107958,MT,TANGARÁ DA SERRA,imea,oeste,Oeste,alta
+5102678,MT,CAMPO VERDE,imea,sudeste,Sudeste,alta
+5103403,MT,CUIABÁ,imea,centro_sul,Centro-Sul,alta
+5103908,MT,GENERAL CARNEIRO,imea,sudeste,Sudeste,alta
+5104807,MT,JACIARA,imea,sudeste,Sudeste,alta
+5105200,MT,JUSCIMEIRA,imea,sudeste,Sudeste,alta
+5106307,MT,PARANATINGA,imea,nordeste,Nordeste,alta
+5107040,MT,PRIMAVERA DO LESTE,imea,sudeste,Sudeste,alta
+5107792,MT,SANTO ANTÔNIO DO LESTE,imea,nordeste,Nordeste,alta
+5108105,MT,TESOURO,imea,sudeste,Sudeste,alta
+5108402,MT,VÁRZEA GRANDE,imea,centro_sul,Centro-Sul,alta
+5100201,MT,ÁGUA BOA,imea,nordeste,Nordeste,alta
+5100359,MT,ALTO BOA VISTA,imea,nordeste,Nordeste,alta
+5101803,MT,BARRA DO GARÇAS,imea,nordeste,Nordeste,alta
+5101852,MT,BOM JESUS DO ARAGUAIA,imea,nordeste,Nordeste,alta
+5102702,MT,CANARANA,imea,nordeste,Nordeste,alta
+5103106,MT,COCALINHO,imea,nordeste,Nordeste,alta
+5103353,MT,CONFRESA,imea,nordeste,Nordeste,alta
+5103858,MT,GAÚCHA DO NORTE,imea,nordeste,Nordeste,alta
+5106257,MT,NOVA XAVANTINA,imea,nordeste,Nordeste,alta
+5106778,MT,PORTO ALEGRE DO NORTE,imea,nordeste,Nordeste,alta
+5107065,MT,QUERÊNCIA,imea,nordeste,Nordeste,alta
+5107180,MT,RIBEIRÃO CASCALHEIRA,imea,nordeste,Nordeste,alta
+5107743,MT,SANTA CRUZ DO XINGU,imea,nordeste,Nordeste,alta
+5107776,MT,SANTA TEREZINHA,imea,nordeste,Nordeste,alta
+5107859,MT,SÃO FÉLIX DO ARAGUAIA,imea,nordeste,Nordeste,alta
+5107354,MT,SÃO JOSÉ DO XINGU,imea,nordeste,Nordeste,alta
+5108204,MT,TORIXORÉU,imea,sudeste,Sudeste,alta
+5108600,MT,VILA RICA,imea,nordeste,Nordeste,alta
+5100300,MT,ALTO ARAGUAIA,imea,sudeste,Sudeste,alta
+5100409,MT,ALTO GARÇAS,imea,sudeste,Sudeste,alta
+5100607,MT,ALTO TAQUARI,imea,sudeste,Sudeste,alta
+5104609,MT,ITIQUIRA,imea,sudeste,Sudeste,alta
+5106372,MT,PEDRA PRETA,imea,sudeste,Sudeste,alta
+5107602,MT,RONDONÓPOLIS,imea,sudeste,Sudeste,alta
+5100250,MT,ALTA FLORESTA,imea,norte,Norte,alta
+5102793,MT,CARLINDA,imea,norte,Norte,alta
+5103056,MT,CLÁUDIA,imea,medio_norte,Médio-Norte,alta
+5103205,MT,COLÍDER,imea,norte,Norte,alta
+5103700,MT,FELIZ NATAL,imea,medio_norte,Médio-Norte,alta
+5104104,MT,GUARANTÃ DO NORTE,imea,norte,Norte,alta
+5105580,MT,MARCELÂNDIA,imea,norte,Norte,alta
+5105606,MT,MATUPÁ,imea,norte,Norte,alta
+5106158,MT,NOVA BANDEIRANTES,imea,norte,Norte,alta
+5106216,MT,NOVA CANAÃ DO NORTE,imea,norte,Norte,alta
+5108808,MT,NOVA GUARITA,imea,norte,Norte,alta
+5108956,MT,NOVA MONTE VERDE,imea,norte,Norte,alta
+5106190,MT,NOVA SANTA HELENA,imea,norte,Norte,alta
+5106265,MT,NOVO MUNDO,imea,norte,Norte,alta
+5106299,MT,PARANAÍTA,imea,norte,Norte,alta
+5106802,MT,PORTO DOS GAÚCHOS,imea,norte,Norte,alta
+5107248,MT,SANTA CARMEM,imea,medio_norte,Médio-Norte,alta
+5107909,MT,SINOP,imea,medio_norte,Médio-Norte,alta
+5107941,MT,TABAPORÃ,imea,norte,Norte,alta
+5108055,MT,TERRA NOVA DO NORTE,imea,norte,Norte,alta
+5108303,MT,UNIÃO DO SUL,imea,medio_norte,Médio-Norte,alta
+5108501,MT,VERA,imea,medio_norte,Médio-Norte,alta
+5101837,MT,BOA ESPERANÇA DO NORTE,imea,medio_norte,Médio-Norte,alta
+5104526,MT,IPIRANGA DO NORTE,imea,medio_norte,Médio-Norte,alta
+5104542,MT,ITANHANGÁ,imea,medio_norte,Médio-Norte,alta
+5105259,MT,LUCAS DO RIO VERDE,imea,medio_norte,Médio-Norte,alta
+5106240,MT,NOVA UBIRATÃ,imea,medio_norte,Médio-Norte,alta
+5107925,MT,SORRISO,imea,medio_norte,Médio-Norte,alta
+5108006,MT,TAPURAH,imea,medio_norte,Médio-Norte,alta
+5101902,MT,BRASNORTE,imea,noroeste,Noroeste,alta
+5102637,MT,CAMPO NOVO DO PARECIS,imea,oeste,Oeste,alta
+5102686,MT,CAMPOS DE JÚLIO,imea,oeste,Oeste,alta
+5103304,MT,COMODORO,imea,oeste,Oeste,alta
+5105150,MT,JUÍNA,imea,norte,Norte,alta
+5106752,MT,PONTES E LACERDA,imea,oeste,Oeste,alta
+5107875,MT,SAPEZAL,imea,oeste,Oeste,alta
+5105507,MT,VILA BELA DA SANTÍSSIMA TRINDADE,imea,oeste,Oeste,alta
