@@ -185,7 +185,14 @@ def salvar(distrito_id, payload):
 def _resumo(distritos, colheita_itens):
     """Area total de soja + % plantado/colhido ponderado por area (sobre a area
     que tem dado de colheita), nacional e por regional. Alimenta a home e a
-    view de regional do site."""
+    view de regional do site. Agrega SOMENTE a safra mais recente presente no
+    colheita.csv, para nao misturar safras na virada (ex.: RS ja em 26/27 e
+    MT ainda com a linha 25/26 fechada)."""
+    safras = sorted({(it.get("safra") or "") for it in colheita_itens.values()
+                     if it.get("pct_plantado") is not None
+                     or it.get("pct_colhido") is not None})
+    safra_ref = safras[-1] if safras else None
+
     def agg(muns):
         area = 0
         area_uf = {}
@@ -200,6 +207,8 @@ def _resumo(distritos, colheita_itens):
         for uf, a in area_uf.items():
             it = colheita_itens.get(uf)
             if not it:
+                continue
+            if safra_ref and (it.get("safra") or "") != safra_ref:
                 continue
             pp, pc = it.get("pct_plantado"), it.get("pct_colhido")
             if pp is not None:
@@ -221,7 +230,7 @@ def _resumo(distritos, colheita_itens):
             d.get("municipios", []))
     for reg, muns in regs.items():
         por_regional[reg] = agg(muns)
-    return {"nacional": nacional, "por_regional": por_regional}
+    return {"safra": safra_ref or None, "nacional": nacional, "por_regional": por_regional}
 
 
 def salvar_indice(distritos, colheita_itens=None):
