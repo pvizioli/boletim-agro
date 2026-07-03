@@ -28,11 +28,13 @@ import unicodedata
 from collections import Counter, OrderedDict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from conectores import inmet, open_meteo, colheita_csv  # noqa: E402
+from conectores import inmet, open_meteo, colheita_csv, colheita_regional  # noqa: E402
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CSV_PATH = os.path.join(BASE, "config", "municipios.csv")
 COLHEITA_CSV = os.path.join(BASE, "data", "colheita", "colheita.csv")
+COLHEITA_REGIONAL_CSV = os.path.join(BASE, "data", "colheita", "colheita_regional.csv")
+CROSSWALK_CSV = os.path.join(BASE, "config", "crosswalk_regioes.csv")
 OUT_DIR = os.path.join(BASE, "web", "data", "out")
 RETENCAO_HISTORICO_DIAS = 45   # snapshots mais antigos que isso são podados
 
@@ -112,7 +114,7 @@ def alertas_para_ufs(ufs, cache):
     return {"ativos": ativos, "ufs": sorted(set(ufs))}
 
 
-def processar_distrito(d, alertas_cache, colheita_itens):
+def processar_distrito(d, alertas_cache, colheita_itens, crosswalk=None, colheita_reg=None):
     clima_anterior, colheita_anterior = ler_anterior(d["id"])
     clima_novo = open_meteo.buscar_clima(d["municipios"])
     municipios_out, reap, semd = [], 0, 0
@@ -124,8 +126,14 @@ def processar_distrito(d, alertas_cache, colheita_itens):
                 bloco = dict(antigo); bloco["_obsoleto"] = True; reap += 1
             else:
                 semd += 1
-        mcol = colheita_csv.colheita_municipio(
-            colheita_itens.get(m["uf"]), m.get("area_soja_ha"))
+        estado_uf = colheita_itens.get(m["uf"])
+        mcol = colheita_regional.colheita_municipio_regional(
+            m.get("ibge"), m["uf"], m.get("area_soja_ha"),
+            crosswalk or {}, colheita_reg or {},
+            safra_uf=(estado_uf or {}).get("safra"))
+        if mcol is None:
+            mcol = colheita_csv.colheita_municipio(
+                estado_uf, m.get("area_soja_ha"))
         municipios_out.append({**m, "clima": bloco, "colheita": mcol})
     alertas = alertas_para_ufs(d["ufs"], alertas_cache)
     colheita = (colheita_csv.bloco_para_distrito(colheita_itens, d["ufs"])
@@ -283,11 +291,13 @@ def main():
 
     alertas_cache, erros = {}, 0
     colheita_itens = colheita_csv.carregar(COLHEITA_CSV)
+    crosswalk = colheita_regional.carregar_crosswalk(CROSSWALK_CSV)
+    colheita_reg = colheita_regional.carregar_regional(COLHEITA_REGIONAL_CSV)
     if colheita_itens:
         print("[colheita] CSV: " + ", ".join(sorted(colheita_itens)))
     for d in selecionados:
         try:
-            payload, reap, semd = processar_distrito(d, alertas_cache, colheita_itens)
+            payload, reap, semd = processar_distrito(d, alertas_cache, colheita_itens, crosswalk, colheita_reg)
             salvar(d["id"], payload)
             n_al = len(payload["alertas"].get("ativos", []))
             msg = "[ok] " + d["id"] + ": " + str(len(payload["municipios"])) + " mun · " + str(n_al) + " INMET"
