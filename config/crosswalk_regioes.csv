@@ -77,3 +77,330 @@ codigo_ibge,uf,cidade,orgao,regiao_id,regiao_nome,confianca
 5106752,MT,PONTES E LACERDA,imea,oeste,Oeste,alta
 5107875,MT,SAPEZAL,imea,oeste,Oeste,alta
 5105507,MT,VILA BELA DA SANTÍSSIMA TRINDADE,imea,oeste,Oeste,alta
+4304705,RS,CARAZINHO,emater,passo_fundo,Passo Fundo,alta
+4305603,RS,COLORADO,emater,ijui,Ijuí,conferir
+4305850,RS,COQUEIROS DO SUL,emater,passo_fundo,Passo Fundo,alta
+4312658,RS,NÃO-ME-TOQUE,emater,passo_fundo,Passo Fundo,alta
+4316436,RS,SALDANHA MARINHO,emater,ijui,Ijuí,conferir
+4317756,RS,SANTO ANTÔNIO DO PLANALTO,emater,passo_fundo,Passo Fundo,alta
+4323200,RS,VICTOR GRAEFF,emater,passo_fundo,Passo Fundo,alta
+4300901,RS,ARATIBA,emater,erechim,Erechim,alta
+4301552,RS,ÁUREA,emater,erechim,Erechim,alta
+4301701,RS,BARÃO DE COTEGIPE,emater,erechim,Erechim,alta
+4301800,RS,BARRACÃO,emater,erechim,Erechim,alta
+4302055,RS,BENJAMIN CONSTANT DO SUL,emater,erechim,Erechim,alta
+4303202,RS,CACIQUE DOBLE,emater,erechim,Erechim,alta
+4303806,RS,CAMPINAS DO SUL,emater,erechim,Erechim,alta
+4304853,RS,CARLOS GOMES,emater,erechim,Erechim,alta
+4305116,RS,CENTENÁRIO,emater,erechim,Erechim,alta
+4306130,RS,CRUZALTENSE,emater,erechim,Erechim,alta
+4306973,RS,EREBANGO,emater,erechim,Erechim,alta
+4307005,RS,ERECHIM,emater,erechim,Erechim,alta
+4307203,RS,ERVAL GRANDE,emater,erechim,Erechim,alta
+4307559,RS,ESTAÇÃO,emater,erechim,Erechim,alta
+4308052,RS,FAXINALZINHO,emater,erechim,Erechim,alta
+4308250,RS,FLORIANO PEIXOTO,emater,erechim,Erechim,alta
+4308706,RS,GAURAMA,emater,erechim,Erechim,alta
+4308904,RS,GETÚLIO VARGAS,emater,erechim,Erechim,alta
+4310462,RS,IPIRANGA DO SUL,emater,erechim,Erechim,alta
+4310702,RS,ITATIBA DO SUL,emater,erechim,Erechim,alta
+4310900,RS,JACUTINGA,emater,erechim,Erechim,alta
+4311700,RS,MACHADINHO,emater,erechim,Erechim,alta
+4311908,RS,MARCELINO RAMOS,emater,erechim,Erechim,alta
+4312005,RS,MARIANO MORO,emater,erechim,Erechim,alta
+4312203,RS,MAXIMILIANO DE ALMEIDA,emater,erechim,Erechim,alta
+4313607,RS,PAIM FILHO,emater,erechim,Erechim,alta
+4314134,RS,PAULO BENTO,emater,erechim,Erechim,alta
+4314787,RS,PONTE PRETA,emater,erechim,Erechim,alta
+4315313,RS,QUATRO IRMÃOS,emater,erechim,Erechim,alta
+4317954,RS,SANTO EXPEDITO DO SUL,emater,erechim,Erechim,alta
+4318424,RS,SÃO JOÃO DA URTIGA,emater,erechim,Erechim,alta
+4318606,RS,SÃO JOSÉ DO OURO,emater,erechim,Erechim,alta
+4319703,RS,SÃO VALENTIM,emater,erechim,Erechim,alta
+4320503,RS,SERTÃO,emater,erechim,Erechim,alta
+4320602,RS,SEVERIANO DE ALMEIDA,emater,erechim,Erechim,alta
+4321634,RS,TRÊS ARROIOS,emater,erechim,Erechim,alta
+4322186,RS,TUPANCI DO SUL,emater,erechim,Erechim,alta
+4322905,RS,VIADUTOS,emater,erechim,Erechim,alta
+4300554,RS,ALTO ALEGRE,emater,soledade,Soledade,conferir
+4301206,RS,ARROIO DO TIGRE,emater,soledade,Soledade,conferir
+4302006,RS,BARROS CASSAL,emater,soledade,Soledade,conferir
+4304101,RS,CAMPOS BORGES,emater,soledade,Soledade,conferir
+4307054,RS,ERNESTINA,emater,soledade,Soledade,conferir
+4307500,RS,ESPUMOSO,emater,soledade,Soledade,conferir
+4307815,RS,ESTRELA VELHA,emater,soledade,Soledade,conferir
+4308300,RS,FONTOURA XAVIER,emater,soledade,Soledade,conferir
+4308458,RS,FORTALEZA DOS VALOS,emater,ijui,Ijuí,conferir
+4309951,RS,IBIRAPUITÃ,emater,soledade,Soledade,conferir
+4310009,RS,IBIRUBÁ,emater,ijui,Ijuí,conferir
+4310876,RS,JACUIZINHO,emater,soledade,Soledade,conferir
+4311270,RS,LAGOA DOS TRÊS CANTOS,emater,soledade,Soledade,conferir
+4311254,RS,LAGOÃO,emater,soledade,Soledade,conferir
+4312427,RS,MORMAÇO,emater,soledade,Soledade,conferir
+4312674,RS,NICOLAU VERGUEIRO,emater,soledade,Soledade,conferir
+4315354,RS,QUINZE DE NOVEMBRO,emater,ijui,Ijuí,conferir
+4316451,RS,SALTO DO JACUÍ,emater,soledade,Soledade,conferir
+4320305,RS,SELBACH,emater,ijui,Ijuí,conferir
+4320701,RS,SOBRADINHO,emater,soledade,Soledade,conferir
+4320800,RS,SOLEDADE,emater,soledade,Soledade,conferir
+4321006,RS,TAPERA,emater,soledade,Soledade,conferir
+4321469,RS,TIO HUGO,emater,soledade,Soledade,conferir
+4322152,RS,TUNAS,emater,soledade,Soledade,conferir
+4300208,RS,AJURICABA,emater,ijui,Ijuí,alta
+4302584,RS,BOZANO,emater,ijui,Ijuí,alta
+4305009,RS,CATUÍPE,emater,ijui,Ijuí,alta
+4305405,RS,CHIAPETTA,emater,ijui,Ijuí,alta
+4305702,RS,CONDOR,emater,ijui,Ijuí,alta
+4305871,RS,CORONEL BARROS,emater,ijui,Ijuí,alta
+4310207,RS,IJUÍ,emater,ijui,Ijuí,alta
+4313334,RS,NOVA RAMADA,emater,ijui,Ijuí,alta
+4313904,RS,PANAMBI,emater,ijui,Ijuí,alta
+4316709,RS,SANTA BÁRBARA DO SUL,emater,ijui,Ijuí,alta
+4301503,RS,AUGUSTO PESTANA,emater,ijui,Ijuí,alta
+4302220,RS,BOA VISTA DO CADEADO,emater,ijui,Ijuí,conferir
+4302238,RS,BOA VISTA DO INCRA,emater,ijui,Ijuí,conferir
+4306106,RS,CRUZ ALTA,emater,ijui,Ijuí,conferir
+4306932,RS,ENTRE-IJUÍS,emater,ijui,Ijuí,conferir
+4307831,RS,EUGÊNIO DE CASTRO,emater,ijui,Ijuí,conferir
+4311106,RS,JAGUARI,emater,santa_maria,Santa Maria,conferir
+4311130,RS,JARI,emater,santa_maria,Santa Maria,conferir
+4311155,RS,JÓIA,emater,ijui,Ijuí,conferir
+4311205,RS,JÚLIO DE CASTILHOS,emater,santa_maria,Santa Maria,conferir
+4313037,RS,NOVA ESPERANÇA DO SUL,emater,santa_maria,Santa Maria,conferir
+4314308,RS,PEJUÇARA,emater,santa_maria,Santa Maria,conferir
+4314472,RS,PINHAL GRANDE,emater,santa_maria,Santa Maria,conferir
+4315321,RS,QUEVEDOS,emater,santa_maria,Santa Maria,conferir
+4317400,RS,SANTIAGO,emater,santa_maria,Santa Maria,conferir
+4318101,RS,SÃO FRANCISCO DE ASSIS,emater,santa_maria,Santa Maria,conferir
+4319125,RS,SÃO MARTINHO DA SERRA,emater,santa_maria,Santa Maria,conferir
+4319158,RS,SÃO MIGUEL DAS MISSÕES,emater,santa_maria,Santa Maria,conferir
+4322202,RS,TUPANCIRETÃ,emater,santa_maria,Santa Maria,conferir
+4323754,RS,VITÓRIA DAS MISSÕES,emater,santa_maria,Santa Maria,conferir
+4300661,RS,ANDRÉ DA ROCHA,emater,caxias_do_sul,Caxias do Sul,conferir
+4302303,RS,BOM JESUS,emater,caxias_do_sul,Caxias do Sul,conferir
+4303673,RS,CAMPESTRE DA SERRA,emater,caxias_do_sul,Caxias do Sul,conferir
+4304622,RS,CAPÃO BONITO DO SUL,emater,caxias_do_sul,Caxias do Sul,conferir
+4304903,RS,CASCA,emater,passo_fundo,Passo Fundo,conferir
+4304952,RS,CASEIROS,emater,passo_fundo,Passo Fundo,conferir
+4305504,RS,CIRÍACO,emater,passo_fundo,Passo Fundo,conferir
+4306304,RS,DAVID CANABARRO,emater,passo_fundo,Passo Fundo,conferir
+4307401,RS,ESMERALDA,emater,caxias_do_sul,Caxias do Sul,conferir
+4308607,RS,GARIBALDI,emater,caxias_do_sul,Caxias do Sul,conferir
+4309258,RS,GUABIJU,emater,caxias_do_sul,Caxias do Sul,conferir
+4309407,RS,GUAPORÉ,emater,caxias_do_sul,Caxias do Sul,conferir
+4309902,RS,IBIRAIARAS,emater,caxias_do_sul,Caxias do Sul,conferir
+4310439,RS,IPÊ,emater,caxias_do_sul,Caxias do Sul,conferir
+4310579,RS,ITAPUCA,emater,caxias_do_sul,Caxias do Sul,conferir
+4311304,RS,LAGOA VERMELHA,emater,caxias_do_sul,Caxias do Sul,conferir
+4312351,RS,MONTAURI,emater,caxias_do_sul,Caxias do Sul,conferir
+4312617,RS,MUITOS CAPÕES,emater,caxias_do_sul,Caxias do Sul,conferir
+4312625,RS,MULITERNO,emater,caxias_do_sul,Caxias do Sul,conferir
+4312807,RS,NOVA ARAÇÁ,emater,caxias_do_sul,Caxias do Sul,conferir
+4313300,RS,NOVA PRATA,emater,caxias_do_sul,Caxias do Sul,conferir
+4314001,RS,PARAÍ,emater,caxias_do_sul,Caxias do Sul,conferir
+4314464,RS,PINHAL DA SERRA,emater,caxias_do_sul,Caxias do Sul,conferir
+4315172,RS,PROTÁSIO ALVES,emater,caxias_do_sul,Caxias do Sul,conferir
+4318051,RS,SÃO DOMINGOS DO SUL,emater,caxias_do_sul,Caxias do Sul,conferir
+4318200,RS,SÃO FRANCISCO DE PAULA,emater,caxias_do_sul,Caxias do Sul,conferir
+4318440,RS,SÃO JORGE,emater,caxias_do_sul,Caxias do Sul,conferir
+4318622,RS,SÃO JOSÉ DOS AUSENTES,emater,caxias_do_sul,Caxias do Sul,conferir
+4320404,RS,SERAFINA CORRÊA,emater,caxias_do_sul,Caxias do Sul,conferir
+4322350,RS,UNIÃO DA SERRA,emater,caxias_do_sul,Caxias do Sul,conferir
+4322509,RS,VACARIA,emater,caxias_do_sul,Caxias do Sul,conferir
+4322558,RS,VANINI,emater,caxias_do_sul,Caxias do Sul,conferir
+4322806,RS,VERANÓPOLIS,emater,caxias_do_sul,Caxias do Sul,conferir
+4323606,RS,VISTA ALEGRE DO PRATA,emater,caxias_do_sul,Caxias do Sul,conferir
+4300059,RS,ÁGUA SANTA,emater,passo_fundo,Passo Fundo,alta
+4303558,RS,CAMARGO,emater,passo_fundo,Passo Fundo,alta
+4305371,RS,CHARRUA,emater,erechim,Erechim,conferir
+4305975,RS,COXILHA,emater,passo_fundo,Passo Fundo,alta
+4308854,RS,GENTIL,emater,passo_fundo,Passo Fundo,alta
+4309803,RS,IBIAÇÁ,emater,erechim,Erechim,conferir
+4311809,RS,MARAU,emater,passo_fundo,Passo Fundo,alta
+4312138,RS,MATO CASTELHANO,emater,passo_fundo,Passo Fundo,alta
+4312757,RS,NOVA ALVORADA,emater,passo_fundo,Passo Fundo,alta
+4314100,RS,PASSO FUNDO,emater,passo_fundo,Passo Fundo,alta
+4316600,RS,SANANDUVA,emater,erechim,Erechim,conferir
+4316733,RS,SANTA CECÍLIA DO SUL,emater,erechim,Erechim,conferir
+4317558,RS,SANTO ANTÔNIO DO PALMA,emater,passo_fundo,Passo Fundo,alta
+4320909,RS,TAPEJARA,emater,passo_fundo,Passo Fundo,alta
+4323358,RS,VILA LÂNGARO,emater,passo_fundo,Passo Fundo,alta
+4323408,RS,VILA MARIA,emater,passo_fundo,Passo Fundo,alta
+4300034,RS,ACEGUÁ,emater,bage,Bagé,alta
+4301305,RS,ARROIO GRANDE,emater,pelotas,Pelotas,alta
+4301602,RS,BAGÉ,emater,bage,Bagé,alta
+4304358,RS,CANDIOTA,emater,bage,Bagé,alta
+4304507,RS,CANGUÇU,emater,pelotas,Pelotas,alta
+4304663,RS,CAPÃO DO LEÃO,emater,pelotas,Pelotas,alta
+4306601,RS,DOM PEDRITO,emater,bage,Bagé,alta
+4311007,RS,JAGUARÃO,emater,pelotas,Pelotas,alta
+4314175,RS,PEDRAS ALTAS,emater,bage,Bagé,alta
+4314407,RS,PELOTAS,emater,pelotas,Pelotas,alta
+4314506,RS,PINHEIRO MACHADO,emater,bage,Bagé,conferir
+4314605,RS,PIRATINI,emater,pelotas,Pelotas,alta
+4317301,RS,SANTA VITÓRIA DO PALMAR,emater,pelotas,Pelotas,alta
+4322327,RS,TURUÇU,emater,pelotas,Pelotas,alta
+4300703,RS,ANTA GORDA,emater,lajeado,Lajeado,alta
+4301404,RS,ARVOREZINHA,emater,lajeado,Lajeado,alta
+4301909,RS,BARRA DO RIBEIRO,emater,porto_alegre,Porto Alegre,alta
+4302709,RS,BUTIÁ,emater,porto_alegre,Porto Alegre,alta
+4303509,RS,CAMAQUÃ,emater,porto_alegre,Porto Alegre,alta
+4304200,RS,CANDELÁRIA,emater,lajeado,Lajeado,conferir
+4304606,RS,CANOAS,emater,porto_alegre,Porto Alegre,alta
+4304671,RS,CAPIVARI DO SUL,emater,porto_alegre,Porto Alegre,alta
+4306056,RS,CRISTAL,emater,porto_alegre,Porto Alegre,alta
+4306205,RS,CRUZEIRO DO SUL,emater,lajeado,Lajeado,alta
+4306767,RS,ELDORADO DO SUL,emater,porto_alegre,Porto Alegre,alta
+4306809,RS,ENCANTADO,emater,lajeado,Lajeado,alta
+4307807,RS,ESTRELA,emater,porto_alegre,Porto Alegre,alta
+4308805,RS,GENERAL CÂMARA,emater,porto_alegre,Porto Alegre,alta
+4311403,RS,LAJEADO,emater,porto_alegre,Porto Alegre,alta
+4312252,RS,MINAS DO LEÃO,emater,porto_alegre,Porto Alegre,alta
+4313656,RS,PALMARES DO SUL,emater,porto_alegre,Porto Alegre,alta
+4314076,RS,PASSO DO SOBRADO,emater,porto_alegre,Porto Alegre,alta
+4314902,RS,PORTO ALEGRE,emater,porto_alegre,Porto Alegre,alta
+4315602,RS,RIO GRANDE,emater,porto_alegre,Porto Alegre,alta
+4316808,RS,SANTA CRUZ DO SUL,emater,porto_alegre,Porto Alegre,alta
+4317608,RS,SANTO ANTÔNIO DA PATRULHA,emater,porto_alegre,Porto Alegre,alta
+4318804,RS,SÃO LOURENÇO DO SUL,emater,porto_alegre,Porto Alegre,alta
+4321451,RS,TEUTÔNIA,emater,porto_alegre,Porto Alegre,alta
+4322525,RS,VALE VERDE,emater,porto_alegre,Porto Alegre,alta
+4322608,RS,VENÂNCIO AIRES,emater,porto_alegre,Porto Alegre,alta
+4322707,RS,VERA CRUZ,emater,porto_alegre,Porto Alegre,alta
+4323002,RS,VIAMÃO,emater,porto_alegre,Porto Alegre,alta
+4300109,RS,AGUDO,emater,santa_maria,Santa Maria,alta
+4302808,RS,CAÇAPAVA DO SUL,emater,santa_maria,Santa Maria,alta
+4302907,RS,CACEQUI,emater,santa_maria,Santa Maria,alta
+4303004,RS,CACHOEIRA DO SUL,emater,santa_maria,Santa Maria,alta
+4306379,RS,DILERMANDO DE AGUIAR,emater,santa_maria,Santa Maria,alta
+4306700,RS,DONA FRANCISCA,emater,santa_maria,Santa Maria,alta
+4306908,RS,ENCRUZILHADA DO SUL,emater,porto_alegre,Porto Alegre,conferir
+4308003,RS,FAXINAL DO SOTURNO,emater,santa_maria,Santa Maria,alta
+4308409,RS,FORMIGUEIRO,emater,santa_maria,Santa Maria,alta
+4310538,RS,ITAARA,emater,santa_maria,Santa Maria,alta
+4312104,RS,MATA,emater,santa_maria,Santa Maria,alta
+4313102,RS,NOVA PALMA,emater,santa_maria,Santa Maria,alta
+4313391,RS,NOVO CABRAIS,emater,santa_maria,Santa Maria,alta
+4313953,RS,PANTANO GRANDE,emater,santa_maria,Santa Maria,alta
+4315503,RS,RESTINGA SÊCA,emater,santa_maria,Santa Maria,alta
+4315701,RS,RIO PARDO,emater,santa_maria,Santa Maria,alta
+4316907,RS,SANTA MARIA,emater,santa_maria,Santa Maria,alta
+4317004,RS,SANTANA DA BOA VISTA,emater,santa_maria,Santa Maria,alta
+4318432,RS,SÃO JOÃO DO POLÊSINE,emater,santa_maria,Santa Maria,alta
+4319406,RS,SÃO PEDRO DO SUL,emater,santa_maria,Santa Maria,alta
+4319604,RS,SÃO SEPÉ,emater,santa_maria,Santa Maria,alta
+4319802,RS,SÃO VICENTE DO SUL,emater,santa_maria,Santa Maria,alta
+4321493,RS,TOROPI,emater,santa_maria,Santa Maria,alta
+4300307,RS,ALECRIM,emater,santa_rosa,Santa Rosa,alta
+4300455,RS,ALEGRIA,emater,santa_rosa,Santa Rosa,alta
+4302204,RS,BOA VISTA DO BURICÁ,emater,santa_rosa,Santa Rosa,alta
+4302378,RS,BOM PROGRESSO,emater,frederico_westphalen,Frederico Westphalen,conferir
+4302600,RS,BRAGA,emater,frederico_westphalen,Frederico Westphalen,conferir
+4303707,RS,CAMPINA DAS MISSÕES,emater,santa_rosa,Santa Rosa,alta
+4304002,RS,CAMPO NOVO,emater,santa_rosa,Santa Rosa,alta
+4304309,RS,CÂNDIDO GODÓI,emater,santa_rosa,Santa Rosa,alta
+4305900,RS,CORONEL BICACO,emater,santa_rosa,Santa Rosa,alta
+4306007,RS,CRISSIUMAL,emater,santa_rosa,Santa Rosa,alta
+4306320,RS,DERRUBADAS,emater,frederico_westphalen,Frederico Westphalen,conferir
+4306734,RS,DOUTOR MAURÍCIO CARDOSO,emater,santa_rosa,Santa Rosa,alta
+4309001,RS,GIRUÁ,emater,santa_rosa,Santa Rosa,alta
+4309605,RS,HORIZONTINA,emater,santa_rosa,Santa Rosa,alta
+4309704,RS,HUMAITÁ,emater,santa_rosa,Santa Rosa,alta
+4310405,RS,INDEPENDÊNCIA,emater,santa_rosa,Santa Rosa,alta
+4310413,RS,INHACORÁ,emater,santa_rosa,Santa Rosa,alta
+4312302,RS,MIRAGUAÍ,emater,santa_rosa,Santa Rosa,alta
+4313011,RS,NOVA CANDELÁRIA,emater,santa_rosa,Santa Rosa,alta
+4313425,RS,NOVO MACHADO,emater,santa_rosa,Santa Rosa,alta
+4313706,RS,PALMEIRA DAS MISSÕES,emater,santa_rosa,Santa Rosa,alta
+4315008,RS,PORTO LUCENA,emater,santa_rosa,Santa Rosa,alta
+4315057,RS,PORTO MAUÁ,emater,santa_rosa,Santa Rosa,alta
+4315404,RS,REDENTORA,emater,santa_rosa,Santa Rosa,alta
+4317202,RS,SANTA ROSA,emater,santa_rosa,Santa Rosa,alta
+4317806,RS,SANTO AUGUSTO,emater,santa_rosa,Santa Rosa,alta
+4317905,RS,SANTO CRISTO,emater,santa_rosa,Santa Rosa,alta
+4318499,RS,SÃO JOSÉ DO INHACORÁ,emater,santa_rosa,Santa Rosa,alta
+4319109,RS,SÃO MARTINHO,emater,santa_rosa,Santa Rosa,alta
+4319737,RS,SÃO VALÉRIO DO SUL,emater,santa_rosa,Santa Rosa,alta
+4320230,RS,SEDE NOVA,emater,santa_rosa,Santa Rosa,alta
+4320321,RS,SENADOR SALGADO FILHO,emater,santa_rosa,Santa Rosa,alta
+4321402,RS,TENENTE PORTELA,emater,santa_rosa,Santa Rosa,alta
+4321477,RS,TIRADENTES DO SUL,emater,santa_rosa,Santa Rosa,alta
+4321808,RS,TRÊS DE MAIO,emater,santa_rosa,Santa Rosa,alta
+4321907,RS,TRÊS PASSOS,emater,santa_rosa,Santa Rosa,alta
+4322103,RS,TUCUNDUVA,emater,santa_rosa,Santa Rosa,alta
+4322301,RS,TUPARENDI,emater,santa_rosa,Santa Rosa,alta
+4322343,RS,UBIRETAMA,emater,santa_rosa,Santa Rosa,alta
+4323705,RS,VISTA GAÚCHA,emater,santa_rosa,Santa Rosa,alta
+4302501,RS,BOSSOROCA,emater,ijui,Ijuí,conferir
+4303301,RS,CAIBATÉ,emater,ijui,Ijuí,conferir
+4304655,RS,CAPÃO DO CIPÓ,emater,ijui,Ijuí,conferir
+4305207,RS,CERRO LARGO,emater,santa_rosa,Santa Rosa,conferir
+4306353,RS,DEZESSEIS DE NOVEMBRO,emater,ijui,Ijuí,conferir
+4308656,RS,GARRUCHOS,emater,ijui,Ijuí,conferir
+4309506,RS,GUARANI DAS MISSÕES,emater,santa_rosa,Santa Rosa,conferir
+4312179,RS,MATO QUEIMADO,emater,ijui,Ijuí,conferir
+4314555,RS,PIRAPÓ,emater,santa_rosa,Santa Rosa,conferir
+4315958,RS,ROLADOR,emater,ijui,Ijuí,conferir
+4316303,RS,ROQUE GONZALES,emater,santa_rosa,Santa Rosa,conferir
+4316477,RS,SALVADOR DAS MISSÕES,emater,ijui,Ijuí,conferir
+4317509,RS,SANTO ÂNGELO,emater,ijui,Ijuí,conferir
+4317707,RS,SANTO ANTÔNIO DAS MISSÕES,emater,ijui,Ijuí,conferir
+4318903,RS,SÃO LUIZ GONZAGA,emater,ijui,Ijuí,conferir
+4319208,RS,SÃO NICOLAU,emater,ijui,Ijuí,conferir
+4319307,RS,SÃO PAULO DAS MISSÕES,emater,ijui,Ijuí,conferir
+4319372,RS,SÃO PEDRO DO BUTIÁ,emater,ijui,Ijuí,conferir
+4320578,RS,SETE DE SETEMBRO,emater,ijui,Ijuí,conferir
+4300406,RS,ALEGRETE,emater,bage,Bagé,alta
+4310603,RS,ITAQUI,emater,bage,Bagé,conferir
+4311502,RS,LAVRAS DO SUL,emater,bage,Bagé,alta
+4311718,RS,MAÇAMBARÁ,emater,bage,Bagé,conferir
+4311759,RS,MANOEL VIANA,emater,bage,Bagé,alta
+4316402,RS,ROSÁRIO DO SUL,emater,bage,Bagé,conferir
+4316972,RS,SANTA MARGARIDA DO SUL,emater,santa_maria,Santa Maria,conferir
+4317103,RS,SANT'ANA DO LIVRAMENTO,emater,bage,Bagé,alta
+4318002,RS,SÃO BORJA,emater,bage,Bagé,conferir
+4318309,RS,SÃO GABRIEL,emater,santa_maria,Santa Maria,conferir
+4322376,RS,UNISTALDA,emater,santa_maria,Santa Maria,conferir
+4322400,RS,URUGUAIANA,emater,bage,Bagé,alta
+4323457,RS,VILA NOVA DO SUL,emater,bage,Bagé,alta
+4300471,RS,ALMIRANTE TAMANDARÉ DO SUL,emater,passo_fundo,Passo Fundo,conferir
+4300505,RS,ALPESTRE,emater,frederico_westphalen,Frederico Westphalen,alta
+4301958,RS,BARRA FUNDA,emater,passo_fundo,Passo Fundo,conferir
+4302154,RS,BOA VISTA DAS MISSÕES,emater,frederico_westphalen,Frederico Westphalen,alta
+4303400,RS,CAIÇARA,emater,frederico_westphalen,Frederico Westphalen,alta
+4305157,RS,CERRO GRANDE,emater,frederico_westphalen,Frederico Westphalen,alta
+4305306,RS,CHAPADA,emater,passo_fundo,Passo Fundo,conferir
+4305801,RS,CONSTANTINA,emater,frederico_westphalen,Frederico Westphalen,alta
+4306072,RS,CRISTAL DO SUL,emater,frederico_westphalen,Frederico Westphalen,alta
+4306429,RS,DOIS IRMÃOS DAS MISSÕES,emater,frederico_westphalen,Frederico Westphalen,alta
+4306924,RS,ENGENHO VELHO,emater,frederico_westphalen,Frederico Westphalen,alta
+4306957,RS,ENTRE RIOS DO SUL,emater,frederico_westphalen,Frederico Westphalen,alta
+4307302,RS,ERVAL SECO,emater,frederico_westphalen,Frederico Westphalen,alta
+4308508,RS,FREDERICO WESTPHALEN,emater,frederico_westphalen,Frederico Westphalen,alta
+4309126,RS,GRAMADO DOS LOUREIROS,emater,frederico_westphalen,Frederico Westphalen,alta
+4310504,RS,IRAÍ,emater,frederico_westphalen,Frederico Westphalen,alta
+4310850,RS,JABOTICABA,emater,frederico_westphalen,Frederico Westphalen,alta
+4311429,RS,LAJEADO DO BUGRE,emater,frederico_westphalen,Frederico Westphalen,alta
+4311601,RS,LIBERATO SALZANO,emater,frederico_westphalen,Frederico Westphalen,alta
+4312708,RS,NONOAI,emater,frederico_westphalen,Frederico Westphalen,alta
+4312955,RS,NOVA BOA VISTA,emater,passo_fundo,Passo Fundo,conferir
+4313490,RS,NOVO BARREIRO,emater,frederico_westphalen,Frederico Westphalen,alta
+4313441,RS,NOVO TIRADENTES,emater,frederico_westphalen,Frederico Westphalen,alta
+4313466,RS,NOVO XINGU,emater,frederico_westphalen,Frederico Westphalen,alta
+4313805,RS,PALMITINHO,emater,frederico_westphalen,Frederico Westphalen,alta
+4314498,RS,PINHEIRINHO DO VALE,emater,frederico_westphalen,Frederico Westphalen,alta
+4314704,RS,PLANALTO,emater,frederico_westphalen,Frederico Westphalen,alta
+4314779,RS,PONTÃO,emater,frederico_westphalen,Frederico Westphalen,alta
+4315552,RS,RIO DOS ÍNDIOS,emater,frederico_westphalen,Frederico Westphalen,alta
+4315909,RS,RODEIO BONITO,emater,frederico_westphalen,Frederico Westphalen,alta
+4316105,RS,RONDA ALTA,emater,frederico_westphalen,Frederico Westphalen,alta
+4316204,RS,RONDINHA,emater,frederico_westphalen,Frederico Westphalen,alta
+4316428,RS,SAGRADA FAMÍLIA,emater,frederico_westphalen,Frederico Westphalen,alta
+4318457,RS,SÃO JOSÉ DAS MISSÕES,emater,frederico_westphalen,Frederico Westphalen,alta
+4319364,RS,SÃO PEDRO DAS MISSÕES,emater,frederico_westphalen,Frederico Westphalen,alta
+4320107,RS,SARANDI,emater,frederico_westphalen,Frederico Westphalen,alta
+4320206,RS,SEBERI,emater,frederico_westphalen,Frederico Westphalen,alta
+4321329,RS,TAQUARUÇU DO SUL,emater,frederico_westphalen,Frederico Westphalen,alta
+4321857,RS,TRÊS PALMEIRAS,emater,frederico_westphalen,Frederico Westphalen,alta
+4321956,RS,TRINDADE DO SUL,emater,frederico_westphalen,Frederico Westphalen,alta
+4323101,RS,VICENTE DUTRA,emater,frederico_westphalen,Frederico Westphalen,alta
