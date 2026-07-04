@@ -1,0 +1,45 @@
+name: Resumos IA por distrito
+
+on:
+  workflow_dispatch:
+    inputs:
+      alvo:
+        description: "vazio = TODOS os distritos | distrito_id"
+        required: false
+        default: ""
+  push:
+    branches: [main]
+    paths:
+      - "data/colheita/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: resumo-ia
+  cancel-in-progress: false
+
+jobs:
+  resumos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Gerar resumos (Claude Haiku)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python pipeline/resumo_ia.py "${{ github.event.inputs.alvo }}"
+
+      - name: Commit dos resumos
+        if: always()
+        run: |
+          git config user.name "boletim-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add web/data/out
+          git diff --cached --quiet && { echo "nada a commitar"; exit 0; }
+          git commit -m "resumos IA: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git pull --rebase --autostash origin main || true
+          git push
