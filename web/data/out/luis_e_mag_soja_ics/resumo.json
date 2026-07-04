@@ -1,16 +1,16 @@
 {
  "distrito_id": "luis_e_mag_soja_ics",
  "nome": "LUIS E MAG-SOJA/ICS",
- "gerado_em": "2026-07-04T01:47:53+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "A safra 2025/26 de soja está encerrada em BA e PI, com 100% do plantio colhido em ambos os estados (Conab, 11/jun/2026). Na entressafra, o clima apresenta condições secas: previsão de apenas 0–4,5 mm em 7 dias, com apenas 1 dia de chuva relevante. Temperaturas máximas de 34,1°C e mínimas de 12,8°C caracterizam o inverno seco típico. Sem alertas Inmet ativos. Foco agora em armazenagem e comercialização da produção colhida.",
+ "gerado_em": "2026-07-04T04:03:34+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Distrito LUIS E MAG-SOJA/ICS (BA e PI) — safra 2025/26 encerrada em ambas as UFs (Conab, 9º Levantamento, jun/2026). O foco recai sobre a dinâmica atmosférica da semana. O sábado (04/jul) registrou rajada de 43,6 km/h com vento de SE e chuva residual de 0,2 mm. No domingo (05/jul), vento girou para NE com mínima de 12,8°C e ET0 de 4,97 mm/dia. Na segunda (06/jul), vento virou para S (195°) com 2,0 mm — episódio isolado, possivelmente associado a incursão de ar mais frio pelo sul. A partir de terça (07/jul), vento retornou a W-NW e as temperaturas máximas escalaram progressivamente até 34,4°C na quinta (10/jul), com ET0 média semanal de 4,9 mm/dia e sequência de até 4 dias secos consecutivos. O padrão configura veranico de inverno com alta demanda evapotranspirativa — relevante para monitoramento de pastagens e planejamento da próxima safra.",
  "pontos": [
-  "Safra encerrada 100% em ambos os estados; dados de produtividade indisponíveis",
-  "Seca acentuada na entressafra: <5 mm previsto em 7 dias",
-  "Monitorar condições de armazenagem com umidade relativa baixa"
+  "Safra 2025/26 encerrada em BA e PI (Conab, 9º Levantamento, jun/2026) — entressafra em curso",
+  "Chuva acumulada prevista para 7 dias: máximo de 3,6 mm — condição de veranico de inverno confirmada",
+  "ET0 média de 4,9 mm/dia com máximas até 34,4°C indicam alta demanda hídrica atmosférica na semana"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:56:34+00:00",
+  "clima": "2026-07-04T03:43:18+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "pelotas_soja",
  "nome": "PELOTAS-SOJA",
- "gerado_em": "2026-07-04T01:48:21+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "Safra 2025/2026 encerrada em Pelotas-RS com 100% colhido. Produtividade de 45 sc/ha, 14,8% abaixo da projeção inicial, totalizando 18,1 milhões de toneladas. Variabilidade regional significativa (1.200-4.200 kg/ha) reflete heterogeneidade de condições. Preço em R$ 129/sc (03/07). Clima atual: mínimas de -1,9°C e máximas de 20,5°C; chuva prevista de 0,4 a 8,0 mm em 7 dias, com apenas 1 dia relevante. Sem alertas Inmet ativos.",
+ "gerado_em": "2026-07-04T04:05:07+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Distrito Pelotas-Soja (RS) — safra 2025/2026 encerrada com 100% colhido e produtividade de 45 sc/ha (Emater/RS-Ascar, 11/jun/2026), resultado 14,8% abaixo da projeção inicial, embora 32,9% acima da safra anterior. A semana apresenta dinâmica frontal clara: sábado (05/jul) e domingo (06/jul) concentram a chuva prevista (2,2 e 3,6 mm, prob. 71–83%), com virada de vento de leste/sudeste para oeste (109°→249°) e rajada de 40,7 km/h no domingo — padrão típico de passagem frontal. Na segunda (07/jul), vento gira para noroeste (284°), rajadas intensificam para 49,3 km/h, temperatura mínima cai a 2,5 °C — risco de geada confirmado pelos sinais_derivados. De terça a quinta (08–10/jul), anticiclone pós-frontal eleva tmax a 20,5 °C e ET0 acumula até 2,66 mm/dia, com sequência de 3 dias secos. Preço da saca em R$ 129,00 (Grão Direto, 03/jul/2026).",
  "pontos": [
-  "Produtividade 32,9% superior à safra anterior, mas 14,8% abaixo da projeção inicial",
-  "Forte variabilidade regional (1.200-4.200 kg/ha) indica heterogeneidade de desempenho",
-  "Preço estável em R$ 129/sc; clima pós-colheita sem pressões imediatas"
+  "Risco de geada na madrugada de segunda-feira (07/jul): tmin projetada de 2,5 °C — atenção a culturas de inverno e pastagens na região de Pelotas",
+  "Passagem frontal concentrada em sábado e domingo (05–06/jul) com apenas 5,8 mm acumulados — volume baixo e sem impacto operacional relevante",
+  "ET0 elevada no pós-frontal (até 2,66 mm/dia em 09/jul) com 3 dias secos consecutivos — demanda hídrica alta para culturas de inverno em estabelecimento"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:56:38+00:00",
+  "clima": "2026-07-04T03:45:34+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

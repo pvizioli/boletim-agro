@@ -1,15 +1,16 @@
 {
  "distrito_id": "passo_fundo_soja",
  "nome": "PASSO FUNDO-SOJA",
- "gerado_em": "2026-07-04T01:48:09+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "Safra 2025/2026 encerrada em Passo Fundo com 100% colhido. Produtividade de 45 sc/ha, 14,8% abaixo da projeção inicial, refletindo forte variabilidade regional (1.200-4.200 kg/ha). Produção total RS: 18,1 Mi t, crescimento de 32,9% vs safra anterior. Preço em R$ 129/sc (03/07). Próximos 7 dias: chuva mínima (1,8-5,6 mm), 2 dias com precipitação relevante, mínima de -0,5°C. Clima favorável para operações pós-colheita.",
+ "gerado_em": "2026-07-04T04:04:27+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Passo Fundo, 4 de julho de 2026. A semana abre com padrão típico de inverno gaúcho: sábado (05/jul) registra maior probabilidade de chuva (82%, 1,7 mm) com vento de leste, seguido de virada para sudoeste na segunda (06/jul, 3,6 mm, 236°) — dinâmica consistente com passagem de sistema frontal rápido. A partir de terça (07/jul), vento retorna ao quadrante leste-nordeste, chuva cessa e ET₀ sobe progressivamente até 2,85 mm/dia na quinta (09/jul), configurando sequência seca de até 4 dias (sinais_derivados). Mínimas abaixo de 3 °C em quatro datas (04, 07, 08 e 09/jul) sustentam risco de geada. Safra 2025/2026 encerrada com 100% colhido, produtividade de 45 sc/ha (Emater/RS-Ascar, 11/jun/2026), alta de 32,9% vs. safra anterior, porém 14,8% abaixo da projeção inicial. Preço em R$ 129/sc 60 kg (Grão Direto, Centro Ocidental RS, 03/jul/2026).",
  "pontos": [
-  "Produtividade 14,8% abaixo da projeção; variabilidade regional crítica (1.200-4.200 kg/ha)",
-  "Preço em R$ 129/sc; safra encerrada, foco em comercialização e armazenagem"
+  "Risco de geada em 4 noites da semana (mínimas ≤ 0 °C em 04 e 08/jul) — atenção a culturas de inverno e pastagens",
+  "Passagem frontal rápida entre sábado e segunda entrega apenas 5–7 mm acumulados; sem impacto relevante para o campo em entressafra",
+  "Sequência seca de 4 dias com ET₀ média de 2,0 mm/dia (sinais_derivados) eleva demanda hídrica no final da semana"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:56:36+00:00",
+  "clima": "2026-07-04T03:44:29+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

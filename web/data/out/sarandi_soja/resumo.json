@@ -1,15 +1,16 @@
 {
  "distrito_id": "sarandi_soja",
  "nome": "SARANDI-SOJA",
- "gerado_em": "2026-07-04T01:49:25+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "A safra 2025/2026 de soja em RS está encerrada (100% colhido). Produtividade fechou em 45 sc/ha, queda de 14,8% ante projeção inicial, com forte variabilidade regional (1.200-4.200 kg/ha). Produção total: 18,1 Mi t, crescimento de 32,9% vs safra anterior. Clima atual: mínimas de 0,8°C e máximas de 22,7°C; chuva prevista 7 dias: 0,5-4,7 mm em 2 dias. Preço em 129 R$/sc (03/07). Sem alertas Inmet ativos.",
+ "gerado_em": "2026-07-04T04:08:12+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Distrito Sarandi-Soja (RS) — Safra 2025/2026 encerrada. A semana inicia com padrão de inverno marcado: sábado (04/jul) registrou tmax de 16,5 °C, rajada de 40,3 km/h de SE e chuva de 1,7 mm, sugerindo influência de sistema frontal em dissipação. Domingo (05/jul) apresenta aquecimento rápido (tmax 22,4 °C) com vento girando para NE, seguido de nova queda térmica na segunda (06/jul, tmax 17,5 °C) e vento de SW — padrão típico de passagem frontal. A partir de terça (07/jul), sequência seca se consolida: zero chuva até sexta (10/jul), ET0 média de 2,1 mm/dia (sinais_derivados, 04/jul) e pico de 3,12 mm/dia na quinta (09/jul). Tmin de 0,8 °C prevista para quarta (08/jul) reforça risco de geada (sinais_derivados). Preço da saca em R$ 129,00 (Grão Direto, 03/jul). Produtividade final: 45 sc/ha (Emater/RS-Ascar, 11/jun), 32,9% acima da safra anterior, porém 14,8% abaixo da projeção inicial.",
  "pontos": [
-  "Safra encerrada com produtividade 14,8% abaixo da projeção; variabilidade regional extrema exige análise por microrregião",
-  "Crescimento de 32,9% em produção vs safra anterior compensou queda de rendimento; preço estável em 129 R$/sc"
+  "Risco de geada em 04 e 08/jul (tmin ≤ 1,2 °C) — atenção a culturas de inverno e pastagens na região de Sarandi",
+  "Sequência seca de até 7 dias consecutivos (sinais_derivados) com ET0 elevada (pico 3,12 mm/dia em 09/jul) — monitorar irrigação de culturas de entressafra",
+  "Safra 2025/2026 encerrada com 45 sc/ha e forte variabilidade regional (1.200–4.200 kg/ha), segundo Emater/RS-Ascar (11/jun)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:58:19+00:00",
+  "clima": "2026-07-04T03:47:55+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

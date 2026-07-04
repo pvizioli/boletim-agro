@@ -1,16 +1,16 @@
 {
  "distrito_id": "guarapuava_soja",
  "nome": "GUARAPUAVA-SOJA",
- "gerado_em": "2026-07-04T01:47:14+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "Safra 2025/2026 encerrada no Paraná com 100% colhido. Produtividade de 63 sc/ha (+2,8% vs safra anterior), totalizando 21,78 milhões de toneladas. Clima atual em Guarapuava apresenta mínimas de 0,7°C e máximas de 23,5°C, com previsão de 6,2 a 19,8 mm em 7 dias (2 dias com chuva relevante). Sem alertas Inmet ativos. Preço em R$ 128,50/sc (Paranaguá, 17/06/2026).",
+ "gerado_em": "2026-07-04T04:01:36+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Guarapuava, 4 de julho de 2026. A semana abre com tempo seco e ameno: sábado (05/jul) registra tmax de 23,0 °C sem chuva. A virada ocorre na segunda-feira (06/jul), com precipitação de 19,8 mm e probabilidade de 99%, acompanhada de queda de tmax para 19,8 °C e tmin elevada (9,6 °C) — padrão consistente com passagem de sistema frontal. Na terça (07/jul) a chuva residual soma 2,4 mm. O pós-frontal impõe resfriamento acentuado: quarta (08/jul) registra tmin de 0,7 °C, configurando risco de geada apontado nos sinais_derivados. A sequência seca de 3 dias encerra o período. A safra 2025/2026 no PR está encerrada (100% colhido), com produtividade de 63 sc/ha (+2,8% vs. safra anterior; Deral/SEAB-PR, 25/05/2026). Preço em Paranaguá: R$ 128,50/sc 60 kg (Canal Rural, 17/06/2026). O clima atual não impacta a lavoura, mas exige atenção a pastagens e culturas de inverno.",
  "pontos": [
-  "Safra finalizada com produtividade acima da média histórica (+2,8%)",
-  "Mínimas próximas a 0°C exigem atenção ao armazenamento pós-colheita",
-  "Preço estável; monitorar tendências de mercado para comercialização"
+  "Risco de geada na madrugada de quarta (08/jul): tmin projetada de 0,7 °C — monitorar culturas de inverno e pastagens",
+  "Evento frontal concentrado em 06/jul (19,8 mm, prob. 99%) é o único pulso hídrico relevante da semana",
+  "Safra soja PR 2025/2026 encerrada com 63 sc/ha e +2,8% sobre a safra anterior (Deral/SEAB-PR, 25/05/2026)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:54:28+00:00",
+  "clima": "2026-07-04T03:17:42+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

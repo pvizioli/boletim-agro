@@ -1,16 +1,16 @@
 {
  "distrito_id": "balsas_soja_ics",
  "nome": "BALSAS-SOJA/ICS",
- "gerado_em": "2026-07-04T01:46:04+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "Safra 2025/26 encerrada em MA, PI e TO com 100% de colheita concluída (Conab, jun/2026). Clima atual apresenta máximas de 36,3°C e mínimas de 16,9°C, com previsão de até 58,8 mm em 7 dias e 5 dias com chuva relevante. Sem alertas Inmet ativos. Período de entressafra com condições climáticas típicas de inverno tropical na região Nordeste/Centro-Oeste.",
+ "gerado_em": "2026-07-04T03:58:19+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Distrito BALSAS-SOJA/ICS, 04/jul/2026. A safra 2025/26 está encerrada em MA, PI e TO (Conab – 9º Levantamento, jun/2026), com colheita 100% concluída nas três UFs. O foco recai sobre a dinâmica climática do período de entressafra. A série diária revela padrão chuvoso persistente e atípico para julho: chuva registrada em todos os sete dias monitorados, sem sequência seca (maior_sequencia_dias_secos = 0). O acumulado previsto pode atingir até 58,8 mm nos 28 municípios monitorados (clima gerado em 04/jul/2026 02:11 UTC). Temperaturas máximas sustentadas entre 34,6 °C (sex/03) e 36,3 °C (seg/06), com mínimas entre 16,9 °C e 19,0 °C — amplitude térmica elevada, sem sinal de geada. Probabilidades de chuva acima de 78% em todos os dias indicam sistema convectivo ativo sobre a região. Nenhum alerta INMET ativo. Produtividade e produção não disponíveis no levantamento atual.",
  "pontos": [
-  "Colheita 100% finalizada em todos os estados monitorados",
-  "Chuva prevista (até 58,8 mm) favorável para reposição hídrica do solo",
-  "Sem dados de produtividade e comparativo com safra anterior disponíveis"
+  "Safra 2025/26 encerrada em MA, PI e TO — produtividade e produção não divulgadas pela Conab até o 9º Levantamento (jun/2026)",
+  "Chuva persistente em plena entressafra: zero dias secos na semana, acumulado podendo chegar a 58,8 mm — monitorar impacto em armazenagem e logística",
+  "Temperaturas máximas elevadas (até 36,3 °C na seg/06) combinadas com mínimas baixas (16,9 °C na sex/03) indicam amplitude térmica acentuada, sem risco de geada identificado"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:50:49+00:00",
+  "clima": "2026-07-04T02:11:58+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "vilhena_soja",
  "nome": "VILHENA-SOJA",
- "gerado_em": "2026-07-04T01:49:46+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "Safra 2025/26 encerrada em Vilhena-Soja. Mato Grosso fechou com 66 sc/ha e produção de 51,56 Mi t, crescimento de 1,3% vs safra anterior (Imea/Conab, jun/26). Rondônia também completou colheita. Clima atual: máximas de 35,2°C, mínimas de 12,9°C, com apenas 2 dias de chuva relevante nos próximos 7 dias (0 a 9,9 mm). Soja cotada a R$ 108,63/sc em MT (Grao Direto, 03/jul). Sem alertas Inmet ativos.",
+ "gerado_em": "2026-07-04T04:09:14+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Distrito VILHENA-SOJA, 04/jul/2026. Safra 2025/26 encerrada em MT (100% colhido, 66 sc/ha, produção 51,56 Mt, +1,3% vs. safra anterior — Imea em Campo/Conab 9º lev., jun/26) e em RO (100% colhido, sem dados de produtividade — Conab 9º lev., jun/26). Na série diária, qui/03 registrou rajada de 49,3 km/h com vento de leste (109°) e ET0 de 5,06 mm, seguida de virada para norte/nordeste (35°) em sáb/04 com tmin de 12,9°C — padrão compatível com passagem de sistema frontal rápido. A partir de dom/05, ventos giram para nordeste/leste e temperaturas sobem progressivamente até 35,2°C na qua/09. Chuvas fracas e esparsas (máx. 7,1 mm em ter/07, prob. 87%) não alteram o balanço hídrico; ET0 média de 4,8 mm/dia sustenta demanda evapotranspirativa elevada. Preço da saca em MT: R$ 108,63 (Grao Direto, Nordeste MT, 03/jul/26).",
  "pontos": [
-  "Safra encerrada: foco em fechamento de contas e armazenagem",
-  "Chuva escassa (máx 9,9 mm/7d): monitorar umidade de grãos armazenados",
-  "Preço em R$ 108,63/sc: avaliar momento de comercialização"
+  "Safra 2025/26 encerrada em MT e RO; foco no período de entressafra e comercialização",
+  "Passagem frontal rápida entre qui/03 e sáb/04 derrubou tmin para 12,9°C e gerou rajada de 49,3 km/h — sem caracterização de geada pelos sinais disponíveis",
+  "ET0 média de 4,8 mm/dia com chuva acumulada máxima de 14,4 mm nos próximos 7 dias indica déficit hídrico relevante para áreas com cultivos de safrinha ou pastagens"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:59:23+00:00",
+  "clima": "2026-07-04T03:48:03+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

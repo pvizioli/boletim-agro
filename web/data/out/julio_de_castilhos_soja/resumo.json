@@ -1,16 +1,16 @@
 {
  "distrito_id": "julio_de_castilhos_soja",
  "nome": "JULIO DE CASTILHOS-SOJA",
- "gerado_em": "2026-07-04T01:47:40+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "A safra 2025/2026 de soja em Julio de Castilhos está encerrada (100% colhido). Produtividade fechou em 45 sc/ha, queda de 14,8% versus projeção inicial, conforme Emater/RS-Ascar (11/06/2026). Forte variabilidade regional (1.200-4.200 kg/ha) marcou o ciclo. Preço em R$ 129/sc (03/07/2026, Grao Direto). Clima atual: mínimas negativas (-1,7°C) e chuva escassa (0,4-13,1 mm em 7 dias, apenas 1 dia relevante). Condições típicas de inverno no RS.",
+ "gerado_em": "2026-07-04T04:02:55+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Julio de Castilhos, RS — 4 de julho de 2026. A safra 2025/2026 está encerrada (100% colhida), com produtividade de 45 sc/ha e produção de 18,13 milhões de toneladas no RS, alta de 32,9% sobre a safra anterior, porém 14,8% abaixo da projeção inicial, refletindo forte variabilidade regional (Emater/RS-Ascar, 11/jun/2026). O preço corrente é R$ 129/sc (Grão Direto, Centro Ocidental RS, 03/jul/2026). No campo climático, a série diária revela padrão típico de inverno gaúcho: sexta-feira (03/jul) registrou mínima de -1,7 °C com máxima de apenas 9,9 °C e sem chuva, sugerindo massa polar intensa. A entrada de sistema frontal ocorre neste sábado (04/jul), com 12,3 mm e aquecimento progressivo até domingo (05/jul, 19,8 °C). Nova queda térmica na segunda (06/jul) e retorno ao tempo seco e frio de terça a quinta. Risco de geada em quatro dias da semana (tmin ≤ 3 °C), sem alertas INMET ativos.",
  "pontos": [
-  "Produtividade 14,8% abaixo da projeção inicial; variabilidade regional extrema comprometeu resultado",
-  "Preço em R$ 129/sc oferece margem limitada dado desempenho produtivo reduzido",
-  "Inverno consolidado: geadas noturnas (-1,7°C) e precipitação mínima; foco em planejamento 2026/2027"
+  "Geada confirmada em 03/jul (-1,7 °C); risco adicional em 04, 07 e 08/jul com mínimas entre 1,6 °C e 2,3 °C — atenção a culturas de inverno e pastagens",
+  "Chuva concentrada em 04–05/jul (≈17 mm acumulados); restante da semana seco, com sequência de até 4 dias sem precipitação relevante",
+  "Safra encerrada com 45 sc/ha e variabilidade regional expressiva (1.200–4.200 kg/ha); resultado 14,8% abaixo da projeção inicial apesar do avanço de 32,9% sobre a safra anterior"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:56:02+00:00",
+  "clima": "2026-07-04T03:39:24+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

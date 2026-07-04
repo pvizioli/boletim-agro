@@ -1,16 +1,16 @@
 {
  "distrito_id": "uberlandia_soja_ics",
  "nome": "UBERLANDIA-SOJA/ICS",
- "gerado_em": "2026-07-04T01:49:42+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "Safra 2025/26 encerrada em Uberlândia (MG) com 100% colhido. Clima atual apresenta semana seca (0 mm previstos nos próximos 7 dias) com máximas de 30,1°C e mínimas de 12,7°C. Sem alertas Inmet ativos. Preço da saca em R$ 113,00 (Portal Agron, 06/05/2026). Condições normais para entressafra com ausência de chuva relevante.",
+ "gerado_em": "2026-07-04T04:09:02+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Uberlândia-Soja/ICS, 4 de julho de 2026. A safra 2025/26 de MG está encerrada com 100% colhido (Conab, 9º Levantamento, jun/2026). O padrão climático da semana é tipicamente invernal: sequência de 6 dias secos consecutivos (sinais_derivados), amplitude térmica elevada — mínimas entre 12,7 °C e 14,2 °C e máximas até 31,5 °C — e ET0 média de 4,2 mm/dia, indicando alta demanda evaporativa mesmo sem cultivo. Na terça (07/jul), rajada de 42,8 km/h com virada de vento para quadrante oeste (244°) sugere passagem de sistema frontal fraco, sem precipitação associada. Único evento de chuva previsto é de 5,4 mm na sexta (10/jul), insuficiente para alterar o balanço hídrico. Sem alertas INMET ativos. Preço de referência: R$ 113,00/sc 60 kg no Triângulo Mineiro (Portal Agron, 06/mai/2026).",
  "pontos": [
-  "Colheita 100% concluída - safra finalizada conforme Conab (11/06/2026)",
-  "Sete dias sem chuva prevista - monitorar reposição hídrica para próxima safra",
-  "Preço estável em R$ 113/sc - referência de maio ainda vigente"
+  "Entressafra consolidada: MG com 100% colhido, safra 2025/26 encerrada (Conab, jun/2026)",
+  "Veranico invernal: 6 dias secos consecutivos com ET0 média de 4,2 mm/dia — atenção ao manejo de solos e irrigação de culturas de inverno",
+  "Passagem frontal fraca na terça (07/jul): rajada de 42,8 km/h e virada de vento para oeste, sem chuva associada"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:58:22+00:00",
+  "clima": "2026-07-04T03:48:00+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-05-06"
  }

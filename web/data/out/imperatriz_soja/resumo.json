@@ -1,16 +1,16 @@
 {
  "distrito_id": "imperatriz_soja",
  "nome": "IMPERATRIZ-SOJA",
- "gerado_em": "2026-07-04T01:47:27+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "A safra 2025/26 de soja está encerrada em MA e PA (100% colhido). Na região CERL, o clima atual apresenta condições de entressafra com chuvas distribuídas: previsão de 0 a 87,7 mm nos próximos 7 dias, com 7 dias de chuva relevante esperados. Temperaturas máximas de 35,3°C e mínimas de 18,7°C. Sem alertas INMET ativos. Foco agora em monitoramento pós-colheita e preparação para próximo ciclo.",
+ "gerado_em": "2026-07-04T04:02:15+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Distrito IMPERATRIZ-SOJA (AP, MA, PA, RR) — análise gerada em 04/jul/2026. A semana apresenta padrão de chuvas persistentes e bem distribuídas: todos os 7 dias registram precipitação relevante, com acumulado variando de 0 a 87,7 mm nos 22 municípios monitorados (clima_7dias, 04/jul/2026). A série diária mostra chuvas diárias entre 5,4 mm (qua/09) e 27,5 mm (sex/03), com probabilidade de ocorrência acima de 90% em todos os dias. Temperaturas máximas estáveis entre 34,0 °C e 35,3 °C e mínimas entre 18,7 °C e 20,5 °C indicam ausência de friagem ou geada. Sequência de dias secos igual a zero (sinais_derivados) confirma regime úmido contínuo, sem veranico. Para MA e PA, a safra 2025/26 está encerrada (Conab – 9º Levantamento, jun/2026); o clima úmido atual não impacta operações de campo desta safra. Não há alertas INMET ativos.",
  "pontos": [
-  "Safra encerrada em MA e PA; dados de produtividade indisponíveis na Conab (9º Levantamento, jun/2026)",
-  "Chuvas bem distribuídas na semana (7 dias com precipitação); máximo de 87,7 mm em alguns municípios",
-  "Sem alertas meteorológicos; condições climáticas normais para período de entressafra"
+  "Chuvas diárias contínuas ao longo de toda a semana, sem nenhum dia seco — regime úmido persistente confirmado pelos sinais_derivados (maior sequência seca = 0)",
+  "Probabilidade de chuva acima de 90% em todos os dias da série, com pico de 100% na sexta-feira (03/jul) — atenção ao escoamento e logística de transporte de grãos armazenados",
+  "Safra 2025/26 encerrada em MA e PA (Conab, 9º Levantamento, jun/2026) — período de entressafra; monitoramento climático relevante para planejamento da próxima semeadura"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:56:00+00:00",
+  "clima": "2026-07-04T03:28:41+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

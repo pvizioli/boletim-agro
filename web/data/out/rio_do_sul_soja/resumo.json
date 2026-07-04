@@ -1,16 +1,16 @@
 {
  "distrito_id": "rio_do_sul_soja",
  "nome": "RIO DO SUL-SOJA",
- "gerado_em": "2026-07-04T01:48:43+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "Safra 2025/2026 encerrada em SC com 3,1 milhões de toneladas e produtividade de 63 sc/ha. Queda de 7% na produção total versus safra anterior, resultado de redução de 5,5% na produtividade e 1,6% na área de 1ª safra, parcialmente compensada pelo crescimento de 21,4% na área de 2ª safra (Epagri/Cepa, maio/2026). Clima atual apresenta mínimas negativas (-0,9°C) e chuva prevista de 2,5 a 23,4 mm nos próximos 7 dias, com 3 dias de precipitação relevante. Sem alertas Inmet ativos.",
+ "gerado_em": "2026-07-04T04:06:20+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Rio do Sul-SC, 04/jul/2026. Safra 2025/2026 encerrada com 100% colhido, produtividade de 63 sc/ha e produção de 3,1 milhões de toneladas, recuo de 7% frente à safra anterior (Epagri/Cepa, mai/2026). O foco agora é a dinâmica do inverno. Sábado (04/jul) registrou tmin de -0,9 °C com rajada de 40 km/h e vento de leste, indicando ar frio estabelecido. Segunda (06/jul) marca virada expressiva: chuva de 17,9 mm, prob. 100%, vento girando para sudoeste (236°) — passagem de sistema frontal. Terça (07/jul) mantém 12,2 mm com vento de oeste e nova queda de temperatura. A partir de quarta (08/jul) o tempo abre, vento gira para norte e ET0 sobe a 3,52 mm/dia na quinta (09/jul), sinalizando aquecimento pós-frontal. Risco de geada em quatro dias da série (tmin ≤ 3 °C), relevante para cultivos de inverno e planejamento da próxima safra.",
  "pontos": [
-  "Produtividade 63 sc/ha: queda de 5,5% na 1ª safra reflete desafios climáticos ou fitossanitários do ciclo",
-  "Expansão de 21,4% em 2ª safra compensou parcialmente perdas, mas não suficiente para recuperar volume total",
-  "Geadas potenciais (mín. -0,9°C): monitorar impactos residuais em áreas de safrinha em desenvolvimento"
+  "Safra 2025/2026 encerrada: 63 sc/ha, -7% produção vs. safra anterior (Epagri/Cepa, mai/2026)",
+  "Passagem frontal confirmada em 06-07/jul: virada de vento E→SW, 30,1 mm acumulados em dois dias",
+  "Risco de geada em 4 datas da semana (tmin até -0,9 °C) — atenção a cultivos de inverno em andamento"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:56:41+00:00",
+  "clima": "2026-07-04T03:45:40+00:00",
   "colheita": "2026-05-01",
   "preco": null
  }

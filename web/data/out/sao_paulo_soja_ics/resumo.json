@@ -1,16 +1,16 @@
 {
  "distrito_id": "sao_paulo_soja_ics",
  "nome": "SAO PAULO-SOJA/ICS",
- "gerado_em": "2026-07-04T01:49:21+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "A safra 2025/26 de soja em São Paulo está encerrada (100% colhido). Na semana de 4 de julho, o distrito registra condições de entressafra com chuvas previstas entre 0 e 39,7 mm em 58 municípios monitorados, concentradas em 4 dias. Temperaturas variam de 8,3°C a 27,6°C. Sem alertas Inmet ativos. Dados de produtividade e preço indisponíveis no 9º Levantamento Conab (11/jun/2026).",
+ "gerado_em": "2026-07-04T04:07:58+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Distrito SAO PAULO-SOJA/ICS, semana de 04 a 10/jul/2026. A safra 2025/26 de SP está encerrada (100% colhido, Conab – 9º Levantamento, jun/2026), portanto o foco é a dinâmica atmosférica. O sábado (05/jul) apresentou rajadas de 40,3 km/h com vento de leste, seguido de calmaria relativa domingo e segunda. Na terça (07/jul) houve virada brusca do vento para norte (15°), rajadas de 46,8 km/h, chuva de 10,1 mm e ET0 elevada de 5,09 mm — padrão compatível com passagem de sistema frontal. Após a frente, quarta (08/jul) registrou queda de Tmax para 26,1 °C e chuva residual de 6,9 mm. Quinta (09/jul) marcou a mínima semanal de 8,3 °C, sem chuva, com vento girando para sudeste — ar frio pós-frontal. Sexta (10/jul) retoma aquecimento (Tmax 28,9 °C) e ET0 de 3,95 mm. ET0 média semanal de 3,8 mm/dia (sinais_derivados) indica demanda evapotranspirativa moderada-alta para o inverno.",
  "pontos": [
-  "Safra encerrada: foco em reposição de umidade do solo para próxima safra",
-  "Chuva moderada prevista (até 39,7 mm) em 4 dias da semana",
-  "Produtividade e preço não divulgados pela Conab no último levantamento"
+  "Passagem frontal identificada na terça (07/jul): virada de vento para norte, rajada de 46,8 km/h, chuva de 10,1 mm e ET0 de 5,09 mm",
+  "Mínima de 8,3 °C registrada na quinta (09/jul) com ar frio pós-frontal — monitorar culturas de inverno e pomares na região",
+  "Safra soja 2025/26 de SP encerrada a 100% (Conab, jun/2026); preço da saca não disponível no levantamento atual"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:58:19+00:00",
+  "clima": "2026-07-04T03:46:51+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

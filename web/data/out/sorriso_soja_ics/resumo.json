@@ -1,16 +1,16 @@
 {
  "distrito_id": "sorriso_soja_ics",
  "nome": "SORRISO-SOJA/ICS",
- "gerado_em": "2026-07-04T01:49:34+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "Safra 2025/26 de soja em Sorriso encerrada com 100% colhido. Produtividade de 66 sc/ha, crescimento de 1,3% versus safra anterior, totalizando 51,56 milhões de toneladas em MT (Imea/Conab, jun/26). Clima atual desfavorável: zero mm chuva prevista nos próximos 7 dias, máximas de 34°C e mínimas de 15,8°C. Preço em R$ 108,63/sc (Grão Direto, 03/jul). Entressafra consolidada com condições secas típicas do período invernal.",
+ "gerado_em": "2026-07-04T04:08:38+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Sorriso (MT) — Entressafra 2025/26. A série diária de 03 a 09/jul registra sete dias consecutivos sem chuva (chuva prevista 0 mm nos próximos 7 dias, dados de 04/07/2026), com temperaturas máximas entre 31,6 °C e 34,0 °C e mínimas entre 15,8 °C e 19,1 °C. A ET0 média de 5,0 mm/dia (sinais_derivados) sustenta demanda hídrica elevada para o período seco do Cerrado mato-grossense — padrão típico de domínio de massa seca continental no inverno. Ventos com direções variando de SE a S ao longo da semana, sem sinal de sistema frontal. A safra 2025/26 está encerrada: 100% colhido em MT, produtividade de 66 sc/ha e produção de 51,56 Mt (+1,3% vs. safra anterior), conforme Imea em Campo/Conab 9º lev (11/06/2026). Preço em 03/07/2026: R$ 108,63/sc (Grão Direto, Nordeste MT).",
  "pontos": [
-  "Safra encerrada com bom desempenho produtivo (+1,3% vs anterior)",
-  "Ausência total de chuva prevista para 7 dias; clima seco de inverno",
-  "Preço estável em R$ 108,63/sc; foco em comercialização e armazenagem"
+  "Veranico consolidado: 7 dias secos consecutivos com ET0 média de 5,0 mm/dia — sem impacto na soja 25/26 encerrada, mas relevante para pastagens e culturas de inverno na região",
+  "Safra 2025/26 encerrada com 66 sc/ha em MT (+1,3% vs. safra anterior), conforme Imea/Conab (11/06/2026)",
+  "Preço da soja em MT: R$ 108,63/sc em 03/07/2026 (Grão Direto, Nordeste MT) — referência para decisões de comercialização do estoque remanescente"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:58:21+00:00",
+  "clima": "2026-07-04T03:47:58+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

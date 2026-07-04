@@ -1,12 +1,13 @@
 {
  "distrito_id": "sao_gabriel",
  "nome": "Distrito de São Gabriel",
- "gerado_em": "2026-07-04T01:49:13+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "Distrito de São Gabriel (Sul) apresenta dados climáticos incompletos para análise técnica. Previsão de chuva para 7 dias não disponível, assim como temperaturas máximas e mínimas. Sem alertas INMET ativos. Recomenda-se aguardar atualização dos dados meteorológicos para avaliação adequada do impacto na colheita de soja. Informações de safra e preço também indisponíveis no período.",
+ "gerado_em": "2026-07-04T04:07:32+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Distrito de São Gabriel – Regional Sul | Referência: 04/jul/2026. Os dados climáticos e de colheita disponíveis para este distrito estão incompletos: série diária, sinais derivados, previsão de chuva, temperaturas, avanço de colheita e preço da saca não foram fornecidos no conjunto de dados desta emissão (gerado em 14/jun/2026). Não é possível caracterizar padrão sinótico, janelas operacionais ou riscos climáticos sem a série diária e os sinais derivados. A ausência de alertas INMET ativos é o único dado confirmado. Recomenda-se aguardar atualização do conjunto de dados antes de qualquer tomada de decisão baseada neste boletim.",
  "pontos": [
-  "Dados climáticos incompletos - impossível avaliar risco de chuva ou déficit hídrico",
-  "Ausência de informações de colheita e preço - análise de safra comprometida"
+  "Dados insuficientes: série diária e sinais derivados ausentes — análise climática não pode ser realizada",
+  "Previsão de chuva para 7 dias não disponível — janelas operacionais indetermináveis",
+  "Avanço de colheita e safra de referência não informados — situação de campo desconhecida"
  ],
  "insumos_ref": {
   "clima": "2026-06-14T15:29:32+00:00",

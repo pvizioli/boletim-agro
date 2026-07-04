@@ -1,15 +1,16 @@
 {
  "distrito_id": "patos_de_minas_soja",
  "nome": "PATOS DE MINAS-SOJA",
- "gerado_em": "2026-07-04T01:48:17+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "Safra 2025/26 encerrada em Patos de Minas com 100% colhido. Clima atual apresenta semana seca (0 mm previstos) com máximas de 30,3°C e mínimas de 12,7°C. Sem alertas Inmet ativos. Preço da soja em MG cotado a R$ 113/sc (60kg) em maio/2026. Período de entressafra com condições climáticas normais para inverno mineiro.",
+ "gerado_em": "2026-07-04T04:04:53+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Distrito Patos de Minas-Soja | Semana de 04 a 10/jul/2026. A safra 2025/26 de MG está encerrada (100% colhida), conforme Conab – 9º Levantamento (jun/2026). O foco recai sobre a dinâmica atmosférica do inverno. A série diária revela padrão de veranico consolidado: sete dias consecutivos sem chuva relevante (sinais_derivados), com chuva prevista máxima de apenas 1,8 mm no dia 10/sex (prob. 14%). As temperaturas máximas oscilam entre 29,1 °C e 30,3 °C, enquanto as mínimas recuam a 12,9 °C na quinta (09/jul), sem sinal de geada. A ET0 média de 4,2 mm/dia (sinais_derivados) indica demanda evapotranspirativa elevada para o período. Rajada de 47,9 km/h registrada na terça (07/jul) com vento de norte (357°) sugere passagem de sistema de alta pressão pós-frontal, sem precipitação associada. Preço de referência: R$ 113/sc 60 kg (Portal Agron – Triângulo Mineiro, mai/2026).",
  "pontos": [
-  "Colheita finalizada - monitorar armazenagem e comercialização",
-  "Seca na semana - sem impacto na safra encerrada"
+  "Veranico de 7 dias confirmado — sem chuva relevante prevista até 10/jul; atenção ao planejamento de irrigação em áreas com culturas de inverno",
+  "ET0 média de 4,2 mm/dia eleva demanda hídrica acumulada ao longo da semana",
+  "Rajada de 47,9 km/h em 07/jul (vento norte) indica atuação de sistema de alta pressão pós-frontal sem precipitação"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:56:38+00:00",
+  "clima": "2026-07-04T03:45:34+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-05-06"
  }

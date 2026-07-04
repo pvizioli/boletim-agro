@@ -1,16 +1,16 @@
 {
  "distrito_id": "pato_branco_soja",
  "nome": "PATO BRANCO-SOJA",
- "gerado_em": "2026-07-04T01:48:13+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "Safra 2025/2026 encerrada no Paraná com 100% colhido. Produtividade de 63 sc/ha (+2,8% vs safra anterior), totalizando 21,78 milhões de toneladas. Clima atual apresenta mínimas de 0,9°C e máximas de 23,2°C na semana, com chuva prevista entre 1,8 e 23,9 mm em apenas 2 dias. Sem alertas Inmet ativos. Preço em R$ 128,50/sc (Paranaguá, 17/06). Condições pós-colheita estáveis.",
+ "gerado_em": "2026-07-04T04:04:40+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Distrito Pato Branco-Soja (PR) — safra 2025/2026 encerrada com 100% colhido, produtividade de 63 sc/ha e produção de 21,78 milhões de toneladas, alta de 2,8% frente à safra anterior (Deral/SEAB-PR, 25/05/2026). Preço em Paranaguá: R$ 128,50/sc 60kg (Canal Rural, 17/06/2026). Na dinâmica climática da semana, sábado (05/jul) registrou virada de vento para NE com leve chuva (0,8 mm), seguida de queda brusca de temperatura e chuva concentrada de 10,2 mm no domingo (06/jul) — padrão consistente com passagem frontal identificada nos sinais_derivados. Pós-frente, temperaturas mínimas caem a 2,5°C (07/jul) e 0,9°C (08/jul), com risco de geada em três datas da série. A sequência seca de quatro dias (08 a 11/jul) eleva a ET0 a até 3,28 mm/dia (09/jul), com chuva prevista de apenas 0,9–10,4 mm nos próximos 7 dias.",
  "pontos": [
-  "Safra finalizada com produtividade acima da média histórica (+2,8%)",
-  "Chuva escassa na semana (máx. 23,9 mm); monitorar condições de armazenagem",
-  "Preço firme em R$ 128,50/sc; avaliar momento de comercialização"
+  "Geada: mínimas de 0,9°C (08/jul) e 2,5°C (07/jul) exigem atenção a culturas de inverno e pastagens na região",
+  "Passagem frontal em 06/jul trouxe 10,2 mm — único evento relevante da semana, insuficiente para compensar sequência seca subsequente",
+  "ET0 média de 2,4 mm/dia com pico de 3,28 mm/dia em 09/jul indica demanda hídrica elevada no período pós-frontal"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:56:37+00:00",
+  "clima": "2026-07-04T03:44:29+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

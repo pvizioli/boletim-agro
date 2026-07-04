@@ -1,16 +1,16 @@
 {
  "distrito_id": "palotina_soja",
  "nome": "PALOTINA-SOJA",
- "gerado_em": "2026-07-04T01:48:05+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "Safra 2025/2026 encerrada no Paraná com 100% da colheita concluída. Produtividade de 63 sc/ha (3.796 kg/ha), crescimento de 3,2% ante ciclo anterior, totalizando 21,78 milhões de toneladas. Preço em R$ 128,50/sc (Paranaguá, 17/jun). Clima da semana: 1 a 10,4 mm previstos, 2 dias com chuva relevante, máximas de 25°C e mínimas de 4,6°C. Sem alertas Inmet ativos.",
+ "gerado_em": "2026-07-04T04:04:14+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Palotina-Soja (PR) — Safra 2025/2026 encerrada com 63 sc/ha e produção de 21,78 Mt (+2,8% vs safra anterior), conforme Deral/SEAB-PR (25/05/2026). O foco agora é a dinâmica do tempo no entressafra. A série diária revela padrão frontal claro: sábado (05/jul) registra aquecimento com vento de NE e rajadas de 32 km/h; domingo (06/jul) concentra 20,9 mm com prob. de 94%, virada do vento para SW (239°) e queda de ET0 para 1,94 mm — passagem de sistema frontal. Segunda (07/jul) confirma pós-frente: tmax cai para 19,3°C, tmin a 7,2°C, vento de S. De terça (08/jul) em diante, sequência seca com ET0 crescente (até 3,12 mm/dia na quarta), indicando demanda hídrica elevada sem reposição. ET0 média semanal de 2,6 mm/dia (sinais_derivados). Preço da soja em Paranaguá: R$ 128,50/sc (Canal Rural, 17/06/2026).",
  "pontos": [
-  "Safra finalizada com produtividade acima do ciclo anterior (+3,2%)",
-  "Preço em patamar moderado; monitorar dinâmica de mercado pós-colheita",
-  "Clima estável; sem risco operacional"
+  "Safra 2025/2026 encerrada: 63 sc/ha no PR, +2,8% vs ciclo anterior (Deral/SEAB-PR, 25/05/2026)",
+  "Passagem frontal confirmada em 06/jul: 20,9 mm, prob. 94%, virada de vento para SW e queda térmica subsequente",
+  "Pós-frente seco de 08 a 10/jul com ET0 acumulada estimada acima de 8,8 mm e sem chuva prevista — atenção para culturas de inverno e irrigação eventual"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:56:36+00:00",
+  "clima": "2026-07-04T03:44:28+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

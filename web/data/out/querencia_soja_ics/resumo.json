@@ -1,16 +1,16 @@
 {
  "distrito_id": "querencia_soja_ics",
  "nome": "QUERENCIA SOJA & ICS",
- "gerado_em": "2026-07-04T01:48:39+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "A safra 2025/26 de soja em Mato Grosso encerrou com 100% de colheita e produtividade de 66 sc/ha, representando crescimento de 1,3% ante a safra anterior (Imea/Conab, jun/26). Produção total atingiu 51,56 milhões de toneladas. No pós-colheita, o clima apresenta seca severa: previsão de 0 a 0,1 mm em 7 dias, sem dias com chuva relevante, temperaturas máximas de 35,7°C. Preço cotado em R$ 108,63/sc (Grão Direto, 03/jul). Foco agora em armazenagem e comercialização.",
+ "gerado_em": "2026-07-04T04:06:05+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Querência (MT) — Entressafra 2025/26. A série diária de 03 a 09/jul revela padrão de estiagem consolidada: sete dias consecutivos sem chuva relevante (máximo de 0,1 mm em 03/jul), com ET0 média de 5,3 mm/dia (clima_gerado_em: 04/07/2026). As temperaturas máximas escalaram progressivamente de 33,4 °C (sexta, 03/jul) a 35,7 °C (terça, 07/jul), sustentadas por ventos de quadrante SE/SSE (110–167°), sem sinais de sistema frontal ou veranico interrompido — o padrão é típico de inverno seco do Cerrado mato-grossense. A previsão para os próximos 7 dias confirma precipitação entre 0 e 0,1 mm, sem alertas INMET ativos. A safra 2025/26 está encerrada: produtividade de 66 sc/ha e produção de 51,56 Mt (+1,3% vs. safra anterior), segundo Imea em Campo/Conab 9º lev (jun/26). Preço em Nordeste-MT: R$ 108,63/sc (Grão Direto, 03/07/2026).",
  "pontos": [
-  "Safra encerrada com produtividade 1,3% acima da anterior; 51,56 Mi t produzidas",
-  "Seca extrema pós-colheita: zero chuva prevista em 7 dias; máximas de 35,7°C",
-  "Preço em R$ 108,63/sc; monitorar comercialização em período seco"
+  "Estiagem total na semana: 0 mm acumulado em 7 dias e ET0 acumulada estimada em ~37 mm — sem impacto operacional na entressafra, mas relevante para planejamento de irrigação e preparo de solo",
+  "Temperatura máxima atingiu 35,7 °C em 07/jul, com ventos SE persistentes — padrão de massa de ar seco típico do inverno central-brasileiro, sem risco de geada na série analisada",
+  "Safra 2025/26 encerrada com 66 sc/ha e +1,3% sobre a safra anterior (Imea/Conab, jun/26) — atenção ao fechamento de contratos com soja a R$ 108,63/sc (Grão Direto, 03/07/2026)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:56:41+00:00",
+  "clima": "2026-07-04T03:45:39+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

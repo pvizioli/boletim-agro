@@ -1,16 +1,16 @@
 {
  "distrito_id": "carazinho_soja",
  "nome": "CARAZINHO-SOJA",
- "gerado_em": "2026-07-04T01:46:21+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "Safra 2025/2026 encerrada em Carazinho-RS com 100% colhido. Produtividade de 45 sc/ha, 14,8% abaixo da projeção inicial, refletindo forte variabilidade regional (1.200-4.200 kg/ha). Produção total de 18,1 milhões de toneladas, crescimento de 32,9% versus safra anterior. Preço em R$ 129/sc (03/07). Clima atual: mínimas de 0,9°C e máximas de 21,4°C; chuva prevista de 2,5 a 7,6 mm em 7 dias, com apenas 1 dia de precipitação relevante.",
+ "gerado_em": "2026-07-04T03:59:10+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Carazinho, RS — 4 de julho de 2026. A série diária revela dinâmica típica de passagem frontal: sexta-feira (03/jul) registrou tmax de apenas 8,7 °C com chuva residual, seguida de recuperação térmica no sábado (04/jul, tmax 14,1 °C) e aquecimento expressivo no domingo (05/jul, tmax 20,0 °C). A virada ocorre na segunda (06/jul), com queda brusca para tmax 14,4 °C e tmin 8,9 °C, concentrando a maior probabilidade de chuva da semana (78%, 2,5 mm). A partir de terça (07/jul), tempo seco se instala por três dias consecutivos, com tmin de 1,4 °C na quarta (08/jul) — sinais_derivados apontam risco de geada em 03, 04 e 08/jul. Chuva total prevista é modesta (2,5–7,6 mm). A safra 2025/2026 está encerrada (100% colhido, 45 sc/ha, Emater/RS-Ascar, 11/jun/2026), com produção de 18,1 milhões de toneladas e alta de 32,9% sobre a safra anterior. Preço atual: R$ 129/sc (Grão Direto, 03/jul/2026).",
  "pontos": [
-  "Produtividade 14,8% abaixo da projeção; variabilidade regional extrema comprometeu desempenho",
-  "Safra encerrada; foco agora em preço (R$ 129/sc) e planejamento da próxima safra",
-  "Clima seco na sequência (máx. 7,6 mm/7d); monitorar condições para plantio 2026/2027"
+  "Risco de geada confirmado pelos sinais_derivados em 03, 04 e 08/jul, com tmin abaixo de 3 °C — atenção para culturas de inverno e infraestrutura de armazenagem",
+  "Passagem frontal concentra chuva fraca entre sábado e segunda (4–6/jul, até 7,6 mm acumulados), sem impacto operacional relevante na entressafra",
+  "Safra 2025/2026 encerrada com 45 sc/ha (Emater/RS-Ascar, 11/jun/2026), 14,8% abaixo da projeção inicial, apesar do salto de 32,9% sobre a safra anterior"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:52:52+00:00",
+  "clima": "2026-07-04T02:29:33+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

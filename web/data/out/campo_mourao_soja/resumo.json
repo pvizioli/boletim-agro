@@ -1,16 +1,16 @@
 {
  "distrito_id": "campo_mourao_soja",
  "nome": "CAMPO MOURAO-SOJA",
- "gerado_em": "2026-07-04T01:46:13+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "A safra 2025/2026 de soja no Paraná encerrou com 100% de colheita e produtividade de 63 sc/ha (+2,8% vs safra anterior), totalizando 21,78 milhões de toneladas. Clima atual apresenta mínimas de 3,4°C e máximas de 24,7°C, com chuva prevista de 1 a 7,6 mm nos próximos 7 dias em 2 dias com precipitação relevante. Sem alertas Inmet ativos. Preço em Paranaguá: R$ 128,50/sc (17/06/2026).",
+ "gerado_em": "2026-07-04T03:58:41+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Campo Mourão, PR — 04/jul/2026. A safra 2025/2026 está encerrada com 100% colhido e produtividade de 63 sc/ha (Deral/SEAB-PR, 25/mai/2026), alta de 2,8% frente à safra anterior. O foco agora é o clima de inverno e a comercialização. A série diária revela padrão típico de pós-frente: quinta (03/jul) com amplitude térmica moderada e chuva residual (0,4 mm), seguida de aquecimento gradual até domingo (06/jul), quando chuva de 7,3 mm com prob. 92% e queda de tmax para 21,6 °C na segunda (07/jul) indicam passagem de sistema frontal. Após a frente, terça e quarta (08–09/jul) registram tmin de 3,4 °C e 5,3 °C, sem chuva — atenção a geadas em baixadas. Total previsto de 1,0–7,6 mm em 7 dias, concentrado no evento frontal. Preço em R$ 128,50/sc (Canal Rural, Paranaguá, 17/jun/2026).",
  "pontos": [
-  "Safra finalizada com ganho produtivo de +2,8% e área estável",
-  "Mínimas baixas (3,4°C) em inverno; chuva escassa (máx 7,6 mm/7d)",
-  "Preço firme em R$ 128,50/sc; comercialização em andamento"
+  "Safra encerrada: 63 sc/ha (+2,8% vs safra anterior); foco em comercialização",
+  "Evento frontal previsto para domingo 06/jul com 7,3 mm e prob. 92% — monitorar logística",
+  "Pós-frente: tmin de 3,4 °C na terça 08/jul — risco de geada em baixadas e vales"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:51:50+00:00",
+  "clima": "2026-07-04T02:20:46+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

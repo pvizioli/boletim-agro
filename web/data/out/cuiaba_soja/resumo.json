@@ -1,16 +1,16 @@
 {
  "distrito_id": "cuiaba_soja",
  "nome": "CUIABA-SOJA",
- "gerado_em": "2026-07-04T01:46:49+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "Safra 2025/26 encerrada em MT com 100% de colheita e produtividade de 66 sc/ha, crescimento de 1,3% versus safra anterior (Imea/Conab, jun/26). Produção total de 51,56 milhões de toneladas consolidada. Clima atual apresenta estiagem: previsão de 0 a 0,2 mm em 7 dias, sem chuva relevante esperada. Temperaturas máximas de 33,8°C e mínimas de 13,7°C. Preço em R$ 108,63/sc (Grão Direto, 03/jul). Período pós-colheita com foco em armazenagem e comercialização.",
+ "gerado_em": "2026-07-04T04:00:17+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Distrito Cuiabá-Soja | 04/jul/2026. A série diária revela padrão de estiagem consolidada: sete dias consecutivos sem chuva relevante (maior_sequencia_dias_secos = 7, clima gerado em 04/jul/26), com precipitação acumulada de apenas 0,2 mm na sexta-feira (03/jul). As máximas sobem progressivamente de 30,4 °C (sex) a 33,8 °C (qui/09), enquanto as mínimas oscilam entre 13,7 °C (sáb/04) e 18,9 °C (ter/07), sem sinal de geada ou sistema frontal. A amplitude térmica elevada e ausência de chuva caracterizam domínio de massa seca de inverno, com ET0 potencialmente alta nas horas mais quentes. Como a safra 2025/26 está encerrada em MT — 100% colhido, produtividade de 66 sc/ha (Imea/Conab, 11/jun/26) e produção de 51,56 Mt (+1,3% vs. safra anterior) —, o tempo seco não representa risco operacional imediato. Preço de referência: R$ 108,63/sc (Grao Direto, Nordeste MT, 03/jul/26).",
  "pontos": [
-  "Safra finalizada com produtividade acima da anterior; consolidação de números em andamento",
-  "Estiagem severa nos próximos 7 dias: zero chuva relevante prevista",
-  "Preço estável em R$ 108,63/sc; monitorar tendências de mercado pós-colheita"
+  "Estiagem total nos próximos 7 dias: previsão de 0 a 0,2 mm acumulados, sem dias com chuva relevante — sem impacto na soja, safra encerrada",
+  "Temperatura máxima atinge 33,8 °C na quinta-feira (09/jul), com amplitude diária superior a 15 °C — atenção ao manejo de solos expostos e pastagens",
+  "Safra 2025/26 encerrada com 66 sc/ha e +1,3% sobre a safra anterior (Imea/Conab, 11/jun/26) — foco do produtor volta-se ao escoamento e comercialização"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:53:55+00:00",
+  "clima": "2026-07-04T02:51:27+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

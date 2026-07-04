@@ -1,16 +1,16 @@
 {
  "distrito_id": "catalao_soja_ics",
  "nome": "CATALAO-SOJA & ICS",
- "gerado_em": "2026-07-04T01:46:31+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "Safra 2025/26 encerrada em GO e MG. Goiás finalizou colheita com 20,1 Mi t produzidas (Conab, jun/2026). Clima atual: sem chuva prevista nos próximos 7 dias, máximas de 29,2°C e mínimas de 13°C. Preço em R$ 108,50/sc (60kg) em Jatai/GO, conforme Canal Rural (17 jun). Período de entressafra com condições secas típicas do inverno no Centro-Soja.",
+ "gerado_em": "2026-07-04T03:59:36+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Distrito Catalão-Soja & ICS (GO/MG) — 04/jul/2026. A série diária de 03 a 09/jul registra sete dias consecutivos sem chuva (sequência seca máxima de 7 dias, conforme sinais derivados), com probabilidade de precipitação nula ou residual (máx. 2% em 05 e 09/jul). As temperaturas máximas evoluem gradualmente de 26,9 °C (sex., 03/jul) a 29,2 °C (qui., 09/jul), enquanto as mínimas sobem de 13,0 °C para 15,2 °C — padrão típico de domínio de massa de ar seco e estável de inverno, sem indicativo de frente ou geada no período. A demanda evapotranspirativa permanece ativa com Tmax próxima a 29 °C e ausência de nebulosidade. Quanto à safra 2025/26, ambas as UFs estão com 100% colhido (Conab, 9º Levantamento, 11/jun/2026): GO registrou produção de 20,1 milhões de toneladas. Preço de referência: R$ 108,50/sc 60 kg (Canal Rural, Jataí/GO, 17/jun/2026).",
  "pontos": [
-  "Safra 100% colhida em ambas UFs; foco agora em armazenagem e comercialização",
-  "Sete dias sem chuva relevante; monitorar umidade relativa do ar para grãos armazenados",
-  "Preço estável em R$ 108,50/sc; avaliar oportunidade de venda conforme fluxo de mercado"
+  "Sete dias consecutivos sem chuva prevista confirmam domínio de massa seca de inverno — sem risco operacional para a soja, pois a safra 2025/26 está encerrada em GO e MG (Conab, jun/2026)",
+  "Temperaturas mínimas acima de 13 °C ao longo de toda a semana afastam risco de geada no distrito no período analisado",
+  "Produção de soja em GO atingiu 20,1 milhões de toneladas na safra 2025/26 (Conab, 9º Levantamento, 11/jun/2026) — dado relevante para planejamento logístico e comercial da entressafra"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:53:23+00:00",
+  "clima": "2026-07-04T02:38:19+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-06-17"
  }

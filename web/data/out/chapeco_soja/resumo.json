@@ -1,15 +1,16 @@
 {
  "distrito_id": "chapeco_soja",
  "nome": "CHAPECO-SOJA",
- "gerado_em": "2026-07-04T01:46:35+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "Safra 2025/2026 encerrada em SC com 100% colhido. Produtividade de 63 sc/ha resultou em 3,1 milhões de toneladas, queda de 7% na produção versus safra anterior (redução de 5,5% em produtividade e 1,6% em área). Clima atual apresenta mínimas de -1°C e máximas de 24,6°C, com previsão de 0,6 a 10,6 mm em 7 dias (2 dias com chuva relevante). Sem alertas Inmet ativos. Entressafra consolidada.",
+ "gerado_em": "2026-07-04T03:59:49+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Chapecó-SC, 04/jul/2026. Safra 2025/2026 encerrada com 100% colhido e produtividade de 63 sc/ha (Epagri/Cepa, mai/2026). A produção total ficou em ~3,1 mi t, recuo de 7% frente à safra anterior, puxado por queda de 5,5% na produtividade e retração de 1,6% na área da 1ª safra. A semana meteorológica é marcada por padrão tipicamente invernal: sexta (03/jul) registrou tmax de apenas 14,6 °C com 2,1 mm, seguida de aquecimento rápido até 24,6 °C no domingo (05/jul). A passagem frontal sinalizada para segunda (06/jul) concentra o evento mais expressivo da semana — 8,1 mm com prob. 94% e queda de tmax para 17,2 °C. Após a frente, retorno ao frio seco com tmin de -1,0 °C na quarta (08/jul). Risco de geada em cinco dos sete dias monitorados. Chuva acumulada prevista é baixa (máx. 10,6 mm/7d), sem impacto operacional relevante na entressafra.",
  "pontos": [
-  "Produção -7% vs safra anterior; produtividade -5,5% aponta pressões agronômicas ou climáticas na 2025/2026",
-  "Mínimas negativas (-1°C) em julho: monitorar geadas residuais em áreas de segunda safra ou cultivos de inverno"
+  "Safra encerrada: produtividade 63 sc/ha, queda de 7% na produção vs. safra anterior (Epagri/Cepa, mai/2026)",
+  "Passagem frontal prevista para segunda (06/jul): 8,1 mm e prob. 94% — evento mais concentrado da semana",
+  "Risco de geada em 5 dos 7 dias (tmin ≤ 3 °C), incluindo quarta (08/jul) com tmin de -1,0 °C"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:53:24+00:00",
+  "clima": "2026-07-04T02:42:41+00:00",
   "colheita": "2026-05-01",
   "preco": null
  }

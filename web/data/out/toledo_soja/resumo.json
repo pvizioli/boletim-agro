@@ -1,16 +1,16 @@
 {
  "distrito_id": "toledo_soja",
  "nome": "TOLEDO-SOJA",
- "gerado_em": "2026-07-04T01:49:38+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "Toledo encerra safra 2025/2026 com 100% colhido e produtividade de 63 sc/ha (+2,8% vs safra anterior), totalizando 21,78 Mi t em área estável. Clima da semana: chuva prevista entre 1,9 e 21,5 mm em 31 municípios, com apenas 1 dia de precipitação relevante. Temperaturas moderadas (máx 25,4°C, mín 2,7°C) e sem alertas Inmet. Preço em R$ 128,50/sc (Paranaguá, 17/06). Entressafra consolidada com bom desempenho produtivo.",
+ "gerado_em": "2026-07-04T04:08:51+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Distrito Toledo-Soja (PR) — Safra 2025/2026 encerrada com 100% colhido e produtividade de 63 sc/ha, produção de 21,78 milhões de toneladas, alta de 2,8% frente à safra anterior (Deral/SEAB-PR, 25/05/2026). Preço em Paranaguá: R$ 128,50/sc 60 kg (Canal Rural, 17/06/2026). Na dinâmica climática da semana, o sábado (05/jul) registrou aquecimento com tmax de 25,4 °C e vento de NE, seguido de queda brusca de temperatura, chuva de 18,1 mm e virada de vento para SSO no domingo (06/jul, prob. 98%), padrão consistente com passagem frontal confirmada nos sinais_derivados. Pós-frente, sequência de quatro dias secos com ET0 acumulada elevada (média 2,5 mm/dia) e tmin de 2,7 °C na terça (08/jul), com risco de geada pontual registrado. Chuva prevista para os 7 dias é escassa (máx. 18,3 mm), sem impacto operacional relevante na entressafra.",
  "pontos": [
-  "Safra encerrada com resultado positivo: +2,8% produtividade vs ciclo anterior",
-  "Chuva escassa na semana (1 dia relevante): monitorar recarga hídrica para próxima safra",
-  "Preço estável em R$ 128,50/sc; avaliar comercialização residual"
+  "Safra encerrada: 63 sc/ha e +2,8% vs safra anterior confirmam ciclo positivo no PR (Deral/SEAB-PR, 25/05/2026)",
+  "Passagem frontal em 06/jul com 18,1 mm e queda térmica abrupta; demais dias com sequência seca de 4 dias e ET0 média de 2,5 mm/dia",
+  "Risco de geada pontual em 08/jul (tmin 2,7 °C) — atenção a culturas de inverno e pastagens na região de Toledo"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:58:21+00:00",
+  "clima": "2026-07-04T03:47:59+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "formosa_soja_ics",
  "nome": "FORMOSA-SOJA/ICS",
- "gerado_em": "2026-07-04T01:47:01+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "Safra 2025/26 encerrada em Formosa-Soja/ICS (DF, GO, MG). Colheita 100% concluída conforme Conab (jun/2026). GO registrou 20,1 Mi t de produção. Clima atual apresenta zero mm de chuva prevista para 7 dias, com máximas de 32,2°C e mínimas de 13,6°C. Sem alertas Inmet ativos. Preço da saca (60kg) em R$ 112 (DF, mai/2026). Período pós-colheita com condições secas predominantes.",
+ "gerado_em": "2026-07-04T04:00:56+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Distrito FORMOSA-SOJA/ICS, 4 de julho de 2026. A série diária revela padrão típico de inverno seco no Cerrado: sete dias consecutivos sem chuva (sequência máxima registrada nos sinais derivados), com amplitude térmica acentuada — mínimas entre 13,6 °C (sexta-feira, 03/jul) e 16,7 °C (quarta-feira, 09/jul) e máximas em elevação progressiva, atingindo 32,2 °C ao final do período. A probabilidade de chuva permanece nula ou residual em toda a janela de 7 dias (máximo de 14% na sexta-feira, 04/jul), sem alertas INMET ativos. O padrão indica domínio de massa de ar seco continental, sem sistemas frontais ou convecção relevante previstos. A safra 2025/26 está encerrada em DF, GO e MG (100% colhido, Conab — 9º Levantamento, jun/2026); GO registrou produção de 20,1 milhões de toneladas. Preço de referência: R$ 112,00/sc 60 kg (Portal Agron, DF, 06/mai/2026).",
  "pontos": [
-  "Colheita 100% finalizada; foco em armazenagem e comercialização",
-  "Sete dias sem chuva prevista; monitorar umidade relativa do ar",
-  "Preço em R$ 112/sc (mai/2026); acompanhar cotações atuais"
+  "Sete dias consecutivos sem chuva confirmam veranico de inverno; sem impacto operacional direto, pois safra 2025/26 está 100% colhida nas três UFs",
+  "Amplitude térmica elevada (até 18,6 °C de variação diária) exige atenção ao armazenamento de grãos — umidade relativa baixa favorece secagem natural, mas requer monitoramento de fissuras",
+  "GO encerrou safra 2025/26 com produção de 20,1 milhões de toneladas (Conab, 9º Levantamento, jun/2026); produtividade em sc/ha não disponível no levantamento consultado"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:54:27+00:00",
+  "clima": "2026-07-04T03:04:36+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-05-06"
  }

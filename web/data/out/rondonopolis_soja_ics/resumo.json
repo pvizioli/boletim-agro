@@ -1,16 +1,16 @@
 {
  "distrito_id": "rondonopolis_soja_ics",
  "nome": "RONDONOPOLIS-SOJA/ICS",
- "gerado_em": "2026-07-04T01:48:52+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "A safra 2025/26 de soja em Rondonópolis (MT) está encerrada com 100% colhido. Produtividade de 66 sc/ha representou crescimento de 1,3% ante safra anterior, totalizando 51,56 milhões de toneladas (Imea/Conab, jun/26). Clima atual apresenta mínimas de 14,1°C e máximas de 32,8°C, com chuva praticamente nula nos próximos 7 dias (máx. 1,2 mm). Saca cotada a R$ 108,63 (Grão Direto, 03/jul). Entressafra segue com condições secas normais para o período.",
+ "gerado_em": "2026-07-04T04:06:45+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Rondonópolis (MT) — Entressafra 2025/26. A semana de 03 a 09/jul apresenta padrão típico de estação seca do Cerrado mato-grossense: sete dias consecutivos sem chuva relevante, com acumulado previsto de apenas 0,6 mm no domingo (09/jul, prob. 8%). Amplitudes térmicas expressivas — mínimas entre 14,1 °C (sáb, 05/jul) e 15,8 °C, máximas chegando a 32,8 °C (09/jul) — e ET0 média de 4,3 mm/dia (clima gerado em 04/07/2026) indicam demanda evaporativa elevada e atmosfera seca. Rajadas de até 39,2 km/h (sáb, 04/jul) reforçam o caráter ressecante. A safra 2025/26 está encerrada: 100% colhido em MT, produtividade de 66 sc/ha e produção de 51,56 Mt (+1,3% vs. safra anterior), conforme Imea em Campo/Conab 9º lev. (11/06/2026). Preço em 03/07/2026: R$ 108,63/sc (Grão Direto, Nordeste MT).",
  "pontos": [
-  "Safra encerrada com produtividade 1,3% acima de 2024/25",
-  "Preço em R$ 108,63/sc: acompanhe tendências de mercado",
-  "Seca esperada em próximos 7 dias é padrão de inverno MT"
+  "Veranico consolidado: 7 dias secos consecutivos com ET0 média de 4,3 mm/dia — sem impacto na soja 25/26 encerrada, mas atenção ao manejo de solos e planejamento de safrinha",
+  "Chuva residual de 0,6 mm prevista para 09/jul é irrelevante agronomicamente — não configura quebra do período seco",
+  "Safra 2025/26 MT finalizada com 66 sc/ha e +1,3% sobre a safra anterior (Imea/Conab, 11/06/2026)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:57:46+00:00",
+  "clima": "2026-07-04T03:46:45+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

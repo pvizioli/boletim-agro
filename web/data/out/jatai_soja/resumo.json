@@ -1,16 +1,16 @@
 {
  "distrito_id": "jatai_soja",
  "nome": "JATAI-SOJA",
- "gerado_em": "2026-07-04T01:47:35+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "Safra 2025/26 encerrada em Jatai-Soja (GO e MS). Goiás finalizou 100% da colheita com produção de 20,1 Mi t; Mato Grosso do Sul atingiu 60 sc/ha e 16,7 Mi t (+19,1% vs safra anterior). Clima atual: sem chuva prevista nos próximos 7 dias, máximas de 29,4°C e mínimas de 13,6°C. Preço em GO: R$ 108,50/sc (17 jun). Entressafra consolidada com condições climáticas secas típicas do período.",
+ "gerado_em": "2026-07-04T04:02:41+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Distrito Jataí-Soja (GO/MS) opera em plena entressafra da soja 2025/26, com ambas as UFs com 100% colhido. A dinâmica atmosférica da semana é marcada por veranico consolidado: sete dias consecutivos sem chuva (série diária 03–09/jul), chuva prevista praticamente nula (máx. 0,6 mm em 7 dias, fonte: clima gerado em 04/07/2026) e ET0 média de 3,9 mm/dia. As temperaturas máximas sobem progressivamente de 25,7 °C (qui, 03/jul) a 29,4 °C (ter, 07/jul), com mínimas entre 13,6 e 15,2 °C — amplitude térmica típica de inverno seco do Cerrado. Rajadas moderadas (24–36 km/h) com ventos predominantemente de quadrante SE reforçam a subsidência. MS encerrou com 60 sc/ha e produção de 16,7 Mt (+19,1% vs. safra anterior, Aprosoja/MS-Siga/Famasul, 26/mai/2026). Preço de referência em Jataí/GO: R$ 108,50/sc (Canal Rural, 17/jun/2026).",
  "pontos": [
-  "MS superou safra anterior em 19,1%; GO sem produtividade registrada",
-  "Zero mm chuva prevista 7 dias - clima seco característico de entressafra",
-  "Preço R$ 108,50/sc em GO; colheita 100% concluída em ambos os estados"
+  "Veranico de 7 dias confirmado na série diária sem perspectiva de chuva relevante até 09/jul — sem impacto direto na soja, mas atenção ao planejamento de irrigação de culturas de inverno na região",
+  "ET0 média de 3,9 mm/dia com pico de 4,51 mm em terça (07/jul) eleva demanda hídrica atmosférica — relevante para pastagens e cultivos de segunda safra ainda em campo",
+  "MS registrou produtividade de 60 sc/ha e crescimento de 19,1% na produção frente à safra anterior — melhor resultado recente para o estado segundo balanço final Aprosoja/MS"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:56:02+00:00",
+  "clima": "2026-07-04T03:35:01+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-06-17"
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "goiatuba_soja_ics",
  "nome": "GOIATUBA-SOJA/ICS",
- "gerado_em": "2026-07-04T01:47:10+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "A safra 2025/26 de soja em Goiatuba está encerrada, com 100% colhido e produção de 20,1 milhões de toneladas em Goiás. O preço da saca segue em R$ 108,50 (17/jun, Canal Rural). Julho apresenta condições secas: zero mm de chuva prevista nos próximos 7 dias, com máximas de 31,4°C e mínimas de 13,6°C. Sem alertas do Inmet. Período adequado para operações pós-colheita e armazenagem.",
+ "gerado_em": "2026-07-04T04:01:23+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Distrito GOIATUBA-SOJA/ICS, GO — 04/jul/2026. A safra 2025/26 está encerrada (colheita 100%, produção 20,1 milhões de t em GO, Conab 9º Levantamento, jun/2026). O foco recai sobre a dinâmica do tempo e o mercado. A série diária de 03 a 09/jul registra sequência seca absoluta: zero milímetro acumulado, probabilidade de chuva inferior a 5% mesmo no final do período, e amplitude térmica expressiva — mínimas entre 13,6 °C e 15,3 °C e máximas chegando a 31,4 °C (09/jul). O sinal derivado confirma 7 dias consecutivos sem chuva, padrão típico do inverno seco do Cerrado goiano, sem indicativo de frente ou sistema perturbador no horizonte de 7 dias. Demanda evapotranspirativa elevada pelas máximas acima de 30 °C. Preço de referência: R$ 108,50/sc 60 kg em Jataí/GO (Canal Rural, 17/jun/2026), sinalizando patamar relevante para decisões de comercialização do estoque remanescente.",
  "pontos": [
-  "Safra encerrada - foco em comercialização e armazenagem",
-  "Sete dias sem chuva prevista - condições favoráveis para secagem",
-  "Preço estável em R$ 108,50/sc - monitorar tendências de mercado"
+  "Sequência de 7 dias secos confirmada nos sinais derivados — sem previsão de chuva relevante até 09/jul, padrão de inverno seco do Cerrado",
+  "Amplitude térmica acentuada (mínima 13,6 °C / máxima 31,4 °C) eleva ET0 e demanda atenção ao manejo de solos descobertos e pastagens de entressafra",
+  "Safra 2025/26 encerrada em GO com produção de 20,1 milhões de t (Conab, jun/2026) — janela de entressafra favorece foco em comercialização"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:54:28+00:00",
+  "clima": "2026-07-04T03:13:19+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-06-17"
  }

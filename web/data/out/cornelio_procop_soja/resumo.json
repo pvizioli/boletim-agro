@@ -1,16 +1,16 @@
 {
  "distrito_id": "cornelio_procop_soja",
  "nome": "CORNELIO PROCOP-SOJA",
- "gerado_em": "2026-07-04T01:46:43+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "Safra 2025/2026 encerrada no Paraná com colheita 100% concluída. Produtividade de 63 sc/ha (+2,8% vs safra anterior), totalizando 21,78 milhões de toneladas. Clima atual apresenta temperaturas moderadas (máx. 25,6°C, mín. 4,2°C) com previsão de até 9,8 mm em 7 dias. Preço em R$ 128,50/sc (Paranaguá, 17/06). Sem alertas Inmet ativos. Condições finais favoráveis consolidam resultado positivo da safra.",
+ "gerado_em": "2026-07-04T04:00:02+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Distrito Cornélio Procópio – PR | Safra 2025/2026 encerrada. A semana inicia com padrão de inverno típico: temperaturas máximas entre 21,7 °C e 25,6 °C e mínimas que recuam progressivamente até 4,2 °C na quinta-feira (08/jul), sinalizando passagem de sistema frontal — confirmada pela combinação de chuva concentrada na segunda (07/jul, 8,5 mm, prob. 80%) seguida de queda abrupta de temperatura e cessação das chuvas na sexta (08/jul) e sábado (09/jul). Os volumes acumulados são modestos (máx. 9,8 mm em 7 dias), com maior sequência seca projetada em 4 dias consecutivos. Sem alertas INMET ativos. Com colheita 100% concluída no PR (63 sc/ha, +2,8% vs. safra anterior; Deral/SEAB-PR, 25/05/2026), o foco migra para comercialização: soja em Paranaguá cotada a R$ 128,50/sc (Canal Rural, 17/06/2026). Dinâmica climática sem impacto operacional direto na soja.",
  "pontos": [
-  "Produtividade +2,8% vs ciclo anterior; 3.796 kg/ha confirmado",
-  "Safra encerrada; foco em comercialização e armazenagem",
-  "Chuva prevista mínima (até 9,8 mm); sem impactos operacionais"
+  "Passagem frontal estimada entre segunda (07/jul) e quinta (08/jul): queda de tmin para 4,2 °C — monitorar culturas de inverno e pomares na região",
+  "Chuvas acumuladas muito baixas (máx. 9,8 mm/7 dias) e sequência seca de até 4 dias — sem impacto para soja, safra encerrada",
+  "Safra 2025/2026 PR finalizada com 63 sc/ha (+2,8% vs. anterior), segundo Deral/SEAB-PR (25/05/2026)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:53:24+00:00",
+  "clima": "2026-07-04T02:47:03+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

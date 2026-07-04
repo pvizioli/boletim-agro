@@ -1,16 +1,16 @@
 {
  "distrito_id": "assis_soja",
  "nome": "ASSIS-SOJA",
- "gerado_em": "2026-07-04T01:46:01+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "A safra 2025/26 de soja em Assis está encerrada, com 100% da área colhida conforme Conab (jun/2026). No período de 7 dias até 4 de julho, o distrito registra condições secas: chuva máxima de 1,8 mm e zero dias com precipitação relevante. Temperaturas variam entre 8,6°C (mínima) e 28,6°C (máxima). Sem alertas Inmet ativos. Foco agora em monitoramento pós-colheita e armazenagem adequada.",
+ "gerado_em": "2026-07-04T03:58:06+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Distrito ASSIS-SOJA (SP) registra padrão típico de inverno seco e estável. A série diária de 03 a 09/jul indica amplitudes térmicas expressivas — máximas entre 25,9 °C e 28,6 °C, mínimas chegando a 8,6 °C em 08/jul (quarta-feira) — sugerindo avanço de massa polar após evento de chuva fraca previsto para 07/jul (segunda-feira, 1,8 mm, prob. 45%). Essa sequência — queda de tmax, mínima acentuada e chuva residual — é consistente com passagem de sistema frontal de baixa intensidade. Os sinais_derivados confirmam maior sequência de 7 dias secos consecutivos. Chuva acumulada prevista para os 7 dias é irrisória (máx. 1,8 mm; 0 dias com chuva relevante). A safra 2025/26 de SP está encerrada (100% colhida, Conab — 9º Levantamento, jun/2026). Sem preço de saca disponível no levantamento. Foco do momento: dinâmica de frio e entressafra.",
  "pontos": [
-  "Safra encerrada: 100% colhido; dados de produtividade indisponíveis",
-  "Seca na semana: apenas 1,8 mm máximo previsto; sem chuva relevante",
-  "Sem alertas meteorológicos ativos no período"
+  "Mínima de 8,6 °C prevista para 08/jul (quarta): monitorar risco de frio intenso em áreas mais elevadas do distrito",
+  "Passagem frontal fraca em 07/jul deve trazer apenas 1,8 mm — sem impacto operacional relevante",
+  "Sequência de 7 dias secos confirmada pelos sinais_derivados; inverno seco segue dominante na região"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:47:17+00:00",
+  "clima": "2026-07-04T02:07:30+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

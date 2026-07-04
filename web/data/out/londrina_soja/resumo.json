@@ -1,16 +1,16 @@
 {
  "distrito_id": "londrina_soja",
  "nome": "LONDRINA-SOJA",
- "gerado_em": "2026-07-04T01:47:48+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "Safra 2025/2026 encerrada no Paraná com colheita 100% concluída. Produtividade de 63 sc/ha (+2,8% vs safra anterior), totalizando 21,78 milhões de toneladas. Clima atual apresenta temperaturas moderadas (máx. 25,6°C, mín. 6,1°C) com chuva prevista de 0,3 a 11,8 mm nos próximos 7 dias em apenas 2 dias. Preço em R$ 128,50/sc (Paranaguá, 17/06). Sem alertas do Inmet.",
+ "gerado_em": "2026-07-04T04:03:21+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Londrina, 4 de julho de 2026. A semana inicia com chuva fraca (2,1 mm, prob. 95%) e ventos de leste (119°), padrão típico de circulação pré-frontal. Na terça (05/07), precipitação cai para 0,6 mm com rajadas de 33,1 km/h. Na quarta (06/07), nova chuva leve (1,6 mm). A virada é clara na quinta (07/07): 8,4 mm, queda de Tmax para 23,8°C, Tmin recuando a 8,6°C e vento girando abruptamente para sudoeste (237°), sinalizando passagem de sistema frontal. Na sexta (08/07), Tmin atinge 6,1°C — mínima da série — sem chuva, confirmando pós-frontal. O fim de semana segue seco, com ET0 elevada (3,21–3,48 mm/dia) e sequência de 3 dias secos. Safra 2025/2026 encerrada no PR: 63 sc/ha, produção de 21,78 Mt (+2,8% vs safra anterior), conforme Deral/SEAB-PR (25/05/2026). Preço em Paranaguá: R$ 128,50/sc (Canal Rural, 17/06/2026).",
  "pontos": [
-  "Safra finalizada com ganho produtivo de +2,8% — resultado positivo consolidado",
-  "Chuva mínima prevista (0,3-11,8 mm) — sem impacto na colheita já concluída",
-  "Preço estável em R$ 128,50/sc — monitorar tendências pós-safra"
+  "Passagem frontal confirmada na quinta (07/07): virada de vento para 237°, queda térmica e 8,4 mm de chuva acumulada",
+  "Pós-frontal seco com Tmin de 6,1°C na sexta (08/07) — monitorar risco de geada em áreas mais frias do distrito",
+  "ET0 média de 3,0 mm/dia e sequência de 3 dias secos no fim da semana elevam demanda hídrica, sem impacto na soja (safra encerrada)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:56:03+00:00",
+  "clima": "2026-07-04T03:43:09+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

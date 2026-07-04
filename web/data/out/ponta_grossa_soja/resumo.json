@@ -1,16 +1,16 @@
 {
  "distrito_id": "ponta_grossa_soja",
  "nome": "PONTA GROSSA-SOJA",
- "gerado_em": "2026-07-04T01:48:25+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "Safra 2025/2026 encerrada no Paraná com 100% colhido. Produtividade de 63 sc/ha (+2,8% vs safra anterior), totalizando 21,78 milhões de toneladas. Clima atual apresenta temperaturas amenas (mín. 2,8°C, máx. 22,3°C) com previsão de 6,8 a 17,2 mm em 7 dias, distribuídos em 3 dias com chuva relevante. Sem alertas Inmet ativos. Preço em R$ 128,50/sc (Paranaguá, 17/06/2026).",
+ "gerado_em": "2026-07-04T04:05:22+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Distrito Ponta Grossa-Soja | PR | 04/jul/2026. A safra 2025/2026 está encerrada: colheita 100% concluída, produtividade de 63 sc/ha (Deral/SEAB-PR, 25/mai/2026), produção de 21,78 Mt, alta de 2,8% sobre a safra anterior. Preço em Paranaguá: R$ 128,50/sc (Canal Rural, 17/jun/2026). No clima, a série diária revela passagem de sistema frontal entre sábado (05/jul) e segunda (07/jul): chuva acumulada de 17,4 mm, vento girando de N/NE para SW e queda de tmax de 21,6 °C para 20,4 °C. Pós-frente, terça (08/jul) registra tmin de 2,8 °C — único dia com risco de geada nos sinais_derivados — seguida de sequência seca de três dias (08–10/jul) com ET0 média de 2,77–2,85 mm/dia, acima da média semanal de 2,5 mm/dia. Sem alertas Inmet ativos.",
  "pontos": [
-  "Safra finalizada com produtividade acima da média histórica (+2,8%)",
-  "Clima pós-colheita estável; chuva moderada não impacta operações",
-  "Preço firme em R$ 128,50/sc; monitorar tendências de mercado"
+  "Safra encerrada com 63 sc/ha (+2,8% vs anterior); foco agora em comercialização e planejamento da próxima temporada",
+  "Risco de geada na madrugada de terça (08/jul): tmin projetada de 2,8 °C — monitorar culturas de inverno e viveiros na região de Ponta Grossa",
+  "Sequência seca de três dias (08–10/jul) com ET0 elevada (até 2,85 mm/dia) pode pressionar irrigações de estabelecimento de culturas de inverno"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:56:39+00:00",
+  "clima": "2026-07-04T03:45:35+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

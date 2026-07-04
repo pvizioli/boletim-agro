@@ -1,16 +1,16 @@
 {
  "distrito_id": "alfenas_soja",
  "nome": "ALFENAS-SOJA",
- "gerado_em": "2026-07-04T01:45:57+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "Safra 2025/26 encerrada em MG e SP com 100% de colheita concluída (Conab, jun/2026). Clima atual apresenta baixa precipitação prevista (0–5,2 mm em 7 dias) e temperaturas moderadas (máx. 28,4°C, mín. 6,3°C). Apenas 2 dias com chuva relevante esperados. Sem alertas Inmet ativos. Preço em MG cotado em R$ 113/sc 60kg (mai/2026). Período pós-colheita favorável para armazenagem e comercialização.",
+ "gerado_em": "2026-07-04T03:57:55+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Distrito ALFENAS-SOJA, referência 04/jul/2026. A safra 2025/26 está encerrada em MG e SP (Conab, 9º Levantamento, jun/2026), sem dados de produtividade ou produção disponíveis no levantamento. O foco recai sobre a dinâmica climática do inverno. A série diária revela padrão típico de entressafra seca: sexta (04/jul) e sábado (05/jul) apresentam elevação da probabilidade de chuva (78% e 75%), com acumulados modestos de 2,6 mm e 1,7 mm, sugerindo passagem de sistema frontal fraco entre domingo (05) e segunda (06/jul). A tmin de 6,3 °C projetada para quarta (09/jul) indica avanço de massa polar, sem configurar geada pelos dados disponíveis. Tmax sustentada em torno de 27–28 °C mantém demanda evapotranspirativa ativa. Chuva total prevista em 7 dias: máximo de 5,2 mm — volume irrelevante para manejo. Preço de referência: R$ 113/sc 60kg (Portal Agron, Triângulo Mineiro, 06/mai/2026).",
  "pontos": [
-  "Safra encerrada: foco em comercialização e gestão de estoques",
-  "Chuva mínima prevista: condições ideais para pós-colheita",
-  "Preço estável em R$ 113/sc: monitorar tendências de mercado"
+  "Safra 2025/26 encerrada em MG e SP sem produtividade consolidada disponível (Conab, jun/2026)",
+  "Passagem de sistema frontal fraco prevista entre dom/05 e seg/06/jul, com até 2,6 mm — sem impacto operacional",
+  "Tmin de 6,3 °C projetada para qua/09/jul: monitorar potencial de frio intenso, sem sinal de geada confirmado nos dados"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:47:17+00:00",
+  "clima": "2026-07-04T02:03:08+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-05-06"
  }

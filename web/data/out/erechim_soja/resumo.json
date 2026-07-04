@@ -1,15 +1,16 @@
 {
  "distrito_id": "erechim_soja",
  "nome": "ERECHIM-SOJA",
- "gerado_em": "2026-07-04T01:46:57+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "Safra 2025/2026 encerrada em Erechim-RS com 100% colhido. Produtividade de 45 sc/ha, 14,8% abaixo da projeção inicial, refletindo forte variabilidade regional (1.200-4.200 kg/ha). Produção total de 18,1 milhões de toneladas, crescimento de 32,9% versus safra anterior. Preço em R$ 129/sc (03/07). Clima atual: mínimas negativas (-0,3°C), máximas de 23,2°C, com 2 dias de chuva relevante nos próximos 7 dias (0,9-6,0 mm). Sem alertas Inmet ativos.",
+ "gerado_em": "2026-07-04T04:00:42+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Erechim, 4 de julho de 2026. A safra 2025/2026 de soja no RS está encerrada (100% colhida), com produtividade de 45 sc/ha e produção de 18,13 milhões de toneladas, alta de 32,9% ante a safra anterior, porém 14,8% abaixo da projeção inicial, refletindo forte variabilidade regional (Emater/RS-Ascar, 11/jun/2026). O preço está em R$ 129,00/sc 60kg no Centro Ocidental RS (Grao Direto, 3/jul/2026). No campo climático, a semana é marcada por padrão invernal típico: sexta (4/jul) registra tmin de 0,1°C com chuva residual de 3,2 mm, seguida de aquecimento rápido no domingo (5/jul, tmax 22,3°C) e nova queda com chuva de 3,1 mm na segunda (6/jul, prob. 95%), sugerindo passagem de sistema frontal. Terça a quinta (7–9/jul) apresentam sequência seca com tmin abaixo de 3°C em dois dias, configurando risco de geada. Chuva acumulada prevista é baixa (máx. 6,0 mm/7d).",
  "pontos": [
-  "Produtividade 14,8% abaixo da projeção; variabilidade regional extrema comprometeu resultado final",
-  "Safra encerrada; foco agora em armazenagem e comercialização com preço em R$ 129/sc"
+  "Risco de geada em 07 e 08/jul (tmin -0,3°C e 2,5°C): atenção a culturas de inverno e pastagens na região de Erechim",
+  "Passagem frontal prevista para segunda-feira (06/jul) com prob. de chuva de 95% e queda de temperatura — monitorar impacto em operações de campo",
+  "Safra 2025/2026 encerrada com 45 sc/ha: resultado 14,8% abaixo da projeção inicial apesar da recuperação de 32,9% vs safra anterior (Emater/RS-Ascar)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:53:56+00:00",
+  "clima": "2026-07-04T03:00:12+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

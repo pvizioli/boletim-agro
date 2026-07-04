@@ -1,16 +1,16 @@
 {
  "distrito_id": "palmas_soja_ics",
  "nome": "PALMAS-SOJA/ICS",
- "gerado_em": "2026-07-04T01:48:01+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "A safra 2025/26 de soja em Palmas-TO está encerrada (100% colhido), conforme Conab de junho/2026. O clima atual apresenta condições de entressafra com máximas de 36,5°C e mínimas de 19,3°C. A previsão de 7 dias indica chuva praticamente nula (0-1,2 mm) e zero dias com precipitação relevante. Sem alertas Inmet ativos. Dados de produtividade e preço indisponíveis no levantamento.",
+ "gerado_em": "2026-07-04T04:04:00+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Palmas-TO, 04/jul/2026. A safra 2025/26 de soja no Tocantins está encerrada com 100% colhido (Conab – 9º Levantamento, jun/2026). O padrão climático da semana é de veranico consolidado: seis dias consecutivos sem chuva relevante (sinais_derivados), ventos predominantemente de leste/sudeste com rajadas entre 30 e 39 km/h, temperaturas máximas escalando de 35,0°C (sábado) a 36,9°C (sexta), e ET0 média de 5,8 mm/dia — demanda evapotranspirativa elevada típica do inverno seco do Cerrado. A única precipitação projetada na janela de 7 dias é de até 6,6 mm, concentrada no final do período (quinta a sexta, 09–10/jul), com probabilidade de 43–55% e virada de vento para norte/nordeste no dia 10, sugerindo eventual influência de umidade amazônica, mas sem configurar ruptura do padrão seco. Sem impacto operacional direto na soja, dado o encerramento da safra.",
  "pontos": [
-  "Safra encerrada: 100% colhido em TO; dados de produtividade não divulgados",
-  "Seca na previsão: 0 dias com chuva relevante nos próximos 7 dias",
-  "Calor intenso: máximas de 36,5°C caracterizam período de entressafra"
+  "Safra 2025/26 encerrada em TO — 100% colhido (Conab, jun/2026); sem risco climático para a colheita atual",
+  "Veranico de 6 dias consecutivos com ET0 média de 5,8 mm/dia eleva demanda hídrica sobre pastagens e culturas de entressafra",
+  "Chuva máxima prevista de 6,6 mm em 7 dias — volume insuficiente para recarga de solo; atenção ao planejamento de irrigação eventual"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:56:36+00:00",
+  "clima": "2026-07-04T03:44:26+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }
