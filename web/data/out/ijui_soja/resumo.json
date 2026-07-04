@@ -1,15 +1,16 @@
 {
  "distrito_id": "ijui_soja",
  "nome": "IJUI-SOJA",
- "gerado_em": "2026-07-04T01:47:23+00:00",
- "modelo": "claude-haiku-4-5-20251001",
- "texto": "A safra 2025/2026 de soja em Ijuí (RS) encerrou com 100% de colheita e produtividade de 45 sc/ha, representando queda de 14,8% ante a projeção inicial (Emater/RS-Ascar, 11/06/2026). A variabilidade regional foi expressiva (1.200-4.200 kg/ha), refletindo heterogeneidade de condições. Produção total: 18,1 milhões de toneladas, com ganho de 32,9% versus safra anterior. Preço em R$ 129/sc (Grão Direto, 03/07/2026). Clima atual: mínimas de 1,2°C e máximas de 21,8°C; chuva prevista de 1,6 a 11,8 mm em 7 dias (2 dias com precipitação relevante). Sem alertas Inmet ativos.",
+ "gerado_em": "2026-07-04T03:55:05+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Ijuí/RS, 04 jul 2026. A semana abre com sábado chuvoso (11,1 mm, rajadas de 37,8 km/h, vento de ESE, tmax 14,5 °C), seguido de rápida recuperação térmica no domingo. A virada do vento para SW na segunda e terça (244–257°) com queda de tmax para 12,8 °C e chuva cessante caracteriza passagem de sistema frontal. A partir de quarta (08/jul), vento gira para NE/N, tmax sobe a 21,8 °C na quinta e 22,6 °C na sexta, sem chuva — configurando sequência seca de até 6 dias com ET0 acumulada estimada em ~11 mm. Risco de geada leve em sábado (tmin 1,2 °C) e quarta (tmin 2,4 °C). A safra 2025/2026 está encerrada (100% colhido; 45 sc/ha; +32,9% vs safra anterior; Emater/RS-Ascar, 11/jun/2026). Preço corrente: R$ 129/sc (Grão Direto, Centro Ocidental RS, 03/jul/2026).",
  "pontos": [
-  "Produtividade 14,8% abaixo da projeção inicial; forte variabilidade regional exige análise de perdas por microrregião",
-  "Safra encerrada; monitorar preços (R$ 129/sc) e fluxo de comercialização no pós-colheita"
+  "Geada leve possível em 04/jul (tmin 1,2 °C) e 08/jul (tmin 2,4 °C) — atenção a culturas de inverno e pastagens",
+  "Passagem frontal entre 06 e 07/jul: virada de vento para SW, queda térmica e encerramento das chuvas",
+  "Sequência seca de até 6 dias (08 a 13/jul) com ET0 média de 2,0 mm/dia — monitorar culturas de inverno em estabelecimento"
  ],
  "insumos_ref": {
-  "clima": "2026-07-03T21:54:29+00:00",
+  "clima": "2026-07-04T03:24:14+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }
