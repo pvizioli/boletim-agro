@@ -1,0 +1,17 @@
+{
+ "distrito_id": "campo_grande_soja_ics",
+ "nome": "CAMPO GRANDE-SOJA/ICS",
+ "gerado_em": "2026-07-04T01:46:08+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "A safra 2025/26 de soja em Mato do Grosso do Sul foi encerrada em maio com colheita 100% concluída. Produtividade atingiu 60 sc/ha, representando crescimento de 19,1% ante a safra anterior, totalizando 16,744 milhões de toneladas. Em julho, o clima apresenta baixíssima precipitação prevista (máximo 2,6 mm em 7 dias) e amplitude térmica de 9,5°C a 31,3°C. Sem chuva relevante e sem alertas Inmet, as condições favorecem operações de pós-colheita e armazenagem.",
+ "pontos": [
+  "Safra encerrada: foco em comercialização e armazenagem",
+  "Seca em julho: condições ideais para secagem e movimentação de grãos",
+  "Crescimento de 19,1% na produtividade vs. safra anterior"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:51:20+00:00",
+  "colheita": "2026-05-26",
+  "preco": null
+ }
+}

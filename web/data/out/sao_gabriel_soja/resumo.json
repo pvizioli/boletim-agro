@@ -1,0 +1,16 @@
+{
+ "distrito_id": "sao_gabriel_soja",
+ "nome": "SAO GABRIEL-SOJA",
+ "gerado_em": "2026-07-04T01:49:17+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "A safra 2025/2026 de soja em São Gabriel (RS) está encerrada com 100% colhido. Produtividade de 45 sc/ha representa queda de 14,8% ante projeção inicial, conforme Emater/RS-Ascar (11/06). Produção total: 18,1 milhões de toneladas, com variabilidade regional de 1.200-4.200 kg/ha. Comparado à safra anterior, resultado 32,9% superior. Preço em R$ 129/sc (Grão Direto, 03/07). Próxima semana: máxima 20,3°C, mínima -1,2°C, chuva prevista até 9,1 mm em apenas 1 dia.",
+ "pontos": [
+  "Produtividade 14,8% abaixo da projeção inicial; forte variabilidade regional exigiu manejo diferenciado",
+  "Safra encerrada; foco agora em armazenagem e comercialização com preço em R$ 129/sc"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:57:48+00:00",
+  "colheita": "2026-06-11",
+  "preco": "2026-07-03"
+ }
+}

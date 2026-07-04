@@ -1,0 +1,17 @@
+{
+ "distrito_id": "canoinhas_soja",
+ "nome": "CANOINHAS-SOJA",
+ "gerado_em": "2026-07-04T01:46:17+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "Safra 2025/2026 encerrada em PR e SC. PR colheu 21,78 mi t com produtividade de 63 sc/ha (+2,8% vs anterior), enquanto SC registrou 3,1 mi t com queda de 7% na produção (produtividade -5,5%). Clima atual apresenta mínimas de 0,1°C e máximas de 22,2°C, com previsão de 9,6 a 24,3 mm em 7 dias (3 dias com chuva relevante). Soja cotada a R$ 128,50/sc em Paranaguá (17/jun). Sem alertas Inmet ativos.",
+ "pontos": [
+  "SC: queda de 7% na produção (1ª safra impactada); 2ª safra compensou parcialmente (+21,4% área)",
+  "Mínimas próximas a 0°C: monitorar risco de geada residual em áreas baixas",
+  "Preço estável; colheita finalizada em ambos os estados"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:52:21+00:00",
+  "colheita": "2026-05-25",
+  "preco": "2026-06-17"
+ }
+}

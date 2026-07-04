@@ -1,0 +1,17 @@
+{
+ "distrito_id": "formosa_soja_ics",
+ "nome": "FORMOSA-SOJA/ICS",
+ "gerado_em": "2026-07-04T01:47:01+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "Safra 2025/26 encerrada em Formosa-Soja/ICS (DF, GO, MG). Colheita 100% concluída conforme Conab (jun/2026). GO registrou 20,1 Mi t de produção. Clima atual apresenta zero mm de chuva prevista para 7 dias, com máximas de 32,2°C e mínimas de 13,6°C. Sem alertas Inmet ativos. Preço da saca (60kg) em R$ 112 (DF, mai/2026). Período pós-colheita com condições secas predominantes.",
+ "pontos": [
+  "Colheita 100% finalizada; foco em armazenagem e comercialização",
+  "Sete dias sem chuva prevista; monitorar umidade relativa do ar",
+  "Preço em R$ 112/sc (mai/2026); acompanhar cotações atuais"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:54:27+00:00",
+  "colheita": "2026-06-11",
+  "preco": "2026-05-06"
+ }
+}

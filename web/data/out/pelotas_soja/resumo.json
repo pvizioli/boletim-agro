@@ -1,0 +1,17 @@
+{
+ "distrito_id": "pelotas_soja",
+ "nome": "PELOTAS-SOJA",
+ "gerado_em": "2026-07-04T01:48:21+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "Safra 2025/2026 encerrada em Pelotas-RS com 100% colhido. Produtividade de 45 sc/ha, 14,8% abaixo da projeção inicial, totalizando 18,1 milhões de toneladas. Variabilidade regional significativa (1.200-4.200 kg/ha) reflete heterogeneidade de condições. Preço em R$ 129/sc (03/07). Clima atual: mínimas de -1,9°C e máximas de 20,5°C; chuva prevista de 0,4 a 8,0 mm em 7 dias, com apenas 1 dia relevante. Sem alertas Inmet ativos.",
+ "pontos": [
+  "Produtividade 32,9% superior à safra anterior, mas 14,8% abaixo da projeção inicial",
+  "Forte variabilidade regional (1.200-4.200 kg/ha) indica heterogeneidade de desempenho",
+  "Preço estável em R$ 129/sc; clima pós-colheita sem pressões imediatas"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:56:38+00:00",
+  "colheita": "2026-06-11",
+  "preco": "2026-07-03"
+ }
+}

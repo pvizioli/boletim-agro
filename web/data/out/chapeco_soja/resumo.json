@@ -1,0 +1,16 @@
+{
+ "distrito_id": "chapeco_soja",
+ "nome": "CHAPECO-SOJA",
+ "gerado_em": "2026-07-04T01:46:35+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "Safra 2025/2026 encerrada em SC com 100% colhido. Produtividade de 63 sc/ha resultou em 3,1 milhões de toneladas, queda de 7% na produção versus safra anterior (redução de 5,5% em produtividade e 1,6% em área). Clima atual apresenta mínimas de -1°C e máximas de 24,6°C, com previsão de 0,6 a 10,6 mm em 7 dias (2 dias com chuva relevante). Sem alertas Inmet ativos. Entressafra consolidada.",
+ "pontos": [
+  "Produção -7% vs safra anterior; produtividade -5,5% aponta pressões agronômicas ou climáticas na 2025/2026",
+  "Mínimas negativas (-1°C) em julho: monitorar geadas residuais em áreas de segunda safra ou cultivos de inverno"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:53:24+00:00",
+  "colheita": "2026-05-01",
+  "preco": null
+ }
+}

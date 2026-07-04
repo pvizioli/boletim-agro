@@ -1,0 +1,17 @@
+{
+ "distrito_id": "rio_do_sul_soja",
+ "nome": "RIO DO SUL-SOJA",
+ "gerado_em": "2026-07-04T01:48:43+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "Safra 2025/2026 encerrada em SC com 3,1 milhões de toneladas e produtividade de 63 sc/ha. Queda de 7% na produção total versus safra anterior, resultado de redução de 5,5% na produtividade e 1,6% na área de 1ª safra, parcialmente compensada pelo crescimento de 21,4% na área de 2ª safra (Epagri/Cepa, maio/2026). Clima atual apresenta mínimas negativas (-0,9°C) e chuva prevista de 2,5 a 23,4 mm nos próximos 7 dias, com 3 dias de precipitação relevante. Sem alertas Inmet ativos.",
+ "pontos": [
+  "Produtividade 63 sc/ha: queda de 5,5% na 1ª safra reflete desafios climáticos ou fitossanitários do ciclo",
+  "Expansão de 21,4% em 2ª safra compensou parcialmente perdas, mas não suficiente para recuperar volume total",
+  "Geadas potenciais (mín. -0,9°C): monitorar impactos residuais em áreas de safrinha em desenvolvimento"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:56:41+00:00",
+  "colheita": "2026-05-01",
+  "preco": null
+ }
+}

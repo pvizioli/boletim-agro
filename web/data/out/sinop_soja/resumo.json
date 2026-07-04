@@ -1,0 +1,17 @@
+{
+ "distrito_id": "sinop_soja",
+ "nome": "SINOP-SOJA",
+ "gerado_em": "2026-07-04T01:49:30+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "Safra 2025/26 encerrada em Mato Grosso com 66 sc/ha e produção de 51,56 Mi t, crescimento de 1,3% vs safra anterior (Imea/Conab, jun/26). Paraná sem dados de produtividade divulgados. Clima atual apresenta máximas de 34,5°C e mínimas de 16,8°C, com chuva prevista de até 17,5 mm em 7 dias (2 dias com precipitação relevante). Preço em R$ 108,63/sc (Grão Direto, 03/jul). Sem alertas Inmet ativos na região.",
+ "pontos": [
+  "MT fechou safra com produtividade positiva; PA sem divulgação de dados produtivos",
+  "Chuva prevista baixa (máx 17,5 mm) em entressafra; monitorar condições hídricas para próximo plantio",
+  "Preço estável em R$ 108,63/sc; avaliar oportunidades de comercialização pós-colheita"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:58:20+00:00",
+  "colheita": "2026-06-11",
+  "preco": "2026-07-03"
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "distrito_id": "catalao_soja_ics",
+ "nome": "CATALAO-SOJA & ICS",
+ "gerado_em": "2026-07-04T01:46:31+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "Safra 2025/26 encerrada em GO e MG. Goiás finalizou colheita com 20,1 Mi t produzidas (Conab, jun/2026). Clima atual: sem chuva prevista nos próximos 7 dias, máximas de 29,2°C e mínimas de 13°C. Preço em R$ 108,50/sc (60kg) em Jatai/GO, conforme Canal Rural (17 jun). Período de entressafra com condições secas típicas do inverno no Centro-Soja.",
+ "pontos": [
+  "Safra 100% colhida em ambas UFs; foco agora em armazenagem e comercialização",
+  "Sete dias sem chuva relevante; monitorar umidade relativa do ar para grãos armazenados",
+  "Preço estável em R$ 108,50/sc; avaliar oportunidade de venda conforme fluxo de mercado"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:53:23+00:00",
+  "colheita": "2026-06-11",
+  "preco": "2026-06-17"
+ }
+}

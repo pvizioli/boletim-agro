@@ -1,0 +1,17 @@
+{
+ "distrito_id": "rio_verde_soja_ics",
+ "nome": "RIO VERDE-SOJA/ICS",
+ "gerado_em": "2026-07-04T01:48:48+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "A safra 2025/26 de soja em Rio Verde (GO) foi encerrada com 100% de colheita. A produção totalizou 20,1 milhões de toneladas em Goiás. O preço da saca (60 kg) fechou em R$ 108,50 (17/jun, Canal Rural). Julho apresenta condições secas: zero mm de chuva prevista nos próximos 7 dias, com máximas de 33,7°C e mínimas de 14,9°C. Sem alertas do Inmet. Período adequado para operações pós-colheita e armazenagem.",
+ "pontos": [
+  "Safra encerrada com 100% colhido; foco em secagem e armazenagem",
+  "Sete dias sem chuva prevista; condições favoráveis para operações",
+  "Preço em R$ 108,50/sc (17/jun); acompanhar mercado para venda"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:57:45+00:00",
+  "colheita": "2026-06-11",
+  "preco": "2026-06-17"
+ }
+}

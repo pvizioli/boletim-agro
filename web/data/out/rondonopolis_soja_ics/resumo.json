@@ -1,0 +1,17 @@
+{
+ "distrito_id": "rondonopolis_soja_ics",
+ "nome": "RONDONOPOLIS-SOJA/ICS",
+ "gerado_em": "2026-07-04T01:48:52+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "A safra 2025/26 de soja em Rondonópolis (MT) está encerrada com 100% colhido. Produtividade de 66 sc/ha representou crescimento de 1,3% ante safra anterior, totalizando 51,56 milhões de toneladas (Imea/Conab, jun/26). Clima atual apresenta mínimas de 14,1°C e máximas de 32,8°C, com chuva praticamente nula nos próximos 7 dias (máx. 1,2 mm). Saca cotada a R$ 108,63 (Grão Direto, 03/jul). Entressafra segue com condições secas normais para o período.",
+ "pontos": [
+  "Safra encerrada com produtividade 1,3% acima de 2024/25",
+  "Preço em R$ 108,63/sc: acompanhe tendências de mercado",
+  "Seca esperada em próximos 7 dias é padrão de inverno MT"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:57:46+00:00",
+  "colheita": "2026-06-11",
+  "preco": "2026-07-03"
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "distrito_id": "cuiaba_soja",
+ "nome": "CUIABA-SOJA",
+ "gerado_em": "2026-07-04T01:46:49+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "Safra 2025/26 encerrada em MT com 100% de colheita e produtividade de 66 sc/ha, crescimento de 1,3% versus safra anterior (Imea/Conab, jun/26). Produção total de 51,56 milhões de toneladas consolidada. Clima atual apresenta estiagem: previsão de 0 a 0,2 mm em 7 dias, sem chuva relevante esperada. Temperaturas máximas de 33,8°C e mínimas de 13,7°C. Preço em R$ 108,63/sc (Grão Direto, 03/jul). Período pós-colheita com foco em armazenagem e comercialização.",
+ "pontos": [
+  "Safra finalizada com produtividade acima da anterior; consolidação de números em andamento",
+  "Estiagem severa nos próximos 7 dias: zero chuva relevante prevista",
+  "Preço estável em R$ 108,63/sc; monitorar tendências de mercado pós-colheita"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:53:55+00:00",
+  "colheita": "2026-06-11",
+  "preco": "2026-07-03"
+ }
+}

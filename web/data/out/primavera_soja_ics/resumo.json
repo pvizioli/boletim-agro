@@ -1,0 +1,17 @@
+{
+ "distrito_id": "primavera_soja_ics",
+ "nome": "PRIMAVERA-SOJA/ICS",
+ "gerado_em": "2026-07-04T01:48:34+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "Safra 2025/26 encerrada em MT com 100% colhido e produtividade de 66 sc/ha, representando crescimento de 1,3% ante safra anterior (Imea/Conab, jun/26). Produção total atingiu 51,56 milhões de toneladas. Em entressafra, clima apresenta baixíssima precipitação prevista (0-1,5 mm em 7 dias) com temperaturas máximas de 33,2°C, típico do inverno seco. Preço cotado em R$ 108,63/sc (Grão Direto, 03/jul), refletindo dinâmica pós-colheita.",
+ "pontos": [
+  "Safra encerrada com êxito: 100% colhido, 66 sc/ha (+1,3% vs anterior)",
+  "Seca esperada nos próximos 7 dias: zero dias com chuva relevante previstos",
+  "Preço em R$ 108,63/sc: monitorar dinâmica de comercialização em entressafra"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:56:40+00:00",
+  "colheita": "2026-06-11",
+  "preco": "2026-07-03"
+ }
+}

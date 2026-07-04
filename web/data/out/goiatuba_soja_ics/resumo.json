@@ -1,0 +1,17 @@
+{
+ "distrito_id": "goiatuba_soja_ics",
+ "nome": "GOIATUBA-SOJA/ICS",
+ "gerado_em": "2026-07-04T01:47:10+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "A safra 2025/26 de soja em Goiatuba está encerrada, com 100% colhido e produção de 20,1 milhões de toneladas em Goiás. O preço da saca segue em R$ 108,50 (17/jun, Canal Rural). Julho apresenta condições secas: zero mm de chuva prevista nos próximos 7 dias, com máximas de 31,4°C e mínimas de 13,6°C. Sem alertas do Inmet. Período adequado para operações pós-colheita e armazenagem.",
+ "pontos": [
+  "Safra encerrada - foco em comercialização e armazenagem",
+  "Sete dias sem chuva prevista - condições favoráveis para secagem",
+  "Preço estável em R$ 108,50/sc - monitorar tendências de mercado"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:54:28+00:00",
+  "colheita": "2026-06-11",
+  "preco": "2026-06-17"
+ }
+}

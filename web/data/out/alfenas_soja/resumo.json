@@ -1,0 +1,17 @@
+{
+ "distrito_id": "alfenas_soja",
+ "nome": "ALFENAS-SOJA",
+ "gerado_em": "2026-07-04T01:45:57+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "Safra 2025/26 encerrada em MG e SP com 100% de colheita concluída (Conab, jun/2026). Clima atual apresenta baixa precipitação prevista (0–5,2 mm em 7 dias) e temperaturas moderadas (máx. 28,4°C, mín. 6,3°C). Apenas 2 dias com chuva relevante esperados. Sem alertas Inmet ativos. Preço em MG cotado em R$ 113/sc 60kg (mai/2026). Período pós-colheita favorável para armazenagem e comercialização.",
+ "pontos": [
+  "Safra encerrada: foco em comercialização e gestão de estoques",
+  "Chuva mínima prevista: condições ideais para pós-colheita",
+  "Preço estável em R$ 113/sc: monitorar tendências de mercado"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:47:17+00:00",
+  "colheita": "2026-06-11",
+  "preco": "2026-05-06"
+ }
+}

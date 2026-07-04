@@ -1,0 +1,16 @@
+{
+ "distrito_id": "porto_alegre_soja",
+ "nome": "PORTO ALEGRE-SOJA",
+ "gerado_em": "2026-07-04T01:48:30+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "A safra 2025/2026 de soja em RS está encerrada (100% colhida). Produtividade de 45 sc/ha representa queda de 14,8% versus projeção inicial, conforme Emater/RS-Ascar (11/06). Variabilidade regional significativa (1.200-4.200 kg/ha) reflete impactos climáticos diferenciados. Produção total: 18,1 Mi t, com ganho de 32,9% face à safra anterior. Preço em R$ 129/sc (Grão Direto, 03/07). Clima corrente: mínimas de 0,8°C e máximas de 24,7°C; chuva prevista 7 dias: 0,7-5,0 mm em 2 dias.",
+ "pontos": [
+  "Produtividade 14,8% abaixo da projeção inicial; variabilidade regional extrema exige análise por microrregião",
+  "Preço em R$ 129/sc oferece oportunidade de comercialização em entressafra; monitorar tendências"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:56:39+00:00",
+  "colheita": "2026-06-11",
+  "preco": "2026-07-03"
+ }
+}

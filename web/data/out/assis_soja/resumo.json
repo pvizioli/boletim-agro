@@ -1,0 +1,17 @@
+{
+ "distrito_id": "assis_soja",
+ "nome": "ASSIS-SOJA",
+ "gerado_em": "2026-07-04T01:46:01+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "A safra 2025/26 de soja em Assis está encerrada, com 100% da área colhida conforme Conab (jun/2026). No período de 7 dias até 4 de julho, o distrito registra condições secas: chuva máxima de 1,8 mm e zero dias com precipitação relevante. Temperaturas variam entre 8,6°C (mínima) e 28,6°C (máxima). Sem alertas Inmet ativos. Foco agora em monitoramento pós-colheita e armazenagem adequada.",
+ "pontos": [
+  "Safra encerrada: 100% colhido; dados de produtividade indisponíveis",
+  "Seca na semana: apenas 1,8 mm máximo previsto; sem chuva relevante",
+  "Sem alertas meteorológicos ativos no período"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:47:17+00:00",
+  "colheita": "2026-06-11",
+  "preco": null
+ }
+}

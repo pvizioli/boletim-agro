@@ -1,0 +1,17 @@
+{
+ "distrito_id": "cornelio_procop_soja",
+ "nome": "CORNELIO PROCOP-SOJA",
+ "gerado_em": "2026-07-04T01:46:43+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "Safra 2025/2026 encerrada no Paraná com colheita 100% concluída. Produtividade de 63 sc/ha (+2,8% vs safra anterior), totalizando 21,78 milhões de toneladas. Clima atual apresenta temperaturas moderadas (máx. 25,6°C, mín. 4,2°C) com previsão de até 9,8 mm em 7 dias. Preço em R$ 128,50/sc (Paranaguá, 17/06). Sem alertas Inmet ativos. Condições finais favoráveis consolidam resultado positivo da safra.",
+ "pontos": [
+  "Produtividade +2,8% vs ciclo anterior; 3.796 kg/ha confirmado",
+  "Safra encerrada; foco em comercialização e armazenagem",
+  "Chuva prevista mínima (até 9,8 mm); sem impactos operacionais"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:53:24+00:00",
+  "colheita": "2026-05-25",
+  "preco": "2026-06-17"
+ }
+}

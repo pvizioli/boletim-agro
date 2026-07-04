@@ -1,0 +1,17 @@
+{
+ "distrito_id": "julio_de_castilhos_soja",
+ "nome": "JULIO DE CASTILHOS-SOJA",
+ "gerado_em": "2026-07-04T01:47:40+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "A safra 2025/2026 de soja em Julio de Castilhos está encerrada (100% colhido). Produtividade fechou em 45 sc/ha, queda de 14,8% versus projeção inicial, conforme Emater/RS-Ascar (11/06/2026). Forte variabilidade regional (1.200-4.200 kg/ha) marcou o ciclo. Preço em R$ 129/sc (03/07/2026, Grao Direto). Clima atual: mínimas negativas (-1,7°C) e chuva escassa (0,4-13,1 mm em 7 dias, apenas 1 dia relevante). Condições típicas de inverno no RS.",
+ "pontos": [
+  "Produtividade 14,8% abaixo da projeção inicial; variabilidade regional extrema comprometeu resultado",
+  "Preço em R$ 129/sc oferece margem limitada dado desempenho produtivo reduzido",
+  "Inverno consolidado: geadas noturnas (-1,7°C) e precipitação mínima; foco em planejamento 2026/2027"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:56:02+00:00",
+  "colheita": "2026-06-11",
+  "preco": "2026-07-03"
+ }
+}

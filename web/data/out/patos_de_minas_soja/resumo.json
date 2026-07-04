@@ -1,0 +1,16 @@
+{
+ "distrito_id": "patos_de_minas_soja",
+ "nome": "PATOS DE MINAS-SOJA",
+ "gerado_em": "2026-07-04T01:48:17+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "Safra 2025/26 encerrada em Patos de Minas com 100% colhido. Clima atual apresenta semana seca (0 mm previstos) com máximas de 30,3°C e mínimas de 12,7°C. Sem alertas Inmet ativos. Preço da soja em MG cotado a R$ 113/sc (60kg) em maio/2026. Período de entressafra com condições climáticas normais para inverno mineiro.",
+ "pontos": [
+  "Colheita finalizada - monitorar armazenagem e comercialização",
+  "Seca na semana - sem impacto na safra encerrada"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:56:38+00:00",
+  "colheita": "2026-06-11",
+  "preco": "2026-05-06"
+ }
+}

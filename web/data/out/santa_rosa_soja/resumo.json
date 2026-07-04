@@ -1,0 +1,16 @@
+{
+ "distrito_id": "santa_rosa_soja",
+ "nome": "SANTA ROSA-SOJA",
+ "gerado_em": "2026-07-04T01:49:00+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "Santa Rosa encerra safra 2025/2026 com 45 sc/ha, queda de 14,8% versus projeção inicial (Emater/RS-Ascar, 11/06). Produção total: 18,1 Mi t, +32,9% vs safra anterior, mas com forte variabilidade regional (1.200-4.200 kg/ha). Preço em R$ 129/sc (03/07, Grão Direto). Inverno em curso: mínima 1,2°C, máxima 22,9°C; chuva prevista 7 dias: 0,2-6,9 mm (1 dia relevante). Sem alertas Inmet ativos.",
+ "pontos": [
+  "Produtividade 14,8% abaixo da projeção inicial; variabilidade regional crítica exige análise por talhão",
+  "Safra 100% colhida; foco em armazenagem e comercialização com preço em R$ 129/sc"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:57:47+00:00",
+  "colheita": "2026-06-11",
+  "preco": "2026-07-03"
+ }
+}

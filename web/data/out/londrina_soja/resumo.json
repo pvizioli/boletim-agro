@@ -1,0 +1,17 @@
+{
+ "distrito_id": "londrina_soja",
+ "nome": "LONDRINA-SOJA",
+ "gerado_em": "2026-07-04T01:47:48+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "Safra 2025/2026 encerrada no Paraná com colheita 100% concluída. Produtividade de 63 sc/ha (+2,8% vs safra anterior), totalizando 21,78 milhões de toneladas. Clima atual apresenta temperaturas moderadas (máx. 25,6°C, mín. 6,1°C) com chuva prevista de 0,3 a 11,8 mm nos próximos 7 dias em apenas 2 dias. Preço em R$ 128,50/sc (Paranaguá, 17/06). Sem alertas do Inmet.",
+ "pontos": [
+  "Safra finalizada com ganho produtivo de +2,8% — resultado positivo consolidado",
+  "Chuva mínima prevista (0,3-11,8 mm) — sem impacto na colheita já concluída",
+  "Preço estável em R$ 128,50/sc — monitorar tendências pós-safra"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:56:03+00:00",
+  "colheita": "2026-05-25",
+  "preco": "2026-06-17"
+ }
+}

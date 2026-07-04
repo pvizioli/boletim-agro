@@ -1,0 +1,16 @@
+{
+ "distrito_id": "santo_angelo_soja",
+ "nome": "SANTO ANGELO-SOJA",
+ "gerado_em": "2026-07-04T01:49:09+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "Santo Ângelo encerra safra 2025/2026 com 100% colhido e produtividade de 45 sc/ha, queda de 14,8% versus projeção inicial (Emater/RS-Ascar, 11/06). Variabilidade regional marcante (1.200-4.200 kg/ha) reflete desafios climáticos. Preço em R$ 129/sc (Grão Direto, 03/07). Próxima semana: chuva mínima (1,5-12,6 mm), 1 dia relevante, mínimas de 0,1°C—condições de inverno consolidado.",
+ "pontos": [
+  "Produtividade 14,8% abaixo da projeção; variabilidade regional extrema exige análise de perdas por microrregião",
+  "Preço firme em R$ 129/sc; monitorar tendência pós-colheita e armazenagem em inverno rigoroso"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:57:47+00:00",
+  "colheita": "2026-06-11",
+  "preco": "2026-07-03"
+ }
+}

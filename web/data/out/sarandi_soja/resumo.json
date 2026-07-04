@@ -1,0 +1,16 @@
+{
+ "distrito_id": "sarandi_soja",
+ "nome": "SARANDI-SOJA",
+ "gerado_em": "2026-07-04T01:49:25+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "A safra 2025/2026 de soja em RS está encerrada (100% colhido). Produtividade fechou em 45 sc/ha, queda de 14,8% ante projeção inicial, com forte variabilidade regional (1.200-4.200 kg/ha). Produção total: 18,1 Mi t, crescimento de 32,9% vs safra anterior. Clima atual: mínimas de 0,8°C e máximas de 22,7°C; chuva prevista 7 dias: 0,5-4,7 mm em 2 dias. Preço em 129 R$/sc (03/07). Sem alertas Inmet ativos.",
+ "pontos": [
+  "Safra encerrada com produtividade 14,8% abaixo da projeção; variabilidade regional extrema exige análise por microrregião",
+  "Crescimento de 32,9% em produção vs safra anterior compensou queda de rendimento; preço estável em 129 R$/sc"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:58:19+00:00",
+  "colheita": "2026-06-11",
+  "preco": "2026-07-03"
+ }
+}

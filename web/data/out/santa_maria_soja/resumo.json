@@ -1,0 +1,16 @@
+{
+ "distrito_id": "santa_maria_soja",
+ "nome": "SANTA MARIA-SOJA",
+ "gerado_em": "2026-07-04T01:48:56+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "A safra 2025/2026 de soja em Santa Maria-RS está encerrada (100% colhido). Produtividade de 45 sc/ha representa queda de 14,8% versus projeção inicial, conforme Emater/RS-Ascar (11/06/2026). Forte variabilidade regional (1.200-4.200 kg/ha) marcou o ciclo. Produção total: 18,1 milhões de toneladas, com ganho de 32,9% ante safra anterior. Clima atual: mínimas de -1,6°C e máximas de 23,3°C; chuva prevista mínima (0-1,9 mm em 7 dias). Preço em R$ 129/sc (03/07/2026, Grão Direto).",
+ "pontos": [
+  "Produtividade 14,8% abaixo da projeção inicial; variabilidade regional extrema exigiu manejo diferenciado",
+  "Safra encerrada em contexto de preços firmes (R$ 129/sc); entressafra com clima seco e frio"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:57:46+00:00",
+  "colheita": "2026-06-11",
+  "preco": "2026-07-03"
+ }
+}

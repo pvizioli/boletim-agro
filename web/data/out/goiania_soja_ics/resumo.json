@@ -1,0 +1,17 @@
+{
+ "distrito_id": "goiania_soja_ics",
+ "nome": "GOIANIA-SOJA/ICS",
+ "gerado_em": "2026-07-04T01:47:05+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "A safra 2025/26 de soja em Goiás está encerrada com 100% colhido. Produção total de 20,1 milhões de toneladas conforme Conab (9º Levantamento, jun/2026). Clima atual desfavorável: zero mm de chuva prevista nos próximos 7 dias, máximas de 35,5°C e mínimas de 14,9°C. Preço em R$ 108,50/sc (Canal Rural, 17/jun). Sem alertas Inmet ativos. Foco agora em armazenagem e comercialização.",
+ "pontos": [
+  "Safra encerrada: 100% colhido, sem risco climático imediato",
+  "Seca severa na semana: zero chuva prevista, amplitudes térmicas elevadas",
+  "Preço estável em R$ 108,50/sc; monitorar tendência de comercialização"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:54:27+00:00",
+  "colheita": "2026-06-11",
+  "preco": "2026-06-17"
+ }
+}

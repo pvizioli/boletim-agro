@@ -1,0 +1,17 @@
+{
+ "distrito_id": "toledo_soja",
+ "nome": "TOLEDO-SOJA",
+ "gerado_em": "2026-07-04T01:49:38+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "Toledo encerra safra 2025/2026 com 100% colhido e produtividade de 63 sc/ha (+2,8% vs safra anterior), totalizando 21,78 Mi t em área estável. Clima da semana: chuva prevista entre 1,9 e 21,5 mm em 31 municípios, com apenas 1 dia de precipitação relevante. Temperaturas moderadas (máx 25,4°C, mín 2,7°C) e sem alertas Inmet. Preço em R$ 128,50/sc (Paranaguá, 17/06). Entressafra consolidada com bom desempenho produtivo.",
+ "pontos": [
+  "Safra encerrada com resultado positivo: +2,8% produtividade vs ciclo anterior",
+  "Chuva escassa na semana (1 dia relevante): monitorar recarga hídrica para próxima safra",
+  "Preço estável em R$ 128,50/sc; avaliar comercialização residual"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:58:21+00:00",
+  "colheita": "2026-05-25",
+  "preco": "2026-06-17"
+ }
+}

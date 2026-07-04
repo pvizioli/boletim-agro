@@ -1,0 +1,17 @@
+{
+ "distrito_id": "itapeva_soja",
+ "nome": "ITAPEVA-SOJA",
+ "gerado_em": "2026-07-04T01:47:31+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "A safra 2025/26 de soja em Itapeva (SP) foi encerrada com 100% de colheita concluída, conforme Conab (9º Levantamento, jun/2026). Na entressafra, o clima apresenta padrão típico de inverno: mínimas de 5°C e máximas de 25,3°C na semana. Chuva prevista reduzida (0,6 a 14,8 mm em 7 dias, apenas 1 dia relevante), sem alertas Inmet ativos. Condições secas favorecem operações de armazenagem e comercialização.",
+ "pontos": [
+  "Safra finalizada 100% - foco em logística e preço de venda",
+  "Clima seco na entressafra - sem risco a operações de campo",
+  "Dados de produtividade indisponíveis no levantamento Conab"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:56:01+00:00",
+  "colheita": "2026-06-11",
+  "preco": null
+ }
+}

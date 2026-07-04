@@ -1,0 +1,17 @@
+{
+ "distrito_id": "imperatriz_soja",
+ "nome": "IMPERATRIZ-SOJA",
+ "gerado_em": "2026-07-04T01:47:27+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "A safra 2025/26 de soja está encerrada em MA e PA (100% colhido). Na região CERL, o clima atual apresenta condições de entressafra com chuvas distribuídas: previsão de 0 a 87,7 mm nos próximos 7 dias, com 7 dias de chuva relevante esperados. Temperaturas máximas de 35,3°C e mínimas de 18,7°C. Sem alertas INMET ativos. Foco agora em monitoramento pós-colheita e preparação para próximo ciclo.",
+ "pontos": [
+  "Safra encerrada em MA e PA; dados de produtividade indisponíveis na Conab (9º Levantamento, jun/2026)",
+  "Chuvas bem distribuídas na semana (7 dias com precipitação); máximo de 87,7 mm em alguns municípios",
+  "Sem alertas meteorológicos; condições climáticas normais para período de entressafra"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:56:00+00:00",
+  "colheita": "2026-06-11",
+  "preco": null
+ }
+}

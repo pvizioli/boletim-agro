@@ -1,0 +1,16 @@
+{
+ "distrito_id": "sao_gabriel",
+ "nome": "Distrito de São Gabriel",
+ "gerado_em": "2026-07-04T01:49:13+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "Distrito de São Gabriel (Sul) apresenta dados climáticos incompletos para análise técnica. Previsão de chuva para 7 dias não disponível, assim como temperaturas máximas e mínimas. Sem alertas INMET ativos. Recomenda-se aguardar atualização dos dados meteorológicos para avaliação adequada do impacto na colheita de soja. Informações de safra e preço também indisponíveis no período.",
+ "pontos": [
+  "Dados climáticos incompletos - impossível avaliar risco de chuva ou déficit hídrico",
+  "Ausência de informações de colheita e preço - análise de safra comprometida"
+ ],
+ "insumos_ref": {
+  "clima": "2026-06-14T15:29:32+00:00",
+  "colheita": null,
+  "preco": null
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "distrito_id": "campo_mourao_soja",
+ "nome": "CAMPO MOURAO-SOJA",
+ "gerado_em": "2026-07-04T01:46:13+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "A safra 2025/2026 de soja no Paraná encerrou com 100% de colheita e produtividade de 63 sc/ha (+2,8% vs safra anterior), totalizando 21,78 milhões de toneladas. Clima atual apresenta mínimas de 3,4°C e máximas de 24,7°C, com chuva prevista de 1 a 7,6 mm nos próximos 7 dias em 2 dias com precipitação relevante. Sem alertas Inmet ativos. Preço em Paranaguá: R$ 128,50/sc (17/06/2026).",
+ "pontos": [
+  "Safra finalizada com ganho produtivo de +2,8% e área estável",
+  "Mínimas baixas (3,4°C) em inverno; chuva escassa (máx 7,6 mm/7d)",
+  "Preço firme em R$ 128,50/sc; comercialização em andamento"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:51:50+00:00",
+  "colheita": "2026-05-25",
+  "preco": "2026-06-17"
+ }
+}

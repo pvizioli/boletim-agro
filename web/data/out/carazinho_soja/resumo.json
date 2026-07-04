@@ -1,0 +1,17 @@
+{
+ "distrito_id": "carazinho_soja",
+ "nome": "CARAZINHO-SOJA",
+ "gerado_em": "2026-07-04T01:46:21+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "Safra 2025/2026 encerrada em Carazinho-RS com 100% colhido. Produtividade de 45 sc/ha, 14,8% abaixo da projeção inicial, refletindo forte variabilidade regional (1.200-4.200 kg/ha). Produção total de 18,1 milhões de toneladas, crescimento de 32,9% versus safra anterior. Preço em R$ 129/sc (03/07). Clima atual: mínimas de 0,9°C e máximas de 21,4°C; chuva prevista de 2,5 a 7,6 mm em 7 dias, com apenas 1 dia de precipitação relevante.",
+ "pontos": [
+  "Produtividade 14,8% abaixo da projeção; variabilidade regional extrema comprometeu desempenho",
+  "Safra encerrada; foco agora em preço (R$ 129/sc) e planejamento da próxima safra",
+  "Clima seco na sequência (máx. 7,6 mm/7d); monitorar condições para plantio 2026/2027"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:52:52+00:00",
+  "colheita": "2026-06-11",
+  "preco": "2026-07-03"
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "distrito_id": "luis_e_mag_soja_ics",
+ "nome": "LUIS E MAG-SOJA/ICS",
+ "gerado_em": "2026-07-04T01:47:53+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "A safra 2025/26 de soja está encerrada em BA e PI, com 100% do plantio colhido em ambos os estados (Conab, 11/jun/2026). Na entressafra, o clima apresenta condições secas: previsão de apenas 0–4,5 mm em 7 dias, com apenas 1 dia de chuva relevante. Temperaturas máximas de 34,1°C e mínimas de 12,8°C caracterizam o inverno seco típico. Sem alertas Inmet ativos. Foco agora em armazenagem e comercialização da produção colhida.",
+ "pontos": [
+  "Safra encerrada 100% em ambos os estados; dados de produtividade indisponíveis",
+  "Seca acentuada na entressafra: <5 mm previsto em 7 dias",
+  "Monitorar condições de armazenagem com umidade relativa baixa"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:56:34+00:00",
+  "colheita": "2026-06-11",
+  "preco": null
+ }
+}

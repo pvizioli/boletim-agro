@@ -1,0 +1,17 @@
+{
+ "distrito_id": "palmas_soja_ics",
+ "nome": "PALMAS-SOJA/ICS",
+ "gerado_em": "2026-07-04T01:48:01+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "A safra 2025/26 de soja em Palmas-TO está encerrada (100% colhido), conforme Conab de junho/2026. O clima atual apresenta condições de entressafra com máximas de 36,5°C e mínimas de 19,3°C. A previsão de 7 dias indica chuva praticamente nula (0-1,2 mm) e zero dias com precipitação relevante. Sem alertas Inmet ativos. Dados de produtividade e preço indisponíveis no levantamento.",
+ "pontos": [
+  "Safra encerrada: 100% colhido em TO; dados de produtividade não divulgados",
+  "Seca na previsão: 0 dias com chuva relevante nos próximos 7 dias",
+  "Calor intenso: máximas de 36,5°C caracterizam período de entressafra"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:56:36+00:00",
+  "colheita": "2026-06-11",
+  "preco": null
+ }
+}

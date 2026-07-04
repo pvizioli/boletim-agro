@@ -1,0 +1,17 @@
+{
+ "distrito_id": "balsas_soja_ics",
+ "nome": "BALSAS-SOJA/ICS",
+ "gerado_em": "2026-07-04T01:46:04+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "Safra 2025/26 encerrada em MA, PI e TO com 100% de colheita concluída (Conab, jun/2026). Clima atual apresenta máximas de 36,3°C e mínimas de 16,9°C, com previsão de até 58,8 mm em 7 dias e 5 dias com chuva relevante. Sem alertas Inmet ativos. Período de entressafra com condições climáticas típicas de inverno tropical na região Nordeste/Centro-Oeste.",
+ "pontos": [
+  "Colheita 100% finalizada em todos os estados monitorados",
+  "Chuva prevista (até 58,8 mm) favorável para reposição hídrica do solo",
+  "Sem dados de produtividade e comparativo com safra anterior disponíveis"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:50:49+00:00",
+  "colheita": "2026-06-11",
+  "preco": null
+ }
+}

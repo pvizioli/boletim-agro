@@ -1,0 +1,16 @@
+{
+ "distrito_id": "erechim_soja",
+ "nome": "ERECHIM-SOJA",
+ "gerado_em": "2026-07-04T01:46:57+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "Safra 2025/2026 encerrada em Erechim-RS com 100% colhido. Produtividade de 45 sc/ha, 14,8% abaixo da projeção inicial, refletindo forte variabilidade regional (1.200-4.200 kg/ha). Produção total de 18,1 milhões de toneladas, crescimento de 32,9% versus safra anterior. Preço em R$ 129/sc (03/07). Clima atual: mínimas negativas (-0,3°C), máximas de 23,2°C, com 2 dias de chuva relevante nos próximos 7 dias (0,9-6,0 mm). Sem alertas Inmet ativos.",
+ "pontos": [
+  "Produtividade 14,8% abaixo da projeção; variabilidade regional extrema comprometeu resultado final",
+  "Safra encerrada; foco agora em armazenagem e comercialização com preço em R$ 129/sc"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:53:56+00:00",
+  "colheita": "2026-06-11",
+  "preco": "2026-07-03"
+ }
+}

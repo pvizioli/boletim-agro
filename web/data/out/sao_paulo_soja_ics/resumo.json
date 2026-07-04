@@ -1,0 +1,17 @@
+{
+ "distrito_id": "sao_paulo_soja_ics",
+ "nome": "SAO PAULO-SOJA/ICS",
+ "gerado_em": "2026-07-04T01:49:21+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "A safra 2025/26 de soja em São Paulo está encerrada (100% colhido). Na semana de 4 de julho, o distrito registra condições de entressafra com chuvas previstas entre 0 e 39,7 mm em 58 municípios monitorados, concentradas em 4 dias. Temperaturas variam de 8,3°C a 27,6°C. Sem alertas Inmet ativos. Dados de produtividade e preço indisponíveis no 9º Levantamento Conab (11/jun/2026).",
+ "pontos": [
+  "Safra encerrada: foco em reposição de umidade do solo para próxima safra",
+  "Chuva moderada prevista (até 39,7 mm) em 4 dias da semana",
+  "Produtividade e preço não divulgados pela Conab no último levantamento"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:58:19+00:00",
+  "colheita": "2026-06-11",
+  "preco": null
+ }
+}

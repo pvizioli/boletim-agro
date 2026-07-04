@@ -1,0 +1,17 @@
+{
+ "distrito_id": "sorriso_soja_ics",
+ "nome": "SORRISO-SOJA/ICS",
+ "gerado_em": "2026-07-04T01:49:34+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "Safra 2025/26 de soja em Sorriso encerrada com 100% colhido. Produtividade de 66 sc/ha, crescimento de 1,3% versus safra anterior, totalizando 51,56 milhões de toneladas em MT (Imea/Conab, jun/26). Clima atual desfavorável: zero mm chuva prevista nos próximos 7 dias, máximas de 34°C e mínimas de 15,8°C. Preço em R$ 108,63/sc (Grão Direto, 03/jul). Entressafra consolidada com condições secas típicas do período invernal.",
+ "pontos": [
+  "Safra encerrada com bom desempenho produtivo (+1,3% vs anterior)",
+  "Ausência total de chuva prevista para 7 dias; clima seco de inverno",
+  "Preço estável em R$ 108,63/sc; foco em comercialização e armazenagem"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:58:21+00:00",
+  "colheita": "2026-06-11",
+  "preco": "2026-07-03"
+ }
+}

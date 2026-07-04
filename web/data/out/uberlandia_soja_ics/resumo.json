@@ -1,0 +1,17 @@
+{
+ "distrito_id": "uberlandia_soja_ics",
+ "nome": "UBERLANDIA-SOJA/ICS",
+ "gerado_em": "2026-07-04T01:49:42+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "Safra 2025/26 encerrada em Uberlândia (MG) com 100% colhido. Clima atual apresenta semana seca (0 mm previstos nos próximos 7 dias) com máximas de 30,1°C e mínimas de 12,7°C. Sem alertas Inmet ativos. Preço da saca em R$ 113,00 (Portal Agron, 06/05/2026). Condições normais para entressafra com ausência de chuva relevante.",
+ "pontos": [
+  "Colheita 100% concluída - safra finalizada conforme Conab (11/06/2026)",
+  "Sete dias sem chuva prevista - monitorar reposição hídrica para próxima safra",
+  "Preço estável em R$ 113/sc - referência de maio ainda vigente"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:58:22+00:00",
+  "colheita": "2026-06-11",
+  "preco": "2026-05-06"
+ }
+}

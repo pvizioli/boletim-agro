@@ -1,0 +1,17 @@
+{
+ "distrito_id": "maringa_soja",
+ "nome": "MARINGA-SOJA",
+ "gerado_em": "2026-07-04T01:47:57+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "Safra 2025/2026 encerrada no Paraná com 100% colhido. Produtividade de 63 sc/ha (+2,8% vs safra anterior), totalizando 21,78 milhões de toneladas. Clima atual desfavorável: próximos 7 dias com máxima de 26,1°C, mínima de 6,0°C e apenas 0-9,9 mm de chuva prevista (1 dia com precipitação relevante). Preço em R$ 128,50/sc (Paranaguá, 17/06). Sem alertas Inmet ativos.",
+ "pontos": [
+  "Safra finalizada com ganho produtivo de +2,8% em relação ao ciclo anterior",
+  "Clima seco na semana: chuva mínima (0-9,9 mm) não impacta colheita já concluída",
+  "Preço estável em R$ 128,50/sc; monitorar tendências pós-safra"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:56:35+00:00",
+  "colheita": "2026-05-25",
+  "preco": "2026-06-17"
+ }
+}

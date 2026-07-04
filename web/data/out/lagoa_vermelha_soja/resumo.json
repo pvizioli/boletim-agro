@@ -1,0 +1,17 @@
+{
+ "distrito_id": "lagoa_vermelha_soja",
+ "nome": "LAGOA VERMELHA-SOJA",
+ "gerado_em": "2026-07-04T01:47:44+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "Safra 2025/2026 encerrada em Lagoa Vermelha com 100% colhido. Produtividade de 45 sc/ha, 14,8% abaixo da projeção inicial, conforme Emater/RS-Ascar (11/06/2026). Produção total de 18,1 milhões de toneladas, crescimento de 32,9% versus safra anterior, mas com forte variabilidade regional (1.200-4.200 kg/ha). Preço em R$ 129/sc (03/07/2026). Clima atual: mínimas de -1°C e máximas de 23,4°C; chuva prevista de 2,4 a 7,8 mm nos próximos 7 dias.",
+ "pontos": [
+  "Produtividade 14,8% abaixo da projeção; variabilidade regional extrema requer análise por microrregião",
+  "Safra encerrada; foco em armazenagem e comercialização com preço em R$ 129/sc",
+  "Geadas noturnas (-1°C) possíveis; monitorar condições de armazenagem"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:56:03+00:00",
+  "colheita": "2026-06-11",
+  "preco": "2026-07-03"
+ }
+}

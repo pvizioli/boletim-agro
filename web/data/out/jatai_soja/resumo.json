@@ -1,0 +1,17 @@
+{
+ "distrito_id": "jatai_soja",
+ "nome": "JATAI-SOJA",
+ "gerado_em": "2026-07-04T01:47:35+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "Safra 2025/26 encerrada em Jatai-Soja (GO e MS). Goiás finalizou 100% da colheita com produção de 20,1 Mi t; Mato Grosso do Sul atingiu 60 sc/ha e 16,7 Mi t (+19,1% vs safra anterior). Clima atual: sem chuva prevista nos próximos 7 dias, máximas de 29,4°C e mínimas de 13,6°C. Preço em GO: R$ 108,50/sc (17 jun). Entressafra consolidada com condições climáticas secas típicas do período.",
+ "pontos": [
+  "MS superou safra anterior em 19,1%; GO sem produtividade registrada",
+  "Zero mm chuva prevista 7 dias - clima seco característico de entressafra",
+  "Preço R$ 108,50/sc em GO; colheita 100% concluída em ambos os estados"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:56:02+00:00",
+  "colheita": "2026-06-11",
+  "preco": "2026-06-17"
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "distrito_id": "dourados_soja_ics",
+ "nome": "DOURADOS-SOJA/ICS",
+ "gerado_em": "2026-07-04T01:46:53+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "A safra 2025/26 de soja em Dourados-MS encerrou com 100% de colheita em maio, atingindo 60 sc/ha e 16,74 milhões de toneladas, crescimento de 19,1% versus safra anterior (Aprosoja/MS-Siga/Famasul, 26/05/2026). Julho apresenta condições de entressafra: chuva mínima prevista (0-3,6 mm em 7 dias), temperatura média de 16,5°C e apenas 1 dia com chuva relevante. Sem alertas Inmet ativos. Período favorável para manejo de solo e planejamento da próxima safra.",
+ "pontos": [
+  "Safra encerrada com produtividade 19,1% acima da anterior",
+  "Chuva escassa na semana: máximo 3,6 mm em 28 municípios monitorados",
+  "Temperatura mínima crítica (5,1°C): monitorar geadas tardias"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:53:55+00:00",
+  "colheita": "2026-05-26",
+  "preco": null
+ }
+}
