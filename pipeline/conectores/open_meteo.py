@@ -45,6 +45,10 @@ DAILY = [
     "precipitation_sum",
     "precipitation_probability_max",
     "weathercode",
+    "windspeed_10m_max",
+    "windgusts_10m_max",
+    "winddirection_10m_dominant",
+    "et0_fao_evapotranspiration",
 ]
 
 
@@ -144,6 +148,10 @@ def montar_bloco(mun, prev, agora):
     pp = d.get("precipitation_sum", [])
     prob = d.get("precipitation_probability_max", [])
     wc = d.get("weathercode", [])
+    vv = d.get("windspeed_10m_max", [])
+    vr = d.get("windgusts_10m_max", [])
+    vd = d.get("winddirection_10m_dominant", [])
+    et = d.get("et0_fao_evapotranspiration", [])
 
     dias = []
     for i in range(len(datas)):
@@ -155,6 +163,10 @@ def montar_bloco(mun, prev, agora):
             "prob_chuva": get(prob, i),
             "weathercode": get(wc, i),
             "tempo": categoria_tempo(get(wc, i)),
+            "vento_kmh": get(vv, i),
+            "rajada_kmh": get(vr, i),
+            "vento_dir_graus": get(vd, i),
+            "et0_mm": get(et, i),
         })
     atual = dias[0] if dias else {}
     return {
