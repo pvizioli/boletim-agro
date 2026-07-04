@@ -235,7 +235,7 @@
     body > header, body > .app, body > footer{display:none !important}
     body{background:#ffffff}
     *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
-    #print-area{display:block;color:#16211b;font-size:12px;line-height:1.5}
+    #print-area{display:block;color:#16211b;font-size:12px;line-height:1.5;background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22190mm%22%20height%3D%22277mm%22%20viewBox%3D%220%200%20190%20277%22%3E%3Cg%20transform%3D%22translate%2895%2C138%29%20rotate%28-12%29%20scale%282.6%29%20translate%28-24%2C-24%29%22%3E%3Cpath%20d%3D%22M24%2040V22%22%20stroke%3D%22%232f7d54%22%20stroke-opacity%3D%22.09%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22%20fill%3D%22none%22/%3E%3Cpath%20d%3D%22M24%2026c-6%200-10-4-10-10%206%200%2010%204%2010%2010z%22%20fill%3D%22%232f7d54%22%20fill-opacity%3D%22.09%22/%3E%3Cpath%20d%3D%22M24%2022c5%200%209-3%209-9-5%200-9%203-9%209z%22%20fill%3D%22%232f7d54%22%20fill-opacity%3D%22.065%22/%3E%3C/g%3E%3C/svg%3E");background-repeat:repeat-y;background-position:top center;background-size:190mm 277mm;-webkit-print-color-adjust:exact;print-color-adjust:exact}
     .pr-head{display:flex;align-items:flex-end;justify-content:space-between;border-bottom:2.5px solid #2f7d54;padding-bottom:7px;margin-bottom:10px}
     .pr-eyerow{display:flex;align-items:center;gap:8px}
     .pr-bar{width:4px;height:26px;background:#2f7d54;border-radius:2px}
@@ -271,8 +271,6 @@
     .pr-wday .ch{font-family:'IBM Plex Mono',monospace;font-size:8.5px;color:#0b6ea8;margin-top:2px}
     .pr-mun-x{font-family:'IBM Plex Mono',monospace;font-size:8.5px;color:#7c8a81;margin-top:3px}
     .pr-foot{border-top:1px solid #c5d0ba;margin-top:9px;padding-top:4px;font-family:'IBM Plex Mono',monospace;font-size:8.5px;color:#7c8a81;line-height:1.4}
-    .pr-marca{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%) rotate(-12deg);width:130mm;height:130mm;opacity:.06;z-index:9;pointer-events:none}
-    .pr-marca svg{width:100%;height:100%}
   }
   @media(max-width:640px){
     .muncard-head{flex-direction:column;align-items:flex-start;gap:12px}
@@ -776,8 +774,7 @@ function imprimirBoletim(){
   var d=cacheDistrito[nav.distrito]; if(!d) return;
   var sel=selDoDistrito(d), r=cacheResumo[nav.distrito];
   var hoje=new Date().toLocaleDateString("pt-BR");
-  var marca='<div class="pr-marca"><svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="M24 40V22" stroke="#2f7d54" stroke-width="2.5" stroke-linecap="round"/><path d="M24 26c-6 0-10-4-10-10 6 0 10 4 10 10z" fill="#2f7d54"/><path d="M24 22c5 0 9-3 9-9-5 0-9 3-9 9z" fill="#2f7d54" opacity=".7"/></svg></div>';
-  var h=marca+'<div class="pr-head"><div><div class="pr-eyerow"><div class="pr-bar"></div><span class="pr-eyebrow">Boletim de Clima &amp; Colheita</span></div>'
+  var h='<div class="pr-head"><div><div class="pr-eyerow"><div class="pr-bar"></div><span class="pr-eyebrow">Boletim de Clima &amp; Colheita</span></div>'
     +'<div class="pr-title">'+escX(d.distrito.nome||"")+'</div></div>'
     +'<div class="pr-sub">'+escX(d.distrito.regional||"")+'<br>UF: '+escX((d.distrito.ufs||[]).join(", "))+'<br>emitido em '+hoje+'</div></div>';
   if(r&&r.texto){
