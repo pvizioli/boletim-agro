@@ -230,26 +230,47 @@
     .sidebar.aberta{display:block}
     .content{padding:22px 20px 50px}
   }
-  @page{margin:13mm}
+  @page{margin:12mm}
   @media print{
     body > header, body > .app, body > footer{display:none !important}
     body{background:#ffffff}
-    #print-area{display:block;color:#111;font-size:12px;line-height:1.5}
-    .pr-head{border-bottom:2.5px solid #2f7d54;padding-bottom:8px;margin-bottom:14px}
-    .pr-eyebrow{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:#2f7d54;-webkit-print-color-adjust:exact;print-color-adjust:exact}
-    .pr-title{font-family:'Fraunces',Georgia,serif;font-size:24px;color:#111;margin:2px 0}
-    .pr-sub{font-family:'IBM Plex Mono',monospace;font-size:10px;color:#555}
-    .pr-sec{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#2f7d54;margin:16px 0 6px;-webkit-print-color-adjust:exact;print-color-adjust:exact}
-    .pr-txt{font-size:12.5px;line-height:1.65;color:#222;margin:0 0 6px}
-    .pr-pt{margin:2px 0 2px 14px;color:#333}
-    .pr-meta{font-family:'IBM Plex Mono',monospace;font-size:9px;color:#777;margin-top:4px}
-    .pr-tab{width:100%;border-collapse:collapse;margin:4px 0 6px}
-    .pr-tab th{font-family:'IBM Plex Mono',monospace;font-size:8.5px;letter-spacing:.06em;text-transform:uppercase;color:#666;text-align:left;border-bottom:1px solid #bbb;padding:3px 6px}
-    .pr-tab td{font-size:11px;color:#222;border-bottom:1px solid #e4e4e4;padding:3px 6px}
-    .pr-mun{page-break-inside:avoid;margin-bottom:10px}
-    .pr-mun-h{font-weight:600;font-size:13px;color:#111;margin-bottom:2px}
-    .pr-mun-c{font-size:10.5px;color:#444;margin:1px 0 4px}
-    .pr-foot{border-top:1px solid #ccc;margin-top:16px;padding-top:6px;font-family:'IBM Plex Mono',monospace;font-size:9px;color:#777}
+    *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    #print-area{display:block;color:#16211b;font-size:12px;line-height:1.5}
+    .pr-head{display:flex;align-items:flex-end;justify-content:space-between;border-bottom:2.5px solid #2f7d54;padding-bottom:10px;margin-bottom:14px}
+    .pr-eyerow{display:flex;align-items:center;gap:8px}
+    .pr-bar{width:4px;height:26px;background:#2f7d54;border-radius:2px}
+    .pr-eyebrow{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:#2f7d54}
+    .pr-title{font-family:'Fraunces',Georgia,serif;font-size:25px;color:#14241a;margin:2px 0 0}
+    .pr-sub{font-family:'IBM Plex Mono',monospace;font-size:10px;color:#5d7466;text-align:right}
+    .pr-sec{display:flex;align-items:center;gap:7px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#2f7d54;margin:15px 0 7px}
+    .pr-ria{background:#f2f7f0;border-left:4px solid #2f7d54;border-radius:0 8px 8px 0;padding:11px 14px;margin-bottom:4px}
+    .pr-txt{font-size:12.5px;line-height:1.65;color:#22302a;margin:0 0 7px}
+    .pr-pt{display:flex;gap:7px;align-items:flex-start;font-size:11.5px;color:#39483f;margin:3px 0}
+    .pr-dot{flex-shrink:0;width:5px;height:5px;border-radius:50%;background:#2f7d54;margin-top:6px}
+    .pr-meta{font-family:'IBM Plex Mono',monospace;font-size:9px;color:#7c8a81;margin-top:6px}
+    .pr-preco{display:inline-flex;align-items:baseline;gap:8px;background:#eef3ea;border:1px solid #c5d0ba;border-radius:8px;padding:8px 14px}
+    .pr-preco .v{font-family:'Fraunces',Georgia,serif;font-size:21px;color:#236343}
+    .pr-preco .u{font-size:10px;color:#5d7466}
+    .pr-preco .m{font-family:'IBM Plex Mono',monospace;font-size:9px;color:#7c8a81}
+    .pr-tab{width:100%;border-collapse:collapse;margin:2px 0 4px}
+    .pr-tab th{font-family:'IBM Plex Mono',monospace;font-size:8.5px;letter-spacing:.06em;text-transform:uppercase;color:#5d7466;text-align:left;border-bottom:1.5px solid #b9c7aa;padding:4px 6px}
+    .pr-tab td{font-size:11px;color:#22302a;border-bottom:1px solid #e3e9dd;padding:5px 6px;vertical-align:middle}
+    .pr-prog{position:relative;width:74px;height:8px;background:#e3e9dd;border-radius:4px;overflow:hidden;display:inline-block;vertical-align:middle;margin-right:6px}
+    .pr-prog i{position:absolute;left:0;top:0;bottom:0;background:#2f7d54;border-radius:4px}
+    .pr-mun{page-break-inside:avoid;margin-bottom:12px;border:1px solid #dde4d5;border-radius:9px;padding:9px 11px}
+    .pr-mun-h{display:flex;align-items:baseline;gap:8px;font-weight:600;font-size:13px;color:#14241a;margin-bottom:2px}
+    .pr-mun-a{font-weight:400;color:#5d7466;font-size:10px;font-family:'IBM Plex Mono',monospace}
+    .pr-mun-c{font-size:10.5px;color:#39483f;margin:2px 0 6px}
+    .pr-week{display:flex;gap:4px}
+    .pr-wday{flex:1;text-align:center;background:#f1f5ee;border-radius:6px;padding:6px 2px 7px}
+    .pr-wday .d{font-family:'IBM Plex Mono',monospace;font-size:8px;text-transform:uppercase;letter-spacing:.04em;color:#5d7466}
+    .pr-wday .i{width:22px;height:22px;margin:4px auto 2px}
+    .pr-wday .i svg{width:22px;height:22px}
+    .pr-wday .mx{font-family:'Fraunces',Georgia,serif;font-size:14px;color:#14241a}
+    .pr-wday .mn{font-size:9px;color:#5d7466}
+    .pr-wday .ch{font-family:'IBM Plex Mono',monospace;font-size:8.5px;color:#0b6ea8;margin-top:2px}
+    .pr-mun-x{font-family:'IBM Plex Mono',monospace;font-size:9px;color:#7c8a81;margin-top:5px}
+    .pr-foot{border-top:1px solid #c5d0ba;margin-top:14px;padding-top:6px;font-family:'IBM Plex Mono',monospace;font-size:9px;color:#7c8a81}
   }
   @media(max-width:640px){
     .muncard-head{flex-direction:column;align-items:flex-start;gap:12px}
@@ -753,41 +774,57 @@ function imprimirBoletim(){
   var d=cacheDistrito[nav.distrito]; if(!d) return;
   var sel=selDoDistrito(d), r=cacheResumo[nav.distrito];
   var hoje=new Date().toLocaleDateString("pt-BR");
-  var h='<div class="pr-head"><div class="pr-eyebrow">Boletim de Clima &amp; Colheita</div>'
-    +'<div class="pr-title">'+escX(d.distrito.nome||"")+'</div>'
-    +'<div class="pr-sub">'+escX(d.distrito.regional||"")+' &middot; UF: '+escX((d.distrito.ufs||[]).join(", "))+' &middot; emitido em '+hoje+'</div></div>';
+  var h='<div class="pr-head"><div><div class="pr-eyerow"><div class="pr-bar"></div><span class="pr-eyebrow">Boletim de Clima &amp; Colheita</span></div>'
+    +'<div class="pr-title">'+escX(d.distrito.nome||"")+'</div></div>'
+    +'<div class="pr-sub">'+escX(d.distrito.regional||"")+'<br>UF: '+escX((d.distrito.ufs||[]).join(", "))+'<br>emitido em '+hoje+'</div></div>';
   if(r&&r.texto){
-    h+='<div class="pr-sec">Resumo do analista (gerado por IA)</div><p class="pr-txt">'+escX(r.texto)+'</p>';
-    for(var i=0;i<(r.pontos||[]).length;i++){ h+='<div class="pr-pt">&bull; '+escX(r.pontos[i])+'</div>'; }
-    h+='<div class="pr-meta">'+escX(r.modelo||"")+' &middot; '+fmtData(r.gerado_em||"")+'</div>';
+    h+='<div class="pr-sec">'+icoBroto(13,"#2f7d54")+' Resumo do analista (gerado por IA)</div>';
+    h+='<div class="pr-ria"><p class="pr-txt">'+escX(r.texto)+'</p>';
+    for(var i=0;i<(r.pontos||[]).length;i++){ h+='<div class="pr-pt"><span class="pr-dot"></span><span>'+escX(r.pontos[i])+'</span></div>'; }
+    h+='<div class="pr-meta">'+escX(r.modelo||"")+' &middot; '+fmtData(r.gerado_em||"")+' &middot; a partir dos dados do boletim</div></div>';
   }
   var p=d.preco;
   if(p&&p.valor!=null){
-    h+='<div class="pr-sec">Pre&ccedil;o da saca</div><p class="pr-txt">R$ '+Number(p.valor).toLocaleString("pt-BR",{minimumFractionDigits:2})+' /sc 60kg ('+escX(p.uf||"")+') &middot; '+fmtDia(p.data||"")+' &middot; '+escX(p.fonte||"")+'</p>';
+    h+='<div class="pr-sec">'+icoCheck(13,"#2f7d54")+' Pre&ccedil;o da saca</div>'
+      +'<div class="pr-preco"><span class="v">R$ '+Number(p.valor).toLocaleString("pt-BR",{minimumFractionDigits:2})+'</span><span class="u">/sc 60kg &middot; '+escX(p.uf||"")+'</span>'
+      +'<span class="m">'+fmtDia(p.data||"")+' &middot; '+escX(p.fonte||"")+'</span></div>';
   }
   var c=d.colheita;
   if(c&&c.itens&&c.itens.length){
-    h+='<div class="pr-sec">Colheita &amp; plantio</div><table class="pr-tab"><tr><th>Regi&atilde;o</th><th>Plantado</th><th>Colhido</th><th>Produtividade</th><th>Fonte</th></tr>';
+    h+='<div class="pr-sec">'+icoBroto(13,"#2f7d54")+' Colheita &amp; plantio</div><table class="pr-tab"><tr><th>Regi&atilde;o</th><th>Plantado</th><th>Colhido</th><th>Produtividade</th><th>Fonte</th></tr>';
     for(var j=0;j<c.itens.length;j++){ var it=c.itens[j];
-      h+='<tr><td>'+escX(it.regiao||it.uf||"")+'</td><td>'+(it.pct_plantado!=null?it.pct_plantado+"%":"-")+'</td><td>'+(it.pct_colhido!=null?it.pct_colhido+"%":"-")+'</td>'
+      var pl=(it.pct_plantado!=null)?('<span class="pr-prog"><i style="width:'+Math.min(100,it.pct_plantado)+'%"></i></span>'+it.pct_plantado+"%"):"-";
+      var co=(it.pct_colhido!=null)?('<span class="pr-prog"><i style="width:'+Math.min(100,it.pct_colhido)+'%"></i></span>'+it.pct_colhido+"%"):"-";
+      h+='<tr><td>'+escX(it.regiao||it.uf||"")+'</td><td>'+pl+'</td><td>'+co+'</td>'
         +'<td>'+(it.produtividade_kg_ha?(Math.round(it.produtividade_kg_ha/60)+" sc/ha"):"-")+'</td>'
         +'<td>'+escX(it.fonte||"")+(it.data_referencia?(" ("+fmtDia(it.data_referencia)+")"):"")+'</td></tr>';
     }
     h+='</table>';
   }
   var ms=(d.municipios||[]).filter(function(m){ return m.clima && sel[m.id]; });
-  h+='<div class="pr-sec">Previs&atilde;o 7 dias - munic&iacute;pios selecionados ('+ms.length+')</div>';
+  h+='<div class="pr-sec">'+icoMapa(13,"#2f7d54")+' Previs&atilde;o 7 dias - munic&iacute;pios selecionados ('+ms.length+')</div>';
   for(var k=0;k<ms.length;k++){ var m=ms[k], prev=(m.clima.previsao_7d||[]).slice(0,7);
-    h+='<div class="pr-mun"><div class="pr-mun-h">'+escX(m.nome)+(m.area_soja_ha?(' <span style="font-weight:400;color:#666;font-size:10px">('+fmtMil(m.area_soja_ha)+' ha de soja)</span>'):'')+'</div>';
+    h+='<div class="pr-mun"><div class="pr-mun-h">'+escX(m.nome)+(m.area_soja_ha?('<span class="pr-mun-a">'+fmtMil(m.area_soja_ha)+' ha de soja</span>'):'')+'</div>';
     if(m.colheita){ var mc=m.colheita;
-      h+='<div class="pr-mun-c">Colheita: '+(mc.pct_plantado!=null?("plantado "+mc.pct_plantado+"%"):"")+(mc.pct_colhido!=null?(" &middot; colhido "+mc.pct_colhido+"%"):"")+(mc.regiao?(" &middot; regi&atilde;o "+escX(mc.regiao)):"")+' <span style="color:#888">(estimativa derivada)</span></div>';
+      h+='<div class="pr-mun-c">Colheita: '+(mc.pct_plantado!=null?("plantado "+mc.pct_plantado+"%"):"")+(mc.pct_colhido!=null?(" &middot; colhido "+mc.pct_colhido+"%"):"")+(mc.regiao?(" &middot; regi&atilde;o "+escX(mc.regiao)):"")+' <span style="color:#7c8a81">(estimativa derivada)</span></div>';
     }
-    h+='<table class="pr-tab"><tr><th>Dia</th><th>Tempo</th><th>Max</th><th>Min</th><th>Chuva</th><th>Prob.</th><th>Rajada</th></tr>';
+    h+='<div class="pr-week">';
+    var rajMax=null, etSoma=0, etN=0;
     for(var q=0;q<prev.length;q++){ var dd=prev[q];
-      h+='<tr><td>'+fmtDia(dd.data||"").slice(0,5)+'</td><td>'+escX(dd.tempo||"-")+'</td><td>'+(dd.tmax!=null?Math.round(dd.tmax)+"\u00b0":"-")+'</td><td>'+(dd.tmin!=null?Math.round(dd.tmin)+"\u00b0":"-")+'</td>'
-        +'<td>'+(dd.precip_mm!=null?dd.precip_mm+" mm":"-")+'</td><td>'+(dd.prob_chuva!=null?dd.prob_chuva+"%":"-")+'</td><td>'+(dd.rajada_kmh!=null?Math.round(dd.rajada_kmh)+" km/h":"-")+'</td></tr>';
+      if(dd.rajada_kmh!=null && (rajMax===null||dd.rajada_kmh>rajMax)) rajMax=dd.rajada_kmh;
+      if(dd.et0_mm!=null){ etSoma+=dd.et0_mm; etN++; }
+      h+='<div class="pr-wday"><div class="d">'+diaSemana(dd.data)+' '+ddmm(dd.data)+'</div>'
+        +'<div class="i">'+iconePorTempo(dd.tempo,22)+'</div>'
+        +'<div class="mx">'+(dd.tmax!=null?Math.round(dd.tmax)+"\u00b0":"-")+'</div>'
+        +'<div class="mn">'+(dd.tmin!=null?Math.round(dd.tmin)+"\u00b0":"-")+'</div>'
+        +'<div class="ch">'+((dd.precip_mm||0)>0?(dd.precip_mm+" mm"):"&mdash;")+'</div></div>';
     }
-    h+='</table></div>';
+    h+='</div>';
+    var extra=[];
+    if(rajMax!=null) extra.push("rajada m\u00e1x "+Math.round(rajMax)+" km/h");
+    if(etN) extra.push("ET0 m\u00e9dia "+(etSoma/etN).toFixed(1)+" mm/dia");
+    if(extra.length) h+='<div class="pr-mun-x">'+extra.join(" &middot; ")+'</div>';
+    h+='</div>';
   }
   h+='<div class="pr-foot">Gerado em '+hoje+' &middot; boletim-agro.vercel.app &middot; Dados: Open-Meteo (previs&atilde;o), INMET (alertas), Conab e &oacute;rg&atilde;os estaduais (colheita), fontes de pre&ccedil;o citadas &middot; Estimativas municipais s&atilde;o derivadas e rotuladas.</div>';
   var pa=document.getElementById("print-area");
