@@ -1,16 +1,16 @@
 {
  "distrito_id": "sao_paulo_soja_ics",
  "nome": "SAO PAULO-SOJA/ICS",
- "gerado_em": "2026-07-04T04:07:58+00:00",
+ "gerado_em": "2026-07-04T15:57:38+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito SAO PAULO-SOJA/ICS, semana de 04 a 10/jul/2026. A safra 2025/26 de SP está encerrada (100% colhido, Conab – 9º Levantamento, jun/2026), portanto o foco é a dinâmica atmosférica. O sábado (05/jul) apresentou rajadas de 40,3 km/h com vento de leste, seguido de calmaria relativa domingo e segunda. Na terça (07/jul) houve virada brusca do vento para norte (15°), rajadas de 46,8 km/h, chuva de 10,1 mm e ET0 elevada de 5,09 mm — padrão compatível com passagem de sistema frontal. Após a frente, quarta (08/jul) registrou queda de Tmax para 26,1 °C e chuva residual de 6,9 mm. Quinta (09/jul) marcou a mínima semanal de 8,3 °C, sem chuva, com vento girando para sudeste — ar frio pós-frontal. Sexta (10/jul) retoma aquecimento (Tmax 28,9 °C) e ET0 de 3,95 mm. ET0 média semanal de 3,8 mm/dia (sinais_derivados) indica demanda evapotranspirativa moderada-alta para o inverno.",
+ "texto": "Distrito SAO PAULO-SOJA/ICS, semana de 4 a 10 de julho de 2026. A safra 2025/26 de SP está encerrada com 100% colhido (Conab, 9º Levantamento, jun/2026). O foco recai sobre a dinâmica atmosférica. O sábado (5/jul) registrou rajadas de até 40 km/h com vento de leste, seguido de calmaria no domingo (6/jul). Na terça (7/jul), chuva de 14,2 mm com rajadas de 54 km/h e virada brusca do vento para norte (3°) e queda de mínima para 10,3°C indicam passagem de sistema frontal. Após a frente, na quarta (8/jul) mínima recua a 9,4°C. Na quinta (9/jul) o vento gira para noroeste (345°), mínima atinge 7,1°C — valor mais baixo da série — e chuva cessa. O fim de semana seco eleva a ET0 a 3,8 mm/dia (9/jul), com máxima chegando a 29,6°C (10/jul), refletindo retorno de massa de ar seco pós-frontal. ET0 média semanal de 3,5 mm/dia.",
  "pontos": [
-  "Passagem frontal identificada na terça (07/jul): virada de vento para norte, rajada de 46,8 km/h, chuva de 10,1 mm e ET0 de 5,09 mm",
-  "Mínima de 8,3 °C registrada na quinta (09/jul) com ar frio pós-frontal — monitorar culturas de inverno e pomares na região",
-  "Safra soja 2025/26 de SP encerrada a 100% (Conab, jun/2026); preço da saca não disponível no levantamento atual"
+  "Passagem de sistema frontal identificada na terça (7/jul): 14,2 mm, rajada de 54 km/h e virada de vento para norte",
+  "Mínima de 7,1°C registrada na quinta (9/jul) — menor valor da semana; monitorar culturas de inverno e pomares sensíveis ao frio",
+  "ET0 média de 3,5 mm/dia com pico de 3,8 mm/dia (9/jul) indica demanda hídrica moderada-alta no pós-frontal"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T03:46:51+00:00",
+  "clima": "2026-07-04T14:55:55+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

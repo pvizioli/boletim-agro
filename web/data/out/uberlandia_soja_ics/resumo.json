@@ -1,16 +1,16 @@
 {
  "distrito_id": "uberlandia_soja_ics",
  "nome": "UBERLANDIA-SOJA/ICS",
- "gerado_em": "2026-07-04T04:09:02+00:00",
+ "gerado_em": "2026-07-04T15:58:45+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Uberlândia-Soja/ICS, 4 de julho de 2026. A safra 2025/26 de MG está encerrada com 100% colhido (Conab, 9º Levantamento, jun/2026). O padrão climático da semana é tipicamente invernal: sequência de 6 dias secos consecutivos (sinais_derivados), amplitude térmica elevada — mínimas entre 12,7 °C e 14,2 °C e máximas até 31,5 °C — e ET0 média de 4,2 mm/dia, indicando alta demanda evaporativa mesmo sem cultivo. Na terça (07/jul), rajada de 42,8 km/h com virada de vento para quadrante oeste (244°) sugere passagem de sistema frontal fraco, sem precipitação associada. Único evento de chuva previsto é de 5,4 mm na sexta (10/jul), insuficiente para alterar o balanço hídrico. Sem alertas INMET ativos. Preço de referência: R$ 113,00/sc 60 kg no Triângulo Mineiro (Portal Agron, 06/mai/2026).",
+ "texto": "Uberlândia/MG, 4 de julho de 2026. A safra 2025/26 de soja em Minas Gerais está encerrada, com 100% de plantio e colheita concluídos (Conab – 9º Levantamento, jun/2026). O cenário climático da semana é de inverno seco e estável: sete dias consecutivos sem chuva relevante, com precipitação máxima prevista de apenas 0,6 mm no sábado (10/jul). As máximas oscilam entre 28,8 °C e 31,4 °C, enquanto as mínimas chegam a 12,3 °C na quarta (9/jul), sem indicativo de geada. A evapotranspiração média de 4,2 mm/dia, combinada à sequência seca, aponta demanda hídrica elevada — relevante para pastagens e culturas de inverno. Na terça (7/jul), rajadas de até 42,5 km/h com virada de vento para sudoeste sugerem passagem de sistema frontal fraco, sem precipitação associada. O preço da soja no Triângulo Mineiro estava em R$ 113,00/sc 60 kg (Portal Agron, 6/mai/2026).",
  "pontos": [
-  "Entressafra consolidada: MG com 100% colhido, safra 2025/26 encerrada (Conab, jun/2026)",
-  "Veranico invernal: 6 dias secos consecutivos com ET0 média de 4,2 mm/dia — atenção ao manejo de solos e irrigação de culturas de inverno",
-  "Passagem frontal fraca na terça (07/jul): rajada de 42,8 km/h e virada de vento para oeste, sem chuva associada"
+  "Safra 2025/26 encerrada em MG com 100% colhido — foco no período de entressafra",
+  "Sete dias consecutivos sem chuva e ET0 média de 4,2 mm/dia elevam demanda hídrica regional",
+  "Rajadas de até 42,5 km/h na terça (7/jul) com virada de vento indicam frente fraca sem chuva"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T03:48:00+00:00",
+  "clima": "2026-07-04T14:57:01+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-05-06"
  }

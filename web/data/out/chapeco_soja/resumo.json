@@ -1,16 +1,16 @@
 {
  "distrito_id": "chapeco_soja",
  "nome": "CHAPECO-SOJA",
- "gerado_em": "2026-07-04T03:59:49+00:00",
+ "gerado_em": "2026-07-04T15:49:40+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Chapecó-SC, 04/jul/2026. Safra 2025/2026 encerrada com 100% colhido e produtividade de 63 sc/ha (Epagri/Cepa, mai/2026). A produção total ficou em ~3,1 mi t, recuo de 7% frente à safra anterior, puxado por queda de 5,5% na produtividade e retração de 1,6% na área da 1ª safra. A semana meteorológica é marcada por padrão tipicamente invernal: sexta (03/jul) registrou tmax de apenas 14,6 °C com 2,1 mm, seguida de aquecimento rápido até 24,6 °C no domingo (05/jul). A passagem frontal sinalizada para segunda (06/jul) concentra o evento mais expressivo da semana — 8,1 mm com prob. 94% e queda de tmax para 17,2 °C. Após a frente, retorno ao frio seco com tmin de -1,0 °C na quarta (08/jul). Risco de geada em cinco dos sete dias monitorados. Chuva acumulada prevista é baixa (máx. 10,6 mm/7d), sem impacto operacional relevante na entressafra.",
+ "texto": "Chapecó-SC, 04/jul/2026 — Safra 2025/2026 encerrada com 100% colhido e produtividade de 63 sc/ha (Epagri/Cepa, mai/2026), mas resultado abaixo do ciclo anterior: produção total de 3,1 milhões de toneladas, queda de 7% frente à safra passada, puxada por menor produtividade (-5,5%) e área (-1,6%). O inverno impõe dinâmica típica: passagem frontal identificada no domingo (06/jul), com máxima de apenas 17,4°C, chuva de 6,5 mm e vento girando para oeste. Antes e após o sistema, mínimas abaixo de 3°C em quatro dias (04, 07, 08 e 09/jul) indicam risco de geada nas madrugadas — atenção para culturas de inverno e viveiros. Chuva acumulada prevista para 7 dias é baixa (máx. 7,7 mm), com sequência seca de até 3 dias e ET0 média de 2,4 mm/dia, demanda hídrica moderada para o período.",
  "pontos": [
-  "Safra encerrada: produtividade 63 sc/ha, queda de 7% na produção vs. safra anterior (Epagri/Cepa, mai/2026)",
-  "Passagem frontal prevista para segunda (06/jul): 8,1 mm e prob. 94% — evento mais concentrado da semana",
-  "Risco de geada em 5 dos 7 dias (tmin ≤ 3 °C), incluindo quarta (08/jul) com tmin de -1,0 °C"
+  "Safra 2025/2026 encerrada: 63 sc/ha, produção 3,1 mi t, queda de 7% vs. safra anterior (Epagri/Cepa, mai/2026)",
+  "Risco de geada em quatro madrugadas da semana (04, 07, 08 e 09/jul) com mínimas entre -0,4°C e 2,5°C",
+  "Passagem frontal no domingo (06/jul): chuva mais expressiva da semana (6,5 mm), queda de temperatura e virada de vento para oeste"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T02:42:41+00:00",
+  "clima": "2026-07-04T14:51:14+00:00",
   "colheita": "2026-05-01",
   "preco": null
  }

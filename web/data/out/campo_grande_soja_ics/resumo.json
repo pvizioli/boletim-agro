@@ -1,16 +1,16 @@
 {
  "distrito_id": "campo_grande_soja_ics",
  "nome": "CAMPO GRANDE-SOJA/ICS",
- "gerado_em": "2026-07-04T03:58:30+00:00",
+ "gerado_em": "2026-07-04T15:48:24+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Campo Grande/MS — 4 de julho de 2026. A safra 2025/26 de soja em MS está encerrada: 100% colhido, com produtividade de 60 sc/ha e produção de 16,74 milhões de toneladas, alta de 19,1% sobre a safra anterior (Aprosoja/MS-Siga/Famasul, 26/05/2026). O foco agora é a dinâmica do tempo no período de entressafra. A série diária revela padrão típico de inverno sul-mato-grossense: sequência seca com amplitudes térmicas acentuadas — mínimas entre 9,5 °C e 14,1 °C e máximas chegando a 31,3 °C. Para domingo (06/07), há probabilidade de 52% de chuva com 2,6 mm previstos, seguida de rápida recuperação de tempo seco. Nenhum alerta INMET ativo. A precipitação acumulada prevista para 7 dias é de apenas 0 a 2,6 mm, sem evento relevante caracterizado.",
+ "texto": "Campo Grande (MS) — Julho de 2026. A safra 2025/26 de soja em Mato Grosso do Sul está encerrada, com colheita concluída em maio. O balanço final aponta produtividade de 60 sc/ha e produção de 16,74 milhões de toneladas, alta de 19,1% sobre a safra anterior (Aprosoja/MS-Siga/Famasul, 26/05/2026). No campo climático, a semana é marcada por padrão tipicamente invernal: sequência de sete dias sem chuva relevante, com precipitação acumulada máxima de 1,8 mm nos 15 municípios monitorados. Sábado (05/07) e domingo (06/07) registram aquecimento gradual, com máxima de 29,9°C e evento isolado de 1,5 mm com 57% de probabilidade — possivelmente associado a instabilidade passageira. Na segunda (07/07), rajadas de até 45,4 km/h e queda de temperatura sugerem passagem de sistema frontal fraco. A partir de terça (08/07), retorno do calor seco, com máximas acima de 30°C e ET0 diária chegando a 4,63 mm/dia, elevando a demanda hídrica atmosférica.",
  "pontos": [
-  "Safra 2025/26 encerrada com 60 sc/ha e +19,1% sobre a safra anterior (Aprosoja/MS-Siga/Famasul, 26/05/2026)",
-  "Padrão de inverno seco consolidado: zero dias com chuva relevante nos próximos 7 dias e amplitude térmica diária superior a 15 °C",
-  "Único pulso de chuva previsto no domingo (06/07): 2,6 mm com 52% de probabilidade — volume insuficiente para alterar o balanço hídrico"
+  "Safra 2025/26 encerrada com produtividade de 60 sc/ha e crescimento de 19,1% sobre a safra anterior (Aprosoja/MS-Siga/Famasul)",
+  "Semana seca: sete dias consecutivos sem chuva relevante e acumulado máximo de 1,8 mm — sem impacto operacional na entressafra",
+  "Passagem de sistema frontal fraco projetada para segunda-feira (07/07): rajadas de até 45,4 km/h e queda de temperatura mínima para 11,9°C"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T02:16:22+00:00",
+  "clima": "2026-07-04T14:51:05+00:00",
   "colheita": "2026-05-26",
   "preco": null
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "sinop_soja",
  "nome": "SINOP-SOJA",
- "gerado_em": "2026-07-04T04:08:25+00:00",
+ "gerado_em": "2026-07-04T15:58:08+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito SINOP-SOJA (MT/PA) — safra 2025/26 encerrada em ambas as UFs. Em MT, produtividade de 66 sc/ha (Imea em Campo/Conab, 9º lev., jun/26), com produção de 51,56 milhões de toneladas, alta de 1,3% sobre a safra anterior. No PA, dados de produtividade e produção não disponíveis (Conab, 9º lev., jun/26). A dinâmica climática da semana revela padrão de entressafra típico do Cerrado: sexta (04/jul) e sábado (05/jul) com tempo aberto, rajadas de até 46,1 km/h na quinta (03/jul) e ventos de quadrante leste-sudeste, ET0 média elevada de 5,2 mm/dia — demanda hídrica alta sem reposição. A partir de domingo (06/jul), probabilidade de chuva sobe a 88%, com acumulado semanal máximo de 23,7 mm distribuído em 2 dias relevantes — volumes modestos, sem impacto operacional para a soja. Preço em MT: R$ 108,63/sc (Grao Direto, Nordeste MT, 03/jul/26).",
+ "texto": "Distrito SINOP-SOJA (MT/PA) — safra 2025/26 encerrada em ambos os estados. Em MT, produtividade de 66 sc/ha e produção de 51,56 milhões de toneladas, alta de 1,3% sobre a safra anterior (Imea em Campo/Conab 9º Levantamento, jun/2026). No Pará, dados de produção não disponíveis. O tempo na semana de 4 a 10/jul apresenta padrão de entressafra seco e quente: sábado (04/jul) com máxima de 33,3°C, sem chuva e rajadas de 37 km/h. Evento de chuva mais expressivo na segunda (06/jul), com 7,8 mm e 85% de probabilidade — possível atuação de sistema convectivo isolado. Demais dias registram volumes residuais (0,8 a 2,4 mm), com máximas sustentadas acima de 33°C e evapotranspiração média de 5,0 mm/dia, indicando alta demanda hídrica atmosférica. Sem alertas INMET ativos. Preço da saca em MT: R$ 108,63/sc 60kg (Grão Direto, Nordeste MT, 03/jul/2026).",
  "pontos": [
-  "Safra 2025/26 encerrada em MT e PA — foco no escoamento e comercialização do grão colhido",
-  "Produtividade MT de 66 sc/ha representa alta de 1,3% vs. safra anterior (Imea/Conab, jun/26)",
-  "ET0 média de 5,2 mm/dia com sequência seca inicial indica alta demanda evaporativa — relevante para áreas com culturas de inverno ou pastagens irrigadas"
+  "Safra 2025/26 encerrada em MT e PA — foco em comercialização e armazenagem",
+  "MT com 66 sc/ha e +1,3% sobre safra anterior (Imea/Conab, jun/2026)",
+  "ET0 média de 5,0 mm/dia e máximas acima de 33°C indicam alta demanda hídrica na entressafra"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T03:47:57+00:00",
+  "clima": "2026-07-04T14:56:59+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

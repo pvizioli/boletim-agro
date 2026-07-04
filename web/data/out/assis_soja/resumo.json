@@ -1,16 +1,16 @@
 {
  "distrito_id": "assis_soja",
  "nome": "ASSIS-SOJA",
- "gerado_em": "2026-07-04T03:58:06+00:00",
+ "gerado_em": "2026-07-04T15:47:57+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito ASSIS-SOJA (SP) registra padrão típico de inverno seco e estável. A série diária de 03 a 09/jul indica amplitudes térmicas expressivas — máximas entre 25,9 °C e 28,6 °C, mínimas chegando a 8,6 °C em 08/jul (quarta-feira) — sugerindo avanço de massa polar após evento de chuva fraca previsto para 07/jul (segunda-feira, 1,8 mm, prob. 45%). Essa sequência — queda de tmax, mínima acentuada e chuva residual — é consistente com passagem de sistema frontal de baixa intensidade. Os sinais_derivados confirmam maior sequência de 7 dias secos consecutivos. Chuva acumulada prevista para os 7 dias é irrisória (máx. 1,8 mm; 0 dias com chuva relevante). A safra 2025/26 de SP está encerrada (100% colhida, Conab — 9º Levantamento, jun/2026). Sem preço de saca disponível no levantamento. Foco do momento: dinâmica de frio e entressafra.",
+ "texto": "Distrito ASSIS-SOJA (SP) — 4 a 10 de julho de 2026. A semana é marcada por padrão típico de inverno paulista: máximas entre 26 e 30 °C, mínimas chegando a 7,8 °C na quinta-feira (9/jul), com amplitude térmica elevada. A sequência sábado–domingo–segunda (5 a 7/jul) apresenta ventos de leste/sudeste e céu aberto, configurando massa de ar seco. Na terça (7/jul), virada do vento para sudoeste com rajada de 41,8 km/h e 4,7 mm de chuva (probabilidade 63%) indica passagem rápida de sistema frontal, sem expressão hídrica relevante. Após a frente, mínimas caem e a evapotranspiração sobe, atingindo 3,92 mm/dia na sexta (10/jul) — demanda hídrica elevada para o período. A safra 2025/26 de soja em SP está encerrada com 100% colhido, conforme Conab – 9º Levantamento (jun/2026). Não há dado de produtividade ou preço disponível para este ciclo.",
  "pontos": [
-  "Mínima de 8,6 °C prevista para 08/jul (quarta): monitorar risco de frio intenso em áreas mais elevadas do distrito",
-  "Passagem frontal fraca em 07/jul deve trazer apenas 1,8 mm — sem impacto operacional relevante",
-  "Sequência de 7 dias secos confirmada pelos sinais_derivados; inverno seco segue dominante na região"
+  "Passagem frontal rápida na terça (7/jul) deve entregar apenas 4,7 mm — sem impacto operacional relevante",
+  "Mínima de 7,8 °C prevista para quinta (9/jul): monitorar culturas de inverno e pós-colheita em armazéns com ventilação",
+  "Evapotranspiração média de 3,5 mm/dia com chuva acumulada inferior a 5 mm na semana indica déficit hídrico para qualquer cultivo em desenvolvimento"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T02:07:30+00:00",
+  "clima": "2026-07-04T14:50:55+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "cornelio_procop_soja",
  "nome": "CORNELIO PROCOP-SOJA",
- "gerado_em": "2026-07-04T04:00:02+00:00",
+ "gerado_em": "2026-07-04T15:49:55+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Cornélio Procópio – PR | Safra 2025/2026 encerrada. A semana inicia com padrão de inverno típico: temperaturas máximas entre 21,7 °C e 25,6 °C e mínimas que recuam progressivamente até 4,2 °C na quinta-feira (08/jul), sinalizando passagem de sistema frontal — confirmada pela combinação de chuva concentrada na segunda (07/jul, 8,5 mm, prob. 80%) seguida de queda abrupta de temperatura e cessação das chuvas na sexta (08/jul) e sábado (09/jul). Os volumes acumulados são modestos (máx. 9,8 mm em 7 dias), com maior sequência seca projetada em 4 dias consecutivos. Sem alertas INMET ativos. Com colheita 100% concluída no PR (63 sc/ha, +2,8% vs. safra anterior; Deral/SEAB-PR, 25/05/2026), o foco migra para comercialização: soja em Paranaguá cotada a R$ 128,50/sc (Canal Rural, 17/06/2026). Dinâmica climática sem impacto operacional direto na soja.",
+ "texto": "Cornélio Procópio – Semana de 4 a 10 de julho de 2026. A semana inicia com ventos de leste e mínimas amenas (13,5 °C no sábado), mas a virada do vento para oeste na terça-feira (252°), acompanhada da maior precipitação do período (8,2 mm) e queda da mínima para 8,1 °C, indica passagem de sistema frontal. Na sequência, quarta e quinta-feira registram mínimas de 4,4 °C e 4,7 °C, respectivamente, sem chuva — padrão pós-frontal típico de inverno paranaense. A evapotranspiração média de 2,7 mm/dia, com pico de 3,17 mm na quarta, reflete dias ensolarados e secos após a frente. A chuva total prevista é irrisória (máx. 8,2 mm em 7 dias, apenas 1 dia relevante). Com a safra 2025/2026 encerrada no Paraná — 100% colhido, 63 sc/ha (Deral/SEAB-PR, 25/05/2026), alta de 2,8% sobre a safra anterior —, o foco recai sobre comercialização: soja em Paranaguá cotada a R$ 128,50/sc (Canal Rural, 17/06/2026).",
  "pontos": [
-  "Passagem frontal estimada entre segunda (07/jul) e quinta (08/jul): queda de tmin para 4,2 °C — monitorar culturas de inverno e pomares na região",
-  "Chuvas acumuladas muito baixas (máx. 9,8 mm/7 dias) e sequência seca de até 4 dias — sem impacto para soja, safra encerrada",
-  "Safra 2025/2026 PR finalizada com 63 sc/ha (+2,8% vs. anterior), segundo Deral/SEAB-PR (25/05/2026)"
+  "Passagem frontal na terça-feira (07/07) com virada de vento para oeste e mínima de 8,1 °C — monitorar possibilidade de noites frias adicionais no pós-frente",
+  "Mínimas de 4,4 °C e 4,7 °C na quarta e quinta-feira sem chuva: atenção a culturas de inverno e estruturas de armazenagem em regiões mais elevadas do distrito",
+  "Semana essencialmente seca (máx. 8,2 mm previstos) com ET0 elevada — condição favorável para operações logísticas e movimentação de grãos armazenados"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T02:47:03+00:00",
+  "clima": "2026-07-04T14:52:17+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

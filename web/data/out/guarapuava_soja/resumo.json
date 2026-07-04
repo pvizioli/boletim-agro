@@ -1,16 +1,16 @@
 {
  "distrito_id": "guarapuava_soja",
  "nome": "GUARAPUAVA-SOJA",
- "gerado_em": "2026-07-04T04:01:36+00:00",
+ "gerado_em": "2026-07-04T15:51:26+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Guarapuava, 4 de julho de 2026. A semana abre com tempo seco e ameno: sábado (05/jul) registra tmax de 23,0 °C sem chuva. A virada ocorre na segunda-feira (06/jul), com precipitação de 19,8 mm e probabilidade de 99%, acompanhada de queda de tmax para 19,8 °C e tmin elevada (9,6 °C) — padrão consistente com passagem de sistema frontal. Na terça (07/jul) a chuva residual soma 2,4 mm. O pós-frontal impõe resfriamento acentuado: quarta (08/jul) registra tmin de 0,7 °C, configurando risco de geada apontado nos sinais_derivados. A sequência seca de 3 dias encerra o período. A safra 2025/2026 no PR está encerrada (100% colhido), com produtividade de 63 sc/ha (+2,8% vs. safra anterior; Deral/SEAB-PR, 25/05/2026). Preço em Paranaguá: R$ 128,50/sc 60 kg (Canal Rural, 17/06/2026). O clima atual não impacta a lavoura, mas exige atenção a pastagens e culturas de inverno.",
+ "texto": "Guarapuava, 4 de julho de 2026. A semana é marcada por passagem de sistema frontal na segunda-feira (06/jul), com chuva de 12,8 mm, queda de máxima para 20,6 °C e virada de vento para noroeste — padrão típico de frente fria. Após a passagem, mínimas despencam para 1,0 °C (08/jul) e 1,9 °C (09/jul), configurando risco de geada nas madrugadas de quarta e quinta-feira. A sequência seca de três dias (08 a 10/jul) eleva a ET0 a até 3,11 mm/dia, com rajadas chegando a 42,1 km/h na sexta (10/jul). A safra 2025/2026 no Paraná está encerrada com 100% colhido e produtividade de 63 sc/ha (+2,8% vs. safra anterior), segundo Deral/SEAB-PR (25/mai/2026). O preço em Paranaguá está em R$ 128,50/sc 60 kg (Canal Rural, 17/jun/2026), sustentando margem para comercialização do estoque remanescente.",
  "pontos": [
-  "Risco de geada na madrugada de quarta (08/jul): tmin projetada de 0,7 °C — monitorar culturas de inverno e pastagens",
-  "Evento frontal concentrado em 06/jul (19,8 mm, prob. 99%) é o único pulso hídrico relevante da semana",
-  "Safra soja PR 2025/2026 encerrada com 63 sc/ha e +2,8% sobre a safra anterior (Deral/SEAB-PR, 25/05/2026)"
+  "Risco de geada nas madrugadas de quarta (08/jul, mínima 1,0 °C) e quinta-feira (09/jul, mínima 1,9 °C) — atenção a culturas de inverno e estruturas sensíveis",
+  "Passagem frontal na segunda-feira (06/jul) concentra quase toda a chuva semanal (12,8 mm de 14,2 mm máx. previsto); restante da semana seco",
+  "ET0 elevada (até 3,11 mm/dia) e rajadas de até 42,1 km/h na sexta-feira (10/jul) intensificam demanda hídrica no pós-frente"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T03:17:42+00:00",
+  "clima": "2026-07-04T14:53:27+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

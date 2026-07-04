@@ -1,16 +1,16 @@
 {
  "distrito_id": "alfenas_soja",
  "nome": "ALFENAS-SOJA",
- "gerado_em": "2026-07-04T03:57:55+00:00",
+ "gerado_em": "2026-07-04T15:47:45+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito ALFENAS-SOJA, referência 04/jul/2026. A safra 2025/26 está encerrada em MG e SP (Conab, 9º Levantamento, jun/2026), sem dados de produtividade ou produção disponíveis no levantamento. O foco recai sobre a dinâmica climática do inverno. A série diária revela padrão típico de entressafra seca: sexta (04/jul) e sábado (05/jul) apresentam elevação da probabilidade de chuva (78% e 75%), com acumulados modestos de 2,6 mm e 1,7 mm, sugerindo passagem de sistema frontal fraco entre domingo (05) e segunda (06/jul). A tmin de 6,3 °C projetada para quarta (09/jul) indica avanço de massa polar, sem configurar geada pelos dados disponíveis. Tmax sustentada em torno de 27–28 °C mantém demanda evapotranspirativa ativa. Chuva total prevista em 7 dias: máximo de 5,2 mm — volume irrelevante para manejo. Preço de referência: R$ 113/sc 60kg (Portal Agron, Triângulo Mineiro, 06/mai/2026).",
+ "texto": "Distrito ALFENAS-SOJA, semana de 4 a 10 de julho de 2026. A safra 2025/26 está encerrada em MG e SP (Conab, 9º Levantamento, jun/2026), com 100% colhido em ambos os estados. O padrão climático da semana é tipicamente invernal: mínimas baixas, chegando a 5,7 °C na quarta-feira (09/jul), sem risco de geada confirmado pelos sinais disponíveis, mas com atenção para noites frias. A chuva acumulada prevista é modesta — máximo de 9,6 mm concentrados na terça-feira (07/jul), com virada de vento para norte (26°), sugerindo passagem rápida de sistema perturbado. Nos demais dias, tempo seco predomina. A demanda evapotranspirativa permanece elevada, com média de 3,5 mm/dia, relevante para pastagens e culturas de inverno. O preço da soja em MG estava em R$ 113,00/sc 60 kg (Portal Agron, Triângulo Mineiro, mai/2026), referência para comercialização do estoque remanescente.",
  "pontos": [
-  "Safra 2025/26 encerrada em MG e SP sem produtividade consolidada disponível (Conab, jun/2026)",
-  "Passagem de sistema frontal fraco prevista entre dom/05 e seg/06/jul, com até 2,6 mm — sem impacto operacional",
-  "Tmin de 6,3 °C projetada para qua/09/jul: monitorar potencial de frio intenso, sem sinal de geada confirmado nos dados"
+  "Safra 2025/26 encerrada em MG e SP — foco na comercialização do estoque com preço de referência a R$ 113,00/sc (Portal Agron, mai/2026)",
+  "Mínima de 5,7 °C prevista para 09/jul — monitorar culturas de inverno e pastagens sensíveis ao frio",
+  "Chuva concentrada em 07/jul (até 9,6 mm) com virada de vento — evento isolado, sem impacto significativo na umidade do solo"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T02:03:08+00:00",
+  "clima": "2026-07-04T14:50:54+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-05-06"
  }

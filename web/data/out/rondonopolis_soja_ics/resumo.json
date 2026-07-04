@@ -1,16 +1,16 @@
 {
  "distrito_id": "rondonopolis_soja_ics",
  "nome": "RONDONOPOLIS-SOJA/ICS",
- "gerado_em": "2026-07-04T04:06:45+00:00",
+ "gerado_em": "2026-07-04T15:56:22+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Rondonópolis (MT) — Entressafra 2025/26. A semana de 03 a 09/jul apresenta padrão típico de estação seca do Cerrado mato-grossense: sete dias consecutivos sem chuva relevante, com acumulado previsto de apenas 0,6 mm no domingo (09/jul, prob. 8%). Amplitudes térmicas expressivas — mínimas entre 14,1 °C (sáb, 05/jul) e 15,8 °C, máximas chegando a 32,8 °C (09/jul) — e ET0 média de 4,3 mm/dia (clima gerado em 04/07/2026) indicam demanda evaporativa elevada e atmosfera seca. Rajadas de até 39,2 km/h (sáb, 04/jul) reforçam o caráter ressecante. A safra 2025/26 está encerrada: 100% colhido em MT, produtividade de 66 sc/ha e produção de 51,56 Mt (+1,3% vs. safra anterior), conforme Imea em Campo/Conab 9º lev. (11/06/2026). Preço em 03/07/2026: R$ 108,63/sc (Grão Direto, Nordeste MT).",
+ "texto": "Rondonópolis (MT) — Entressafra 2025/26. A semana de 4 a 10 de julho é marcada por veranico consolidado: sete dias consecutivos sem chuva, probabilidade zero ou residual em todos os dias monitorados e acumulado previsto de 0 mm nos sete municípios acompanhados. A amplitude térmica é expressiva — mínima de 13,9 °C no início da semana elevando-se gradualmente a 17,5 °C no dia 10, enquanto a máxima sobe de 31,1 °C para 34,1 °C, padrão típico de massa de ar seco dominante no inverno mato-grossense. Rajadas entre 28 e 37 km/h e evapotranspiração média de 4,4 mm/dia reforçam a demanda hídrica elevada, sem impacto operacional na safra já encerrada. A soja 2025/26 em MT foi colhida 100%, com produtividade de 66 sc/ha e produção de 51,56 milhões de toneladas, alta de 1,3% sobre a safra anterior (Imea em Campo/Conab, 9º levantamento, jun/26). Preço de referência: R$ 108,63/sc em MT (Grão Direto, 03/07/26).",
  "pontos": [
-  "Veranico consolidado: 7 dias secos consecutivos com ET0 média de 4,3 mm/dia — sem impacto na soja 25/26 encerrada, mas atenção ao manejo de solos e planejamento de safrinha",
-  "Chuva residual de 0,6 mm prevista para 09/jul é irrelevante agronomicamente — não configura quebra do período seco",
-  "Safra 2025/26 MT finalizada com 66 sc/ha e +1,3% sobre a safra anterior (Imea/Conab, 11/06/2026)"
+  "Veranico de 7 dias sem perspectiva de chuva — sem impacto na safra encerrada, mas atenção ao planejamento de irrigação e pastagens",
+  "Amplitude térmica acentuada (13,9 °C a 34,1 °C) com ET0 média de 4,4 mm/dia indica demanda hídrica elevada no período",
+  "Safra 2025/26 encerrada em MT: 66 sc/ha e +1,3% sobre safra anterior (Imea/Conab, jun/26)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T03:46:45+00:00",
+  "clima": "2026-07-04T14:55:51+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

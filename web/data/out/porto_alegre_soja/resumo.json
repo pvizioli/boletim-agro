@@ -1,16 +1,16 @@
 {
  "distrito_id": "porto_alegre_soja",
  "nome": "PORTO ALEGRE-SOJA",
- "gerado_em": "2026-07-04T04:05:36+00:00",
+ "gerado_em": "2026-07-04T15:55:18+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Porto Alegre-Soja, RS — 4 a 10 de julho de 2026. A semana abre com sábado (04/07) frio e ventoso (tmax 14,7 °C, rajada 41 km/h, vento de SSE), com tmin de 2,9 °C — risco de geada confirmado nos sinais derivados. Domingo (05/07) e segunda (06/07) concentram a única chuva relevante da semana (3,6 e 4,5 mm, prob. 82% e 71%), com virada do vento para W/WNW e rajadas de até 45,7 km/h em segunda — padrão típico de passagem frontal. A partir de terça (07/07), vento gira para NW/N, chuva cessa, tmin recua a 1,4 °C na quarta (08/07) — segundo episódio de risco de geada — e ET0 sobe a 2,51 mm/dia na quinta (09/07), com tmax atingindo 24,7 °C. Total previsto de chuva: apenas 0,5–6,5 mm em 28 municípios monitorados. Safra 2025/26 encerrada (100% colhido, 45 sc/ha, Emater/RS-Ascar, 11/06/2026); preço em R$ 129/sc (Grão Direto, 03/07/2026).",
+ "texto": "Safra 2025/2026 encerrada no RS com 100% colhido. A produtividade média ficou em 45 sc/ha, resultado 14,8% abaixo da projeção inicial, com forte variabilidade regional entre 20 e 70 sc/ha, segundo a Emater/RS-Ascar (11/jun/2026). A produção total atingiu 18,1 milhões de toneladas, alta de 32,9% frente à safra anterior. O preço da saca está em R$ 129,00 (Grão Direto, Centro Ocidental RS, 03/jul/2026). No clima, a semana inicia fria e seca — máxima de 14°C no sábado (04/jul) — com passagem de sistema frontal prevista para segunda-feira (06/jul): virada de vento de sul/sudeste para oeste, chuva de 7,6 mm e queda de temperatura. Após a frente, ventos de noroeste elevam a demanda hídrica (ET0 acima de 2,2 mm/dia) e a mínima cai a 1,4–1,9°C na terça e quarta (07–08/jul), com risco de geada. Semana fecha com chuva isolada na sexta (10/jul).",
  "pontos": [
-  "Risco de geada em 04/07 e 08/07 (tmin 2,9 °C e 1,4 °C, respectivamente) — atenção a culturas de inverno e pastagens",
-  "Passagem frontal concentrada em 05–06/07 entrega volume marginal (máx. 6,5 mm acumulado na semana) — sem impacto operacional relevante",
-  "Sequência seca de 3 dias (07 a 09/07) com ET0 média de 2,0 mm/dia eleva demanda hídrica no período pós-frente"
+  "Risco de geada na terça (07/jul) e quarta (08/jul): mínimas de 1,9°C e 1,4°C respectivamente — atenção a culturas de inverno e pastagens",
+  "Passagem frontal na segunda (06/jul) traz até 7,6 mm e rajadas de 41,8 km/h; chuva acumulada semanal limitada a 2,7–14,7 mm nos 28 municípios monitorados",
+  "Produtividade da soja 2025/2026 encerrou em 45 sc/ha, 14,8% abaixo do projetado, com variabilidade regional expressiva (Emater/RS-Ascar, jun/2026)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T03:45:36+00:00",
+  "clima": "2026-07-04T14:55:48+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "luis_e_mag_soja_ics",
  "nome": "LUIS E MAG-SOJA/ICS",
- "gerado_em": "2026-07-04T04:03:34+00:00",
+ "gerado_em": "2026-07-04T15:53:24+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito LUIS E MAG-SOJA/ICS (BA e PI) — safra 2025/26 encerrada em ambas as UFs (Conab, 9º Levantamento, jun/2026). O foco recai sobre a dinâmica atmosférica da semana. O sábado (04/jul) registrou rajada de 43,6 km/h com vento de SE e chuva residual de 0,2 mm. No domingo (05/jul), vento girou para NE com mínima de 12,8°C e ET0 de 4,97 mm/dia. Na segunda (06/jul), vento virou para S (195°) com 2,0 mm — episódio isolado, possivelmente associado a incursão de ar mais frio pelo sul. A partir de terça (07/jul), vento retornou a W-NW e as temperaturas máximas escalaram progressivamente até 34,4°C na quinta (10/jul), com ET0 média semanal de 4,9 mm/dia e sequência de até 4 dias secos consecutivos. O padrão configura veranico de inverno com alta demanda evapotranspirativa — relevante para monitoramento de pastagens e planejamento da próxima safra.",
+ "texto": "Distrito Luís Eduardo Magalhães (BA/PI) — Entressafra 2025/26. A safra de soja 2025/26 está encerrada em ambos os estados, com 100% de plantio e colheita concluídos (Conab, 9º Levantamento, jun/2026). No campo climático, a semana de 4 a 10/07 é marcada por padrão seco e quente típico do inverno do MATOPIBA: máximas progressivamente crescentes, de 32,5°C no sábado até 34,6°C na sexta-feira, com mínimas oscilando entre 12,7°C e 15,8°C. A precipitação acumulada prevista é irrisória (máximo 4,8 mm em 10 municípios monitorados), sem nenhum dia com chuva relevante. A evapotranspiração de referência média de 4,9 mm/dia, com pico de 5,1 mm na quarta-feira, evidencia elevada demanda hídrica atmosférica. Rajadas de vento de até 42 km/h no sábado reforçam o ressecamento. A virada do vento de sul/sudeste para norte/nordeste entre domingo e segunda indica circulação pós-frontal dissipada, sem impacto pluviométrico.",
  "pontos": [
-  "Safra 2025/26 encerrada em BA e PI (Conab, 9º Levantamento, jun/2026) — entressafra em curso",
-  "Chuva acumulada prevista para 7 dias: máximo de 3,6 mm — condição de veranico de inverno confirmada",
-  "ET0 média de 4,9 mm/dia com máximas até 34,4°C indicam alta demanda hídrica atmosférica na semana"
+  "Safra 2025/26 encerrada em BA e PI conforme Conab (jun/2026) — foco no planejamento da próxima janela de plantio",
+  "Semana seca consolidada: zero dias com chuva relevante e acumulado máximo previsto de 4,8 mm — sem risco operacional imediato",
+  "Evapotranspiração média de 4,9 mm/dia com máximas acima de 34°C no final da semana indicam alta demanda hídrica — atenção ao manejo de solos descobertos"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T03:43:18+00:00",
+  "clima": "2026-07-04T14:54:40+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

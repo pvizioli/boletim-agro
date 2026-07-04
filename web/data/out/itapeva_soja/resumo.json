@@ -1,16 +1,16 @@
 {
  "distrito_id": "itapeva_soja",
  "nome": "ITAPEVA-SOJA",
- "gerado_em": "2026-07-04T04:02:26+00:00",
+ "gerado_em": "2026-07-04T15:52:21+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito ITAPEVA-SOJA (SP) — análise gerada em 04/jul/2026. A safra 2025/26 está encerrada (100% colhido), conforme Conab – 9º Levantamento (jun/2026). O padrão climático da semana revela amplitude térmica expressiva: máximas entre 20,8 °C e 25,3 °C, com mínimas caindo progressivamente até 5,0 °C na quinta-feira (09/jul), sinalizando avanço de massa polar. A chuva da semana concentra-se em evento único na terça-feira (07/jul), com 14,3 mm e 72% de probabilidade, precedido por sequência seca de 4 dias (sinal derivado confirmado) e seguido de queda brusca de temperatura — padrão consistente com passagem frontal. Volume total previsto é modesto (máx. 14,8 mm em 7 dias, 31 municípios monitorados). Sem alertas INMET ativos. Dado de produtividade e preço da saca não disponíveis no levantamento consultado.",
+ "texto": "Distrito Itapeva-Soja (SP) — 4 a 10 de julho de 2026. A safra 2025/26 está encerrada (100% colhido), conforme Conab – 9º Levantamento (jun/2026). O padrão climático da semana é tipicamente invernal: máximas entre 21 °C e 25 °C, mínimas caindo a 4,5 °C na quarta-feira (8/jul). O evento mais relevante ocorre na terça-feira (7/jul): chuva de até 14,9 mm com rajadas de 46,4 km/h e virada de vento de sudeste para oeste, sinalizando passagem de sistema frontal. Após a frente, o tempo seca rapidamente, com mínimas mais frias e evapotranspiração média de 2,7 mm/dia ao longo da semana — demanda hídrica moderada, sem impacto operacional na entressafra. Apenas 1 dia com chuva relevante nos 7 dias. Não há alertas Inmet ativos. Foco do momento: acompanhamento de preços e planejamento da próxima safra.",
  "pontos": [
-  "Safra 2025/26 encerrada em SP — 100% colhido (Conab, jun/2026); sem impacto operacional de campo",
-  "Passagem frontal esperada entre terça (07/jul, 14,3 mm) e quarta (08/jul): queda de tmax para 20,8 °C e tmin para 5,0 °C na quinta (09/jul)",
-  "Sequência seca de 4 dias confirmada nos sinais derivados — demanda hídrica elevada no período pré-frontal"
+  "Safra 2025/26 encerrada em SP — 100% colhido (Conab, jun/2026); produtividade final não divulgada no levantamento consultado",
+  "Passagem frontal prevista para terça-feira (7/jul): chuva de até 14,9 mm e rajadas de 46,4 km/h — atenção ao armazenamento e logística de grãos",
+  "Mínima de 4,5 °C na quarta-feira (8/jul) pós-frente: monitorar culturas de inverno e estruturas de secagem em propriedades da região"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T03:33:04+00:00",
+  "clima": "2026-07-04T14:53:33+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

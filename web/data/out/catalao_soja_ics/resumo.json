@@ -1,16 +1,16 @@
 {
  "distrito_id": "catalao_soja_ics",
  "nome": "CATALAO-SOJA & ICS",
- "gerado_em": "2026-07-04T03:59:36+00:00",
+ "gerado_em": "2026-07-04T15:49:28+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Catalão-Soja & ICS (GO/MG) — 04/jul/2026. A série diária de 03 a 09/jul registra sete dias consecutivos sem chuva (sequência seca máxima de 7 dias, conforme sinais derivados), com probabilidade de precipitação nula ou residual (máx. 2% em 05 e 09/jul). As temperaturas máximas evoluem gradualmente de 26,9 °C (sex., 03/jul) a 29,2 °C (qui., 09/jul), enquanto as mínimas sobem de 13,0 °C para 15,2 °C — padrão típico de domínio de massa de ar seco e estável de inverno, sem indicativo de frente ou geada no período. A demanda evapotranspirativa permanece ativa com Tmax próxima a 29 °C e ausência de nebulosidade. Quanto à safra 2025/26, ambas as UFs estão com 100% colhido (Conab, 9º Levantamento, 11/jun/2026): GO registrou produção de 20,1 milhões de toneladas. Preço de referência: R$ 108,50/sc 60 kg (Canal Rural, Jataí/GO, 17/jun/2026).",
+ "texto": "Distrito Catalão-Soja & ICS | Semana de 04 a 10/jul/2026. A safra 2025/26 está encerrada em GO e MG (Conab, 9º Levantamento, jun/2026), com produção goiana registrada em 20,1 milhões de toneladas. O foco desta semana é inteiramente climático e comercial. A série diária revela bloqueio atmosférico típico de inverno: sete dias consecutivos sem chuva, probabilidade nula ou residual (máx. 6% no fim do período), ventos predominantemente de nordeste a leste nos primeiros dias com virada pontual para sudoeste na terça-feira (07/jul), sugerindo passagem rápida de sistema sem precipitação associada. Máximas entre 27,6 °C e 30,5 °C, mínimas entre 13,5 °C e 17,3 °C — sem risco de geada. A demanda evapotranspirativa média de 4,1 mm/dia reforça o caráter seco e ensolarado do período. Preço de referência: R$ 108,50/sc 60 kg (Canal Rural, Jataí/GO, 17/jun/2026).",
  "pontos": [
-  "Sete dias consecutivos sem chuva prevista confirmam domínio de massa seca de inverno — sem risco operacional para a soja, pois a safra 2025/26 está encerrada em GO e MG (Conab, jun/2026)",
-  "Temperaturas mínimas acima de 13 °C ao longo de toda a semana afastam risco de geada no distrito no período analisado",
-  "Produção de soja em GO atingiu 20,1 milhões de toneladas na safra 2025/26 (Conab, 9º Levantamento, 11/jun/2026) — dado relevante para planejamento logístico e comercial da entressafra"
+  "Veranico de inverno consolidado: 7 dias sem chuva e ET0 média de 4,1 mm/dia — sem perspectiva de precipitação no horizonte de 7 dias",
+  "Virada de vento para sudoeste na terça (07/jul) não trouxe chuva associada; padrão de bloqueio se mantém até sexta (10/jul)",
+  "Safra 2025/26 encerrada em GO e MG (Conab, jun/2026): atenção ao ritmo de comercialização com soja a R$ 108,50/sc em Jataí/GO (Canal Rural, 17/jun/2026)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T02:38:19+00:00",
+  "clima": "2026-07-04T14:51:13+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-06-17"
  }

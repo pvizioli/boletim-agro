@@ -1,16 +1,16 @@
 {
  "distrito_id": "goiatuba_soja_ics",
  "nome": "GOIATUBA-SOJA/ICS",
- "gerado_em": "2026-07-04T04:01:23+00:00",
+ "gerado_em": "2026-07-04T15:51:11+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito GOIATUBA-SOJA/ICS, GO — 04/jul/2026. A safra 2025/26 está encerrada (colheita 100%, produção 20,1 milhões de t em GO, Conab 9º Levantamento, jun/2026). O foco recai sobre a dinâmica do tempo e o mercado. A série diária de 03 a 09/jul registra sequência seca absoluta: zero milímetro acumulado, probabilidade de chuva inferior a 5% mesmo no final do período, e amplitude térmica expressiva — mínimas entre 13,6 °C e 15,3 °C e máximas chegando a 31,4 °C (09/jul). O sinal derivado confirma 7 dias consecutivos sem chuva, padrão típico do inverno seco do Cerrado goiano, sem indicativo de frente ou sistema perturbador no horizonte de 7 dias. Demanda evapotranspirativa elevada pelas máximas acima de 30 °C. Preço de referência: R$ 108,50/sc 60 kg em Jataí/GO (Canal Rural, 17/jun/2026), sinalizando patamar relevante para decisões de comercialização do estoque remanescente.",
+ "texto": "Goiatuba/GO — 4 a 10 de julho de 2026. A semana é marcada por veranico consolidado: sete dias consecutivos sem chuva relevante, com precipitação acumulada de apenas 0,6 mm no domingo (10/jul), insuficiente para qualquer impacto hídrico. As máximas oscilam entre 29,3 °C (sábado, 4/jul) e 33,2 °C (10/jul), enquanto as mínimas ficam entre 13,4 °C e 17,2 °C — amplitude térmica típica do inverno do Cerrado. A evapotranspiração de referência média de 4,9 mm/dia, com pico de 5,11 mm/dia no domingo, indica demanda hídrica elevada para o período seco. Ventos de leste a sudeste com rajadas de até 34,9 km/h reforçam o padrão de massa seca. A safra 2025/26 em GO está encerrada (100% colhida), com produção de 20,1 milhões de toneladas (Conab, 9º Levantamento, jun/2026). O preço da saca está em R$ 108,50/sc 60 kg (Canal Rural, Jataí/GO, 17/jun/2026).",
  "pontos": [
-  "Sequência de 7 dias secos confirmada nos sinais derivados — sem previsão de chuva relevante até 09/jul, padrão de inverno seco do Cerrado",
-  "Amplitude térmica acentuada (mínima 13,6 °C / máxima 31,4 °C) eleva ET0 e demanda atenção ao manejo de solos descobertos e pastagens de entressafra",
-  "Safra 2025/26 encerrada em GO com produção de 20,1 milhões de t (Conab, jun/2026) — janela de entressafra favorece foco em comercialização"
+  "Veranico de 7 dias sem interrupção — sem risco operacional para a lavoura, safra já encerrada em GO",
+  "Evapotranspiração média de 4,9 mm/dia com máxima de 5,11 mm/dia no domingo reforça demanda hídrica elevada no período",
+  "Precipitação prevista de no máximo 0,6 mm em toda a semana — sem perspectiva de recarga hídrica no distrito"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T03:13:19+00:00",
+  "clima": "2026-07-04T14:52:24+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-06-17"
  }

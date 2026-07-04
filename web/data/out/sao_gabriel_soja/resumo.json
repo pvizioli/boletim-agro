@@ -1,16 +1,16 @@
 {
  "distrito_id": "sao_gabriel_soja",
  "nome": "SAO GABRIEL-SOJA",
- "gerado_em": "2026-07-04T04:07:45+00:00",
+ "gerado_em": "2026-07-04T15:57:25+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito São Gabriel-RS, safra 2025/2026 encerrada (100% colhido). A semana inicia com evento chuvoso expressivo: sábado (04/jul) registra 7,6 mm, tmax de 14,6 °C, rajada de 36 km/h e vento de SE (123°), configurando passagem de sistema frontal. Nos dias seguintes, virada progressiva do vento para SW/W/NW (221°→294°→25°) confirma pós-frontal com céu aberto, sequência seca de 5 dias (sinais_derivados) e aquecimento gradual até 21,7 °C na sexta (10/jul). Mínimas de 2,5 °C (04/jul) e 2,3 °C (07/jul) atingem limiar de risco de geada (sinais_derivados). ET0 média de 1,9 mm/dia (sinais_derivados), escalando a 2,75 mm/dia na quinta. Safra RS: 45 sc/ha, produção 18,1 Mt, +32,9% vs safra anterior, porém -14,8% vs projeção inicial, com forte variabilidade regional (Emater/RS-Ascar, 11/jun/2026). Preço: R$ 129/sc 60kg (Grão Direto, 03/jul/2026).",
+ "texto": "Distrito São Gabriel | RS Soja — 04/jul/2026. A safra 2025/2026 está encerrada, com 100% colhido no RS. A produtividade média ficou em 45 sc/ha, recuo de 14,8% frente à projeção inicial, com forte variabilidade regional (Emater/RS-Ascar, 11/jun/2026). O preço da saca está em R$ 129,00 (Grão Direto – Centro Ocidental RS, 03/jul/2026). No clima, o sábado (04/jul) abre a semana com máxima de apenas 13,6 °C, chuva de 3,6 mm e rajadas de 38,5 km/h com vento de leste-sudeste — padrão de sistema frontal em dissipação. A virada do vento para sul-sudoeste na segunda (06/jul) e para noroeste na terça (07/jul), com mínima de 1,9 °C, confirma passagem frontal e risco de geada. De quarta a sexta (08–10/jul) o tempo abre, temperaturas sobem até 22 °C e a evapotranspiração potencial média semanal alcança 1,8 mm/dia. Chuva mais expressiva (até 24,8 mm) é esperada apenas na sexta (10/jul).",
  "pontos": [
-  "Geada: mínimas de 2,5 °C (04/jul) e 2,3 °C (07/jul) ativam risco — atenção a culturas de inverno e pastagens na região de São Gabriel",
-  "Sequência seca de 5 dias com ET0 escalando até 2,75 mm/dia (09/jul) eleva demanda hídrica para lavouras de inverno em estabelecimento",
-  "Safra soja 2025/2026 encerrada com 45 sc/ha e variabilidade regional severa (1.200–4.200 kg/ha), conforme Emater/RS-Ascar (11/jun/2026)"
+  "Risco de geada nos dias 04 e 07/jul, com mínimas de 2,0 °C e 1,9 °C respectivamente — atenção a culturas de inverno e pastagens",
+  "Sequência de 5 dias secos após a frente eleva demanda hídrica; ET0 chega a 2,36 mm/dia na quinta (09/jul)",
+  "Chuva concentrada na sexta (10/jul), podendo atingir 24,8 mm — monitorar condições de tráfego em lavouras de inverno"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T03:46:49+00:00",
+  "clima": "2026-07-04T14:55:53+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "maringa_soja",
  "nome": "MARINGA-SOJA",
- "gerado_em": "2026-07-04T04:03:47+00:00",
+ "gerado_em": "2026-07-04T15:53:37+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Maringá-PR, 04/jul/2026. A safra 2025/2026 está encerrada no Paraná, com 100% colhido e produtividade de 63 sc/ha (Deral/SEAB-PR, 25/mai/2026), alta de 2,8% frente à safra anterior. Preço em R$ 128,50/sc 60kg (Canal Rural – Paranaguá, 17/jun/2026). Na dinâmica atmosférica da semana, sábado (05/jul) registrou virada de vento de SW (217°) para NE (70°) com aquecimento e chuva cessando, sugerindo passagem de sistema frontal entre sexta e sábado. Segunda (06/jul) traz nova perturbação com rajadas de 37,1 km/h e 3,4 mm previstos. Terça (07/jul) aponta queda de tmax para 22,2°C e tmin de 8,4°C com vento retornando ao quadrante S (214°), indicando segunda incursão de ar frio. De quarta (08/jul) em diante, sequência seca com ET0 crescente até 3,39 mm/dia e tmin de 6,0°C na quarta — sem risco de geada, mas frio relevante. Acumulado semanal máximo de apenas 6,6 mm.",
+ "texto": "Maringá, PR — 4 de julho de 2026. A safra 2025/2026 de soja no Paraná está encerrada, com 100% colhido e produtividade de 63 sc/ha, alta de 2,8% frente à safra anterior (Deral/SEAB-PR, 25/05/2026). O preço na praça de Paranaguá está em R$ 128,50/sc (Canal Rural, 17/06/2026). No campo climático, a semana inicia com chuva fraca (2,1 mm em 4/jul, probabilidade de 92%) e ventos de nordeste. Na terça-feira (7/jul), a virada do vento para sul (205°), queda da máxima para 22,2 °C e chuva de 5,7 mm indicam passagem de sistema frontal. Na sequência, mínimas caem a 6,0–6,3 °C nos dias 8 e 9/jul, com céu aberto e evapotranspiração em elevação (até 3,74 mm/dia em 10/jul), configurando massa polar pós-frontal. A chuva acumulada prevista é baixa (máx. 7,7 mm em 7 dias), sem impacto operacional relevante na entressafra.",
  "pontos": [
-  "Safra 2025/2026 encerrada no PR com 63 sc/ha (+2,8% vs anterior); Deral/SEAB-PR, 25/mai/2026",
-  "Passagem frontal entre 04 e 05/jul com virada de vento SW→NE; segunda perturbação prevista em 06/jul com rajadas de 37,1 km/h",
-  "Tmin de 6,0°C na quarta (08/jul): sem geada caracterizada, mas monitorar culturas de inverno e pós-colheita"
+  "Safra 2025/2026 encerrada no PR com 63 sc/ha (+2,8% vs safra anterior); foco agora em comercialização",
+  "Preço em R$ 128,50/sc em Paranaguá (17/jun/2026) — acompanhar janelas de venda pós-colheita",
+  "Passagem frontal prevista para terça-feira (7/jul): queda de temperatura, vento sul e chuva de até 5,7 mm"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T03:44:24+00:00",
+  "clima": "2026-07-04T14:54:40+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

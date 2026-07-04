@@ -1,16 +1,16 @@
 {
  "distrito_id": "cascavel_soja",
  "nome": "CASCAVEL-SOJA",
- "gerado_em": "2026-07-04T03:59:23+00:00",
+ "gerado_em": "2026-07-04T15:49:15+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Cascavel-PR, 04/jul/2026. A safra 2025/2026 está encerrada (colheita 100%, Deral/SEAB-PR, 25/mai/2026), com produtividade de 63 sc/ha e produção de 21,78 Mt (+2,8% vs. safra anterior). Preço em R$ 128,50/sc (Canal Rural, Paranaguá, 17/jun/2026). No campo climático, a semana apresenta padrão de inverno típico: sexta (03/jul) fria e seca (tmax 18,9°C), seguida de aquecimento gradual até domingo (05/jul, tmax 25,2°C). Na segunda-feira (06/jul) ocorre evento de chuva expressivo — 22,3 mm com probabilidade de 99% — acompanhado de queda de temperatura (tmax 20,3°C), sinalizando passagem de sistema frontal. Após a frente, terça (07/jul) mantém instabilidade residual (prob. 75%), com rápida dissipação; quarta e quinta (08–09/jul) retornam a condições secas, tmin chegando a 3,5°C em 08/jul — atenção a culturas de inverno na região.",
+ "texto": "Cascavel-PR, 4 de julho de 2026. A safra 2025/2026 está encerrada com 100% colhido e produtividade de 63 sc/ha, alta de 2,8% frente ao ciclo anterior (Deral/SEAB-PR, 25/mai). O preço na praça de Paranaguá está em R$ 128,50/sc (Canal Rural, 17/jun). No clima, a semana apresenta dinâmica típica de inverno: início seco e ameno (sábado, 4/jul), seguido de aquecimento rápido até domingo (máxima 25,1 °C) e queda brusca na segunda-feira (6/jul) com chuva concentrada de 13,0 mm, probabilidade de 97% e vento girando para sul — padrão consistente com passagem de sistema frontal. Após a frente, mínima de 2,2 °C na quarta-feira (8/jul) aciona risco de geada. A sequência seca de três dias (8 a 10/jul) com evapotranspiração acima de 3,0 mm/dia eleva a demanda hídrica, sem impacto direto na soja encerrada, mas relevante para culturas de inverno na região.",
  "pontos": [
-  "Safra soja 2025/2026 encerrada em 63 sc/ha (+2,8%), sem impacto operacional das chuvas previstas",
-  "Sistema frontal previsto para segunda (06/jul) com 22,3 mm e prob. 99% — evento isolado, sem risco para soja",
-  "Tmin de 3,5°C em quarta (08/jul) exige monitoramento para culturas de inverno em implantação na região"
+  "Safra 2025/2026 encerrada: 63 sc/ha, +2,8% vs safra anterior (Deral/SEAB-PR, 25/mai)",
+  "Passagem frontal concentrada na segunda-feira (6/jul): 13,0 mm com probabilidade de 97% e queda de temperatura",
+  "Risco de geada na quarta-feira (8/jul): mínima prevista de 2,2 °C — atenção a culturas de inverno em desenvolvimento"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T02:33:55+00:00",
+  "clima": "2026-07-04T14:51:11+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

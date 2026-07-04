@@ -1,13 +1,13 @@
 {
  "distrito_id": "ijui_soja",
  "nome": "IJUI-SOJA",
- "gerado_em": "2026-07-04T15:34:42+00:00",
+ "gerado_em": "2026-07-04T15:51:54+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Ijuí/RS, 4 de julho de 2026. A safra 2025/2026 de soja no RS está encerrada com 100% colhido, produtividade média de 45 sc/ha — queda de 14,8% frente à projeção inicial, embora 32,9% acima da safra anterior (Emater/RS-Ascar, 11/jun/2026). O preço na região Centro Ocidental do RS está em R$ 129,00/sc (Grão Direto, 3/jul/2026). No clima, o sábado (4/jul) registra mínima de 1,4°C com rajadas de 42,5 km/h e vento de leste, indicando condição pós-frontal com risco de geada. Após aquecimento no domingo, nova queda de temperatura na terça (7/jul, mínima 2,8°C) reforça o risco. De quarta a quinta, ventos de norte elevam as máximas a quase 21°C e a evapotranspiração sobe para 2,3–2,6 mm/dia. A semana encerra com chuva prevista na quinta-sexta (até 7 mm), encerrando sequência de seis dias secos.",
+ "texto": "Ijuí, 4 de julho de 2026. A safra 2025/2026 de soja está encerrada na região, com 100% colhido (Emater/RS-Ascar, 14/mai/2026). A produtividade estadual fechou em 45 sc/ha, queda de 14,8% frente à projeção inicial, com forte variabilidade regional entre 1.200 e 4.200 kg/ha (Emater/RS-Ascar, 11/jun/2026). O preço da saca 60 kg está em R$ 129,00 no Centro Ocidental do RS (Grão Direto, 3/jul/2026). No clima, o sábado (4/jul) apresenta mínima de 1,4 °C com rajadas de 42,5 km/h — risco de geada. Após breve aquecimento no domingo, nova mínima de 2,8 °C na terça (7/jul) reforça o alerta. De quarta a sexta, tempo seco com máximas próximas a 21 °C e evapotranspiração acumulada elevada. Chuva mais expressiva apenas na quinta-feira (10/jul), com 7,0 mm previstos. A semana é tipicamente invernal, sem impacto operacional direto na safra encerrada.",
  "pontos": [
-  "Geada possível na madrugada de sábado (4/jul, mínima 1,4°C) e terça (7/jul, mínima 2,8°C) — atenção a culturas de inverno e pastagens",
-  "Safra soja RS encerrada a 45 sc/ha, com forte variabilidade regional (20 a 70 sc/ha equivalente)",
-  "Preço firme a R$ 129,00/sc na região, favorecendo comercialização de estoques remanescentes"
+  "Geada possível em 4/jul (mínima 1,4 °C) e 7/jul (mínima 2,8 °C) — atenção a culturas de inverno e pastagens",
+  "Sequência de até 6 dias secos com ET0 média de 2,0 mm/dia eleva demanda hídrica no período",
+  "Safra 2025/2026 encerrada com 45 sc/ha estadual, 14,8% abaixo da projeção inicial (Emater/RS-Ascar, jun/2026)"
  ],
  "insumos_ref": {
   "clima": "2026-07-04T14:53:28+00:00",

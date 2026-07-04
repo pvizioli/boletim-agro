@@ -1,16 +1,16 @@
 {
  "distrito_id": "patos_de_minas_soja",
  "nome": "PATOS DE MINAS-SOJA",
- "gerado_em": "2026-07-04T04:04:53+00:00",
+ "gerado_em": "2026-07-04T15:54:38+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Patos de Minas-Soja | Semana de 04 a 10/jul/2026. A safra 2025/26 de MG está encerrada (100% colhida), conforme Conab – 9º Levantamento (jun/2026). O foco recai sobre a dinâmica atmosférica do inverno. A série diária revela padrão de veranico consolidado: sete dias consecutivos sem chuva relevante (sinais_derivados), com chuva prevista máxima de apenas 1,8 mm no dia 10/sex (prob. 14%). As temperaturas máximas oscilam entre 29,1 °C e 30,3 °C, enquanto as mínimas recuam a 12,9 °C na quinta (09/jul), sem sinal de geada. A ET0 média de 4,2 mm/dia (sinais_derivados) indica demanda evapotranspirativa elevada para o período. Rajada de 47,9 km/h registrada na terça (07/jul) com vento de norte (357°) sugere passagem de sistema de alta pressão pós-frontal, sem precipitação associada. Preço de referência: R$ 113/sc 60 kg (Portal Agron – Triângulo Mineiro, mai/2026).",
+ "texto": "Patos de Minas, semana de 4 a 10/07/2026. A região enfrenta sequência seca completa: zero chuva relevante nos 14 municípios monitorados e apenas 0,6 mm isolados previstos para quinta-feira (10/07), insuficientes para alterar o balanço hídrico. A evapotranspiração média de 4,1 mm/dia, com pico de 4,6 mm/dia na quarta (08/07), indica demanda atmosférica elevada para o inverno. Destaque para a terça-feira (07/07): rajada de 45 km/h com virada brusca de vento para norte (352°), seguida de aquecimento e retorno de ventos de leste — dinâmica compatível com passagem de sistema frontal rápido e seco. Máximas chegam a 30,4 °C e mínimas a 13,2 °C. A safra 2025/26 de MG está encerrada com 100% colhido (Conab, 9º Levantamento, jun/2026). Preço de referência: R$ 113,00/sc 60 kg no Triângulo Mineiro (Portal Agron, 06/05/2026).",
  "pontos": [
-  "Veranico de 7 dias confirmado — sem chuva relevante prevista até 10/jul; atenção ao planejamento de irrigação em áreas com culturas de inverno",
-  "ET0 média de 4,2 mm/dia eleva demanda hídrica acumulada ao longo da semana",
-  "Rajada de 47,9 km/h em 07/jul (vento norte) indica atuação de sistema de alta pressão pós-frontal sem precipitação"
+  "Safra 2025/26 encerrada em MG — foco no acompanhamento de preços e planejamento da próxima temporada",
+  "Sete dias consecutivos sem chuva e ET0 média de 4,1 mm/dia elevam atenção ao manejo de solos descobertos e pastagens",
+  "Rajada de 45 km/h na terça (07/07) com virada de vento para norte sugere passagem frontal seca — monitorar erosão eólica em áreas preparadas"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T03:45:34+00:00",
+  "clima": "2026-07-04T14:54:43+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-05-06"
  }

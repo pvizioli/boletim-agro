@@ -1,16 +1,16 @@
 {
  "distrito_id": "erechim_soja",
  "nome": "ERECHIM-SOJA",
- "gerado_em": "2026-07-04T04:00:42+00:00",
+ "gerado_em": "2026-07-04T15:50:35+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Erechim, 4 de julho de 2026. A safra 2025/2026 de soja no RS está encerrada (100% colhida), com produtividade de 45 sc/ha e produção de 18,13 milhões de toneladas, alta de 32,9% ante a safra anterior, porém 14,8% abaixo da projeção inicial, refletindo forte variabilidade regional (Emater/RS-Ascar, 11/jun/2026). O preço está em R$ 129,00/sc 60kg no Centro Ocidental RS (Grao Direto, 3/jul/2026). No campo climático, a semana é marcada por padrão invernal típico: sexta (4/jul) registra tmin de 0,1°C com chuva residual de 3,2 mm, seguida de aquecimento rápido no domingo (5/jul, tmax 22,3°C) e nova queda com chuva de 3,1 mm na segunda (6/jul, prob. 95%), sugerindo passagem de sistema frontal. Terça a quinta (7–9/jul) apresentam sequência seca com tmin abaixo de 3°C em dois dias, configurando risco de geada. Chuva acumulada prevista é baixa (máx. 6,0 mm/7d).",
+ "texto": "Erechim, RS — Safra 2025/2026 encerrada com 100% colhido e produtividade de 45 sc/ha (Emater/RS-Ascar, 11/jun/2026), resultado 14,8% abaixo da projeção inicial e com forte variabilidade regional. A semana meteorológica (4 a 10/jul) apresenta dinâmica típica de inverno gaúcho: sábado (4/jul) abre com máxima de apenas 16,6 °C e mínima de 0,1 °C, com ventos de sudeste e chuva fraca. Domingo (5/jul) aquece até 22,6 °C antes de virada de vento para oeste-noroeste em segunda (6/jul), sugerindo passagem de sistema frontal com queda de temperatura e chuva de 2,7 mm. A partir de quarta (8/jul), sequência seca de três dias com mínimas próximas de zero e evapotranspiração média de 2,1 mm/dia eleva a demanda hídrica. Risco de geada em 4, 7 e 8/jul com mínimas abaixo de 3 °C. Chuva acumulada prevista para os sete dias é de apenas 1,4 a 7,7 mm. Preço da saca em R$ 129,00 (Grão Direto, 3/jul/2026).",
  "pontos": [
-  "Risco de geada em 07 e 08/jul (tmin -0,3°C e 2,5°C): atenção a culturas de inverno e pastagens na região de Erechim",
-  "Passagem frontal prevista para segunda-feira (06/jul) com prob. de chuva de 95% e queda de temperatura — monitorar impacto em operações de campo",
-  "Safra 2025/2026 encerrada com 45 sc/ha: resultado 14,8% abaixo da projeção inicial apesar da recuperação de 32,9% vs safra anterior (Emater/RS-Ascar)"
+  "Risco de geada em 04, 07 e 08/jul com mínimas de 0,1 °C, 2,9 °C e 0,4 °C respectivamente — atenção a culturas de inverno e pastagens",
+  "Passagem frontal estimada entre domingo e segunda (5-6/jul) com virada de vento para oeste e chuva fraca, sem volume expressivo",
+  "Sequência seca de três dias (8 a 10/jul) com ET0 acima de 2,2 mm/dia reforça demanda hídrica no período"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T03:00:12+00:00",
+  "clima": "2026-07-04T14:52:20+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

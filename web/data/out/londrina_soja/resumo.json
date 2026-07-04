@@ -1,16 +1,16 @@
 {
  "distrito_id": "londrina_soja",
  "nome": "LONDRINA-SOJA",
- "gerado_em": "2026-07-04T04:03:21+00:00",
+ "gerado_em": "2026-07-04T15:53:11+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Londrina, 4 de julho de 2026. A semana inicia com chuva fraca (2,1 mm, prob. 95%) e ventos de leste (119°), padrão típico de circulação pré-frontal. Na terça (05/07), precipitação cai para 0,6 mm com rajadas de 33,1 km/h. Na quarta (06/07), nova chuva leve (1,6 mm). A virada é clara na quinta (07/07): 8,4 mm, queda de Tmax para 23,8°C, Tmin recuando a 8,6°C e vento girando abruptamente para sudoeste (237°), sinalizando passagem de sistema frontal. Na sexta (08/07), Tmin atinge 6,1°C — mínima da série — sem chuva, confirmando pós-frontal. O fim de semana segue seco, com ET0 elevada (3,21–3,48 mm/dia) e sequência de 3 dias secos. Safra 2025/2026 encerrada no PR: 63 sc/ha, produção de 21,78 Mt (+2,8% vs safra anterior), conforme Deral/SEAB-PR (25/05/2026). Preço em Paranaguá: R$ 128,50/sc (Canal Rural, 17/06/2026).",
+ "texto": "Londrina, 4 de julho de 2026. A safra 2025/2026 de soja no Paraná está encerrada com 100% colhido, produtividade de 63 sc/ha e produção de 21,78 milhões de toneladas, alta de 2,8% sobre o ciclo anterior (Deral/SEAB-PR, 25/05/2026). O preço na praça de Paranaguá está em R$ 128,50/sc (Canal Rural, 17/06/2026). No campo climático, o padrão da semana é tipicamente invernal: mínimas baixas (6,1 °C na quinta e sexta-feira), máximas moderadas em torno de 23–27 °C e chuva concentrada no sábado (4,2 mm, com virada de vento para sudoeste, sugerindo passagem de sistema frontal rápido). A sequência seca predomina a partir de quarta-feira, com evapotranspiração média de 3,0 mm/dia e acumulado semanal entre 0,6 e 4,7 mm nos 25 municípios monitorados. Não há alertas ativos do Inmet.",
  "pontos": [
-  "Passagem frontal confirmada na quinta (07/07): virada de vento para 237°, queda térmica e 8,4 mm de chuva acumulada",
-  "Pós-frontal seco com Tmin de 6,1°C na sexta (08/07) — monitorar risco de geada em áreas mais frias do distrito",
-  "ET0 média de 3,0 mm/dia e sequência de 3 dias secos no fim da semana elevam demanda hídrica, sem impacto na soja (safra encerrada)"
+  "Safra 2025/2026 encerrada no PR: 63 sc/ha, +2,8% vs safra anterior (Deral/SEAB-PR, 25/05/2026)",
+  "Preço em Paranaguá: R$ 128,50/sc em 17/06/2026 — referência para comercialização do estoque remanescente",
+  "Passagem frontal rápida prevista para terça-feira (07/07) com virada de vento e 4,2 mm; semana predominantemente seca após o evento"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T03:43:09+00:00",
+  "clima": "2026-07-04T14:54:38+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

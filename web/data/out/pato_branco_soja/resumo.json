@@ -1,16 +1,16 @@
 {
  "distrito_id": "pato_branco_soja",
  "nome": "PATO BRANCO-SOJA",
- "gerado_em": "2026-07-04T04:04:40+00:00",
+ "gerado_em": "2026-07-04T15:54:26+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Pato Branco-Soja (PR) — safra 2025/2026 encerrada com 100% colhido, produtividade de 63 sc/ha e produção de 21,78 milhões de toneladas, alta de 2,8% frente à safra anterior (Deral/SEAB-PR, 25/05/2026). Preço em Paranaguá: R$ 128,50/sc 60kg (Canal Rural, 17/06/2026). Na dinâmica climática da semana, sábado (05/jul) registrou virada de vento para NE com leve chuva (0,8 mm), seguida de queda brusca de temperatura e chuva concentrada de 10,2 mm no domingo (06/jul) — padrão consistente com passagem frontal identificada nos sinais_derivados. Pós-frente, temperaturas mínimas caem a 2,5°C (07/jul) e 0,9°C (08/jul), com risco de geada em três datas da série. A sequência seca de quatro dias (08 a 11/jul) eleva a ET0 a até 3,28 mm/dia (09/jul), com chuva prevista de apenas 0,9–10,4 mm nos próximos 7 dias.",
+ "texto": "Pato Branco, 4 de julho de 2026. A safra 2025/2026 de soja no Paraná está encerrada com 100% colhido, produtividade de 63 sc/ha e produção de 21,78 milhões de toneladas, alta de 2,8% sobre o ciclo anterior (Deral/SEAB-PR, 25/mai/2026). O preço na praça de Paranaguá está em R$ 128,50/sc (Canal Rural, 17/jun/2026). No campo, o padrão térmico desta semana é tipicamente invernal: mínima de 0,8 °C prevista para quarta-feira (08/jul) e sábado (04/jul) com 2,9 °C, configurando risco de geada em baixadas. A passagem de sistema frontal é evidenciada na segunda-feira (06/jul), com queda brusca de máxima para 18,1 °C, chuva de 9,2 mm (probabilidade 91%) e virada de vento para sul. Após a frente, sequência de quatro dias secos com evapotranspiração média de 2,4 mm/dia e aquecimento gradual até 24 °C na sexta (10/jul).",
  "pontos": [
-  "Geada: mínimas de 0,9°C (08/jul) e 2,5°C (07/jul) exigem atenção a culturas de inverno e pastagens na região",
-  "Passagem frontal em 06/jul trouxe 10,2 mm — único evento relevante da semana, insuficiente para compensar sequência seca subsequente",
-  "ET0 média de 2,4 mm/dia com pico de 3,28 mm/dia em 09/jul indica demanda hídrica elevada no período pós-frontal"
+  "Geada possível em 04/jul e 08/jul — mínimas abaixo de 3 °C; atenção a culturas de inverno e pastagens em baixadas",
+  "Passagem frontal em 06/jul traz o único evento de chuva relevante da semana (9,2 mm, prob. 91%)",
+  "Sequência seca de quatro dias após a frente com ET0 elevada (~2,8 mm/dia no fim do período)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T03:44:29+00:00",
+  "clima": "2026-07-04T14:54:43+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

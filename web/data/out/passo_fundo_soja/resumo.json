@@ -1,16 +1,16 @@
 {
  "distrito_id": "passo_fundo_soja",
  "nome": "PASSO FUNDO-SOJA",
- "gerado_em": "2026-07-04T04:04:27+00:00",
+ "gerado_em": "2026-07-04T15:54:14+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Passo Fundo, 4 de julho de 2026. A semana abre com padrão típico de inverno gaúcho: sábado (05/jul) registra maior probabilidade de chuva (82%, 1,7 mm) com vento de leste, seguido de virada para sudoeste na segunda (06/jul, 3,6 mm, 236°) — dinâmica consistente com passagem de sistema frontal rápido. A partir de terça (07/jul), vento retorna ao quadrante leste-nordeste, chuva cessa e ET₀ sobe progressivamente até 2,85 mm/dia na quinta (09/jul), configurando sequência seca de até 4 dias (sinais_derivados). Mínimas abaixo de 3 °C em quatro datas (04, 07, 08 e 09/jul) sustentam risco de geada. Safra 2025/2026 encerrada com 100% colhido, produtividade de 45 sc/ha (Emater/RS-Ascar, 11/jun/2026), alta de 32,9% vs. safra anterior, porém 14,8% abaixo da projeção inicial. Preço em R$ 129/sc 60 kg (Grão Direto, Centro Ocidental RS, 03/jul/2026).",
+ "texto": "Passo Fundo, RS — 4 de julho de 2026. A safra 2025/2026 está encerrada, com 100% colhido em Passo Fundo e Erechim (Emater/RS-Ascar, 14/05/2026). A produtividade média no RS ficou em 45 sc/ha, recuo de 14,8% frente à projeção inicial, com forte variabilidade regional entre 20 e 70 sc/ha (Emater/RS-Ascar, 11/06/2026). O preço da saca está em R$ 129,00 (Grão Direto, 03/07/2026). No clima, a semana apresenta padrão invernal típico: sábado (05/07) registra aquecimento com máxima de 20,9 °C, seguido de queda brusca na segunda (06/07) com virada de vento para sudoeste e chuva de 2,7 mm — sinal de passagem frontal. Após a frente, mínimas voltam a 2,5 °C e -0,4 °C (terça e quarta), com risco de geada em quatro dias da semana. A chuva total prevista é baixa (5,0–7,9 mm em 7 dias), sem impacto operacional para a entressafra.",
  "pontos": [
-  "Risco de geada em 4 noites da semana (mínimas ≤ 0 °C em 04 e 08/jul) — atenção a culturas de inverno e pastagens",
-  "Passagem frontal rápida entre sábado e segunda entrega apenas 5–7 mm acumulados; sem impacto relevante para o campo em entressafra",
-  "Sequência seca de 4 dias com ET₀ média de 2,0 mm/dia (sinais_derivados) eleva demanda hídrica no final da semana"
+  "Geada possível em quatro dias da semana (04, 07, 08 e 09/07), com mínimas abaixo de 3 °C — atenção a culturas de inverno e infraestrutura",
+  "Passagem frontal prevista para segunda-feira (06/07): queda de temperatura, vento de sudoeste e chuva fraca",
+  "Chuva acumulada semanal muito baixa (5,0–7,9 mm) e sequência de até 3 dias secos — sem risco para a entressafra de soja"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T03:44:29+00:00",
+  "clima": "2026-07-04T14:54:42+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

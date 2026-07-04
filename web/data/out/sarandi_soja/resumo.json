@@ -1,16 +1,16 @@
 {
  "distrito_id": "sarandi_soja",
  "nome": "SARANDI-SOJA",
- "gerado_em": "2026-07-04T04:08:12+00:00",
+ "gerado_em": "2026-07-04T15:57:56+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Sarandi-Soja (RS) — Safra 2025/2026 encerrada. A semana inicia com padrão de inverno marcado: sábado (04/jul) registrou tmax de 16,5 °C, rajada de 40,3 km/h de SE e chuva de 1,7 mm, sugerindo influência de sistema frontal em dissipação. Domingo (05/jul) apresenta aquecimento rápido (tmax 22,4 °C) com vento girando para NE, seguido de nova queda térmica na segunda (06/jul, tmax 17,5 °C) e vento de SW — padrão típico de passagem frontal. A partir de terça (07/jul), sequência seca se consolida: zero chuva até sexta (10/jul), ET0 média de 2,1 mm/dia (sinais_derivados, 04/jul) e pico de 3,12 mm/dia na quinta (09/jul). Tmin de 0,8 °C prevista para quarta (08/jul) reforça risco de geada (sinais_derivados). Preço da saca em R$ 129,00 (Grão Direto, 03/jul). Produtividade final: 45 sc/ha (Emater/RS-Ascar, 11/jun), 32,9% acima da safra anterior, porém 14,8% abaixo da projeção inicial.",
+ "texto": "Distrito Sarandi-RS, safra 2025/2026 encerrada com 100% colhido. A semana de 4 a 10 de julho apresenta dinâmica típica de inverno gaúcho com passagem de sistemas frontais. No sábado (4/jul), máxima de apenas 16,7 °C com chuva de 2,4 mm e rajadas de 40 km/h de sudeste indicam atuação frontal. Domingo (5/jul) traz recuperação térmica (máxima 22,4 °C) com vento girando para nordeste. Segunda (6/jul) registra nova queda de temperatura (máxima 15,7 °C) e vento de oeste, sugerindo pós-frontal. De terça a quinta (7 a 9/jul), sequência seca com mínimas próximas a 1,4 °C — risco de geada nos dias 4 e 8/jul conforme sinais derivados. A evapotranspiração média de 2,1 mm/dia mantém demanda hídrica moderada. Sexta (10/jul) traz chuva de 5,4 mm com vento de norte. Produtividade encerrada em 45 sc/ha (Emater/RS-Ascar, 11/jun/2026), 14,8% abaixo da projeção inicial. Saca cotada a R$ 129,00 (Grão Direto, 3/jul/2026).",
  "pontos": [
-  "Risco de geada em 04 e 08/jul (tmin ≤ 1,2 °C) — atenção a culturas de inverno e pastagens na região de Sarandi",
-  "Sequência seca de até 7 dias consecutivos (sinais_derivados) com ET0 elevada (pico 3,12 mm/dia em 09/jul) — monitorar irrigação de culturas de entressafra",
-  "Safra 2025/2026 encerrada com 45 sc/ha e forte variabilidade regional (1.200–4.200 kg/ha), segundo Emater/RS-Ascar (11/jun)"
+  "Risco de geada nos dias 4 e 8/jul com mínimas de 1,2 °C e 1,4 °C — atenção a culturas de inverno e pastagens na região",
+  "Safra 2025/2026 encerrada com 45 sc/ha, forte variabilidade regional (20 a 70 sc/ha equivalente) e resultado 14,8% abaixo da projeção inicial (Emater/RS-Ascar, 11/jun/2026)",
+  "Semana predominantemente seca (máximo 1 dia com chuva relevante); chuva acumulada de até 10,1 mm em 7 dias — entressafra sem impacto operacional imediato"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T03:47:55+00:00",
+  "clima": "2026-07-04T14:56:59+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

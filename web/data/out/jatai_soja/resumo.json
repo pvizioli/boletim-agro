@@ -1,16 +1,16 @@
 {
  "distrito_id": "jatai_soja",
  "nome": "JATAI-SOJA",
- "gerado_em": "2026-07-04T04:02:41+00:00",
+ "gerado_em": "2026-07-04T15:52:34+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Jataí-Soja (GO/MS) opera em plena entressafra da soja 2025/26, com ambas as UFs com 100% colhido. A dinâmica atmosférica da semana é marcada por veranico consolidado: sete dias consecutivos sem chuva (série diária 03–09/jul), chuva prevista praticamente nula (máx. 0,6 mm em 7 dias, fonte: clima gerado em 04/07/2026) e ET0 média de 3,9 mm/dia. As temperaturas máximas sobem progressivamente de 25,7 °C (qui, 03/jul) a 29,4 °C (ter, 07/jul), com mínimas entre 13,6 e 15,2 °C — amplitude térmica típica de inverno seco do Cerrado. Rajadas moderadas (24–36 km/h) com ventos predominantemente de quadrante SE reforçam a subsidência. MS encerrou com 60 sc/ha e produção de 16,7 Mt (+19,1% vs. safra anterior, Aprosoja/MS-Siga/Famasul, 26/mai/2026). Preço de referência em Jataí/GO: R$ 108,50/sc (Canal Rural, 17/jun/2026).",
+ "texto": "Distrito Jataí-Soja (GO/MS) — 4 a 10 de julho de 2026. A semana é marcada por padrão típico de inverno do Cerrado: sequência de sete dias sem chuva relevante, com apenas 0,6 mm isolados previstos para quinta-feira (9/jul), insuficientes para alterar o balanço hídrico. As mínimas oscilam entre 13,8 °C e 16,8 °C, sem indicativo de geada. As máximas sobem progressivamente de 27,3 °C (sábado) a 31,4 °C (sexta), com ventos predominantemente de leste-sudeste e rajadas entre 30 e 39 km/h. A evapotranspiração média de 4,1 mm/dia confirma demanda hídrica elevada, característica do veranico invernal. A safra 2025/26 está encerrada em ambos os estados: GO registrou produção de 20,1 milhões de toneladas (Conab, jun/2026) e MS atingiu 60 sc/ha e 16,7 milhões de toneladas, alta de 19,1% sobre a safra anterior (Aprosoja/MS-Siga/Famasul, mai/2026). Preço de referência em Jataí/GO: R$ 108,50/sc (Canal Rural, 17/jun/2026).",
  "pontos": [
-  "Veranico de 7 dias confirmado na série diária sem perspectiva de chuva relevante até 09/jul — sem impacto direto na soja, mas atenção ao planejamento de irrigação de culturas de inverno na região",
-  "ET0 média de 3,9 mm/dia com pico de 4,51 mm em terça (07/jul) eleva demanda hídrica atmosférica — relevante para pastagens e cultivos de segunda safra ainda em campo",
-  "MS registrou produtividade de 60 sc/ha e crescimento de 19,1% na produção frente à safra anterior — melhor resultado recente para o estado segundo balanço final Aprosoja/MS"
+  "Sete dias consecutivos sem chuva e ET0 média de 4,1 mm/dia — veranico invernal consolidado, sem impacto operacional pois a safra está encerrada",
+  "Mínimas acima de 13 °C ao longo de toda a semana — ausência de risco de geada no período monitorado",
+  "MS encerrou a safra 2025/26 com 60 sc/ha e crescimento de 19,1% sobre a safra anterior, segundo Aprosoja/MS-Siga/Famasul (mai/2026)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T03:35:01+00:00",
+  "clima": "2026-07-04T14:53:33+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-06-17"
  }

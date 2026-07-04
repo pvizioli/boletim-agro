@@ -1,16 +1,16 @@
 {
  "distrito_id": "cuiaba_soja",
  "nome": "CUIABA-SOJA",
- "gerado_em": "2026-07-04T04:00:17+00:00",
+ "gerado_em": "2026-07-04T15:50:08+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Cuiabá-Soja | 04/jul/2026. A série diária revela padrão de estiagem consolidada: sete dias consecutivos sem chuva relevante (maior_sequencia_dias_secos = 7, clima gerado em 04/jul/26), com precipitação acumulada de apenas 0,2 mm na sexta-feira (03/jul). As máximas sobem progressivamente de 30,4 °C (sex) a 33,8 °C (qui/09), enquanto as mínimas oscilam entre 13,7 °C (sáb/04) e 18,9 °C (ter/07), sem sinal de geada ou sistema frontal. A amplitude térmica elevada e ausência de chuva caracterizam domínio de massa seca de inverno, com ET0 potencialmente alta nas horas mais quentes. Como a safra 2025/26 está encerrada em MT — 100% colhido, produtividade de 66 sc/ha (Imea/Conab, 11/jun/26) e produção de 51,56 Mt (+1,3% vs. safra anterior) —, o tempo seco não representa risco operacional imediato. Preço de referência: R$ 108,63/sc (Grao Direto, Nordeste MT, 03/jul/26).",
+ "texto": "Distrito Cuiabá-Soja (MT) — 4 de julho de 2026. A safra 2025/26 está encerrada em todo o Mato Grosso, com colheita 100% concluída nas macrorregiões Centro-Sul, Médio-Norte e Oeste (Imea/Conab, 11/jun/26). A produtividade final ficou em 66 sc/ha, com produção de 51,56 milhões de toneladas, alta de 1,3% sobre a safra anterior (Imea em Campo/Conab 9º levantamento, jun/26). O clima desta semana é tipicamente de entressafra seca do Cerrado: sete dias consecutivos sem chuva relevante, máximas entre 30,7 °C (sábado) e 33,8 °C (quarta), mínimas oscilando entre 14,0 °C e 19,3 °C, com ventos predominantemente de sul e sudoeste. A evapotranspiração média de 4,7 mm/dia reflete alta demanda atmosférica sob céu aberto. Nenhuma chuva está prevista para os próximos sete dias. O preço da saca em MT está em R$ 108,63/sc (Grão Direto — Nordeste MT, 3/jul/26).",
  "pontos": [
-  "Estiagem total nos próximos 7 dias: previsão de 0 a 0,2 mm acumulados, sem dias com chuva relevante — sem impacto na soja, safra encerrada",
-  "Temperatura máxima atinge 33,8 °C na quinta-feira (09/jul), com amplitude diária superior a 15 °C — atenção ao manejo de solos expostos e pastagens",
-  "Safra 2025/26 encerrada com 66 sc/ha e +1,3% sobre a safra anterior (Imea/Conab, 11/jun/26) — foco do produtor volta-se ao escoamento e comercialização"
+  "Safra 2025/26 encerrada em MT: 66 sc/ha e +1,3% sobre a safra anterior (Imea/Conab, jun/26)",
+  "Sete dias consecutivos sem chuva e ET0 média de 4,7 mm/dia indicam veranico de inverno consolidado na região",
+  "Máximas acima de 33 °C e rajadas de até 40 km/h na quinta-feira elevam risco de incêndios em áreas de palhada e pastagem"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T02:51:27+00:00",
+  "clima": "2026-07-04T14:52:19+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

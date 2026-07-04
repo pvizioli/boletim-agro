@@ -1,16 +1,16 @@
 {
  "distrito_id": "carazinho_soja",
  "nome": "CARAZINHO-SOJA",
- "gerado_em": "2026-07-04T03:59:10+00:00",
+ "gerado_em": "2026-07-04T15:49:03+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Carazinho, RS — 4 de julho de 2026. A série diária revela dinâmica típica de passagem frontal: sexta-feira (03/jul) registrou tmax de apenas 8,7 °C com chuva residual, seguida de recuperação térmica no sábado (04/jul, tmax 14,1 °C) e aquecimento expressivo no domingo (05/jul, tmax 20,0 °C). A virada ocorre na segunda (06/jul), com queda brusca para tmax 14,4 °C e tmin 8,9 °C, concentrando a maior probabilidade de chuva da semana (78%, 2,5 mm). A partir de terça (07/jul), tempo seco se instala por três dias consecutivos, com tmin de 1,4 °C na quarta (08/jul) — sinais_derivados apontam risco de geada em 03, 04 e 08/jul. Chuva total prevista é modesta (2,5–7,6 mm). A safra 2025/2026 está encerrada (100% colhido, 45 sc/ha, Emater/RS-Ascar, 11/jun/2026), com produção de 18,1 milhões de toneladas e alta de 32,9% sobre a safra anterior. Preço atual: R$ 129/sc (Grão Direto, 03/jul/2026).",
+ "texto": "Carazinho, RS — 4 de julho de 2026. A semana abre com sábado frio: máxima de 13,5 °C, mínima de 1,0 °C e rajadas de 38,5 km/h de sudeste, com 2,2 mm de chuva e risco de geada confirmado pelos sinais derivados. Na segunda-feira, virada do vento para oeste e nova queda de temperatura (máxima 14,4 °C) com mais 2,2 mm sugerem passagem de sistema frontal. A partir de terça, ventos de norte/noroeste e sequência de três dias secos elevam a evapotranspiração — média semanal de 1,9 mm/dia, com pico de 2,46 mm/dia na quinta. A semana encerra com chuva mais expressiva na sexta (8,2 mm previstos), totalizando entre 6,8 e 10,8 mm nos sete municípios monitorados. Com safra 2025/2026 encerrada (100% colhido, 45 sc/ha — Emater/RS-Ascar, 11/jun/2026, +32,9% vs safra anterior), o foco recai sobre comercialização: soja cotada a R$ 129/sc (Grão Direto, 3/jul/2026).",
  "pontos": [
-  "Risco de geada confirmado pelos sinais_derivados em 03, 04 e 08/jul, com tmin abaixo de 3 °C — atenção para culturas de inverno e infraestrutura de armazenagem",
-  "Passagem frontal concentra chuva fraca entre sábado e segunda (4–6/jul, até 7,6 mm acumulados), sem impacto operacional relevante na entressafra",
-  "Safra 2025/2026 encerrada com 45 sc/ha (Emater/RS-Ascar, 11/jun/2026), 14,8% abaixo da projeção inicial, apesar do salto de 32,9% sobre a safra anterior"
+  "Geada possível em 4 e 8 de julho — mínimas de 1,0 °C e 2,4 °C respectivamente; atenção a culturas de inverno e pastagens",
+  "Sequência de três dias secos com ET0 elevada (até 2,46 mm/dia na quinta) aumenta demanda hídrica sobre lavouras de inverno em estabelecimento",
+  "Chuva acumulada semanal baixa (6,8–10,8 mm) e concentrada em apenas um dia relevante — distribuição desfavorável para recarga de solo"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T02:29:33+00:00",
+  "clima": "2026-07-04T14:51:11+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

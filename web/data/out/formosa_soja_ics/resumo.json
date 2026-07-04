@@ -1,16 +1,16 @@
 {
  "distrito_id": "formosa_soja_ics",
  "nome": "FORMOSA-SOJA/ICS",
- "gerado_em": "2026-07-04T04:00:56+00:00",
+ "gerado_em": "2026-07-04T15:50:48+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito FORMOSA-SOJA/ICS, 4 de julho de 2026. A série diária revela padrão típico de inverno seco no Cerrado: sete dias consecutivos sem chuva (sequência máxima registrada nos sinais derivados), com amplitude térmica acentuada — mínimas entre 13,6 °C (sexta-feira, 03/jul) e 16,7 °C (quarta-feira, 09/jul) e máximas em elevação progressiva, atingindo 32,2 °C ao final do período. A probabilidade de chuva permanece nula ou residual em toda a janela de 7 dias (máximo de 14% na sexta-feira, 04/jul), sem alertas INMET ativos. O padrão indica domínio de massa de ar seco continental, sem sistemas frontais ou convecção relevante previstos. A safra 2025/26 está encerrada em DF, GO e MG (100% colhido, Conab — 9º Levantamento, jun/2026); GO registrou produção de 20,1 milhões de toneladas. Preço de referência: R$ 112,00/sc 60 kg (Portal Agron, DF, 06/mai/2026).",
+ "texto": "Distrito FORMOSA-SOJA/ICS (DF, GO, MG) — 4 a 10 de julho de 2026. A safra 2025/26 está encerrada em todas as UFs monitoradas, com 100% plantado e colhido (Conab, 9º Levantamento, jun/2026). Goiás registrou produção de 20,1 milhões de toneladas. O padrão climático da semana é de veranico consolidado: sete dias consecutivos sem chuva, probabilidade de precipitação nula ou residual em todos os dias, e demanda evapotranspirativa elevada, com média de 4,9 mm/dia e pico de 5,3 mm em quinta-feira (9/jul). As máximas sobem progressivamente de 29,8°C (sábado, 4/jul) a 32,2°C (quinta, 9/jul), com mínimas amenas entre 13,7°C e 18,1°C. Ventos de leste a sudeste com rajadas de até 38,2 km/h reforçam a baixa umidade relativa típica do inverno do Cerrado. Sem impacto direto sobre a soja, mas atenção ao armazenamento e à comercialização. Preço de referência: R$ 112,00/sc 60kg (Portal Agron, DF, mai/2026).",
  "pontos": [
-  "Sete dias consecutivos sem chuva confirmam veranico de inverno; sem impacto operacional direto, pois safra 2025/26 está 100% colhida nas três UFs",
-  "Amplitude térmica elevada (até 18,6 °C de variação diária) exige atenção ao armazenamento de grãos — umidade relativa baixa favorece secagem natural, mas requer monitoramento de fissuras",
-  "GO encerrou safra 2025/26 com produção de 20,1 milhões de toneladas (Conab, 9º Levantamento, jun/2026); produtividade em sc/ha não disponível no levantamento consultado"
+  "Safra 2025/26 encerrada em DF, GO e MG — foco na comercialização e logística de escoamento",
+  "Veranico de 7 dias com ET0 média de 4,9 mm/dia eleva risco de perda de qualidade em grãos armazenados sem controle de umidade",
+  "Máximas acima de 30°C e rajadas de até 38 km/h agravam a baixa umidade relativa do ar — atenção às condições de armazenagem"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T03:04:36+00:00",
+  "clima": "2026-07-04T14:52:22+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-05-06"
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "vilhena_soja",
  "nome": "VILHENA-SOJA",
- "gerado_em": "2026-07-04T04:09:14+00:00",
+ "gerado_em": "2026-07-04T15:58:57+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito VILHENA-SOJA, 04/jul/2026. Safra 2025/26 encerrada em MT (100% colhido, 66 sc/ha, produção 51,56 Mt, +1,3% vs. safra anterior — Imea em Campo/Conab 9º lev., jun/26) e em RO (100% colhido, sem dados de produtividade — Conab 9º lev., jun/26). Na série diária, qui/03 registrou rajada de 49,3 km/h com vento de leste (109°) e ET0 de 5,06 mm, seguida de virada para norte/nordeste (35°) em sáb/04 com tmin de 12,9°C — padrão compatível com passagem de sistema frontal rápido. A partir de dom/05, ventos giram para nordeste/leste e temperaturas sobem progressivamente até 35,2°C na qua/09. Chuvas fracas e esparsas (máx. 7,1 mm em ter/07, prob. 87%) não alteram o balanço hídrico; ET0 média de 4,8 mm/dia sustenta demanda evapotranspirativa elevada. Preço da saca em MT: R$ 108,63 (Grao Direto, Nordeste MT, 03/jul/26).",
+ "texto": "Distrito Vilhena-Soja | 4 a 10 de julho de 2026. A safra 2025/26 está encerrada em MT e RO. MT registrou produtividade de 66 sc/ha e produção de 51,56 milhões de toneladas, alta de 1,3% sobre a safra anterior (Imea em Campo/Conab 9º Levantamento, jun/2026). Com campo livre, o foco recai sobre clima e mercado. A semana abre com mínima expressiva de 12,6 °C no sábado (04/jul), sugerindo incursão de ar frio pelo sul da região — amplitude térmica de 18,5 °C reforça esse sinal. A partir de segunda (06/jul), mínimas sobem progressivamente até 19,5 °C na quinta (10/jul), com máximas chegando a 34,7 °C e ET0 média de 4,6 mm/dia, indicando demanda evapotranspirativa elevada. Chuvas são esparsas (máximo acumulado de 11,5 mm em 7 dias), sem risco operacional. Preço da saca em MT: R$ 108,63/sc 60 kg (Grao Direto, Nordeste MT, 03/jul/2026).",
  "pontos": [
-  "Safra 2025/26 encerrada em MT e RO; foco no período de entressafra e comercialização",
-  "Passagem frontal rápida entre qui/03 e sáb/04 derrubou tmin para 12,9°C e gerou rajada de 49,3 km/h — sem caracterização de geada pelos sinais disponíveis",
-  "ET0 média de 4,8 mm/dia com chuva acumulada máxima de 14,4 mm nos próximos 7 dias indica déficit hídrico relevante para áreas com cultivos de safrinha ou pastagens"
+  "Safra 2025/26 encerrada em MT (66 sc/ha, +1,3% vs. safra anterior) e RO — entressafra em curso",
+  "Mínima de 12,6 °C em 04/jul indica entrada de ar frio; amplitude de 18,5 °C exige atenção ao armazenamento de grãos",
+  "ET0 média de 4,6 mm/dia com chuvas inferiores a 11,5 mm na semana — demanda hídrica elevada, sem impacto operacional no momento"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T03:48:03+00:00",
+  "clima": "2026-07-04T14:57:05+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

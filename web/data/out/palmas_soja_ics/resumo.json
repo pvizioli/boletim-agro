@@ -1,16 +1,16 @@
 {
  "distrito_id": "palmas_soja_ics",
  "nome": "PALMAS-SOJA/ICS",
- "gerado_em": "2026-07-04T04:04:00+00:00",
+ "gerado_em": "2026-07-04T15:53:50+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Palmas-TO, 04/jul/2026. A safra 2025/26 de soja no Tocantins está encerrada com 100% colhido (Conab – 9º Levantamento, jun/2026). O padrão climático da semana é de veranico consolidado: seis dias consecutivos sem chuva relevante (sinais_derivados), ventos predominantemente de leste/sudeste com rajadas entre 30 e 39 km/h, temperaturas máximas escalando de 35,0°C (sábado) a 36,9°C (sexta), e ET0 média de 5,8 mm/dia — demanda evapotranspirativa elevada típica do inverno seco do Cerrado. A única precipitação projetada na janela de 7 dias é de até 6,6 mm, concentrada no final do período (quinta a sexta, 09–10/jul), com probabilidade de 43–55% e virada de vento para norte/nordeste no dia 10, sugerindo eventual influência de umidade amazônica, mas sem configurar ruptura do padrão seco. Sem impacto operacional direto na soja, dado o encerramento da safra.",
+ "texto": "Palmas (TO) — Safra 2025/26 encerrada. O tempo na semana de 4 a 10 de julho é dominado por veranico típico do inverno tocantinense: sequência de seis dias sem chuva relevante, máximas progressivamente elevadas de 34,8 °C (sábado) a 36,4 °C (quarta e quinta), com ventos de leste-sudeste e rajadas entre 31 e 39 km/h. A evapotranspiração média de 5,9 mm/dia evidencia demanda hídrica intensa sobre a vegetação remanescente. Apenas no final da semana, quinta e sexta-feira (9 e 10/jul), há sinais de mudança: probabilidade de chuva sobe a 47%, vento gira para nordeste-norte e a mínima sobe a 22,8 °C, sugerindo ingresso de umidade, mas os volumes previstos permanecem modestos (máximo 2,7 mm acumulado em 7 dias). Sem dado de produtividade ou preço disponível para a safra 2025/26 (Conab, 9º Levantamento, jun/2026).",
  "pontos": [
-  "Safra 2025/26 encerrada em TO — 100% colhido (Conab, jun/2026); sem risco climático para a colheita atual",
-  "Veranico de 6 dias consecutivos com ET0 média de 5,8 mm/dia eleva demanda hídrica sobre pastagens e culturas de entressafra",
-  "Chuva máxima prevista de 6,6 mm em 7 dias — volume insuficiente para recarga de solo; atenção ao planejamento de irrigação eventual"
+  "Veranico consolidado: seis dias secos com ET0 média de 5,9 mm/dia e máximas acima de 35 °C ao longo de toda a semana",
+  "Virada de vento para norte e elevação da mínima no final da semana (9-10/jul) indicam possível ingresso de umidade, mas chuva prevista não ultrapassa 2,7 mm — sem impacto operacional",
+  "Safra 2025/26 encerrada com 100% colhido em TO (Conab, jun/2026); produtividade e preço da saca não disponíveis nos dados atuais"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T03:44:26+00:00",
+  "clima": "2026-07-04T14:54:41+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }
