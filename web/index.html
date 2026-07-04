@@ -167,6 +167,13 @@
   .preco-v{font-family:'Fraunces',Georgia,serif;font-size:24px;font-weight:500;color:var(--brandL)}
   .preco-u{font-size:12px;color:var(--mut)}
   .preco-meta{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--dim);margin-left:auto}
+  .ria{border-left:3px solid var(--brand);margin-bottom:16px}
+  .ria-tag{margin-left:8px;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--dim);border:1px solid var(--border);border-radius:4px;padding:2px 6px;vertical-align:middle}
+  .ria-txt{font-size:14.5px;line-height:1.7;color:var(--tx);margin:4px 0 12px}
+  .ria-pts{display:flex;flex-direction:column;gap:7px;margin-bottom:12px}
+  .ria-pt{display:flex;gap:9px;align-items:flex-start;font-size:13px;line-height:1.55;color:var(--mut)}
+  .ria-dot{flex-shrink:0;width:6px;height:6px;border-radius:50%;background:var(--brand);margin-top:7px}
+  .ria-meta{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--vdim)}
   .preco-stale{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--amberL);border:1px solid var(--amber);border-radius:4px;padding:1px 6px}
   .mun-colh{margin-top:12px;padding-top:12px;border-top:1px dashed var(--border)}
   .mc-h{display:flex;align-items:center;gap:6px;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut);margin-bottom:8px}
@@ -385,6 +392,28 @@ function renderSidebar(){
   }
   sb.innerHTML=h;
 }
+var cacheResumo={};
+function htmlResumo(r){
+  if(!r||!r.texto) return "";
+  var h='<div class="panel ria"><div class="stitle">'+icoBroto(14,"currentColor")+' Resumo do analista <span class="ria-tag">gerado por IA</span></div>';
+  h+='<p class="ria-txt">'+escX(r.texto)+'</p>';
+  if(r.pontos&&r.pontos.length){
+    h+='<div class="ria-pts">';
+    for(var i=0;i<r.pontos.length;i++){ h+='<div class="ria-pt"><span class="ria-dot"></span><span>'+escX(r.pontos[i])+'</span></div>'; }
+    h+='</div>';
+  }
+  h+='<div class="ria-meta">'+escX(r.modelo||"Claude")+' &middot; '+fmtData(r.gerado_em||"")+' &middot; a partir dos dados do boletim (clima, colheita, pre&ccedil;o)</div></div>';
+  return h;
+}
+function carregaResumoIA(id){
+  var el=document.getElementById("resumo-ia"); if(!el) return;
+  if(cacheResumo[id]){ el.innerHTML=htmlResumo(cacheResumo[id]); return; }
+  carregaJSON(BASE+"/"+id+"/resumo.json?t="+Date.now()).then(function(r){
+    cacheResumo[id]=r;
+    var e2=document.getElementById("resumo-ia");
+    if(e2&&nav.distrito===id) e2.innerHTML=htmlResumo(r);
+  }).catch(function(e){});
+}
 function toggleNav(){ var s=document.getElementById("sidebar"); if(s) s.classList.toggle("aberta"); }
 function fecharNav(){ var s=document.getElementById("sidebar"); if(s) s.classList.remove("aberta"); }
 function rotuloNav(){ var el=document.getElementById("navToggleLabel"); if(!el) return; el.textContent = nav.distrito ? "Trocar distrito ou regi\u00e3o" : (nav.regional ? nav.regional : "Navegar"); }
@@ -488,7 +517,7 @@ function breadDistrito(d){
 function montaDistrito(d){
   if(d.gerado_em) $("upd").textContent=fmtData(d.gerado_em);
   var tabs=[["clima",icoTermo(15,"currentColor"),"Clima e Previs&atilde;o"],["colheita",icoBroto(15,"currentColor"),"Colheita"],["municipios",icoMapa(15,"currentColor"),"Munic&iacute;pios"]];
-  var h=breadDistrito(d)+precoDistrito(d)+fontesDistrito(d)+'<div class="tabs">';
+  var h=breadDistrito(d)+precoDistrito(d)+'<div id="resumo-ia"></div>'+fontesDistrito(d)+'<div class="tabs">';
   for(var i=0;i<tabs.length;i++){ h+='<button class="tab '+(tabAtiva===tabs[i][0]?"on":"")+'" onclick="setTab(\''+tabs[i][0]+'\')"><span class="ic">'+tabs[i][1]+'</span>'+tabs[i][2]+'</button>'; }
   h+="</div>";
   if(tabAtiva==="clima") h+=tabClima(d);
@@ -720,11 +749,13 @@ function render(){
   if(!nav.distrito){ v.innerHTML=viewMapa(); return; }
   if(cacheDistrito[nav.distrito]){
     v.innerHTML=montaDistrito(cacheDistrito[nav.distrito]);
+    carregaResumoIA(nav.distrito);
     if(tabAtiva==="clima") setTimeout(function(){ desenhaGraficos(cacheDistrito[nav.distrito]); },30);
     return;
   }
   v.innerHTML='<div class="loading">Carregando distrito...</div>';
   viewDistrito().then(function(html){ v.innerHTML=html;
+    carregaResumoIA(nav.distrito);
     if(tabAtiva==="clima"&&cacheDistrito[nav.distrito]) setTimeout(function(){ desenhaGraficos(cacheDistrito[nav.distrito]); },40);
   });
 }
