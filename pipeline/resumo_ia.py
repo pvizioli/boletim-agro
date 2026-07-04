@@ -40,7 +40,7 @@ COLHEITA_REGIONAL_CSV = os.path.join(BASE, "data", "colheita",
                                      "colheita_regional.csv")
 CROSSWALK_CSV = os.path.join(BASE, "config", "crosswalk_regioes.csv")
 
-MODELO = os.environ.get("RESUMO_MODELO", "claude-haiku-4-5-20251001")
+MODELO = os.environ.get("RESUMO_MODELO", "claude-sonnet-4-6")
 API_URL = "https://api.anthropic.com/v1/messages"
 
 SISTEMA = (
@@ -50,14 +50,22 @@ SISTEMA = (
     "do JSON fornecido; NUNCA invente numeros, safras, fontes ou fatos; se "
     "um dado nao existir no JSON, nao fale dele; produtividade sempre em "
     "sc/ha; ao citar um numero relevante, mencione fonte e data quando "
-    "disponiveis no JSON. CRUZE clima e colheita: se a colheita ou o plantio "
-    "estiverem em andamento (entre 0 e 100), avalie a chuva prevista como "
-    "janela ou risco; se a safra estiver encerrada (entressafra), foque no "
-    "clima corrente, no preco e no fechamento da safra. Responda APENAS um "
-    "JSON valido, sem markdown, no formato: "
-    '{"texto": "paragrafo de ate 110 palavras", '
+    "disponiveis no JSON. ANALISE CLIMATICA: leia o PADRAO da semana na "
+    "serie_diaria e nos sinais_derivados — evolucao da temperatura, "
+    "distribuicao e concentracao da chuva, vento e rajadas, ET0 — e "
+    "descreva a dinamica em linguagem sinotica honesta (ex.: queda brusca "
+    "de temperatura com chuva e virada de vento sugere passagem de sistema "
+    "frontal; sequencia seca com ET0 alta indica demanda hidrica). Nomeie "
+    "dias da semana a partir das datas. So caracterize geada, frente ou "
+    "veranico se os sinais_derivados ou a serie sustentarem. CRUZE clima e "
+    "colheita: se colheita ou plantio estiverem em andamento (entre 0 e "
+    "100), avalie a chuva prevista como janela ou risco por macrorregiao; "
+    "se a safra estiver encerrada (entressafra), foque na dinamica do tempo, "
+    "no preco e no fechamento da safra. Responda APENAS um JSON valido, sem "
+    "markdown, no formato: "
+    '{"texto": "analise de ate 170 palavras", '
     '"pontos": ["ponto de atencao curto", "outro ponto"]} '
-    "com 2 ou 3 pontos."
+    "com 3 ou 4 pontos."
 )
 
 
@@ -101,6 +109,63 @@ def _resumo_clima(latest):
         "alertas_inmet_ativos": alertas,
     }
     return out
+
+
+def _serie_diaria(latest):
+    """Consolida a previsao municipio a municipio em UMA serie diaria do
+    distrito (extremos/maximos por dia) + sinais sinoticos derivados."""
+    por_dia = {}
+    for m in latest.get("municipios", []):
+        for d in (m.get("clima") or {}).get("previsao_7d") or []:
+            dt = d.get("data")
+            if not dt:
+                continue
+            ag = por_dia.setdefault(dt, {"data": dt})
+            def _mx(campo, valor):
+                if valor is None:
+                    return
+                if ag.get(campo) is None or valor > ag[campo]:
+                    ag[campo] = valor
+            def _mn(campo, valor):
+                if valor is None:
+                    return
+                if ag.get(campo) is None or valor < ag[campo]:
+                    ag[campo] = valor
+            _mx("tmax", d.get("tmax")); _mn("tmin", d.get("tmin"))
+            _mx("chuva_mm", d.get("precip_mm"))
+            _mx("prob_chuva", d.get("prob_chuva"))
+            _mx("rajada_kmh", d.get("rajada_kmh"))
+            _mx("et0_mm", d.get("et0_mm"))
+            if d.get("vento_dir_graus") is not None and "vento_dir_graus" not in ag:
+                ag["vento_dir_graus"] = d.get("vento_dir_graus")
+    serie = [por_dia[k] for k in sorted(por_dia)][:7]
+
+    sinais = {}
+    geada = [d["data"] for d in serie
+             if d.get("tmin") is not None and d["tmin"] <= 3]
+    if geada:
+        sinais["risco_geada_tmin_ate_3c"] = geada
+    seq = melhor = 0
+    for d in serie:
+        if (d.get("chuva_mm") or 0) < 2:
+            seq += 1
+            melhor = max(melhor, seq)
+        else:
+            seq = 0
+    sinais["maior_sequencia_dias_secos"] = melhor
+    for i in range(1, len(serie)):
+        a, b = serie[i - 1], serie[i]
+        if a.get("tmax") is not None and b.get("tmax") is not None:
+            queda = a["tmax"] - b["tmax"]
+            com_chuva = (b.get("chuva_mm") or 0) >= 5
+            com_vento = (b.get("rajada_kmh") or 0) >= 50
+            if queda >= 6 and (com_chuva or com_vento):
+                sinais.setdefault("possivel_passagem_frontal", []).append(
+                    b["data"])
+    et_vals = [d.get("et0_mm") for d in serie if d.get("et0_mm") is not None]
+    if et_vals:
+        sinais["et0_media_mm_dia"] = round(sum(et_vals) / len(et_vals), 1)
+    return serie, sinais
 
 
 def _resumo_colheita(latest, itens_uf, itens_reg, crosswalk):
@@ -150,7 +215,7 @@ def _resumo_colheita(latest, itens_uf, itens_reg, crosswalk):
 def _chama_api(api_key, insumo):
     corpo = {
         "model": MODELO,
-        "max_tokens": 600,
+        "max_tokens": 900,
         "temperature": 0.3,
         "system": SISTEMA,
         "messages": [{
@@ -185,12 +250,15 @@ def gerar_para_distrito(dist_id, api_key, itens_uf, itens_reg, crosswalk):
     linhas_uf, linhas_reg, safra = _resumo_colheita(
         latest, itens_uf, itens_reg, crosswalk)
     ufs = (latest.get("distrito") or {}).get("ufs") or []
+    serie_d, sinais_d = _serie_diaria(latest)
     insumo = {
         "distrito": (latest.get("distrito") or {}).get("nome"),
         "regional": (latest.get("distrito") or {}).get("regional"),
         "ufs": ufs,
         "data_de_hoje": datetime.date.today().isoformat(),
         "clima_7dias": _resumo_clima(latest),
+        "serie_diaria": serie_d,
+        "sinais_derivados": sinais_d,
         "clima_gerado_em": latest.get("gerado_em"),
         "colheita_por_uf": linhas_uf,
         "colheita_por_macrorregiao": linhas_reg,
