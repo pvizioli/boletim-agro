@@ -1,16 +1,16 @@
 {
  "distrito_id": "ijui_soja",
  "nome": "IJUI-SOJA",
- "gerado_em": "2026-07-04T04:02:01+00:00",
+ "gerado_em": "2026-07-04T15:34:42+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Ijuí/RS, 04 jul 2026. A semana abre com sábado chuvoso (11,1 mm, rajadas de 37,8 km/h, vento de ESE, tmax 14,5 °C), seguido de rápida recuperação térmica no domingo (tmax 20,5 °C). A virada do vento para SW na segunda e terça (244–257°) com queda de tmax para 12,8 °C e chuva cessante caracteriza passagem de sistema frontal. A partir de quarta, vento retorna ao quadrante NE/N, temperaturas sobem progressivamente até 22,6 °C na sexta, sem chuva — configurando sequência seca de até 6 dias (sinais_derivados). ET0 média de 2,0 mm/dia (clima_gerado_em 04/07/2026). Risco de geada em 04/07 e 08/07 (tmin 1,2 °C e 2,4 °C, respectivamente). Safra 2025/2026 encerrada: 45 sc/ha, produção 18,13 Mt, +32,9% vs safra anterior (Emater/RS-Ascar, 11/06/2026). Preço: R$ 129/sc (Grão Direto, Centro Ocidental RS, 03/07/2026).",
+ "texto": "Ijuí/RS, 4 de julho de 2026. A safra 2025/2026 de soja no RS está encerrada com 100% colhido, produtividade média de 45 sc/ha — queda de 14,8% frente à projeção inicial, embora 32,9% acima da safra anterior (Emater/RS-Ascar, 11/jun/2026). O preço na região Centro Ocidental do RS está em R$ 129,00/sc (Grão Direto, 3/jul/2026). No clima, o sábado (4/jul) registra mínima de 1,4°C com rajadas de 42,5 km/h e vento de leste, indicando condição pós-frontal com risco de geada. Após aquecimento no domingo, nova queda de temperatura na terça (7/jul, mínima 2,8°C) reforça o risco. De quarta a quinta, ventos de norte elevam as máximas a quase 21°C e a evapotranspiração sobe para 2,3–2,6 mm/dia. A semana encerra com chuva prevista na quinta-sexta (até 7 mm), encerrando sequência de seis dias secos.",
  "pontos": [
-  "Geada: tmin de 1,2 °C em 04/07 e 2,4 °C em 08/07 — atenção a culturas de inverno e pastagens na região de Ijuí",
-  "Passagem frontal entre domingo e terça (05–07/07): virada de vento ESE→SW, queda térmica e chuvas residuais",
-  "Sequência seca de até 6 dias prevista a partir de quarta (08/07) com ET0 acumulada relevante para solos descobertos"
+  "Geada possível na madrugada de sábado (4/jul, mínima 1,4°C) e terça (7/jul, mínima 2,8°C) — atenção a culturas de inverno e pastagens",
+  "Safra soja RS encerrada a 45 sc/ha, com forte variabilidade regional (20 a 70 sc/ha equivalente)",
+  "Preço firme a R$ 129,00/sc na região, favorecendo comercialização de estoques remanescentes"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T03:24:14+00:00",
+  "clima": "2026-07-04T14:53:28+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }
