@@ -1,0 +1,16 @@
+{
+ "distrito_id": "ijui_soja",
+ "nome": "IJUI-SOJA",
+ "gerado_em": "2026-07-04T01:42:35+00:00",
+ "modelo": "claude-haiku-4-5-20251001",
+ "texto": "Safra 2025/2026 encerrada em Ijuí (RS): 100% colhido com produtividade de 45 sc/ha, representando queda de 14,8% versus projeção inicial (Emater/RS-Ascar, 11/06). Variabilidade regional significativa (1.200-4.200 kg/ha) reflete impactos climáticos durante ciclo. Clima atual apresenta mínimas de 1,2°C e máximas de 21,8°C; chuva prevista de 1,6 a 11,8 mm em 7 dias com 2 dias de precipitação relevante. Saca cotada em R$ 129 (Grão Direto, 03/07).",
+ "pontos": [
+  "Produtividade 14,8% abaixo da projeção inicial; variabilidade regional extrema indica perdas localizadas",
+  "Safra encerrada; monitorar preços em contexto de oferta reduzida vs. safra anterior (+32,9%)"
+ ],
+ "insumos_ref": {
+  "clima": "2026-07-03T21:54:29+00:00",
+  "colheita": "2026-06-11",
+  "preco": "2026-07-03"
+ }
+}
