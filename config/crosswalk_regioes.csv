@@ -404,3 +404,301 @@ codigo_ibge,uf,cidade,orgao,regiao_id,regiao_nome,confianca
 4321857,RS,TRÊS PALMEIRAS,emater,frederico_westphalen,Frederico Westphalen,alta
 4321956,RS,TRINDADE DO SUL,emater,frederico_westphalen,Frederico Westphalen,alta
 4323101,RS,VICENTE DUTRA,emater,frederico_westphalen,Frederico Westphalen,alta
+4100459,PR,ALTAMIRA DO PARANÁ,deral,pitanga,Pitanga,conferir
+4101655,PR,ARAPUÃ,deral,ivaipora,Ivaiporã,conferir
+4101705,PR,ARARUNA,deral,campo_mourao,Campo Mourão,alta
+4102505,PR,BARBOSA FERRAZ,deral,campo_mourao,Campo Mourão,conferir
+4103008,PR,BOA ESPERANÇA,deral,campo_mourao,Campo Mourão,alta
+4103305,PR,BORRAZÓPOLIS,deral,ivaipora,Ivaiporã,conferir
+4103909,PR,CAMPINA DA LAGOA,deral,campo_mourao,Campo Mourão,alta
+4104303,PR,CAMPO MOURÃO,deral,campo_mourao,Campo Mourão,alta
+4104402,PR,CÂNDIDO DE ABREU,deral,ivaipora,Ivaiporã,conferir
+4106555,PR,CORUMBATAÍ DO SUL,deral,campo_mourao,Campo Mourão,conferir
+4106852,PR,CRUZMALTINA,deral,ivaipora,Ivaiporã,conferir
+4107504,PR,ENGENHEIRO BELTRÃO,deral,campo_mourao,Campo Mourão,alta
+4107553,PR,FAROL,deral,campo_mourao,Campo Mourão,alta
+4107702,PR,FÊNIX,deral,campo_mourao,Campo Mourão,alta
+4108551,PR,GODOY MOREIRA,deral,campo_mourao,Campo Mourão,alta
+4108601,PR,GOIOERÊ,deral,campo_mourao,Campo Mourão,alta
+4110805,PR,IRETAMA,deral,campo_mourao,Campo Mourão,alta
+4111506,PR,IVAIPORÃ,deral,campo_mourao,Campo Mourão,alta
+4112207,PR,JANIÓPOLIS,deral,campo_mourao,Campo Mourão,alta
+4112504,PR,JARDIM ALEGRE,deral,campo_mourao,Campo Mourão,alta
+4112959,PR,JURANDA,deral,campo_mourao,Campo Mourão,alta
+4113429,PR,LIDIANÓPOLIS,deral,campo_mourao,Campo Mourão,alta
+4113734,PR,LUIZIANA,deral,campo_mourao,Campo Mourão,alta
+4113759,PR,LUNARDELLI,deral,campo_mourao,Campo Mourão,alta
+4114005,PR,MAMBORÊ,deral,campo_mourao,Campo Mourão,alta
+4114500,PR,MANOEL RIBAS,deral,campo_mourao,Campo Mourão,alta
+4116109,PR,MOREIRA SALES,deral,campo_mourao,Campo Mourão,alta
+4116802,PR,NOVA CANTU,deral,campo_mourao,Campo Mourão,alta
+4117271,PR,NOVA TEBAS,deral,campo_mourao,Campo Mourão,alta
+4118808,PR,PEABIRU,deral,campo_mourao,Campo Mourão,alta
+4120655,PR,QUARTO CENTENÁRIO,deral,campo_mourao,Campo Mourão,alta
+4121109,PR,QUINTA DO SOL,deral,campo_mourao,Campo Mourão,alta
+4121356,PR,RANCHO ALEGRE D'OESTE,deral,campo_mourao,Campo Mourão,alta
+4122503,PR,RONCADOR,deral,campo_mourao,Campo Mourão,alta
+4125001,PR,SÃO JOÃO DO IVAÍ,deral,campo_mourao,Campo Mourão,alta
+4127908,PR,TUNEIRAS DO OESTE,deral,campo_mourao,Campo Mourão,alta
+4128005,PR,UBIRATÃ,deral,campo_mourao,Campo Mourão,alta
+4101309,PR,ANTÔNIO OLINTO,deral,uniao_da_vitoria,União da Vitória,conferir
+4101804,PR,ARAUCÁRIA,deral,curitiba,Curitiba,alta
+4102307,PR,BALSA NOVA,deral,curitiba,Curitiba,conferir
+4102901,PR,BITURUNA,deral,uniao_da_vitoria,União da Vitória,conferir
+4104105,PR,CAMPO DO TENENTE,deral,curitiba,Curitiba,conferir
+4106209,PR,CONTENDA,deral,curitiba,Curitiba,conferir
+4106902,PR,CURITIBA,deral,curitiba,Curitiba,alta
+4113205,PR,LAPA,deral,curitiba,Curitiba,alta
+4113908,PR,MALLET,deral,irati,Irati,conferir
+4114302,PR,MANDIRITUBA,deral,curitiba,Curitiba,conferir
+4118204,PR,PARANAGUÁ,deral,paranagua,Paranaguá,alta
+4118600,PR,PAULA FREITAS,deral,uniao_da_vitoria,União da Vitória,conferir
+4118709,PR,PAULO FRONTIN,deral,uniao_da_vitoria,União da Vitória,conferir
+4121208,PR,QUITANDINHA,deral,curitiba,Curitiba,conferir
+4121505,PR,REBOUÇAS,deral,irati,Irati,conferir
+4122008,PR,RIO AZUL,deral,irati,Irati,conferir
+4122305,PR,RIO NEGRO,deral,curitiba,Curitiba,conferir
+4125100,PR,SÃO JOÃO DO TRIUNFO,deral,curitiba,Curitiba,conferir
+4125605,PR,SÃO MATEUS DO SUL,deral,uniao_da_vitoria,União da Vitória,conferir
+4127601,PR,TIJUCAS DO SUL,deral,curitiba,Curitiba,conferir
+4128203,PR,UNIÃO DA VITÓRIA,deral,curitiba,Curitiba,conferir
+4101051,PR,ANAHY,deral,cascavel,Cascavel,alta
+4103024,PR,BOA ESPERANÇA DO IGUAÇU,deral,dois_vizinhos,Dois Vizinhos,conferir
+4103057,PR,BOA VISTA DA APARECIDA,deral,cascavel,Cascavel,conferir
+4103354,PR,BRAGANEY,deral,cascavel,Cascavel,alta
+4104055,PR,CAMPO BONITO,deral,cascavel,Cascavel,alta
+4104808,PR,CASCAVEL,deral,cascavel,Cascavel,alta
+4105003,PR,CATANDUVAS,deral,cascavel,Cascavel,alta
+4106308,PR,CORBÉLIA,deral,cascavel,Cascavel,alta
+4106571,PR,CRUZEIRO DO IGUAÇU,deral,dois_vizinhos,Dois Vizinhos,conferir
+4107546,PR,ESPIGÃO ALTO DO IGUAÇU,deral,laranjeiras_do_sul,Laranjeiras do Sul,conferir
+4109302,PR,GUARANIAÇU,deral,cascavel,Cascavel,alta
+4109757,PR,IBEMA,deral,cascavel,Cascavel,alta
+4110052,PR,IGUATU,deral,cascavel,Cascavel,alta
+4113452,PR,LINDOESTE,deral,cascavel,Cascavel,alta
+4117255,PR,NOVA PRATA DO IGUAÇU,deral,cascavel,Cascavel,alta
+4120903,PR,QUEDAS DO IGUAÇU,deral,cascavel,Cascavel,alta
+4123006,PR,SALTO DO LONTRA,deral,cascavel,Cascavel,alta
+4123824,PR,SANTA LÚCIA,deral,cascavel,Cascavel,alta
+4125209,PR,SÃO JORGE D'OESTE,deral,cascavel,Cascavel,alta
+4127858,PR,TRÊS BARRAS DO PARANÁ,deral,cascavel,Cascavel,alta
+4101101,PR,ANDIRÁ,deral,jacarezinho,Jacarezinho,conferir
+4101606,PR,ARAPOTI,deral,ponta_grossa,Ponta Grossa,conferir
+4101903,PR,ASSAÍ,deral,cornelio_procopio,Cornélio Procópio,conferir
+4102406,PR,BANDEIRANTES,deral,cornelio_procopio,Cornélio Procópio,conferir
+4102703,PR,BARRA DO JACARÉ,deral,jacarezinho,Jacarezinho,conferir
+4103602,PR,CAMBARÁ,deral,jacarezinho,Jacarezinho,alta
+4104709,PR,CARLÓPOLIS,deral,jacarezinho,Jacarezinho,alta
+4106001,PR,CONGONHINHAS,deral,cornelio_procopio,Cornélio Procópio,conferir
+4106100,PR,CONSELHEIRO MAIRINCK,deral,jacarezinho,Jacarezinho,conferir
+4106407,PR,CORNÉLIO PROCÓPIO,deral,cornelio_procopio,Cornélio Procópio,conferir
+4107009,PR,CURIÚVA,deral,ponta_grossa,Ponta Grossa,conferir
+4109005,PR,GUAPIRAMA,deral,jacarezinho,Jacarezinho,conferir
+4109708,PR,IBAITI,deral,jacarezinho,Jacarezinho,conferir
+4111001,PR,ITAMBARACÁ,deral,jacarezinho,Jacarezinho,conferir
+4112009,PR,JAGUARIAÍVA,deral,ponta_grossa,Ponta Grossa,conferir
+4112801,PR,JOAQUIM TÁVORA,deral,jacarezinho,Jacarezinho,alta
+4113403,PR,LEÓPOLIS,deral,cornelio_procopio,Cornélio Procópio,conferir
+4117008,PR,NOVA FÁTIMA,deral,cornelio_procopio,Cornélio Procópio,conferir
+4117214,PR,NOVA SANTA BÁRBARA,deral,cornelio_procopio,Cornélio Procópio,conferir
+4119400,PR,PIRAÍ DO SUL,deral,cornelio_procopio,Cornélio Procópio,conferir
+4121307,PR,RANCHO ALEGRE,deral,cornelio_procopio,Cornélio Procópio,conferir
+4121901,PR,RIBEIRÃO DO PINHAL,deral,cornelio_procopio,Cornélio Procópio,conferir
+4123105,PR,SANTA AMÉLIA,deral,cornelio_procopio,Cornélio Procópio,conferir
+4123204,PR,SANTA CECÍLIA DO PAVÃO,deral,cornelio_procopio,Cornélio Procópio,conferir
+4123907,PR,SANTA MARIANA,deral,cornelio_procopio,Cornélio Procópio,conferir
+4124004,PR,SANTANA DO ITARARÉ,deral,cornelio_procopio,Cornélio Procópio,conferir
+4124103,PR,SANTO ANTÔNIO DA PLATINA,deral,cornelio_procopio,Cornélio Procópio,conferir
+4124301,PR,SANTO ANTÔNIO DO PARAÍSO,deral,cornelio_procopio,Cornélio Procópio,conferir
+4124707,PR,SÃO JERÔNIMO DA SERRA,deral,cornelio_procopio,Cornélio Procópio,conferir
+4125407,PR,SÃO JOSÉ DA BOA VISTA,deral,cornelio_procopio,Cornélio Procópio,conferir
+4126009,PR,SÃO SEBASTIÃO DA AMOREIRA,deral,cornelio_procopio,Cornélio Procópio,conferir
+4126306,PR,SENGÉS,deral,cornelio_procopio,Cornélio Procópio,conferir
+4126405,PR,SERTANEJA,deral,cornelio_procopio,Cornélio Procópio,conferir
+4127502,PR,TIBAGI,deral,cornelio_procopio,Cornélio Procópio,conferir
+4128401,PR,URAÍ,deral,cornelio_procopio,Cornélio Procópio,conferir
+4128534,PR,VENTANIA,deral,cornelio_procopio,Cornélio Procópio,conferir
+4128500,PR,WENCESLAU BRAZ,deral,cornelio_procopio,Cornélio Procópio,conferir
+4103040,PR,BOA VENTURA DE SÃO ROQUE,deral,pitanga,Pitanga,conferir
+4103958,PR,CAMPINA DO SIMÃO,deral,guarapuava,Guarapuava,conferir
+4104428,PR,CANDÓI,deral,guarapuava,Guarapuava,alta
+4104451,PR,CANTAGALO,deral,guarapuava,Guarapuava,conferir
+4106803,PR,CRUZ MACHADO,deral,uniao_da_vitoria,União da Vitória,conferir
+4108650,PR,GOIOXIM,deral,guarapuava,Guarapuava,alta
+4109401,PR,GUARAPUAVA,deral,guarapuava,Guarapuava,alta
+4110102,PR,IMBITUVA,deral,irati,Irati,conferir
+4110706,PR,IRATI,deral,irati,Irati,alta
+4113304,PR,LARANJEIRAS DO SUL,deral,laranjeiras_do_sul,Laranjeiras do Sul,alta
+4115457,PR,MARQUINHO,deral,laranjeiras_do_sul,Laranjeiras do Sul,conferir
+4117057,PR,NOVA LARANJEIRAS,deral,laranjeiras_do_sul,Laranjeiras do Sul,alta
+4117800,PR,PALMITAL,deral,pitanga,Pitanga,conferir
+4119301,PR,PINHÃO,deral,guarapuava,Guarapuava,alta
+4119608,PR,PITANGA,deral,pitanga,Pitanga,alta
+4120150,PR,PORTO BARREIRO,deral,laranjeiras_do_sul,Laranjeiras do Sul,conferir
+4120606,PR,PRUDENTÓPOLIS,deral,guarapuava,Guarapuava,alta
+4121752,PR,RESERVA DO IGUAÇU,deral,guarapuava,Guarapuava,alta
+4122156,PR,RIO BONITO DO IGUAÇU,deral,guarapuava,Guarapuava,alta
+4123857,PR,SANTA MARIA DO OESTE,deral,guarapuava,Guarapuava,alta
+4127965,PR,TURVO,deral,guarapuava,Guarapuava,alta
+4128658,PR,VIRMOND,deral,guarapuava,Guarapuava,alta
+4100806,PR,ALVORADA DO SUL,deral,londrina,Londrina,alta
+4101408,PR,APUCARANA,deral,apucarana,Apucarana,alta
+4101507,PR,ARAPONGAS,deral,apucarana,Apucarana,alta
+4102802,PR,BELA VISTA DO PARAÍSO,deral,londrina,Londrina,alta
+4103701,PR,CAMBÉ,deral,londrina,Londrina,alta
+4103800,PR,CAMBIRA,deral,apucarana,Apucarana,conferir
+4105102,PR,CENTENÁRIO DO SUL,deral,londrina,Londrina,alta
+4107603,PR,FAXINAL,deral,ivaipora,Ivaiporã,conferir
+4108007,PR,FLORESTÓPOLIS,deral,londrina,Londrina,alta
+4109807,PR,IBIPORÃ,deral,londrina,Londrina,alta
+4111902,PR,JAGUAPITÃ,deral,londrina,Londrina,alta
+4113700,PR,LONDRINA,deral,londrina,Londrina,alta
+4113809,PR,LUPIONÓPOLIS,deral,londrina,Londrina,alta
+4114906,PR,MARILÂNDIA DO SUL,deral,apucarana,Apucarana,conferir
+4115754,PR,MAUÁ DA SERRA,deral,apucarana,Apucarana,conferir
+4117305,PR,ORTIGUEIRA,deral,londrina,Londrina,alta
+4119657,PR,PITANGUEIRAS,deral,londrina,Londrina,alta
+4120002,PR,PORECATU,deral,londrina,Londrina,alta
+4120333,PR,PRADO FERREIRA,deral,londrina,Londrina,alta
+4120507,PR,PRIMEIRO DE MAIO,deral,londrina,Londrina,alta
+4122404,PR,ROLÂNDIA,deral,londrina,Londrina,alta
+4122701,PR,SABÁUDIA,deral,londrina,Londrina,alta
+4123402,PR,SANTA FÉ,deral,londrina,Londrina,alta
+4126504,PR,SERTANÓPOLIS,deral,londrina,Londrina,alta
+4126678,PR,TAMARANA,deral,londrina,Londrina,alta
+4101150,PR,ÂNGULO,deral,maringa,Maringá,conferir
+4102109,PR,ASTORGA,deral,maringa,Maringá,conferir
+4102208,PR,ATALAIA,deral,maringa,Maringá,conferir
+4103206,PR,BOM SUCESSO,deral,apucarana,Apucarana,conferir
+4105508,PR,CIANORTE,deral,cianorte,Cianorte,alta
+4105904,PR,COLORADO,deral,maringa,Maringá,conferir
+4107256,PR,DOURADINA,deral,umuarama,Umuarama,conferir
+4107306,PR,DOUTOR CAMARGO,deral,maringa,Maringá,conferir
+4107801,PR,FLORAÍ,deral,maringa,Maringá,conferir
+4107900,PR,FLORESTA,deral,maringa,Maringá,conferir
+4109906,PR,ICARAÍMA,deral,umuarama,Umuarama,conferir
+4110003,PR,IGUARAÇU,deral,maringa,Maringá,conferir
+4111100,PR,ITAMBÉ,deral,maringa,Maringá,conferir
+4111605,PR,IVATUBA,deral,maringa,Maringá,conferir
+4112108,PR,JANDAIA DO SUL,deral,apucarana,Apucarana,conferir
+4112405,PR,JAPURÁ,deral,cianorte,Cianorte,conferir
+4113007,PR,JUSSARA,deral,cianorte,Cianorte,conferir
+4113106,PR,KALORÉ,deral,apucarana,Apucarana,conferir
+4113502,PR,LOANDA,deral,paranavai,Paranavaí,conferir
+4113601,PR,LOBATO,deral,maringa,Maringá,conferir
+4114104,PR,MANDAGUAÇU,deral,maringa,Maringá,conferir
+4114203,PR,MANDAGUARI,deral,maringa,Maringá,conferir
+4114807,PR,MARIALVA,deral,maringa,Maringá,conferir
+4115200,PR,MARINGÁ,deral,maringa,Maringá,conferir
+4115507,PR,MARUMBI,deral,maringa,Maringá,conferir
+4116901,PR,NOVA ESPERANÇA,deral,maringa,Maringá,conferir
+4117107,PR,NOVA LONDRINA,deral,maringa,Maringá,conferir
+4117297,PR,NOVO ITACOLOMI,deral,maringa,Maringá,conferir
+4117404,PR,OURIZONA,deral,maringa,Maringá,conferir
+4117503,PR,PAIÇANDU,deral,maringa,Maringá,conferir
+4118006,PR,PARAÍSO DO NORTE,deral,maringa,Maringá,conferir
+4118105,PR,PARANACITY,deral,maringa,Maringá,conferir
+4118402,PR,PARANAVAÍ,deral,maringa,Maringá,conferir
+4121000,PR,QUERÊNCIA DO NORTE,deral,maringa,Maringá,conferir
+4122172,PR,RIO BRANCO DO IVAÍ,deral,maringa,Maringá,conferir
+4122651,PR,ROSÁRIO DO IVAÍ,deral,maringa,Maringá,conferir
+4123303,PR,SANTA CRUZ DE MONTE CASTELO,deral,maringa,Maringá,conferir
+4123709,PR,SANTA ISABEL DO IVAÍ,deral,maringa,Maringá,conferir
+4124608,PR,SÃO CARLOS DO IVAÍ,deral,maringa,Maringá,conferir
+4125308,PR,SÃO JORGE DO IVAÍ,deral,maringa,Maringá,conferir
+4125803,PR,SÃO PEDRO DO IVAÍ,deral,maringa,Maringá,conferir
+4126256,PR,SARANDI,deral,maringa,Maringá,conferir
+4126900,PR,TAPIRA,deral,maringa,Maringá,conferir
+4127205,PR,TERRA BOA,deral,maringa,Maringá,conferir
+4127304,PR,TERRA RICA,deral,maringa,Maringá,conferir
+4100707,PR,ALTO PIQUIRI,deral,umuarama,Umuarama,alta
+4100509,PR,ALTÔNIA,deral,umuarama,Umuarama,alta
+4102000,PR,ASSIS CHATEAUBRIAND,deral,toledo,Toledo,conferir
+4103370,PR,BRASILÂNDIA DO SUL,deral,umuarama,Umuarama,conferir
+4103453,PR,CAFELÂNDIA,deral,cascavel,Cascavel,conferir
+4106605,PR,CRUZEIRO DO OESTE,deral,umuarama,Umuarama,alta
+4108205,PR,FORMOSA DO OESTE,deral,toledo,Toledo,conferir
+4108320,PR,FRANCISCO ALVES,deral,umuarama,Umuarama,conferir
+4108809,PR,GUAÍRA,deral,toledo,Toledo,conferir
+4110607,PR,IPORÃ,deral,umuarama,Umuarama,alta
+4110656,PR,IRACEMA DO OESTE,deral,toledo,Toledo,conferir
+4112751,PR,JESUÍTAS,deral,toledo,Toledo,conferir
+4114609,PR,MARECHAL CÂNDIDO RONDON,deral,toledo,Toledo,conferir
+4115101,PR,MARILUZ,deral,toledo,Toledo,conferir
+4115358,PR,MARIPÁ,deral,toledo,Toledo,conferir
+4115853,PR,MERCEDES,deral,toledo,Toledo,conferir
+4116703,PR,NOVA AURORA,deral,toledo,Toledo,conferir
+4117222,PR,NOVA SANTA ROSA,deral,toledo,Toledo,conferir
+4117909,PR,PALOTINA,deral,toledo,Toledo,conferir
+4118907,PR,PÉROLA,deral,toledo,Toledo,conferir
+4120853,PR,QUATRO PONTES,deral,toledo,Toledo,conferir
+4127403,PR,TERRA ROXA,deral,toledo,Toledo,conferir
+4127957,PR,TUPÃSSI,deral,toledo,Toledo,conferir
+4128104,PR,UMUARAMA,deral,toledo,Toledo,conferir
+4102604,PR,BARRACÃO,deral,francisco_beltrao,Francisco Beltrão,conferir
+4103156,PR,BOM JESUS DO SUL,deral,francisco_beltrao,Francisco Beltrão,conferir
+4103222,PR,BOM SUCESSO DO SUL,deral,pato_branco,Pato Branco,alta
+4105409,PR,CHOPINZINHO,deral,pato_branco,Pato Branco,alta
+4105706,PR,CLEVELÂNDIA,deral,pato_branco,Pato Branco,alta
+4106456,PR,CORONEL DOMINGOS SOARES,deral,pato_branco,Pato Branco,alta
+4106506,PR,CORONEL VIVIDA,deral,pato_branco,Pato Branco,alta
+4107207,PR,DOIS VIZINHOS,deral,dois_vizinhos,Dois Vizinhos,alta
+4107405,PR,ENÉAS MARQUES,deral,francisco_beltrao,Francisco Beltrão,alta
+4107850,PR,FLOR DA SERRA DO SUL,deral,francisco_beltrao,Francisco Beltrão,conferir
+4108403,PR,FRANCISCO BELTRÃO,deral,francisco_beltrao,Francisco Beltrão,alta
+4109658,PR,HONÓRIO SERPA,deral,pato_branco,Pato Branco,alta
+4111209,PR,ITAPEJARA D'OESTE,deral,pato_branco,Pato Branco,alta
+4114401,PR,MANGUEIRINHA,deral,pato_branco,Pato Branco,alta
+4115309,PR,MARIÓPOLIS,deral,pato_branco,Pato Branco,alta
+4115408,PR,MARMELEIRO,deral,pato_branco,Pato Branco,alta
+4116950,PR,NOVA ESPERANÇA DO SUDOESTE,deral,pato_branco,Pato Branco,alta
+4117602,PR,PALMAS,deral,pato_branco,Pato Branco,alta
+4118501,PR,PATO BRANCO,deral,pato_branco,Pato Branco,alta
+4121604,PR,RENASCENÇA,deral,pato_branco,Pato Branco,alta
+4124806,PR,SÃO JOÃO,deral,pato_branco,Pato Branco,alta
+4126272,PR,SAUDADE DO IGUAÇU,deral,pato_branco,Pato Branco,alta
+4126652,PR,SULINA,deral,pato_branco,Pato Branco,alta
+4128609,PR,VERÊ,deral,pato_branco,Pato Branco,alta
+4128708,PR,VITORINO,deral,pato_branco,Pato Branco,alta
+4104204,PR,CAMPO LARGO,deral,curitiba,Curitiba,conferir
+4104253,PR,CAMPO MAGRO,deral,curitiba,Curitiba,alta
+4104659,PR,CARAMBEÍ,deral,ponta_grossa,Ponta Grossa,alta
+4104907,PR,CASTRO,deral,ponta_grossa,Ponta Grossa,alta
+4110078,PR,IMBAÚ,deral,ponta_grossa,Ponta Grossa,alta
+4110508,PR,IPIRANGA,deral,irati,Irati,conferir
+4111407,PR,IVAÍ,deral,irati,Irati,conferir
+4117701,PR,PALMEIRA,deral,ponta_grossa,Ponta Grossa,alta
+4119905,PR,PONTA GROSSA,deral,ponta_grossa,Ponta Grossa,alta
+4121703,PR,RESERVA,deral,ponta_grossa,Ponta Grossa,alta
+4127007,PR,TEIXEIRA SOARES,deral,irati,Irati,conferir
+4101002,PR,AMPÉRE,deral,francisco_beltrao,Francisco Beltrão,conferir
+4102752,PR,BELA VISTA DA CAROBA,deral,francisco_beltrao,Francisco Beltrão,conferir
+4104501,PR,CAPANEMA,deral,francisco_beltrao,Francisco Beltrão,conferir
+4104600,PR,CAPITÃO LEÔNIDAS MARQUES,deral,cascavel,Cascavel,conferir
+4105300,PR,CÉU AZUL,deral,cascavel,Cascavel,conferir
+4107157,PR,DIAMANTE D'OESTE,deral,toledo,Toledo,conferir
+4107538,PR,ENTRE RIOS DO OESTE,deral,toledo,Toledo,conferir
+4108304,PR,FOZ DO IGUAÇU,deral,cascavel,Cascavel,conferir
+4110953,PR,ITAIPULÂNDIA,deral,cascavel,Cascavel,conferir
+4115606,PR,MATELÂNDIA,deral,cascavel,Cascavel,conferir
+4115804,PR,MEDIANEIRA,deral,cascavel,Cascavel,conferir
+4116059,PR,MISSAL,deral,cascavel,Cascavel,conferir
+4117453,PR,OURO VERDE DO OESTE,deral,toledo,Toledo,conferir
+4118451,PR,PATO BRAGADO,deral,toledo,Toledo,conferir
+4119004,PR,PÉROLA D'OESTE,deral,francisco_beltrao,Francisco Beltrão,conferir
+4119251,PR,PINHAL DE SÃO BENTO,deral,toledo,Toledo,conferir
+4119806,PR,PLANALTO,deral,francisco_beltrao,Francisco Beltrão,conferir
+4120358,PR,PRANCHITA,deral,toledo,Toledo,conferir
+4121257,PR,RAMILÂNDIA,deral,toledo,Toledo,conferir
+4121406,PR,REALEZA,deral,francisco_beltrao,Francisco Beltrão,conferir
+4123501,PR,SANTA HELENA,deral,toledo,Toledo,conferir
+4123808,PR,SANTA IZABEL DO OESTE,deral,francisco_beltrao,Francisco Beltrão,conferir
+4124020,PR,SANTA TEREZA DO OESTE,deral,toledo,Toledo,conferir
+4124053,PR,SANTA TEREZINHA DE ITAIPU,deral,cascavel,Cascavel,conferir
+4124400,PR,SANTO ANTÔNIO DO SUDOESTE,deral,toledo,Toledo,conferir
+4125456,PR,SÃO JOSÉ DAS PALMEIRAS,deral,toledo,Toledo,conferir
+4125704,PR,SÃO MIGUEL DO IGUAÇU,deral,cascavel,Cascavel,conferir
+4125753,PR,SÃO PEDRO DO IGUAÇU,deral,toledo,Toledo,conferir
+4126355,PR,SERRANÓPOLIS DO IGUAÇU,deral,cascavel,Cascavel,conferir
+4127700,PR,TOLEDO,deral,toledo,Toledo,conferir
+4128559,PR,VERA CRUZ DO OESTE,deral,toledo,Toledo,conferir
