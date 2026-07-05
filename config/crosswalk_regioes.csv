@@ -78,10 +78,10 @@ codigo_ibge,uf,cidade,orgao,regiao_id,regiao_nome,confianca
 5107875,MT,SAPEZAL,imea,oeste,Oeste,alta
 5105507,MT,VILA BELA DA SANTÍSSIMA TRINDADE,imea,oeste,Oeste,alta
 4304705,RS,CARAZINHO,emater,passo_fundo,Passo Fundo,alta
-4305603,RS,COLORADO,emater,ijui,Ijuí,conferir
+4305603,RS,COLORADO,emater,soledade,Soledade,geo
 4305850,RS,COQUEIROS DO SUL,emater,passo_fundo,Passo Fundo,alta
 4312658,RS,NÃO-ME-TOQUE,emater,passo_fundo,Passo Fundo,alta
-4316436,RS,SALDANHA MARINHO,emater,ijui,Ijuí,conferir
+4316436,RS,SALDANHA MARINHO,emater,passo_fundo,Passo Fundo,geo
 4317756,RS,SANTO ANTÔNIO DO PLANALTO,emater,passo_fundo,Passo Fundo,alta
 4323200,RS,VICTOR GRAEFF,emater,passo_fundo,Passo Fundo,alta
 4300901,RS,ARATIBA,emater,erechim,Erechim,alta
@@ -122,30 +122,30 @@ codigo_ibge,uf,cidade,orgao,regiao_id,regiao_nome,confianca
 4321634,RS,TRÊS ARROIOS,emater,erechim,Erechim,alta
 4322186,RS,TUPANCI DO SUL,emater,erechim,Erechim,alta
 4322905,RS,VIADUTOS,emater,erechim,Erechim,alta
-4300554,RS,ALTO ALEGRE,emater,soledade,Soledade,conferir
-4301206,RS,ARROIO DO TIGRE,emater,soledade,Soledade,conferir
-4302006,RS,BARROS CASSAL,emater,soledade,Soledade,conferir
-4304101,RS,CAMPOS BORGES,emater,soledade,Soledade,conferir
-4307054,RS,ERNESTINA,emater,soledade,Soledade,conferir
-4307500,RS,ESPUMOSO,emater,soledade,Soledade,conferir
-4307815,RS,ESTRELA VELHA,emater,soledade,Soledade,conferir
-4308300,RS,FONTOURA XAVIER,emater,soledade,Soledade,conferir
-4308458,RS,FORTALEZA DOS VALOS,emater,ijui,Ijuí,conferir
-4309951,RS,IBIRAPUITÃ,emater,soledade,Soledade,conferir
-4310009,RS,IBIRUBÁ,emater,ijui,Ijuí,conferir
-4310876,RS,JACUIZINHO,emater,soledade,Soledade,conferir
-4311270,RS,LAGOA DOS TRÊS CANTOS,emater,soledade,Soledade,conferir
-4311254,RS,LAGOÃO,emater,soledade,Soledade,conferir
-4312427,RS,MORMAÇO,emater,soledade,Soledade,conferir
-4312674,RS,NICOLAU VERGUEIRO,emater,soledade,Soledade,conferir
-4315354,RS,QUINZE DE NOVEMBRO,emater,ijui,Ijuí,conferir
-4316451,RS,SALTO DO JACUÍ,emater,soledade,Soledade,conferir
-4320305,RS,SELBACH,emater,ijui,Ijuí,conferir
-4320701,RS,SOBRADINHO,emater,soledade,Soledade,conferir
-4320800,RS,SOLEDADE,emater,soledade,Soledade,conferir
-4321006,RS,TAPERA,emater,soledade,Soledade,conferir
-4321469,RS,TIO HUGO,emater,soledade,Soledade,conferir
-4322152,RS,TUNAS,emater,soledade,Soledade,conferir
+4300554,RS,ALTO ALEGRE,emater,soledade,Soledade,geo
+4301206,RS,ARROIO DO TIGRE,emater,santa_maria,Santa Maria,geo
+4302006,RS,BARROS CASSAL,emater,soledade,Soledade,geo
+4304101,RS,CAMPOS BORGES,emater,soledade,Soledade,geo
+4307054,RS,ERNESTINA,emater,passo_fundo,Passo Fundo,geo
+4307500,RS,ESPUMOSO,emater,soledade,Soledade,geo
+4307815,RS,ESTRELA VELHA,emater,soledade,Soledade,geo
+4308300,RS,FONTOURA XAVIER,emater,soledade,Soledade,geo
+4308458,RS,FORTALEZA DOS VALOS,emater,soledade,Soledade,geo
+4309951,RS,IBIRAPUITÃ,emater,soledade,Soledade,geo
+4310009,RS,IBIRUBÁ,emater,soledade,Soledade,geo
+4310876,RS,JACUIZINHO,emater,soledade,Soledade,geo
+4311270,RS,LAGOA DOS TRÊS CANTOS,emater,soledade,Soledade,geo
+4311254,RS,LAGOÃO,emater,soledade,Soledade,geo
+4312427,RS,MORMAÇO,emater,soledade,Soledade,geo
+4312674,RS,NICOLAU VERGUEIRO,emater,passo_fundo,Passo Fundo,geo
+4315354,RS,QUINZE DE NOVEMBRO,emater,soledade,Soledade,geo
+4316451,RS,SALTO DO JACUÍ,emater,soledade,Soledade,geo
+4320305,RS,SELBACH,emater,soledade,Soledade,geo
+4320701,RS,SOBRADINHO,emater,santa_maria,Santa Maria,geo
+4320800,RS,SOLEDADE,emater,soledade,Soledade,geo
+4321006,RS,TAPERA,emater,soledade,Soledade,geo
+4321469,RS,TIO HUGO,emater,soledade,Soledade,geo
+4322152,RS,TUNAS,emater,soledade,Soledade,geo
 4300208,RS,AJURICABA,emater,ijui,Ijuí,alta
 4302584,RS,BOZANO,emater,ijui,Ijuí,alta
 4305009,RS,CATUÍPE,emater,ijui,Ijuí,alta
@@ -157,71 +157,71 @@ codigo_ibge,uf,cidade,orgao,regiao_id,regiao_nome,confianca
 4313904,RS,PANAMBI,emater,ijui,Ijuí,alta
 4316709,RS,SANTA BÁRBARA DO SUL,emater,ijui,Ijuí,alta
 4301503,RS,AUGUSTO PESTANA,emater,ijui,Ijuí,alta
-4302220,RS,BOA VISTA DO CADEADO,emater,ijui,Ijuí,conferir
-4302238,RS,BOA VISTA DO INCRA,emater,ijui,Ijuí,conferir
-4306106,RS,CRUZ ALTA,emater,ijui,Ijuí,conferir
-4306932,RS,ENTRE-IJUÍS,emater,ijui,Ijuí,conferir
-4307831,RS,EUGÊNIO DE CASTRO,emater,ijui,Ijuí,conferir
-4311106,RS,JAGUARI,emater,santa_maria,Santa Maria,conferir
-4311130,RS,JARI,emater,santa_maria,Santa Maria,conferir
-4311155,RS,JÓIA,emater,ijui,Ijuí,conferir
-4311205,RS,JÚLIO DE CASTILHOS,emater,santa_maria,Santa Maria,conferir
-4313037,RS,NOVA ESPERANÇA DO SUL,emater,santa_maria,Santa Maria,conferir
-4314308,RS,PEJUÇARA,emater,santa_maria,Santa Maria,conferir
-4314472,RS,PINHAL GRANDE,emater,santa_maria,Santa Maria,conferir
-4315321,RS,QUEVEDOS,emater,santa_maria,Santa Maria,conferir
-4317400,RS,SANTIAGO,emater,santa_maria,Santa Maria,conferir
-4318101,RS,SÃO FRANCISCO DE ASSIS,emater,santa_maria,Santa Maria,conferir
-4319125,RS,SÃO MARTINHO DA SERRA,emater,santa_maria,Santa Maria,conferir
-4319158,RS,SÃO MIGUEL DAS MISSÕES,emater,santa_maria,Santa Maria,conferir
-4322202,RS,TUPANCIRETÃ,emater,santa_maria,Santa Maria,conferir
-4323754,RS,VITÓRIA DAS MISSÕES,emater,santa_maria,Santa Maria,conferir
-4300661,RS,ANDRÉ DA ROCHA,emater,caxias_do_sul,Caxias do Sul,conferir
-4302303,RS,BOM JESUS,emater,caxias_do_sul,Caxias do Sul,conferir
-4303673,RS,CAMPESTRE DA SERRA,emater,caxias_do_sul,Caxias do Sul,conferir
-4304622,RS,CAPÃO BONITO DO SUL,emater,caxias_do_sul,Caxias do Sul,conferir
-4304903,RS,CASCA,emater,passo_fundo,Passo Fundo,conferir
-4304952,RS,CASEIROS,emater,passo_fundo,Passo Fundo,conferir
-4305504,RS,CIRÍACO,emater,passo_fundo,Passo Fundo,conferir
-4306304,RS,DAVID CANABARRO,emater,passo_fundo,Passo Fundo,conferir
-4307401,RS,ESMERALDA,emater,caxias_do_sul,Caxias do Sul,conferir
-4308607,RS,GARIBALDI,emater,caxias_do_sul,Caxias do Sul,conferir
-4309258,RS,GUABIJU,emater,caxias_do_sul,Caxias do Sul,conferir
-4309407,RS,GUAPORÉ,emater,caxias_do_sul,Caxias do Sul,conferir
-4309902,RS,IBIRAIARAS,emater,caxias_do_sul,Caxias do Sul,conferir
-4310439,RS,IPÊ,emater,caxias_do_sul,Caxias do Sul,conferir
-4310579,RS,ITAPUCA,emater,caxias_do_sul,Caxias do Sul,conferir
-4311304,RS,LAGOA VERMELHA,emater,caxias_do_sul,Caxias do Sul,conferir
-4312351,RS,MONTAURI,emater,caxias_do_sul,Caxias do Sul,conferir
-4312617,RS,MUITOS CAPÕES,emater,caxias_do_sul,Caxias do Sul,conferir
-4312625,RS,MULITERNO,emater,caxias_do_sul,Caxias do Sul,conferir
-4312807,RS,NOVA ARAÇÁ,emater,caxias_do_sul,Caxias do Sul,conferir
-4313300,RS,NOVA PRATA,emater,caxias_do_sul,Caxias do Sul,conferir
-4314001,RS,PARAÍ,emater,caxias_do_sul,Caxias do Sul,conferir
-4314464,RS,PINHAL DA SERRA,emater,caxias_do_sul,Caxias do Sul,conferir
-4315172,RS,PROTÁSIO ALVES,emater,caxias_do_sul,Caxias do Sul,conferir
-4318051,RS,SÃO DOMINGOS DO SUL,emater,caxias_do_sul,Caxias do Sul,conferir
-4318200,RS,SÃO FRANCISCO DE PAULA,emater,caxias_do_sul,Caxias do Sul,conferir
-4318440,RS,SÃO JORGE,emater,caxias_do_sul,Caxias do Sul,conferir
-4318622,RS,SÃO JOSÉ DOS AUSENTES,emater,caxias_do_sul,Caxias do Sul,conferir
-4320404,RS,SERAFINA CORRÊA,emater,caxias_do_sul,Caxias do Sul,conferir
-4322350,RS,UNIÃO DA SERRA,emater,caxias_do_sul,Caxias do Sul,conferir
-4322509,RS,VACARIA,emater,caxias_do_sul,Caxias do Sul,conferir
-4322558,RS,VANINI,emater,caxias_do_sul,Caxias do Sul,conferir
-4322806,RS,VERANÓPOLIS,emater,caxias_do_sul,Caxias do Sul,conferir
-4323606,RS,VISTA ALEGRE DO PRATA,emater,caxias_do_sul,Caxias do Sul,conferir
+4302220,RS,BOA VISTA DO CADEADO,emater,ijui,Ijuí,geo
+4302238,RS,BOA VISTA DO INCRA,emater,ijui,Ijuí,geo
+4306106,RS,CRUZ ALTA,emater,ijui,Ijuí,geo
+4306932,RS,ENTRE-IJUÍS,emater,ijui,Ijuí,geo
+4307831,RS,EUGÊNIO DE CASTRO,emater,ijui,Ijuí,geo
+4311106,RS,JAGUARI,emater,santa_maria,Santa Maria,geo
+4311130,RS,JARI,emater,santa_maria,Santa Maria,geo
+4311155,RS,JÓIA,emater,ijui,Ijuí,geo
+4311205,RS,JÚLIO DE CASTILHOS,emater,santa_maria,Santa Maria,geo
+4313037,RS,NOVA ESPERANÇA DO SUL,emater,santa_maria,Santa Maria,geo
+4314308,RS,PEJUÇARA,emater,ijui,Ijuí,geo
+4314472,RS,PINHAL GRANDE,emater,santa_maria,Santa Maria,geo
+4315321,RS,QUEVEDOS,emater,santa_maria,Santa Maria,geo
+4317400,RS,SANTIAGO,emater,santa_maria,Santa Maria,geo
+4318101,RS,SÃO FRANCISCO DE ASSIS,emater,santa_maria,Santa Maria,geo
+4319125,RS,SÃO MARTINHO DA SERRA,emater,santa_maria,Santa Maria,geo
+4319158,RS,SÃO MIGUEL DAS MISSÕES,emater,ijui,Ijuí,geo
+4322202,RS,TUPANCIRETÃ,emater,santa_maria,Santa Maria,geo
+4323754,RS,VITÓRIA DAS MISSÕES,emater,santa_rosa,Santa Rosa,geo
+4300661,RS,ANDRÉ DA ROCHA,emater,caxias_do_sul,Caxias do Sul,geo
+4302303,RS,BOM JESUS,emater,caxias_do_sul,Caxias do Sul,geo
+4303673,RS,CAMPESTRE DA SERRA,emater,caxias_do_sul,Caxias do Sul,geo
+4304622,RS,CAPÃO BONITO DO SUL,emater,caxias_do_sul,Caxias do Sul,geo
+4304903,RS,CASCA,emater,passo_fundo,Passo Fundo,geo
+4304952,RS,CASEIROS,emater,passo_fundo,Passo Fundo,geo
+4305504,RS,CIRÍACO,emater,passo_fundo,Passo Fundo,geo
+4306304,RS,DAVID CANABARRO,emater,passo_fundo,Passo Fundo,geo
+4307401,RS,ESMERALDA,emater,caxias_do_sul,Caxias do Sul,geo
+4308607,RS,GARIBALDI,emater,caxias_do_sul,Caxias do Sul,geo
+4309258,RS,GUABIJU,emater,caxias_do_sul,Caxias do Sul,geo
+4309407,RS,GUAPORÉ,emater,soledade,Soledade,geo
+4309902,RS,IBIRAIARAS,emater,passo_fundo,Passo Fundo,geo
+4310439,RS,IPÊ,emater,caxias_do_sul,Caxias do Sul,geo
+4310579,RS,ITAPUCA,emater,soledade,Soledade,geo
+4311304,RS,LAGOA VERMELHA,emater,caxias_do_sul,Caxias do Sul,geo
+4312351,RS,MONTAURI,emater,soledade,Soledade,geo
+4312617,RS,MUITOS CAPÕES,emater,caxias_do_sul,Caxias do Sul,geo
+4312625,RS,MULITERNO,emater,passo_fundo,Passo Fundo,geo
+4312807,RS,NOVA ARAÇÁ,emater,soledade,Soledade,geo
+4313300,RS,NOVA PRATA,emater,caxias_do_sul,Caxias do Sul,geo
+4314001,RS,PARAÍ,emater,passo_fundo,Passo Fundo,geo
+4314464,RS,PINHAL DA SERRA,emater,caxias_do_sul,Caxias do Sul,geo
+4315172,RS,PROTÁSIO ALVES,emater,caxias_do_sul,Caxias do Sul,geo
+4318051,RS,SÃO DOMINGOS DO SUL,emater,passo_fundo,Passo Fundo,geo
+4318200,RS,SÃO FRANCISCO DE PAULA,emater,caxias_do_sul,Caxias do Sul,geo
+4318440,RS,SÃO JORGE,emater,passo_fundo,Passo Fundo,geo
+4318622,RS,SÃO JOSÉ DOS AUSENTES,emater,caxias_do_sul,Caxias do Sul,geo
+4320404,RS,SERAFINA CORRÊA,emater,soledade,Soledade,geo
+4322350,RS,UNIÃO DA SERRA,emater,soledade,Soledade,geo
+4322509,RS,VACARIA,emater,caxias_do_sul,Caxias do Sul,geo
+4322558,RS,VANINI,emater,passo_fundo,Passo Fundo,geo
+4322806,RS,VERANÓPOLIS,emater,caxias_do_sul,Caxias do Sul,geo
+4323606,RS,VISTA ALEGRE DO PRATA,emater,soledade,Soledade,geo
 4300059,RS,ÁGUA SANTA,emater,passo_fundo,Passo Fundo,alta
 4303558,RS,CAMARGO,emater,passo_fundo,Passo Fundo,alta
-4305371,RS,CHARRUA,emater,erechim,Erechim,conferir
+4305371,RS,CHARRUA,emater,erechim,Erechim,geo
 4305975,RS,COXILHA,emater,passo_fundo,Passo Fundo,alta
 4308854,RS,GENTIL,emater,passo_fundo,Passo Fundo,alta
-4309803,RS,IBIAÇÁ,emater,erechim,Erechim,conferir
+4309803,RS,IBIAÇÁ,emater,passo_fundo,Passo Fundo,geo
 4311809,RS,MARAU,emater,passo_fundo,Passo Fundo,alta
 4312138,RS,MATO CASTELHANO,emater,passo_fundo,Passo Fundo,alta
 4312757,RS,NOVA ALVORADA,emater,passo_fundo,Passo Fundo,alta
 4314100,RS,PASSO FUNDO,emater,passo_fundo,Passo Fundo,alta
-4316600,RS,SANANDUVA,emater,erechim,Erechim,conferir
-4316733,RS,SANTA CECÍLIA DO SUL,emater,erechim,Erechim,conferir
+4316600,RS,SANANDUVA,emater,erechim,Erechim,geo
+4316733,RS,SANTA CECÍLIA DO SUL,emater,passo_fundo,Passo Fundo,geo
 4317558,RS,SANTO ANTÔNIO DO PALMA,emater,passo_fundo,Passo Fundo,alta
 4320909,RS,TAPEJARA,emater,passo_fundo,Passo Fundo,alta
 4323358,RS,VILA LÂNGARO,emater,passo_fundo,Passo Fundo,alta
@@ -236,7 +236,7 @@ codigo_ibge,uf,cidade,orgao,regiao_id,regiao_nome,confianca
 4311007,RS,JAGUARÃO,emater,pelotas,Pelotas,alta
 4314175,RS,PEDRAS ALTAS,emater,bage,Bagé,alta
 4314407,RS,PELOTAS,emater,pelotas,Pelotas,alta
-4314506,RS,PINHEIRO MACHADO,emater,bage,Bagé,conferir
+4314506,RS,PINHEIRO MACHADO,emater,bage,Bagé,geo
 4314605,RS,PIRATINI,emater,pelotas,Pelotas,alta
 4317301,RS,SANTA VITÓRIA DO PALMAR,emater,pelotas,Pelotas,alta
 4322327,RS,TURUÇU,emater,pelotas,Pelotas,alta
@@ -245,7 +245,7 @@ codigo_ibge,uf,cidade,orgao,regiao_id,regiao_nome,confianca
 4301909,RS,BARRA DO RIBEIRO,emater,porto_alegre,Porto Alegre,alta
 4302709,RS,BUTIÁ,emater,porto_alegre,Porto Alegre,alta
 4303509,RS,CAMAQUÃ,emater,porto_alegre,Porto Alegre,alta
-4304200,RS,CANDELÁRIA,emater,lajeado,Lajeado,conferir
+4304200,RS,CANDELÁRIA,emater,lajeado,Lajeado,geo
 4304606,RS,CANOAS,emater,porto_alegre,Porto Alegre,alta
 4304671,RS,CAPIVARI DO SUL,emater,porto_alegre,Porto Alegre,alta
 4306056,RS,CRISTAL,emater,porto_alegre,Porto Alegre,alta
@@ -274,7 +274,7 @@ codigo_ibge,uf,cidade,orgao,regiao_id,regiao_nome,confianca
 4303004,RS,CACHOEIRA DO SUL,emater,santa_maria,Santa Maria,alta
 4306379,RS,DILERMANDO DE AGUIAR,emater,santa_maria,Santa Maria,alta
 4306700,RS,DONA FRANCISCA,emater,santa_maria,Santa Maria,alta
-4306908,RS,ENCRUZILHADA DO SUL,emater,porto_alegre,Porto Alegre,conferir
+4306908,RS,ENCRUZILHADA DO SUL,emater,lajeado,Lajeado,geo
 4308003,RS,FAXINAL DO SOTURNO,emater,santa_maria,Santa Maria,alta
 4308409,RS,FORMIGUEIRO,emater,santa_maria,Santa Maria,alta
 4310538,RS,ITAARA,emater,santa_maria,Santa Maria,alta
@@ -294,14 +294,14 @@ codigo_ibge,uf,cidade,orgao,regiao_id,regiao_nome,confianca
 4300307,RS,ALECRIM,emater,santa_rosa,Santa Rosa,alta
 4300455,RS,ALEGRIA,emater,santa_rosa,Santa Rosa,alta
 4302204,RS,BOA VISTA DO BURICÁ,emater,santa_rosa,Santa Rosa,alta
-4302378,RS,BOM PROGRESSO,emater,frederico_westphalen,Frederico Westphalen,conferir
-4302600,RS,BRAGA,emater,frederico_westphalen,Frederico Westphalen,conferir
+4302378,RS,BOM PROGRESSO,emater,frederico_westphalen,Frederico Westphalen,geo
+4302600,RS,BRAGA,emater,frederico_westphalen,Frederico Westphalen,geo
 4303707,RS,CAMPINA DAS MISSÕES,emater,santa_rosa,Santa Rosa,alta
 4304002,RS,CAMPO NOVO,emater,santa_rosa,Santa Rosa,alta
 4304309,RS,CÂNDIDO GODÓI,emater,santa_rosa,Santa Rosa,alta
 4305900,RS,CORONEL BICACO,emater,santa_rosa,Santa Rosa,alta
 4306007,RS,CRISSIUMAL,emater,santa_rosa,Santa Rosa,alta
-4306320,RS,DERRUBADAS,emater,frederico_westphalen,Frederico Westphalen,conferir
+4306320,RS,DERRUBADAS,emater,frederico_westphalen,Frederico Westphalen,geo
 4306734,RS,DOUTOR MAURÍCIO CARDOSO,emater,santa_rosa,Santa Rosa,alta
 4309001,RS,GIRUÁ,emater,santa_rosa,Santa Rosa,alta
 4309605,RS,HORIZONTINA,emater,santa_rosa,Santa Rosa,alta
@@ -331,45 +331,45 @@ codigo_ibge,uf,cidade,orgao,regiao_id,regiao_nome,confianca
 4322301,RS,TUPARENDI,emater,santa_rosa,Santa Rosa,alta
 4322343,RS,UBIRETAMA,emater,santa_rosa,Santa Rosa,alta
 4323705,RS,VISTA GAÚCHA,emater,santa_rosa,Santa Rosa,alta
-4302501,RS,BOSSOROCA,emater,ijui,Ijuí,conferir
-4303301,RS,CAIBATÉ,emater,ijui,Ijuí,conferir
-4304655,RS,CAPÃO DO CIPÓ,emater,ijui,Ijuí,conferir
-4305207,RS,CERRO LARGO,emater,santa_rosa,Santa Rosa,conferir
-4306353,RS,DEZESSEIS DE NOVEMBRO,emater,ijui,Ijuí,conferir
-4308656,RS,GARRUCHOS,emater,ijui,Ijuí,conferir
-4309506,RS,GUARANI DAS MISSÕES,emater,santa_rosa,Santa Rosa,conferir
-4312179,RS,MATO QUEIMADO,emater,ijui,Ijuí,conferir
-4314555,RS,PIRAPÓ,emater,santa_rosa,Santa Rosa,conferir
-4315958,RS,ROLADOR,emater,ijui,Ijuí,conferir
-4316303,RS,ROQUE GONZALES,emater,santa_rosa,Santa Rosa,conferir
-4316477,RS,SALVADOR DAS MISSÕES,emater,ijui,Ijuí,conferir
-4317509,RS,SANTO ÂNGELO,emater,ijui,Ijuí,conferir
-4317707,RS,SANTO ANTÔNIO DAS MISSÕES,emater,ijui,Ijuí,conferir
-4318903,RS,SÃO LUIZ GONZAGA,emater,ijui,Ijuí,conferir
-4319208,RS,SÃO NICOLAU,emater,ijui,Ijuí,conferir
-4319307,RS,SÃO PAULO DAS MISSÕES,emater,ijui,Ijuí,conferir
-4319372,RS,SÃO PEDRO DO BUTIÁ,emater,ijui,Ijuí,conferir
-4320578,RS,SETE DE SETEMBRO,emater,ijui,Ijuí,conferir
+4302501,RS,BOSSOROCA,emater,ijui,Ijuí,geo
+4303301,RS,CAIBATÉ,emater,santa_rosa,Santa Rosa,geo
+4304655,RS,CAPÃO DO CIPÓ,emater,ijui,Ijuí,geo
+4305207,RS,CERRO LARGO,emater,santa_rosa,Santa Rosa,geo
+4306353,RS,DEZESSEIS DE NOVEMBRO,emater,santa_rosa,Santa Rosa,geo
+4308656,RS,GARRUCHOS,emater,santa_rosa,Santa Rosa,geo
+4309506,RS,GUARANI DAS MISSÕES,emater,santa_rosa,Santa Rosa,geo
+4312179,RS,MATO QUEIMADO,emater,santa_rosa,Santa Rosa,geo
+4314555,RS,PIRAPÓ,emater,santa_rosa,Santa Rosa,geo
+4315958,RS,ROLADOR,emater,santa_rosa,Santa Rosa,geo
+4316303,RS,ROQUE GONZALES,emater,santa_rosa,Santa Rosa,geo
+4316477,RS,SALVADOR DAS MISSÕES,emater,santa_rosa,Santa Rosa,geo
+4317509,RS,SANTO ÂNGELO,emater,ijui,Ijuí,geo
+4317707,RS,SANTO ANTÔNIO DAS MISSÕES,emater,santa_rosa,Santa Rosa,geo
+4318903,RS,SÃO LUIZ GONZAGA,emater,santa_rosa,Santa Rosa,geo
+4319208,RS,SÃO NICOLAU,emater,santa_rosa,Santa Rosa,geo
+4319307,RS,SÃO PAULO DAS MISSÕES,emater,santa_rosa,Santa Rosa,geo
+4319372,RS,SÃO PEDRO DO BUTIÁ,emater,santa_rosa,Santa Rosa,geo
+4320578,RS,SETE DE SETEMBRO,emater,santa_rosa,Santa Rosa,geo
 4300406,RS,ALEGRETE,emater,bage,Bagé,alta
-4310603,RS,ITAQUI,emater,bage,Bagé,conferir
+4310603,RS,ITAQUI,emater,santa_rosa,Santa Rosa,geo
 4311502,RS,LAVRAS DO SUL,emater,bage,Bagé,alta
-4311718,RS,MAÇAMBARÁ,emater,bage,Bagé,conferir
+4311718,RS,MAÇAMBARÁ,emater,santa_rosa,Santa Rosa,geo
 4311759,RS,MANOEL VIANA,emater,bage,Bagé,alta
-4316402,RS,ROSÁRIO DO SUL,emater,bage,Bagé,conferir
-4316972,RS,SANTA MARGARIDA DO SUL,emater,santa_maria,Santa Maria,conferir
+4316402,RS,ROSÁRIO DO SUL,emater,santa_maria,Santa Maria,geo
+4316972,RS,SANTA MARGARIDA DO SUL,emater,santa_maria,Santa Maria,geo
 4317103,RS,SANT'ANA DO LIVRAMENTO,emater,bage,Bagé,alta
-4318002,RS,SÃO BORJA,emater,bage,Bagé,conferir
-4318309,RS,SÃO GABRIEL,emater,santa_maria,Santa Maria,conferir
-4322376,RS,UNISTALDA,emater,santa_maria,Santa Maria,conferir
+4318002,RS,SÃO BORJA,emater,santa_rosa,Santa Rosa,geo
+4318309,RS,SÃO GABRIEL,emater,santa_maria,Santa Maria,geo
+4322376,RS,UNISTALDA,emater,ijui,Ijuí,geo
 4322400,RS,URUGUAIANA,emater,bage,Bagé,alta
 4323457,RS,VILA NOVA DO SUL,emater,bage,Bagé,alta
-4300471,RS,ALMIRANTE TAMANDARÉ DO SUL,emater,passo_fundo,Passo Fundo,conferir
+4300471,RS,ALMIRANTE TAMANDARÉ DO SUL,emater,passo_fundo,Passo Fundo,geo
 4300505,RS,ALPESTRE,emater,frederico_westphalen,Frederico Westphalen,alta
-4301958,RS,BARRA FUNDA,emater,passo_fundo,Passo Fundo,conferir
+4301958,RS,BARRA FUNDA,emater,frederico_westphalen,Frederico Westphalen,geo
 4302154,RS,BOA VISTA DAS MISSÕES,emater,frederico_westphalen,Frederico Westphalen,alta
 4303400,RS,CAIÇARA,emater,frederico_westphalen,Frederico Westphalen,alta
 4305157,RS,CERRO GRANDE,emater,frederico_westphalen,Frederico Westphalen,alta
-4305306,RS,CHAPADA,emater,passo_fundo,Passo Fundo,conferir
+4305306,RS,CHAPADA,emater,passo_fundo,Passo Fundo,geo
 4305801,RS,CONSTANTINA,emater,frederico_westphalen,Frederico Westphalen,alta
 4306072,RS,CRISTAL DO SUL,emater,frederico_westphalen,Frederico Westphalen,alta
 4306429,RS,DOIS IRMÃOS DAS MISSÕES,emater,frederico_westphalen,Frederico Westphalen,alta
@@ -383,7 +383,7 @@ codigo_ibge,uf,cidade,orgao,regiao_id,regiao_nome,confianca
 4311429,RS,LAJEADO DO BUGRE,emater,frederico_westphalen,Frederico Westphalen,alta
 4311601,RS,LIBERATO SALZANO,emater,frederico_westphalen,Frederico Westphalen,alta
 4312708,RS,NONOAI,emater,frederico_westphalen,Frederico Westphalen,alta
-4312955,RS,NOVA BOA VISTA,emater,passo_fundo,Passo Fundo,conferir
+4312955,RS,NOVA BOA VISTA,emater,passo_fundo,Passo Fundo,geo
 4313490,RS,NOVO BARREIRO,emater,frederico_westphalen,Frederico Westphalen,alta
 4313441,RS,NOVO TIRADENTES,emater,frederico_westphalen,Frederico Westphalen,alta
 4313466,RS,NOVO XINGU,emater,frederico_westphalen,Frederico Westphalen,alta
@@ -404,17 +404,17 @@ codigo_ibge,uf,cidade,orgao,regiao_id,regiao_nome,confianca
 4321857,RS,TRÊS PALMEIRAS,emater,frederico_westphalen,Frederico Westphalen,alta
 4321956,RS,TRINDADE DO SUL,emater,frederico_westphalen,Frederico Westphalen,alta
 4323101,RS,VICENTE DUTRA,emater,frederico_westphalen,Frederico Westphalen,alta
-4100459,PR,ALTAMIRA DO PARANÁ,deral,pitanga,Pitanga,conferir
-4101655,PR,ARAPUÃ,deral,ivaipora,Ivaiporã,conferir
+4100459,PR,ALTAMIRA DO PARANÁ,deral,laranjeiras_do_sul,Laranjeiras do Sul,geo
+4101655,PR,ARAPUÃ,deral,ivaipora,Ivaiporã,geo
 4101705,PR,ARARUNA,deral,campo_mourao,Campo Mourão,alta
-4102505,PR,BARBOSA FERRAZ,deral,campo_mourao,Campo Mourão,conferir
+4102505,PR,BARBOSA FERRAZ,deral,campo_mourao,Campo Mourão,geo
 4103008,PR,BOA ESPERANÇA,deral,campo_mourao,Campo Mourão,alta
-4103305,PR,BORRAZÓPOLIS,deral,ivaipora,Ivaiporã,conferir
+4103305,PR,BORRAZÓPOLIS,deral,ivaipora,Ivaiporã,geo
 4103909,PR,CAMPINA DA LAGOA,deral,campo_mourao,Campo Mourão,alta
 4104303,PR,CAMPO MOURÃO,deral,campo_mourao,Campo Mourão,alta
-4104402,PR,CÂNDIDO DE ABREU,deral,ivaipora,Ivaiporã,conferir
-4106555,PR,CORUMBATAÍ DO SUL,deral,campo_mourao,Campo Mourão,conferir
-4106852,PR,CRUZMALTINA,deral,ivaipora,Ivaiporã,conferir
+4104402,PR,CÂNDIDO DE ABREU,deral,pitanga,Pitanga,geo
+4106555,PR,CORUMBATAÍ DO SUL,deral,campo_mourao,Campo Mourão,geo
+4106852,PR,CRUZMALTINA,deral,ivaipora,Ivaiporã,geo
 4107504,PR,ENGENHEIRO BELTRÃO,deral,campo_mourao,Campo Mourão,alta
 4107553,PR,FAROL,deral,campo_mourao,Campo Mourão,alta
 4107702,PR,FÊNIX,deral,campo_mourao,Campo Mourão,alta
@@ -441,37 +441,37 @@ codigo_ibge,uf,cidade,orgao,regiao_id,regiao_nome,confianca
 4125001,PR,SÃO JOÃO DO IVAÍ,deral,campo_mourao,Campo Mourão,alta
 4127908,PR,TUNEIRAS DO OESTE,deral,campo_mourao,Campo Mourão,alta
 4128005,PR,UBIRATÃ,deral,campo_mourao,Campo Mourão,alta
-4101309,PR,ANTÔNIO OLINTO,deral,uniao_da_vitoria,União da Vitória,conferir
+4101309,PR,ANTÔNIO OLINTO,deral,irati,Irati,geo
 4101804,PR,ARAUCÁRIA,deral,curitiba,Curitiba,alta
-4102307,PR,BALSA NOVA,deral,curitiba,Curitiba,conferir
-4102901,PR,BITURUNA,deral,uniao_da_vitoria,União da Vitória,conferir
-4104105,PR,CAMPO DO TENENTE,deral,curitiba,Curitiba,conferir
-4106209,PR,CONTENDA,deral,curitiba,Curitiba,conferir
+4102307,PR,BALSA NOVA,deral,curitiba,Curitiba,geo
+4102901,PR,BITURUNA,deral,uniao_da_vitoria,União da Vitória,geo
+4104105,PR,CAMPO DO TENENTE,deral,curitiba,Curitiba,geo
+4106209,PR,CONTENDA,deral,curitiba,Curitiba,geo
 4106902,PR,CURITIBA,deral,curitiba,Curitiba,alta
 4113205,PR,LAPA,deral,curitiba,Curitiba,alta
-4113908,PR,MALLET,deral,irati,Irati,conferir
-4114302,PR,MANDIRITUBA,deral,curitiba,Curitiba,conferir
+4113908,PR,MALLET,deral,uniao_da_vitoria,União da Vitória,geo
+4114302,PR,MANDIRITUBA,deral,curitiba,Curitiba,geo
 4118204,PR,PARANAGUÁ,deral,paranagua,Paranaguá,alta
-4118600,PR,PAULA FREITAS,deral,uniao_da_vitoria,União da Vitória,conferir
-4118709,PR,PAULO FRONTIN,deral,uniao_da_vitoria,União da Vitória,conferir
-4121208,PR,QUITANDINHA,deral,curitiba,Curitiba,conferir
-4121505,PR,REBOUÇAS,deral,irati,Irati,conferir
-4122008,PR,RIO AZUL,deral,irati,Irati,conferir
-4122305,PR,RIO NEGRO,deral,curitiba,Curitiba,conferir
-4125100,PR,SÃO JOÃO DO TRIUNFO,deral,curitiba,Curitiba,conferir
-4125605,PR,SÃO MATEUS DO SUL,deral,uniao_da_vitoria,União da Vitória,conferir
-4127601,PR,TIJUCAS DO SUL,deral,curitiba,Curitiba,conferir
-4128203,PR,UNIÃO DA VITÓRIA,deral,curitiba,Curitiba,conferir
+4118600,PR,PAULA FREITAS,deral,uniao_da_vitoria,União da Vitória,geo
+4118709,PR,PAULO FRONTIN,deral,uniao_da_vitoria,União da Vitória,geo
+4121208,PR,QUITANDINHA,deral,curitiba,Curitiba,geo
+4121505,PR,REBOUÇAS,deral,irati,Irati,geo
+4122008,PR,RIO AZUL,deral,irati,Irati,geo
+4122305,PR,RIO NEGRO,deral,curitiba,Curitiba,geo
+4125100,PR,SÃO JOÃO DO TRIUNFO,deral,irati,Irati,geo
+4125605,PR,SÃO MATEUS DO SUL,deral,irati,Irati,geo
+4127601,PR,TIJUCAS DO SUL,deral,curitiba,Curitiba,geo
+4128203,PR,UNIÃO DA VITÓRIA,deral,uniao_da_vitoria,União da Vitória,geo
 4101051,PR,ANAHY,deral,cascavel,Cascavel,alta
-4103024,PR,BOA ESPERANÇA DO IGUAÇU,deral,dois_vizinhos,Dois Vizinhos,conferir
-4103057,PR,BOA VISTA DA APARECIDA,deral,cascavel,Cascavel,conferir
+4103024,PR,BOA ESPERANÇA DO IGUAÇU,deral,dois_vizinhos,Dois Vizinhos,geo
+4103057,PR,BOA VISTA DA APARECIDA,deral,dois_vizinhos,Dois Vizinhos,geo
 4103354,PR,BRAGANEY,deral,cascavel,Cascavel,alta
 4104055,PR,CAMPO BONITO,deral,cascavel,Cascavel,alta
 4104808,PR,CASCAVEL,deral,cascavel,Cascavel,alta
 4105003,PR,CATANDUVAS,deral,cascavel,Cascavel,alta
 4106308,PR,CORBÉLIA,deral,cascavel,Cascavel,alta
-4106571,PR,CRUZEIRO DO IGUAÇU,deral,dois_vizinhos,Dois Vizinhos,conferir
-4107546,PR,ESPIGÃO ALTO DO IGUAÇU,deral,laranjeiras_do_sul,Laranjeiras do Sul,conferir
+4106571,PR,CRUZEIRO DO IGUAÇU,deral,dois_vizinhos,Dois Vizinhos,geo
+4107546,PR,ESPIGÃO ALTO DO IGUAÇU,deral,dois_vizinhos,Dois Vizinhos,geo
 4109302,PR,GUARANIAÇU,deral,cascavel,Cascavel,alta
 4109757,PR,IBEMA,deral,cascavel,Cascavel,alta
 4110052,PR,IGUATU,deral,cascavel,Cascavel,alta
@@ -482,59 +482,59 @@ codigo_ibge,uf,cidade,orgao,regiao_id,regiao_nome,confianca
 4123824,PR,SANTA LÚCIA,deral,cascavel,Cascavel,alta
 4125209,PR,SÃO JORGE D'OESTE,deral,cascavel,Cascavel,alta
 4127858,PR,TRÊS BARRAS DO PARANÁ,deral,cascavel,Cascavel,alta
-4101101,PR,ANDIRÁ,deral,jacarezinho,Jacarezinho,conferir
-4101606,PR,ARAPOTI,deral,ponta_grossa,Ponta Grossa,conferir
-4101903,PR,ASSAÍ,deral,cornelio_procopio,Cornélio Procópio,conferir
-4102406,PR,BANDEIRANTES,deral,cornelio_procopio,Cornélio Procópio,conferir
-4102703,PR,BARRA DO JACARÉ,deral,jacarezinho,Jacarezinho,conferir
+4101101,PR,ANDIRÁ,deral,jacarezinho,Jacarezinho,geo
+4101606,PR,ARAPOTI,deral,ponta_grossa,Ponta Grossa,geo
+4101903,PR,ASSAÍ,deral,cornelio_procopio,Cornélio Procópio,geo
+4102406,PR,BANDEIRANTES,deral,cornelio_procopio,Cornélio Procópio,geo
+4102703,PR,BARRA DO JACARÉ,deral,jacarezinho,Jacarezinho,geo
 4103602,PR,CAMBARÁ,deral,jacarezinho,Jacarezinho,alta
 4104709,PR,CARLÓPOLIS,deral,jacarezinho,Jacarezinho,alta
-4106001,PR,CONGONHINHAS,deral,cornelio_procopio,Cornélio Procópio,conferir
-4106100,PR,CONSELHEIRO MAIRINCK,deral,jacarezinho,Jacarezinho,conferir
-4106407,PR,CORNÉLIO PROCÓPIO,deral,cornelio_procopio,Cornélio Procópio,conferir
-4107009,PR,CURIÚVA,deral,ponta_grossa,Ponta Grossa,conferir
-4109005,PR,GUAPIRAMA,deral,jacarezinho,Jacarezinho,conferir
-4109708,PR,IBAITI,deral,jacarezinho,Jacarezinho,conferir
-4111001,PR,ITAMBARACÁ,deral,jacarezinho,Jacarezinho,conferir
-4112009,PR,JAGUARIAÍVA,deral,ponta_grossa,Ponta Grossa,conferir
+4106001,PR,CONGONHINHAS,deral,cornelio_procopio,Cornélio Procópio,geo
+4106100,PR,CONSELHEIRO MAIRINCK,deral,jacarezinho,Jacarezinho,geo
+4106407,PR,CORNÉLIO PROCÓPIO,deral,cornelio_procopio,Cornélio Procópio,geo
+4107009,PR,CURIÚVA,deral,cornelio_procopio,Cornélio Procópio,geo
+4109005,PR,GUAPIRAMA,deral,jacarezinho,Jacarezinho,geo
+4109708,PR,IBAITI,deral,jacarezinho,Jacarezinho,geo
+4111001,PR,ITAMBARACÁ,deral,cornelio_procopio,Cornélio Procópio,geo
+4112009,PR,JAGUARIAÍVA,deral,ponta_grossa,Ponta Grossa,geo
 4112801,PR,JOAQUIM TÁVORA,deral,jacarezinho,Jacarezinho,alta
-4113403,PR,LEÓPOLIS,deral,cornelio_procopio,Cornélio Procópio,conferir
-4117008,PR,NOVA FÁTIMA,deral,cornelio_procopio,Cornélio Procópio,conferir
-4117214,PR,NOVA SANTA BÁRBARA,deral,cornelio_procopio,Cornélio Procópio,conferir
-4119400,PR,PIRAÍ DO SUL,deral,cornelio_procopio,Cornélio Procópio,conferir
-4121307,PR,RANCHO ALEGRE,deral,cornelio_procopio,Cornélio Procópio,conferir
-4121901,PR,RIBEIRÃO DO PINHAL,deral,cornelio_procopio,Cornélio Procópio,conferir
-4123105,PR,SANTA AMÉLIA,deral,cornelio_procopio,Cornélio Procópio,conferir
-4123204,PR,SANTA CECÍLIA DO PAVÃO,deral,cornelio_procopio,Cornélio Procópio,conferir
-4123907,PR,SANTA MARIANA,deral,cornelio_procopio,Cornélio Procópio,conferir
-4124004,PR,SANTANA DO ITARARÉ,deral,cornelio_procopio,Cornélio Procópio,conferir
-4124103,PR,SANTO ANTÔNIO DA PLATINA,deral,cornelio_procopio,Cornélio Procópio,conferir
-4124301,PR,SANTO ANTÔNIO DO PARAÍSO,deral,cornelio_procopio,Cornélio Procópio,conferir
-4124707,PR,SÃO JERÔNIMO DA SERRA,deral,cornelio_procopio,Cornélio Procópio,conferir
-4125407,PR,SÃO JOSÉ DA BOA VISTA,deral,cornelio_procopio,Cornélio Procópio,conferir
-4126009,PR,SÃO SEBASTIÃO DA AMOREIRA,deral,cornelio_procopio,Cornélio Procópio,conferir
-4126306,PR,SENGÉS,deral,cornelio_procopio,Cornélio Procópio,conferir
-4126405,PR,SERTANEJA,deral,cornelio_procopio,Cornélio Procópio,conferir
-4127502,PR,TIBAGI,deral,cornelio_procopio,Cornélio Procópio,conferir
-4128401,PR,URAÍ,deral,cornelio_procopio,Cornélio Procópio,conferir
-4128534,PR,VENTANIA,deral,cornelio_procopio,Cornélio Procópio,conferir
-4128500,PR,WENCESLAU BRAZ,deral,cornelio_procopio,Cornélio Procópio,conferir
-4103040,PR,BOA VENTURA DE SÃO ROQUE,deral,pitanga,Pitanga,conferir
-4103958,PR,CAMPINA DO SIMÃO,deral,guarapuava,Guarapuava,conferir
+4113403,PR,LEÓPOLIS,deral,cornelio_procopio,Cornélio Procópio,geo
+4117008,PR,NOVA FÁTIMA,deral,cornelio_procopio,Cornélio Procópio,geo
+4117214,PR,NOVA SANTA BÁRBARA,deral,cornelio_procopio,Cornélio Procópio,geo
+4119400,PR,PIRAÍ DO SUL,deral,ponta_grossa,Ponta Grossa,geo
+4121307,PR,RANCHO ALEGRE,deral,cornelio_procopio,Cornélio Procópio,geo
+4121901,PR,RIBEIRÃO DO PINHAL,deral,cornelio_procopio,Cornélio Procópio,geo
+4123105,PR,SANTA AMÉLIA,deral,cornelio_procopio,Cornélio Procópio,geo
+4123204,PR,SANTA CECÍLIA DO PAVÃO,deral,cornelio_procopio,Cornélio Procópio,geo
+4123907,PR,SANTA MARIANA,deral,cornelio_procopio,Cornélio Procópio,geo
+4124004,PR,SANTANA DO ITARARÉ,deral,jacarezinho,Jacarezinho,geo
+4124103,PR,SANTO ANTÔNIO DA PLATINA,deral,jacarezinho,Jacarezinho,geo
+4124301,PR,SANTO ANTÔNIO DO PARAÍSO,deral,cornelio_procopio,Cornélio Procópio,geo
+4124707,PR,SÃO JERÔNIMO DA SERRA,deral,cornelio_procopio,Cornélio Procópio,geo
+4125407,PR,SÃO JOSÉ DA BOA VISTA,deral,jacarezinho,Jacarezinho,geo
+4126009,PR,SÃO SEBASTIÃO DA AMOREIRA,deral,cornelio_procopio,Cornélio Procópio,geo
+4126306,PR,SENGÉS,deral,jacarezinho,Jacarezinho,geo
+4126405,PR,SERTANEJA,deral,cornelio_procopio,Cornélio Procópio,geo
+4127502,PR,TIBAGI,deral,ponta_grossa,Ponta Grossa,geo
+4128401,PR,URAÍ,deral,cornelio_procopio,Cornélio Procópio,geo
+4128534,PR,VENTANIA,deral,ponta_grossa,Ponta Grossa,geo
+4128500,PR,WENCESLAU BRAZ,deral,jacarezinho,Jacarezinho,geo
+4103040,PR,BOA VENTURA DE SÃO ROQUE,deral,pitanga,Pitanga,geo
+4103958,PR,CAMPINA DO SIMÃO,deral,pitanga,Pitanga,geo
 4104428,PR,CANDÓI,deral,guarapuava,Guarapuava,alta
-4104451,PR,CANTAGALO,deral,guarapuava,Guarapuava,conferir
-4106803,PR,CRUZ MACHADO,deral,uniao_da_vitoria,União da Vitória,conferir
+4104451,PR,CANTAGALO,deral,laranjeiras_do_sul,Laranjeiras do Sul,geo
+4106803,PR,CRUZ MACHADO,deral,uniao_da_vitoria,União da Vitória,geo
 4108650,PR,GOIOXIM,deral,guarapuava,Guarapuava,alta
 4109401,PR,GUARAPUAVA,deral,guarapuava,Guarapuava,alta
-4110102,PR,IMBITUVA,deral,irati,Irati,conferir
+4110102,PR,IMBITUVA,deral,irati,Irati,geo
 4110706,PR,IRATI,deral,irati,Irati,alta
 4113304,PR,LARANJEIRAS DO SUL,deral,laranjeiras_do_sul,Laranjeiras do Sul,alta
-4115457,PR,MARQUINHO,deral,laranjeiras_do_sul,Laranjeiras do Sul,conferir
+4115457,PR,MARQUINHO,deral,laranjeiras_do_sul,Laranjeiras do Sul,geo
 4117057,PR,NOVA LARANJEIRAS,deral,laranjeiras_do_sul,Laranjeiras do Sul,alta
-4117800,PR,PALMITAL,deral,pitanga,Pitanga,conferir
+4117800,PR,PALMITAL,deral,pitanga,Pitanga,geo
 4119301,PR,PINHÃO,deral,guarapuava,Guarapuava,alta
 4119608,PR,PITANGA,deral,pitanga,Pitanga,alta
-4120150,PR,PORTO BARREIRO,deral,laranjeiras_do_sul,Laranjeiras do Sul,conferir
+4120150,PR,PORTO BARREIRO,deral,laranjeiras_do_sul,Laranjeiras do Sul,geo
 4120606,PR,PRUDENTÓPOLIS,deral,guarapuava,Guarapuava,alta
 4121752,PR,RESERVA DO IGUAÇU,deral,guarapuava,Guarapuava,alta
 4122156,PR,RIO BONITO DO IGUAÇU,deral,guarapuava,Guarapuava,alta
@@ -546,16 +546,16 @@ codigo_ibge,uf,cidade,orgao,regiao_id,regiao_nome,confianca
 4101507,PR,ARAPONGAS,deral,apucarana,Apucarana,alta
 4102802,PR,BELA VISTA DO PARAÍSO,deral,londrina,Londrina,alta
 4103701,PR,CAMBÉ,deral,londrina,Londrina,alta
-4103800,PR,CAMBIRA,deral,apucarana,Apucarana,conferir
+4103800,PR,CAMBIRA,deral,apucarana,Apucarana,geo
 4105102,PR,CENTENÁRIO DO SUL,deral,londrina,Londrina,alta
-4107603,PR,FAXINAL,deral,ivaipora,Ivaiporã,conferir
+4107603,PR,FAXINAL,deral,ivaipora,Ivaiporã,geo
 4108007,PR,FLORESTÓPOLIS,deral,londrina,Londrina,alta
 4109807,PR,IBIPORÃ,deral,londrina,Londrina,alta
 4111902,PR,JAGUAPITÃ,deral,londrina,Londrina,alta
 4113700,PR,LONDRINA,deral,londrina,Londrina,alta
 4113809,PR,LUPIONÓPOLIS,deral,londrina,Londrina,alta
-4114906,PR,MARILÂNDIA DO SUL,deral,apucarana,Apucarana,conferir
-4115754,PR,MAUÁ DA SERRA,deral,apucarana,Apucarana,conferir
+4114906,PR,MARILÂNDIA DO SUL,deral,apucarana,Apucarana,geo
+4115754,PR,MAUÁ DA SERRA,deral,apucarana,Apucarana,geo
 4117305,PR,ORTIGUEIRA,deral,londrina,Londrina,alta
 4119657,PR,PITANGUEIRAS,deral,londrina,Londrina,alta
 4120002,PR,PORECATU,deral,londrina,Londrina,alta
@@ -566,77 +566,77 @@ codigo_ibge,uf,cidade,orgao,regiao_id,regiao_nome,confianca
 4123402,PR,SANTA FÉ,deral,londrina,Londrina,alta
 4126504,PR,SERTANÓPOLIS,deral,londrina,Londrina,alta
 4126678,PR,TAMARANA,deral,londrina,Londrina,alta
-4101150,PR,ÂNGULO,deral,maringa,Maringá,conferir
-4102109,PR,ASTORGA,deral,maringa,Maringá,conferir
-4102208,PR,ATALAIA,deral,maringa,Maringá,conferir
-4103206,PR,BOM SUCESSO,deral,apucarana,Apucarana,conferir
+4101150,PR,ÂNGULO,deral,maringa,Maringá,geo
+4102109,PR,ASTORGA,deral,maringa,Maringá,geo
+4102208,PR,ATALAIA,deral,maringa,Maringá,geo
+4103206,PR,BOM SUCESSO,deral,apucarana,Apucarana,geo
 4105508,PR,CIANORTE,deral,cianorte,Cianorte,alta
-4105904,PR,COLORADO,deral,maringa,Maringá,conferir
-4107256,PR,DOURADINA,deral,umuarama,Umuarama,conferir
-4107306,PR,DOUTOR CAMARGO,deral,maringa,Maringá,conferir
-4107801,PR,FLORAÍ,deral,maringa,Maringá,conferir
-4107900,PR,FLORESTA,deral,maringa,Maringá,conferir
-4109906,PR,ICARAÍMA,deral,umuarama,Umuarama,conferir
-4110003,PR,IGUARAÇU,deral,maringa,Maringá,conferir
-4111100,PR,ITAMBÉ,deral,maringa,Maringá,conferir
-4111605,PR,IVATUBA,deral,maringa,Maringá,conferir
-4112108,PR,JANDAIA DO SUL,deral,apucarana,Apucarana,conferir
-4112405,PR,JAPURÁ,deral,cianorte,Cianorte,conferir
-4113007,PR,JUSSARA,deral,cianorte,Cianorte,conferir
-4113106,PR,KALORÉ,deral,apucarana,Apucarana,conferir
-4113502,PR,LOANDA,deral,paranavai,Paranavaí,conferir
-4113601,PR,LOBATO,deral,maringa,Maringá,conferir
-4114104,PR,MANDAGUAÇU,deral,maringa,Maringá,conferir
-4114203,PR,MANDAGUARI,deral,maringa,Maringá,conferir
-4114807,PR,MARIALVA,deral,maringa,Maringá,conferir
-4115200,PR,MARINGÁ,deral,maringa,Maringá,conferir
-4115507,PR,MARUMBI,deral,maringa,Maringá,conferir
-4116901,PR,NOVA ESPERANÇA,deral,maringa,Maringá,conferir
-4117107,PR,NOVA LONDRINA,deral,maringa,Maringá,conferir
-4117297,PR,NOVO ITACOLOMI,deral,maringa,Maringá,conferir
-4117404,PR,OURIZONA,deral,maringa,Maringá,conferir
-4117503,PR,PAIÇANDU,deral,maringa,Maringá,conferir
-4118006,PR,PARAÍSO DO NORTE,deral,maringa,Maringá,conferir
-4118105,PR,PARANACITY,deral,maringa,Maringá,conferir
-4118402,PR,PARANAVAÍ,deral,maringa,Maringá,conferir
-4121000,PR,QUERÊNCIA DO NORTE,deral,maringa,Maringá,conferir
-4122172,PR,RIO BRANCO DO IVAÍ,deral,maringa,Maringá,conferir
-4122651,PR,ROSÁRIO DO IVAÍ,deral,maringa,Maringá,conferir
-4123303,PR,SANTA CRUZ DE MONTE CASTELO,deral,maringa,Maringá,conferir
-4123709,PR,SANTA ISABEL DO IVAÍ,deral,maringa,Maringá,conferir
-4124608,PR,SÃO CARLOS DO IVAÍ,deral,maringa,Maringá,conferir
-4125308,PR,SÃO JORGE DO IVAÍ,deral,maringa,Maringá,conferir
-4125803,PR,SÃO PEDRO DO IVAÍ,deral,maringa,Maringá,conferir
-4126256,PR,SARANDI,deral,maringa,Maringá,conferir
-4126900,PR,TAPIRA,deral,maringa,Maringá,conferir
-4127205,PR,TERRA BOA,deral,maringa,Maringá,conferir
-4127304,PR,TERRA RICA,deral,maringa,Maringá,conferir
+4105904,PR,COLORADO,deral,paranavai,Paranavaí,geo
+4107256,PR,DOURADINA,deral,umuarama,Umuarama,geo
+4107306,PR,DOUTOR CAMARGO,deral,maringa,Maringá,geo
+4107801,PR,FLORAÍ,deral,paranavai,Paranavaí,geo
+4107900,PR,FLORESTA,deral,maringa,Maringá,geo
+4109906,PR,ICARAÍMA,deral,umuarama,Umuarama,geo
+4110003,PR,IGUARAÇU,deral,maringa,Maringá,geo
+4111100,PR,ITAMBÉ,deral,maringa,Maringá,geo
+4111605,PR,IVATUBA,deral,maringa,Maringá,geo
+4112108,PR,JANDAIA DO SUL,deral,apucarana,Apucarana,geo
+4112405,PR,JAPURÁ,deral,cianorte,Cianorte,geo
+4113007,PR,JUSSARA,deral,cianorte,Cianorte,geo
+4113106,PR,KALORÉ,deral,apucarana,Apucarana,geo
+4113502,PR,LOANDA,deral,paranavai,Paranavaí,geo
+4113601,PR,LOBATO,deral,maringa,Maringá,geo
+4114104,PR,MANDAGUAÇU,deral,maringa,Maringá,geo
+4114203,PR,MANDAGUARI,deral,apucarana,Apucarana,geo
+4114807,PR,MARIALVA,deral,maringa,Maringá,geo
+4115200,PR,MARINGÁ,deral,maringa,Maringá,geo
+4115507,PR,MARUMBI,deral,apucarana,Apucarana,geo
+4116901,PR,NOVA ESPERANÇA,deral,paranavai,Paranavaí,geo
+4117107,PR,NOVA LONDRINA,deral,paranavai,Paranavaí,geo
+4117297,PR,NOVO ITACOLOMI,deral,apucarana,Apucarana,geo
+4117404,PR,OURIZONA,deral,maringa,Maringá,geo
+4117503,PR,PAIÇANDU,deral,maringa,Maringá,geo
+4118006,PR,PARAÍSO DO NORTE,deral,paranavai,Paranavaí,geo
+4118105,PR,PARANACITY,deral,paranavai,Paranavaí,geo
+4118402,PR,PARANAVAÍ,deral,paranavai,Paranavaí,geo
+4121000,PR,QUERÊNCIA DO NORTE,deral,umuarama,Umuarama,geo
+4122172,PR,RIO BRANCO DO IVAÍ,deral,ivaipora,Ivaiporã,geo
+4122651,PR,ROSÁRIO DO IVAÍ,deral,ivaipora,Ivaiporã,geo
+4123303,PR,SANTA CRUZ DE MONTE CASTELO,deral,paranavai,Paranavaí,geo
+4123709,PR,SANTA ISABEL DO IVAÍ,deral,paranavai,Paranavaí,geo
+4124608,PR,SÃO CARLOS DO IVAÍ,deral,paranavai,Paranavaí,geo
+4125308,PR,SÃO JORGE DO IVAÍ,deral,maringa,Maringá,geo
+4125803,PR,SÃO PEDRO DO IVAÍ,deral,ivaipora,Ivaiporã,geo
+4126256,PR,SARANDI,deral,maringa,Maringá,geo
+4126900,PR,TAPIRA,deral,umuarama,Umuarama,geo
+4127205,PR,TERRA BOA,deral,cianorte,Cianorte,geo
+4127304,PR,TERRA RICA,deral,paranavai,Paranavaí,geo
 4100707,PR,ALTO PIQUIRI,deral,umuarama,Umuarama,alta
 4100509,PR,ALTÔNIA,deral,umuarama,Umuarama,alta
-4102000,PR,ASSIS CHATEAUBRIAND,deral,toledo,Toledo,conferir
-4103370,PR,BRASILÂNDIA DO SUL,deral,umuarama,Umuarama,conferir
-4103453,PR,CAFELÂNDIA,deral,cascavel,Cascavel,conferir
+4102000,PR,ASSIS CHATEAUBRIAND,deral,toledo,Toledo,geo
+4103370,PR,BRASILÂNDIA DO SUL,deral,umuarama,Umuarama,geo
+4103453,PR,CAFELÂNDIA,deral,cascavel,Cascavel,geo
 4106605,PR,CRUZEIRO DO OESTE,deral,umuarama,Umuarama,alta
-4108205,PR,FORMOSA DO OESTE,deral,toledo,Toledo,conferir
-4108320,PR,FRANCISCO ALVES,deral,umuarama,Umuarama,conferir
-4108809,PR,GUAÍRA,deral,toledo,Toledo,conferir
+4108205,PR,FORMOSA DO OESTE,deral,umuarama,Umuarama,geo
+4108320,PR,FRANCISCO ALVES,deral,umuarama,Umuarama,geo
+4108809,PR,GUAÍRA,deral,toledo,Toledo,geo
 4110607,PR,IPORÃ,deral,umuarama,Umuarama,alta
-4110656,PR,IRACEMA DO OESTE,deral,toledo,Toledo,conferir
-4112751,PR,JESUÍTAS,deral,toledo,Toledo,conferir
-4114609,PR,MARECHAL CÂNDIDO RONDON,deral,toledo,Toledo,conferir
-4115101,PR,MARILUZ,deral,toledo,Toledo,conferir
-4115358,PR,MARIPÁ,deral,toledo,Toledo,conferir
-4115853,PR,MERCEDES,deral,toledo,Toledo,conferir
-4116703,PR,NOVA AURORA,deral,toledo,Toledo,conferir
-4117222,PR,NOVA SANTA ROSA,deral,toledo,Toledo,conferir
-4117909,PR,PALOTINA,deral,toledo,Toledo,conferir
-4118907,PR,PÉROLA,deral,toledo,Toledo,conferir
-4120853,PR,QUATRO PONTES,deral,toledo,Toledo,conferir
-4127403,PR,TERRA ROXA,deral,toledo,Toledo,conferir
-4127957,PR,TUPÃSSI,deral,toledo,Toledo,conferir
-4128104,PR,UMUARAMA,deral,toledo,Toledo,conferir
-4102604,PR,BARRACÃO,deral,francisco_beltrao,Francisco Beltrão,conferir
-4103156,PR,BOM JESUS DO SUL,deral,francisco_beltrao,Francisco Beltrão,conferir
+4110656,PR,IRACEMA DO OESTE,deral,toledo,Toledo,geo
+4112751,PR,JESUÍTAS,deral,toledo,Toledo,geo
+4114609,PR,MARECHAL CÂNDIDO RONDON,deral,toledo,Toledo,geo
+4115101,PR,MARILUZ,deral,umuarama,Umuarama,geo
+4115358,PR,MARIPÁ,deral,toledo,Toledo,geo
+4115853,PR,MERCEDES,deral,toledo,Toledo,geo
+4116703,PR,NOVA AURORA,deral,cascavel,Cascavel,geo
+4117222,PR,NOVA SANTA ROSA,deral,toledo,Toledo,geo
+4117909,PR,PALOTINA,deral,toledo,Toledo,geo
+4118907,PR,PÉROLA,deral,umuarama,Umuarama,geo
+4120853,PR,QUATRO PONTES,deral,toledo,Toledo,geo
+4127403,PR,TERRA ROXA,deral,toledo,Toledo,geo
+4127957,PR,TUPÃSSI,deral,toledo,Toledo,geo
+4128104,PR,UMUARAMA,deral,umuarama,Umuarama,geo
+4102604,PR,BARRACÃO,deral,francisco_beltrao,Francisco Beltrão,geo
+4103156,PR,BOM JESUS DO SUL,deral,francisco_beltrao,Francisco Beltrão,geo
 4103222,PR,BOM SUCESSO DO SUL,deral,pato_branco,Pato Branco,alta
 4105409,PR,CHOPINZINHO,deral,pato_branco,Pato Branco,alta
 4105706,PR,CLEVELÂNDIA,deral,pato_branco,Pato Branco,alta
@@ -644,7 +644,7 @@ codigo_ibge,uf,cidade,orgao,regiao_id,regiao_nome,confianca
 4106506,PR,CORONEL VIVIDA,deral,pato_branco,Pato Branco,alta
 4107207,PR,DOIS VIZINHOS,deral,dois_vizinhos,Dois Vizinhos,alta
 4107405,PR,ENÉAS MARQUES,deral,francisco_beltrao,Francisco Beltrão,alta
-4107850,PR,FLOR DA SERRA DO SUL,deral,francisco_beltrao,Francisco Beltrão,conferir
+4107850,PR,FLOR DA SERRA DO SUL,deral,francisco_beltrao,Francisco Beltrão,geo
 4108403,PR,FRANCISCO BELTRÃO,deral,francisco_beltrao,Francisco Beltrão,alta
 4109658,PR,HONÓRIO SERPA,deral,pato_branco,Pato Branco,alta
 4111209,PR,ITAPEJARA D'OESTE,deral,pato_branco,Pato Branco,alta
@@ -660,74 +660,74 @@ codigo_ibge,uf,cidade,orgao,regiao_id,regiao_nome,confianca
 4126652,PR,SULINA,deral,pato_branco,Pato Branco,alta
 4128609,PR,VERÊ,deral,pato_branco,Pato Branco,alta
 4128708,PR,VITORINO,deral,pato_branco,Pato Branco,alta
-4104204,PR,CAMPO LARGO,deral,curitiba,Curitiba,conferir
+4104204,PR,CAMPO LARGO,deral,curitiba,Curitiba,geo
 4104253,PR,CAMPO MAGRO,deral,curitiba,Curitiba,alta
 4104659,PR,CARAMBEÍ,deral,ponta_grossa,Ponta Grossa,alta
 4104907,PR,CASTRO,deral,ponta_grossa,Ponta Grossa,alta
 4110078,PR,IMBAÚ,deral,ponta_grossa,Ponta Grossa,alta
-4110508,PR,IPIRANGA,deral,irati,Irati,conferir
-4111407,PR,IVAÍ,deral,irati,Irati,conferir
+4110508,PR,IPIRANGA,deral,ponta_grossa,Ponta Grossa,geo
+4111407,PR,IVAÍ,deral,irati,Irati,geo
 4117701,PR,PALMEIRA,deral,ponta_grossa,Ponta Grossa,alta
 4119905,PR,PONTA GROSSA,deral,ponta_grossa,Ponta Grossa,alta
 4121703,PR,RESERVA,deral,ponta_grossa,Ponta Grossa,alta
-4127007,PR,TEIXEIRA SOARES,deral,irati,Irati,conferir
-4101002,PR,AMPÉRE,deral,francisco_beltrao,Francisco Beltrão,conferir
-4102752,PR,BELA VISTA DA CAROBA,deral,francisco_beltrao,Francisco Beltrão,conferir
-4104501,PR,CAPANEMA,deral,francisco_beltrao,Francisco Beltrão,conferir
-4104600,PR,CAPITÃO LEÔNIDAS MARQUES,deral,cascavel,Cascavel,conferir
-4105300,PR,CÉU AZUL,deral,cascavel,Cascavel,conferir
-4107157,PR,DIAMANTE D'OESTE,deral,toledo,Toledo,conferir
-4107538,PR,ENTRE RIOS DO OESTE,deral,toledo,Toledo,conferir
-4108304,PR,FOZ DO IGUAÇU,deral,cascavel,Cascavel,conferir
-4110953,PR,ITAIPULÂNDIA,deral,cascavel,Cascavel,conferir
-4115606,PR,MATELÂNDIA,deral,cascavel,Cascavel,conferir
+4127007,PR,TEIXEIRA SOARES,deral,irati,Irati,geo
+4101002,PR,AMPÉRE,deral,dois_vizinhos,Dois Vizinhos,geo
+4102752,PR,BELA VISTA DA CAROBA,deral,dois_vizinhos,Dois Vizinhos,geo
+4104501,PR,CAPANEMA,deral,dois_vizinhos,Dois Vizinhos,geo
+4104600,PR,CAPITÃO LEÔNIDAS MARQUES,deral,cascavel,Cascavel,geo
+4105300,PR,CÉU AZUL,deral,cascavel,Cascavel,geo
+4107157,PR,DIAMANTE D'OESTE,deral,toledo,Toledo,geo
+4107538,PR,ENTRE RIOS DO OESTE,deral,toledo,Toledo,geo
+4108304,PR,FOZ DO IGUAÇU,deral,toledo,Toledo,geo
+4110953,PR,ITAIPULÂNDIA,deral,toledo,Toledo,geo
+4115606,PR,MATELÂNDIA,deral,cascavel,Cascavel,geo
 4115804,PR,MEDIANEIRA,deral,toledo,Toledo,alta
-4116059,PR,MISSAL,deral,cascavel,Cascavel,conferir
-4117453,PR,OURO VERDE DO OESTE,deral,toledo,Toledo,conferir
-4118451,PR,PATO BRAGADO,deral,toledo,Toledo,conferir
-4119004,PR,PÉROLA D'OESTE,deral,francisco_beltrao,Francisco Beltrão,conferir
-4119251,PR,PINHAL DE SÃO BENTO,deral,toledo,Toledo,conferir
-4119806,PR,PLANALTO,deral,francisco_beltrao,Francisco Beltrão,conferir
-4120358,PR,PRANCHITA,deral,toledo,Toledo,conferir
-4121257,PR,RAMILÂNDIA,deral,toledo,Toledo,conferir
-4121406,PR,REALEZA,deral,francisco_beltrao,Francisco Beltrão,conferir
-4123501,PR,SANTA HELENA,deral,toledo,Toledo,conferir
-4123808,PR,SANTA IZABEL DO OESTE,deral,francisco_beltrao,Francisco Beltrão,conferir
-4124020,PR,SANTA TEREZA DO OESTE,deral,toledo,Toledo,conferir
-4124053,PR,SANTA TEREZINHA DE ITAIPU,deral,cascavel,Cascavel,conferir
-4124400,PR,SANTO ANTÔNIO DO SUDOESTE,deral,toledo,Toledo,conferir
-4125456,PR,SÃO JOSÉ DAS PALMEIRAS,deral,toledo,Toledo,conferir
-4125704,PR,SÃO MIGUEL DO IGUAÇU,deral,cascavel,Cascavel,conferir
-4125753,PR,SÃO PEDRO DO IGUAÇU,deral,toledo,Toledo,conferir
-4126355,PR,SERRANÓPOLIS DO IGUAÇU,deral,cascavel,Cascavel,conferir
-4127700,PR,TOLEDO,deral,toledo,Toledo,conferir
-4128559,PR,VERA CRUZ DO OESTE,deral,toledo,Toledo,conferir
+4116059,PR,MISSAL,deral,toledo,Toledo,geo
+4117453,PR,OURO VERDE DO OESTE,deral,toledo,Toledo,geo
+4118451,PR,PATO BRAGADO,deral,toledo,Toledo,geo
+4119004,PR,PÉROLA D'OESTE,deral,dois_vizinhos,Dois Vizinhos,geo
+4119251,PR,PINHAL DE SÃO BENTO,deral,francisco_beltrao,Francisco Beltrão,geo
+4119806,PR,PLANALTO,deral,dois_vizinhos,Dois Vizinhos,geo
+4120358,PR,PRANCHITA,deral,francisco_beltrao,Francisco Beltrão,geo
+4121257,PR,RAMILÂNDIA,deral,toledo,Toledo,geo
+4121406,PR,REALEZA,deral,dois_vizinhos,Dois Vizinhos,geo
+4123501,PR,SANTA HELENA,deral,toledo,Toledo,geo
+4123808,PR,SANTA IZABEL DO OESTE,deral,dois_vizinhos,Dois Vizinhos,geo
+4124020,PR,SANTA TEREZA DO OESTE,deral,cascavel,Cascavel,geo
+4124053,PR,SANTA TEREZINHA DE ITAIPU,deral,toledo,Toledo,geo
+4124400,PR,SANTO ANTÔNIO DO SUDOESTE,deral,francisco_beltrao,Francisco Beltrão,geo
+4125456,PR,SÃO JOSÉ DAS PALMEIRAS,deral,toledo,Toledo,geo
+4125704,PR,SÃO MIGUEL DO IGUAÇU,deral,toledo,Toledo,geo
+4125753,PR,SÃO PEDRO DO IGUAÇU,deral,toledo,Toledo,geo
+4126355,PR,SERRANÓPOLIS DO IGUAÇU,deral,cascavel,Cascavel,geo
+4127700,PR,TOLEDO,deral,toledo,Toledo,geo
+4128559,PR,VERA CRUZ DO OESTE,deral,toledo,Toledo,geo
 5002951,MS,CHAPADÃO DO SUL,siga_ms,norte,Norte,alta
 5003256,MS,COSTA RICA,siga_ms,norte,Norte,alta
 5006275,MS,PARAÍSO DAS ÁGUAS,siga_ms,norte,Norte,alta
-5001508,MS,BANDEIRANTES,siga_ms,centro,Centro,conferir
-5002209,MS,BONITO,siga_ms,sul,Sul,conferir
-5002605,MS,CAMAPUÃ,siga_ms,norte,Norte,conferir
+5001508,MS,BANDEIRANTES,siga_ms,centro,Centro,geo
+5002209,MS,BONITO,siga_ms,centro,Centro,geo
+5002605,MS,CAMAPUÃ,siga_ms,norte,Norte,geo
 5002704,MS,CAMPO GRANDE,siga_ms,centro,Centro,alta
 5003306,MS,COXIM,siga_ms,norte,Norte,alta
-5005004,MS,JARDIM,siga_ms,sul,Sul,conferir
+5005004,MS,JARDIM,siga_ms,sul,Sul,geo
 5005400,MS,MARACAJU,siga_ms,sul,Sul,alta
-5006002,MS,NOVA ALVORADA DO SUL,siga_ms,sul,Sul,conferir
+5006002,MS,NOVA ALVORADA DO SUL,siga_ms,sul,Sul,geo
 5006408,MS,PEDRO GOMES,siga_ms,norte,Norte,alta
-5007109,MS,RIBAS DO RIO PARDO,siga_ms,centro,Centro,conferir
-5007208,MS,RIO BRILHANTE,siga_ms,sul,Sul,conferir
+5007109,MS,RIBAS DO RIO PARDO,siga_ms,centro,Centro,geo
+5007208,MS,RIO BRILHANTE,siga_ms,sul,Sul,geo
 5007695,MS,SÃO GABRIEL DO OESTE,siga_ms,norte,Norte,alta
 5007901,MS,SIDROLÂNDIA,siga_ms,centro,Centro,alta
 5007935,MS,SONORA,siga_ms,norte,Norte,alta
-5008305,MS,TRÊS LAGOAS,siga_ms,centro,Centro,conferir
+5008305,MS,TRÊS LAGOAS,siga_ms,centro,Centro,geo
 5000609,MS,AMAMBAI,siga_ms,sul,Sul,alta
-5000807,MS,ANAURILÂNDIA,siga_ms,sul,Sul,conferir
+5000807,MS,ANAURILÂNDIA,siga_ms,sul,Sul,geo
 5000856,MS,ANGÉLICA,siga_ms,sul,Sul,alta
 5000906,MS,ANTÔNIO JOÃO,siga_ms,sul,Sul,alta
 5001243,MS,ARAL MOREIRA,siga_ms,sul,Sul,alta
-5001904,MS,BATAGUASSU,siga_ms,sul,Sul,conferir
-5002001,MS,BATAYPORÃ,siga_ms,sul,Sul,conferir
-5002100,MS,BELA VISTA,siga_ms,sul,Sul,conferir
+5001904,MS,BATAGUASSU,siga_ms,sul,Sul,geo
+5002001,MS,BATAYPORÃ,siga_ms,sul,Sul,geo
+5002100,MS,BELA VISTA,siga_ms,sul,Sul,geo
 5002407,MS,CAARAPÓ,siga_ms,sul,Sul,alta
 5003454,MS,DEODÁPOLIS,siga_ms,sul,Sul,alta
 5003504,MS,DOURADINA,siga_ms,sul,Sul,alta
@@ -741,7 +741,7 @@ codigo_ibge,uf,cidade,orgao,regiao_id,regiao_nome,confianca
 5005251,MS,LAGUNA CARAPÃ,siga_ms,sul,Sul,alta
 5005681,MS,MUNDO NOVO,siga_ms,sul,Sul,alta
 5005707,MS,NAVIRAÍ,siga_ms,sul,Sul,alta
-5006200,MS,NOVA ANDRADINA,siga_ms,sul,Sul,conferir
+5006200,MS,NOVA ANDRADINA,siga_ms,sul,Sul,geo
 5006259,MS,NOVO HORIZONTE DO SUL,siga_ms,sul,Sul,alta
 5006606,MS,PONTA PORÃ,siga_ms,sul,Sul,alta
 5007703,MS,SETE QUEDAS,siga_ms,sul,Sul,alta
