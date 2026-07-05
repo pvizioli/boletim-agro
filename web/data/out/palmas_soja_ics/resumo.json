@@ -1,16 +1,16 @@
 {
  "distrito_id": "palmas_soja_ics",
  "nome": "PALMAS-SOJA/ICS",
- "gerado_em": "2026-07-04T15:53:50+00:00",
+ "gerado_em": "2026-07-05T02:43:32+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Palmas (TO) — Safra 2025/26 encerrada. O tempo na semana de 4 a 10 de julho é dominado por veranico típico do inverno tocantinense: sequência de seis dias sem chuva relevante, máximas progressivamente elevadas de 34,8 °C (sábado) a 36,4 °C (quarta e quinta), com ventos de leste-sudeste e rajadas entre 31 e 39 km/h. A evapotranspiração média de 5,9 mm/dia evidencia demanda hídrica intensa sobre a vegetação remanescente. Apenas no final da semana, quinta e sexta-feira (9 e 10/jul), há sinais de mudança: probabilidade de chuva sobe a 47%, vento gira para nordeste-norte e a mínima sobe a 22,8 °C, sugerindo ingresso de umidade, mas os volumes previstos permanecem modestos (máximo 2,7 mm acumulado em 7 dias). Sem dado de produtividade ou preço disponível para a safra 2025/26 (Conab, 9º Levantamento, jun/2026).",
+ "texto": "Distrito Palmas-Soja/ICS (TO) — 05/jul/2026. A safra 2025/26 está encerrada no Tocantins, com 100% colhido (Conab, 9º Levantamento, jun/2026). O padrão climático da semana é de veranico consolidado: seis dias consecutivos sem chuva relevante, máximas escalando de 35,5 °C (sábado, 04/jul) a 36,8 °C (quinta, 09/jul) e mínimas entre 18,1 °C e 21,5 °C, com ventos de leste a sudeste e rajadas de até 38,2 km/h. A evapotranspiração de referência média atinge 6,0 mm/dia, refletindo alta demanda atmosférica típica da estação seca do Cerrado. Apenas na quinta (09/jul) e sexta (10/jul) surgem sinais de umidade, com probabilidade de chuva de 47% e volumes projetados de 0,3 mm e 2,4 mm, respectivamente — insuficientes para alterar o quadro seco. Sem dados de produtividade ou preço disponíveis para o período.",
  "pontos": [
-  "Veranico consolidado: seis dias secos com ET0 média de 5,9 mm/dia e máximas acima de 35 °C ao longo de toda a semana",
-  "Virada de vento para norte e elevação da mínima no final da semana (9-10/jul) indicam possível ingresso de umidade, mas chuva prevista não ultrapassa 2,7 mm — sem impacto operacional",
-  "Safra 2025/26 encerrada com 100% colhido em TO (Conab, jun/2026); produtividade e preço da saca não disponíveis nos dados atuais"
+  "Veranico de 6 dias confirmado: zero chuva de sábado (04/jul) a quarta (08/jul) nos 26 municípios monitorados",
+  "ET0 média de 6,0 mm/dia indica demanda hídrica elevada, típica da seca invernal do Cerrado tocantinense",
+  "Possibilidade de chuva fraca no fim da semana (09–10/jul, até 2,4 mm) não representa alívio hídrico expressivo"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T14:54:41+00:00",
+  "clima": "2026-07-04T21:22:33+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

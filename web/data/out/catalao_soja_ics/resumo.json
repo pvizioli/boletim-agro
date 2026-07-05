@@ -1,16 +1,16 @@
 {
  "distrito_id": "catalao_soja_ics",
  "nome": "CATALAO-SOJA & ICS",
- "gerado_em": "2026-07-04T15:49:28+00:00",
+ "gerado_em": "2026-07-05T02:39:12+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Catalão-Soja & ICS | Semana de 04 a 10/jul/2026. A safra 2025/26 está encerrada em GO e MG (Conab, 9º Levantamento, jun/2026), com produção goiana registrada em 20,1 milhões de toneladas. O foco desta semana é inteiramente climático e comercial. A série diária revela bloqueio atmosférico típico de inverno: sete dias consecutivos sem chuva, probabilidade nula ou residual (máx. 6% no fim do período), ventos predominantemente de nordeste a leste nos primeiros dias com virada pontual para sudoeste na terça-feira (07/jul), sugerindo passagem rápida de sistema sem precipitação associada. Máximas entre 27,6 °C e 30,5 °C, mínimas entre 13,5 °C e 17,3 °C — sem risco de geada. A demanda evapotranspirativa média de 4,1 mm/dia reforça o caráter seco e ensolarado do período. Preço de referência: R$ 108,50/sc 60 kg (Canal Rural, Jataí/GO, 17/jun/2026).",
+ "texto": "Distrito Catalão-Soja & ICS (GO/MG) — Semana de 4 a 10 de julho de 2026. A safra 2025/26 está encerrada em ambos os estados (Conab, 9º Levantamento, jun/2026), com GO registrando produção de 20,1 milhões de toneladas. O padrão climático da semana é de veranico consolidado: sete dias consecutivos sem chuva relevante, com precipitação acumulada máxima de apenas 0,3 mm prevista para quinta-feira (09/jul), insuficiente para qualquer impacto prático. As temperaturas máximas oscilam entre 28,0 °C (domingo) e 29,9 °C (sexta-feira), com mínimas entre 13,6 °C e 15,4 °C — amplitude térmica típica do inverno do Cerrado. A evapotranspiração de referência média de 4,1 mm/dia, associada a rajadas de até 35,3 km/h (quarta-feira), indica demanda hídrica atmosférica elevada para a estação seca. No mercado, a saca de soja em Jataí (GO) foi cotada a R$ 108,50 (Canal Rural, 17/jun/2026).",
  "pontos": [
-  "Veranico de inverno consolidado: 7 dias sem chuva e ET0 média de 4,1 mm/dia — sem perspectiva de precipitação no horizonte de 7 dias",
-  "Virada de vento para sudoeste na terça (07/jul) não trouxe chuva associada; padrão de bloqueio se mantém até sexta (10/jul)",
-  "Safra 2025/26 encerrada em GO e MG (Conab, jun/2026): atenção ao ritmo de comercialização com soja a R$ 108,50/sc em Jataí/GO (Canal Rural, 17/jun/2026)"
+  "Safra 2025/26 encerrada em GO e MG — foco no período de entressafra e comercialização do grão armazenado",
+  "Veranico de 7 dias confirmado: precipitação acumulada inferior a 0,5 mm na semana, sem perspectiva de chuva relevante até 10/jul",
+  "Evapotranspiração média de 4,1 mm/dia com rajadas de até 35,3 km/h elevam risco de dessecação em áreas com cobertura vegetal reduzida"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T14:51:13+00:00",
+  "clima": "2026-07-04T21:17:52+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-06-17"
  }

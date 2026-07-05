@@ -1,16 +1,16 @@
 {
  "distrito_id": "santa_rosa_soja",
  "nome": "SANTA ROSA-SOJA",
- "gerado_em": "2026-07-04T15:56:49+00:00",
+ "gerado_em": "2026-07-05T02:46:36+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Santa Rosa-RS, safra 2025/2026 encerrada com 100% colhido em ambas as macrorregiões monitoradas (Santa Rosa e Frederico Westphalen, Emater/RS-Ascar, 14/05). A produtividade estadual fechou em 45 sc/ha, 14,8% abaixo da projeção inicial, com forte variabilidade regional entre 20 e 70 sc/ha, segundo Emater/RS-Ascar (11/06). O tempo desta semana é tipicamente invernal: sábado (04/07) registrou máxima de apenas 15,8°C com chuva fraca e vento de leste, seguido de breve aquecimento no domingo (05/07) e queda de temperatura na segunda (06/07) com virada do vento para sudoeste — padrão consistente com passagem frontal. De terça (07/07) a quinta (09/07), sequência seca de quatro dias com mínimas entre 2 e 3°C eleva o risco de geada. A evapotranspiração média de 2,1 mm/dia é moderada para o inverno. Chuva prevista para sexta (10/07) encerra o período. Preço da saca em R$ 129,00 (Grão Direto, 03/07).",
+ "texto": "Distrito Santa Rosa-RS, 5 de julho de 2026. A safra 2025/2026 está encerrada, com 100% colhido nas regiões de Santa Rosa e Frederico Westphalen (Emater/RS-Ascar, 14/05). A produtividade média no RS ficou em 45 sc/ha, com forte variabilidade regional (1.200–4.200 kg/ha) e desempenho 14,8% abaixo da projeção inicial, segundo Emater/RS-Ascar (11/06). O preço na região Centro Ocidental do RS está em R$ 129/sc (Grão Direto, 03/07). No clima, a semana iniciou com chuva fraca (4,1 mm no sábado, máxima de 15,8°C) e vento de leste, seguida de aquecimento no domingo com virada para sul — padrão compatível com passagem frontal. De segunda a quinta, sequência seca de quatro dias com mínimas abaixo de 3°C em três datas (04, 07 e 08/07), configurando risco de geada. A evapotranspiração média semanal de 2,0 mm/dia reforça a demanda hídrica sobre pastagens e culturas de inverno.",
  "pontos": [
-  "Risco de geada em quatro noites consecutivas (07 a 09/07), com mínimas entre 2,0°C e 2,7°C — atenção a culturas de inverno e pastagens",
-  "Safra 2025/2026 encerrada com 45 sc/ha no RS, 14,8% abaixo da projeção inicial; variabilidade regional expressiva (Emater/RS-Ascar, 11/06)",
-  "Passagem frontal entre domingo e segunda (05-06/07) traz chuva acumulada de até 7,3 mm na semana — volume insuficiente para impacto agronômico relevante"
+  "Risco de geada em três noites da semana (04, 07 e 08/07), com mínimas abaixo de 3°C — atenção a culturas de inverno e pastagens",
+  "Sequência seca de quatro dias consecutivos com ET0 elevada (pico de 2,56 mm/dia na quinta) aumenta estresse hídrico em lavouras de inverno",
+  "Produtividade da soja 2025/2026 encerrou em 45 sc/ha no RS, com déficit de 14,8% frente à projeção inicial e alta variabilidade regional"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T14:55:52+00:00",
+  "clima": "2026-07-04T21:24:55+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

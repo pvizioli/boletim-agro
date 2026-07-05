@@ -1,16 +1,16 @@
 {
  "distrito_id": "patos_de_minas_soja",
  "nome": "PATOS DE MINAS-SOJA",
- "gerado_em": "2026-07-04T15:54:38+00:00",
+ "gerado_em": "2026-07-05T02:44:23+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Patos de Minas, semana de 4 a 10/07/2026. A região enfrenta sequência seca completa: zero chuva relevante nos 14 municípios monitorados e apenas 0,6 mm isolados previstos para quinta-feira (10/07), insuficientes para alterar o balanço hídrico. A evapotranspiração média de 4,1 mm/dia, com pico de 4,6 mm/dia na quarta (08/07), indica demanda atmosférica elevada para o inverno. Destaque para a terça-feira (07/07): rajada de 45 km/h com virada brusca de vento para norte (352°), seguida de aquecimento e retorno de ventos de leste — dinâmica compatível com passagem de sistema frontal rápido e seco. Máximas chegam a 30,4 °C e mínimas a 13,2 °C. A safra 2025/26 de MG está encerrada com 100% colhido (Conab, 9º Levantamento, jun/2026). Preço de referência: R$ 113,00/sc 60 kg no Triângulo Mineiro (Portal Agron, 06/05/2026).",
+ "texto": "Distrito Patos de Minas – Centro Soja (MG), 05/07/2026. A semana é marcada por tempo seco e estável, típico do inverno do Cerrado mineiro. A série diária registra sete dias consecutivos sem chuva, com máximas entre 29,1 °C e 30,3 °C e mínimas entre 12,3 °C e 14,2 °C. A evapotranspiração de referência média de 4,1 mm/dia, com pico de 4,48 mm/dia na quarta-feira (08/07), reflete alta demanda atmosférica impulsionada por baixa umidade e ventos com rajadas de até 41,4 km/h na terça-feira (07/07) — padrão consistente com atuação de massa de ar seco continental. Probabilidade de chuva não ultrapassa 5% em nenhum dia do período. A safra 2025/26 de soja em MG está encerrada com 100% colhido (Conab – 9º Levantamento, jun/2026). O foco do produtor volta-se à comercialização: a saca de 60 kg era cotada a R$ 113,00 no Triângulo Mineiro (Portal Agron, 06/05/2026).",
  "pontos": [
-  "Safra 2025/26 encerrada em MG — foco no acompanhamento de preços e planejamento da próxima temporada",
-  "Sete dias consecutivos sem chuva e ET0 média de 4,1 mm/dia elevam atenção ao manejo de solos descobertos e pastagens",
-  "Rajada de 45 km/h na terça (07/07) com virada de vento para norte sugere passagem frontal seca — monitorar erosão eólica em áreas preparadas"
+  "Sete dias consecutivos sem chuva e ET0 média de 4,1 mm/dia indicam entressafra seca — sem impacto operacional para a soja 2025/26, já 100% colhida em MG (Conab, jun/2026)",
+  "Rajada de 41,4 km/h registrada na terça-feira (07/07) reforça atuação de massa seca continental; sem alertas ativos do Inmet para os 14 municípios monitorados",
+  "Comercialização é o principal vetor de atenção: cotação de R$ 113,00/sc 60kg no Triângulo Mineiro (Portal Agron, 06/05/2026) — produtores devem acompanhar evolução de preço no período de entressafra"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T14:54:43+00:00",
+  "clima": "2026-07-04T21:22:36+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-05-06"
  }

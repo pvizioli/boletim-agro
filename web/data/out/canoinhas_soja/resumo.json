@@ -1,16 +1,16 @@
 {
  "distrito_id": "canoinhas_soja",
  "nome": "CANOINHAS-SOJA",
- "gerado_em": "2026-07-04T15:48:50+00:00",
+ "gerado_em": "2026-07-05T02:38:33+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito CANOINHAS-SOJA (PR/SC) — Safra 2025/2026 encerrada. A semana inicia com temperatura máxima de 20,6 °C e mínima de 4,4 °C neste sábado (04/jul), com chuva fraca e vento de sudeste. Na segunda (06/jul), virada brusca do vento para noroeste acompanha chuva expressiva (12,8 mm, prob. 99%), seguida de nova precipitação na terça (07/jul, 9,7 mm) com rajadas de até 39,6 km/h — padrão consistente com passagem de sistema frontal. A partir de quarta (08/jul), tempo seco se instala com mínimas críticas de 0,5 °C e 2,5 °C na quinta (09/jul), configurando risco de geada em ambos os dias. Evapotranspiração média de 2,4 mm/dia e sequência de três dias secos indicam demanda hídrica moderada no pós-frente. Safra encerrada no PR com 63 sc/ha (+2,8% vs. safra anterior, Deral/SEAB-PR, 25/mai/2026) e em SC com 63 sc/ha (-7% produção, Epagri/Cepa, 01/mai/2026). Preço em Paranaguá: R$ 128,50/sc (Canal Rural, 17/jun/2026).",
+ "texto": "Distrito CANOINHAS-SOJA (PR/SC) — safra 2025/2026 encerrada em ambos os estados, com produtividade de 63 sc/ha. No Paraná, produção de 21,78 mi t (+2,8% vs safra anterior; Deral/SEAB-PR, 25/05/2026); em Santa Catarina, 3,1 mi t com queda de 7% na primeira safra (Epagri/Cepa, 01/05/2026). Preço de referência: R$ 128,50/sc em Paranaguá (Canal Rural, 17/06/2026). Climaticamente, a semana aponta passagem de sistema frontal entre segunda (06/07) e terça (07/07): virada de vento de NNO para SSO, chuvas concentradas de 15,5 mm e 13,6 mm respectivamente, com rajadas de até 40 km/h e queda de máxima para 18,1 °C. Após a frente, massa fria instala-se com mínimas de -0,4 °C na quarta (08/07) e 2,6 °C na quinta (09/07), configurando risco de geada. Evapotranspiração média de 2,3 mm/dia indica demanda hídrica moderada no período pós-frontal.",
  "pontos": [
-  "Risco de geada nas madrugadas de quarta (08/jul, mín. 0,5 °C) e quinta (09/jul, mín. 2,5 °C) — atenção a culturas de inverno e pastagens",
-  "Passagem frontal entre domingo e terça acumula até 22,5 mm — sem impacto na soja, mas relevante para preparo de solo e logística",
-  "SC fecha safra com queda de 7% na produção (produtividade -5,5%, área -1,6%) ante avanço de 21,4% na segunda safra (Epagri/Cepa)"
+  "Risco de geada confirmado para 08 e 09/07, com mínima de -0,4 °C — atenção a culturas de inverno e pastagens na região serrana",
+  "Passagem frontal concentra chuva de ~29 mm em dois dias (06-07/07), podendo dificultar operações de campo no início da semana",
+  "Safra SC encerrou com queda de 7% na produção da primeira safra (Epagri/Cepa, 01/05/2026) — monitorar reflexo no planejamento da próxima temporada"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T14:51:09+00:00",
+  "clima": "2026-07-04T21:16:43+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

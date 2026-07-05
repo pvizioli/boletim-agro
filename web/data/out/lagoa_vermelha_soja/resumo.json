@@ -1,16 +1,16 @@
 {
  "distrito_id": "lagoa_vermelha_soja",
  "nome": "LAGOA VERMELHA-SOJA",
- "gerado_em": "2026-07-04T15:52:59+00:00",
+ "gerado_em": "2026-07-05T02:42:41+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Lagoa Vermelha, RS — 4 de julho de 2026. A safra 2025/2026 de soja está encerrada no RS, com 100% colhido e produtividade de 45 sc/ha (Emater/RS-Ascar, 11/jun/2026), resultado 32,9% superior à safra anterior, mas 14,8% abaixo da projeção inicial, com forte variabilidade regional. O clima desta semana é tipicamente invernal: sábado (5/jul) registra recuperação de temperatura, seguida de queda brusca no domingo (6/jul) com máxima de 15,6 °C, chuva de 4,5 mm e virada de vento para noroeste — padrão compatível com passagem frontal. Após a frente, rajadas intensas (até 49 km/h na segunda, 7/jul) e mínimas próximas a zero reforçam risco de geada em três dias da série (4, 7 e 8/jul). Sequência seca de três dias (8 a 10/jul) com evapotranspiração média de 2,1 mm/dia. Chuva acumulada prevista é baixa (3 a 12,8 mm em 7 dias). Preço da saca em R$ 129,00 (Grão Direto, 3/jul/2026).",
+ "texto": "Lagoa Vermelha, 5 de julho de 2026. A safra 2025/2026 de soja no RS está encerrada, com 100% colhido e produtividade média de 45 sc/ha (Emater/RS-Ascar, 11/jun/2026), resultado 32,9% superior à safra anterior, porém 14,8% abaixo da projeção inicial, com forte variabilidade regional. O clima desta semana apresenta dinâmica típica de inverno: mínima de -0,4°C no sábado (4/jul) e passagem de sistema frontal evidente na segunda-feira (6/jul), com queda brusca de máxima para 13,9°C, virada de vento para oeste-noroeste e rajadas de 41 km/h, além de chuva com 94% de probabilidade. Após a frente, mínimas voltam a cair abaixo de 3°C na terça (7/jul) e quarta (8/jul), configurando risco de geada. A chuva acumulada prevista é baixa (2,2 a 8,1 mm em 7 dias). ET0 média de 1,9 mm/dia. Saca negociada a R$ 129,00 (Grão Direto, 3/jul/2026).",
  "pontos": [
-  "Risco de geada em 4, 7 e 8 de julho — mínimas chegam a -0,4 °C; atenção a culturas de inverno e pastagens",
-  "Passagem frontal prevista para domingo (6/jul) com chuva concentrada (4,5 mm) e virada de vento para noroeste",
-  "Sequência seca de três dias após a frente com ET0 elevada (até 3,21 mm/dia em 9/jul) — demanda hídrica relevante para cultivos estabelecidos"
+  "Risco de geada nos dias 4, 7 e 8 de julho, com mínimas abaixo de 3°C — atenção a culturas de inverno e pastagens",
+  "Passagem frontal na segunda-feira (6/jul) com rajadas de até 41 km/h e chuva concentrada; semana seca na sequência",
+  "Safra encerrada com 45 sc/ha e forte variabilidade regional — foco agora em comercialização e planejamento da próxima safra"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T14:53:35+00:00",
+  "clima": "2026-07-04T21:21:25+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

@@ -1,13 +1,13 @@
 {
  "distrito_id": "sao_gabriel",
  "nome": "Distrito de São Gabriel",
- "gerado_em": "2026-07-04T15:57:12+00:00",
+ "gerado_em": "2026-07-05T02:46:59+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito de São Gabriel – Regional Sul | 4 de julho de 2026\n\nOs dados climáticos da semana não estão disponíveis para o período analisado (geração base: 14 de junho de 2026), impossibilitando avaliação da dinâmica atmosférica recente. Do ponto de vista da safra 2025/2026, o ciclo está encerrado nas duas macrorregiões monitoradas: Bagé e Santa Maria registraram 100% de plantio e 100% de colheita, conforme fechamento da Emater/RS-Ascar de 14 de maio de 2026. O distrito encontra-se, portanto, em plena entressafra da soja. Sem dados de preço da saca disponíveis no momento, não é possível avaliar o cenário comercial. A atenção agora se volta ao planejamento da próxima temporada — manejo de solo, rotação de culturas e monitoramento das condições de inverno.",
+ "texto": "Distrito de São Gabriel – Regional Sul | 05/07/2026\n\nA safra de soja 2025/2026 está encerrada em todas as macrorregiões monitoradas do distrito. Tanto Bagé quanto Santa Maria registraram 100% de plantio e 100% de colheita, conforme fechamento divulgado pela Emater/RS-Ascar em 14/05/2026. O distrito encontra-se, portanto, em plena entressafra.\n\nNo que se refere ao clima, os dados meteorológicos da semana corrente não estão disponíveis para os 7 municípios monitorados — chuva prevista, temperaturas máxima e mínima e série diária não foram registrados neste ciclo de atualização (geração do clima: 14/06/2026). Não há alertas ativos do Inmet para o período. Sem série diária disponível, não é possível caracterizar padrões sinóticos, eventos de geada ou veranico com base nos dados fornecidos.\n\nO preço da saca de 60 kg não está disponível neste boletim. Produtores devem acompanhar as cotações regionais para decisões de comercialização do estoque remanescente.",
  "pontos": [
-  "Safra 2025/2026 encerrada em Bagé e Santa Maria com 100% colhido (Emater/RS-Ascar, 14/05/2026)",
-  "Dados climáticos da semana indisponíveis — acompanhamento meteorológico comprometido para o período",
-  "Entressafra em curso: momento indicado para planejamento de solo e insumos para a próxima safra"
+  "Safra 2025/2026 encerrada: Bagé e Santa Maria com 100% colhido (Emater/RS-Ascar, 14/05/2026)",
+  "Dados climáticos da semana indisponíveis — monitoramento meteorológico sem série diária neste ciclo",
+  "Nenhum alerta ativo do Inmet registrado para o distrito no período"
  ],
  "insumos_ref": {
   "clima": "2026-06-14T15:29:32+00:00",

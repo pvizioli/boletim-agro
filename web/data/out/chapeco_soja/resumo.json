@@ -1,16 +1,16 @@
 {
  "distrito_id": "chapeco_soja",
  "nome": "CHAPECO-SOJA",
- "gerado_em": "2026-07-04T15:49:40+00:00",
+ "gerado_em": "2026-07-05T02:39:25+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Chapecó-SC, 04/jul/2026 — Safra 2025/2026 encerrada com 100% colhido e produtividade de 63 sc/ha (Epagri/Cepa, mai/2026), mas resultado abaixo do ciclo anterior: produção total de 3,1 milhões de toneladas, queda de 7% frente à safra passada, puxada por menor produtividade (-5,5%) e área (-1,6%). O inverno impõe dinâmica típica: passagem frontal identificada no domingo (06/jul), com máxima de apenas 17,4°C, chuva de 6,5 mm e vento girando para oeste. Antes e após o sistema, mínimas abaixo de 3°C em quatro dias (04, 07, 08 e 09/jul) indicam risco de geada nas madrugadas — atenção para culturas de inverno e viveiros. Chuva acumulada prevista para 7 dias é baixa (máx. 7,7 mm), com sequência seca de até 3 dias e ET0 média de 2,4 mm/dia, demanda hídrica moderada para o período.",
+ "texto": "Chapecó (SC) — Julho/2026. Safra 2025/2026 encerrada com 100% colhido e produtividade de 63 sc/ha (Epagri/Cepa, mai/2026). A produção total ficou em ~3,1 milhões de toneladas, recuo de 7% frente à safra anterior, reflexo de produtividade 5,5% menor e área 1,6% inferior na 1ª safra. A semana meteorológica apresenta dinâmica típica de inverno com passagem frontal identificada na segunda-feira (06/jul): queda de máxima de 24 °C para 16 °C, virada de vento para sudoeste e chuva de 5,6 mm com 94% de probabilidade. Após a fronte, mínimas voltam a 1,7 °C (terça) e -1,6 °C (quarta), configurando risco de geada em quatro dias da série. A evapotranspiração média de 2,2 mm/dia e sequência de até três dias secos reforçam demanda hídrica moderada no período pós-frontal. Chuva acumulada prevista de 1,8 a 11,3 mm em sete dias, concentrada em dois eventos.",
  "pontos": [
-  "Safra 2025/2026 encerrada: 63 sc/ha, produção 3,1 mi t, queda de 7% vs. safra anterior (Epagri/Cepa, mai/2026)",
-  "Risco de geada em quatro madrugadas da semana (04, 07, 08 e 09/jul) com mínimas entre -0,4°C e 2,5°C",
-  "Passagem frontal no domingo (06/jul): chuva mais expressiva da semana (6,5 mm), queda de temperatura e virada de vento para oeste"
+  "Risco de geada em quatro datas da semana (04, 07, 08 e 09/jul), com mínima de -1,6 °C na quarta-feira — atenção a culturas de inverno e pastagens na região de Chapecó",
+  "Passagem frontal confirmada na segunda-feira (06/jul): queda brusca de temperatura, chuva de 5,6 mm e virada de vento para sudoeste",
+  "Safra 2025/2026 encerrada com produtividade de 63 sc/ha e queda de 7% na produção estadual frente à safra anterior (Epagri/Cepa, mai/2026)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T14:51:14+00:00",
+  "clima": "2026-07-04T21:17:53+00:00",
   "colheita": "2026-05-01",
   "preco": null
  }

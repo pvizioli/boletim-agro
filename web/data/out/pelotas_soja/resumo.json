@@ -1,16 +1,16 @@
 {
  "distrito_id": "pelotas_soja",
  "nome": "PELOTAS-SOJA",
- "gerado_em": "2026-07-04T15:54:52+00:00",
+ "gerado_em": "2026-07-05T02:44:37+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Pelotas-Soja | RS | 4 a 10 de julho de 2026. A semana abre com sábado (05/jul) e domingo (06/jul) chuvosos — probabilidade de 90–98% e acumulado de até 5,3 mm — acompanhados de virada do vento de leste para sudoeste e rajadas de até 42,5 km/h no domingo, padrão típico de passagem frontal. Na segunda (07/jul) o vento gira para noroeste (292°), chuva cessa e a mínima cai a 2,2 °C, configurando risco de geada leve. Do dia 08 ao 09 o tempo abre, máximas sobem a 18,9 °C e a demanda evapotranspirativa cresce até 2,21 mm/dia, sequência seca de três dias. Na sexta (10/jul) há possibilidade de chuva isolada de 11,4 mm. Safra 2025/2026 encerrada: 100% colhido em Pelotas e Bagé (Emater/RS-Ascar, 14/05/2026), produtividade de 45 sc/ha (Emater/RS-Ascar, 11/06/2026), 14,8% abaixo da projeção inicial. Preço em R$ 129/sc (Grão Direto, 03/07/2026).",
+ "texto": "Distrito Pelotas-Soja | RS | Safra 2025/2026 encerrada. A semana apresenta dinâmica frontal clara: sábado (05/jul) registrou máxima de 16,2 °C com chuva de 4,7 mm e vento de leste (117°), seguido de domingo (06/jul) com queda brusca de temperatura (mínima 3,0 °C), chuva de 3,1 mm e virada do vento para oeste-sudoeste (247°) com rajadas de 41,4 km/h — padrão típico de passagem frontal. Após a frente, segunda (07/jul) e terça (08/jul) apresentam vento de noroeste, mínimas de 1,7 °C e 3,3 °C respectivamente, com risco de geada nas baixadas (Emater/RS-Ascar, 2026-06-11). A sequência seca de quatro dias eleva a demanda hídrica (ET0 média de 1,5 mm/dia). Safra encerrada com 45 sc/ha e produção de 18,1 milhões de toneladas (+32,9% vs. safra anterior; Emater/RS-Ascar, 11/jun/2026). Preço: R$ 129/sc (Grao Direto, 03/jul/2026).",
  "pontos": [
-  "Passagem frontal entre sábado e domingo (05–06/jul): rajadas de até 42,5 km/h e chuva concentrada; atenção a estruturas de armazenagem e secagem de grãos remanescentes",
-  "Risco de geada leve na segunda-feira (07/jul): mínima projetada de 2,2 °C — monitorar pastagens e culturas de inverno na região",
-  "Demanda hídrica elevada entre 08 e 09/jul (ET0 acima de 2,0 mm/dia) com sequência de três dias secos após a frente"
+  "Passagem frontal entre domingo e segunda (06-07/jul): queda de temperatura, chuva acumulada de ~7,8 mm e virada de vento para quadrante oeste confirmam sistema frontal",
+  "Risco de geada nas mínimas de 1,7 °C (segunda, 07/jul) e 3,0 °C (domingo, 06/jul) — atenção a baixadas e áreas de várzea do distrito",
+  "Sequência de quatro dias secos após a frente com ET0 crescente (até 2,25 mm/dia na quinta, 09/jul) — sem impacto direto na soja encerrada, mas relevante para pastagens e culturas de inverno"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T14:54:44+00:00",
+  "clima": "2026-07-04T21:22:37+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

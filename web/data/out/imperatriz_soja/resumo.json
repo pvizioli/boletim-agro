@@ -1,16 +1,16 @@
 {
  "distrito_id": "imperatriz_soja",
  "nome": "IMPERATRIZ-SOJA",
- "gerado_em": "2026-07-04T15:52:09+00:00",
+ "gerado_em": "2026-07-05T02:41:48+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Imperatriz-Soja (AP, MA, PA, RR) — semana de 4 a 10 de julho de 2026. A dinâmica atmosférica da semana é marcada por chuvas persistentes e bem distribuídas: seis dos sete dias apresentam precipitação relevante, com acumulados diários entre 4,4 mm e 20,0 mm e probabilidade de chuva acima de 87% em todos os dias. Os primeiros três dias concentram os maiores volumes (sábado 13,8 mm, domingo 20,0 mm, segunda 16,9 mm), com ventos de leste e rajadas moderadas (~35–38 km/h), padrão compatível com sistemas convectivos organizados pela circulação de alísios. A partir de terça-feira (07/07), a direção do vento gira para nordeste e as rajadas intensificam-se, atingindo 45,7 km/h na sexta (10/07), enquanto a mínima sobe de 18,8 °C para 22,5 °C — sinal de maior advecção de umidade. A evapotranspiração média de 5,3 mm/dia indica demanda hídrica elevada, mas amplamente compensada pelas chuvas previstas. Safras de MA e PA 2025/26 encerradas (Conab, 9º Levantamento, jun/2026); período é de entressafra.",
+ "texto": "Distrito Imperatriz-Soja, semana de 04 a 10/jul/2026. A série diária revela padrão de chuvas persistentes com gradual redução de volume: sábado (04/jul) registrou 31,8 mm com probabilidade de 99% e rajadas de 37,8 km/h de leste; domingo (05/jul) acumulou 21,0 mm com rajadas de até 45,0 km/h — ventos predominantemente de leste (90°) sugerem atuação de sistema de brisa oceânica ou cavado equatorial. A partir de segunda (06/jul), chuvas diminuem progressivamente (15,5 mm, 6,9 mm, 7,7 mm, 3,7 mm, 3,7 mm), com temperaturas máximas oscilando entre 34,1°C e 35,8°C. A evapotranspiração média de 5,3 mm/dia indica demanda hídrica elevada, sustentada pelo calor. Não há sequência seca registrada. Safras 2025/26 de MA e PA estão encerradas (Conab, 9º Levantamento, jun/2026). Entressafra em curso; atenção ao planejamento da próxima janela de plantio.",
  "pontos": [
-  "Chuvas diárias persistentes (acumulado semanal podendo atingir até 47,5 mm em alguns municípios) sem janela seca prevista — sem risco de déficit hídrico no período",
-  "Rajadas intensificando ao longo da semana, chegando a 45,7 km/h na sexta-feira (10/07) — atenção a estruturas e armazenagem a campo",
-  "Mínimas em elevação progressiva (18,8 °C no sábado a 22,5 °C na sexta) com ventos girando para nordeste, indicando aumento da umidade relativa e potencial para chuvas convectivas mais intensas no fim da semana"
+  "Chuvas concentradas no início da semana (04-05/jul) com acumulados expressivos acima de 20 mm/dia e rajadas de até 45 km/h",
+  "Redução gradual das precipitações a partir de 06/jul, mas probabilidade de chuva permanece acima de 87% em todos os dias da série",
+  "Evapotranspiração média elevada (5,3 mm/dia) ao longo de toda a semana, indicando alta demanda hídrica mesmo com chuvas frequentes"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T14:53:32+00:00",
+  "clima": "2026-07-04T21:20:17+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

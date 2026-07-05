@@ -1,16 +1,16 @@
 {
  "distrito_id": "dourados_soja_ics",
  "nome": "DOURADOS-SOJA/ICS",
- "gerado_em": "2026-07-04T15:50:21+00:00",
+ "gerado_em": "2026-07-05T02:40:07+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Dourados/MS — Entressafra 2025/26. A semana abre com padrão de inverno típico: sábado (05/jul) registra aquecimento rápido com mínima de 10,9 °C e rajadas de nordeste a 32,8 km/h, seguido de virada do vento para sul e chuva de 7,8 mm na segunda (06/jul) — sinal claro de passagem frontal. Na terça (07/jul) a mínima despenca para 7,5 °C, confirmando a massa pós-frontal. A partir de quarta (08/jul), sequência seca se instala com mínima de 5,3 °C e ET0 crescente, atingindo 3,8 mm/dia na sexta (10/jul) com máxima de 30,2 °C — maior sequência seca projetada em 4 dias. A safra 2025/26 está encerrada: colheita 100% concluída em maio, produtividade de 60 sc/ha e produção de 16,74 milhões de toneladas, alta de 19,1% sobre a safra anterior (Aprosoja/MS-Siga/Famasul, 26/mai/2026). Atenção ao frio noturno e à demanda hídrica elevada sobre pastagens e culturas de inverno.",
+ "texto": "Dourados/MS — Entressafra 2025/26. A semana abre com tempo seco e amplitude térmica expressiva: mínima de 7,7 °C no sábado (05/jul) e máxima de 24 °C no dia anterior indicam padrão de inverno consolidado. Na segunda-feira (06/jul), virada do vento para sul (189°) com rajadas de 37,8 km/h e probabilidade de chuva de 87% sinaliza passagem de sistema frontal, com precipitação estimada em até 5,6 mm — único evento relevante da semana. Na terça (07/jul), queda da máxima para 23 °C e mínima de 6,8 °C confirmam a influência pós-frontal. A partir de quarta (08/jul), mínima de 3,9 °C exige atenção para culturas de inverno. O restante da semana retorna ao padrão seco, com máximas chegando a 29,7 °C na sexta (10/jul) e ET0 média de 3,1 mm/dia. A safra 2025/26 está encerrada: 60 sc/ha de produtividade e produção de 16,7 mil toneladas, alta de 19,1% sobre a safra anterior (Aprosoja/MS-Siga/Famasul, 26/05/2026).",
  "pontos": [
-  "Passagem frontal confirmada na segunda (06/jul): 7,8 mm com virada de vento para sul e queda de temperatura",
-  "Mínima de 5,3 °C na quarta (08/jul) — monitorar culturas sensíveis ao frio na região de Dourados",
-  "ET0 média de 3,1 mm/dia com sequência seca de 4 dias eleva demanda hídrica no período pós-frontal"
+  "Passagem frontal na segunda (06/jul) traz até 5,6 mm — único evento de chuva relevante da semana",
+  "Mínima de 3,9 °C prevista para quarta (08/jul): monitorar risco de frio intenso para culturas de inverno em MS",
+  "ET0 média de 3,1 mm/dia com sequência de até 4 dias secos eleva demanda hídrica no período pós-frontal"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T14:52:20+00:00",
+  "clima": "2026-07-04T21:17:57+00:00",
   "colheita": "2026-05-26",
   "preco": null
  }

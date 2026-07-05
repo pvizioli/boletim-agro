@@ -1,16 +1,16 @@
 {
  "distrito_id": "querencia_soja_ics",
  "nome": "QUERENCIA SOJA & ICS",
- "gerado_em": "2026-07-04T15:55:45+00:00",
+ "gerado_em": "2026-07-05T02:45:29+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Querência (MT) — Entressafra 2025/26. A safra de soja está encerrada em Mato Grosso, com 100% colhido. A produtividade atingiu 66 sc/ha na safra 2025/26, produção de 51,56 milhões de toneladas, alta de 1,3% sobre a safra anterior (Imea em Campo/Conab 9º levantamento, jun/26). O clima da semana (4 a 10/jul) exibe padrão de veranico típico de inverno: sequência de sete dias sem chuva relevante, máximas em elevação contínua de 33,8°C (sábado) a 35,9°C (quarta), mínimas entre 16,8°C e 20,2°C e ventos de sudeste com rajadas de até 33 km/h na quarta. A evapotranspiração média de 5,4 mm/dia reforça a demanda hídrica elevada, sem impacto operacional para a soja. Única precipitação prevista: 1,2 mm na quinta-feira (10/jul), insuficiente para alterar o balanço hídrico. Preço da saca em MT: R$ 108,63/sc 60kg (Grão Direto Nordeste MT, 03/jul/26).",
+ "texto": "Querência (MT) — Entressafra 2025/26. A safra de soja está encerrada em MT com 100% colhido, produtividade de 66 sc/ha e produção de 51,56 milhões de toneladas, alta de 1,3% sobre a safra anterior (Imea em Campo/Conab 9º lev., jun/26). No campo, domina um padrão de tempo seco e quente típico do inverno mato-grossense: sete dias consecutivos sem chuva relevante, máximas em elevação progressiva de 33,9°C (sábado, 04/jul) a 36,0°C (quinta, 09/jul) e mínimas subindo de 16,8°C para 19,2°C — sem risco de geada. Ventos de sudeste com rajadas de até 34,9 km/h e evapotranspiração média de 5,4 mm/dia indicam alta demanda hídrica atmosférica, sem impacto operacional neste momento. Apenas no sábado (10/jul) há sinal residual de 0,6 mm com 18% de probabilidade — irrelevante. Preço da saca em MT: R$ 108,63/sc 60kg (Grão Direto, 03/jul/26).",
  "pontos": [
-  "Safra 2025/26 encerrada com 66 sc/ha em MT, +1,3% vs. safra anterior (Imea/Conab, jun/26)",
-  "Veranico consolidado: 7 dias sem chuva, máximas chegando a 35,9°C e ET0 média de 5,4 mm/dia — sem impacto para soja, mas atenção a pastagens e culturas de inverno",
-  "Única precipitação prevista na semana é de apenas 1,2 mm na quinta-feira (10/jul), sem relevância hídrica"
+  "Safra 2025/26 encerrada: 66 sc/ha e +1,3% vs. safra anterior (Imea/Conab, jun/26)",
+  "Sete dias consecutivos sem chuva e ET0 média de 5,4 mm/dia — veranico de inverno consolidado",
+  "Máximas chegando a 36,0°C na quinta (09/jul), sem risco de geada na série"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T14:55:49+00:00",
+  "clima": "2026-07-04T21:23:44+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

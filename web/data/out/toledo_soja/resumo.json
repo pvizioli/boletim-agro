@@ -1,16 +1,16 @@
 {
  "distrito_id": "toledo_soja",
  "nome": "TOLEDO-SOJA",
- "gerado_em": "2026-07-04T15:58:33+00:00",
+ "gerado_em": "2026-07-05T02:48:16+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Toledo-PR, 04/jul/2026. A safra 2025/2026 está encerrada no Paraná, com 100% colhido e produtividade de 63 sc/ha (Deral/SEAB-PR, 25/mai/2026), alta de 2,8% frente à safra anterior. O foco agora é o clima de entressafra. A semana abre com temperaturas amenas (máxima de 21°C, mínima de 5°C no sábado) e chuva residual. Na segunda-feira (06/jul), passagem de sistema frontal concentra o principal evento chuvoso da semana — 11,3 mm com probabilidade de 92%, queda de máxima para 18°C e virada de vento para quadrante sul-sudoeste. Após a frente, o tempo seca rapidamente: sequência de quatro dias sem chuva (08 a 10/jul), com mínima de 3,0°C na quarta-feira (08/jul), configurando risco de geada. A evapotranspiração média semanal de 2,5 mm/dia e máxima de 3,42 mm/dia no final do período indicam demanda hídrica crescente. Preço da soja em Paranaguá: R$ 128,50/sc (Canal Rural, 17/jun/2026).",
+ "texto": "Distrito Toledo-Soja, PR — safra 2025/2026 encerrada com 100% colhido e produtividade de 63 sc/ha (Deral/SEAB-PR, 25/05/2026), alta de 2,8% frente à safra anterior. O foco agora é o clima de entressafra e o mercado. A semana apresenta dinâmica típica de inverno: domingo (06/07) concentra o único evento chuvoso relevante — 10 mm com máxima de 18,1 °C, probabilidade de 92% e virada de vento para sul-sudoeste, sinalizando passagem frontal. Após a frente, segunda-feira (07/07) e terça (08/07) registram mínimas de 4,7 °C e 2,3 °C respectivamente, com risco de geada em 08/07. De quarta (09/07) em diante, tempo seco retorna com evapotranspiração acima de 3 mm/dia e rajadas de até 37,4 km/h. Volume semanal previsto entre 1,5 e 13,5 mm — baixo. Preço da saca em R$ 128,50 (Paranaguá, Canal Rural, 17/06/2026).",
  "pontos": [
-  "Risco de geada na madrugada de quarta-feira (08/jul): mínima prevista de 3,0°C — atenção a culturas de inverno e viveiros na região de Toledo",
-  "Passagem frontal na segunda-feira (06/jul) concentra praticamente toda a chuva da semana (11,3 mm, 92% de probabilidade)",
-  "Sequência seca de quatro dias após a frente (08 a 10/jul) com ET0 acumulada elevada — monitorar culturas de inverno em estabelecimento"
+  "Risco de geada em 08/07 (mínima prevista de 2,3 °C) — atenção a culturas de inverno e viveiros na região",
+  "Passagem frontal em 06/07 concentra praticamente toda a chuva da semana (10 mm, prob. 92%)",
+  "Sequência de 3 dias secos após a frente com ET0 elevada (até 3,05 mm/dia) — baixa reposição hídrica no período"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T14:57:00+00:00",
+  "clima": "2026-07-04T21:26:09+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "carazinho_soja",
  "nome": "CARAZINHO-SOJA",
- "gerado_em": "2026-07-04T15:49:03+00:00",
+ "gerado_em": "2026-07-05T02:38:47+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Carazinho, RS — 4 de julho de 2026. A semana abre com sábado frio: máxima de 13,5 °C, mínima de 1,0 °C e rajadas de 38,5 km/h de sudeste, com 2,2 mm de chuva e risco de geada confirmado pelos sinais derivados. Na segunda-feira, virada do vento para oeste e nova queda de temperatura (máxima 14,4 °C) com mais 2,2 mm sugerem passagem de sistema frontal. A partir de terça, ventos de norte/noroeste e sequência de três dias secos elevam a evapotranspiração — média semanal de 1,9 mm/dia, com pico de 2,46 mm/dia na quinta. A semana encerra com chuva mais expressiva na sexta (8,2 mm previstos), totalizando entre 6,8 e 10,8 mm nos sete municípios monitorados. Com safra 2025/2026 encerrada (100% colhido, 45 sc/ha — Emater/RS-Ascar, 11/jun/2026, +32,9% vs safra anterior), o foco recai sobre comercialização: soja cotada a R$ 129/sc (Grão Direto, 3/jul/2026).",
+ "texto": "Carazinho, RS — Julho/2026. A safra 2025/2026 está encerrada, com 100% colhido no RS (Emater/RS-Ascar, 11/jun/2026). A produtividade média ficou em 45 sc/ha, resultado 14,8% abaixo da projeção inicial, com forte variabilidade regional. O preço da saca está em R$ 129,00 (Grão Direto, Centro Ocidental RS, 03/jul/2026). No clima, a semana abre com queda brusca de máxima — de 20 °C no domingo para 13 °C na segunda-feira — acompanhada de virada de vento para sudoeste e chuvas fracas (até 3,2 mm/dia), padrão típico de passagem frontal. Mínimas de 1,0 °C no sábado e 1,3 °C na quarta indicam risco de geada em baixadas. A partir de quinta-feira instala-se sequência seca de três dias com máximas voltando a 20 °C e evapotranspiração acumulando até 2,56 mm/dia, elevando a demanda hídrica. Precipitação semanal projetada entre 1,1 e 8,0 mm — volume irrelevante para o campo.",
  "pontos": [
-  "Geada possível em 4 e 8 de julho — mínimas de 1,0 °C e 2,4 °C respectivamente; atenção a culturas de inverno e pastagens",
-  "Sequência de três dias secos com ET0 elevada (até 2,46 mm/dia na quinta) aumenta demanda hídrica sobre lavouras de inverno em estabelecimento",
-  "Chuva acumulada semanal baixa (6,8–10,8 mm) e concentrada em apenas um dia relevante — distribuição desfavorável para recarga de solo"
+  "Geada possível: mínimas de 1,0 °C (sáb/04) e 1,3 °C (qua/08) — atenção a baixadas e culturas de inverno em estabelecimento",
+  "Safra encerrada com 45 sc/ha médios no RS, mas variabilidade regional intensa (1.200 a 4.200 kg/ha) exige análise por talhão para planejamento da próxima temporada",
+  "Preço em R$ 129,00/sc (03/jul) com safra já comercializada — acompanhar janelas de fixação de contratos para 2026/2027"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T14:51:11+00:00",
+  "clima": "2026-07-04T21:16:46+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

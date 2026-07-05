@@ -1,16 +1,16 @@
 {
  "distrito_id": "cascavel_soja",
  "nome": "CASCAVEL-SOJA",
- "gerado_em": "2026-07-04T15:49:15+00:00",
+ "gerado_em": "2026-07-05T02:39:00+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Cascavel-PR, 4 de julho de 2026. A safra 2025/2026 está encerrada com 100% colhido e produtividade de 63 sc/ha, alta de 2,8% frente ao ciclo anterior (Deral/SEAB-PR, 25/mai). O preço na praça de Paranaguá está em R$ 128,50/sc (Canal Rural, 17/jun). No clima, a semana apresenta dinâmica típica de inverno: início seco e ameno (sábado, 4/jul), seguido de aquecimento rápido até domingo (máxima 25,1 °C) e queda brusca na segunda-feira (6/jul) com chuva concentrada de 13,0 mm, probabilidade de 97% e vento girando para sul — padrão consistente com passagem de sistema frontal. Após a frente, mínima de 2,2 °C na quarta-feira (8/jul) aciona risco de geada. A sequência seca de três dias (8 a 10/jul) com evapotranspiração acima de 3,0 mm/dia eleva a demanda hídrica, sem impacto direto na soja encerrada, mas relevante para culturas de inverno na região.",
+ "texto": "Cascavel, PR — Entressafra 2025/2026. A semana apresenta dinâmica típica de inverno com passagem de sistema frontal evidente na segunda-feira (06/jul): queda brusca da máxima de 25,1 °C para 19,6 °C, chuva concentrada de 11,4 mm com probabilidade de 97% e vento girando para sul-sudoeste. Após a frente, mínima de 2,3 °C na quarta-feira (08/jul) acende alerta de risco de geada (Deral/SEAB, 25/mai). A semana fecha seca, com ET0 média de 2,4 mm/dia e sequência de até 3 dias sem chuva relevante. Chuva total prevista para os 20 municípios monitorados: 6 a 14 mm. Safra 2025/2026 encerrada com 100% colhido, produtividade de 63 sc/ha e produção de 21,78 milhões de toneladas (+2,8% vs safra anterior; Deral/SEAB-PR, 25/mai). Preço em Paranaguá: R$ 128,50/sc (Canal Rural, 17/jun).",
  "pontos": [
-  "Safra 2025/2026 encerrada: 63 sc/ha, +2,8% vs safra anterior (Deral/SEAB-PR, 25/mai)",
-  "Passagem frontal concentrada na segunda-feira (6/jul): 13,0 mm com probabilidade de 97% e queda de temperatura",
-  "Risco de geada na quarta-feira (8/jul): mínima prevista de 2,2 °C — atenção a culturas de inverno em desenvolvimento"
+  "Risco de geada na madrugada de quarta-feira (08/jul): mínima prevista de 2,3 °C — atenção a culturas de inverno e pastagens",
+  "Passagem frontal na segunda (06/jul) concentra praticamente toda a chuva da semana (11,4 mm); demais dias essencialmente secos",
+  "ET0 média de 2,4 mm/dia com sequência seca de até 3 dias eleva demanda hídrica para cultivos de entressafra"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T14:51:11+00:00",
+  "clima": "2026-07-04T21:17:50+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

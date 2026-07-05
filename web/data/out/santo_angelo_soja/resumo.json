@@ -1,16 +1,16 @@
 {
  "distrito_id": "santo_angelo_soja",
  "nome": "SANTO ANGELO-SOJA",
- "gerado_em": "2026-07-04T15:57:02+00:00",
+ "gerado_em": "2026-07-05T02:46:49+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Santo Ângelo, 4 de julho de 2026. A safra 2025/2026 de soja no RS está encerrada, com 100% colhido e produtividade média de 45 sc/ha (Emater/RS-Ascar, 11/06/2026), resultado 14,8% abaixo da projeção inicial e 32,9% acima da safra anterior, refletindo forte variabilidade regional. O preço na região Centro Ocidental do RS está em R$ 129,00/sc (Grão Direto, 03/07/2026). No clima, a semana inicia com chuva de 4,1 mm neste sábado, máxima de apenas 14,2°C e rajadas de 41 km/h de leste — padrão típico de sistema frontal em passagem. A virada do vento para sudoeste na segunda-feira (239°) confirma a entrada de ar frio, com mínima de 1,5°C na terça-feira, configurando risco de geada. A partir de quarta-feira, o tempo abre progressivamente, com máximas subindo até 24,6°C na sexta e ET0 acumulando até 2,5 mm/dia, indicando demanda hídrica crescente no período seco.",
+ "texto": "Santo Ângelo, 5 de julho de 2026 — A semana abre com padrão típico de inverno gaúcho. No sábado (04/jul), chuva de 5,2 mm com máxima de apenas 13,6 °C, rajadas de 37 km/h de sudeste e virada de vento para noroeste no dia seguinte indicam passagem de sistema frontal. A partir de segunda (06/jul), o vento gira para norte e nordeste, as chuvas cessam e a temperatura sobe progressivamente até 21,3 °C na quinta (09/jul), configurando sequência de cinco dias secos com evapotranspiração média de 1,8 mm/dia — demanda hídrica moderada, sem impacto operacional. Mínimas abaixo de 3 °C registradas em sábado, terça (07/jul) e quarta (08/jul) exigem atenção para culturas de inverno. A safra 2025/2026 de soja está encerrada em 100% (Emater/RS-Ascar, 11/jun/2026): produtividade de 45 sc/ha, com produção de 18,1 milhões de toneladas e alta de 32,9% sobre a safra anterior. Preço em R$ 129/sc (Grão Direto, 03/jul/2026).",
  "pontos": [
-  "Geada possível na madrugada de terça-feira (07/07): mínima prevista de 1,5°C em Santo Ângelo — atenção a culturas de inverno e pastagens",
-  "Sequência de 4 dias secos após a frente fria eleva a ET0 média a 2,0 mm/dia, demanda relevante para solos descobertos",
-  "Safra 2025/2026 encerrada a 45 sc/ha, com forte variabilidade regional (1.200 a 4.200 kg/ha) segundo Emater/RS-Ascar"
+  "Frente fria passou em 04/jul com 5,2 mm e rajadas de 37 km/h; tempo seco e frio domina até quinta-feira",
+  "Mínimas abaixo de 3 °C em três dias da semana (04, 07 e 08/jul) — risco para culturas de inverno em desenvolvimento",
+  "Safra soja 2025/2026 encerrada: 45 sc/ha, alta de 32,9% vs safra anterior, mas 14,8% abaixo da projeção inicial (Emater/RS-Ascar, 11/jun/2026)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T14:55:53+00:00",
+  "clima": "2026-07-04T21:24:56+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "ibiruba_soja",
  "nome": "IBIRUBA-SOJA",
- "gerado_em": "2026-07-04T15:51:41+00:00",
+ "gerado_em": "2026-07-05T02:41:24+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Ibirubã-Soja | RS | 04/07/2026. A safra 2025/2026 está encerrada no RS (100% colhido), com produtividade média de 45 sc/ha — queda de 14,8% frente à projeção inicial, embora 32,9% acima da safra anterior (Emater/RS-Ascar, 11/06/2026). O preço da saca está em R$ 129,00 no Centro Ocidental do RS (Grão Direto, 03/07/2026). Na dinâmica do tempo, o início da semana apresenta mínimas próximas a 1,8 °C (sábado) com chuva fraca e vento de leste, seguido de queda brusca de temperatura na segunda-feira (mínima 1,4 °C) com virada de vento para oeste — padrão típico de passagem frontal. Entre terça e quinta-feira configura-se sequência seca de quatro dias com máximas subindo até 19 °C e evapotranspiração acumulando até 2,5 mm/dia. Risco de geada registrado em três datas da série. A semana encerra com chuva de até 8,2 mm na sexta-feira.",
+ "texto": "Distrito Ibirubã-Soja | RS | 05 jul 2026. A safra 2025/2026 está encerrada com 100% colhido. A semana meteorológica apresenta padrão típico de inverno gaúcho com passagem frontal identificada: sábado (05/jul) registrou máxima de 19,8 °C com virada de vento para leste e chuva de 1,6 mm; domingo (06/jul) a direção girou para sudoeste com queda brusca de temperatura (máxima 13,6 °C), sinalizando avanço frontal. A partir de terça (07/jul), sequência de quatro dias secos com mínimas de 0,4 a 0,8 °C eleva o risco de geada — dias 04, 07 e 08/jul já figuram com mínimas abaixo de 3 °C. A evapotranspiração média de 1,8 mm/dia e máxima de 2,69 mm/dia em quinta (09/jul) indicam demanda hídrica moderada a alta no período seco. Produtividade final: 45 sc/ha (Emater/RS-Ascar, 11/jun/2026), 14,8% abaixo da projeção inicial. Preço: R$ 129/sc (Grão Direto, 03/jul/2026).",
  "pontos": [
-  "Risco de geada em 04, 07 e 08/07 — mínimas abaixo de 2 °C monitoradas em 24 municípios",
-  "Sequência seca de quatro dias (07 a 10/07) com ET0 média de 1,9 mm/dia eleva demanda hídrica na entressafra",
-  "Safra 2025/2026 encerrada com 45 sc/ha — 14,8% abaixo da projeção inicial e forte variabilidade regional (Emater/RS-Ascar, 11/06/2026)"
+  "Risco de geada nos dias 07 e 08/jul com mínimas de 0,8 °C e 0,4 °C respectivamente — atenção a culturas de inverno e infraestrutura",
+  "Sequência seca de quatro dias com ET0 acumulada elevada pode impactar lavouras de cobertura e trigo em estabelecimento",
+  "Safra soja 2025/2026 encerrada a 45 sc/ha, com forte variabilidade regional (1.200–4.200 kg/ha) e resultado 14,8% abaixo da projeção inicial (Emater/RS-Ascar, 11/jun/2026)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T14:53:28+00:00",
+  "clima": "2026-07-04T21:19:08+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

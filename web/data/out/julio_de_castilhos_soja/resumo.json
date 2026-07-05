@@ -1,16 +1,16 @@
 {
  "distrito_id": "julio_de_castilhos_soja",
  "nome": "JULIO DE CASTILHOS-SOJA",
- "gerado_em": "2026-07-04T15:52:46+00:00",
+ "gerado_em": "2026-07-05T02:42:28+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Julio de Castilhos, RS — 4 de julho de 2026. A safra 2025/2026 está encerrada com 100% colhido, produtividade de 45 sc/ha (Emater/RS-Ascar, 11/jun), 32,9% acima da safra anterior, porém 14,8% abaixo da projeção inicial, com forte variabilidade regional. O preço da saca está em R$ 129,00 (Grão Direto, 3/jul). No clima, o sábado (4/jul) registrou máxima de apenas 13,5 °C com chuva de 4,5 mm e rajadas de 45 km/h de sudeste, indicando passagem de sistema frontal. Após breve recuperação no domingo, a virada do vento para noroeste/oeste na segunda e terça (6–7/jul) marca a entrada de massa polar, com mínimas próximas a 2 °C — risco de geada nos dias 4, 7 e 8/jul. Segue sequência seca de até 5 dias com evapotranspiração média de 1,9 mm/dia. Chuva mais expressiva retorna na sexta (10/jul), com até 22,8 mm previstos.",
+ "texto": "Julho de Castilhos, RS — Entressafra 2025/2026. A semana iniciou com passagem de sistema frontal: sábado (04/jul) registrou máxima de apenas 13,1 °C, chuva de 4,3 mm e rajadas de 41,8 km/h com vento de leste-sudeste, seguida de virada para quadrante sul-oeste na segunda (06/jul) e queda da mínima a 0,4 °C na terça (07/jul) — configurando risco de geada em três datas da série (04, 07 e 08/jul). A partir de quarta, o tempo seca com máximas subindo até 20,8 °C e demanda evapotranspirativa crescente (até 2,4 mm/dia em quinta), totalizando sequência de cinco dias sem chuva relevante. A safra 2025/2026 está encerrada: produtividade de 45 sc/ha, produção de 18,1 milhões de toneladas, alta de 32,9% sobre a safra anterior, porém 14,8% abaixo da projeção inicial (Emater/RS-Ascar, 11/jun/2026). Preço corrente: R$ 129,00/sc (Grão Direto, Centro Ocidental RS, 03/jul/2026).",
  "pontos": [
-  "Risco de geada nos dias 4, 7 e 8/jul com mínimas entre 1,9 °C e 2,3 °C — atenção a culturas de inverno e pastagens",
-  "Sequência seca de até 5 dias consecutivos com ET0 crescente (até 2,33 mm/dia no dia 9/jul) eleva demanda hídrica",
-  "Chuva relevante prevista apenas na sexta-feira (10/jul), com até 22,8 mm — monitorar concentração e intensidade"
+  "Risco de geada confirmado em três datas (04, 07 e 08/jul), com mínimas abaixo de 2 °C — atenção a culturas de inverno e pastagens na região",
+  "Sequência de cinco dias secos com evapotranspiração média de 1,8 mm/dia eleva demanda hídrica; chuva expressiva só retorna na sexta (10/jul, 7,2 mm)",
+  "Safra soja 2025/2026 encerrada com 45 sc/ha e produção de 18,1 mi t (+32,9% vs safra anterior), mas 14,8% abaixo da projeção inicial, refletindo forte variabilidade regional"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T14:53:34+00:00",
+  "clima": "2026-07-04T21:21:24+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

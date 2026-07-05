@@ -1,16 +1,16 @@
 {
  "distrito_id": "ponta_grossa_soja",
  "nome": "PONTA GROSSA-SOJA",
- "gerado_em": "2026-07-04T15:55:05+00:00",
+ "gerado_em": "2026-07-05T02:44:51+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Ponta Grossa, 4 de julho de 2026. A semana abre com padrão típico de inverno subtropical: temperaturas máximas entre 20 e 23 °C e mínimas que recuam progressivamente. O período de sábado (4/7) a segunda (6/7) apresenta chuvas fracas e probabilidade elevada, com ventos de norte-nordeste — configuração associada a sistema frontal em aproximação. Na terça (7/7), a chuva mais expressiva (8,0 mm) coincide com virada do vento para sudoeste e queda da mínima, sinalizando passagem frontal. Na sequência, quarta (8/7) registra mínima de 2,6 °C, com risco de geada confirmado pelos sinais derivados, seguida de três dias secos com ET0 crescente até 2,85 mm/dia e rajadas de até 38,9 km/h em sexta (10/7). A safra 2025/2026 no Paraná está encerrada com 100% colhido e produtividade de 63 sc/ha (Deral/SEAB-PR, 25/05/2026), alta de 2,8% sobre a safra anterior. Preço em Paranaguá: R$ 128,50/sc (Canal Rural, 17/06/2026).",
+ "texto": "Distrito Ponta Grossa — Paraná, 05/jul/2026. A safra 2025/2026 está encerrada com 100% colhido em todas as macrorregiões monitoradas (Curitiba, Irati e Ponta Grossa), produtividade de 63 sc/ha e produção de 21,78 milhões de toneladas, alta de 2,8% sobre a safra anterior (Deral/SEAB-PR, 25/mai/2026). O foco agora é o clima de entressafra. A semana inicia com chuvas fracas a moderadas (sábado a segunda, totalizando até 8,1 mm nos 11 municípios monitorados) e vento de norte/noroeste, sugerindo atuação de sistema frontal em deslocamento. A partir de terça-feira (07/jul), virada do vento para sudoeste e queda expressiva da mínima — chegando a 2,8 °C na quarta (08/jul) e 2,7 °C na quinta (09/jul) — configura risco de geada nas áreas mais elevadas dos Campos Gerais. ET0 média de 2,5 mm/dia indica demanda hídrica moderada. Preço da saca em R$ 128,50 (Paranaguá, 17/jun/2026, Canal Rural).",
  "pontos": [
-  "Risco de geada na quarta-feira (8/7): mínima prevista de 2,6 °C em Ponta Grossa — atenção a culturas de inverno e infraestrutura sensível ao frio",
-  "Passagem frontal esperada na terça (7/7) com chuva de até 8,0 mm e virada de vento para sudoeste — volume baixo, sem impacto operacional relevante",
-  "Sequência de três dias secos após a frente (8 a 10/7) com ET0 média de 2,5 mm/dia e rajadas de até 38,9 km/h elevam demanda hídrica e risco de ressecamento do solo"
+  "Risco de geada em 08 e 09/jul: mínimas projetadas de 2,8 °C e 2,7 °C respectivamente — atenção a culturas de inverno e pastagens nas cotas mais altas",
+  "Passagem frontal entre domingo e segunda (05–06/jul) traz chuvas de até 8,1 mm; janela seca de pelo menos 3 dias consecutivos a partir de terça",
+  "Safra 2025/2026 encerrada com 63 sc/ha no PR, alta de 2,8% vs safra anterior (Deral/SEAB-PR, 25/mai/2026)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T14:54:44+00:00",
+  "clima": "2026-07-04T21:22:38+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

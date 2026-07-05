@@ -1,16 +1,16 @@
 {
  "distrito_id": "rio_do_sul_soja",
  "nome": "RIO DO SUL-SOJA",
- "gerado_em": "2026-07-04T15:55:58+00:00",
+ "gerado_em": "2026-07-05T02:45:41+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Rio do Sul-SC, safra 2025/2026 encerrada com 100% colhido e produtividade de 63 sc/ha (Epagri/Cepa, mai/2026). A produção total ficou em ~3,1 milhões de toneladas, recuo de 7% frente à safra anterior, reflexo de queda de 5,5% na produtividade e retração de 1,6% na área da 1ª safra. A semana meteorológica apresenta dinâmica frontal clara: sábado (05/jul) e domingo (06/jul) registram virada de vento de leste para oeste-sudoeste com chuva concentrada de 12,2 mm e 11,2 mm respectivamente e probabilidade acima de 90%, caracterizando passagem de sistema frontal. Após a frente, mínimas voltam a cair abaixo de 3°C na terça (08/jul) e quarta (09/jul), sustentando risco de geada em três dias da semana. A evapotranspiração média de 2,4 mm/dia e rajadas de até 51,8 km/h na quinta (10/jul) indicam demanda hídrica moderada a alta no pós-frontal.",
+ "texto": "Rio do Sul-SC, 5 de julho de 2026. A semana apresenta dinâmica típica de passagem frontal: sábado (05/jul) ainda com ventos de leste e máxima de 23,5 °C, seguido de virada para oeste/sudoeste e chuvas concentradas no domingo (06/jul, 11,5 mm, prob. 97%) e segunda-feira (07/jul, 7,3 mm, prob. 92%), com rajadas chegando a 42,8 km/h — padrão consistente com avanço de sistema frontal. Após a passagem, rápida estabilização: terça (08/jul) e quarta (09/jul) sem chuva, ET0 elevada (até 2,84 mm/dia) e mínimas abaixo de 3 °C. Risco de geada registrado em cinco dos sete dias monitorados, com mínima absoluta de -1,3 °C (04 e 08/jul). A safra 2025/2026 em SC está encerrada (100% colhido), com produtividade de 63 sc/ha e produção de ~3,1 milhões de toneladas, recuo de 7% frente à safra anterior (Epagri/Cepa, mai/2026). Preço da saca não disponível neste boletim.",
  "pontos": [
-  "Safra 2025/2026 encerrada: 63 sc/ha, produção ~3,1 mi t, queda de 7% vs. safra anterior (Epagri/Cepa, mai/2026)",
-  "Passagem frontal prevista para domingo (06/jul) com até 12,2 mm — sem impacto operacional na colheita, safra encerrada",
-  "Risco de geada em 04, 08 e 09/jul com mínimas abaixo de 0°C — atenção a culturas de inverno e pastagens"
+  "Passagem frontal concentra chuva de 18,8 mm entre domingo e segunda-feira (06–07/jul), sem impacto operacional pois a safra está encerrada",
+  "Risco de geada em cinco dias da semana, com mínimas abaixo de 0 °C em 04 e 08/jul — atenção para culturas de inverno e infraestrutura rural",
+  "Safra 2025/2026 encerrada com 63 sc/ha e queda de 7% na produção total frente à safra anterior (Epagri/Cepa, mai/2026)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T14:55:50+00:00",
+  "clima": "2026-07-04T21:23:45+00:00",
   "colheita": "2026-05-01",
   "preco": null
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "uberlandia_soja_ics",
  "nome": "UBERLANDIA-SOJA/ICS",
- "gerado_em": "2026-07-04T15:58:45+00:00",
+ "gerado_em": "2026-07-05T02:48:29+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Uberlândia/MG, 4 de julho de 2026. A safra 2025/26 de soja em Minas Gerais está encerrada, com 100% de plantio e colheita concluídos (Conab – 9º Levantamento, jun/2026). O cenário climático da semana é de inverno seco e estável: sete dias consecutivos sem chuva relevante, com precipitação máxima prevista de apenas 0,6 mm no sábado (10/jul). As máximas oscilam entre 28,8 °C e 31,4 °C, enquanto as mínimas chegam a 12,3 °C na quarta (9/jul), sem indicativo de geada. A evapotranspiração média de 4,2 mm/dia, combinada à sequência seca, aponta demanda hídrica elevada — relevante para pastagens e culturas de inverno. Na terça (7/jul), rajadas de até 42,5 km/h com virada de vento para sudoeste sugerem passagem de sistema frontal fraco, sem precipitação associada. O preço da soja no Triângulo Mineiro estava em R$ 113,00/sc 60 kg (Portal Agron, 6/mai/2026).",
+ "texto": "Uberlândia e região vivem uma semana de inverno seco e ensolarado, sem qualquer registro ou previsão de chuva nos 21 municípios monitorados. A amplitude térmica é expressiva: máximas oscilando entre 29,1 °C e 31,6 °C, enquanto as mínimas recuam até 10,6 °C na quinta-feira (10/jul). A virada do vento de leste para oeste na segunda-feira (06/jul) e o pico de rajadas de 42,5 km/h na terça (07/jul) indicam passagem de sistema de circulação pós-frontal, sem precipitação associada. A evapotranspiração potencial média de 4,2 mm/dia, com pico de 4,44 mm/dia na terça, reforça a alta demanda hídrica atmosférica — irrelevante para a soja, mas relevante para pastagens e culturas de inverno. A safra 2025/26 de soja em MG está 100% colhida e encerrada (Conab, 9º Levantamento, jun/2026). O preço de referência no Triângulo Mineiro era de R$ 113,00/sc 60 kg (Portal Agron, 06/mai/2026).",
  "pontos": [
-  "Safra 2025/26 encerrada em MG com 100% colhido — foco no período de entressafra",
-  "Sete dias consecutivos sem chuva e ET0 média de 4,2 mm/dia elevam demanda hídrica regional",
-  "Rajadas de até 42,5 km/h na terça (7/jul) com virada de vento indicam frente fraca sem chuva"
+  "Sete dias consecutivos sem chuva e zero previsão para a semana — período de entressafra sem impacto direto na soja, mas atenção a culturas de inverno e pastagens sob alta demanda hídrica (ET0 média 4,2 mm/dia)",
+  "Mínima de 10,6 °C prevista para quinta-feira (10/jul): monitorar risco de frio intenso em culturas sensíveis na região",
+  "Safra 2025/26 encerrada com 100% colhido em MG (Conab, jun/2026) — foco do produtor deve estar na comercialização do estoque remanescente"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T14:57:01+00:00",
+  "clima": "2026-07-04T21:26:09+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-05-06"
  }

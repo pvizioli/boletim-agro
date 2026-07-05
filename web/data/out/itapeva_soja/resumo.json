@@ -1,16 +1,16 @@
 {
  "distrito_id": "itapeva_soja",
  "nome": "ITAPEVA-SOJA",
- "gerado_em": "2026-07-04T15:52:21+00:00",
+ "gerado_em": "2026-07-05T02:42:00+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Itapeva-Soja (SP) — 4 a 10 de julho de 2026. A safra 2025/26 está encerrada (100% colhido), conforme Conab – 9º Levantamento (jun/2026). O padrão climático da semana é tipicamente invernal: máximas entre 21 °C e 25 °C, mínimas caindo a 4,5 °C na quarta-feira (8/jul). O evento mais relevante ocorre na terça-feira (7/jul): chuva de até 14,9 mm com rajadas de 46,4 km/h e virada de vento de sudeste para oeste, sinalizando passagem de sistema frontal. Após a frente, o tempo seca rapidamente, com mínimas mais frias e evapotranspiração média de 2,7 mm/dia ao longo da semana — demanda hídrica moderada, sem impacto operacional na entressafra. Apenas 1 dia com chuva relevante nos 7 dias. Não há alertas Inmet ativos. Foco do momento: acompanhamento de preços e planejamento da próxima safra.",
+ "texto": "Distrito Itapeva-Soja (SP) — safra 2025/26 encerrada (Conab, 9º Levantamento, jun/2026), com 100% colhido. O foco recai sobre a dinâmica do tempo invernal. A semana iniciou com ventos de sudeste e mínimas amenas (11 °C no sábado), mas a terça-feira (07/jul) concentra o único evento chuvoso relevante da janela: 7,1 mm com probabilidade de 80%, rajadas de 49 km/h e virada do vento para oeste — padrão típico de passagem frontal. Na sequência, o sistema se afasta rapidamente, e as mínimas despencam: 7 °C na quarta, 6 °C na quinta e 1,5 °C na sexta-feira (10/jul). Esse valor configura risco de geada, conforme sinalizado para 10/jul. A evapotranspiração média de 2,6 mm/dia e a sequência de dias secos após a frente reforçam a demanda hídrica sobre pastagens e culturas de inverno na região. Sem preço de saca disponível no período.",
  "pontos": [
-  "Safra 2025/26 encerrada em SP — 100% colhido (Conab, jun/2026); produtividade final não divulgada no levantamento consultado",
-  "Passagem frontal prevista para terça-feira (7/jul): chuva de até 14,9 mm e rajadas de 46,4 km/h — atenção ao armazenamento e logística de grãos",
-  "Mínima de 4,5 °C na quarta-feira (8/jul) pós-frente: monitorar culturas de inverno e estruturas de secagem em propriedades da região"
+  "Risco de geada na madrugada de sexta-feira (10/jul): mínima prevista de 1,5 °C — atenção a culturas de inverno e viveiros",
+  "Passagem frontal na terça (07/jul) com rajadas de até 49 km/h e 7,1 mm: único evento chuvoso expressivo da semana",
+  "Após a frente, sequência seca com ET0 média de 2,6 mm/dia eleva demanda hídrica na região"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T14:53:33+00:00",
+  "clima": "2026-07-04T21:20:19+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "pato_branco_soja",
  "nome": "PATO BRANCO-SOJA",
- "gerado_em": "2026-07-04T15:54:26+00:00",
+ "gerado_em": "2026-07-05T02:44:09+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Pato Branco, 4 de julho de 2026. A safra 2025/2026 de soja no Paraná está encerrada com 100% colhido, produtividade de 63 sc/ha e produção de 21,78 milhões de toneladas, alta de 2,8% sobre o ciclo anterior (Deral/SEAB-PR, 25/mai/2026). O preço na praça de Paranaguá está em R$ 128,50/sc (Canal Rural, 17/jun/2026). No campo, o padrão térmico desta semana é tipicamente invernal: mínima de 0,8 °C prevista para quarta-feira (08/jul) e sábado (04/jul) com 2,9 °C, configurando risco de geada em baixadas. A passagem de sistema frontal é evidenciada na segunda-feira (06/jul), com queda brusca de máxima para 18,1 °C, chuva de 9,2 mm (probabilidade 91%) e virada de vento para sul. Após a frente, sequência de quatro dias secos com evapotranspiração média de 2,4 mm/dia e aquecimento gradual até 24 °C na sexta (10/jul).",
+ "texto": "Distrito Pato Branco — safra 2025/2026 encerrada com 100% colhido em todas as macrorregiões (Pato Branco, Dois Vizinhos e Francisco Beltrão), produtividade de 63 sc/ha e produção de 21,78 milhões de toneladas no Paraná, alta de 2,8% sobre a safra anterior (Deral/SEAB-PR, 25/05/2026). Preço em R$ 128,50/sc em Paranaguá (Canal Rural, 17/06/2026). No campo climático, a semana apresenta dinâmica típica de inverno: domingo (06/07) concentra o evento mais expressivo, com máxima de 18,3 °C, chuva de 8,4 mm e probabilidade de 91%, seguido de queda brusca de temperatura — mínima de 2,2 °C na segunda (07/07) e -0,7 °C na terça (08/07), configurando risco de geada em três datas da série. A evapotranspiração média de 2,2 mm/dia e sequência de até três dias secos reforçam o padrão seco pós-frontal. Sem impacto direto na soja, dado o encerramento da safra.",
  "pontos": [
-  "Geada possível em 04/jul e 08/jul — mínimas abaixo de 3 °C; atenção a culturas de inverno e pastagens em baixadas",
-  "Passagem frontal em 06/jul traz o único evento de chuva relevante da semana (9,2 mm, prob. 91%)",
-  "Sequência seca de quatro dias após a frente com ET0 elevada (~2,8 mm/dia no fim do período)"
+  "Risco de geada confirmado em 04, 07 e 08/07, com mínima de -0,7 °C na terça-feira — atenção a culturas de inverno e viveiros na região",
+  "Evento de chuva concentrado no domingo (06/07): 8,4 mm com 91% de probabilidade, único dia relevante da semana",
+  "Safra 2025/2026 encerrada com 63 sc/ha no PR, alta de 2,8% vs. safra anterior (Deral/SEAB-PR, 25/05/2026)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T14:54:43+00:00",
+  "clima": "2026-07-04T21:22:35+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

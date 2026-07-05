@@ -1,16 +1,16 @@
 {
  "distrito_id": "londrina_soja",
  "nome": "LONDRINA-SOJA",
- "gerado_em": "2026-07-04T15:53:11+00:00",
+ "gerado_em": "2026-07-05T02:42:54+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Londrina, 4 de julho de 2026. A safra 2025/2026 de soja no Paraná está encerrada com 100% colhido, produtividade de 63 sc/ha e produção de 21,78 milhões de toneladas, alta de 2,8% sobre o ciclo anterior (Deral/SEAB-PR, 25/05/2026). O preço na praça de Paranaguá está em R$ 128,50/sc (Canal Rural, 17/06/2026). No campo climático, o padrão da semana é tipicamente invernal: mínimas baixas (6,1 °C na quinta e sexta-feira), máximas moderadas em torno de 23–27 °C e chuva concentrada no sábado (4,2 mm, com virada de vento para sudoeste, sugerindo passagem de sistema frontal rápido). A sequência seca predomina a partir de quarta-feira, com evapotranspiração média de 3,0 mm/dia e acumulado semanal entre 0,6 e 4,7 mm nos 25 municípios monitorados. Não há alertas ativos do Inmet.",
+ "texto": "Distrito Londrina-Soja | PR — Safra 2025/2026 encerrada. Colheita 100% concluída nas regiões de Londrina, Apucarana e Ivaiporã (Deral/SEAB, 25/05/2026), com produtividade de 63 sc/ha e produção de 21,78 milhões de toneladas no Paraná, alta de 2,8% sobre a safra anterior. Climaticamente, a semana inicia com passagem de sistema frontal: no sábado (05/jul) ventos de sudeste com rajadas de 32 km/h e chuva residual de 1,3 mm; na segunda-feira (07/jul) a virada do vento para sudoeste (242°), queda da máxima para 23,3 °C e mínima de 8,5 °C com 4,2 mm confirmam a frente. Pós-frontal, mínimas caem a 5,7 °C (09/jul) sem risco de geada sustentado. Acumulado semanal não ultrapassa 6,5 mm. ET0 média de 3,0 mm/dia (série diária) indica demanda hídrica moderada, sem impacto operacional na entressafra. Preço da saca em R$ 128,50 (Paranaguá, Canal Rural, 17/06/2026).",
  "pontos": [
-  "Safra 2025/2026 encerrada no PR: 63 sc/ha, +2,8% vs safra anterior (Deral/SEAB-PR, 25/05/2026)",
-  "Preço em Paranaguá: R$ 128,50/sc em 17/06/2026 — referência para comercialização do estoque remanescente",
-  "Passagem frontal rápida prevista para terça-feira (07/07) com virada de vento e 4,2 mm; semana predominantemente seca após o evento"
+  "Safra 2025/2026 encerrada com 63 sc/ha no PR, alta de 2,8% vs safra anterior (Deral/SEAB, 25/05/2026)",
+  "Passagem frontal confirmada na segunda-feira (07/jul): virada de vento para sudoeste, queda térmica e chuva de 4,2 mm",
+  "Mínimas pós-frontais chegam a 5,7 °C (09/jul) — monitorar culturas de inverno; sem sinal de geada nos dados disponíveis"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T14:54:38+00:00",
+  "clima": "2026-07-04T21:21:26+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

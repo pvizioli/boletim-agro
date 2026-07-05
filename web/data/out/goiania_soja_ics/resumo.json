@@ -1,16 +1,16 @@
 {
  "distrito_id": "goiania_soja_ics",
  "nome": "GOIANIA-SOJA/ICS",
- "gerado_em": "2026-07-04T15:51:00+00:00",
+ "gerado_em": "2026-07-05T02:40:45+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Goiás encerra a safra 2025/26 de soja com produção de 20,1 milhões de toneladas, conforme Conab (9º Levantamento, jun/2026). O clima de entressafra impõe padrão seco e quente sobre os 21 municípios monitorados: nenhuma chuva está prevista nos próximos sete dias, com máximas escalando de 33,0°C no sábado (04/jul) a 35,9°C na sexta (10/jul) e mínimas subindo de 14,8°C para 18,9°C ao longo da semana. O vento predomina do quadrante sul-sudeste, sem sinais de sistema frontal. A evapotranspiração média de 5,3 mm/dia, com pico de 5,76 mm/dia na sexta, reflete alta demanda hídrica atmosférica — relevante para áreas com pastagens ou culturas de inverno. A sequência de sete dias secos consecutivos confirma veranico de entressafra típico do Cerrado em julho. O preço da saca em Goiás estava em R$ 108,50/sc 60 kg em 17/jun/2026 (Canal Rural, Jataí/GO).",
+ "texto": "Goiás vive típico padrão de inverno seco e quente. A série diária de 4 a 10 de julho registra sete dias consecutivos sem chuva — probabilidade nula ou residual (máximo 4% em 9/jul) — com máximas em elevação contínua, de 33,2 °C no sábado (4/jul) a 35,7 °C na sexta (10/jul), e mínimas subindo de 14,8 °C para 17,7 °C. O vento de quadrante sul/sudoeste com rajadas entre 31 e 37 km/h sustenta evapotranspiração média de 5,2 mm/dia, demanda hídrica elevada para o período. Não há alertas ativos do Inmet. A safra 2025/26 está encerrada (100% colhido, Conab — 9º Levantamento, jun/2026), com produção de 20,1 milhões de toneladas em GO. O preço da saca 60 kg em Jataí/GO estava em R$ 108,50 em 17/jun/2026 (Canal Rural). Foco do produtor deve ser armazenagem e comercialização.",
  "pontos": [
-  "Safra 2025/26 encerrada em GO com 20,1 milhões de toneladas (Conab, jun/2026)",
-  "Sete dias consecutivos sem chuva previstos — veranico de entressafra consolidado no Cerrado goiano",
-  "ET0 média de 5,3 mm/dia com pico de 5,76 mm/dia na sexta (10/jul): alta demanda hídrica atmosférica"
+  "Veranico consolidado: 7 dias secos consecutivos com ET0 média de 5,2 mm/dia — atenção ao manejo de pastagens e culturas irrigadas no período",
+  "Máximas acima de 35 °C a partir de 8/jul (quarta-feira) indicam aquecimento progressivo típico de massa de ar seco continental",
+  "Safra 2025/26 encerrada em GO com 20,1 milhões de toneladas (Conab, jun/2026) — prioridade agora é gestão de estoque e estratégia de venda"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T14:52:23+00:00",
+  "clima": "2026-07-04T21:19:05+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-06-17"
  }

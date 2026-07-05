@@ -1,16 +1,16 @@
 {
  "distrito_id": "formosa_soja_ics",
  "nome": "FORMOSA-SOJA/ICS",
- "gerado_em": "2026-07-04T15:50:48+00:00",
+ "gerado_em": "2026-07-05T02:40:32+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito FORMOSA-SOJA/ICS (DF, GO, MG) — 4 a 10 de julho de 2026. A safra 2025/26 está encerrada em todas as UFs monitoradas, com 100% plantado e colhido (Conab, 9º Levantamento, jun/2026). Goiás registrou produção de 20,1 milhões de toneladas. O padrão climático da semana é de veranico consolidado: sete dias consecutivos sem chuva, probabilidade de precipitação nula ou residual em todos os dias, e demanda evapotranspirativa elevada, com média de 4,9 mm/dia e pico de 5,3 mm em quinta-feira (9/jul). As máximas sobem progressivamente de 29,8°C (sábado, 4/jul) a 32,2°C (quinta, 9/jul), com mínimas amenas entre 13,7°C e 18,1°C. Ventos de leste a sudeste com rajadas de até 38,2 km/h reforçam a baixa umidade relativa típica do inverno do Cerrado. Sem impacto direto sobre a soja, mas atenção ao armazenamento e à comercialização. Preço de referência: R$ 112,00/sc 60kg (Portal Agron, DF, mai/2026).",
+ "texto": "Distrito FORMOSA-SOJA/ICS (DF, GO, MG) — 05/jul/2026. A safra 2025/26 está encerrada nas três UFs, com 100% plantado e colhido (Conab, 9º Levantamento, jun/2026). O padrão climático da semana é de típico inverno seco do Cerrado: sete dias consecutivos sem chuva, ventos predominantes de leste-sudeste com rajadas crescentes que chegam a 39,2 km/h na sexta-feira (10/jul), e evapotranspiração média de 4,8 mm/dia — demanda hídrica elevada para a estação. As máximas sobem progressivamente de 30,2 °C no sábado (04/jul) a 32,1 °C na quarta (09/jul), enquanto as mínimas oscilam entre 13,7 °C e 16,9 °C, sem risco de geada. Nenhuma chuva prevista nos próximos sete dias. Preço de referência: R$ 112,00/sc 60kg no DF (Portal Agron, 06/mai/2026). Goiás registrou produção de 20,1 milhões de toneladas na safra encerrada.",
  "pontos": [
-  "Safra 2025/26 encerrada em DF, GO e MG — foco na comercialização e logística de escoamento",
-  "Veranico de 7 dias com ET0 média de 4,9 mm/dia eleva risco de perda de qualidade em grãos armazenados sem controle de umidade",
-  "Máximas acima de 30°C e rajadas de até 38 km/h agravam a baixa umidade relativa do ar — atenção às condições de armazenagem"
+  "Sete dias consecutivos sem chuva e ET0 média de 4,8 mm/dia confirmam veranico de inverno típico do Cerrado — atenção ao manejo de solos descobertos e pastagens",
+  "Rajadas de vento crescentes até 39,2 km/h (10/jul) elevam risco de erosão eólica e perda de umidade residual do solo",
+  "Safra 2025/26 encerrada em DF, GO e MG (Conab, jun/2026) — foco do produtor deve migrar para comercialização e planejamento da próxima janela de plantio"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T14:52:22+00:00",
+  "clima": "2026-07-04T21:19:03+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-05-06"
  }
