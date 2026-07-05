@@ -681,7 +681,7 @@ codigo_ibge,uf,cidade,orgao,regiao_id,regiao_nome,confianca
 4108304,PR,FOZ DO IGUAÇU,deral,cascavel,Cascavel,conferir
 4110953,PR,ITAIPULÂNDIA,deral,cascavel,Cascavel,conferir
 4115606,PR,MATELÂNDIA,deral,cascavel,Cascavel,conferir
-4115804,PR,MEDIANEIRA,deral,cascavel,Cascavel,conferir
+4115804,PR,MEDIANEIRA,deral,toledo,Toledo,alta
 4116059,PR,MISSAL,deral,cascavel,Cascavel,conferir
 4117453,PR,OURO VERDE DO OESTE,deral,toledo,Toledo,conferir
 4118451,PR,PATO BRAGADO,deral,toledo,Toledo,conferir
@@ -702,3 +702,49 @@ codigo_ibge,uf,cidade,orgao,regiao_id,regiao_nome,confianca
 4126355,PR,SERRANÓPOLIS DO IGUAÇU,deral,cascavel,Cascavel,conferir
 4127700,PR,TOLEDO,deral,toledo,Toledo,conferir
 4128559,PR,VERA CRUZ DO OESTE,deral,toledo,Toledo,conferir
+5002951,MS,CHAPADÃO DO SUL,siga_ms,norte,Norte,alta
+5003256,MS,COSTA RICA,siga_ms,norte,Norte,alta
+5006275,MS,PARAÍSO DAS ÁGUAS,siga_ms,norte,Norte,alta
+5001508,MS,BANDEIRANTES,siga_ms,centro,Centro,conferir
+5002209,MS,BONITO,siga_ms,sul,Sul,conferir
+5002605,MS,CAMAPUÃ,siga_ms,norte,Norte,conferir
+5002704,MS,CAMPO GRANDE,siga_ms,centro,Centro,alta
+5003306,MS,COXIM,siga_ms,norte,Norte,alta
+5005004,MS,JARDIM,siga_ms,sul,Sul,conferir
+5005400,MS,MARACAJU,siga_ms,sul,Sul,alta
+5006002,MS,NOVA ALVORADA DO SUL,siga_ms,sul,Sul,conferir
+5006408,MS,PEDRO GOMES,siga_ms,norte,Norte,alta
+5007109,MS,RIBAS DO RIO PARDO,siga_ms,centro,Centro,conferir
+5007208,MS,RIO BRILHANTE,siga_ms,sul,Sul,conferir
+5007695,MS,SÃO GABRIEL DO OESTE,siga_ms,norte,Norte,alta
+5007901,MS,SIDROLÂNDIA,siga_ms,centro,Centro,alta
+5007935,MS,SONORA,siga_ms,norte,Norte,alta
+5008305,MS,TRÊS LAGOAS,siga_ms,centro,Centro,conferir
+5000609,MS,AMAMBAI,siga_ms,sul,Sul,alta
+5000807,MS,ANAURILÂNDIA,siga_ms,sul,Sul,conferir
+5000856,MS,ANGÉLICA,siga_ms,sul,Sul,alta
+5000906,MS,ANTÔNIO JOÃO,siga_ms,sul,Sul,alta
+5001243,MS,ARAL MOREIRA,siga_ms,sul,Sul,alta
+5001904,MS,BATAGUASSU,siga_ms,sul,Sul,conferir
+5002001,MS,BATAYPORÃ,siga_ms,sul,Sul,conferir
+5002100,MS,BELA VISTA,siga_ms,sul,Sul,conferir
+5002407,MS,CAARAPÓ,siga_ms,sul,Sul,alta
+5003454,MS,DEODÁPOLIS,siga_ms,sul,Sul,alta
+5003504,MS,DOURADINA,siga_ms,sul,Sul,alta
+5003702,MS,DOURADOS,siga_ms,sul,Sul,alta
+5003751,MS,ELDORADO,siga_ms,sul,Sul,alta
+5003801,MS,FÁTIMA DO SUL,siga_ms,sul,Sul,alta
+5004304,MS,IGUATEMI,siga_ms,sul,Sul,alta
+5004502,MS,ITAPORÃ,siga_ms,sul,Sul,alta
+5004601,MS,ITAQUIRAÍ,siga_ms,sul,Sul,alta
+5004700,MS,IVINHEMA,siga_ms,sul,Sul,alta
+5005251,MS,LAGUNA CARAPÃ,siga_ms,sul,Sul,alta
+5005681,MS,MUNDO NOVO,siga_ms,sul,Sul,alta
+5005707,MS,NAVIRAÍ,siga_ms,sul,Sul,alta
+5006200,MS,NOVA ANDRADINA,siga_ms,sul,Sul,conferir
+5006259,MS,NOVO HORIZONTE DO SUL,siga_ms,sul,Sul,alta
+5006606,MS,PONTA PORÃ,siga_ms,sul,Sul,alta
+5007703,MS,SETE QUEDAS,siga_ms,sul,Sul,alta
+5007950,MS,TACURU,siga_ms,sul,Sul,alta
+5007976,MS,TAQUARUSSU,siga_ms,sul,Sul,alta
+5008404,MS,VICENTINA,siga_ms,sul,Sul,alta
