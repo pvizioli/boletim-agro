@@ -474,6 +474,18 @@ function fmtArea(ha){
   if(ha>=1000) return Math.round(ha/1000).toLocaleString("pt-BR")+" mil ha";
   return Number(ha).toLocaleString("pt-BR")+" ha";
 }
+var cacheEscopo={};
+function carregaResumoEscopo(){
+  var el=document.getElementById("resumo-escopo"); if(!el) return;
+  var id=nav.regional?slugReg(nav.regional):"nacional";
+  if(cacheEscopo[id]!==undefined){ el.innerHTML=cacheEscopo[id]?htmlResumo(cacheEscopo[id]):""; return; }
+  carregaJSON(BASE+"/_escopos/"+id+".json?t="+Date.now()).then(function(r){
+    cacheEscopo[id]=r;
+    var idAtual=nav.distrito?null:(nav.regional?slugReg(nav.regional):"nacional");
+    var e2=document.getElementById("resumo-escopo");
+    if(e2&&idAtual===id) e2.innerHTML=htmlResumo(r);
+  }).catch(function(e){ cacheEscopo[id]=null; });
+}
 function resumoCards(){
   var R=INDEX&&INDEX.resumo; if(!R) return "";
   var sc=nav.regional?(R.por_regional&&R.por_regional[nav.regional]):R.nacional;
@@ -519,7 +531,7 @@ function viewMapa(){
   var sub = nav.regional
     ? "Estados com munic&iacute;pios desta regional em destaque. Selecione um distrito no menu &agrave; esquerda."
     : "Cada estado pintado pela regional predominante. Clique numa regional (mapa ou menu) para abrir os distritos.";
-  return '<div class="maptitle serif">'+titulo+'</div><div class="mapsub">'+sub+'</div>'+resumoCards()
+  return '<div class="maptitle serif">'+titulo+'</div><div class="mapsub">'+sub+'</div>'+resumoCards()+'<div id="resumo-escopo"></div>'
     +'<div class="maprow"><div class="mapbox"><div class="map">'+svg+'</div></div>'
     +'<div class="legend">'+leg+'</div></div>';
 }
@@ -856,7 +868,7 @@ function filtroMunicipios(d){
 function render(){
   renderSidebar();
   var v=$("view");
-  if(!nav.distrito){ v.innerHTML=viewMapa(); return; }
+  if(!nav.distrito){ v.innerHTML=viewMapa(); carregaResumoEscopo(); return; }
   if(cacheDistrito[nav.distrito]){
     v.innerHTML=montaDistrito(cacheDistrito[nav.distrito]);
     carregaResumoIA(nav.distrito);
