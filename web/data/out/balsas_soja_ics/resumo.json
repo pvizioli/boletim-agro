@@ -1,16 +1,16 @@
 {
  "distrito_id": "balsas_soja_ics",
  "nome": "BALSAS-SOJA/ICS",
- "gerado_em": "2026-07-05T02:37:55+00:00",
+ "gerado_em": "2026-07-06T16:46:54+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Balsas-Soja/ICS — 5 de julho de 2026. A safra 2025/26 está encerrada em MA, PI e TO (Conab, 9º Levantamento, jun/2026), com 100% colhido nas três UFs. O foco desta semana recai inteiramente sobre a dinâmica climática. A série diária revela padrão de tempo úmido e persistente: chuvas ocorrem em 6 dos 7 dias monitorados, com acumulados diários entre 2,4 mm (quarta-feira) e 10,6 mm (terça-feira), totalizando até 41,2 mm no período. As temperaturas máximas oscilam entre 35,0 °C e 35,9 °C, com mínimas entre 17,7 °C e 18,5 °C — amplitude térmica moderada, sem sinal de geada. Ventos predominam do quadrante leste-sudeste com rajadas entre 40 e 48 km/h. A evapotranspiração de referência média de 6,4 mm/dia indica demanda hídrica elevada, compensada pelas chuvas frequentes. Nenhum alerta INMET ativo no período.",
+ "texto": "Distrito Balsas (MA/PI/TO) — safra 2025/26 encerrada em todas as UFs monitoradas, conforme Conab (9º Levantamento, jun/2026). O foco desta semana recai sobre a dinâmica atmosférica. A série diária revela padrão de calor persistente, com máximas entre 34,8 °C (segunda-feira) e 36,5 °C (domingo), mínimas subindo de 17,1 °C para 20,8 °C ao longo da semana — sinal de aumento da umidade de baixos níveis. Ventos com direção girando de sudeste (127°) para leste-nordeste (71°) e rajadas entre 38,9 e 47,5 km/h indicam atuação de sistema de leste. Chuvas distribuídas em 4 dos 7 dias, com pico de 7,2 mm na terça-feira (probabilidade 100%), totalizando até 15,7 mm no período. A evapotranspiração média elevada (6,4 mm/dia) reflete alta demanda atmosférica. Não há alertas INMET ativos. Período de entressafra sem impacto operacional imediato.",
  "pontos": [
-  "Safra 2025/26 encerrada em MA, PI e TO — 100% colhido conforme Conab (jun/2026)",
-  "Chuvas frequentes e persistentes ao longo de toda a semana, com probabilidade acima de 80% em 6 dias consecutivos",
-  "Rajadas de vento de até 47,5 km/h com direção predominante leste-sudeste merecem atenção para estruturas de armazenagem e logística"
+  "Safra 2025/26 encerrada em MA, PI e TO (Conab, jun/2026) — sem operações de campo em andamento",
+  "Rajadas de até 47,5 km/h na quinta-feira e ventos girando para leste ao longo da semana indicam sistema de leste atuante",
+  "ET0 média de 6,4 mm/dia com máximas acima de 35 °C sinaliza alta demanda hídrica atmosférica no período de entressafra"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:16:37+00:00",
+  "clima": "2026-07-06T14:41:43+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "jatai_soja",
  "nome": "JATAI-SOJA",
- "gerado_em": "2026-07-05T02:42:14+00:00",
+ "gerado_em": "2026-07-06T16:51:17+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Jataí-Soja (GO/MS) — 05 de julho de 2026. A semana é marcada por veranico consolidado: sete dias consecutivos sem chuva relevante, com acumulado previsto de apenas 0 a 0,9 mm em todo o período. As máximas sobem progressivamente de 27,1 °C no sábado (04/jul) a 30,3 °C na sexta (10/jul), enquanto as mínimas oscilam entre 14,0 °C e 15,9 °C — padrão típico de inverno seco no Cerrado, sem risco de geada. A evapotranspiração média de 4,0 mm/dia indica demanda hídrica elevada, sem reposição. As rajadas arrefecem ao longo da semana (38,9 km/h no sábado a ~29 km/h na quinta), sem alertas ativos do Inmet. Com ambas as safras encerradas — GO com 20,1 milhões de toneladas (Conab, jun/2026) e MS com 60 sc/ha e alta de 19,1% sobre a safra anterior (Aprosoja/MS-Siga/Famasul, mai/2026) —, o foco migra para comercialização. A saca em Jataí/GO está cotada a R$ 108,50 (Canal Rural, 17/jun/2026).",
+ "texto": "Distrito Jataí-Soja (GO/MS) — safra 2025/26 encerrada em ambos os estados. O tempo na semana de 6 a 12/07 é tipicamente de inverno seco: sequência de seis dias sem chuva relevante, mínimas entre 13,6 °C e 16,8 °C e máximas subindo progressivamente até 31,6 °C no sábado (11/07). A evapotranspiração média de 4,2 mm/dia com rajadas de até 38,9 km/h no sábado indica demanda hídrica elevada para pastagens e culturas de segunda safra. No domingo (12/07), a virada do vento para oeste com rajadas de 54,0 km/h e probabilidade de 50% de chuva (4,2 mm) sugere passagem de sistema frontal fraco — volume insuficiente para recarga hídrica expressiva. No balanço da safra, MS registrou produtividade de 60 sc/ha e produção de 16,7 milhões de toneladas, alta de 19,1% sobre a safra anterior (Aprosoja/MS-Siga/Famasul, 26/05/2026). GO totalizou 20,1 milhões de toneladas (Conab, 9º Levantamento, jun/2026). Preço de referência em Jataí/GO: R$ 108,50/sc (Canal Rural, 17/06/2026).",
  "pontos": [
-  "Veranico de 7 dias sem interrupção: chuva acumulada prevista inferior a 1 mm — sem impacto operacional, mas confirma entressafra seca",
-  "ET0 média de 4,0 mm/dia com zero reposição hídrica: atenção ao manejo de solos e cobertura em áreas de safrinha ou pastagem",
-  "MS encerrou safra 2025/26 com 60 sc/ha, alta de 19,1% sobre a safra anterior — melhor referência de produtividade do distrito"
+  "Seis dias consecutivos sem chuva e ET0 média de 4,2 mm/dia elevam demanda hídrica — atenção a pastagens e culturas de inverno na região",
+  "Passagem frontal prevista para domingo (12/07) com rajadas de 54,0 km/h e até 4,2 mm — volume baixo, sem impacto significativo no balanço hídrico",
+  "MS encerrou safra 2025/26 com 60 sc/ha e alta de 19,1% na produção frente à safra anterior (Aprosoja/MS-Siga/Famasul, 26/05/2026)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:21:23+00:00",
+  "clima": "2026-07-06T14:46:18+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-06-17"
  }

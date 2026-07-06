@@ -1,16 +1,16 @@
 {
  "distrito_id": "maringa_soja",
  "nome": "MARINGA-SOJA",
- "gerado_em": "2026-07-05T02:43:20+00:00",
+ "gerado_em": "2026-07-06T16:52:23+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Maringá-Soja | PR | 05/07/2026. A safra 2025/2026 está encerrada em todas as macrorregiões monitoradas (Apucarana, Cianorte, Maringá, Paranavaí e Umuarama), com 100% colhido e produtividade de 63 sc/ha no Paraná, alta de 2,8% frente ao ciclo anterior (Deral/SEAB-PR, 25/05/2026). O foco desta semana é a dinâmica do tempo de inverno. O sábado (05/07) registrou chuva residual de 2,8 mm com alta probabilidade (92%), seguida de virada do vento para sul e queda da máxima para 21,7 °C na segunda-feira (07/07), com 4,2 mm — padrão típico de passagem frontal. A partir de terça (08/07), tempo seco domina: mínima de 5,6 °C, sem chuva prevista e evapotranspiração média de 3,0 mm/dia, configurando demanda hídrica relevante. Chuva acumulada prevista para 7 dias: máximo de 6,8 mm. Preço da saca em Paranaguá: R$ 128,50/sc (Canal Rural, 17/06/2026).",
+ "texto": "Distrito Maringá-Soja | PR — Safra 2025/2026 encerrada. A semana se inicia com passagem de sistema frontal: segunda-feira (06/07) registrou máxima de 25,1 °C, chuva de 1,6 mm e rajadas de 36,7 km/h com vento de noroeste, seguida de queda brusca de temperatura na terça (07/07) — mínima de 8,5 °C — e virada do vento para sul/sudeste, padrão típico de pós-frontal. De quarta (08/07) a sexta (10/07), sequência seca com mínimas entre 5,3 °C e 9,3 °C e evapotranspiração média de 3,2 mm/dia caracteriza veranico de inverno. O tempo volta a deteriorar no fim de semana: sábado (11/07) e domingo (12/07) concentram 75,7 mm e rajadas de até 47,9 km/h, sugerindo novo sistema frontal. Com colheita 100% concluída em todas as macrorregiões (Deral/SEAB, 25/05/2026) e produtividade de 63 sc/ha (+2,8% vs. safra anterior), o foco recai sobre comercialização: saca a R$ 128,50 em Paranaguá (Canal Rural, 17/06/2026).",
  "pontos": [
-  "Safra 2025/2026 encerrada com 63 sc/ha no PR, +2,8% vs safra anterior (Deral/SEAB-PR, 25/05/2026)",
-  "Passagem frontal entre sábado e segunda-feira trouxe queda de temperatura e até 4,2 mm em 07/07",
-  "Sequência seca de pelo menos 3 dias a partir de terça (08/07) com ET0 média de 3,0 mm/dia — atenção ao manejo de solos e culturas de inverno"
+  "Geada não caracterizada, mas mínimas abaixo de 6 °C entre quarta e quinta (08–09/07) exigem atenção a culturas de inverno na região",
+  "Chuva concentrada no fim de semana (até 53,3 mm no domingo 12/07) pode dificultar operações de campo e logística de transporte de grãos",
+  "Safra 2025/2026 encerrada com 63 sc/ha e alta de 2,8% sobre o ciclo anterior — momento de avaliar estratégia de venda com saca a R$ 128,50 (Paranaguá, 17/06/2026)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:21:28+00:00",
+  "clima": "2026-07-06T14:46:22+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

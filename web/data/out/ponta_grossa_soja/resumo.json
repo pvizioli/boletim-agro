@@ -1,16 +1,16 @@
 {
  "distrito_id": "ponta_grossa_soja",
  "nome": "PONTA GROSSA-SOJA",
- "gerado_em": "2026-07-05T02:44:51+00:00",
+ "gerado_em": "2026-07-06T16:53:56+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Ponta Grossa — Paraná, 05/jul/2026. A safra 2025/2026 está encerrada com 100% colhido em todas as macrorregiões monitoradas (Curitiba, Irati e Ponta Grossa), produtividade de 63 sc/ha e produção de 21,78 milhões de toneladas, alta de 2,8% sobre a safra anterior (Deral/SEAB-PR, 25/mai/2026). O foco agora é o clima de entressafra. A semana inicia com chuvas fracas a moderadas (sábado a segunda, totalizando até 8,1 mm nos 11 municípios monitorados) e vento de norte/noroeste, sugerindo atuação de sistema frontal em deslocamento. A partir de terça-feira (07/jul), virada do vento para sudoeste e queda expressiva da mínima — chegando a 2,8 °C na quarta (08/jul) e 2,7 °C na quinta (09/jul) — configura risco de geada nas áreas mais elevadas dos Campos Gerais. ET0 média de 2,5 mm/dia indica demanda hídrica moderada. Preço da saca em R$ 128,50 (Paranaguá, 17/jun/2026, Canal Rural).",
+ "texto": "Distrito Ponta Grossa-PR | Safra 2025/2026 encerrada. Com colheita 100% concluída em todas as macrorregiões (Curitiba, Irati e Ponta Grossa) desde 25/05/2026 (Deral/SEAB-PR), o foco desta semana recai sobre a dinâmica do tempo invernal. A série aponta passagem de sistema frontal entre segunda (07/07) e terça (08/07): queda de máxima de 22 °C para 19–20 °C, virada de vento para norte-noroeste e mínima de 1,7 °C na terça — único dia com risco de geada registrado. Após a passagem, sequência de quatro dias secos (08–11/07) com evapotranspiração média de 2,4 mm/dia eleva a demanda hídrica. Novo evento chuvoso concentra-se no sábado (11/07, 29,5 mm) e domingo (12/07, 15,6 mm), com rajadas de até 45,7 km/h. Produtividade da safra: 63 sc/ha (+2,8% vs. safra anterior; Deral/SEAB-PR, 25/05/2026). Preço em Paranaguá: R$ 128,50/sc (Canal Rural, 17/06/2026).",
  "pontos": [
-  "Risco de geada em 08 e 09/jul: mínimas projetadas de 2,8 °C e 2,7 °C respectivamente — atenção a culturas de inverno e pastagens nas cotas mais altas",
-  "Passagem frontal entre domingo e segunda (05–06/jul) traz chuvas de até 8,1 mm; janela seca de pelo menos 3 dias consecutivos a partir de terça",
-  "Safra 2025/2026 encerrada com 63 sc/ha no PR, alta de 2,8% vs safra anterior (Deral/SEAB-PR, 25/mai/2026)"
+  "Geada potencial na madrugada de terça-feira (08/07): mínima prevista de 1,7 °C em Ponta Grossa — atenção a culturas de inverno e pastagens",
+  "Janela seca de 4 dias (08 a 11/07) com ET0 acumulada estimada acima de 11 mm — relevante para lavouras de cobertura e trigo em estabelecimento",
+  "Chuva intensa e rajadas fortes no fim de semana (11–12/07, até 45,7 km/h): risco operacional para pulverizações e colheita de culturas de inverno precoces"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:22:38+00:00",
+  "clima": "2026-07-06T14:47:29+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

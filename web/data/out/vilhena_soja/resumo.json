@@ -1,16 +1,16 @@
 {
  "distrito_id": "vilhena_soja",
  "nome": "VILHENA-SOJA",
- "gerado_em": "2026-07-05T02:48:44+00:00",
+ "gerado_em": "2026-07-06T16:57:49+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Vilhena-Soja | 05 de julho de 2026. A safra 2025/26 está encerrada em MT e RO. O tempo na semana apresenta dinâmica de entressafra típica do Cerrado: sábado (05/jul) e sexta (04/jul) registraram mínimas baixas — 14,7 °C e 12,6 °C respectivamente — com céu aberto e probabilidade de chuva inferior a 15%, indicando atuação de massa de ar seco e frio. A partir de segunda (06/jul), a temperatura mínima sobe progressivamente até 19,3 °C na sexta (10/jul), acompanhada de chuvas esparsas de 6,2 a 11,1 mm (maior volume na terça, 07/jul, com 79% de probabilidade) e rajadas de até 41,8 km/h — padrão consistente com avanço de umidade pelo fluxo de nordeste. A evapotranspiração média de 4,6 mm/dia sustenta demanda hídrica moderada. MT encerrou a safra com 66 sc/ha e produção de 51,56 Mt (+1,3% vs. safra anterior, Imea/Conab, jun/2026). Preço em MT: R$ 108,63/sc (Grao Direto, Nordeste MT, 03/jul/2026).",
+ "texto": "Distrito Vilhena-Soja (AM, MT, RO) — 6 a 12 de julho de 2026. Safra 2025/26 encerrada em todo o distrito. MT registrou produtividade de 66 sc/ha e produção de 51,56 milhões de toneladas, alta de 1,3% sobre a safra anterior (Imea em Campo/Conab 9º Lev., jun/2026). RO sem dados de produtividade e produção disponíveis. O padrão climático da semana revela entressafra seca com demanda evapotranspirativa elevada: máxima semanal de 34,4 °C, mínima de 15,6 °C e ET0 média de 4,4 mm/dia. Segunda-feira concentra o evento chuvoso mais expressivo (8,3 mm, probabilidade 94%), seguido de sequência predominantemente seca de até três dias consecutivos. No sábado, rajadas de 53,6 km/h e 15,0 mm sinalizam perturbação convectiva de encerramento. Sem alertas Inmet ativos. Preço da saca em MT: R$ 108,63/sc 60 kg (Grao Direto, Nordeste MT, 03/07/2026).",
  "pontos": [
-  "Safra 2025/26 encerrada em MT (66 sc/ha, +1,3%) e RO; foco agora em comercialização e planejamento da próxima temporada",
-  "Mínima de 12,6 °C registrada em 04/jul — atenção ao monitoramento de culturas de inverno e pastagens em áreas de altitude no sul de RO e norte de MT",
-  "Chuvas de até 11,1 mm previstos para segunda e terça (06-07/jul) podem dificultar operações de campo e transporte em estradas não pavimentadas"
+  "Safra 2025/26 encerrada em MT e RO; foco no escoamento e comercialização do grão colhido",
+  "ET0 média de 4,4 mm/dia com chuva acumulada de apenas 1,2 a 18,1 mm na semana — entressafra seca, sem impacto operacional imediato",
+  "Rajada de 53,6 km/h prevista para sábado (12/07) pode afetar logística e estruturas de armazenagem"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:26:13+00:00",
+  "clima": "2026-07-06T14:49:50+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

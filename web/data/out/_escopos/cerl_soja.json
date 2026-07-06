@@ -1,0 +1,14 @@
+{
+ "escopo_id": "cerl_soja",
+ "nome": "CERL SOJA",
+ "tipo": "regional",
+ "gerado_em": "2026-07-06T16:58:29+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Safra 2025/2026 de soja no escopo CERL encerrada: 100% colhido em 9,43 milhões de ha. As três sub-regiões de MS apresentam colheita finalizada, porém com forte heterogeneidade de produtividade — a região Norte lidera com 68 sc/ha, enquanto Centro (58 sc/ha) e Sul (59 sc/ha) ficaram 14–16% abaixo, diferença expressiva que reflete variações edafoclimáticas intrassazonais (fontes: Aprosoja/MS-Siga/Famasul, balanço final). Na entressafra, o clima dos 156 municípios monitorados mostra chuvas persistentes nos próximos 7 dias (até 28,9 mm; probabilidade ≥85% em todos os dias), ET₀ média elevada de 6,4 mm/dia e rajadas de até 54,7 km/h em 12/07. Temperaturas máximas próximas a 36–37 °C contrastam com mínimas de 13 °C. Preços em patamar firme: R$ 112/sc (DF, mai/26) e R$ 108,50/sc (Jataí/GO, jun/26), sem alertas INMET ativos.",
+ "pontos": [
+  "Colheita 100% concluída nas três regiões de MS; Norte destaca-se com 68 sc/ha ante 58–59 sc/ha no Centro e Sul — diferença de até 17% entre sub-regiões (Aprosoja/MS-Siga/Famasul).",
+  "Período de entressafra com chuvas frequentes (6 de 7 dias com evento relevante, acumulado até 28,9 mm) e ET₀ média de 6,4 mm/dia — condições que favorecem preparo de solo, mas exigem atenção ao tráfego de máquinas.",
+  "Rajadas de vento crescentes ao longo da semana (até 54,7 km/h em 12/07) e amplitude térmica acentuada (13–37 °C) são fatores de atenção para operações de campo e armazenagem.",
+  "Preços da soja sustentados acima de R$ 108/sc nas praças monitoradas (DF e Jataí/GO), sinalizando janela comercial favorável para escoamento de estoques remanescentes."
+ ]
+}

@@ -1,16 +1,16 @@
 {
  "distrito_id": "porto_alegre_soja",
  "nome": "PORTO ALEGRE-SOJA",
- "gerado_em": "2026-07-05T02:45:05+00:00",
+ "gerado_em": "2026-07-06T16:54:09+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "RS SOJA — Safra 2025/2026 encerrada. O tempo em Porto Alegre segue padrão típico de inverno gaúcho com passagem frontal identificada entre domingo (05/jul) e segunda (06/jul): virada de vento de leste (94°) para oeste-noroeste (257°), queda de máxima de 19,1°C para 15,8°C e pico de chuva de 5,2 mm com maior probabilidade da semana (78%). Após a frente, vento gira para noroeste-norte com mínimas de 1,7°C e 0,8°C na terça (07/jul) e quarta (08/jul), configurando risco de geada nos 28 municípios monitorados. A sequência seca subsequente (quatro dias sem chuva relevante) eleva a demanda evapotranspirativa, com ET0 média de 1,8 mm/dia e pico de 2,53 mm/dia na quinta (09/jul). Chuva acumulada prevista para 7 dias é de apenas 0,7 a 6,9 mm. A safra 2025/2026 encerrou com 45 sc/ha e produção de 18,1 milhões de toneladas (+32,9% vs safra anterior), segundo Emater/RS-Ascar (11/jun/2026). Preço: R$ 129/sc (Grão Direto, 03/jul/2026).",
+ "texto": "Safra 2025/2026 encerrada no RS com 100% colhido (Emater/RS-Ascar, 11/jun/2026). Produtividade média de 45 sc/ha, queda de 14,8% ante a projeção inicial, com forte variabilidade regional. Preço da saca em R$ 129,00 (Grão Direto, 03/jul/2026). Na dinâmica climática desta semana, segunda-feira (06/jul) registrou chuva intensa de 21,9 mm, máxima de apenas 15,6°C e rajadas de 47,9 km/h com vento de oeste, sinalizando passagem de sistema frontal. A saída do sistema trouxe dois dias secos (07 e 08/jul) com mínimas críticas de 2,1°C e 1,6°C — risco de geada confirmado pelos sinais derivados. Quinta-feira (09/jul) aquece até 24,5°C com vento norte. Nova perturbação chega na sexta (10/jul), com virada de vento para sul e chuvas previstas até domingo (12/jul), acumulando até 31 mm adicionais. ET0 média semanal de 1,9 mm/dia indica demanda hídrica moderada.",
  "pontos": [
-  "Risco de geada nas madrugadas de terça (07/jul) e quarta (08/jul): mínimas de 1,7°C e 0,8°C respectivamente — atenção a culturas de inverno e pastagens",
-  "Passagem frontal confirmada no domingo-segunda com virada de vento e 5,2 mm de chuva em 06/jul; semana segue predominantemente seca após o sistema",
-  "Safra 2025/2026 encerrada com 45 sc/ha — 14,8% abaixo da projeção inicial, com forte variabilidade regional (Emater/RS-Ascar, 11/jun/2026)"
+  "Geada possível na madrugada de terça (07/jul) e quarta (08/jul): mínimas de 2,1°C e 1,6°C confirmadas pelos sinais derivados — atenção a culturas de inverno e pastagens",
+  "Segunda frente prevista entre sexta (10/jul) e domingo (12/jul) com até 31 mm acumulados e rajadas de até 52,9 km/h no domingo",
+  "Safra 2025/2026 encerrada com produtividade 14,8% abaixo da projeção inicial (45 sc/ha); variabilidade regional expressiva registrada pela Emater/RS-Ascar"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:22:38+00:00",
+  "clima": "2026-07-06T14:47:30+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

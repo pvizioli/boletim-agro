@@ -1,0 +1,14 @@
+{
+ "escopo_id": "prsc_soja",
+ "nome": "PRSC SOJA",
+ "tipo": "regional",
+ "gerado_em": "2026-07-06T16:58:56+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "PR-SC | Safra 2025/2026 — Entressafra. A colheita de soja está encerrada em 100% da área em todas as 23 regiões monitoradas do Paraná (Deral/SEAB), sobre 6,22 milhões de ha. Dados de produtividade por região não foram divulgados até o fechamento deste boletim. O foco agora é o clima de inverno: a semana de 06–12/jul apresenta padrão instável, com chuvas acumuladas de até 104 mm em 7 dias, 5 dias com precipitação relevante e episódio de geada potencial em 07, 08 e 09/jul (mínimas de 0,2 °C a −1,3 °C). Rajadas chegam a 58 km/h em 12/jul. A ET₀ média é de 3,3 mm/dia. Preço de referência: R$ 128,50/sc (Paranaguá, 17/jun/2026 — Canal Rural).",
+ "pontos": [
+  "Entressafra consolidada: todas as 23 regiões paranaenses atingiram 100% de colheita (Deral/SEAB — fechamento safra 25/26); produtividade por sub-área não disponível no levantamento.",
+  "Risco de geada nos dias 07–09/jul: mínimas entre −1,3 °C e 0,2 °C em 439 municípios monitorados — atenção para culturas de inverno e pastagens em regiões de altitude (Guarapuava, Irati, Ponta Grossa, União da Vitória).",
+  "Instabilidade intensa na segunda metade da semana: evento de 92,7 mm em 11/jul e 53,3 mm em 12/jul, com rajadas de até 58 km/h — impacto logístico potencial no escoamento de grãos armazenados.",
+  "Preço da soja em Paranaguá: R$ 128,50/sc (17/jun/2026 — Canal Rural); produtor deve monitorar janelas de comercialização considerando o cenário de câmbio e demanda de exportação no período de entressafra."
+ ]
+}

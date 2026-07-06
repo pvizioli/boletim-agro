@@ -1,16 +1,16 @@
 {
  "distrito_id": "rondonopolis_soja_ics",
  "nome": "RONDONOPOLIS-SOJA/ICS",
- "gerado_em": "2026-07-05T02:46:07+00:00",
+ "gerado_em": "2026-07-06T16:55:17+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Rondonópolis (MT) — Safra 2025/26 encerrada com 100% colhido e produtividade de 66 sc/ha, superando a safra anterior em 1,3% (Imea em Campo/Conab 9º levantamento, jun/26). O foco agora é o clima de entressafra e a comercialização. A semana de 4 a 10 de julho é marcada por tempo seco absoluto: sete dias consecutivos sem chuva, probabilidade nula ou irrisória em todos os dias monitorados e previsão de zero milímetro para os próximos sete dias. As máximas sobem progressivamente de 31,1°C (sábado) a 33,9°C (sexta), enquanto as mínimas oscilam entre 13,8°C e 16,0°C — amplitude térmica típica do inverno mato-grossense sob domínio de massa de ar seco. Ventos de sul a sudoeste com rajadas entre 30 e 36 km/h reforçam a baixa umidade. A evapotranspiração média de 4,4 mm/dia indica demanda hídrica elevada, sem impacto operacional na safra encerrada. Preço da soja em Nordeste-MT: R$ 108,63/sc (Grão Direto, 03/jul/26).",
+ "texto": "Rondonópolis (MT) — Entressafra 2025/26. A semana de 6 a 12 de julho é marcada por veranico consolidado: sete dias consecutivos sem chuva relevante, máximas escalando de 31,5 °C (segunda) até 34,4 °C (sábado) e mínimas entre 13,8 °C e 18,3 °C. A evapotranspiração média de 4,5 mm/dia reflete alta demanda atmosférica sob céu aberto e ventos de sudoeste/sul com rajadas de até 50 km/h no sábado (dia 12). A virada do vento para leste-sudeste entre quarta e sexta, seguida do retorno ao quadrante oeste com rajada intensa e probabilidade de chuva de 38% no sábado, sugere aproximação de sistema frontal no final do período — mas a precipitação esperada é residual (máx. 1,8 mm). A safra 2025/26 está encerrada em MT: produtividade de 66 sc/ha e produção de 51,56 Mt (Imea em Campo/Conab 9º lev., jun/26), alta de 1,3% sobre a safra anterior. Saca cotada a R$ 108,63 (Grão Direto, Nordeste MT, 03/07/26).",
  "pontos": [
-  "Safra 2025/26 encerrada: 66 sc/ha, +1,3% sobre a safra anterior (Imea/Conab, jun/26)",
-  "Sete dias consecutivos sem chuva e zero milímetro previsto para a próxima semana — veranico de inverno consolidado",
-  "ET0 média de 4,4 mm/dia com rajadas de até 36 km/h elevam ressecamento do solo e risco de incêndios em áreas de palhada"
+  "Veranico de 7 dias com ET0 média de 4,5 mm/dia eleva demanda hídrica — atenção ao planejamento de irrigação em áreas com culturas de inverno",
+  "Rajada de 50 km/h e probabilidade de 38% de chuva no sábado (12/07) indicam possível passagem frontal fraca — monitorar evolução para a semana seguinte",
+  "Safra 2025/26 encerrada em MT com 66 sc/ha e +1,3% sobre a safra anterior (Imea/Conab, jun/26)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:24:53+00:00",
+  "clima": "2026-07-06T14:47:33+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "ibiruba_soja",
  "nome": "IBIRUBA-SOJA",
- "gerado_em": "2026-07-05T02:41:24+00:00",
+ "gerado_em": "2026-07-06T16:50:26+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Ibirubã-Soja | RS | 05 jul 2026. A safra 2025/2026 está encerrada com 100% colhido. A semana meteorológica apresenta padrão típico de inverno gaúcho com passagem frontal identificada: sábado (05/jul) registrou máxima de 19,8 °C com virada de vento para leste e chuva de 1,6 mm; domingo (06/jul) a direção girou para sudoeste com queda brusca de temperatura (máxima 13,6 °C), sinalizando avanço frontal. A partir de terça (07/jul), sequência de quatro dias secos com mínimas de 0,4 a 0,8 °C eleva o risco de geada — dias 04, 07 e 08/jul já figuram com mínimas abaixo de 3 °C. A evapotranspiração média de 1,8 mm/dia e máxima de 2,69 mm/dia em quinta (09/jul) indicam demanda hídrica moderada a alta no período seco. Produtividade final: 45 sc/ha (Emater/RS-Ascar, 11/jun/2026), 14,8% abaixo da projeção inicial. Preço: R$ 129/sc (Grão Direto, 03/jul/2026).",
+ "texto": "Distrito Ibirubã-Soja | RS | 06/07/2026. Safra 2025/2026 encerrada com 100% colhido e produtividade de 45 sc/ha (Emater/RS-Ascar, 11/06/2026), alta de 32,9% ante a safra anterior, porém 14,8% abaixo da projeção inicial, com forte variabilidade regional. Preço em R$ 129,00/sc 60 kg (Grão Direto, 03/07/2026). Na dinâmica do tempo, a semana inicia com temperatura máxima de apenas 13,9 °C na segunda-feira e mínima de 0,6 °C na terça — risco de geada nos dias 07 e 08/07. A virada do vento de oeste/noroeste para leste entre terça e quarta indica passagem de sistema frontal, seguida de aquecimento até 20,4 °C na quinta. Nova perturbação chega no sábado (29,7 mm previstos, rajadas de 42,8 km/h), concentrando a maior parte dos 6,7–32,9 mm previstos para a semana. ET0 média de 1,6 mm/dia reflete demanda hídrica moderada típica do inverno gaúcho.",
  "pontos": [
-  "Risco de geada nos dias 07 e 08/jul com mínimas de 0,8 °C e 0,4 °C respectivamente — atenção a culturas de inverno e infraestrutura",
-  "Sequência seca de quatro dias com ET0 acumulada elevada pode impactar lavouras de cobertura e trigo em estabelecimento",
-  "Safra soja 2025/2026 encerrada a 45 sc/ha, com forte variabilidade regional (1.200–4.200 kg/ha) e resultado 14,8% abaixo da projeção inicial (Emater/RS-Ascar, 11/jun/2026)"
+  "Geada possível em 07 e 08/07: mínimas de 0,6 °C e 1,1 °C respectivamente — atenção a culturas de inverno e infraestrutura",
+  "Evento chuvoso concentrado no sábado (11/07) com até 29,7 mm e rajadas de 42,8 km/h — monitorar drenagem e logística de transporte de grãos armazenados",
+  "Produtividade da soja 2025/2026 ficou 14,8% abaixo da projeção inicial, com variabilidade regional expressiva (1.200–4.200 kg/ha)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:19:08+00:00",
+  "clima": "2026-07-06T14:45:08+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

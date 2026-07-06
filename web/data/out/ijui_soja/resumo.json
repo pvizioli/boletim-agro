@@ -1,16 +1,16 @@
 {
  "distrito_id": "ijui_soja",
  "nome": "IJUI-SOJA",
- "gerado_em": "2026-07-05T02:41:36+00:00",
+ "gerado_em": "2026-07-06T16:50:39+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Ijuí-Soja, RS — safra 2025/2026 encerrada com 100% colhido. Produtividade final de 45 sc/ha (Emater/RS-Ascar, 11/jun/2026), 14,8% abaixo da projeção inicial, com forte variabilidade regional. Preço da saca em R$ 129,00 (Grão Direto, Centro Ocidental RS, 03/jul/2026). No clima, o padrão da semana revela passagem de sistema frontal entre sábado (04/jul) e domingo (05/jul): queda brusca de máxima para 13,5 °C, mínima de 1,4 °C, chuva de 3,1 mm e rajadas de 38,9 km/h com vento de leste. A virada para oeste/noroeste na segunda (06/jul) confirma a passagem frontal. De terça (07/jul) a quinta (09/jul), sequência seca com mínimas abaixo de 3 °C em dois dias e evapotranspiração acumulando até 2,62 mm/dia. Única chuva relevante prevista na sexta (10/jul), 6,2 mm. Sem alertas Inmet ativos.",
+ "texto": "Distrito Ijuí-Soja | RS | 06/jul/2026. A safra 2025/2026 está encerrada na região de Ijuí (100% colhido, Emater/RS-Ascar, 14/mai/2026), com produtividade estadual de 45 sc/ha e produção de 18,1 milhões de toneladas — alta de 32,9% sobre a safra anterior, porém 14,8% abaixo da projeção inicial, reflexo de forte variabilidade regional (Emater/RS-Ascar, 11/jun/2026). O preço da saca 60 kg está em R$ 129,00 no Centro Ocidental do RS (Grão Direto, 03/jul/2026). No clima, a semana iniciou com mínimas próximas a 1,3 °C (segunda-feira, 07/jul) e 2,6 °C (terça, 08/jul), sustentando risco de geada em dois dias consecutivos. A partir de quarta (09/jul), ventos do quadrante norte elevaram a máxima a 21,2 °C e a ET0 a 2,83 mm/dia. Uma virada de vento para leste/sudeste na sexta (10/jul) e sábado (11/jul), com rajadas de até 36,7 km/h e chuva acumulada de 17,3 mm, indica passagem de sistema frontal encerrando o período seco de quatro dias.",
  "pontos": [
-  "Risco de geada em 04/jul, 07/jul e 08/jul com mínimas entre 1,4 °C e 2,6 °C — atenção a culturas de inverno e pastagens",
-  "Sequência de 5 dias secos e evapotranspiração média de 1,9 mm/dia elevam demanda hídrica na entressafra",
-  "Safra 2025/2026 encerrada a 45 sc/ha, 14,8% abaixo do projetado; variabilidade regional expressiva (1.200–4.200 kg/ha)"
+  "Geada possível: mínimas de 1,3 °C (07/jul) e 2,6 °C (08/jul) — atenção a culturas de inverno e pastagens na região de Ijuí",
+  "Passagem frontal entre sexta (10/jul) e sábado (11/jul) traz 17,3 mm acumulados e rajadas de até 36,7 km/h",
+  "Safra 2025/2026 encerrada com 45 sc/ha no RS, mas 14,8% abaixo da projeção inicial — variabilidade regional expressiva (1.200–4.200 kg/ha)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:20:12+00:00",
+  "clima": "2026-07-06T14:45:09+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

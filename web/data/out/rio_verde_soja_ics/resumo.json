@@ -1,16 +1,16 @@
 {
  "distrito_id": "rio_verde_soja_ics",
  "nome": "RIO VERDE-SOJA/ICS",
- "gerado_em": "2026-07-05T02:45:54+00:00",
+ "gerado_em": "2026-07-06T16:55:04+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Rio Verde/GO – 5 de julho de 2026. A semana é marcada por estação seca consolidada: sete dias consecutivos sem chuva, probabilidade zero em toda a janela e previsão de precipitação nula (0 mm) para os próximos sete dias nos oito municípios monitorados. A série diária revela aquecimento gradual, com máximas subindo de 31,4 °C no sábado (4/jul) a 34,4 °C na sexta (10/jul) e mínimas oscilando entre 14,8 °C e 17,1 °C — padrão típico de inverno seco do Cerrado, sem indícios de frente fria ou geada. Ventos predominantemente de leste/sudeste com rajadas entre 28 e 33 km/h e evapotranspiração média de 4,3 mm/dia reforçam a demanda hídrica elevada. A safra 2025/26 de GO está encerrada (100% colhida), com produção de 20,1 milhões de toneladas (Conab – 9º Levantamento, jun/2026). Soja em Goiás cotada a R$ 108,50/sc 60 kg (Canal Rural – Jataí/GO, 17/jun/2026).",
+ "texto": "Rio Verde (GO) — Julho/2026. A safra 2025/26 de soja em Goiás está encerrada, com produção de 20,1 milhões de toneladas registrada pela Conab no 9º Levantamento (jun/2026). O clima desta semana é marcado por veranico consolidado: sete dias consecutivos sem chuva relevante, máximas escalando de 31,9°C (segunda-feira) a 34,9°C (sexta e sábado), mínimas entre 14,7°C e 18,4°C, e ventos de sul/sudeste girando para leste ao longo da semana — padrão típico de domínio de massa de ar seco continental no inverno do Cerrado. A evapotranspiração média de 4,6 mm/dia reforça a alta demanda hídrica atmosférica. Para domingo (12/07), rajadas de 54,7 km/h com vento virando para oeste e probabilidade de 37% de chuva (0,6 mm) sugerem aproximação de perturbação, sem expressividade agronômica. Preço de referência: R$ 108,50/sc 60kg em Jataí/GO (Canal Rural, 17/06/2026).",
  "pontos": [
-  "Seca total na semana: 7 dias sem chuva e 0 mm previstos — sem risco operacional para a safra atual, mas atenção ao planejamento de irrigação de culturas de entressafra",
-  "Aquecimento progressivo com máxima de 34,4 °C na sexta (10/jul) e ET0 média de 4,3 mm/dia indicam demanda hídrica elevada para o período",
-  "Safra 2025/26 de soja em GO encerrada com 20,1 milhões de toneladas (Conab, jun/2026) — foco agora em comercialização e planejamento da próxima temporada"
+  "Safra 2025/26 encerrada em GO com 20,1 milhões de toneladas (Conab, jun/2026)",
+  "Veranico de 7 dias com máximas até 34,9°C e ET0 média de 4,6 mm/dia — alta demanda hídrica atmosférica no período",
+  "Domingo (12/07): rajada prevista de 54,7 km/h e virada de vento para oeste podem indicar passagem de perturbação, mas chuva prevista é irrisória (0,6 mm)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:23:45+00:00",
+  "clima": "2026-07-06T14:47:32+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-06-17"
  }

@@ -1,0 +1,14 @@
+{
+ "escopo_id": "centro_soja",
+ "nome": "CENTRO SOJA",
+ "tipo": "regional",
+ "gerado_em": "2026-07-06T16:58:14+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "CENTRO SOJA | Regional (ES, GO, MG, RJ, SP) | 06/07/2026 — Safra 2025/2026 encerrada: 100% da área de 3,11 milhões de ha colhida. A regional está em plena entressafra. O clima dos próximos 7 dias (231 municípios monitorados) apresenta padrão típico de inverno com forte amplitude térmica: máximas até 33,3 °C e mínimas chegando a 3,4 °C, exigindo atenção a geadas pontuais. Chuvas irregulares previstas (0–41,4 mm), concentradas em 3 dias, com evento mais expressivo em 11–12/jul (até 24,2 mm, rajadas de 60,8 km/h). ET₀ média elevada de 4,6 mm/dia. Preços: MG R$ 113/sc (Portal Agron, Triângulo Mineiro, 06/05/2026); GO R$ 108,50/sc (Canal Rural, Jataí, 17/06/2026). Dados de colheita por sub-área não disponíveis nesta versão, impedindo análise de heterogeneidade distrital.",
+ "pontos": [
+  "Safra 2025/2026 100% colhida em 3,11 milhões de ha — regional em entressafra, sem risco operacional de colheita.",
+  "Amplitude térmica extrema na semana (3,4 °C a 33,3 °C): risco de geada em sub-áreas de altitude elevada (MG/SP/GO) entre 07–09/jul.",
+  "Chuvas concentradas em 11–12/jul com rajadas de até 60,8 km/h podem impactar operações de preparo de solo e logística de armazenagem.",
+  "Diferencial de preço de R$ 4,50/sc entre MG (R$ 113) e GO (R$ 108,50) sinaliza oportunidade de arbitragem regional, embora as cotações sejam de datas distintas."
+ ]
+}

@@ -1,16 +1,16 @@
 {
  "distrito_id": "cuiaba_soja",
  "nome": "CUIABA-SOJA",
- "gerado_em": "2026-07-05T02:39:54+00:00",
+ "gerado_em": "2026-07-06T16:48:56+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Cuiabá-Soja | Safra 2025/26 encerrada. A semana de 4 a 10 de julho é marcada por bloqueio atmosférico típico do inverno mato-grossense: sete dias consecutivos sem chuva, probabilidade nula até sexta-feira e apenas 2% no sábado (dia 10). As temperaturas máximas oscilam entre 29,7 °C (sábado, dia 4) e 33,7 °C (quinta, dia 9), enquanto as mínimas recuam a 13,7 °C neste domingo (dia 5), sem risco de geada. A evapotranspiração média de 4,4 mm/dia, com pico de 4,84 mm/dia na quinta, indica demanda hídrica elevada para pastagens e culturas de entressafra. Rajadas de até 36,7 km/h na terça (dia 7) reforçam o ressecamento do ar. A safra 2025/26 foi encerrada com 100% colhido em todas as macrorregiões (Imea/Conab, jun/26), produtividade de 66 sc/ha e produção de 51,56 Mt, alta de 1,3% sobre a safra anterior. Preço em MT: R$ 108,63/sc (Grão Direto – Nordeste MT, 03/jul/26).",
+ "texto": "Distrito Cuiabá-Soja (MT) — 06/jul/2026. A safra 2025/26 está encerrada em todo o Mato Grosso, com colheita 100% concluída nas macrorregiões Centro-Sul, Médio-Norte e Oeste (Imea/Conab, 11/jun/26). A produtividade fechou em 66 sc/ha, com produção de 51,56 milhões de toneladas, alta de 1,3% sobre a safra anterior (Imea em Campo/Conab 9º lev., 11/jun/26). O preço da saca está em R$ 108,63/sc 60kg no Nordeste do MT (Grão Direto, 03/jul/26). No clima, a semana é marcada por veranico consolidado: seis dias consecutivos sem chuva, máximas entre 32 e 34 °C e mínimas em queda até 15 °C na quarta-feira. A evapotranspiração média de 4,9 mm/dia reflete alta demanda atmosférica. Ventos de sul a sudoeste nos primeiros dias giram para norte a partir de quinta, com aquecimento progressivo. Para domingo, rajadas de 52 km/h e 6,6 mm de chuva indicam possível passagem de sistema convectivo.",
  "pontos": [
-  "Sete dias sem chuva e ET0 média de 4,4 mm/dia elevam demanda hídrica para pastagens e culturas de entressafra em MT",
-  "Mínima de 13,7 °C neste domingo (dia 5) exige monitoramento em áreas de altitude, sem caracterização de geada pelos dados disponíveis",
-  "Safra 2025/26 encerrada: 66 sc/ha e 51,56 Mt produzidas em MT, com alta de 1,3% sobre a safra anterior (Imea/Conab, jun/26)"
+  "Safra 2025/26 encerrada com 66 sc/ha em MT — 1,3% acima da safra anterior (Imea/Conab, jun/26)",
+  "Veranico de 6 dias e ET0 média de 4,9 mm/dia — sem impacto operacional na entressafra, mas relevante para solos descobertos",
+  "Domingo (12/jul) com rajada de 52 km/h e 6,6 mm previstos — atenção a estruturas de armazenagem e logística"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:17:56+00:00",
+  "clima": "2026-07-06T14:44:00+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

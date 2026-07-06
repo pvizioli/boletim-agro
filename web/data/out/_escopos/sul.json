@@ -1,0 +1,14 @@
+{
+ "escopo_id": "sul",
+ "nome": "Sul",
+ "tipo": "regional",
+ "gerado_em": "2026-07-06T16:59:18+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Região Sul, safra 2025/2026 — Os dados disponíveis para o período de 7 dias (referência 06/07/2026) são insuficientes para uma análise quantitativa robusta: precipitação prevista, temperaturas máxima e mínima, área plantada, percentual colhido e preços por UF não foram informados no conjunto de dados recebido. Nenhum alerta INMET ativo foi registrado e a sequência de dias secos aponta zero, indicando ausência de evento seco consolidado no período. Sem dados de sub-áreas, não é possível mapear heterogeneidade regional de colheita ou produtividade. Recomenda-se aguardar atualização do levantamento antes de emitir orientações operacionais.",
+ "pontos": [
+  "Dados climáticos da semana (chuva, Tmax, Tmin) não disponíveis — análise de risco para colheita/armazenagem fica prejudicada.",
+  "Nenhum alerta INMET ativo registrado para os 7 municípios monitorados na região Sul.",
+  "Percentual colhido, área total e produtividade (sc/ha) da safra 2025/2026 ausentes — heterogeneidade entre sub-áreas não pode ser avaliada.",
+  "Preços por UF não informados — cruzamento clima × mercado indisponível neste ciclo de boletim."
+ ]
+}

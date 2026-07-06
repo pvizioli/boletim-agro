@@ -1,16 +1,16 @@
 {
  "distrito_id": "cascavel_soja",
  "nome": "CASCAVEL-SOJA",
- "gerado_em": "2026-07-05T02:39:00+00:00",
+ "gerado_em": "2026-07-06T16:48:04+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Cascavel, PR — Entressafra 2025/2026. A semana apresenta dinâmica típica de inverno com passagem de sistema frontal evidente na segunda-feira (06/jul): queda brusca da máxima de 25,1 °C para 19,6 °C, chuva concentrada de 11,4 mm com probabilidade de 97% e vento girando para sul-sudoeste. Após a frente, mínima de 2,3 °C na quarta-feira (08/jul) acende alerta de risco de geada (Deral/SEAB, 25/mai). A semana fecha seca, com ET0 média de 2,4 mm/dia e sequência de até 3 dias sem chuva relevante. Chuva total prevista para os 20 municípios monitorados: 6 a 14 mm. Safra 2025/2026 encerrada com 100% colhido, produtividade de 63 sc/ha e produção de 21,78 milhões de toneladas (+2,8% vs safra anterior; Deral/SEAB-PR, 25/mai). Preço em Paranaguá: R$ 128,50/sc (Canal Rural, 17/jun).",
+ "texto": "Cascavel, PR — Safra 2025/2026 encerrada com 100% colhido e produtividade de 63 sc/ha (Deral/SEAB-PR, 25/05/2026), alta de 2,8% frente à safra anterior. O foco agora é o clima de entressafra. A semana abre com chuva de 10,9 mm e vento sul (207°) na segunda-feira (06/07), seguida de queda expressiva de temperatura — mínima de 1,7°C na quarta (08/07), com risco de geada registrado nos sinais do período. A virada de vento e o resfriamento abrupto indicam passagem de sistema frontal. Entre quarta e quinta (08–09/07), sequência de três dias secos com evapotranspiração acumulando até 3,4 mm/dia. Nova entrada de chuva volumosa é esperada no sábado (11/07), com 60,1 mm projetados e rajadas de 43 km/h. A chuva semanal prevista totaliza entre 35 e 71 mm (20 municípios monitorados). Preço da saca em R$ 128,50 (Paranaguá, Canal Rural, 17/06/2026).",
  "pontos": [
-  "Risco de geada na madrugada de quarta-feira (08/jul): mínima prevista de 2,3 °C — atenção a culturas de inverno e pastagens",
-  "Passagem frontal na segunda (06/jul) concentra praticamente toda a chuva da semana (11,4 mm); demais dias essencialmente secos",
-  "ET0 média de 2,4 mm/dia com sequência seca de até 3 dias eleva demanda hídrica para cultivos de entressafra"
+  "Risco de geada na madrugada de quarta (08/07): mínima projetada de 1,7°C — atenção a culturas de inverno e pastagens na região",
+  "Passagem frontal confirmada pela queda brusca de temperatura, chuva inicial e virada de vento para sul no início da semana",
+  "Evento chuvoso intenso previsto para sábado (11/07): até 60 mm em um único dia, com rajadas de 43 km/h — monitorar erosão e logística"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:17:50+00:00",
+  "clima": "2026-07-06T14:42:52+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

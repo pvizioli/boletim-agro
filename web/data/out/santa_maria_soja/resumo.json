@@ -1,16 +1,16 @@
 {
  "distrito_id": "santa_maria_soja",
  "nome": "SANTA MARIA-SOJA",
- "gerado_em": "2026-07-05T02:46:23+00:00",
+ "gerado_em": "2026-07-06T16:55:29+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Santa Maria/RS, 5 de julho de 2026. O padrão climático da semana revela a passagem de um sistema frontal entre sábado (4/7) e domingo (5/7): temperaturas máximas deprimidas (12,4 °C e 15,8 °C, respectivamente), chuva acumulada de 5,3 mm em dois dias, rajadas de até 35,6 km/h e vento girando de sudeste para sul. A partir de segunda (6/7), a virada do vento para noroeste e norte consolida a entrada de massa polar: mínimas chegam a 1,0 °C na terça (7/7) e 1,7 °C na quarta (8/7), com risco de geada registrado em três datas da semana. O período seco de quatro dias seguidos (7 a 10/7) eleva a demanda evapotranspirativa, com média de 1,7 mm/dia. A safra 2025/2026 está encerrada (100% colhido), com produtividade de 45 sc/ha (Emater/RS-Ascar, 11/06/2026), 14,8% abaixo da projeção inicial. Preço em R$ 129/sc (Grão Direto, 03/07/2026).",
+ "texto": "Distrito Santa Maria-RS, safra 2025/2026 encerrada com 100% colhido. A semana inicia com passagem de sistema frontal: segunda-feira (06/07) registra máxima de 13,7 °C, chuva de 2,9 mm e rajadas de 39 km/h com vento de oeste, seguida de virada para norte e queda brusca das mínimas — terça (07/07) e quarta (08/07) apresentam mínimas de 1,5 °C e 2,5 °C, respectivamente, com risco de geada. A sequência seca de três dias eleva a ET0 média para 2,3 mm/dia no período. Nova perturbação frontal é esperada para quinta (09/07) a sexta (10/07), com queda de máxima para 14,5 °C, chuva acumulada de até 12,5 mm e rajadas de até 45 km/h no fim de semana. Produtividade encerrou em 45 sc/ha (Emater/RS-Ascar, 11/06/2026), 14,8% abaixo da projeção inicial, com forte variabilidade regional. Saca cotada a R$ 129,00 (Grão Direto, 03/07/2026).",
  "pontos": [
-  "Risco de geada nas noites de terça (7/7) e quarta (8/7), com mínimas de 1,0 °C e 1,7 °C — atenção a culturas de inverno e pastagens",
-  "Safra 2025/2026 encerrada com 45 sc/ha, forte variabilidade regional (1.200 a 4.200 kg/ha) e resultado 14,8% abaixo da projeção inicial (Emater/RS-Ascar)",
-  "Chuva semanal escassa (máx. 5,2 mm em 23 municípios monitorados) e sequência seca a partir de terça eleva demanda hídrica acumulada"
+  "Risco de geada nas madrugadas de terça (07/07) e quarta (08/07), com mínimas de 1,5 °C e 2,5 °C — atenção a culturas de inverno e pastagens",
+  "Nova passagem frontal prevista para quinta-sexta (09-10/07) com chuva acumulada de até 12,5 mm e rajadas de até 45 km/h",
+  "Safra 2025/2026 encerrada a 45 sc/ha, 14,8% abaixo da projeção inicial, com forte variabilidade regional (1.200 a 4.200 kg/ha)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:24:54+00:00",
+  "clima": "2026-07-06T14:48:37+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

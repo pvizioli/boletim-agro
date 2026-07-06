@@ -1,16 +1,16 @@
 {
  "distrito_id": "alfenas_soja",
  "nome": "ALFENAS-SOJA",
- "gerado_em": "2026-07-05T02:37:30+00:00",
+ "gerado_em": "2026-07-06T16:46:23+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito ALFENAS-SOJA, semana de 04 a 10 de julho de 2026. A safra 2025/26 está encerrada em MG e SP (Conab, 9º Levantamento, jun/2026), com 100% plantado e colhido em ambos os estados. O padrão climático da semana revela uma sequência de dias com mínimas progressivamente mais baixas — chegando a 6,8 °C na quinta-feira (09/jul) — e virada de vento para norte na terça-feira (07/jul), sugerindo passagem de sistema frontal rápido com chuvas fracas e dispersas entre domingo e quinta (acumulado máximo de 6,1 mm em 51 municípios monitorados). A evapotranspiração média de 3,5 mm/dia com rajadas de até 51,5 km/h indica demanda hídrica moderada-alta para o período seco. Sexta-feira (10/jul) retorna ao tempo seco e máxima de 29 °C. Preço de referência em MG: R$ 113/sc 60 kg (Portal Agron, Triângulo Mineiro, mai/2026).",
+ "texto": "Distrito ALFENAS-SOJA, semana de 06 a 12/07/2026. A safra 2025/26 está encerrada em MG e SP (Conab, 9º Levantamento, jun/2026), com 100% colhido em ambos os estados. O foco recai sobre a dinâmica do tempo e o mercado. A semana abre com passagem de sistema frontal: na segunda (06/07) e terça (07/07), ventos de sul com rajadas acima de 44 km/h, alta probabilidade de chuva (96% e 71%) e precipitações residuais de 0,8 mm. Entre quarta e sexta (08 a 10/07), a massa polar avança, derrubando a mínima a 5,8 °C na quinta — limiar de alerta para culturas sensíveis. O tempo seca progressivamente. No sábado e domingo (11 e 12/07), retorno do calor com máximas de 31,3–31,4 °C, ET0 elevada (até 5,26 mm/dia) e evento de chuva expressivo previsto para domingo (18,8 mm, rajadas de 60,8 km/h), sugerindo nova perturbação. ET0 média semanal de 3,9 mm/dia reforça demanda hídrica elevada. Preço de referência: R$ 113/sc 60 kg (Portal Agron, Triângulo Mineiro, mai/2026).",
  "pontos": [
-  "Safra 2025/26 encerrada em MG e SP — foco no acompanhamento de preços e escoamento",
-  "Mínima de 6,8 °C prevista para 09/jul exige atenção a culturas de inverno e pastagens na região",
-  "Chuvas fracas e dispersas (máx. 6,1 mm na semana) não representam risco operacional relevante no período de entressafra"
+  "Mínima de 5,8 °C prevista para quinta-feira (09/07) — monitorar culturas de inverno e pastagens sensíveis ao frio na região",
+  "ET0 média de 3,9 mm/dia e sequência predominantemente seca elevam demanda hídrica; atenção à umidade do solo para áreas com cultivo de segunda safra ou pastagens",
+  "Evento de chuva de até 18,8 mm com rajadas de 60,8 km/h previsto para domingo (12/07) — risco de danos mecânicos e erosão em solos descobertos"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:16:25+00:00",
+  "clima": "2026-07-06T14:41:37+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-05-06"
  }

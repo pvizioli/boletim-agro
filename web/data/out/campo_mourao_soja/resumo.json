@@ -1,16 +1,16 @@
 {
  "distrito_id": "campo_mourao_soja",
  "nome": "CAMPO MOURAO-SOJA",
- "gerado_em": "2026-07-05T02:38:20+00:00",
+ "gerado_em": "2026-07-06T16:47:21+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Campo Mourão — Safra 2025/2026 encerrada. Colheita 100% concluída nas regiões de Campo Mourão, Ivaiporã e Pitanga (Deral/SEAB, 25/05/2026), com produtividade de 63 sc/ha no Paraná, alta de 2,8% frente à safra anterior (Deral/SEAB-PR, 25/05/2026). Preço de referência em R$ 128,50/sc 60 kg (Canal Rural – Paranaguá, 17/06/2026). No campo climático, a semana apresenta dinâmica típica de inverno: sábado (05/07) com mínima de 12 °C e vento de nordeste antecedeu passagem de sistema frontal na segunda-feira (06/07), com chuva de 8,7 mm, probabilidade de 100% e vento girando para sul. Na sequência, queda expressiva da mínima para 3,1 °C na quarta-feira (08/07) confirma avanço de massa polar. Chuva acumulada prevista é baixa (máx. 10,7 mm em 37 municípios monitorados), com sequência seca de até 4 dias e evapotranspiração média de 2,7 mm/dia — sem impacto operacional direto na entressafra.",
+ "texto": "Distrito Campo Mourão – PR | Safra 2025/2026 encerrada. A semana inicia com passagem de sistema frontal: segunda-feira (06/07) registrou máxima de 24,3 °C, chuva de 2,9 mm e vento de sudoeste com rajadas de 35 km/h. Na sequência, terça e quarta-feira (07–08/07) marcam virada do vento para sul/leste, queda brusca da mínima até 2,8 °C — único dia com risco de geada no período — e céu aberto, elevando a evapotranspiração para 3,0 mm/dia. O padrão seco se estende até quinta-feira (09/07), com três dias consecutivos sem chuva relevante e ET0 média de 2,7 mm/dia. A partir de sexta-feira (10/07), nova perturbação avança: sábado e domingo (11–12/07) concentram 68,9 mm, rajadas de até 45 km/h e ventos de leste/sudoeste. A safra 25/26 foi encerrada com 63 sc/ha (+2,8% vs. safra anterior; Deral/SEAB-PR, 25/05/2026). Saca cotada a R$ 128,50 (Paranaguá, Canal Rural, 17/06/2026).",
  "pontos": [
-  "Safra 2025/2026 encerrada com 63 sc/ha no PR, alta de 2,8% vs. safra anterior (Deral/SEAB, mai/2026)",
-  "Passagem frontal prevista para segunda-feira (06/07) com 8,7 mm e probabilidade de 100% — evento isolado e de baixo volume",
-  "Massa polar pós-frontal derruba mínima a 3,1 °C na quarta-feira (08/07): monitorar risco de geada em baixadas"
+  "Risco de geada na madrugada de quarta-feira (08/07): mínima prevista de 2,8 °C — atenção a culturas de inverno e pastagens no distrito",
+  "Evento chuvoso concentrado no fim de semana (11–12/07): até 68,9 mm acumulados com rajadas de 45 km/h — monitorar erosão e logística de transporte de grãos armazenados",
+  "Safra 2025/2026 encerrada em 100% em todas as macrorregiões (Campo Mourão, Ivaiporã, Laranjeiras do Sul e Pitanga) com produtividade de 63 sc/ha (Deral/SEAB-PR, 25/05/2026)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:16:41+00:00",
+  "clima": "2026-07-06T14:42:49+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

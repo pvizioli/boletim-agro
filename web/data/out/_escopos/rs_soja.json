@@ -1,0 +1,14 @@
+{
+ "escopo_id": "rs_soja",
+ "nome": "RS SOJA",
+ "tipo": "regional",
+ "gerado_em": "2026-07-06T16:59:09+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "Safra 2025/2026 de soja no RS encerrada: 100% de área colhida nos 12 distritos monitorados (6,45 milhões de ha), segundo Emater/RS-Ascar. A heterogeneidade de produtividade entre regiões não pode ser quantificada neste ciclo, pois apenas Santa Rosa registrou dado disponível — 39 sc/ha (Emater/RS-Ascar, Fenasoja 30/04/2026); os demais 11 distritos, de Bagé a Soledade, estão em fase de fechamento sem produtividade consolidada. O panorama climático de entressafra (06–12/07/2026) é de inverno típico gaúcho: chuva acumulada prevista de 0,8 a 57,9 mm em 327 municípios, risco de geada em 07–09/07 (mínimas até -1,1 °C) e rajadas de até 54,7 km/h. Preço da soja em R$ 129,00/sc 60 kg no Centro Ocidental RS (Grão Direto, 03/07/2026).",
+ "pontos": [
+  "Colheita 100% concluída em todos os 12 distritos do RS (6,45 milhões de ha) — safra 2025/2026 encerrada (Emater/RS-Ascar).",
+  "Produtividade disponível apenas para Santa Rosa: 39 sc/ha (Emater/RS-Ascar, Fenasoja 30/04/2026); demais 11 regiões sem dado consolidado, limitando comparação regional.",
+  "Risco de geada em 07–09/07/2026 (mínimas até -1,1 °C) e chuvas irregulares (até 57,9 mm em partes do estado) marcam a entressafra; ET₀ média baixa de 2,2 mm/dia.",
+  "Preço da soja em R$ 129,00/sc 60 kg no Centro Ocidental RS (Grão Direto, 03/07/2026), referência para fechamento comercial da safra."
+ ]
+}

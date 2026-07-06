@@ -1,16 +1,16 @@
 {
  "distrito_id": "sao_paulo_soja_ics",
  "nome": "SAO PAULO-SOJA/ICS",
- "gerado_em": "2026-07-05T02:47:26+00:00",
+ "gerado_em": "2026-07-06T16:56:31+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito SAO PAULO-SOJA/ICS — semana de 4 a 10 de julho de 2026. A série diária revela dinâmica típica de inverno paulista com passagem de sistema frontal entre sábado (5/jul) e segunda (7/jul): virada de vento para norte (10°) com rajadas de até 56,9 km/h na segunda-feira, chuva de 6,9 mm e queda gradual da máxima de 28,1°C (sábado) para 26,2°C (quarta). A mínima mais expressiva ocorre na quinta-feira (9/jul), com 6,8°C — sem indicativo de geada nos sinais disponíveis. Após a frente, tempo seco domina quinta e sexta, com máximas voltando a 29,0°C. A evapotranspiração média de 3,5 mm/dia ao longo da semana reflete demanda hídrica moderada-alta para o período. A chuva acumulada prevista fica entre 0 e 19,7 mm nos 58 municípios monitorados. A safra 2025/26 de SP está encerrada (100% colhida), conforme Conab — 9º Levantamento (jun/2026). Não há preço de saca disponível para análise.",
+ "texto": "Distrito SAO PAULO-SOJA/ICS, semana de 6 a 12 de julho de 2026. A safra 2025/26 de SP está encerrada com 100% colhido (Conab, 9º Levantamento, jun/2026). O foco recai sobre a dinâmica atmosférica. A semana inicia com chuva fraca na segunda-feira (0,3 mm, máxima 27,4 °C), seguida de evento mais expressivo na terça-feira: 8,0 mm com probabilidade de 100%, rajadas de 50,4 km/h e virada do vento de leste para norte, sinalizando passagem de sistema frontal. Após a frente, quarta e quinta apresentam mínimas baixas (10,6 °C e 7,6 °C) e ausência de chuva — sequência seca de dois dias com evapotranspiração média de 3,9 mm/dia, indicando demanda hídrica relevante. O fim de semana traz retorno de chuvas: 14,4 mm no sábado e 24,2 mm no domingo, com rajadas de até 58,3 km/h e máxima de 31,4 °C na semana. Preço da saca não disponível no período.",
  "pontos": [
-  "Passagem frontal na segunda-feira (7/jul) com rajadas de 56,9 km/h e chuva de 6,9 mm — atenção a operações de campo e infraestrutura",
-  "Mínima de 6,8°C na quinta-feira (9/jul): monitorar culturas de inverno e pomares sensíveis ao frio, embora sem sinal de geada confirmado",
-  "ET0 média de 3,5 mm/dia sustentada durante toda a semana indica demanda hídrica relevante mesmo no período seco pós-frontal"
+  "Passagem de sistema frontal na terça-feira (07/jul) com 8,0 mm, rajadas de 50,4 km/h e virada de vento — monitorar estradas e armazéns",
+  "Mínimas de 7,1 °C a 10,6 °C entre quarta e quinta (08-09/jul): atenção a culturas de inverno e infraestrutura de secagem",
+  "ET0 média de 3,9 mm/dia com sequência seca midweek eleva demanda hídrica em áreas com cultivos de safrinha ou pastagens"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:24:59+00:00",
+  "clima": "2026-07-06T14:48:41+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

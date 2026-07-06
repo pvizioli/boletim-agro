@@ -1,16 +1,16 @@
 {
  "distrito_id": "sao_gabriel_soja",
  "nome": "SAO GABRIEL-SOJA",
- "gerado_em": "2026-07-05T02:47:13+00:00",
+ "gerado_em": "2026-07-06T16:56:18+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito São Gabriel — RS Soja | 05/07/2026. A safra 2025/2026 está encerrada com 100% colhido, produtividade de 45 sc/ha (Emater/RS-Ascar, 11/06/2026), 32,9% acima da safra anterior, porém 14,8% abaixo da projeção inicial, com forte variabilidade regional. O padrão climático da semana revela passagem de sistema frontal no sábado (05/07): queda de máxima de 16,8°C para 13,1°C no domingo (06/07), virada de vento de leste/sudeste para sul/sudoeste e chuva acumulada de 4,7 mm no sábado. A partir de segunda (07/07), sequência de cinco dias secos com mínimas de 1,4°C e 2,7°C — configurando risco de geada nos dias 07 e 08/07 — e máximas subindo até 20,3°C na quarta (09/07), elevando a evapotranspiração média para 1,8 mm/dia. Chuva retorna apenas na sexta (10/07), com 9,2 mm previstos. Saca cotada a R$ 129,00 (Grão Direto, 03/07/2026).",
+ "texto": "Distrito São Gabriel – RS | Safra 2025/2026 encerrada. A semana inicia com padrão pós-frontal clássico: segunda-feira (06/07) registra máxima de apenas 13,1 °C, rajadas de 40 km/h com vento de sudoeste e precipitação residual de 0,6 mm, indicando cauda de sistema frontal. A partir de terça (07/07), virada do vento para noroeste/norte promove aquecimento progressivo — máxima atinge 21,5 °C na quinta (09/07) — com mínimas abaixo de 3 °C em 07 e 08/07, configurando risco de geada nos pontos mais baixos da região. Na sexta (10/07), nova queda de máxima para 16,2 °C, vento girando para sudeste e chuva de 11,1 mm sinalizam aproximação de nova frente. A evapotranspiração média de 1,8 mm/dia é moderada para o inverno. Com colheita 100% concluída (Emater/RS-Ascar, 11/06/2026) e produtividade de 45 sc/ha, o foco recai sobre comercialização: saca cotada a R$ 129,00 (Grão Direto, 03/07/2026).",
  "pontos": [
-  "Risco de geada nas madrugadas de segunda (07/07) e terça (08/07), com mínimas de 1,4°C e 2,7°C — atenção a culturas de inverno e pastagens",
-  "Sequência de cinco dias secos pós-frontal com evapotranspiração média de 1,8 mm/dia eleva demanda hídrica no período",
-  "Safra 2025/2026 encerrada a 45 sc/ha, com variabilidade regional expressiva (1.200 a 4.200 kg/ha), segundo Emater/RS-Ascar (11/06/2026)"
+  "Risco de geada em 07 e 08/07 nas baixadas do distrito — mínimas previstas abaixo de 3 °C; atenção a culturas de inverno e pastagens",
+  "Nova frente prevista para sexta (10/07) com 11,1 mm — janela curta de tempo seco entre quinta e sexta para operações de campo",
+  "Safra 2025/2026 encerrada com 45 sc/ha, queda de 14,8% vs. projeção inicial e forte variabilidade regional (Emater/RS-Ascar, 11/06/2026)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:24:57+00:00",
+  "clima": "2026-07-06T14:48:39+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

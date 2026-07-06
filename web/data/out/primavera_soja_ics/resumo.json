@@ -1,16 +1,16 @@
 {
  "distrito_id": "primavera_soja_ics",
  "nome": "PRIMAVERA-SOJA/ICS",
- "gerado_em": "2026-07-05T02:45:17+00:00",
+ "gerado_em": "2026-07-06T16:54:26+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Primavera-Soja/ICS (MT) — 5 de julho de 2026. A safra 2025/26 está encerrada em todo o Mato Grosso, com 100% colhido em todas as macrorregiões (Imea/Conab, 11/jun/26). A produtividade final ficou em 66 sc/ha, com produção de 51,56 milhões de toneladas, alta de 1,3% sobre a safra anterior (Imea em Campo/Conab 9º lev., 11/jun/26). No campo climático, a semana é marcada por veranico consolidado: sete dias consecutivos sem chuva, com probabilidade nula ou residual em todo o período. As máximas oscilam entre 31,5 °C (sábado) e 33,7 °C (sexta), enquanto as mínimas sobem progressivamente de 13,8 °C para 18,4 °C, indicando aquecimento noturno gradual típico de avanço de massa de ar quente. A evapotranspiração média de 4,9 mm/dia sinaliza demanda hídrica elevada, sem impacto operacional na entressafra. Preço de referência: R$ 108,63/sc (Grão Direto Nordeste-MT, 3/jul/26).",
+ "texto": "Distrito Primavera-Soja/ICS (MT) — safra 2025/26 encerrada em todas as macrorregiões (Centro-Sul, Nordeste e Sudeste do MT), com 100% colhido. Produtividade final de 66 sc/ha e produção de 51,56 milhões de toneladas, alta de 1,3% sobre a safra anterior (Imea em Campo/Conab 9º levantamento, jun/26). O clima desta semana é tipicamente de entressafra do Cerrado mato-grossense: sequência de 7 dias sem chuva, máximas progressivamente aquecidas de 31,8°C (segunda) a 34,7°C (domingo) e mínimas entre 14,8°C e 20,0°C, com ventos de sul/sudeste girando para noroeste ao final do período — padrão de massa de ar seco e estável. Evapotranspiração média de 4,9 mm/dia reforça a demanda hídrica elevada. Apenas no domingo (12/07) há sinal tímido de chuva (1,8 mm, 33% de probabilidade). Preço da saca em MT: R$ 108,63/sc (Grão Direto Nordeste MT, 03/07/26).",
  "pontos": [
-  "Safra 2025/26 encerrada com 66 sc/ha e +1,3% sobre a safra anterior (Imea/Conab, 11/jun/26)",
-  "Veranico de 7 dias confirmado — zero chuva prevista em toda a semana nos 10 municípios monitorados",
-  "ET0 média de 4,9 mm/dia com máximas chegando a 33,7 °C na sexta-feira — demanda hídrica elevada, sem reflexo operacional na entressafra"
+  "Safra 2025/26 encerrada em MT: 66 sc/ha e +1,3% vs. safra anterior (Imea/Conab, jun/26)",
+  "Sete dias consecutivos sem chuva e ET0 média de 4,9 mm/dia — veranico de inverno típico, sem impacto operacional na safra encerrada",
+  "Aquecimento progressivo das máximas até 34,7°C no domingo, com virada de vento para noroeste — monitorar umidade de grãos armazenados"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:22:39+00:00",
+  "clima": "2026-07-06T14:47:30+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

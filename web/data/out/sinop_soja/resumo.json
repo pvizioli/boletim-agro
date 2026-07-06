@@ -1,16 +1,16 @@
 {
  "distrito_id": "sinop_soja",
  "nome": "SINOP-SOJA",
- "gerado_em": "2026-07-05T02:47:51+00:00",
+ "gerado_em": "2026-07-06T16:56:58+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito SINOP-SOJA (MT/PA) — Safra 2025/26 encerrada em ambos os estados. No Mato Grosso, a produtividade atingiu 66 sc/ha com produção de 51,56 milhões de toneladas, alta de 1,3% sobre a safra anterior (Imea em Campo/Conab 9º Levantamento, jun/2026). O clima desta semana reflete o padrão típico da estação seca do Cerrado: máximas entre 33 e 34 °C, mínimas acima de 15 °C e demanda evapotranspirativa elevada, com média de 5,0 mm/dia. A sequência seca do sábado (05/jul) deve ceder a partir de segunda (06/jul), quando chuvas de 6,5 mm (prob. 85%) e 9,4 mm na terça (07/jul, prob. 80%) indicam passagem de sistema úmido — ventos girando de SE para E reforçam esse sinal. O acumulado previsto de até 17,1 mm em 7 dias é irrelevante para a soja, mas favorece o preparo de solo para a próxima safra. Preço em MT: R$ 108,63/sc (Grao Direto, 03/jul/2026).",
+ "texto": "Distrito SINOP-SOJA, semana de 06 a 12/jul/2026. A safra 2025/26 está encerrada em MT e PA, com 100% colhido. MT registrou produtividade de 66 sc/ha e produção de 51,56 milhões de toneladas, alta de 1,3% sobre a safra anterior (Imea em Campo abr/26 / Conab 9º Lev., jun/2026). Na dinâmica do tempo, a semana inicia com chuva expressiva na segunda-feira (10,1 mm, probabilidade de 96%), seguida de rápida dissipação e sequência predominantemente seca de quarta a sexta — maior sequência seca de 3 dias —, com máximas escalando até 34,3 °C. A partir de sábado, ventos giram para norte-nordeste com rajadas de até 45 km/h e nova precipitação (8,4 mm), sugerindo atuação de sistema convectivo de escala regional. A evapotranspiração média de 4,9 mm/dia indica demanda hídrica elevada, típica do inverno seco do Cerrado. Preço da saca em MT: R$ 108,63 (Grão Direto, Nordeste MT, 03/jul/2026).",
  "pontos": [
-  "Safra 2025/26 encerrada em MT e PA — foco agora em entressafra e planejamento da próxima temporada",
-  "Produtividade de 66 sc/ha em MT representa alta de 1,3% sobre a safra anterior (Imea/Conab, jun/2026)",
-  "Chuvas de até 17,1 mm previstas entre segunda (06/jul) e terça (07/jul) favorecem preparo de solo, sem risco operacional para colheita"
+  "Safra 2025/26 encerrada em MT e PA; MT com 66 sc/ha e +1,3% vs. safra anterior (Conab/Imea, jun/2026)",
+  "ET0 média de 4,9 mm/dia e sequência de até 3 dias secos reforçam demanda hídrica elevada no período de entressafra",
+  "Rajadas de até 45 km/h no domingo (12/jul) com virada de vento para norte indicam passagem de sistema convectivo — monitorar erosão em áreas de solo exposto"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:25:03+00:00",
+  "clima": "2026-07-06T14:48:42+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

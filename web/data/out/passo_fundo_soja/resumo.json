@@ -1,16 +1,16 @@
 {
  "distrito_id": "passo_fundo_soja",
  "nome": "PASSO FUNDO-SOJA",
- "gerado_em": "2026-07-05T02:43:57+00:00",
+ "gerado_em": "2026-07-06T16:53:01+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Passo Fundo | RS Soja | 05/07/2026. Safra 2025/2026 encerrada com 100% colhido (Emater/RS-Ascar, 14/05/2026) e produtividade de 45 sc/ha, recuo de 14,8% frente à projeção inicial, com forte variabilidade regional. A dinâmica desta semana revela passagem de sistema frontal entre sábado (05/07) e domingo (06/07): máxima caiu de 20,6 °C para 13,9 °C, vento girou de leste para sudoeste e chuva acumulou cerca de 5,5 mm em dois dias. Na sequência, três dias secos (07 a 09/07) com mínima de -1,3 °C na quarta-feira (08/07) configuram risco de geada — sinal sustentado pela série para 04, 07 e 08/07. A evapotranspiração média de 1,8 mm/dia é moderada para o inverno. Preço da saca em R$ 129,00 (Grão Direto, Centro Ocidental RS, 03/07/2026).",
+ "texto": "Passo Fundo, 6 de julho de 2026. A safra 2025/2026 de soja no RS está encerrada, com 100% colhido em Passo Fundo e Erechim (Emater/RS-Ascar, 14/mai). A produtividade estadual fechou em 45 sc/ha, queda de 14,8% frente à projeção inicial, com forte variabilidade regional (Emater/RS-Ascar, 11/jun). O preço da saca está em R$ 129,00 (Grão Direto, 3/jul). No clima, segunda-feira (6/jul) registrou chuva de 3,6 mm com vento de oeste e máxima de apenas 14°C, indicando passagem de sistema frontal. Na sequência, três dias secos (7 a 9/jul) com mínima de -1,1°C na quarta-feira configuram risco de geada. A virada do vento para nordeste/leste a partir de quarta sustenta a recuperação térmica, com máxima chegando a 20,3°C na quinta. Nova perturbação chega no fim de semana, com chuva estimada em 22,3 mm no sábado (11/jul) e rajadas de até 53 km/h no domingo.",
  "pontos": [
-  "Risco de geada confirmado para 07 e 08/07 (mínimas de 2,1 °C e -1,3 °C) — atenção a culturas de inverno e pastagens",
-  "Passagem frontal entre 05 e 06/07 trouxe chuva fraca (~5,5 mm) e queda abrupta de temperatura; sem alertas ativos do Inmet",
-  "Safra 2025/2026 encerrada a 45 sc/ha, 14,8% abaixo da projeção inicial, com variabilidade regional expressiva (Emater/RS-Ascar, jun/2026)"
+  "Risco de geada nos dias 7, 8 e 9 de julho — mínima projetada de -1,1°C na quarta-feira; atenção a culturas de inverno e pastagens",
+  "Safra 2025/2026 encerrada com 45 sc/ha no RS, 14,8% abaixo da projeção inicial (Emater/RS-Ascar, 11/jun)",
+  "Preço da saca em R$ 129,00 no Centro Ocidental do RS em 3/jul — acompanhar evolução para decisão de comercialização do estoque remanescente"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:22:35+00:00",
+  "clima": "2026-07-06T14:47:27+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

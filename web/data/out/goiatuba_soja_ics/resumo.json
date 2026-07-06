@@ -1,16 +1,16 @@
 {
  "distrito_id": "goiatuba_soja_ics",
  "nome": "GOIATUBA-SOJA/ICS",
- "gerado_em": "2026-07-05T02:40:58+00:00",
+ "gerado_em": "2026-07-06T16:50:00+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Goiatuba/GO, 5 de julho de 2026. A semana é marcada por seca absoluta: zero milímetro de chuva previsto nos 19 municípios monitorados ao longo de todos os sete dias, com probabilidade de precipitação inferior a 6% mesmo nos dias finais do período. As temperaturas máximas oscilam entre 29,5 °C (sábado, 4/7) e 32,7 °C (sexta, 10/7), enquanto as mínimas ficam entre 13,4 °C e 15,7 °C — amplitude térmica típica do inverno goiano sob domínio de massa de ar seco continental. A evapotranspiração de referência média de 4,8 mm/dia, com rajadas chegando a 37,4 km/h na sexta-feira, reforça a demanda hídrica elevada. A safra 2025/26 de Goiás está encerrada (100% colhido), com produção de 20,1 milhões de toneladas (Conab, 9º Levantamento, jun/2026). O preço da saca 60 kg está em R$ 108,50 em Jataí/GO (Canal Rural, 17/06/2026), referência para comercialização do estoque remanescente.",
+ "texto": "Goiatuba (GO) — 06/jul/2026. A semana se inicia sob domínio de massa de ar seco e quente, típico do inverno do Cerrado. A série diária revela aquecimento progressivo: máximas sobem de 30,0 °C (seg.) a 34,6 °C (sáb.), com mínimas entre 14,0 e 17,9 °C. Seis dias consecutivos sem chuva e evapotranspiração média de 4,9 mm/dia sustentam elevada demanda hídrica atmosférica. No sábado (12/jul), rajadas de até 54,7 km/h com mudança abrupta de direção do vento (de leste para noroeste, 316°) e probabilidade de 35% de chuva (máx. 2,2 mm) sugerem passagem de sistema frontal fraco, sem expressão hídrica relevante. A safra 2025/26 de GO está encerrada (100% colhido), com produção de 20,1 milhões de toneladas (Conab, 9° Levantamento, jun/2026). Preço de referência: R$ 108,50/sc em Jataí/GO (Canal Rural, 17/jun/2026).",
  "pontos": [
-  "Seca total de 7 dias consecutivos sem nenhuma precipitação prevista — maior sequência seca da janela monitorada",
-  "ET0 média de 4,8 mm/dia com rajadas de até 37,4 km/h elevam risco de estresse hídrico em cultivos de entressafra e pastagens",
-  "Safra 2025/26 encerrada em GO com 20,1 milhões de toneladas (Conab, jun/2026) — foco no ritmo de comercialização"
+  "Veranico consolidado: 6 dias secos consecutivos com ET0 média de 4,9 mm/dia — sem impacto na soja 25/26 encerrada, mas relevante para planejamento de irrigação e culturas de inverno",
+  "Passagem frontal fraca prevista para sábado (12/jul): rajada de 54,7 km/h e virada de vento para noroeste, com precipitação máxima de apenas 2,2 mm — sem alívio hídrico significativo",
+  "Safra 2025/26 de GO encerrada com 20,1 milhões de toneladas (Conab, jun/2026); foco do produtor deve estar na comercialização do estoque remanescente"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:19:06+00:00",
+  "clima": "2026-07-06T14:45:07+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-06-17"
  }

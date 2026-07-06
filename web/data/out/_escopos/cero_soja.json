@@ -1,0 +1,14 @@
+{
+ "escopo_id": "cero_soja",
+ "nome": "CERO SOJA",
+ "tipo": "regional",
+ "gerado_em": "2026-07-06T16:58:42+00:00",
+ "modelo": "claude-sonnet-4-6",
+ "texto": "CERO SOJA | 06/07/2026 — Safra 2025/2026 encerrada: 14,88 milhões de ha colhidos a 100% em todos os 9 distritos de AM, MS, MT, PA e RO. Em MS, destaque para o contraste de produtividade: Norte-MS liderou com 68 sc/ha (Aprosoja/MS-Siga/Famasul), enquanto Centro-MS (58 sc/ha) e Sul-MS (59 sc/ha) ficaram cerca de 10 sc/ha abaixo — diferença expressiva dentro do mesmo estado. Em MT, os sete distritos encerraram colheita sem produtividade consolidada disponível (Imea/Conab). Período de entressafra: clima heterogêneo nos 139 municípios monitorados, com chuvas entre 0 e 47,6 mm nos próximos 7 dias, rajadas de até 53,6 km/h em 11–12/07 e amplitude térmica extrema (4,0 °C a 36,3 °C). ET₀ média elevada (5,5 mm/dia). Preço de referência em MT: R$ 108,63/sc (Grao Direto, Nordeste-MT, 03/07/2026).",
+ "pontos": [
+  "Colheita 100% concluída em toda a regional CERO; safra 2025/2026 encerrada sem pendências operacionais.",
+  "Heterogeneidade de produtividade em MS: Norte-MS (68 sc/ha) superou Centro-MS (58 sc/ha) e Sul-MS (59 sc/ha) em ~10 sc/ha, segundo Aprosoja/MS-Siga/Famasul.",
+  "Produtividade dos distritos de MT ainda sem consolidação pública disponível (Imea/Conab — fechamento safra 25/26).",
+  "Entressafra com clima instável: rajadas de até 53,6 km/h e chuvas concentradas em 11–12/07 contrastam com dias secos e amplitude térmica extrema (4,0–36,3 °C) na semana."
+ ]
+}

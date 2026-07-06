@@ -1,16 +1,16 @@
 {
  "distrito_id": "dourados_soja_ics",
  "nome": "DOURADOS-SOJA/ICS",
- "gerado_em": "2026-07-05T02:40:07+00:00",
+ "gerado_em": "2026-07-06T16:49:07+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Dourados/MS — Entressafra 2025/26. A semana abre com tempo seco e amplitude térmica expressiva: mínima de 7,7 °C no sábado (05/jul) e máxima de 24 °C no dia anterior indicam padrão de inverno consolidado. Na segunda-feira (06/jul), virada do vento para sul (189°) com rajadas de 37,8 km/h e probabilidade de chuva de 87% sinaliza passagem de sistema frontal, com precipitação estimada em até 5,6 mm — único evento relevante da semana. Na terça (07/jul), queda da máxima para 23 °C e mínima de 6,8 °C confirmam a influência pós-frontal. A partir de quarta (08/jul), mínima de 3,9 °C exige atenção para culturas de inverno. O restante da semana retorna ao padrão seco, com máximas chegando a 29,7 °C na sexta (10/jul) e ET0 média de 3,1 mm/dia. A safra 2025/26 está encerrada: 60 sc/ha de produtividade e produção de 16,7 mil toneladas, alta de 19,1% sobre a safra anterior (Aprosoja/MS-Siga/Famasul, 26/05/2026).",
+ "texto": "Dourados (MS) — Safra 2025/26 encerrada. A colheita foi concluída em maio com 100% da área colhida, produtividade de 60 sc/ha e produção de 16,74 milhões de toneladas, alta de 19,1% sobre a safra anterior (Aprosoja/MS-Siga/Famasul, 26/05/2026). No campo climático, a semana inicia com sequência de cinco dias secos (segunda a sexta), mínima de 4,0 °C na quarta-feira (08/07) e ET0 média de 3,2 mm/dia — demanda hídrica elevada para o inverno. A partir de sexta-feira (10/07), a temperatura máxima sobe a 31,6 °C no sábado (11/07), seguida de chuva intensa no domingo (12/07) — até 46,2 mm — com queda brusca de temperatura, rajadas de 51,8 km/h e virada de vento para oeste, sinalizando passagem de sistema frontal. Sem alertas INMET ativos. Preço da saca não disponível neste ciclo.",
  "pontos": [
-  "Passagem frontal na segunda (06/jul) traz até 5,6 mm — único evento de chuva relevante da semana",
-  "Mínima de 3,9 °C prevista para quarta (08/jul): monitorar risco de frio intenso para culturas de inverno em MS",
-  "ET0 média de 3,1 mm/dia com sequência de até 4 dias secos eleva demanda hídrica no período pós-frontal"
+  "Safra 2025/26 encerrada com produtividade de 60 sc/ha e alta de 19,1% vs. safra anterior (Aprosoja/MS-Siga/Famasul, 26/05/2026)",
+  "Mínima de 4,0 °C prevista para quarta-feira (08/07) — monitorar culturas de inverno e estruturas sensíveis ao frio",
+  "Passagem frontal esperada no domingo (12/07): chuva acumulada de até 46,2 mm, rajadas de 51,8 km/h e queda abrupta de temperatura"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:17:57+00:00",
+  "clima": "2026-07-06T14:44:00+00:00",
   "colheita": "2026-05-26",
   "preco": null
  }

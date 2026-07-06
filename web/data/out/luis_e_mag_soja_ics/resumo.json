@@ -1,16 +1,16 @@
 {
  "distrito_id": "luis_e_mag_soja_ics",
  "nome": "LUIS E MAG-SOJA/ICS",
- "gerado_em": "2026-07-05T02:43:07+00:00",
+ "gerado_em": "2026-07-06T16:52:09+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Luís Eduardo Magalhães (BA/PI) — safra 2025/26 encerrada em ambos os estados (Conab, 9º Levantamento, jun/2026). O período analisado (4 a 10/jul) é marcado por entressafra com padrão de tempo seco e quente típico do inverno do Cerrado. No sábado (4/jul) e domingo (5/jul), ventos de sudeste com rajadas acima de 38 km/h e mínimas em torno de 12–14 °C indicam influência de massa polar em dissipação. Na segunda (6/jul), a virada do vento para sul-sudoeste com leve elevação da mínima (15,8 °C) e precipitação de 4,1 mm sugere passagem rápida de sistema frontal, sem expressividade hídrica. A partir de terça (7/jul), o vento gira para nordeste, as máximas sobem progressivamente até 34,3 °C (quinta, 9/jul) e a chuva cessa — configurando sequência seca de ao menos 4 dias. A evapotranspiração média de 4,8 mm/dia ao longo da semana reforça a alta demanda atmosférica, relevante para áreas de pastagem e cultivos de entressafra.",
+ "texto": "Distrito Luis E Mag-Soja/ICS (BA e PI) — safra 2025/26 encerrada em ambos os estados (Conab, 9º Levantamento, jun/2026). O foco desta semana é inteiramente climático. Segunda-feira (06/jul) registrou leve precipitação de 1,4 mm com probabilidade de 37% e rajada de 34 km/h de sul, seguida de virada do vento para nordeste já na terça (07/jul) com chuva residual de 0,2 mm — padrão compatível com passagem de sistema frontal rápido. De quarta (08/jul) em diante, sequência completamente seca com máximas escalando de 33,3°C a 34,9°C e mínimas entre 13,0°C e 15,3°C. A evapotranspiração potencial média da semana atinge 4,8 mm/dia, com pico de 5,16 mm/dia na quinta (09/jul), sinalizando demanda hídrica elevada. A precipitação acumulada projetada para os 7 dias não ultrapassa 1,8 mm no cenário mais favorável, consolidando veranico de inverno típico da região.",
  "pontos": [
-  "Safra 2025/26 encerrada em BA e PI conforme Conab (jun/2026) — sem colheita em andamento no distrito",
-  "Passagem frontal rápida na segunda (6/jul) entregou apenas 4,1 mm — insuficiente para recarga hídrica significativa",
-  "Sequência seca de 4 dias confirmada (7 a 10/jul) com máximas chegando a 34,3 °C e ET0 média de 4,8 mm/dia — atenção a pastagens e cultivos irrigados"
+  "Safra 2025/26 encerrada em BA e PI conforme Conab (jun/2026) — sem dados de produtividade disponíveis no levantamento",
+  "Sequência seca de até 7 dias consecutivos com ET0 média de 4,8 mm/dia indica demanda hídrica elevada no período de entressafra",
+  "Passagem frontal rápida na segunda/terça (06-07/jul) trouxe apenas 1,6 mm acumulados — sem impacto prático sobre o solo"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:21:28+00:00",
+  "clima": "2026-07-06T14:46:22+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

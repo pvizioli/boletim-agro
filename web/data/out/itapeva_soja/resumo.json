@@ -1,16 +1,16 @@
 {
  "distrito_id": "itapeva_soja",
  "nome": "ITAPEVA-SOJA",
- "gerado_em": "2026-07-05T02:42:00+00:00",
+ "gerado_em": "2026-07-06T16:51:04+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Itapeva-Soja (SP) — safra 2025/26 encerrada (Conab, 9º Levantamento, jun/2026), com 100% colhido. O foco recai sobre a dinâmica do tempo invernal. A semana iniciou com ventos de sudeste e mínimas amenas (11 °C no sábado), mas a terça-feira (07/jul) concentra o único evento chuvoso relevante da janela: 7,1 mm com probabilidade de 80%, rajadas de 49 km/h e virada do vento para oeste — padrão típico de passagem frontal. Na sequência, o sistema se afasta rapidamente, e as mínimas despencam: 7 °C na quarta, 6 °C na quinta e 1,5 °C na sexta-feira (10/jul). Esse valor configura risco de geada, conforme sinalizado para 10/jul. A evapotranspiração média de 2,6 mm/dia e a sequência de dias secos após a frente reforçam a demanda hídrica sobre pastagens e culturas de inverno na região. Sem preço de saca disponível no período.",
+ "texto": "Distrito Itapeva-Soja (SP) — 6 de julho de 2026. A safra 2025/26 está encerrada com 100% colhido, conforme Conab (9º Levantamento, jun/2026). O foco da semana recai sobre a dinâmica atmosférica. Segunda-feira (07/jul) concentra o principal evento de chuva: 2,0 mm com probabilidade de 90% e rajadas de 43,9 km/h de oeste, seguidos de queda brusca de temperatura mínima para 3,4 °C na quarta (08/jul) e virada do vento para leste — padrão típico de passagem frontal. A sequência seca de três dias (08 a 10/jul) com evapotranspiração média de 2,9 mm/dia sustenta demanda hídrica relevante. No fim de semana, novo pulso úmido: sábado (11/jul) com 4,4 mm e domingo (12/jul) com 21,0 mm e rajadas de 58,0 km/h, sugerindo segundo sistema perturbado. Acumulado semanal pode atingir até 21,4 mm nos municípios mais expostos. Preço da saca não disponível neste levantamento.",
  "pontos": [
-  "Risco de geada na madrugada de sexta-feira (10/jul): mínima prevista de 1,5 °C — atenção a culturas de inverno e viveiros",
-  "Passagem frontal na terça (07/jul) com rajadas de até 49 km/h e 7,1 mm: único evento chuvoso expressivo da semana",
-  "Após a frente, sequência seca com ET0 média de 2,6 mm/dia eleva demanda hídrica na região"
+  "Passagem frontal prevista entre segunda e quarta-feira, com queda de mínima para 3,4 °C em 08/jul — monitorar risco de geada em áreas de altitude no distrito",
+  "Rajadas de até 58,0 km/h no domingo (12/jul) indicam sistema perturbado de maior intensidade no fim de semana",
+  "ET0 média de 2,9 mm/dia durante a sequência seca (08–10/jul) eleva demanda hídrica, relevante para pastagens e culturas de inverno na região"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:20:19+00:00",
+  "clima": "2026-07-06T14:46:18+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

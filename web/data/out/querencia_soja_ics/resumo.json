@@ -1,16 +1,16 @@
 {
  "distrito_id": "querencia_soja_ics",
  "nome": "QUERENCIA SOJA & ICS",
- "gerado_em": "2026-07-05T02:45:29+00:00",
+ "gerado_em": "2026-07-06T16:54:38+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Querência (MT) — Entressafra 2025/26. A safra de soja está encerrada em MT com 100% colhido, produtividade de 66 sc/ha e produção de 51,56 milhões de toneladas, alta de 1,3% sobre a safra anterior (Imea em Campo/Conab 9º lev., jun/26). No campo, domina um padrão de tempo seco e quente típico do inverno mato-grossense: sete dias consecutivos sem chuva relevante, máximas em elevação progressiva de 33,9°C (sábado, 04/jul) a 36,0°C (quinta, 09/jul) e mínimas subindo de 16,8°C para 19,2°C — sem risco de geada. Ventos de sudeste com rajadas de até 34,9 km/h e evapotranspiração média de 5,4 mm/dia indicam alta demanda hídrica atmosférica, sem impacto operacional neste momento. Apenas no sábado (10/jul) há sinal residual de 0,6 mm com 18% de probabilidade — irrelevante. Preço da saca em MT: R$ 108,63/sc 60kg (Grão Direto, 03/jul/26).",
+ "texto": "Querência (MT) — Entressafra 2025/26. A safra de soja está encerrada em MT, com 100% colhido e produtividade de 66 sc/ha, alta de 1,3% sobre a safra anterior, produção de 51,56 milhões de toneladas (Imea em Campo/Conab 9º lev., jun/26). O clima desta semana é marcado por veranico consolidado: seis dias consecutivos sem chuva relevante, máximas escalando de 34,4°C (segunda) a 36,3°C (sábado) e evapotranspiração média de 5,5 mm/dia — demanda hídrica elevada para o período seco do Cerrado. Ventos predominantemente do quadrante sul-sudeste com rajadas crescentes até 38,2 km/h no domingo (12/07), quando a mínima sobe a 22°C e a chuva acumulada chega a 5,4 mm — sinal de umidade avançando, mas volume insuficiente para encerrar o veranico. Preço da soja em MT: R$ 108,63/sc (Grão Direto – Nordeste MT, 03/07/26).",
  "pontos": [
-  "Safra 2025/26 encerrada: 66 sc/ha e +1,3% vs. safra anterior (Imea/Conab, jun/26)",
-  "Sete dias consecutivos sem chuva e ET0 média de 5,4 mm/dia — veranico de inverno consolidado",
-  "Máximas chegando a 36,0°C na quinta (09/jul), sem risco de geada na série"
+  "Veranico de 6 dias com ET0 média de 5,5 mm/dia reforça condição seca típica do inverno do Cerrado mato-grossense",
+  "Única chuva relevante prevista no domingo (12/07): até 5,4 mm com rajadas de 38,2 km/h — umidade insuficiente para reverter déficit hídrico acumulado",
+  "Safra 2025/26 encerrada com 66 sc/ha (+1,3% vs. safra anterior) e produção de 51,56 milhões de toneladas em MT"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:23:44+00:00",
+  "clima": "2026-07-06T14:47:31+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

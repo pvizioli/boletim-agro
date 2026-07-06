@@ -1,16 +1,16 @@
 {
  "distrito_id": "cornelio_procop_soja",
  "nome": "CORNELIO PROCOP-SOJA",
- "gerado_em": "2026-07-05T02:39:41+00:00",
+ "gerado_em": "2026-07-06T16:48:43+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Cornélio Procópio — PR | Safra 2025/2026 encerrada. A semana de 04 a 10/07 apresenta padrão de inverno típico: mínimas caindo progressivamente de 13,3 °C (sábado) até 4,5 °C na terça-feira, com virada brusca de vento de leste (110°) para oeste (261°) na segunda-feira e chuva de 3,2 mm associada — sinais consistentes com passagem de sistema frontal. Após a frente, tempo seca com mínimas baixas (4,5–6,0 °C) e evapotranspiração média de 2,6 mm/dia sustentam demanda hídrica relevante, sem risco de geada confirmado. Chuva acumulada prevista para os 7 dias é de apenas 0 a 5,2 mm em 37 municípios monitorados, sem alertas ativos do Inmet. Com colheita 100% concluída nas regiões de Cornélio Procópio, Jacarezinho e Ponta Grossa (Deral/SEAB, 25/05/2026), produtividade de 63 sc/ha (+2,8% vs safra anterior) e saca cotada a R$ 128,50 (Canal Rural/Paranaguá, 17/06/2026), o foco do produtor migra para comercialização e planejamento da próxima safra.",
+ "texto": "Distrito Cornélio Procópio — safra 2025/2026 encerrada. Colheita 100% concluída em todas as macrorregiões monitoradas (Cornélio Procópio, Jacarezinho e Ponta Grossa), com produtividade de 63 sc/ha no Paraná, alta de 2,8% frente à safra anterior (Deral/SEAB-PR, 25/05/2026). O padrão climático da semana revela sequência predominantemente seca: cinco dias consecutivos sem chuva relevante, mínimas caindo a 3,6 °C na quarta-feira (08/07) — limiar de alerta para geada em culturas de inverno — e evapotranspiração média de 2,8 mm/dia, indicando demanda hídrica moderada. A virada do vento para oeste na terça (07/07) e o avanço de chuva mais expressiva no sábado (11/07, 18,1 mm, rajadas de 42,8 km/h) e domingo (12/07, 9,4 mm, rajadas de 54,0 km/h) sugerem passagem de sistema frontal no fim de semana. Preço da saca em R$ 128,50 (Paranaguá, Canal Rural, 17/06/2026).",
  "pontos": [
-  "Passagem frontal na segunda-feira (07/07) com rajada de 41 km/h e virada de vento para oeste — acompanhar rebaixamento adicional de mínimas nos dias seguintes",
-  "Mínima de 4,5 °C prevista para terça-feira (08/07): monitorar culturas de inverno e viveiros; soja encerrada sem risco operacional",
-  "Semana essencialmente seca (máx. 5,2 mm acumulados) com ET0 média de 2,6 mm/dia — atenção ao manejo hídrico de culturas em desenvolvimento no distrito"
+  "Mínima de 3,6 °C prevista para quarta-feira (08/07): atenção a culturas de inverno e pastagens na região",
+  "Sequência de 5 dias secos com ET0 média de 2,8 mm/dia eleva demanda hídrica no período",
+  "Sistema frontal esperado no fim de semana com até 18 mm (sábado) e rajadas de até 54 km/h (domingo)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:17:54+00:00",
+  "clima": "2026-07-06T14:43:58+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

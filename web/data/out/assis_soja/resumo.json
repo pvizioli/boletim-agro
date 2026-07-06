@@ -1,16 +1,16 @@
 {
  "distrito_id": "assis_soja",
  "nome": "ASSIS-SOJA",
- "gerado_em": "2026-07-05T02:37:43+00:00",
+ "gerado_em": "2026-07-06T16:46:41+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito ASSIS-SOJA (SP) — 5 de julho de 2026. A semana é marcada por padrão tipicamente invernal: mínimas baixas (8,7 °C na sexta-feira, 10/jul) e máximas moderadas (até 29,6 °C), sem geada configurada. A série aponta sequência predominantemente seca — maior sequência de dias sem chuva relevante atinge 7 dias — com precipitação acumulada inferior a 1,5 mm nos 45 municípios monitorados. Na terça-feira (7/jul) destaca-se episódio isolado: chuva de 1,2 mm, rajada de 44,6 km/h e virada do vento para sudoeste (231°), sinalizando passagem rápida de sistema frontal de baixa intensidade, seguida de queda de mínima para 8,9 °C na quarta (8/jul). A evapotranspiração média de 3,4 mm/dia sustenta demanda hídrica relevante, mas sem impacto operacional imediato. A safra 2025/26 em SP está encerrada com 100% colhido (Conab — 9º Levantamento, jun/2026). Preço por saca não disponível neste ciclo.",
+ "texto": "Distrito ASSIS-SOJA (SP) — 06/jul/2026. A safra 2025/26 está encerrada (100% colhido), conforme Conab – 9º Levantamento (jun/2026). O foco recai sobre a dinâmica do tempo. A semana inicia com padrão típico de inverno paulista: segunda-feira (07/jul) registra queda de máxima para 26,9 °C, aumento de rajadas (39,6 km/h) e virada do vento para sudoeste (225°), sinalizando passagem de sistema frontal com chuva residual inferior a 1 mm. Na sequência, entre quarta (08/jul) e sexta (10/jul), predomina massa polar seca com mínimas entre 8,0 e 8,1 °C — próximas ao limiar de geada agronômica — e zero precipitação. O aquecimento retorna no fim de semana: sábado (11/jul) atinge máxima de 32,2 °C e domingo (12/jul) concentra o único evento chuvoso relevante da semana (10,4 mm, rajada de 52,6 km/h). A ET0 média semanal é de 3,8 mm/dia, demanda hídrica moderada para o período.",
  "pontos": [
-  "Safra 2025/26 encerrada em SP (100% colhido) — foco no entressafra e planejamento da próxima temporada",
-  "Sete dias consecutivos sem chuva relevante e ET0 média de 3,4 mm/dia indicam veranico de inverno — atenção ao manejo de solos e irrigação de culturas de segunda safra",
-  "Passagem frontal rápida na terça-feira (7/jul) com rajada de 44,6 km/h e mínima subsequente de 8,9 °C — monitorar culturas sensíveis ao frio na região"
+  "Mínimas de 8,0–8,1 °C na quarta e quinta-feira (08–09/jul) exigem atenção para culturas de inverno e pastagens sensíveis ao frio",
+  "Sequência de 6 dias secos com ET0 média de 3,8 mm/dia eleva demanda hídrica acumulada — relevante para irrigação de culturas de entressafra",
+  "Evento de chuva concentrado no domingo (12/jul): 10,4 mm com rajada de 52,6 km/h pode causar acamamento em cultivos em desenvolvimento"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:16:26+00:00",
+  "clima": "2026-07-06T14:41:38+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

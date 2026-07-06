@@ -1,16 +1,16 @@
 {
  "distrito_id": "londrina_soja",
  "nome": "LONDRINA-SOJA",
- "gerado_em": "2026-07-05T02:42:54+00:00",
+ "gerado_em": "2026-07-06T16:51:57+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Londrina-Soja | PR — Safra 2025/2026 encerrada. Colheita 100% concluída nas regiões de Londrina, Apucarana e Ivaiporã (Deral/SEAB, 25/05/2026), com produtividade de 63 sc/ha e produção de 21,78 milhões de toneladas no Paraná, alta de 2,8% sobre a safra anterior. Climaticamente, a semana inicia com passagem de sistema frontal: no sábado (05/jul) ventos de sudeste com rajadas de 32 km/h e chuva residual de 1,3 mm; na segunda-feira (07/jul) a virada do vento para sudoeste (242°), queda da máxima para 23,3 °C e mínima de 8,5 °C com 4,2 mm confirmam a frente. Pós-frontal, mínimas caem a 5,7 °C (09/jul) sem risco de geada sustentado. Acumulado semanal não ultrapassa 6,5 mm. ET0 média de 3,0 mm/dia (série diária) indica demanda hídrica moderada, sem impacto operacional na entressafra. Preço da saca em R$ 128,50 (Paranaguá, Canal Rural, 17/06/2026).",
+ "texto": "Londrina, PR — 6 de julho de 2026. A safra 2025/2026 está encerrada em todas as macrorregiões monitoradas (Londrina, Apucarana e Ivaiporã), com 100% colhido (Deral/SEAB-PR, 25/05/2026) e produtividade de 63 sc/ha, alta de 2,8% frente ao ciclo anterior. O foco agora é o clima de entressafra. A semana iniciou com chuva fraca na segunda-feira (1,2 mm, máxima 25,4 °C), seguida de queda abrupta de temperatura mínima para 5,3–5,4 °C entre terça e quinta, com vento girando para sudoeste — padrão típico de passagem frontal. Cinco dias consecutivos sem chuva relevante e evapotranspiração média de 3,0 mm/dia indicam demanda hídrica elevada. O tempo melhora até sábado (máxima 28,7 °C), quando nova perturbação traz 13 mm, seguida de evento mais expressivo no domingo com até 44,6 mm e rajadas de 46,4 km/h. Saca negociada a R$ 128,50 em Paranaguá (Canal Rural, 17/06/2026).",
  "pontos": [
-  "Safra 2025/2026 encerrada com 63 sc/ha no PR, alta de 2,8% vs safra anterior (Deral/SEAB, 25/05/2026)",
-  "Passagem frontal confirmada na segunda-feira (07/jul): virada de vento para sudoeste, queda térmica e chuva de 4,2 mm",
-  "Mínimas pós-frontais chegam a 5,7 °C (09/jul) — monitorar culturas de inverno; sem sinal de geada nos dados disponíveis"
+  "Safra 2025/2026 encerrada com 63 sc/ha no PR, alta de 2,8% vs safra anterior (Deral/SEAB-PR, 25/05/2026)",
+  "Passagem frontal entre segunda e terça derruba mínimas a 5,3 °C — monitorar risco de geada em áreas mais elevadas do norte paranaense",
+  "Sequência de 5 dias secos com ET0 média de 3,0 mm/dia eleva demanda hídrica; chuvas expressivas retornam apenas no fim de semana (até 44,6 mm no domingo)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:21:26+00:00",
+  "clima": "2026-07-06T14:46:20+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

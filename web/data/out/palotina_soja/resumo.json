@@ -1,16 +1,16 @@
 {
  "distrito_id": "palotina_soja",
  "nome": "PALOTINA-SOJA",
- "gerado_em": "2026-07-05T02:43:45+00:00",
+ "gerado_em": "2026-07-06T16:52:48+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Palotina, 5 de julho de 2026. A safra 2025/2026 de soja no Paraná está encerrada, com 100% colhido nas macrorregiões de Cascavel, Toledo e Umuarama (Deral/SEAB, 25/05/2026). A produtividade final ficou em 63 sc/ha, alta de 2,8% sobre a safra anterior (Deral/SEAB-PR, 25/05/2026). No campo climático, a semana apresenta dinâmica de passagem frontal: segunda-feira (06/07) concentra o único evento de chuva relevante — 8,6 mm com probabilidade de 91% e rajadas de 34 km/h com vento de sudoeste — seguido de queda de máxima para 18,9 °C na terça (07/07) e mínima de 4,5 °C na quarta (08/07), padrão típico de pós-frente. O restante da semana segue seco, com ET0 média de 2,5 mm/dia e máxima de 3,0 mm/dia na quinta (09/07). Chuva acumulada prevista não ultrapassa 11,6 mm nos 24 municípios monitorados. Soja em Paranaguá cotada a R$ 128,50/sc (Canal Rural, 17/06/2026).",
+ "texto": "Palotina, 6 de julho de 2026. A safra 2025/2026 está encerrada no Paraná, com colheita 100% concluída nas macrorregiões de Cascavel, Toledo e Umuarama (Deral/SEAB, 25/05/2026). A produtividade final ficou em 63 sc/ha, alta de 2,8% sobre o ciclo anterior, com produção de 21,78 milhões de toneladas (Deral/SEAB-PR, 25/05/2026). O preço da saca em Paranaguá estava em R$ 128,50/sc em 17/06/2026 (Canal Rural). No campo climático, a semana abre com queda expressiva de temperatura entre segunda e terça-feira — máxima recuando de 22,8 °C para 18,3 °C com vento de sul/sudoeste —, sugerindo passagem de sistema frontal. Segue sequência seca de quatro dias (quarta a sábado), com mínima de 3,8 °C na quarta-feira e evapotranspiração média de 2,6 mm/dia. O evento chuvoso concentra-se no fim de semana: sábado com 55,2 mm e rajadas de 51,1 km/h, domingo com 34,4 mm.",
  "pontos": [
-  "Safra 2025/2026 encerrada no PR com 63 sc/ha, alta de 2,8% sobre o ciclo anterior (Deral/SEAB, 25/05/2026)",
-  "Passagem frontal prevista para segunda (06/07): 8,6 mm, rajadas de 34 km/h e queda de temperatura — sem impacto operacional na safra encerrada",
-  "Mínima de 4,5 °C na quarta (08/07): monitorar risco de geada em áreas mais frias do distrito, embora sem alerta INMET ativo"
+  "Safra 2025/2026 encerrada: 63 sc/ha no PR, alta de 2,8% vs safra anterior (Deral/SEAB, 25/05/2026)",
+  "Mínima de 3,8 °C prevista para quarta-feira (08/07) — monitorar risco de geada em áreas de baixada",
+  "Chuva intensa concentrada no fim de semana: 55,2 mm no sábado (11/07) com rajadas de 51,1 km/h"
  ],
  "insumos_ref": {
-  "clima": "2026-07-04T21:22:34+00:00",
+  "clima": "2026-07-06T14:46:24+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }
