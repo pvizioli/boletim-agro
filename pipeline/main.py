@@ -37,6 +37,7 @@ COLHEITA_REGIONAL_CSV = os.path.join(BASE, "data", "colheita", "colheita_regiona
 CROSSWALK_CSV = os.path.join(BASE, "config", "crosswalk_regioes.csv")
 OUT_DIR = os.path.join(BASE, "web", "data", "out")
 RETENCAO_HISTORICO_DIAS = 45   # snapshots mais antigos que isso são podados
+HORA_SNAPSHOT_HIST = 10   # o snapshot datado do historico so e gravado na rodada desta hora UTC (1x/dia), pra nao inchar o historico do git 3x/dia
 
 
 def _slug(s):
@@ -179,15 +180,16 @@ def _podar_historico(pasta_hist, manter_dias):
     return removidos
 
 
-def salvar(distrito_id, payload):
+def salvar(distrito_id, payload, escrever_hist=True):
     pasta = os.path.join(OUT_DIR, distrito_id)
     os.makedirs(pasta, exist_ok=True)
     _gravar_json(os.path.join(pasta, "latest.json"), payload)
-    hist = os.path.join(pasta, "historico")
-    os.makedirs(hist, exist_ok=True)
-    hoje = datetime.date.today().isoformat()
-    _gravar_json(os.path.join(hist, hoje + ".json"), payload)
-    _podar_historico(hist, RETENCAO_HISTORICO_DIAS)
+    if escrever_hist:
+        hist = os.path.join(pasta, "historico")
+        os.makedirs(hist, exist_ok=True)
+        hoje = datetime.date.today().isoformat()
+        _gravar_json(os.path.join(hist, hoje + ".json"), payload)
+        _podar_historico(hist, RETENCAO_HISTORICO_DIAS)
 
 
 def _resumo(distritos, colheita_itens):
@@ -295,10 +297,13 @@ def main():
     colheita_reg = colheita_regional.carregar_regional(COLHEITA_REGIONAL_CSV)
     if colheita_itens:
         print("[colheita] CSV: " + ", ".join(sorted(colheita_itens)))
+    escrever_hist = (datetime.datetime.now(datetime.timezone.utc).hour
+                     == HORA_SNAPSHOT_HIST) or os.environ.get("FORCA_HISTORICO") == "1"
+    print("[historico] snapshot datado nesta rodada: " + ("sim" if escrever_hist else "nao (so latest.json)"))
     for d in selecionados:
         try:
             payload, reap, semd = processar_distrito(d, alertas_cache, colheita_itens, crosswalk, colheita_reg)
-            salvar(d["id"], payload)
+            salvar(d["id"], payload, escrever_hist)
             n_al = len(payload["alertas"].get("ativos", []))
             msg = "[ok] " + d["id"] + ": " + str(len(payload["municipios"])) + " mun · " + str(n_al) + " INMET"
             if reap: msg += " · " + str(reap) + " reaproveitado(s)"
