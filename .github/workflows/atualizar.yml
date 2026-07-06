@@ -36,7 +36,9 @@ jobs:
       - name: Executar pipeline
         # Plano pago: descomente e cadastre o secret OPEN_METEO_APIKEY para ir
         # ainda mais rapido e sem pacing.
-        # env:
+        env:
+          # runs manuais sempre gravam o snapshot datado; agendados so as 10h UTC
+          FORCA_HISTORICO: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
         #   OPEN_METEO_APIKEY: ${{ secrets.OPEN_METEO_APIKEY }}
         run: python pipeline/main.py "${{ github.event.inputs.alvo }}"
 
