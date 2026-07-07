@@ -1,16 +1,16 @@
 {
  "distrito_id": "palmas_soja_ics",
  "nome": "PALMAS-SOJA/ICS",
- "gerado_em": "2026-07-06T16:52:36+00:00",
+ "gerado_em": "2026-07-07T00:30:25+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Palmas (TO) — Julho/2026. A safra 2025/26 de soja no Tocantins está encerrada, com 100% de plantio e colheita concluídos (Conab – 9º Levantamento, jun/2026). O foco agora é a dinâmica do tempo no período de entressafra. A semana é marcada por padrão típico de estação seca do Cerrado: sequência de quatro dias sem chuva (segunda a quinta-feira), máximas persistentes entre 35,9 °C e 36,8 °C e evapotranspiração média elevada de 5,7 mm/dia, indicando alta demanda hídrica atmosférica. Ventos predominantemente de leste a sudeste com rajadas de até 37,8 km/h reforçam o padrão seco. A partir de sexta-feira (10/jul), uma ligeira perturbação eleva a probabilidade de chuva para 43–65%, com volumes modestos de até 3,3 mm/dia e rajadas de 49,3 km/h no sábado, sugerindo passagem de sistema convectivo isolado. Não há alertas INMET ativos. Dados de produtividade e produção da safra 2025/26 ainda não divulgados pela Conab.",
+ "texto": "Palmas e região estão em plena seca de inverno. Hoje, terça-feira, o céu segue aberto, sol forte e temperatura chegando a 36°C, sem nenhuma chuva. O solo está seco e a evaporação está alta, passando de 5,9 mm por dia. Essa condição se mantém firme até quarta e quinta, com zero chance de chuva. A partir de quinta à noite e sexta, uma leve possibilidade de chuva aparece, mas os volumes previstos são mínimos, no máximo 1,8 mm em toda a semana nos 26 municípios monitorados. No fim de semana, sábado e domingo, a chance de chuva sobe um pouco mais, mas ainda sem volume expressivo. Não há alertas ativos do INMET para a região. O campo está em entressafra, com a safra anterior encerrada e a nova ainda sem início.",
  "pontos": [
-  "Safra 2025/26 encerrada em TO — 100% colhido conforme Conab (jun/2026); produtividade e produção pendentes de divulgação",
-  "Sequência de 4 dias secos com ET0 média de 5,7 mm/dia e máximas acima de 36 °C reforçam padrão de estiagem típico do Cerrado em julho",
-  "Evento convectivo isolado previsto entre sexta (10/jul) e domingo (12/jul) com até 3,3 mm/dia — volume insuficiente para alterar balanço hídrico regional"
+  "Seca prolongada: sete dias seguidos sem chuva e solo muito seco em toda a região",
+  "Evaporação alta acima de 5,7 mm por dia: atenção ao manejo de irrigação e pastagens",
+  "Chuva fraca possível a partir de sexta e no fim de semana, mas volumes abaixo de 2 mm, sem alívio real para o solo"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:46:23+00:00",
+  "clima": "2026-07-06T22:50:38+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

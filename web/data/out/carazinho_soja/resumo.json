@@ -1,16 +1,16 @@
 {
  "distrito_id": "carazinho_soja",
  "nome": "CARAZINHO-SOJA",
- "gerado_em": "2026-07-06T16:47:49+00:00",
+ "gerado_em": "2026-07-07T00:26:19+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Carazinho, RS — 6 de julho de 2026. A semana abre com passagem de sistema frontal: segunda-feira registrou máxima de apenas 14 °C, mínima de 4,8 °C e chuva de 1,3 mm com vento de oeste. Na terça e quarta-feira, mínimas próximas a zero (0,1 °C e 1,4 °C) configuram risco de geada nos dois dias, com tempo seco e ET0 em elevação. A virada do vento para norte/nordeste na quinta-feira eleva a máxima a 20,4 °C, iniciando aquecimento. Na sexta-feira o vento gira para leste e chega o principal evento de chuva: sábado concentra 19,7 mm com rajadas de 34,6 km/h e vento de sudeste, seguido de 2,7 mm no domingo com rajadas de 41,4 km/h — padrão típico de novo sistema frontal. Total previsto: 10 a 23 mm em 7 dias. A safra 2025/2026 está encerrada (100% colhido), com produtividade de 45 sc/ha (Emater/RS-Ascar, 11/jun/2026), alta de 32,9% ante a safra anterior. Preço: R$ 129/sc (Grão Direto, 3/jul/2026).",
+ "texto": "HOJE (07/jul): dia frio, mínima de 0,7°C, sem chuva. Risco de geada hoje e amanhã (08/jul), com temperaturas chegando perto de zero. Solo recebeu apenas 2,2 mm ontem, sem encharcamento. Janela seca está aberta. PRÓXIMOS DIAS: quinta (09) e sexta (10) aquecem, mas na sexta já chegam 4,6 mm com chance de chuva. No sábado (11) a chuva aumenta para 7,1 mm, com ventos mais fortes — massa de ar úmido toma conta do fim de semana. De quarta a sexta fica a melhor janela de trabalho da semana, antes da virada do tempo. PREÇO: soja em R$ 129,00/sc 60kg no RS (Grão Direto, 03/jul).",
  "pontos": [
-  "Risco de geada em 7 e 8 de julho: mínimas de 0,1 °C e 1,4 °C exigem atenção a culturas de inverno e pastagens",
-  "Sequência de 4 dias secos com ET0 média de 1,5 mm/dia eleva demanda hídrica antes da chuva do fim de semana",
-  "Principal chuva concentrada no sábado (19,7 mm) com novo sistema frontal — rajadas de até 41,4 km/h no domingo"
+  "Geada hoje (07/jul) e amanhã (08/jul): mínimas perto de zero — atenção para pastagens e culturas sensíveis na região",
+  "Janela seca aberta até sexta (10/jul) à tarde: aproveite para operações de campo que dependem de solo firme",
+  "Chuva chega na sexta (10/jul) e aumenta no sábado (11/jul): planeje e conclua trabalhos de campo até quinta (09/jul) para maior segurança"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:42:51+00:00",
+  "clima": "2026-07-06T22:47:05+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

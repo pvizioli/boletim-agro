@@ -1,16 +1,16 @@
 {
  "distrito_id": "sorriso_soja_ics",
  "nome": "SORRISO-SOJA/ICS",
- "gerado_em": "2026-07-06T16:57:11+00:00",
+ "gerado_em": "2026-07-07T00:34:18+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Sorriso (MT) — Entressafra 2025/26. A safra de soja está encerrada em Mato Grosso, com 100% colhido e produtividade de 66 sc/ha (Imea em Campo/Conab 9º lev., jun/26), representando alta de 1,3% frente à safra anterior e produção de 51,56 milhões de toneladas. No campo climático, a semana é dominada por veranico consolidado: seis dias consecutivos sem chuva, máximas escalando de 32,5°C (segunda) a 34,5°C (sábado) e evapotranspiração média de 5,1 mm/dia — demanda hídrica elevada para o período seco do Cerrado. O vento gira de sul/sudoeste nos primeiros dias para norte/nordeste a partir de quarta, indicando mudança de massa de ar. Apenas no domingo (12/07) há sinal de chuva (6,3 mm, 37% de probabilidade), com rajada de 46,1 km/h, sugerindo passagem de sistema convectivo isolado. Preço da soja em MT: R$ 108,63/sc (Grão Direto, 03/07/26).",
+ "texto": "SITUAÇÃO ATUAL: Sorriso está em plena entressafra, com sol forte e sete dias seguidos sem chuva. O solo está seco e o calor segue firme, com máximas perto de 33°C hoje. Vento moderado ao longo do dia. PRÓXIMOS DIAS: A semana inteira segue seca e quente, com máximas chegando a 34-35°C de quarta a sábado. Apenas no sábado aparece uma chance pequena de chuva isolada, mas nada expressivo — a previsão aponta no máximo 0,3 mm em toda a semana. Não há frente fria nem massa de ar frio no horizonte dos próximos sete dias. O tempo seco e quente deve persistir. PREÇO: A saca de soja está sendo negociada a R$ 108,63 no Nordeste do MT, referência de 03/07.",
  "pontos": [
-  "Safra 2025/26 encerrada com 66 sc/ha em MT, alta de 1,3% sobre a safra anterior (Imea/Conab, jun/26)",
-  "Veranico de 6 dias consecutivos com ET0 média de 5,1 mm/dia eleva demanda hídrica — atenção ao manejo de solos descobertos e pastagens",
-  "Única precipitação relevante prevista no domingo (12/07): até 6,3 mm com rajadas de 46,1 km/h — evento isolado, sem ruptura do padrão seco"
+  "Entressafra em curso: sem operações de campo para soja no momento",
+  "Sete dias consecutivos sem chuva e previsão de zero chuva relevante até 12/07",
+  "Calor intenso com máximas acima de 34°C de quarta a sábado — atenção ao consumo de água em pastagens e irrigação eventual"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:48:43+00:00",
+  "clima": "2026-07-06T22:52:58+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

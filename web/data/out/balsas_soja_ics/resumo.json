@@ -1,16 +1,16 @@
 {
  "distrito_id": "balsas_soja_ics",
  "nome": "BALSAS-SOJA/ICS",
- "gerado_em": "2026-07-06T16:46:54+00:00",
+ "gerado_em": "2026-07-07T00:25:35+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Balsas (MA/PI/TO) — safra 2025/26 encerrada em todas as UFs monitoradas, conforme Conab (9º Levantamento, jun/2026). O foco desta semana recai sobre a dinâmica atmosférica. A série diária revela padrão de calor persistente, com máximas entre 34,8 °C (segunda-feira) e 36,5 °C (domingo), mínimas subindo de 17,1 °C para 20,8 °C ao longo da semana — sinal de aumento da umidade de baixos níveis. Ventos com direção girando de sudeste (127°) para leste-nordeste (71°) e rajadas entre 38,9 e 47,5 km/h indicam atuação de sistema de leste. Chuvas distribuídas em 4 dos 7 dias, com pico de 7,2 mm na terça-feira (probabilidade 100%), totalizando até 15,7 mm no período. A evapotranspiração média elevada (6,4 mm/dia) reflete alta demanda atmosférica. Não há alertas INMET ativos. Período de entressafra sem impacto operacional imediato.",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 7 de julho, o dia começa com chuva confirmada na região de Balsas — 4,3 mm previstos e probabilidade de 100%. O solo está recebendo água após ontem já ter registrado 1 mm. Não há janela de trabalho aberta no momento. PRÓXIMOS DIAS: A chuva segue firme até quarta (9/7), com o dia mais pesado sendo amanhã, terça (8/7), com até 9,4 mm. De quinta (10/7) a domingo (12/7) a chuva diminui, mas ainda aparece com probabilidade entre 69% e 88% — ou seja, o solo não vai secar nessa semana. Rajadas de vento chegam a 47 km/h entre quinta e sábado, o que exige atenção. Temperaturas máximas ficam entre 35 e 37°C ao longo da semana. COLHEITA: Região em entressafra — safra anterior encerrada e nova safra ainda não iniciada.",
  "pontos": [
-  "Safra 2025/26 encerrada em MA, PI e TO (Conab, jun/2026) — sem operações de campo em andamento",
-  "Rajadas de até 47,5 km/h na quinta-feira e ventos girando para leste ao longo da semana indicam sistema de leste atuante",
-  "ET0 média de 6,4 mm/dia com máximas acima de 35 °C sinaliza alta demanda hídrica atmosférica no período de entressafra"
+  "Chuva todos os dias até domingo: solo encharcado durante toda a semana, sem janela seca prevista",
+  "Amanhã, terça (8/7), é o dia de maior volume de chuva — até 9,4 mm",
+  "Rajadas de vento fortes (até 47 km/h) de quinta a sábado: atenção a estruturas e equipamentos expostos"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:41:43+00:00",
+  "clima": "2026-07-06T22:45:54+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "pelotas_soja",
  "nome": "PELOTAS-SOJA",
- "gerado_em": "2026-07-06T16:53:42+00:00",
+ "gerado_em": "2026-07-07T00:31:20+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Pelotas-Soja | RS | 06/07/2026. A safra 2025/2026 está encerrada nas regiões de Pelotas e Bagé (100% colhido, Emater/RS-Ascar, 14/05/2026), com produtividade estadual de 45 sc/ha e produção de 18,1 milhões de toneladas — alta de 32,9% sobre a safra anterior, porém 14,8% abaixo da projeção inicial, reflexo da forte variabilidade regional (Emater/RS-Ascar, 11/06/2026). O preço no Centro Ocidental do RS está em R$ 129/sc (Grão Direto, 03/07/2026). Na dinâmica do tempo, a segunda-feira (06/07) registrou máxima de apenas 13,3 °C com 3,1 mm e rajadas de 50 km/h de oeste, padrão típico de passagem frontal. A virada do vento para noroeste/norte nos dias seguintes promoveu aquecimento rápido, com máxima de 20,5 °C na quinta-feira (09/07) e quatro dias consecutivos sem chuva relevante. A partir de sexta (10/07), nova queda de temperatura e vento girando para sudeste indicam aproximação de novo sistema frontal, com chuvas de até 5,9 mm no sábado (11/07).",
+ "texto": "Hoje, 7 de julho, o tempo abriu depois da chuva de ontem (3,1 mm). O solo está drenando, mas a temperatura mínima chegou a 2,3 °C — risco de geada esta madrugada, especialmente em baixadas. Vento forte de oeste ainda sopra, mas o céu está limpo e a janela de trabalho está aberta. De amanhã, quarta, até quinta (8 e 9/07), o tempo segue seco e as máximas sobem até 20,8 °C — melhor janela da semana para qualquer operação de campo. A partir de sexta (10/07), o vento muda de direção e a chance de chuva aumenta gradualmente, com 1,8 mm previstos no sábado (11/07). Volumes pequenos, mas o tempo fecha. Quanto ao preço, a saca de soja está cotada a R$ 129,00 em RS (Grão Direto, 03/07).",
  "pontos": [
-  "Risco de geada na madrugada de terça-feira (07/07): mínima prevista de 2,3 °C — atenção a culturas de inverno e pastagens",
-  "Sequência de quatro dias secos com ET0 média de 1,8 mm/dia eleva demanda hídrica; relevante para lavouras de inverno em estabelecimento",
-  "Novo sistema frontal previsto a partir de sexta (10/07) traz chuva acumulada de até 8,1 mm na semana — volume baixo, sem risco operacional significativo"
+  "Geada hoje (07/07): mínima de 2,3 °C — atenção a pastagens e culturas sensíveis em baixadas",
+  "Janela seca aberta hoje até quinta (09/07): aproveite para operações de campo com solo drenando",
+  "A partir de sexta (10/07) o tempo começa a fechar; sábado tem previsão de chuva fraca (1,8 mm)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:47:29+00:00",
+  "clima": "2026-07-06T22:51:44+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

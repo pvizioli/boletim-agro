@@ -2,13 +2,13 @@
  "escopo_id": "nacional",
  "nome": "Brasil",
  "tipo": "nacional",
- "gerado_em": "2026-07-06T16:58:01+00:00",
+ "gerado_em": "2026-07-07T00:35:03+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Safra 2025/2026: colheita 100% concluída em todas as 15 UFs monitoradas (40,1 milhões de ha). A heterogeneidade de produtividade é marcante: MT lidera com 66 sc/ha (Imea/Conab, abr-jun/2026), seguido por PR e SC com 63 sc/ha, MS com 60 sc/ha e RS na lanterna com apenas 45 sc/ha — reflexo das adversidades climáticas no Sul. Entressafra em pleno inverno: clima dos próximos 7 dias combina geadas potenciais (tmin até -1,3 °C em 07-09/jul) no Sul com chuvas intensas (até 104 mm, pico de 92,7 mm em 11/jul) e rajadas de 60,8 km/h, sem impacto direto na soja colhida, mas com risco logístico. Preços variam de R$ 108,50/sc (MT, Grao Direto, 03/jul) a R$ 129,00/sc (RS, Grao Direto, 03/jul), refletindo diferencial de base regional.",
+ "texto": "Brasil, 7 de julho de 2026 — O país está em entressafra da soja, com a safra anterior encerrada e a nova ainda sem início. O tempo na semana é marcado por forte contraste: chuvas persistentes atingem parte do território nos próximos dias, com acumulados que chegam a 84 mm e probabilidade acima de 84% em cinco dos sete dias monitorados. Ao mesmo tempo, temperaturas mínimas abaixo de 3 °C nos dias 7, 8 e 9 de julho indicam risco de geada nas regiões produtoras do Sul. Ventos com rajadas de até 60 km/h ampliam o alerta. Nos preços, o Sul lidera com RS e PR entre R$ 128,50 e R$ 129,00/sc, enquanto GO e MT registram os menores valores, entre R$ 108,50 e R$ 108,63/sc.",
  "pontos": [
-  "MT e PR/SC lideram produtividade (66 e 63 sc/ha, respectivamente), enquanto RS registra apenas 45 sc/ha, evidenciando forte contraste regional na safra 2025/2026.",
-  "Geadas potenciais previstas para 07–09/jul (tmin até -1,3 °C) afetam o Sul em plena entressafra, sem risco à soja já colhida, mas com atenção à logística e culturas de inverno.",
-  "Chuvas acumuladas de até 104 mm em 7 dias e rajadas de até 60,8 km/h elevam risco operacional para transporte e armazenagem nas regiões Centro-Oeste e Sul.",
-  "Preços na entressafra variam R$ 20,50/sc entre MT (R$ 108,63) e RS (R$ 129,00), sinalizando diferencial de base expressivo favorável ao produtor sulista."
+  "Risco de geada nos dias 7, 8 e 9/07 com mínimas abaixo de 3 °C, exigindo atenção nas regiões Sul e Sudeste",
+  "Chuvas intensas previstas entre 10 e 12/07, com acumulados de até 70 mm/dia e rajadas de até 60 km/h em áreas do Centro-Norte",
+  "Preços no Sul (RS R$ 129,00/sc; PR R$ 128,50/sc) superam em até 19% os valores praticados em GO e MT (≈ R$ 108,50/sc)",
+  "Período de entressafra sem pressão imediata de colheita; atenção ao clima volta-se à proteção de estruturas e planejamento da próxima safra"
  ]
 }

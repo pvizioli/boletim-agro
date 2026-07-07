@@ -1,16 +1,16 @@
 {
  "distrito_id": "erechim_soja",
  "nome": "ERECHIM-SOJA",
- "gerado_em": "2026-07-06T16:49:21+00:00",
+ "gerado_em": "2026-07-07T00:27:47+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Erechim-RS, safra 2025/2026 encerrada com 100% colhido e produtividade de 45 sc/ha (Emater/RS-Ascar, 11/jun/2026), resultado 14,8% abaixo da projeção inicial e com forte variabilidade regional. O preço da saca 60 kg está em R$ 129,00 no Centro Ocidental do RS (Grão Direto, 03/jul/2026). No clima, a semana iniciou com chuva de 3,9 mm e vento de oeste na segunda-feira (06/jul), seguida de queda acentuada de temperatura — mínima de 1,3 °C na terça e -0,5 °C na quarta —, com ventos girando para sul/sudeste, padrão típico de passagem frontal. Risco de geada foi identificado nos dias 07 e 08/jul. A sequência seca de três dias (07 a 09/jul) elevou a demanda evapotranspirativa, com ET0 média de 1,8 mm/dia. Nova entrada de chuva está prevista entre sexta (10/jul) e domingo (12/jul), acumulando entre 6,5 e 21,9 mm, com rajadas de até 46 km/h no domingo.",
+ "texto": "Hoje, 7 de julho, o tempo abriu depois da chuva de ontem (6,5 mm). Céu mais limpo, frio de manhã com mínima perto de 2°C e risco de geada amanhã cedo, quando a temperatura pode cair a -0,6°C. A janela seca segura até quinta (10/07), quando a chuva volta com cerca de 6 mm e chance de 57%. Na sexta (11/07) o tempo piora de vez: previsão de 27 mm com rajadas fortes, massa de ar úmido chegando pelo noroeste. No sábado (12/07) ainda pode chover mais 4 mm. A semana fecha com acumulado entre 9 e 33 mm nos 38 municípios monitorados. Soja em entressafra. A saca está sendo negociada a R$ 129,00 (RS, Grão Direto, 03/07).",
  "pontos": [
-  "Geada possível nos dias 07 e 08/jul: mínimas de 1,3 °C e -0,5 °C exigem atenção a culturas de inverno e pastagens",
-  "Safra soja 2025/2026 encerrada a 45 sc/ha, com queda de 14,8% frente à projeção e alta variabilidade regional (Emater/RS-Ascar)",
-  "Preço da saca em R$ 129,00 no RS (Grão Direto, 03/jul): momento de acompanhar comercialização de estoques remanescentes"
+  "Geada possível na madrugada de hoje para amanhã (07-08/jul): mínima prevista de -0,6°C — atenção a pastagens e culturas sensíveis expostas à geada.",
+  "Janela seca disponível hoje até quinta (10/jul): aproveite para manutenção de máquinas, estradas e operações de campo que dependem de solo firme.",
+  "Chuva forte chega na sexta (11/jul) com até 27 mm e rajadas de 40 km/h — encerre operações externas até quinta à tarde."
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:44:01+00:00",
+  "clima": "2026-07-06T22:48:15+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

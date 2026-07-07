@@ -1,16 +1,16 @@
 {
  "distrito_id": "alfenas_soja",
  "nome": "ALFENAS-SOJA",
- "gerado_em": "2026-07-06T16:46:23+00:00",
+ "gerado_em": "2026-07-07T00:25:13+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito ALFENAS-SOJA, semana de 06 a 12/07/2026. A safra 2025/26 está encerrada em MG e SP (Conab, 9º Levantamento, jun/2026), com 100% colhido em ambos os estados. O foco recai sobre a dinâmica do tempo e o mercado. A semana abre com passagem de sistema frontal: na segunda (06/07) e terça (07/07), ventos de sul com rajadas acima de 44 km/h, alta probabilidade de chuva (96% e 71%) e precipitações residuais de 0,8 mm. Entre quarta e sexta (08 a 10/07), a massa polar avança, derrubando a mínima a 5,8 °C na quinta — limiar de alerta para culturas sensíveis. O tempo seca progressivamente. No sábado e domingo (11 e 12/07), retorno do calor com máximas de 31,3–31,4 °C, ET0 elevada (até 5,26 mm/dia) e evento de chuva expressivo previsto para domingo (18,8 mm, rajadas de 60,8 km/h), sugerindo nova perturbação. ET0 média semanal de 3,9 mm/dia reforça demanda hídrica elevada. Preço de referência: R$ 113/sc 60 kg (Portal Agron, Triângulo Mineiro, mai/2026).",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 7 de julho, o tempo está instável na região, com chuvas leves e ventos chegando a 47 km/h. O solo está recebendo pouca água, mas a sequência de dias úmidos desde ontem mantém o terreno com umidade. Não há janela de trabalho aberta no momento. PRÓXIMOS DIAS: Quarta e quinta (8 e 9) ainda trazem chuva fraca com probabilidade moderada e ventos fortes, até 53 km/h na quarta. A virada acontece na sexta (10): chuva cai a zero e o fim de semana abre uma janela seca com temperaturas subindo até 32,8°C no sábado (12). Atenção: no sábado à noite a chuva volta com força, podendo chegar a 8,4 mm. As mínimas da semana chegam a 7,2°C na quinta, pedindo atenção com pastagens sensíveis ao frio. COLHEITA: Distrito em entressafra. Soja em MG cotada a R$ 113,00/sc.",
  "pontos": [
-  "Mínima de 5,8 °C prevista para quinta-feira (09/07) — monitorar culturas de inverno e pastagens sensíveis ao frio na região",
-  "ET0 média de 3,9 mm/dia e sequência predominantemente seca elevam demanda hídrica; atenção à umidade do solo para áreas com cultivo de segunda safra ou pastagens",
-  "Evento de chuva de até 18,8 mm com rajadas de 60,8 km/h previsto para domingo (12/07) — risco de danos mecânicos e erosão em solos descobertos"
+  "Janela seca abre na sexta (10) e vai até sábado (12) ao meio-dia: aproveite para operações de campo",
+  "Sábado à noite (12): chuva de até 8,4 mm encerra a janela seca — programe e conclua as atividades antes disso",
+  "Mínima de 7,2°C na quinta (9): fique atento com pastagens e culturas sensíveis ao frio"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:41:37+00:00",
+  "clima": "2026-07-06T22:45:47+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-05-06"
  }

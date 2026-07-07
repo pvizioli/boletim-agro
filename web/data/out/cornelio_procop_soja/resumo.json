@@ -1,16 +1,16 @@
 {
  "distrito_id": "cornelio_procop_soja",
  "nome": "CORNELIO PROCOP-SOJA",
- "gerado_em": "2026-07-06T16:48:43+00:00",
+ "gerado_em": "2026-07-07T00:27:12+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Cornélio Procópio — safra 2025/2026 encerrada. Colheita 100% concluída em todas as macrorregiões monitoradas (Cornélio Procópio, Jacarezinho e Ponta Grossa), com produtividade de 63 sc/ha no Paraná, alta de 2,8% frente à safra anterior (Deral/SEAB-PR, 25/05/2026). O padrão climático da semana revela sequência predominantemente seca: cinco dias consecutivos sem chuva relevante, mínimas caindo a 3,6 °C na quarta-feira (08/07) — limiar de alerta para geada em culturas de inverno — e evapotranspiração média de 2,8 mm/dia, indicando demanda hídrica moderada. A virada do vento para oeste na terça (07/07) e o avanço de chuva mais expressiva no sábado (11/07, 18,1 mm, rajadas de 42,8 km/h) e domingo (12/07, 9,4 mm, rajadas de 54,0 km/h) sugerem passagem de sistema frontal no fim de semana. Preço da saca em R$ 128,50 (Paranaguá, Canal Rural, 17/06/2026).",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 7 de julho, o tempo está firme em Cornélio Procópio, com chuva insignificante (0,3 mm) e solo em processo de secagem após a garoa dos últimos dias. Janela de trabalho aberta para operações de campo. PRÓXIMOS DIAS: De quarta (8) a sexta (10) temos sequência seca, com mínimas baixas chegando a 4,5°C na quarta — atenção ao frio. No sábado (11) o tempo vira: chuva de 9,5 mm com rajadas fortes de vento, e no domingo (12) chegam mais 18,9 mm. A janela seca fecha na sexta à noite. COLHEITA: Distrito em entressafra — safra anterior encerrada e nova safra ainda não começou. Soja em PR cotada a R$ 128,50/sc em Paranaguá (referência de 17/06).",
  "pontos": [
-  "Mínima de 3,6 °C prevista para quarta-feira (08/07): atenção a culturas de inverno e pastagens na região",
-  "Sequência de 5 dias secos com ET0 média de 2,8 mm/dia eleva demanda hídrica no período",
-  "Sistema frontal esperado no fim de semana com até 18 mm (sábado) e rajadas de até 54 km/h (domingo)"
+  "Janela seca de quarta (8) a sexta (10): aproveite para manutenção de máquinas e preparo de solo",
+  "Frio na quarta (8): mínima de 4,5°C — monitore pastagens e culturas sensíveis ao frio",
+  "Sábado (11) e domingo (12): chuva forte com rajadas de até 51 km/h — evite trabalhos de campo"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:43:58+00:00",
+  "clima": "2026-07-06T22:48:12+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

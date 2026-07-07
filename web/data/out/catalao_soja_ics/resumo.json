@@ -1,16 +1,16 @@
 {
  "distrito_id": "catalao_soja_ics",
  "nome": "CATALAO-SOJA & ICS",
- "gerado_em": "2026-07-06T16:48:18+00:00",
+ "gerado_em": "2026-07-07T00:26:45+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Catalão-Soja & ICS (GO/MG) — Safra 2025/26 encerrada em ambos os estados (Conab, 9º Levantamento, jun/2026). O padrão climático da semana é tipicamente invernal e seco: sete dias consecutivos sem chuva relevante (máximo de 0,1 mm projetado para quinta-feira, 09/jul, com apenas 8% de probabilidade), máximas entre 28,3 °C e 32,3 °C e mínimas entre 14,0 °C e 18,0 °C. A evapotranspiração média de 4,3 mm/dia é elevada para o período, sustentada por ventos de leste a nordeste com rajadas que chegam a 46,4 km/h no domingo (12/jul), quando a máxima atinge 32,3 °C — indicando aquecimento progressivo e demanda hídrica crescente ao final da semana, sem sinal de sistema frontal. Sem risco operacional para a soja, que está em entressafra. Preço de referência: R$ 108,50/sc 60 kg (Canal Rural, Jataí/GO, 17/jun/2026). Produção de GO: 20,1 milhões de toneladas na safra 2025/26.",
+ "texto": "SITUAÇÃO ATUAL: Julho seco e quente em Catalão e região. Sem chuva nos últimos dias e solo bem drenado, com ventos moderados hoje. A semana toda segue assim: sete dias consecutivos sem chuva relevante, temperaturas máximas entre 28 e 32°C e mínimas em torno de 14 a 17°C. PRÓXIMOS DIAS: De hoje até domingo o tempo fica aberto e seco. Na sexta (10/07) há uma chance pequena de chuva isolada, menos de 1 mm, sem impacto prático. No domingo (12/07) o vento aumenta bastante, com rajadas previstas fortes, e a probabilidade de chuva sobe um pouco, mas ainda baixa. Nada que mude o cenário seco da semana. PREÇO: Soja em GO cotada a R$ 108,50 a saca, referência de Jataí.",
  "pontos": [
-  "Sete dias consecutivos sem chuva confirmam veranico de inverno típico, sem impacto direto na soja em entressafra",
-  "ET0 média de 4,3 mm/dia e rajadas de até 46,4 km/h no domingo elevam demanda hídrica — atenção ao manejo de solos descobertos e pastagens",
-  "Safra 2025/26 encerrada em GO e MG; GO registrou produção de 20,1 milhões de toneladas (Conab, jun/2026)"
+  "Semana inteiramente seca: sete dias sem chuva relevante prevista na região",
+  "Domingo (12/07): rajadas de vento fortes esperadas, atenção a estruturas e instalações no campo",
+  "Sexta (10/07): chance mínima de chuva isolada, sem impacto operacional"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:42:53+00:00",
+  "clima": "2026-07-06T22:47:07+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-06-17"
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "porto_alegre_soja",
  "nome": "PORTO ALEGRE-SOJA",
- "gerado_em": "2026-07-06T16:54:09+00:00",
+ "gerado_em": "2026-07-07T00:31:44+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Safra 2025/2026 encerrada no RS com 100% colhido (Emater/RS-Ascar, 11/jun/2026). Produtividade média de 45 sc/ha, queda de 14,8% ante a projeção inicial, com forte variabilidade regional. Preço da saca em R$ 129,00 (Grão Direto, 03/jul/2026). Na dinâmica climática desta semana, segunda-feira (06/jul) registrou chuva intensa de 21,9 mm, máxima de apenas 15,6°C e rajadas de 47,9 km/h com vento de oeste, sinalizando passagem de sistema frontal. A saída do sistema trouxe dois dias secos (07 e 08/jul) com mínimas críticas de 2,1°C e 1,6°C — risco de geada confirmado pelos sinais derivados. Quinta-feira (09/jul) aquece até 24,5°C com vento norte. Nova perturbação chega na sexta (10/jul), com virada de vento para sul e chuvas previstas até domingo (12/jul), acumulando até 31 mm adicionais. ET0 média semanal de 1,9 mm/dia indica demanda hídrica moderada.",
+ "texto": "Hoje, 7 de julho, o tempo abriu depois da chuva forte de ontem (21,9 mm). O solo está úmido, mas a massa de ar frio que chegou derruba as mínimas: risco de geada hoje à noite e amanhã cedo, com termômetro podendo bater 2°C e 1,5°C. A janela seca se mantém firme até quarta (9/jul), com sol e temperatura subindo até quase 25°C — bom para o campo secar. Na quinta (10/jul) o tempo começa a virar, com chuva fraca possível. Na sexta (11/jul) chega uma frente fria trazendo chuva mais expressiva, cerca de 14 mm previstos, e o tempo segue instável no sábado (12/jul). Fique de olho nas pastagens e em qualquer cultura sensível ao frio nas próximas duas noites. Soja em entressafra: a saca está sendo negociada a R$ 129,00 no RS.",
  "pontos": [
-  "Geada possível na madrugada de terça (07/jul) e quarta (08/jul): mínimas de 2,1°C e 1,6°C confirmadas pelos sinais derivados — atenção a culturas de inverno e pastagens",
-  "Segunda frente prevista entre sexta (10/jul) e domingo (12/jul) com até 31 mm acumulados e rajadas de até 52,9 km/h no domingo",
-  "Safra 2025/2026 encerrada com produtividade 14,8% abaixo da projeção inicial (45 sc/ha); variabilidade regional expressiva registrada pela Emater/RS-Ascar"
+  "Geada hoje à noite e amanhã cedo (7 e 8/jul): mínimas de 2°C e 1,5°C — risco para pastagens e culturas sensíveis ao frio",
+  "Janela seca aberta até quarta (9/jul): aproveite para qualquer serviço de campo que exija solo firme",
+  "Frente fria chega na sexta (11/jul) com chuva prevista de ~14 mm — planeje operações para antes disso"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:47:30+00:00",
+  "clima": "2026-07-06T22:51:45+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "rondonopolis_soja_ics",
  "nome": "RONDONOPOLIS-SOJA/ICS",
- "gerado_em": "2026-07-06T16:55:17+00:00",
+ "gerado_em": "2026-07-07T00:32:40+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Rondonópolis (MT) — Entressafra 2025/26. A semana de 6 a 12 de julho é marcada por veranico consolidado: sete dias consecutivos sem chuva relevante, máximas escalando de 31,5 °C (segunda) até 34,4 °C (sábado) e mínimas entre 13,8 °C e 18,3 °C. A evapotranspiração média de 4,5 mm/dia reflete alta demanda atmosférica sob céu aberto e ventos de sudoeste/sul com rajadas de até 50 km/h no sábado (dia 12). A virada do vento para leste-sudeste entre quarta e sexta, seguida do retorno ao quadrante oeste com rajada intensa e probabilidade de chuva de 38% no sábado, sugere aproximação de sistema frontal no final do período — mas a precipitação esperada é residual (máx. 1,8 mm). A safra 2025/26 está encerrada em MT: produtividade de 66 sc/ha e produção de 51,56 Mt (Imea em Campo/Conab 9º lev., jun/26), alta de 1,3% sobre a safra anterior. Saca cotada a R$ 108,63 (Grão Direto, Nordeste MT, 03/07/26).",
+ "texto": "SITUAÇÃO ATUAL: Rondonópolis está em plena entressafra da soja. O tempo hoje, 7 de julho, segue seco e quente, com máxima de 31,6 °C e mínima de 15 °C. Solo sem umidade relevante, sequência de dias secos já em curso. PRÓXIMOS DIAS: A semana inteira fica sem chuva — de quarta (8/7) a sábado (12/7) zero milímetros previstos, com máximas subindo até 35 °C no sábado. No domingo (12/7) a probabilidade de chuva sobe para 38%, indicando que uma mudança de tempo pode chegar no fim de semana, mas ainda sem confirmação de volume expressivo. As mínimas ficam entre 13 e 16 °C, sem risco de geada. Soja: distrito em entressafra, safra nova ainda não começou. Preço da saca em MT: R$ 108,63 (fonte: Grão Direto, Nordeste MT, 03/07).",
  "pontos": [
-  "Veranico de 7 dias com ET0 média de 4,5 mm/dia eleva demanda hídrica — atenção ao planejamento de irrigação em áreas com culturas de inverno",
-  "Rajada de 50 km/h e probabilidade de 38% de chuva no sábado (12/07) indicam possível passagem frontal fraca — monitorar evolução para a semana seguinte",
-  "Safra 2025/26 encerrada em MT com 66 sc/ha e +1,3% sobre a safra anterior (Imea/Conab, jun/26)"
+  "Semana totalmente seca até sábado (12/7): condições favoráveis para manutenção de máquinas e preparo de área",
+  "Domingo (12/7): probabilidade de chuva sobe para 38% — acompanhe a previsão para planejar operações de campo no fim de semana",
+  "Calor intenso a semana toda, máxima chegando a 35 °C no sábado: atenção ao bem-estar de equipes e animais em campo"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:47:33+00:00",
+  "clima": "2026-07-06T22:51:48+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

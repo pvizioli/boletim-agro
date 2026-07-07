@@ -1,16 +1,16 @@
 {
  "distrito_id": "ijui_soja",
  "nome": "IJUI-SOJA",
- "gerado_em": "2026-07-06T16:50:39+00:00",
+ "gerado_em": "2026-07-07T00:28:49+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Ijuí-Soja | RS | 06/jul/2026. A safra 2025/2026 está encerrada na região de Ijuí (100% colhido, Emater/RS-Ascar, 14/mai/2026), com produtividade estadual de 45 sc/ha e produção de 18,1 milhões de toneladas — alta de 32,9% sobre a safra anterior, porém 14,8% abaixo da projeção inicial, reflexo de forte variabilidade regional (Emater/RS-Ascar, 11/jun/2026). O preço da saca 60 kg está em R$ 129,00 no Centro Ocidental do RS (Grão Direto, 03/jul/2026). No clima, a semana iniciou com mínimas próximas a 1,3 °C (segunda-feira, 07/jul) e 2,6 °C (terça, 08/jul), sustentando risco de geada em dois dias consecutivos. A partir de quarta (09/jul), ventos do quadrante norte elevaram a máxima a 21,2 °C e a ET0 a 2,83 mm/dia. Uma virada de vento para leste/sudeste na sexta (10/jul) e sábado (11/jul), com rajadas de até 36,7 km/h e chuva acumulada de 17,3 mm, indica passagem de sistema frontal encerrando o período seco de quatro dias.",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 7 de julho, o frio chegou forte em Ijuí: mínima de 0,9°C com risco real de geada esta manhã. Sem chuva e solo secando rápido após dias com pouca precipitação. PRÓXIMOS DIAS: Quarta e quinta (8 e 9) seguem secos e mais amenos, com máximas subindo até 21°C — boa janela para trabalhos de campo. Na quinta à noite e sexta (10 e 11) chegam chuvas: até 11 mm esperados, com temperaturas subindo e solo voltando a ficar úmido. No sábado (12) o tempo melhora novamente. PREÇO: Soja em R$ 129,00 a saca de 60 kg no RS (Grão Direto, Centro Ocidental RS, 3/jul). Entressafra em andamento — safra nova ainda não começou.",
  "pontos": [
-  "Geada possível: mínimas de 1,3 °C (07/jul) e 2,6 °C (08/jul) — atenção a culturas de inverno e pastagens na região de Ijuí",
-  "Passagem frontal entre sexta (10/jul) e sábado (11/jul) traz 17,3 mm acumulados e rajadas de até 36,7 km/h",
-  "Safra 2025/2026 encerrada com 45 sc/ha no RS, mas 14,8% abaixo da projeção inicial — variabilidade regional expressiva (1.200–4.200 kg/ha)"
+  "Geada hoje (7/jul) e amanhã (8/jul): atenção a pastagens e culturas sensíveis expostas ao frio",
+  "Janela seca de quarta a quinta (8 e 9/jul): aproveite para manutenção de máquinas e preparo de solo",
+  "Chuva chega na quinta à noite e se estende pela sexta (10 e 11/jul): até 19 mm acumulados no período"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:45:09+00:00",
+  "clima": "2026-07-06T22:49:24+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

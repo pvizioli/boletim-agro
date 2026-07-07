@@ -1,16 +1,16 @@
 {
  "distrito_id": "santa_rosa_soja",
  "nome": "SANTA ROSA-SOJA",
- "gerado_em": "2026-07-06T16:55:42+00:00",
+ "gerado_em": "2026-07-07T00:33:02+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Santa Rosa-RS, 06/07/2026. Safra 2025/2026 encerrada com 100% colhido nas regiões de Santa Rosa e Frederico Westphalen (Emater/RS-Ascar, 14/05/2026). Produtividade estadual de 45 sc/ha, com forte variabilidade regional (20 a 70 sc/ha) e desempenho 14,8% abaixo da projeção inicial (Emater/RS-Ascar, 11/06/2026). Preço em R$ 129,00/sc 60kg no Centro Ocidental RS (Grão Direto, 03/07/2026). Climaticamente, a semana abre com frio intenso: mínimas de 0,8 °C na segunda e terça-feira (07 e 08/07) configuram risco de geada. A sequência seca de quatro dias (07 a 09/07) com ventos de leste e máxima de 23,8 °C na quinta (09/07) eleva a demanda evapotranspirativa. A partir de quinta à noite, sistema frontal avança: chuva de 12,3 mm na sexta (10/07) e 14,8 mm no sábado (11/07), com virada do vento para sudeste e rajadas de até 39 km/h no domingo (12/07), confirmando passagem frontal. Chuva acumulada prevista de 4,8 a 27,6 mm em 7 dias.",
+ "texto": "Hoje, 7 de julho, o frio chegou com força em Santa Rosa: mínima de 0,4°C e risco real de geada esta madrugada e amanhã cedo. O sol aparece e o solo está secando após a chuva fraca de ontem. Quarta e quinta seguem secas e com temperaturas subindo até quase 24°C, ótima janela para quem precisa trabalhar no campo. A virada vem na quinta à noite: chuva chega na sexta com até 8 mm e se intensifica no sábado, podendo acumular mais 22 mm. Domingo o tempo melhora. A soja está em entressafra, safra nova ainda não começou. Para quem pensa em comprar insumos ou fechar contrato, a saca está sendo negociada a R$ 129,00 em RS.",
  "pontos": [
-  "Risco de geada nos dias 07 e 08/07 com mínimas de 0,8 °C — atenção a culturas de inverno e pastagens",
-  "Passagem frontal esperada entre sexta (10/07) e domingo (12/07) com até 27 mm acumulados e rajadas de 39 km/h",
-  "Safra 2025/2026 encerrada a 45 sc/ha, 14,8% abaixo da projeção inicial, com variabilidade regional expressiva"
+  "Geada hoje e amanhã cedo: mínimas abaixo de 1°C, proteja mudas, pastagens e culturas sensíveis ao frio",
+  "Janela seca até quinta: aproveite quarta e quinta para manutenção de máquinas, preparo de solo e aplicações",
+  "Chuva chega na sexta e se intensifica no sábado com até 22 mm: encerre operações de campo até quinta à tarde"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:48:37+00:00",
+  "clima": "2026-07-06T22:52:52+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

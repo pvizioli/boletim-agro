@@ -1,16 +1,16 @@
 {
  "distrito_id": "campo_mourao_soja",
  "nome": "CAMPO MOURAO-SOJA",
- "gerado_em": "2026-07-06T16:47:21+00:00",
+ "gerado_em": "2026-07-07T00:25:56+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Campo Mourão – PR | Safra 2025/2026 encerrada. A semana inicia com passagem de sistema frontal: segunda-feira (06/07) registrou máxima de 24,3 °C, chuva de 2,9 mm e vento de sudoeste com rajadas de 35 km/h. Na sequência, terça e quarta-feira (07–08/07) marcam virada do vento para sul/leste, queda brusca da mínima até 2,8 °C — único dia com risco de geada no período — e céu aberto, elevando a evapotranspiração para 3,0 mm/dia. O padrão seco se estende até quinta-feira (09/07), com três dias consecutivos sem chuva relevante e ET0 média de 2,7 mm/dia. A partir de sexta-feira (10/07), nova perturbação avança: sábado e domingo (11–12/07) concentram 68,9 mm, rajadas de até 45 km/h e ventos de leste/sudoeste. A safra 25/26 foi encerrada com 63 sc/ha (+2,8% vs. safra anterior; Deral/SEAB-PR, 25/05/2026). Saca cotada a R$ 128,50 (Paranaguá, Canal Rural, 17/06/2026).",
+ "texto": "Hoje em Campo Mourão o tempo está fechando com massa de ar frio chegando: mínima de 6,8°C e máxima de apenas 20°C, com vento forte de até 37 km/h. Ontem choveu 6,2 mm, então o solo ainda está úmido, mas drenando. A partir de amanhã, quarta, abre uma janela seca e firme que dura até quinta: sem chuva prevista, temperaturas subindo até 25°C na quinta. Na sexta a tarde o tempo começa a virar, e no sábado chega chuva forte, com 24 mm previstos e rajadas de até 51 km/h. A mínima da semana bate 3,4°C na quarta de madrugada: fique de olho nas pastagens e culturas sensíveis. Soja em entressafra. Preço da saca em Paranaguá: R$ 128,50 (referência de 17/06).",
  "pontos": [
-  "Risco de geada na madrugada de quarta-feira (08/07): mínima prevista de 2,8 °C — atenção a culturas de inverno e pastagens no distrito",
-  "Evento chuvoso concentrado no fim de semana (11–12/07): até 68,9 mm acumulados com rajadas de 45 km/h — monitorar erosão e logística de transporte de grãos armazenados",
-  "Safra 2025/2026 encerrada em 100% em todas as macrorregiões (Campo Mourão, Ivaiporã, Laranjeiras do Sul e Pitanga) com produtividade de 63 sc/ha (Deral/SEAB-PR, 25/05/2026)"
+  "Mínima de 3,4°C na madrugada de quarta: risco de geada leve para pastagens e culturas sensíveis na região",
+  "Janela seca abre quarta e vai até quinta: bom período para qualquer operação de campo que dependa de solo firme",
+  "Chuva forte chega no sábado com até 24 mm e rajadas de 51 km/h: encerre operações externas até sexta no máximo"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:42:49+00:00",
+  "clima": "2026-07-06T22:45:57+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

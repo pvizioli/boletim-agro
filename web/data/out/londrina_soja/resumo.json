@@ -1,16 +1,16 @@
 {
  "distrito_id": "londrina_soja",
  "nome": "LONDRINA-SOJA",
- "gerado_em": "2026-07-06T16:51:57+00:00",
+ "gerado_em": "2026-07-07T00:29:53+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Londrina, PR — 6 de julho de 2026. A safra 2025/2026 está encerrada em todas as macrorregiões monitoradas (Londrina, Apucarana e Ivaiporã), com 100% colhido (Deral/SEAB-PR, 25/05/2026) e produtividade de 63 sc/ha, alta de 2,8% frente ao ciclo anterior. O foco agora é o clima de entressafra. A semana iniciou com chuva fraca na segunda-feira (1,2 mm, máxima 25,4 °C), seguida de queda abrupta de temperatura mínima para 5,3–5,4 °C entre terça e quinta, com vento girando para sudoeste — padrão típico de passagem frontal. Cinco dias consecutivos sem chuva relevante e evapotranspiração média de 3,0 mm/dia indicam demanda hídrica elevada. O tempo melhora até sábado (máxima 28,7 °C), quando nova perturbação traz 13 mm, seguida de evento mais expressivo no domingo com até 44,6 mm e rajadas de 46,4 km/h. Saca negociada a R$ 128,50 em Paranaguá (Canal Rural, 17/06/2026).",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 7 de julho, o tempo abriu depois da chuva de ontem (4,9 mm). Céu mais limpo, temperatura amena, solo ainda levemente úmido mas drenando bem. Boa janela de trabalho aberta. PRÓXIMOS DIAS: Amanhã (8) e quinta (9) seguem secos e frescos, com mínimas perto de 5°C — atenção ao frio na madrugada. Sexta (10) ainda seca. A virada vem no sábado (11): chuva com 65% de chance e rajadas fortes acima de 50 km/h. Domingo (12) chove mais, com 12 mm previstos. A janela seca vai de hoje até sexta à tarde — aproveite. ENTRESSAFRA: Safra encerrada, nova ainda não começou. Soja em Paranaguá cotada a R$ 128,50/sc 60kg (referência de 17/06).",
  "pontos": [
-  "Safra 2025/2026 encerrada com 63 sc/ha no PR, alta de 2,8% vs safra anterior (Deral/SEAB-PR, 25/05/2026)",
-  "Passagem frontal entre segunda e terça derruba mínimas a 5,3 °C — monitorar risco de geada em áreas mais elevadas do norte paranaense",
-  "Sequência de 5 dias secos com ET0 média de 3,0 mm/dia eleva demanda hídrica; chuvas expressivas retornam apenas no fim de semana (até 44,6 mm no domingo)"
+  "Janela seca aberta hoje até sexta (10): condição favorável para manutenção de máquinas e preparo de área",
+  "Sábado (11): chegada de chuva com rajadas acima de 50 km/h — recolha equipamentos e evite trabalho a campo",
+  "Mínimas de 5 a 7°C na quarta e quinta (8-9): monitorar pastagens e culturas sensíveis ao frio nas madrugadas"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:46:20+00:00",
+  "clima": "2026-07-06T22:50:34+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

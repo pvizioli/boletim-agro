@@ -1,16 +1,16 @@
 {
  "distrito_id": "campo_grande_soja_ics",
  "nome": "CAMPO GRANDE-SOJA/ICS",
- "gerado_em": "2026-07-06T16:47:08+00:00",
+ "gerado_em": "2026-07-07T00:25:46+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Campo Grande/MS — Entressafra 2025/26. A safra de soja do MS está encerrada desde maio, com 100% colhido em todas as macrorregiões (Centro, Norte e Sul), produtividade de 60 sc/ha e produção de 16,74 milhões de toneladas, alta de 19,1% sobre a safra anterior (Aprosoja/MS-Siga/Famasul, 26/05/2026). Na dinâmica do tempo desta semana, a segunda-feira (06/07) apresentou máxima de 29,1 °C com rajada de 41 km/h e vento de sul-sudeste, seguida de queda de temperatura na terça (mínima de 11,5 °C), ventos girando para leste e praticamente sem chuva — padrão típico de passagem de sistema frontal rápido. A partir de quarta (08/07), o vento recua para nordeste/leste e as máximas sobem progressivamente até 33,5 °C no sábado (11/07), com demanda evapotranspirativa média de 4,2 mm/dia. A chuva relevante se concentra no fim de semana (11–12/07), com até 22,5 mm previstos, após sequência de cinco dias secos.",
+ "texto": "SITUAÇÃO ATUAL: Julho com tempo seco e firme em Campo Grande. Hoje, terça (07/07), praticamente sem chuva e solo bem drenado após semanas de estiagem — sequência de até 6 dias secos registrada. Janela de trabalho totalmente aberta. PRÓXIMOS DIAS: De quarta (08/07) a sexta (10/07), tempo continua seco, calor subindo até 33°C e mínimas amenas, entre 9°C e 16°C. Sábado (11/07) o risco de chuva sobe para 57% com vento girando para o norte, indicando mudança chegando. Domingo (12/07) a chuva se confirma, podendo chegar a 8 mm, encerrando a janela seca. Aproveite quarta, quinta e sexta para qualquer operação de campo que dependa de solo firme e tempo aberto. ENTRESSAFRA: Safra anterior encerrada e nova ainda não começou. Foco total no clima e no planejamento da próxima temporada.",
  "pontos": [
-  "Safra 2025/26 encerrada: 60 sc/ha e +19,1% sobre a safra anterior (Aprosoja/MS-Siga/Famasul, 26/05/2026)",
-  "Passagem frontal rápida entre segunda e quarta-feira: queda de temperatura, rajadas de até 41 km/h e chuva residual de 1,4 mm",
-  "Sequência de cinco dias secos com ET0 média de 4,2 mm/dia eleva demanda hídrica no período de entressafra"
+  "Janela seca firme de quarta (08/07) a sexta (10/07): aproveite para operações de campo",
+  "Sábado (11/07) risco de chuva sobe para 57% — encerre operações críticas até sexta à tarde",
+  "Domingo (12/07) chuva prevista de até 8 mm fecha a janela seca da semana"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:42:48+00:00",
+  "clima": "2026-07-06T22:45:56+00:00",
   "colheita": "2026-05-26",
   "preco": null
  }

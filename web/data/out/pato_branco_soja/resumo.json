@@ -1,16 +1,16 @@
 {
  "distrito_id": "pato_branco_soja",
  "nome": "PATO BRANCO-SOJA",
- "gerado_em": "2026-07-06T16:53:14+00:00",
+ "gerado_em": "2026-07-07T00:30:59+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Pato Branco — safra 2025/2026 encerrada com 100% colhido em todas as macrorregiões (Dois Vizinhos, Francisco Beltrão e Pato Branco), conforme Deral/SEAB de 25/05/2026. Produtividade final de 63 sc/ha (+2,8% vs. safra anterior), com produção paranaense de 21,78 milhões de toneladas. Preço de referência em R$ 128,50/sc (Paranaguá, porto — Canal Rural, 17/06/2026). Na dinâmica do tempo, a semana iniciou com chuva de 12,3 mm e vento de sul na segunda-feira (06/07), padrão típico de passagem frontal, seguida de queda brusca de mínima para 2,3 °C na terça e 0,2 °C na quarta — risco de geada confirmado pelos sinais derivados para 07 e 08/07. Após intervalo seco de três dias com ET0 acumulada elevada, nova perturbação chega na sexta (10/07), com evento expressivo de 68,1 mm no sábado (11/07) e rajadas de até 50,4 km/h no domingo.",
+ "texto": "Hoje, 7 de julho, o tempo abriu após a chuva de ontem (11,7 mm), mas o frio chegou junto: mínima de 1,9 °C com risco de geada esta madrugada e amanhã cedo (mínima de 0,1 °C na quarta). Solo ainda úmido drenando. A janela seca se mantém quarta e quinta, com temperaturas subindo até 24 °C na quinta. Na sexta o tempo vira: chuva de 5,8 mm à tarde abre caminho para um evento mais forte no sábado, com previsão de até 69,9 mm e rajadas de 47 km/h — massa de ar frio chegando pelo noroeste. Domingo ainda pode pingar mais 8 mm. Estamos em entressafra, sem operações de campo em andamento. Soja em Paranaguá está cotada a R$ 128,50/sc (referência de 17/06).",
  "pontos": [
-  "Geada possível na terça (07/07) e quarta (08/07): mínimas de 2,3 °C e 0,2 °C respectivamente — atenção a culturas de inverno e pastagens",
-  "Evento chuvoso intenso previsto para sábado (11/07): 68,1 mm concentrados em um dia, com rajadas de até 50,4 km/h — risco de enxurrada e erosão",
-  "Safra soja 2025/2026 encerrada com 63 sc/ha no PR (+2,8%), sem impacto operacional do clima atual sobre a colheita"
+  "Geada hoje à noite e amanhã cedo: mínimas de 1,9 °C e 0,1 °C — atenção a pastagens e culturas sensíveis na região de Pato Branco",
+  "Janela seca aberta de quarta (08/07) a quinta (09/07): aproveite para manutenção de máquinas e infraestrutura",
+  "Chuva forte chega no sábado (11/07), com previsão de até 70 mm e rajadas de 47 km/h — reforce estruturas e drenos antes da sexta"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:47:28+00:00",
+  "clima": "2026-07-06T22:51:43+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

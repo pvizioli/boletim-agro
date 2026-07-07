@@ -1,16 +1,16 @@
 {
  "distrito_id": "chapeco_soja",
  "nome": "CHAPECO-SOJA",
- "gerado_em": "2026-07-06T16:48:32+00:00",
+ "gerado_em": "2026-07-07T00:26:56+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Chapecó-SC, 06/07/2026. A safra 2025/2026 está encerrada com 100% colhido e produtividade de 63 sc/ha (Epagri/Cepa, mai/2026), mas com produção total recuando 7% ante a safra anterior, reflexo de queda de 5,5% na produtividade e retração de 1,6% na área de primeira safra. A semana meteorológica abre com passagem de sistema frontal: chuva de 6,5 mm na segunda-feira com máxima de apenas 17,8°C, rajadas de 35 km/h e vento de oeste-sudoeste, seguida de virada para nordeste e queda brusca da mínima — chegando a -1,3°C na quarta-feira (08/07), com risco de geada nos dias 07, 08 e 09/07. A partir de quinta-feira o tempo abre, com máximas voltando a 23,7°C e ET0 elevada (3,38 mm/dia). No fim de semana, novo sistema traz chuvas expressivas: até 61,3 mm no sábado (11/07) com rajadas de 47,5 km/h.",
+ "texto": "Ontem choveu quase 10 mm em Chapecó e região, então o solo ainda está úmido. Hoje o tempo abre com baixa chance de chuva, mas o frio é sério: mínima de 0,1 °C e risco de geada. Amanhã, quarta, e quinta o céu fica aberto e seco, com mínimas negativas na quarta (-1,3 °C) e frias na quinta — três dias seguidos com risco de geada. Na sexta a chuva volta com força: 18 mm previstos, e no sábado chegam até 62 mm, com vento forte. Domingo ainda pode chover mais 6 mm. A semana fecha úmida e fria, com o solo encharcando novamente no fim de semana. Estamos em entressafra da soja: acompanhe o tempo pensando nas pastagens e culturas de inverno que estão no campo agora.",
  "pontos": [
-  "Risco de geada confirmado nos dias 07, 08 e 09/07 — mínimas entre -1,3°C e 0,2°C; atenção a culturas de inverno e pastagens",
-  "Chuva acumulada prevista de 13,4 a 71,1 mm em 4 dias com precipitação relevante; concentração no fim de semana (até 61,3 mm em 11/07)",
-  "Safra soja 2025/2026 encerrada com queda de 7% na produção total em SC — produtividade recuou 5,5% e área de 1ª safra caiu 1,6% (Epagri/Cepa, mai/2026)"
+  "Geada hoje à noite e nas madrugadas de quarta e quinta: risco real para pastagens e culturas sensíveis em toda a região",
+  "Janela seca de hoje até quinta: aproveite para serviços de campo que precisam de solo firme",
+  "Chuva forte chega na sexta com até 62 mm no sábado — solo vai encharcar no fim de semana"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:43:57+00:00",
+  "clima": "2026-07-06T22:48:11+00:00",
   "colheita": "2026-05-01",
   "preco": null
  }

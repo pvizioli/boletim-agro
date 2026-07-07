@@ -1,16 +1,16 @@
 {
  "distrito_id": "sarandi_soja",
  "nome": "SARANDI-SOJA",
- "gerado_em": "2026-07-06T16:56:45+00:00",
+ "gerado_em": "2026-07-07T00:33:56+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Sarandi-RS, safra 2025/2026 encerrada com 100% colhido e produtividade de 45 sc/ha (Emater/RS-Ascar, 11/jun/2026), resultado 14,8% abaixo da projeção inicial e com forte variabilidade regional. O tempo desta semana apresenta dinâmica típica de inverno gaúcho: segunda-feira (06/jul) com máxima de apenas 15,7°C, chuva fraca e vento de oeste sinalizou passagem de sistema frontal. Na sequência, terça (07/jul) e quarta (08/jul) registram mínimas próximas de zero — risco de geada leve em baixadas — com céu abrindo e virada do vento para nordeste/leste, confirmando pós-frontal frio e seco. A partir de quinta (09/jul), aquecimento progressivo eleva a máxima a 22,1°C e a evapotranspiração sobe para 2,85 mm/dia. Nova perturbação chega na sexta (10/jul) e sábado (11/jul), com chuvas de 12,3 e 16,0 mm respectivamente. Preço da soja em R$ 129/sc (Grão Direto, 03/jul/2026).",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 7 de julho, o dia está frio e seco em Sarandi. A mínima chegou a 0,3°C, com risco real de geada esta madrugada e amanhã cedo (8/jul), quando a mínima prevista é de -0,2°C. Solo ainda com alguma umidade da chuva de ontem (4,2 mm), mas drenando com o tempo aberto e vento moderado. PRÓXIMOS DIAS: Quarta (8) e quinta (9) seguem secos e frios, com geada possível nas madrugadas. Sexta (10) o tempo começa a mudar: chegam nuvens e chuva moderada (até 7,8 mm). Sábado (11) é o dia mais crítico da semana, com chuva forte prevista — até 36,5 mm — e temperaturas mais amenas. Domingo (12) o tempo melhora. COLHEITA: Distrito em entressafra. Soja em RS está cotada a R$ 129,00/sc 60kg (Grão Direto, 03/jul).",
  "pontos": [
-  "Risco de geada leve em terça (07/jul) e quarta (08/jul) com mínimas de 0,0°C e 0,1°C — atenção a culturas de inverno e pastagens em baixadas",
-  "Janela seca de quatro dias (07 a 10/jul) com ET0 elevada (até 2,85 mm/dia) favorece operações de campo e logística de grãos armazenados",
-  "Chuvas de 12–16 mm esperadas na sexta e sábado (10–11/jul) podem dificultar movimentação de caminhões em estradas não pavimentadas"
+  "Geada nas madrugadas de hoje (7/jul) e amanhã (8/jul): risco para pastagens e culturas sensíveis em campo",
+  "Janela seca vai até quinta (9/jul): aproveite para manutenção de máquinas e preparo de área",
+  "Chuva forte chega no sábado (11/jul), com até 36,5 mm previstos: evite movimentação de solo e aplicações nesse dia"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:48:41+00:00",
+  "clima": "2026-07-06T22:52:56+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

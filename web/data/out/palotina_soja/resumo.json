@@ -1,16 +1,16 @@
 {
  "distrito_id": "palotina_soja",
  "nome": "PALOTINA-SOJA",
- "gerado_em": "2026-07-06T16:52:48+00:00",
+ "gerado_em": "2026-07-07T00:30:37+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Palotina, 6 de julho de 2026. A safra 2025/2026 está encerrada no Paraná, com colheita 100% concluída nas macrorregiões de Cascavel, Toledo e Umuarama (Deral/SEAB, 25/05/2026). A produtividade final ficou em 63 sc/ha, alta de 2,8% sobre o ciclo anterior, com produção de 21,78 milhões de toneladas (Deral/SEAB-PR, 25/05/2026). O preço da saca em Paranaguá estava em R$ 128,50/sc em 17/06/2026 (Canal Rural). No campo climático, a semana abre com queda expressiva de temperatura entre segunda e terça-feira — máxima recuando de 22,8 °C para 18,3 °C com vento de sul/sudoeste —, sugerindo passagem de sistema frontal. Segue sequência seca de quatro dias (quarta a sábado), com mínima de 3,8 °C na quarta-feira e evapotranspiração média de 2,6 mm/dia. O evento chuvoso concentra-se no fim de semana: sábado com 55,2 mm e rajadas de 51,1 km/h, domingo com 34,4 mm.",
+ "texto": "Hoje, 7 de julho, o tempo está fechado e frio em Palotina, com máxima de apenas 17,9°C e vento moderado. A chuva de ontem (3,6 mm) foi fraca e o solo segue em condição normal para o inverno. A semana abre uma boa janela seca: quarta e quinta ficam sem chuva e com temperaturas subindo até 24–26°C, ótimo para qualquer serviço de campo. Na sexta a probabilidade de chuva já sobe, e no sábado chega uma chuva mais forte, com previsão de 28,5 mm e rajadas de vento acima de 40 km/h — sinal de frente passando. O domingo ainda pode ter chuva residual (9,9 mm). A temperatura mínima da semana chega a 4°C na quarta-feira: atenção para pastagens e culturas sensíveis. Soja em entressafra. Preço da saca em Paranaguá: R$ 128,50 (ref. 17/06).",
  "pontos": [
-  "Safra 2025/2026 encerrada: 63 sc/ha no PR, alta de 2,8% vs safra anterior (Deral/SEAB, 25/05/2026)",
-  "Mínima de 3,8 °C prevista para quarta-feira (08/07) — monitorar risco de geada em áreas de baixada",
-  "Chuva intensa concentrada no fim de semana: 55,2 mm no sábado (11/07) com rajadas de 51,1 km/h"
+  "Janela seca de quarta (08/07) a quinta (09/07): aproveite para manutenção de máquinas, estradas e serviços de campo",
+  "Sábado (11/07) traz chuva forte (~28,5 mm) com rajadas acima de 40 km/h — evite operações externas a partir de sexta à tarde",
+  "Mínima de 4°C na madrugada de quarta (08/07): risco para pastagens e plantas sensíveis ao frio"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:46:24+00:00",
+  "clima": "2026-07-06T22:50:38+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

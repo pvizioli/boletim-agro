@@ -1,16 +1,16 @@
 {
  "distrito_id": "uberlandia_soja_ics",
  "nome": "UBERLANDIA-SOJA/ICS",
- "gerado_em": "2026-07-06T16:57:37+00:00",
+ "gerado_em": "2026-07-07T00:34:42+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Uberlândia/MG — Julho de 2026. A safra 2025/26 de soja em MG está encerrada com 100% colhido (Conab, 9º Levantamento, jun/2026). O foco agora é o comportamento do tempo na entressafra. A semana é marcada por padrão tipicamente invernal: sequência de seis dias secos consecutivos, mínimas entre 12 e 16 °C e máximas que escalam de 28 °C (segunda-feira) a 33 °C (sábado), com ventos de sudoeste girando para norte ao longo dos dias — sinal de avanço de massa de ar seco continental. A evapotranspiração média de 4,4 mm/dia indica demanda hídrica elevada apesar do frio noturno. No sábado (12/jul), uma perturbação com rajadas de até 54 km/h e probabilidade de 42% de chuva pode trazer 3,8 mm — alívio pontual, sem impacto agronômico relevante. Preço de referência: R$ 113/sc 60 kg no Triângulo Mineiro (Portal Agron, mai/2026).",
+ "texto": "SITUAÇÃO ATUAL: Uberlândia e região estão em plena seca de inverno. Hoje, terça-feira, céu aberto, temperatura máxima de 28,5°C e mínima de 13,8°C, sem chuva e solo seco. Vento moderado a forte ao longo do dia. PRÓXIMOS DIAS: A semana toda segue sem chuva relevante — quarta a sexta com máximas subindo até 32°C e mínimas caindo perto de 12°C na quinta. No sábado, dia 11, calor forte com 32,6°C. No domingo, dia 12, o tempo muda: probabilidade de chuva sobe para 42% com rajadas de vento fortes, indicando chegada de massa de ar mais úmida. Até lá, sete dias seguidos sem chuva confirmados. ENTRESSAFRA: Safra encerrada, nova temporada ainda não iniciou. Soja em MG cotada a R$ 113,00/sc 60kg no Triângulo Mineiro.",
  "pontos": [
-  "Safra 2025/26 encerrada em MG com 100% colhido — sem riscos operacionais de campo",
-  "Sequência de seis dias secos com ET0 média de 4,4 mm/dia eleva atenção ao manejo de solos e planejamento de irrigação em áreas de safrinha",
-  "Rajadas de até 54 km/h e possível chuva de 3,8 mm no sábado (12/jul) merecem monitoramento, mas volume é insuficiente para recarga hídrica expressiva"
+  "Sete dias consecutivos sem chuva: solo seco, atenção à irrigação de pastagens e culturas de inverno em andamento",
+  "Mínimas caindo até 11,8°C na quinta, dia 10: monitorar risco de frio intenso para pastagens e mudas sensíveis",
+  "Domingo, dia 12: chegada de umidade com rajadas fortes acima de 52 km/h — fique atento a estruturas e equipamentos expostos"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:49:47+00:00",
+  "clima": "2026-07-06T22:52:59+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-05-06"
  }

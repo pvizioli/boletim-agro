@@ -1,16 +1,16 @@
 {
  "distrito_id": "ponta_grossa_soja",
  "nome": "PONTA GROSSA-SOJA",
- "gerado_em": "2026-07-06T16:53:56+00:00",
+ "gerado_em": "2026-07-07T00:31:31+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Ponta Grossa-PR | Safra 2025/2026 encerrada. Com colheita 100% concluída em todas as macrorregiões (Curitiba, Irati e Ponta Grossa) desde 25/05/2026 (Deral/SEAB-PR), o foco desta semana recai sobre a dinâmica do tempo invernal. A série aponta passagem de sistema frontal entre segunda (07/07) e terça (08/07): queda de máxima de 22 °C para 19–20 °C, virada de vento para norte-noroeste e mínima de 1,7 °C na terça — único dia com risco de geada registrado. Após a passagem, sequência de quatro dias secos (08–11/07) com evapotranspiração média de 2,4 mm/dia eleva a demanda hídrica. Novo evento chuvoso concentra-se no sábado (11/07, 29,5 mm) e domingo (12/07, 15,6 mm), com rajadas de até 45,7 km/h. Produtividade da safra: 63 sc/ha (+2,8% vs. safra anterior; Deral/SEAB-PR, 25/05/2026). Preço em Paranaguá: R$ 128,50/sc (Canal Rural, 17/06/2026).",
+ "texto": "SITUAÇÃO ATUAL: Julho começa com tempo instável em Ponta Grossa. Hoje, terça (07/07), chuva leve de 3,6 mm com temperatura máxima de apenas 19,8°C e vento moderado. O solo está recebendo chuva pelo segundo dia seguido, então espere umidade elevada no perfil. PRÓXIMOS DIAS: A partir de amanhã, quarta (08/07), o tempo vira: sem chuva prevista, temperatura mínima despencando para 2,2°C — risco de geada na madrugada de quarta para quinta. Quinta (09/07) também fria, mínima de 3,6°C. A janela seca dura até sexta (10/07), quando a chuva volta timidamente. No sábado (11/07) chega chuva forte, 21,7 mm previstos com rajadas de vento de até 45 km/h — tempo feio. PREÇO: soja em R$ 128,50/sc em Paranaguá.",
  "pontos": [
-  "Geada potencial na madrugada de terça-feira (08/07): mínima prevista de 1,7 °C em Ponta Grossa — atenção a culturas de inverno e pastagens",
-  "Janela seca de 4 dias (08 a 11/07) com ET0 acumulada estimada acima de 11 mm — relevante para lavouras de cobertura e trigo em estabelecimento",
-  "Chuva intensa e rajadas fortes no fim de semana (11–12/07, até 45,7 km/h): risco operacional para pulverizações e colheita de culturas de inverno precoces"
+  "Geada na madrugada de quarta (08/07): mínima de 2,2°C — atenção a pastagens e culturas sensíveis na região",
+  "Janela seca de quarta (08/07) a sexta (10/07): aproveite para trabalhos de campo que exijam solo firme",
+  "Chuva forte chega no sábado (11/07): 21,7 mm previstos com rajadas de 45 km/h — evite operações externas a partir de sábado"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:47:29+00:00",
+  "clima": "2026-07-06T22:51:44+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

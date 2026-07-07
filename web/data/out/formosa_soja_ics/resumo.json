@@ -1,16 +1,16 @@
 {
  "distrito_id": "formosa_soja_ics",
  "nome": "FORMOSA-SOJA/ICS",
- "gerado_em": "2026-07-06T16:49:33+00:00",
+ "gerado_em": "2026-07-07T00:27:58+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito FORMOSA-SOJA/ICS (DF, GO, MG) — 6 de julho de 2026. A safra 2025/26 está encerrada nas três UFs, com 100% plantado e colhido (Conab, 9º Levantamento, jun/2026); Goiás registrou produção de 20,1 milhões de toneladas. O padrão climático da semana é de veranico consolidado: sete dias consecutivos sem chuva, probabilidade nula até sábado e apenas 16% no domingo (12/jul), sem volume previsto. As máximas sobem progressivamente de 30,1°C (segunda) a 33,6°C (domingo), com mínimas entre 14,6°C e 18,5°C — amplitude térmica típica do inverno do Cerrado. A evapotranspiração média de 5,0 mm/dia, com pico de 5,57 mm/dia no domingo, associada a rajadas de até 49,3 km/h (domingo, vento de noroeste), indica demanda hídrica elevada. Não há alertas Inmet ativos. Referência de preço: R$ 112,00/sc 60kg (Portal Agron, DF, mai/2026).",
+ "texto": "Estamos em plena entressafra na região de Formosa. O tempo hoje está seco e quente, com máxima de 31°C e mínima de 15°C, sem nenhuma chuva prevista para os próximos 7 dias. O solo está secando rápido: a evaporação média está em quase 5 mm por dia, o que exige atenção a qualquer cultura ou pastagem irrigada. A semana toda segue com céu aberto, calor crescente chegando a 33°C no domingo, e rajadas de vento que podem passar de 49 km/h no domingo. Não há alertas climáticos ativos. A soja nova ainda não começou, então o foco agora é manutenção de máquinas, pastagens e planejamento da próxima safra. Preço de referência no DF: R$ 112,00 por saca de 60 kg.",
  "pontos": [
-  "Veranico de 7 dias confirmado — sem chuva prevista em toda a janela monitorada nos 12 municípios",
-  "ET0 média de 5,0 mm/dia com pico de 5,57 mm/dia no domingo eleva demanda hídrica mesmo na entressafra",
-  "Rajada de 49,3 km/h prevista para domingo (12/jul) com mudança de direção para noroeste — atenção a estruturas e armazenagem"
+  "Sete dias seguidos sem chuva: solo secando rápido, atenção ao manejo de pastagens e irrigação se houver culturas em campo",
+  "Rajada de vento forte no domingo (12/07): pode passar de 49 km/h, cuidado com estruturas, estufas e aplicações de defensivos",
+  "Calor crescente ao longo da semana com máximas chegando a 33°C: evaporação alta, monitorar reservatórios e bebedouros"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:44:03+00:00",
+  "clima": "2026-07-06T22:48:17+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-05-06"
  }

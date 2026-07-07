@@ -1,16 +1,16 @@
 {
  "distrito_id": "sinop_soja",
  "nome": "SINOP-SOJA",
- "gerado_em": "2026-07-06T16:56:58+00:00",
+ "gerado_em": "2026-07-07T00:34:08+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito SINOP-SOJA, semana de 06 a 12/jul/2026. A safra 2025/26 está encerrada em MT e PA, com 100% colhido. MT registrou produtividade de 66 sc/ha e produção de 51,56 milhões de toneladas, alta de 1,3% sobre a safra anterior (Imea em Campo abr/26 / Conab 9º Lev., jun/2026). Na dinâmica do tempo, a semana inicia com chuva expressiva na segunda-feira (10,1 mm, probabilidade de 96%), seguida de rápida dissipação e sequência predominantemente seca de quarta a sexta — maior sequência seca de 3 dias —, com máximas escalando até 34,3 °C. A partir de sábado, ventos giram para norte-nordeste com rajadas de até 45 km/h e nova precipitação (8,4 mm), sugerindo atuação de sistema convectivo de escala regional. A evapotranspiração média de 4,9 mm/dia indica demanda hídrica elevada, típica do inverno seco do Cerrado. Preço da saca em MT: R$ 108,63 (Grão Direto, Nordeste MT, 03/jul/2026).",
+ "texto": "SITUAÇÃO ATUAL: Julho começa úmido no distrito. Hoje, 7 de julho, a chuva continua presente com alta probabilidade e solo ainda absorvendo água dos últimos dias. Não há janela de trabalho aberta no momento. PRÓXIMOS DIAS: Quarta (8) traz mais chuva, porém com probabilidade menor. De quinta (9) em diante o tempo melhora gradualmente, com volumes pequenos e sol mais forte — a maior sequência seca prevista é de apenas 2 dias, então o solo deve seguir úmido a semana toda. Temperaturas altas durante o dia (até 34°C) e noites amenas (mínima de 17°C). Sem alertas ativos do INMET. COLHEITA: Distrito em entressafra — safra anterior encerrada e nova safra ainda não começou. Acompanhe o mercado: soja em MT cotada a R$ 108,63/sc (referência de 3 de julho, Nordeste-MT).",
  "pontos": [
-  "Safra 2025/26 encerrada em MT e PA; MT com 66 sc/ha e +1,3% vs. safra anterior (Conab/Imea, jun/2026)",
-  "ET0 média de 4,9 mm/dia e sequência de até 3 dias secos reforçam demanda hídrica elevada no período de entressafra",
-  "Rajadas de até 45 km/h no domingo (12/jul) com virada de vento para norte indicam passagem de sistema convectivo — monitorar erosão em áreas de solo exposto"
+  "Solo encharcado hoje e amanhã: evite tráfego pesado na lavoura para não compactar",
+  "Janela mais seca pode aparecer de quinta (9) a sábado (11), mas volumes pequenos ainda chegam — monitore diariamente",
+  "Entressafra em curso: use o período para manutenção de máquinas e planejamento da próxima safra"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:48:42+00:00",
+  "clima": "2026-07-06T22:52:57+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

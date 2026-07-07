@@ -1,16 +1,16 @@
 {
  "distrito_id": "passo_fundo_soja",
  "nome": "PASSO FUNDO-SOJA",
- "gerado_em": "2026-07-06T16:53:01+00:00",
+ "gerado_em": "2026-07-07T00:30:47+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Passo Fundo, 6 de julho de 2026. A safra 2025/2026 de soja no RS está encerrada, com 100% colhido em Passo Fundo e Erechim (Emater/RS-Ascar, 14/mai). A produtividade estadual fechou em 45 sc/ha, queda de 14,8% frente à projeção inicial, com forte variabilidade regional (Emater/RS-Ascar, 11/jun). O preço da saca está em R$ 129,00 (Grão Direto, 3/jul). No clima, segunda-feira (6/jul) registrou chuva de 3,6 mm com vento de oeste e máxima de apenas 14°C, indicando passagem de sistema frontal. Na sequência, três dias secos (7 a 9/jul) com mínima de -1,1°C na quarta-feira configuram risco de geada. A virada do vento para nordeste/leste a partir de quarta sustenta a recuperação térmica, com máxima chegando a 20,3°C na quinta. Nova perturbação chega no fim de semana, com chuva estimada em 22,3 mm no sábado (11/jul) e rajadas de até 53 km/h no domingo.",
+ "texto": "Hoje, 7 de julho, o tempo está frio e seco em Passo Fundo, com máxima de apenas 12,5°C e mínima de 1,9°C. A chuva de ontem (5,7 mm) foi fraca e o solo está drenando bem. Atenção: as mínimas ficam abaixo de 3°C hoje, amanhã e quinta-feira, com risco real de geada nas madrugadas — pastagens e qualquer cultura sensível no campo ficam expostas. A partir de quinta o tempo aquece um pouco, mas na sexta à tarde a chuva volta com chance de 45%, e no sábado chega uma frente mais expressiva com até 17,9 mm previstos. A semana toda segue fria, com máxima não passando de 20°C. Soja em entressafra, sem operações de campo em andamento. A saca está cotada a R$ 129,00 no RS.",
  "pontos": [
-  "Risco de geada nos dias 7, 8 e 9 de julho — mínima projetada de -1,1°C na quarta-feira; atenção a culturas de inverno e pastagens",
-  "Safra 2025/2026 encerrada com 45 sc/ha no RS, 14,8% abaixo da projeção inicial (Emater/RS-Ascar, 11/jun)",
-  "Preço da saca em R$ 129,00 no Centro Ocidental do RS em 3/jul — acompanhar evolução para decisão de comercialização do estoque remanescente"
+  "Geada nas madrugadas de hoje (7/7), amanhã (8/7) e quinta (9/7): proteja pastagens e culturas sensíveis expostas",
+  "Janela seca vai até quinta-feira — aproveite para qualquer serviço de campo que exija solo firme",
+  "Chuva retorna na sexta (10/7) com chance de 45% e se intensifica no sábado (11/7) com até 17,9 mm previstos"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:47:27+00:00",
+  "clima": "2026-07-06T22:51:42+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

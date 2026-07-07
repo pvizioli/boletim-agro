@@ -1,16 +1,16 @@
 {
  "distrito_id": "goiania_soja_ics",
  "nome": "GOIANIA-SOJA/ICS",
- "gerado_em": "2026-07-06T16:49:45+00:00",
+ "gerado_em": "2026-07-07T00:28:08+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Goiás encerra a safra 2025/26 de soja com produção de 20,1 milhões de toneladas, conforme Conab (9º Levantamento, jun/2026). O foco agora é o clima de entressafra e a comercialização. A semana de 06 a 12/jul é marcada por veranico consolidado: sete dias consecutivos sem chuva relevante, máximas escalando de 33,6 °C na segunda-feira até 36,0 °C no sábado e mínimas entre 15 e 18 °C. A evapotranspiração média de 5,2 mm/dia reflete alta demanda atmosférica, sustentada por ventos de sul/sudeste com rajadas entre 33 e 36 km/h. No domingo (12/jul), virada do vento para oeste (289°) com rajada de 42,1 km/h e probabilidade de 33% de chuva (máximo de 1,2 mm) sinaliza possível perturbação, sem expressão hídrica. Preço da saca em Jataí/GO: R$ 108,50 (Canal Rural, 17/jun/2026), referência para decisões de comercialização.",
+ "texto": "SITUAÇÃO ATUAL: Goiás está em plena entressafra da soja. O tempo hoje, 7 de julho, é seco e quente, com máxima de 34°C e mínima de 15°C. Sem chuva e sem previsão de chuva nos próximos dias, o solo está secando rápido — o campo evapora em torno de 5 mm por dia. PRÓXIMOS DIAS: A semana toda segue sem chuva e com calor crescente, chegando a 35°C na quinta e sexta. No domingo, dia 12, o vento muda de direção e aumenta para rajadas de 45 km/h, com alguma chance de chuva — mas ainda baixa, em torno de 33%. Nada que mude o cenário seco da semana. PREÇO: A saca de soja em GO está cotada a R$ 108,50.",
  "pontos": [
-  "Safra 2025/26 encerrada em GO com 20,1 Mt (Conab, jun/2026) — atenção ao ritmo de comercialização com saca a R$ 108,50 em Jataí",
-  "Veranico de 7 dias consecutivos e ET0 média de 5,2 mm/dia indicam alta demanda hídrica atmosférica na entressafra",
-  "Virada de vento para oeste e rajada de 42,1 km/h no domingo (12/jul) sugerem passagem de perturbação, mas precipitação prevista não ultrapassa 1,2 mm"
+  "Entressafra confirmada: sem colheita ou plantio em andamento na região",
+  "Sete dias seguidos sem chuva e mais uma semana seca pela frente — atenção ao manejo de pastagens e irrigação",
+  "Domingo, dia 12: vento forte (45 km/h) e leve chance de chuva — monitore estruturas e equipamentos expostos"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:44:03+00:00",
+  "clima": "2026-07-06T22:48:18+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-06-17"
  }

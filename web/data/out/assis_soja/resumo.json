@@ -1,16 +1,16 @@
 {
  "distrito_id": "assis_soja",
  "nome": "ASSIS-SOJA",
- "gerado_em": "2026-07-06T16:46:41+00:00",
+ "gerado_em": "2026-07-07T00:25:25+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito ASSIS-SOJA (SP) — 06/jul/2026. A safra 2025/26 está encerrada (100% colhido), conforme Conab – 9º Levantamento (jun/2026). O foco recai sobre a dinâmica do tempo. A semana inicia com padrão típico de inverno paulista: segunda-feira (07/jul) registra queda de máxima para 26,9 °C, aumento de rajadas (39,6 km/h) e virada do vento para sudoeste (225°), sinalizando passagem de sistema frontal com chuva residual inferior a 1 mm. Na sequência, entre quarta (08/jul) e sexta (10/jul), predomina massa polar seca com mínimas entre 8,0 e 8,1 °C — próximas ao limiar de geada agronômica — e zero precipitação. O aquecimento retorna no fim de semana: sábado (11/jul) atinge máxima de 32,2 °C e domingo (12/jul) concentra o único evento chuvoso relevante da semana (10,4 mm, rajada de 52,6 km/h). A ET0 média semanal é de 3,8 mm/dia, demanda hídrica moderada para o período.",
+ "texto": "SITUAÇÃO ATUAL: Julho seco em Assis. Ontem e hoje caíram menos de 2 mm no total, o solo está seco e o tempo abre bem para qualquer operação de campo. Vento mais forte hoje, até 42 km/h, mas sem impedimento. PRÓXIMOS DIAS: Quarta e quinta seguem sem chuva e com temperatura subindo até 30 °C — janela seca firme. Na sexta à noite uma massa de ar mais frio chega com vento forte (rajadas de 46 km/h) e eleva a chance de chuva. No sábado a chuva se confirma, podendo chegar a 9,3 mm com rajadas de 58 km/h — solo pode ficar úmido no fim de semana. Mínimas caem para perto de 9 °C na quarta e quinta: atenção com pastagens sensíveis ao frio. COLHEITA: Distrito em entressafra — safra anterior encerrada e nova safra ainda não começou.",
  "pontos": [
-  "Mínimas de 8,0–8,1 °C na quarta e quinta-feira (08–09/jul) exigem atenção para culturas de inverno e pastagens sensíveis ao frio",
-  "Sequência de 6 dias secos com ET0 média de 3,8 mm/dia eleva demanda hídrica acumulada — relevante para irrigação de culturas de entressafra",
-  "Evento de chuva concentrado no domingo (12/jul): 10,4 mm com rajada de 52,6 km/h pode causar acamamento em cultivos em desenvolvimento"
+  "Janela seca aberta até sexta de manhã: aproveite para preparo de solo, aplicações e manutenção de máquinas",
+  "Frente chega na sexta à noite com vento forte (até 46 km/h) e chuva prevista no sábado — encerre operações externas até sexta ao meio-dia",
+  "Mínimas de 8,7 °C na quarta e 9,1 °C na quinta: risco de frio para pastagens e mudas sensíveis na região"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:41:38+00:00",
+  "clima": "2026-07-06T22:45:48+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

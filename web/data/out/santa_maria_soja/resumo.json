@@ -1,16 +1,16 @@
 {
  "distrito_id": "santa_maria_soja",
  "nome": "SANTA MARIA-SOJA",
- "gerado_em": "2026-07-06T16:55:29+00:00",
+ "gerado_em": "2026-07-07T00:32:50+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Santa Maria-RS, safra 2025/2026 encerrada com 100% colhido. A semana inicia com passagem de sistema frontal: segunda-feira (06/07) registra máxima de 13,7 °C, chuva de 2,9 mm e rajadas de 39 km/h com vento de oeste, seguida de virada para norte e queda brusca das mínimas — terça (07/07) e quarta (08/07) apresentam mínimas de 1,5 °C e 2,5 °C, respectivamente, com risco de geada. A sequência seca de três dias eleva a ET0 média para 2,3 mm/dia no período. Nova perturbação frontal é esperada para quinta (09/07) a sexta (10/07), com queda de máxima para 14,5 °C, chuva acumulada de até 12,5 mm e rajadas de até 45 km/h no fim de semana. Produtividade encerrou em 45 sc/ha (Emater/RS-Ascar, 11/06/2026), 14,8% abaixo da projeção inicial, com forte variabilidade regional. Saca cotada a R$ 129,00 (Grão Direto, 03/07/2026).",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 7 de julho, o dia amanheceu frio, com mínima de 1,2°C e risco real de geada. Ontem choveu 3 mm, mas o solo já está drenando com o vento forte de norte. Janela de trabalho aberta. PRÓXIMOS DIAS: Quarta e quinta seguem secos e com temperatura subindo até 22°C — ótima janela. Na quinta à noite ou sexta o tempo vira: chega chuva que pode somar até 10 mm entre sexta e sábado, com vento forte e temperatura caindo. Domingo o tempo melhora, mas com frio voltando. ENTRESSAFRA: Safra encerrada, nova temporada ainda não começou. Soja em RS cotada a R$ 129/sc 60kg (Grão Direto, Centro Ocidental RS, 03/07).",
  "pontos": [
-  "Risco de geada nas madrugadas de terça (07/07) e quarta (08/07), com mínimas de 1,5 °C e 2,5 °C — atenção a culturas de inverno e pastagens",
-  "Nova passagem frontal prevista para quinta-sexta (09-10/07) com chuva acumulada de até 12,5 mm e rajadas de até 45 km/h",
-  "Safra 2025/2026 encerrada a 45 sc/ha, 14,8% abaixo da projeção inicial, com forte variabilidade regional (1.200 a 4.200 kg/ha)"
+  "Geada hoje e amanhã cedo: mínimas abaixo de 3°C — atenção a pastagens e culturas sensíveis no campo",
+  "Janela seca aberta até quinta: aproveite para manutenção de máquinas, preparo de solo e aplicações",
+  "Chuva chega na sexta com vento forte — encerre operações de campo até quinta à tarde"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:48:37+00:00",
+  "clima": "2026-07-06T22:51:49+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

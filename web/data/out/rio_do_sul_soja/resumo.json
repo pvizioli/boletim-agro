@@ -1,16 +1,16 @@
 {
  "distrito_id": "rio_do_sul_soja",
  "nome": "RIO DO SUL-SOJA",
- "gerado_em": "2026-07-06T16:54:51+00:00",
+ "gerado_em": "2026-07-07T00:32:18+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Rio do Sul-SC, safra 2025/2026 encerrada com 100% colhido e produtividade de 63 sc/ha (Epagri/Cepa, mai/2026), resultado 7% abaixo da safra anterior em produção, reflexo de queda de 5,5% na produtividade e retração de 1,6% em área. A semana meteorológica é marcada por dois sistemas distintos: abertura com chuva expressiva na segunda-feira (18,1 mm, vento de oeste, 36 km/h de rajada) e segunda-feira para terça (7,9 mm, rajadas de 44 km/h), seguida de virada do vento para leste/nordeste e mínima de -1,1 °C na quarta-feira — padrão clássico de passagem frontal com risco de geada confirmado nos dias 07 e 08/07. Após breve janela seca (qui-sex), novo sistema chega na sexta (15,5 mm) com pico de chuva no sábado (32,3 mm, 80% probabilidade). ET0 média de 2,3 mm/dia indica demanda hídrica moderada típica do inverno. Sem impacto direto na soja, dado o encerramento da safra.",
+ "texto": "Hoje, 7 de julho, o tempo segue fechado em Rio do Sul com chuva e mínima de 1,2°C — solo encharcado após 23,5 mm ontem e mais 8,9 mm hoje. Risco de geada esta noite e amanhã cedo, com mínimas abaixo de zero na quarta-feira (8/7). A partir de quarta o tempo abre: dois dias secos e com sol, quinta (9/7) também firme. Na sexta (10/7) a chuva volta com chance de 61%, e sábado (11/7) chega forte, com até 48,6 mm previstos — tempo fechando de vez no fim de semana. A região está em entressafra: aproveite a janela de quarta e quinta para manutenção de máquinas, correção de solo e organização de insumos antes do retorno das chuvas no fim de semana.",
  "pontos": [
-  "Geada possível na madrugada de 07 e 08/07 com mínimas de 1,9 °C e -1,1 °C — atenção a culturas de inverno e viveiros",
-  "Passagem frontal confirmada na abertura da semana: chuva acumulada de 26 mm em dois dias com vento de oeste e queda brusca de temperatura",
-  "Novo sistema chuvoso entre 10 e 12/07 pode acumular até 63 mm adicionais — monitorar saturação do solo"
+  "Geada esta noite (7/7) e madrugada de quarta (8/7): mínimas de 1,2°C e -1,2°C — atenção a pastagens e mudas sensíveis",
+  "Janela seca abre na quarta (8/7) e vai até quinta (9/7): aproveite para trabalhos de campo e manutenção",
+  "Chuva retorna na sexta (10/7) e se intensifica no sábado (11/7) com até 48,6 mm previstos"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:47:32+00:00",
+  "clima": "2026-07-06T22:51:47+00:00",
   "colheita": "2026-05-01",
   "preco": null
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "sao_gabriel_soja",
  "nome": "SAO GABRIEL-SOJA",
- "gerado_em": "2026-07-06T16:56:18+00:00",
+ "gerado_em": "2026-07-07T00:33:32+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito São Gabriel – RS | Safra 2025/2026 encerrada. A semana inicia com padrão pós-frontal clássico: segunda-feira (06/07) registra máxima de apenas 13,1 °C, rajadas de 40 km/h com vento de sudoeste e precipitação residual de 0,6 mm, indicando cauda de sistema frontal. A partir de terça (07/07), virada do vento para noroeste/norte promove aquecimento progressivo — máxima atinge 21,5 °C na quinta (09/07) — com mínimas abaixo de 3 °C em 07 e 08/07, configurando risco de geada nos pontos mais baixos da região. Na sexta (10/07), nova queda de máxima para 16,2 °C, vento girando para sudeste e chuva de 11,1 mm sinalizam aproximação de nova frente. A evapotranspiração média de 1,8 mm/dia é moderada para o inverno. Com colheita 100% concluída (Emater/RS-Ascar, 11/06/2026) e produtividade de 45 sc/ha, o foco recai sobre comercialização: saca cotada a R$ 129,00 (Grão Direto, 03/07/2026).",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 7 de julho, o tempo abriu depois da chuva fraca de ontem. Céu mais limpo, mas frio: mínima de 1,8°C com risco real de geada esta madrugada. Vento vindo do sul, rajadas até 42 km/h. Solo praticamente seco, boa janela de trabalho aberta.\n\nPRÓXIMOS DIAS: Quarta e quinta seguem secas e com temperatura subindo, chegando a 21°C na quinta. Na sexta, dia 10, chega umidade pelo leste com chance de chuva — até 3 mm. Sábado pode chover mais uns 5 mm. Domingo volta a secar. Janela seca firme até quinta à tarde.\n\nCOLHEITA: Distrito em entressafra — safra anterior encerrada, nova ainda não começou. Soja sendo negociada a R$ 129,00 a saca em RS (Grão Direto, 03/07).",
  "pontos": [
-  "Risco de geada em 07 e 08/07 nas baixadas do distrito — mínimas previstas abaixo de 3 °C; atenção a culturas de inverno e pastagens",
-  "Nova frente prevista para sexta (10/07) com 11,1 mm — janela curta de tempo seco entre quinta e sexta para operações de campo",
-  "Safra 2025/2026 encerrada com 45 sc/ha, queda de 14,8% vs. projeção inicial e forte variabilidade regional (Emater/RS-Ascar, 11/06/2026)"
+  "Geada hoje de madrugada: mínima de 1,8°C — atenção a pastagens e culturas sensíveis na região",
+  "Janela seca firme até quinta, dia 9 — bom período para manutenção de máquinas e preparo de área",
+  "Chuva chega na sexta, dia 10, com até 3 mm, e continua no sábado com mais 5 mm — planeje operações para antes disso"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:48:39+00:00",
+  "clima": "2026-07-06T22:52:54+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

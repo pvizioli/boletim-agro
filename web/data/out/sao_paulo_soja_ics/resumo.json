@@ -1,16 +1,16 @@
 {
  "distrito_id": "sao_paulo_soja_ics",
  "nome": "SAO PAULO-SOJA/ICS",
- "gerado_em": "2026-07-06T16:56:31+00:00",
+ "gerado_em": "2026-07-07T00:33:44+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito SAO PAULO-SOJA/ICS, semana de 6 a 12 de julho de 2026. A safra 2025/26 de SP está encerrada com 100% colhido (Conab, 9º Levantamento, jun/2026). O foco recai sobre a dinâmica atmosférica. A semana inicia com chuva fraca na segunda-feira (0,3 mm, máxima 27,4 °C), seguida de evento mais expressivo na terça-feira: 8,0 mm com probabilidade de 100%, rajadas de 50,4 km/h e virada do vento de leste para norte, sinalizando passagem de sistema frontal. Após a frente, quarta e quinta apresentam mínimas baixas (10,6 °C e 7,6 °C) e ausência de chuva — sequência seca de dois dias com evapotranspiração média de 3,9 mm/dia, indicando demanda hídrica relevante. O fim de semana traz retorno de chuvas: 14,4 mm no sábado e 24,2 mm no domingo, com rajadas de até 58,3 km/h e máxima de 31,4 °C na semana. Preço da saca não disponível no período.",
+ "texto": "Hoje, terça-feira (07/07), o dia começa com chuva leve e vento forte, chegando a rajadas de 52 km/h — massa de ar frio passando pela região. Amanhã, quarta (08/07), ainda tem chance alta de chuva fraca. A partir de quinta (09/07), o tempo abre com sol e temperaturas mais amenas, mínimas perto de 8°C, e a janela seca se mantém firme até sexta (10/07). No sábado (11/07) a probabilidade de chuva volta a subir, e no domingo (12/07) chega chuva forte — até 38 mm previstos com rajadas de 58 km/h, indicando nova frente de frio entrando. Mínima da semana bate 8,2°C na quinta e sexta: fique de olho em pastagens e culturas sensíveis ao frio nessas madrugadas. Estamos em entressafra, então o foco agora é gestão de campo e atenção ao clima.",
  "pontos": [
-  "Passagem de sistema frontal na terça-feira (07/jul) com 8,0 mm, rajadas de 50,4 km/h e virada de vento — monitorar estradas e armazéns",
-  "Mínimas de 7,1 °C a 10,6 °C entre quarta e quinta (08-09/jul): atenção a culturas de inverno e infraestrutura de secagem",
-  "ET0 média de 3,9 mm/dia com sequência seca midweek eleva demanda hídrica em áreas com cultivos de safrinha ou pastagens"
+  "Chuva e vento forte hoje (terça) e amanhã (quarta): evite operações de campo pesadas",
+  "Janela seca abre na quinta (09/07) e vai até sexta (10/07) — aproveite para manutenção de máquinas e estradas internas",
+  "Mínimas de 8°C na quinta e sexta: risco de frio intenso para pastagens e culturas sensíveis nessas madrugadas"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:48:41+00:00",
+  "clima": "2026-07-06T22:52:56+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "querencia_soja_ics",
  "nome": "QUERENCIA SOJA & ICS",
- "gerado_em": "2026-07-06T16:54:38+00:00",
+ "gerado_em": "2026-07-07T00:32:07+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Querência (MT) — Entressafra 2025/26. A safra de soja está encerrada em MT, com 100% colhido e produtividade de 66 sc/ha, alta de 1,3% sobre a safra anterior, produção de 51,56 milhões de toneladas (Imea em Campo/Conab 9º lev., jun/26). O clima desta semana é marcado por veranico consolidado: seis dias consecutivos sem chuva relevante, máximas escalando de 34,4°C (segunda) a 36,3°C (sábado) e evapotranspiração média de 5,5 mm/dia — demanda hídrica elevada para o período seco do Cerrado. Ventos predominantemente do quadrante sul-sudeste com rajadas crescentes até 38,2 km/h no domingo (12/07), quando a mínima sobe a 22°C e a chuva acumulada chega a 5,4 mm — sinal de umidade avançando, mas volume insuficiente para encerrar o veranico. Preço da soja em MT: R$ 108,63/sc (Grão Direto – Nordeste MT, 03/07/26).",
+ "texto": "Querência está em plena entressafra, com tempo seco e quente dominando a semana. Hoje, terça-feira, o sol aparece forte, sem chuva e com vento moderado. O solo está secando bem, condição típica do inverno do MT. De quarta a quinta a situação continua igual: céu aberto, calor crescente chegando a 36°C e zero chance de chuva. A partir de sexta a tarde a probabilidade de chuva sobe para 14%, e no sábado e domingo chegam pancadas isoladas, com até 2 a 4 mm no acumulado da semana — volume baixo, sem risco de encharcamento. A saca de soja está cotada a R$ 108,63 em MT. Aproveite a janela seca desta semana para manutenção de máquinas, estradas e infraestrutura de armazenagem antes do início da próxima safra.",
  "pontos": [
-  "Veranico de 6 dias com ET0 média de 5,5 mm/dia reforça condição seca típica do inverno do Cerrado mato-grossense",
-  "Única chuva relevante prevista no domingo (12/07): até 5,4 mm com rajadas de 38,2 km/h — umidade insuficiente para reverter déficit hídrico acumulado",
-  "Safra 2025/26 encerrada com 66 sc/ha (+1,3% vs. safra anterior) e produção de 51,56 milhões de toneladas em MT"
+  "Janela seca garantida até sexta de manhã: ideal para manutenção de máquinas e estradas",
+  "Pancadas isoladas possíveis a partir de sábado (11/07), mas volume esperado é baixo — até 3,9 mm no total da semana",
+  "Calor intenso toda a semana com máximas chegando a 36°C: atenção ao abastecimento de água para animais e equipes em campo"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:47:31+00:00",
+  "clima": "2026-07-06T22:51:46+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

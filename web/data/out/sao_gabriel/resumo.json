@@ -1,13 +1,13 @@
 {
  "distrito_id": "sao_gabriel",
  "nome": "Distrito de São Gabriel",
- "gerado_em": "2026-07-06T16:56:04+00:00",
+ "gerado_em": "2026-07-07T00:33:22+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito de São Gabriel — Sul do RS, 6 de julho de 2026. A safra de soja 2025/2026 está encerrada em todas as macrorregiões monitoradas: Bagé, Santa Maria e Santa Rosa registraram 100% de plantio e 100% de colheita, conforme Emater/RS-Ascar (fechamento em 14/05/2026). O distrito encontra-se em plena entressafra. Quanto ao clima, os dados meteorológicos da semana não estão disponíveis para o período atual — a base climática foi gerada em 14/06/2026 e não contempla série diária nem previsão de chuva para os 7 municípios monitorados. Não há alertas ativos do Inmet. Sem série diária disponível, não é possível caracterizar padrão sinótico, tendência térmica ou demanda hídrica para a semana. Recomenda-se aguardar atualização dos dados climáticos antes de qualquer decisão operacional relacionada ao próximo ciclo.",
+ "texto": "Estamos em plena entressafra no Distrito de São Gabriel. O tempo desta semana segue sem chuva relevante prevista nos próximos sete dias, o que indica uma sequência de dias secos pela frente. Sem alertas climáticos ativos no momento, o campo está tranquilo do lado do tempo, mas o frio típico de julho pede atenção com as pastagens. Aproveite a janela seca para manutenção de máquinas, correção de solo e planejamento da próxima safra. Atenção: os dados climáticos detalhados desta semana estão incompletos no sistema, então acompanhe a previsão local diariamente antes de tomar decisões de campo.",
  "pontos": [
-  "Safra 2025/2026 encerrada: 100% colhido em Bagé, Santa Maria e Santa Rosa (Emater/RS-Ascar, 14/05/2026)",
-  "Dados climáticos da semana indisponíveis — série diária ausente e previsão de chuva não informada",
-  "Nenhum alerta meteorológico ativo do Inmet para o distrito"
+  "Entressafra em curso: foco em manutenção de equipamentos e preparo de solo enquanto o tempo colabora",
+  "Sete dias sem chuva relevante prevista: boa janela para operações de campo e aplicação de calcário",
+  "Julho frio: monitore pastagens e culturas de inverno para risco de geada nas madrugadas"
  ],
  "insumos_ref": {
   "clima": "2026-06-14T15:29:32+00:00",

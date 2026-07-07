@@ -1,16 +1,16 @@
 {
  "distrito_id": "dourados_soja_ics",
  "nome": "DOURADOS-SOJA/ICS",
- "gerado_em": "2026-07-06T16:49:07+00:00",
+ "gerado_em": "2026-07-07T00:27:35+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Dourados (MS) — Safra 2025/26 encerrada. A colheita foi concluída em maio com 100% da área colhida, produtividade de 60 sc/ha e produção de 16,74 milhões de toneladas, alta de 19,1% sobre a safra anterior (Aprosoja/MS-Siga/Famasul, 26/05/2026). No campo climático, a semana inicia com sequência de cinco dias secos (segunda a sexta), mínima de 4,0 °C na quarta-feira (08/07) e ET0 média de 3,2 mm/dia — demanda hídrica elevada para o inverno. A partir de sexta-feira (10/07), a temperatura máxima sobe a 31,6 °C no sábado (11/07), seguida de chuva intensa no domingo (12/07) — até 46,2 mm — com queda brusca de temperatura, rajadas de 51,8 km/h e virada de vento para oeste, sinalizando passagem de sistema frontal. Sem alertas INMET ativos. Preço da saca não disponível neste ciclo.",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 7 de julho, o tempo em Dourados está mais frio, com mínima de 6,5 °C e máxima de 21,6 °C. Chuva praticamente zero e solo em processo de secagem após a garoa de ontem (1,4 mm). Janela de trabalho aberta. PRÓXIMOS DIAS: Quarta e quinta (8 e 9) seguem secos e com temperatura subindo até quase 29 °C — ótima janela. Na sexta (10) aparece alguma instabilidade fraca. No sábado (11) a chuva chega com força (24,6 mm previstos) e vento forte de até 50 km/h. No domingo (12) vem a passagem de uma massa de ar frio com chuva intensa prevista de até 58 mm — solo deve ficar encharcado. Mínima da semana bate 4 °C na quarta: atenção para pastagens sensíveis ao frio. COLHEITA: Distrito em entressafra — safra anterior encerrada, nova safra ainda não começou.",
  "pontos": [
-  "Safra 2025/26 encerrada com produtividade de 60 sc/ha e alta de 19,1% vs. safra anterior (Aprosoja/MS-Siga/Famasul, 26/05/2026)",
-  "Mínima de 4,0 °C prevista para quarta-feira (08/07) — monitorar culturas de inverno e estruturas sensíveis ao frio",
-  "Passagem frontal esperada no domingo (12/07): chuva acumulada de até 46,2 mm, rajadas de 51,8 km/h e queda abrupta de temperatura"
+  "Janela seca aberta hoje até sexta (10) à tarde: aproveite para manutenção de máquinas e preparo de solo",
+  "Chuva forte chega no sábado (11) com rajadas de até 50 km/h — recolha equipamentos e estruturas expostas",
+  "Massa de ar frio e chuva intensa no domingo (12), até 58 mm previstos: risco de encharcamento e danos a pastagens"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:44:00+00:00",
+  "clima": "2026-07-06T22:48:14+00:00",
   "colheita": "2026-05-26",
   "preco": null
  }

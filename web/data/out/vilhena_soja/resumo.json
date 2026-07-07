@@ -1,16 +1,16 @@
 {
  "distrito_id": "vilhena_soja",
  "nome": "VILHENA-SOJA",
- "gerado_em": "2026-07-06T16:57:49+00:00",
+ "gerado_em": "2026-07-07T00:34:53+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Vilhena-Soja (AM, MT, RO) — 6 a 12 de julho de 2026. Safra 2025/26 encerrada em todo o distrito. MT registrou produtividade de 66 sc/ha e produção de 51,56 milhões de toneladas, alta de 1,3% sobre a safra anterior (Imea em Campo/Conab 9º Lev., jun/2026). RO sem dados de produtividade e produção disponíveis. O padrão climático da semana revela entressafra seca com demanda evapotranspirativa elevada: máxima semanal de 34,4 °C, mínima de 15,6 °C e ET0 média de 4,4 mm/dia. Segunda-feira concentra o evento chuvoso mais expressivo (8,3 mm, probabilidade 94%), seguido de sequência predominantemente seca de até três dias consecutivos. No sábado, rajadas de 53,6 km/h e 15,0 mm sinalizam perturbação convectiva de encerramento. Sem alertas Inmet ativos. Preço da saca em MT: R$ 108,63/sc 60 kg (Grao Direto, Nordeste MT, 03/07/2026).",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 7 de julho, o tempo está fechado sobre a região de Vilhena, com chuva de 7,8 mm e vento forte chegando a 41 km/h. O solo está úmido após os 5,8 mm de ontem e os 7,8 mm de hoje. Não há janela de trabalho aberta no momento. PRÓXIMOS DIAS: A partir de amanhã, quarta, a chuva recua bastante e o tempo abre. Quinta e sexta seguem com pancadas isoladas e leves, menos de 2 mm por dia. No sábado e domingo a chuva volta a ganhar força, com até 4,8 mm e probabilidade acima de 70%. A semana termina mais instável. A temperatura máxima sobe até 34,5 °C e a mínima não cai abaixo de 15 °C, sem risco de frio intenso. PREÇO: Soja em MT cotada a R$ 108,63/sc 60 kg em 3 de julho.",
  "pontos": [
-  "Safra 2025/26 encerrada em MT e RO; foco no escoamento e comercialização do grão colhido",
-  "ET0 média de 4,4 mm/dia com chuva acumulada de apenas 1,2 a 18,1 mm na semana — entressafra seca, sem impacto operacional imediato",
-  "Rajada de 53,6 km/h prevista para sábado (12/07) pode afetar logística e estruturas de armazenagem"
+  "Solo encharcado hoje: evite tráfego pesado na lavoura até quarta-feira",
+  "Janela de tempo mais seco abre na quarta e vai até sexta: aproveite para manutenção de máquinas e estradas internas",
+  "Chuvas voltam no fim de semana, sábado e domingo, com probabilidade acima de 70%"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:49:50+00:00",
+  "clima": "2026-07-06T22:54:05+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

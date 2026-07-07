@@ -1,16 +1,16 @@
 {
  "distrito_id": "itapeva_soja",
  "nome": "ITAPEVA-SOJA",
- "gerado_em": "2026-07-06T16:51:04+00:00",
+ "gerado_em": "2026-07-07T00:29:10+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Itapeva-Soja (SP) — 6 de julho de 2026. A safra 2025/26 está encerrada com 100% colhido, conforme Conab (9º Levantamento, jun/2026). O foco da semana recai sobre a dinâmica atmosférica. Segunda-feira (07/jul) concentra o principal evento de chuva: 2,0 mm com probabilidade de 90% e rajadas de 43,9 km/h de oeste, seguidos de queda brusca de temperatura mínima para 3,4 °C na quarta (08/jul) e virada do vento para leste — padrão típico de passagem frontal. A sequência seca de três dias (08 a 10/jul) com evapotranspiração média de 2,9 mm/dia sustenta demanda hídrica relevante. No fim de semana, novo pulso úmido: sábado (11/jul) com 4,4 mm e domingo (12/jul) com 21,0 mm e rajadas de 58,0 km/h, sugerindo segundo sistema perturbado. Acumulado semanal pode atingir até 21,4 mm nos municípios mais expostos. Preço da saca não disponível neste levantamento.",
+ "texto": "HOJE (07/07) a chuva chega com força — quase 4 mm previstos e vento em rajadas de até 44 km/h. O solo, que já recebeu 1 mm ontem, vai entrar o dia encharcado. A partir de AMANHÃ (08/07) o tempo vira: massa de ar frio derruba as mínimas para 4°C na quarta e 4,5°C na quinta, mas o céu abre e começa uma janela seca que vai até sexta (10/07) com sol e sem chuva. No fim de semana o risco volta: sábado (11/07) já aparece chance de chuva de 57% e domingo (12/07) chega com 12 mm previstos e rajadas de 60 km/h, indicando nova frente. Estamos em entressafra — nenhuma lavoura de soja no campo. Atenção apenas para pastagens e culturas de inverno que ficam expostas às mínimas de 4°C na quarta e quinta.",
  "pontos": [
-  "Passagem frontal prevista entre segunda e quarta-feira, com queda de mínima para 3,4 °C em 08/jul — monitorar risco de geada em áreas de altitude no distrito",
-  "Rajadas de até 58,0 km/h no domingo (12/jul) indicam sistema perturbado de maior intensidade no fim de semana",
-  "ET0 média de 2,9 mm/dia durante a sequência seca (08–10/jul) eleva demanda hídrica, relevante para pastagens e culturas de inverno na região"
+  "Chuva e vento forte hoje (07/07): evite qualquer operação de campo",
+  "Janela seca abre amanhã (08/07) e vai até sexta (10/07): aproveite para manutenção de máquinas e infraestrutura",
+  "Mínimas de 4°C na quarta e quinta: risco para pastagens e culturas sensíveis ao frio"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:46:18+00:00",
+  "clima": "2026-07-06T22:50:32+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

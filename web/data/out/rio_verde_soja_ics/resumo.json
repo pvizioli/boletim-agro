@@ -1,16 +1,16 @@
 {
  "distrito_id": "rio_verde_soja_ics",
  "nome": "RIO VERDE-SOJA/ICS",
- "gerado_em": "2026-07-06T16:55:04+00:00",
+ "gerado_em": "2026-07-07T00:32:29+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Rio Verde (GO) — Julho/2026. A safra 2025/26 de soja em Goiás está encerrada, com produção de 20,1 milhões de toneladas registrada pela Conab no 9º Levantamento (jun/2026). O clima desta semana é marcado por veranico consolidado: sete dias consecutivos sem chuva relevante, máximas escalando de 31,9°C (segunda-feira) a 34,9°C (sexta e sábado), mínimas entre 14,7°C e 18,4°C, e ventos de sul/sudeste girando para leste ao longo da semana — padrão típico de domínio de massa de ar seco continental no inverno do Cerrado. A evapotranspiração média de 4,6 mm/dia reforça a alta demanda hídrica atmosférica. Para domingo (12/07), rajadas de 54,7 km/h com vento virando para oeste e probabilidade de 37% de chuva (0,6 mm) sugerem aproximação de perturbação, sem expressividade agronômica. Preço de referência: R$ 108,50/sc 60kg em Jataí/GO (Canal Rural, 17/06/2026).",
+ "texto": "SITUAÇÃO ATUAL: Rio Verde está em plena seca de inverno. Hoje, 7 de julho, sem chuva e com máxima de 32°C e mínima de 15°C. Solo seco, condição típica de entressafra. Vento moderado, até 37 km/h. PRÓXIMOS DIAS: A semana toda segue sem chuva. As temperaturas sobem progressivamente, chegando a 35°C na sexta-feira, dia 11. No domingo, dia 12, o vento ganha força, podendo chegar a 46 km/h, e aparece uma chance de chuva de 37% — sinal de que uma mudança pode estar chegando, mas ainda incerta. A evaporação está alta todos os dias, em torno de 4,4 mm/dia. MERCADO: Soja em Goiás cotada a R$ 108,50 a saca.",
  "pontos": [
-  "Safra 2025/26 encerrada em GO com 20,1 milhões de toneladas (Conab, jun/2026)",
-  "Veranico de 7 dias com máximas até 34,9°C e ET0 média de 4,6 mm/dia — alta demanda hídrica atmosférica no período",
-  "Domingo (12/07): rajada prevista de 54,7 km/h e virada de vento para oeste podem indicar passagem de perturbação, mas chuva prevista é irrisória (0,6 mm)"
+  "Semana toda seca: sete dias seguidos sem chuva confirmados até sábado, dia 11",
+  "Domingo, dia 12: vento forte até 46 km/h e chance de chuva de 37% — fique atento a mudança de tempo",
+  "Evaporação alta (média 4,4 mm/dia): atenção ao estresse hídrico em pastagens e culturas irrigadas"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:47:32+00:00",
+  "clima": "2026-07-06T22:51:47+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-06-17"
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "julio_de_castilhos_soja",
  "nome": "JULIO DE CASTILHOS-SOJA",
- "gerado_em": "2026-07-06T16:51:32+00:00",
+ "gerado_em": "2026-07-07T00:29:32+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Julio de Castilhos, RS — 6 de julho de 2026. A safra 2025/2026 está encerrada com 100% colhido e produtividade de 45 sc/ha (Emater/RS-Ascar, 11/jun/2026), resultado 14,8% abaixo da projeção inicial, com forte variabilidade regional. A dinâmica desta semana aponta passagem de sistema frontal: segunda-feira registrou máxima de apenas 13,8 °C com vento de oeste e chuva fraca, seguida de virada para noroeste e nordeste na terça e quarta com mínimas de 1,0 °C e 1,7 °C — risco de geada nos dias 7 e 8 de julho. A partir de quinta, aquecimento rápido (máxima de 21,7 °C) precede nova perturbação com chuva de 6,0 mm na sexta e 9,2 mm no sábado, ventos de sudeste e rajadas acima de 40 km/h. A evapotranspiração média de 1,7 mm/dia é baixa, compatível com entressafra. Saca negociada a R$ 129,00 (Grão Direto, 3/jul/2026).",
+ "texto": "Hoje, 7 de julho, o tempo está seco e frio em Júlio de Castilhos, com mínima de 0,9°C e risco real de geada esta madrugada e amanhã cedo. O solo está praticamente seco após chuvas insignificantes nos últimos dias. A janela seca segue firme até quinta-feira, com temperaturas subindo e dias ensolarados na quarta e quinta. A partir de sexta, a chuva volta: são esperados cerca de 7 a 9 mm entre sexta e sábado, com temperaturas caindo no fim de semana. Sendo entressafra da soja, o foco agora é proteger pastagens e culturas sensíveis ao frio. A saca da soja está sendo negociada a R$ 129,00 no Centro Ocidental do RS, conforme referência de 3 de julho.",
  "pontos": [
-  "Geada possível em 7 e 8 de julho: mínimas de 1,0 °C e 1,7 °C exigem atenção a culturas de inverno e pastagens",
-  "Chuva concentrada na sexta e sábado (até 9,2 mm/dia) com rajadas acima de 40 km/h — monitorar erosão em áreas sem cobertura pós-colheita",
-  "Produtividade da soja 2025/2026 ficou 14,8% abaixo da projeção inicial, com variabilidade regional expressiva segundo Emater/RS-Ascar"
+  "Geada hoje e amanhã cedo: mínimas abaixo de 2°C — proteja pastagens e culturas sensíveis nas baixadas",
+  "Janela seca garantida até quinta-feira: bom momento para manutenção de máquinas e infraestrutura de campo",
+  "Chuva retorna na sexta com 7 a 9 mm previstos entre sexta e sábado — planeje operações externas até quinta"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:46:19+00:00",
+  "clima": "2026-07-06T22:50:33+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

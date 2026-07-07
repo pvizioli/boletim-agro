@@ -1,16 +1,16 @@
 {
  "distrito_id": "santo_angelo_soja",
  "nome": "SANTO ANGELO-SOJA",
- "gerado_em": "2026-07-06T16:55:55+00:00",
+ "gerado_em": "2026-07-07T00:33:13+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Santo Ângelo, 6 de julho de 2026. A semana inicia com padrão pós-frontal: segunda-feira registra máxima de apenas 13,8 °C com ventos de oeste-sudoeste (244°) e rajadas de 31,7 km/h, indicando massa polar ainda atuante. A virada do vento para norte-nordeste (60°–57°) na quarta e quinta-feira eleva a máxima a 19,5 °C e 22,7 °C, respectivamente, com ET0 acumulando até 2,74 mm/dia — sequência de quatro dias secos consecutivos confirmada. Atenção para mínimas de 1,4 °C (terça) e 3,0 °C (quarta), com risco de geada em baixadas. Na sexta e sábado, nova perturbação traz 16,8 mm e 15,6 mm, com ventos girando para sudeste e rajadas de até 39,2 km/h. A safra 2025/2026 está encerrada (100% colhido, 45 sc/ha — Emater/RS-Ascar, 11/06/2026), com produção 32,9% acima da safra anterior. Preço em R$ 129/sc (Grão Direto, 03/07/2026).",
+ "texto": "Hoje, 7 de julho, o tempo está seco e frio em Santo Ângelo, com mínima de 1°C e risco real de geada esta madrugada e na de amanhã, quarta. O solo está drenando bem após chuvas fracas dos últimos dias. A janela seca segue aberta até quinta, quando a temperatura sobe e a chuva chega com força: cerca de 22 mm na quinta e mais 16 mm na sexta, deixando o solo encharcado no fim de semana. Sábado o tempo melhora, mas o campo vai precisar de tempo para drenar. A soja está em entressafra, safra nova ainda não começou. Para quem tem pastagens ou culturas sensíveis ao frio, o alerta é agora: geada possível hoje à noite e amanhã cedo. Saca da soja cotada a R$ 129,00 no RS em 3 de julho.",
  "pontos": [
-  "Risco de geada em terça (mín. 1,4 °C) e quarta (mín. 3,0 °C) — atenção a baixadas e culturas de inverno",
-  "Sequência de 4 dias secos com ET0 elevada (até 2,74 mm/dia) antes da chuva de sexta-sábado",
-  "Chuva concentrada na sexta-sábado (até ~32 mm acumulados) sem impacto na soja — safra encerrada"
+  "Geada possível hoje à noite (7/jul) e amanhã cedo (8/jul): proteja pastagens e culturas sensíveis ao frio",
+  "Janela seca aberta até quarta (8/jul): aproveite para qualquer operação de campo que exija solo firme",
+  "Chuva chega na quinta (10/jul) com cerca de 22 mm e continua na sexta (11/jul) com mais 16 mm: solo encharcado no fim de semana"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:48:38+00:00",
+  "clima": "2026-07-06T22:52:53+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

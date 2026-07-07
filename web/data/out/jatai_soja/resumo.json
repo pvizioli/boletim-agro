@@ -1,16 +1,16 @@
 {
  "distrito_id": "jatai_soja",
  "nome": "JATAI-SOJA",
- "gerado_em": "2026-07-06T16:51:17+00:00",
+ "gerado_em": "2026-07-07T00:29:21+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Jataí-Soja (GO/MS) — safra 2025/26 encerrada em ambos os estados. O tempo na semana de 6 a 12/07 é tipicamente de inverno seco: sequência de seis dias sem chuva relevante, mínimas entre 13,6 °C e 16,8 °C e máximas subindo progressivamente até 31,6 °C no sábado (11/07). A evapotranspiração média de 4,2 mm/dia com rajadas de até 38,9 km/h no sábado indica demanda hídrica elevada para pastagens e culturas de segunda safra. No domingo (12/07), a virada do vento para oeste com rajadas de 54,0 km/h e probabilidade de 50% de chuva (4,2 mm) sugere passagem de sistema frontal fraco — volume insuficiente para recarga hídrica expressiva. No balanço da safra, MS registrou produtividade de 60 sc/ha e produção de 16,7 milhões de toneladas, alta de 19,1% sobre a safra anterior (Aprosoja/MS-Siga/Famasul, 26/05/2026). GO totalizou 20,1 milhões de toneladas (Conab, 9º Levantamento, jun/2026). Preço de referência em Jataí/GO: R$ 108,50/sc (Canal Rural, 17/06/2026).",
+ "texto": "Jataí e região estão em plena entressafra, com tempo firme e seco dominando a semana. Hoje o dia começa com mínima de 14°C e máxima de 28°C, sem chuva relevante. O solo está seco há pelo menos sete dias seguidos, e a evaporação está alta, passando de 4 mm por dia. De amanhã, quarta, até sexta, o tempo segue aberto, seco e quente, com máximas chegando a 30°C. No sábado o vento gira e aumenta, chegando a rajadas de 42 km/h, e a probabilidade de chuva sobe para 50% — sinal de mudança chegando no fim de semana. A soja está em entressafra, então o foco agora é gestão de pastagens e planejamento da próxima safra. Preço da saca em GO: R$ 108,50.",
  "pontos": [
-  "Seis dias consecutivos sem chuva e ET0 média de 4,2 mm/dia elevam demanda hídrica — atenção a pastagens e culturas de inverno na região",
-  "Passagem frontal prevista para domingo (12/07) com rajadas de 54,0 km/h e até 4,2 mm — volume baixo, sem impacto significativo no balanço hídrico",
-  "MS encerrou safra 2025/26 com 60 sc/ha e alta de 19,1% na produção frente à safra anterior (Aprosoja/MS-Siga/Famasul, 26/05/2026)"
+  "Sete dias sem chuva: solo seco, condição favorável para manutenção de máquinas e infraestrutura de fazenda",
+  "Evaporação alta a semana toda — atenção ao estresse hídrico em pastagens e culturas de inverno irrigadas",
+  "Sábado com vento forte (até 42 km/h) e 50% de chance de chuva: sinal de mudança de tempo no fim de semana"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:46:18+00:00",
+  "clima": "2026-07-06T22:50:32+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-06-17"
  }

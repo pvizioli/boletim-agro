@@ -1,16 +1,16 @@
 {
  "distrito_id": "luis_e_mag_soja_ics",
  "nome": "LUIS E MAG-SOJA/ICS",
- "gerado_em": "2026-07-06T16:52:09+00:00",
+ "gerado_em": "2026-07-07T00:30:03+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Distrito Luis E Mag-Soja/ICS (BA e PI) — safra 2025/26 encerrada em ambos os estados (Conab, 9º Levantamento, jun/2026). O foco desta semana é inteiramente climático. Segunda-feira (06/jul) registrou leve precipitação de 1,4 mm com probabilidade de 37% e rajada de 34 km/h de sul, seguida de virada do vento para nordeste já na terça (07/jul) com chuva residual de 0,2 mm — padrão compatível com passagem de sistema frontal rápido. De quarta (08/jul) em diante, sequência completamente seca com máximas escalando de 33,3°C a 34,9°C e mínimas entre 13,0°C e 15,3°C. A evapotranspiração potencial média da semana atinge 4,8 mm/dia, com pico de 5,16 mm/dia na quinta (09/jul), sinalizando demanda hídrica elevada. A precipitação acumulada projetada para os 7 dias não ultrapassa 1,8 mm no cenário mais favorável, consolidando veranico de inverno típico da região.",
+ "texto": "Hoje, 7 de julho, o tempo está seco e quente na região de Luís Eduardo Magalhães, com temperatura chegando a 32,6°C e praticamente sem chuva — apenas 0,6 mm com chance de 6%. O solo está perdendo água rápido com esse calor e vento. A semana inteira segue assim: de quarta a sábado, zero chuva prevista, calor firme acima de 33°C e rajadas de vento chegando a 37 km/h na quinta e sexta. A maior sequência seca da região já está em 7 dias seguidos, e a evaporação média está alta, em quase 5 mm por dia. Não há alertas climáticos ativos. O distrito está em entressafra — a safra anterior encerrou e a nova ainda não começou. Fique de olho na umidade do solo se houver pastagens ou culturas de inverno estabelecidas, pois o ressecamento é intenso.",
  "pontos": [
-  "Safra 2025/26 encerrada em BA e PI conforme Conab (jun/2026) — sem dados de produtividade disponíveis no levantamento",
-  "Sequência seca de até 7 dias consecutivos com ET0 média de 4,8 mm/dia indica demanda hídrica elevada no período de entressafra",
-  "Passagem frontal rápida na segunda/terça (06-07/jul) trouxe apenas 1,6 mm acumulados — sem impacto prático sobre o solo"
+  "Janela seca estendida: sem chuva relevante prevista até pelo menos sábado, dia 12",
+  "Evaporação alta — quase 5 mm por dia: solo secando rápido, atenção a pastagens e culturas de inverno",
+  "Rajadas de vento fortes na quinta e sexta, acima de 35 km/h: cuidado com operações de pulverização"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T14:46:22+00:00",
+  "clima": "2026-07-06T22:50:36+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }
