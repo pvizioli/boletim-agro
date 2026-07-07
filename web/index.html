@@ -90,6 +90,7 @@
   .content{flex:1;min-width:0;padding:26px 24px 60px}
   .loading{text-align:center;color:var(--dim);padding:80px 0;font-family:'IBM Plex Mono',monospace;font-size:13px}
 
+  .mapa-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;flex-wrap:wrap}
   .cbread{display:flex;align-items:center;flex-wrap:wrap;font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--dim);margin-bottom:18px}
   .btn-print{display:inline-flex;align-items:center;gap:6px;margin-left:auto;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--brandL);background:var(--panel2);border:1px solid var(--border2);border-radius:7px;padding:7px 12px;cursor:pointer;transition:.15s}
   .btn-print:hover{border-color:var(--brand);color:var(--brand)}
@@ -271,6 +272,9 @@
     .pr-wday .ch{font-family:'IBM Plex Mono',monospace;font-size:8.5px;color:#0b6ea8;margin-top:2px}
     .pr-mun-x{font-family:'IBM Plex Mono',monospace;font-size:8.5px;color:#7c8a81;margin-top:3px}
     .pr-foot{border-top:1px solid #c5d0ba;margin-top:9px;padding-top:4px;font-family:'IBM Plex Mono',monospace;font-size:8.5px;color:#7c8a81;line-height:1.4}
+    .pr-esc-data{font-size:11px;color:#39483f;margin:2px 0 8px}
+    .pr-esc-reg{page-break-inside:avoid;margin-top:10px;border-top:1px solid #dde4d5;padding-top:6px}
+    .pr-esc-noia{font-size:11px;color:#7c8a81;font-style:italic;margin-bottom:6px}
   }
   @media(max-width:640px){
     .muncard-head{flex-direction:column;align-items:flex-start;gap:12px}
@@ -486,6 +490,8 @@ function carregaResumoEscopo(){
     if(e2&&idAtual===id) e2.innerHTML=htmlResumo(r);
   }).catch(function(e){ cacheEscopo[id]=null; });
 }
+function emSafra(pp,pc){ return pp!=null && pp>0 && (pc==null || pc<100); }
+function algumEmSafra(its){ for(var i=0;i<(its||[]).length;i++){ if(emSafra(its[i].pct_plantado,its[i].pct_colhido)) return true; } return false; }
 function resumoCards(){
   var R=INDEX&&INDEX.resumo; if(!R) return "";
   var sc=nav.regional?(R.por_regional&&R.por_regional[nav.regional]):R.nacional;
@@ -494,8 +500,12 @@ function resumoCards(){
   var saf=(R.safra?("safra "+escX(R.safra)+" &middot; "):"");
   var h='<div class="kpis resumo-kpis">';
   h+=kpi("brand",icoMapa(18,"currentColor"),"&Aacute;rea de soja",fmtArea(sc.area_soja_ha),(nav.regional?"nesta regional":"total monitorado"));
-  h+=kpi("sky",icoBroto(18,"currentColor"),"Plantado",(pp!=null?pp+"%":"-"),(pp!=null?saf+"ponderado por &aacute;rea":"sem dado de colheita"));
-  h+=kpi("emerald",icoBroto(18,"currentColor"),"Colhido",(pc!=null?pc+"%":"-"),(pc!=null?saf+"ponderado por &aacute;rea":"sem dado de colheita"));
+  if(emSafra(pp,pc)){
+    h+=kpi("sky",icoBroto(18,"currentColor"),"Plantado",(pp!=null?pp+"%":"-"),saf+"ponderado por &aacute;rea");
+    h+=kpi("emerald",icoBroto(18,"currentColor"),"Colhido",(pc!=null?pc+"%":"-"),saf+"ponderado por &aacute;rea");
+  } else {
+    h+=kpi("brand",icoBroto(18,"currentColor"),"Fase","Entressafra","colheita retorna na safra 26/27");
+  }
   h+='</div>';
   return h;
 }
@@ -531,7 +541,9 @@ function viewMapa(){
   var sub = nav.regional
     ? "Estados com munic&iacute;pios desta regional em destaque. Selecione um distrito no menu &agrave; esquerda."
     : "Cada estado pintado pela regional predominante. Clique numa regional (mapa ou menu) para abrir os distritos.";
-  return '<div class="maptitle serif">'+titulo+'</div><div class="mapsub">'+sub+'</div>'+resumoCards()+'<div id="resumo-escopo"></div>'
+  return '<div class="mapa-head"><div class="maptitle serif">'+titulo+'</div>'
+    +'<button class="btn-print" onclick="imprimirEscopo()"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M6 9V2h12v7\"/><path d=\"M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2\"/><rect x=\"6\" y=\"14\" width=\"12\" height=\"8\"/></svg> <span>Imprimir / PDF</span></button></div>'
+    +'<div class="mapsub">'+sub+'</div>'+resumoCards()+'<div id="resumo-escopo"></div>'
     +'<div class="maprow"><div class="mapbox"><div class="map">'+svg+'</div></div>'
     +'<div class="legend">'+leg+'</div></div>';
 }
@@ -650,6 +662,11 @@ function tabClima(d){
 function tabMunicipios(d){ var h=""; for(var i=0;i<(d.municipios||[]).length;i++) h+=muncard(d.municipios[i]); return h; }
 function tabColheita(d){
   var c=d.colheita||{status:"pendente"};
+  if(c.itens&&c.itens.length&&!algumEmSafra(c.itens)){
+    return '<div class="soon"><div class="tag">Entressafra</div>'
+      +'<div style="font-family:Fraunces,serif;font-size:21px;color:var(--mut);margin-bottom:8px">Safra encerrada</div>'
+      +'<p style="max-width:560px;margin:0 auto;font-size:13px;line-height:1.6">Colheita, produtividade e avan&ccedil;os retornam quando a safra 26/27 come&ccedil;ar. Por ora, o foco &eacute; clima e pre&ccedil;o.</p></div>';
+  }
   if(c.status==="pendente"||!(c.itens&&c.itens.length)){
     return '<div class="soon"><div class="tag">Fase 2 - em breve</div>'
       +'<div style="font-family:Fraunces,serif;font-size:21px;color:var(--mut);margin-bottom:8px">Timing e posi&ccedil;&atilde;o de plantio e colheita</div>'
@@ -716,7 +733,7 @@ function muncard(m){
       +'<div class="wr">'+((dia.precip_mm||0)>0?(dia.precip_mm+" mm"):"&mdash;")+'</div></div>';
   }
   h+="</div>";
-  if(m.colheita){ var mc=m.colheita;
+  if(m.colheita && emSafra(m.colheita.pct_plantado,m.colheita.pct_colhido)){ var mc=m.colheita;
     h+='<div class="mun-colh"><div class="mc-h">'+icoBroto(12,"currentColor")+' Colheita'+(mc.derivado?'<span class="mc-deriv">estimado</span>':'')+'</div>';
     h+='<div class="muncard-body">';
     h+=metric("brand",fmtMil(mc.area_soja_ha)+" ha","&aacute;rea de soja");
@@ -782,6 +799,49 @@ function desenhaGraficos(d){
 }
 
 // ===== FILTRO DE MUNICIPIOS =====
+function imprimirEscopo(){
+  var R=INDEX&&INDEX.resumo, hoje=new Date().toLocaleDateString("pt-BR");
+  var regionais=((INDEX&&INDEX.regionais)||[]).map(function(x){return x.nome;});
+  var soReg=nav.regional;
+  var alvos=soReg?[soReg]:regionais, ids=[]; if(!soReg) ids.push("nacional");
+  alvos.forEach(function(n){ ids.push(slugReg(n)); });
+  var proms=ids.map(function(id){
+    if(cacheEscopo[id]!==undefined) return Promise.resolve({id:id,r:cacheEscopo[id]});
+    return carregaJSON(BASE+"/_escopos/"+id+".json?t="+Date.now())
+      .then(function(r){cacheEscopo[id]=r; return {id:id,r:r};})
+      .catch(function(){cacheEscopo[id]=null; return {id:id,r:null};});
+  });
+  Promise.all(proms).then(function(res){
+    var by={}; res.forEach(function(x){by[x.id]=x.r;});
+    function dados(sc){ if(!sc) return "";
+      var s='<div class="pr-esc-data">&Aacute;rea de soja: <b>'+fmtArea(sc.area_soja_ha)+'</b>';
+      if(emSafra(sc.pct_plantado,sc.pct_colhido)){ s+=' &middot; plantado '+(sc.pct_plantado!=null?sc.pct_plantado+"%":"-")+' &middot; colhido '+(sc.pct_colhido!=null?sc.pct_colhido+"%":"-"); }
+      return s+'</div>';
+    }
+    function ria(r){ if(!r||!r.texto) return '<div class="pr-esc-noia">An&aacute;lise de IA ainda n&atilde;o gerada para este escopo (rode "Resumos IA").</div>';
+      var s='<div class="pr-ria"><p class="pr-txt">'+escX(r.texto)+'</p>';
+      for(var i=0;i<(r.pontos||[]).length;i++){ s+='<div class="pr-pt"><span class="pr-dot"></span><span>'+escX(r.pontos[i])+'</span></div>'; }
+      return s+'<div class="pr-meta">'+escX(r.modelo||"")+' &middot; '+fmtData(r.gerado_em||"")+'</div></div>';
+    }
+    var titulo=soReg?escX(soReg):"Brasil &middot; panorama por regional";
+    var h='<div class="pr-head"><div><div class="pr-eyerow"><div class="pr-bar"></div><span class="pr-eyebrow">Boletim de Clima &amp; Colheita</span></div>'
+      +'<div class="pr-title">'+titulo+'</div></div><div class="pr-sub">emitido em '+hoje+'</div></div>';
+    if(soReg){
+      h+='<div class="pr-sec">'+icoBroto(13,"#2f7d54")+' Panorama regional (gerado por IA)</div>'+ria(by[slugReg(soReg)]);
+      h+=dados(R&&R.por_regional&&R.por_regional[soReg]);
+    } else {
+      h+='<div class="pr-sec">'+icoBroto(13,"#2f7d54")+' Panorama nacional (gerado por IA)</div>'+ria(by["nacional"]);
+      h+=dados(R&&R.nacional);
+      for(var g=0;g<regionais.length;g++){ var reg=regionais[g];
+        h+='<div class="pr-esc-reg"><div class="pr-sec">'+escX(reg)+'</div>'+dados(R&&R.por_regional&&R.por_regional[reg])+ria(by[slugReg(reg)])+'</div>';
+      }
+    }
+    h+='<div class="pr-foot">Gerado em '+hoje+' &middot; boletim-agro.vercel.app &middot; An&aacute;lises geradas por IA a partir dos dados do boletim (clima, colheita, pre&ccedil;o).</div>';
+    var pa=document.getElementById("print-area");
+    if(!pa){ pa=document.createElement("div"); pa.id="print-area"; document.body.appendChild(pa); }
+    pa.innerHTML=h; window.print();
+  });
+}
 function imprimirBoletim(){
   var d=cacheDistrito[nav.distrito]; if(!d) return;
   var sel=selDoDistrito(d), r=cacheResumo[nav.distrito];
@@ -802,7 +862,7 @@ function imprimirBoletim(){
       +'<span class="m">'+fmtDia(p.data||"")+' &middot; '+escX(p.fonte||"")+'</span></div>';
   }
   var c=d.colheita;
-  if(c&&c.itens&&c.itens.length){
+  if(c&&c.itens&&c.itens.length&&algumEmSafra(c.itens)){
     h+='<div class="pr-sec">'+icoBroto(13,"#2f7d54")+' Colheita &amp; plantio</div><table class="pr-tab"><tr><th>Regi&atilde;o</th><th>Plantado</th><th>Colhido</th><th>Produtividade</th><th>Fonte</th></tr>';
     for(var j=0;j<c.itens.length;j++){ var it=c.itens[j];
       var pl=(it.pct_plantado!=null)?('<span class="pr-prog"><i style="width:'+Math.min(100,it.pct_plantado)+'%"></i></span>'+it.pct_plantado+"%"):"-";
@@ -817,7 +877,7 @@ function imprimirBoletim(){
   h+='<div class="pr-sec">'+icoMapa(13,"#2f7d54")+' Previs&atilde;o 7 dias - munic&iacute;pios selecionados ('+ms.length+')</div>';
   for(var k=0;k<ms.length;k++){ var m=ms[k], prev=(m.clima.previsao_7d||[]).slice(0,7);
     h+='<div class="pr-mun"><div class="pr-mun-h">'+escX(m.nome)+(m.area_soja_ha?('<span class="pr-mun-a">'+fmtMil(m.area_soja_ha)+' ha de soja</span>'):'')+'</div>';
-    if(m.colheita){ var mc=m.colheita;
+    if(m.colheita && emSafra(m.colheita.pct_plantado,m.colheita.pct_colhido)){ var mc=m.colheita;
       h+='<div class="pr-mun-c">Colheita: '+(mc.pct_plantado!=null?("plantado "+mc.pct_plantado+"%"):"")+(mc.pct_colhido!=null?(" &middot; colhido "+mc.pct_colhido+"%"):"")+(mc.regiao?(" &middot; regi&atilde;o "+escX(mc.regiao)):"")+' <span style="color:#7c8a81">(estimativa derivada)</span></div>';
     }
     h+='<div class="pr-week">';
