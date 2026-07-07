@@ -66,7 +66,9 @@ SISTEMA = (
     "ou o plantio estao em andamento (entre 0 e 100) e vem chuva ou frente, "
     "diga ate quando fica a JANELA de trabalho e qual o risco; se ha risco de "
     "geada, diga o que fica exposto (pastagens, culturas sensiveis); se a "
-    "safra ja encerrou, foque no tempo atual, no preco e no fechamento. Os "
+    "estiver em ENTRESSAFRA (campo fase presente no JSON), NAO cite colheita, "
+    "produtividade, area colhida nem avancos de forma alguma: fale apenas do "
+    "tempo e do preco. Os "
     "'pontos' sao ALERTAS OPERACIONAIS curtos e acionaveis (ex.: 'Janela de "
     "colheita fecha na quinta a tarde com a chegada da frente'; 'Geada de "
     "domingo a terca: risco para pastagens'). Responda APENAS um JSON valido, "
@@ -248,6 +250,18 @@ def _chama_api(api_key, insumo, sistema=SISTEMA):
     return json.loads(texto)
 
 
+def _em_safra(linhas):
+    """True se ha safra ATIVA (plantio ou colheita em andamento). Entressafra
+    = todas as linhas com colheita encerrada (colhido>=100) ou plantio ainda
+    nao iniciado (plantado 0/None)."""
+    for l in linhas:
+        pp = l.get("pct_plantado")
+        pc = l.get("pct_colhido")
+        if pp is not None and pp > 0 and (pc is None or pc < 100):
+            return True
+    return False
+
+
 def gerar_para_distrito(dist_id, api_key, itens_uf, itens_reg, crosswalk):
     caminho = os.path.join(OUT_DIR, dist_id, "latest.json")
     if not os.path.isfile(caminho):
@@ -272,6 +286,12 @@ def gerar_para_distrito(dist_id, api_key, itens_uf, itens_reg, crosswalk):
         "safra_referencia": safra,
         "preco_saca_60kg": latest.get("preco"),
     }
+    if not _em_safra(linhas_uf + linhas_reg):
+        for _k in ("colheita_por_uf", "colheita_por_macrorregiao",
+                   "safra_referencia"):
+            insumo.pop(_k, None)
+        insumo["fase"] = ("entressafra: safra anterior encerrada, "
+                          "safra nova ainda nao comecou")
     for tent in (1, 2):
         try:
             saida = _chama_api(api_key, insumo)
@@ -327,8 +347,8 @@ SISTEMA_ESCOPO = (
     "produtividade em sc/ha. DESTAQUE O CONTRASTE entre as sub-areas: quais "
     "regioes ou estados estao adiantados ou atrasados na colheita, e onde o "
     "tempo pesa mais. Cruze clima e colheita no conjunto: onde a colheita "
-    "esta em andamento e vem chuva ou frente, comente a janela e o risco; na "
-    "entressafra, foque no panorama do tempo, no preco e no fechamento. "
+    "esta em andamento e vem chuva ou frente, comente a janela e o risco; em "
+    "ENTRESSAFRA (campo fase presente), NAO cite colheita, produtividade nem avancos: foque no tempo e no preco. "
     "Responda APENAS um JSON valido, sem markdown: "
     '{"texto": "panorama de ate 150 palavras", '
     '"pontos": ["ponto", "ponto"]} com 3 ou 4 pontos.'
@@ -405,6 +425,12 @@ def gerar_para_escopo(escopo_id, nome, tipo, ufs, latests, agg_col, sub_col,
         "safra_referencia": agg_col.get("safra"),
         "precos_por_uf": list(precos.values()),
     }
+    if not _em_safra([agg_col] + sub_col):
+        for _k in ("colheita_agregada", "colheita_por_sub_area",
+                   "safra_referencia"):
+            insumo.pop(_k, None)
+        insumo["fase"] = ("entressafra: safra anterior encerrada, "
+                          "safra nova ainda nao comecou")
     for tent in (1, 2):
         try:
             saida = _chama_api(api_key, insumo, SISTEMA_ESCOPO)
