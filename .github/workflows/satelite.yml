@@ -11,6 +11,14 @@ on:
         description: "Forcar dry-run (nao grava estimativas)"
         required: false
         default: "false"
+      limite:
+        description: "Qtde de municipios (0 = todos)"
+        required: false
+        default: "3"
+      dias:
+        description: "Janela retroativa em dias"
+        required: false
+        default: "30"
 
 permissions:
   contents: write
@@ -30,7 +38,7 @@ jobs:
           CDSE_CLIENT_ID: ${{ secrets.CDSE_CLIENT_ID }}
           CDSE_CLIENT_SECRET: ${{ secrets.CDSE_CLIENT_SECRET }}
         run: |
-          ARGS="--uf ${{ github.event.inputs.uf }}"
+          ARGS="--uf ${{ github.event.inputs.uf }} --limite ${{ github.event.inputs.limite }} --dias ${{ github.event.inputs.dias }}"
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
             ARGS="$ARGS --dry-run"
           fi
