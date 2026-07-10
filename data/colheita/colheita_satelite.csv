@@ -1,1 +1,19 @@
 uf,regiao_id,regiao_nome,municipio,codigo_ibge,cultura,safra,data_referencia,data_imagem,ndvi_medio,bsi_medio,cobertura_nuvens_pct,pct_colhido_estimado,confianca,fonte,gerado_em
+MT,medio_norte,Médio-Norte,SORRISO,5107925,soja,2025/2026,2026-06-10,2026-06-10,0.444,0.1162,,,coleta_bruta,cdse_sentinel2_statapi,2026-07-10T20:25:00.415686+00:00
+MT,medio_norte,Médio-Norte,SORRISO,5107925,soja,2025/2026,2026-06-15,2026-06-15,0.3866,0.114,,,coleta_bruta,cdse_sentinel2_statapi,2026-07-10T20:25:00.415686+00:00
+MT,medio_norte,Médio-Norte,SORRISO,5107925,soja,2025/2026,2026-06-20,2026-06-20,0.3869,0.1246,,,coleta_bruta,cdse_sentinel2_statapi,2026-07-10T20:25:00.415686+00:00
+MT,medio_norte,Médio-Norte,SORRISO,5107925,soja,2025/2026,2026-06-25,2026-06-25,0.4227,0.1454,,,coleta_bruta,cdse_sentinel2_statapi,2026-07-10T20:25:00.415686+00:00
+MT,medio_norte,Médio-Norte,SORRISO,5107925,soja,2025/2026,2026-06-30,2026-06-30,0.4277,0.1141,,,coleta_bruta,cdse_sentinel2_statapi,2026-07-10T20:25:00.415686+00:00
+MT,medio_norte,Médio-Norte,SORRISO,5107925,soja,2025/2026,2026-07-05,2026-07-05,0.4072,0.1378,,,coleta_bruta,cdse_sentinel2_statapi,2026-07-10T20:25:00.415686+00:00
+MT,medio_norte,Médio-Norte,NOVA UBIRATÃ,5106240,soja,2025/2026,2026-06-10,2026-06-10,0.4876,0.066,,,coleta_bruta,cdse_sentinel2_statapi,2026-07-10T20:25:00.415686+00:00
+MT,medio_norte,Médio-Norte,NOVA UBIRATÃ,5106240,soja,2025/2026,2026-06-15,2026-06-15,0.4457,0.0993,,,coleta_bruta,cdse_sentinel2_statapi,2026-07-10T20:25:00.415686+00:00
+MT,medio_norte,Médio-Norte,NOVA UBIRATÃ,5106240,soja,2025/2026,2026-06-20,2026-06-20,0.4078,0.0978,,,coleta_bruta,cdse_sentinel2_statapi,2026-07-10T20:25:00.415686+00:00
+MT,medio_norte,Médio-Norte,NOVA UBIRATÃ,5106240,soja,2025/2026,2026-06-25,2026-06-25,0.4707,0.1218,,,coleta_bruta,cdse_sentinel2_statapi,2026-07-10T20:25:00.415686+00:00
+MT,medio_norte,Médio-Norte,NOVA UBIRATÃ,5106240,soja,2025/2026,2026-06-30,2026-06-30,0.4758,0.0986,,,coleta_bruta,cdse_sentinel2_statapi,2026-07-10T20:25:00.415686+00:00
+MT,medio_norte,Médio-Norte,NOVA UBIRATÃ,5106240,soja,2025/2026,2026-07-05,2026-07-05,0.3364,0.0464,,,coleta_bruta,cdse_sentinel2_statapi,2026-07-10T20:25:00.415686+00:00
+MT,nordeste,Nordeste,QUERÊNCIA,5107065,soja,2025/2026,2026-06-10,2026-06-10,0.4218,0.1257,,,coleta_bruta,cdse_sentinel2_statapi,2026-07-10T20:25:00.415686+00:00
+MT,nordeste,Nordeste,QUERÊNCIA,5107065,soja,2025/2026,2026-06-15,2026-06-15,0.4601,0.1707,,,coleta_bruta,cdse_sentinel2_statapi,2026-07-10T20:25:00.415686+00:00
+MT,nordeste,Nordeste,QUERÊNCIA,5107065,soja,2025/2026,2026-06-20,2026-06-20,0.4408,0.1563,,,coleta_bruta,cdse_sentinel2_statapi,2026-07-10T20:25:00.415686+00:00
+MT,nordeste,Nordeste,QUERÊNCIA,5107065,soja,2025/2026,2026-06-25,2026-06-25,0.445,0.1576,,,coleta_bruta,cdse_sentinel2_statapi,2026-07-10T20:25:00.415686+00:00
+MT,nordeste,Nordeste,QUERÊNCIA,5107065,soja,2025/2026,2026-06-30,2026-06-30,0.4436,0.1451,,,coleta_bruta,cdse_sentinel2_statapi,2026-07-10T20:25:00.415686+00:00
+MT,nordeste,Nordeste,QUERÊNCIA,5107065,soja,2025/2026,2026-07-05,2026-07-05,0.4179,0.1305,,,coleta_bruta,cdse_sentinel2_statapi,2026-07-10T20:25:00.415686+00:00
