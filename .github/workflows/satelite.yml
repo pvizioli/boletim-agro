@@ -1,6 +1,8 @@
 name: satelite
 
 on:
+  schedule:
+    - cron: "0 12 1,15 * *"
   workflow_dispatch:
     inputs:
       uf:
@@ -38,7 +40,10 @@ jobs:
           CDSE_CLIENT_ID: ${{ secrets.CDSE_CLIENT_ID }}
           CDSE_CLIENT_SECRET: ${{ secrets.CDSE_CLIENT_SECRET }}
         run: |
-          ARGS="--uf ${{ github.event.inputs.uf }} --limite ${{ github.event.inputs.limite }} --dias ${{ github.event.inputs.dias }}"
+          UF="${{ github.event.inputs.uf }}"
+          LIMITE="${{ github.event.inputs.limite }}"
+          DIAS="${{ github.event.inputs.dias }}"
+          ARGS="--uf ${UF:-MT} --limite ${LIMITE:-3} --dias ${DIAS:-20}"
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
             ARGS="$ARGS --dry-run"
           fi
@@ -52,6 +57,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Sem alteracoes para commitar."
           else
-            git commit -m "satelite: estimativas NDVI (${{ github.event.inputs.uf }})"
+            git commit -m "satelite: coleta NDVI/BSI automatica"
             git push
           fi
