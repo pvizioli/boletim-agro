@@ -11,6 +11,7 @@ on:
     branches: [main]
     paths:
       - "data/colheita/**"
+      - "!data/colheita/colheita_satelite.csv"
 
 permissions:
   contents: write
