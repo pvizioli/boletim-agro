@@ -1,0 +1,49 @@
+name: satelite
+
+on:
+  workflow_dispatch:
+    inputs:
+      uf:
+        description: "UF alvo do piloto"
+        required: false
+        default: "MT"
+      dry_run:
+        description: "Forcar dry-run (nao grava estimativas)"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+jobs:
+  satelite:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rodar pipeline satelite
+        env:
+          CDSE_CLIENT_ID: ${{ secrets.CDSE_CLIENT_ID }}
+          CDSE_CLIENT_SECRET: ${{ secrets.CDSE_CLIENT_SECRET }}
+        run: |
+          ARGS="--uf ${{ github.event.inputs.uf }}"
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          python -m pipeline.satelite.main $ARGS
+
+      - name: Commit de estimativas (se houver)
+        run: |
+          git config user.name "boletim-agro-bot"
+          git config user.email "actions@github.com"
+          git add data/colheita/colheita_satelite.csv
+          if git diff --cached --quiet; then
+            echo "Sem alteracoes para commitar."
+          else
+            git commit -m "satelite: estimativas NDVI (${{ github.event.inputs.uf }})"
+            git push
+          fi
