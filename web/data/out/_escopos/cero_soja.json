@@ -2,13 +2,13 @@
  "escopo_id": "cero_soja",
  "nome": "CERO SOJA",
  "tipo": "regional",
- "gerado_em": "2026-07-07T00:35:35+00:00",
+ "gerado_em": "2026-07-10T20:09:06+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "A regional CERO SOJA (AM, MS, MT, PA, RO) está em entressafra, com a safra anterior encerrada e a nova ainda sem início. O tempo na semana é marcado por forte contraste: os primeiros dias trazem chuvas moderadas e temperaturas elevadas (máximas acima de 35 °C), com mínimas que chegaram a 4 °C em parte da região — indicando influência de massa fria sobre os estados do sul do escopo, especialmente MS. O fim de semana concentra o maior volume de chuva, com até 59 mm previstos e rajadas de vento de até 50 km/h no dia 11. A soja em MT é cotada a R$ 108,63/sc, refletindo o cenário de entressafra.",
+ "texto": "A regional CERO SOJA (AM, MS, MT, PA e RO) está em entressafra, com a safra anterior encerrada e a nova ainda sem início. O tempo na semana é marcado por chuvas frequentes e intensas: amanhã, 11/07, a precipitação prevista chega a 51,2 mm com probabilidade de 100%, configurando o episódio mais expressivo do período. Ao longo dos 7 dias monitorados, 4 apresentam chuva relevante, sem nenhum dia seco consecutivo registrado. As temperaturas oscilam bastante, com máximas próximas a 36 °C e mínimas que caem até 8,2 °C, indicando variação térmica acentuada entre sub-áreas da regional. Ventos com rajadas de até 57 km/h reforçam a instabilidade. No mercado, a soja em MT é cotada a R$ 108,63/sc (referência de 03/07).",
  "pontos": [
-  "Mínimas muito baixas (até 4 °C) indicam entrada de massa fria, com impacto mais provável sobre MS e sul do escopo regional",
-  "Chuvas concentradas no fim da semana (11–12/jul), com até 59 mm e rajadas de 50 km/h, exigem atenção para operações de campo e logística",
-  "Temperaturas máximas persistentemente altas (até 36,3 °C) no norte do escopo (MT, PA, AM, RO) contrastam com o frio no sul",
-  "Preço da soja em MT em R$ 108,63/sc (03/jul): produtor deve acompanhar a janela de comercialização antes do início da nova safra"
+  "Chuva intensa amanhã (51,2 mm, 100% de probabilidade) é o principal evento climático da semana na regional",
+  "Quatro dos sete dias têm chuva relevante, sem sequência de dias secos — tempo instável e persistente em toda a regional",
+  "Amplitude térmica elevada: máximas de até 35,9 °C e mínimas de 8,2 °C sinalizam diferenças marcantes entre sub-áreas de AM/PA e MS/MT",
+  "Preço de referência em MT: R$ 108,63/sc — único dado de mercado disponível na regional para orientar decisões de comercialização na entressafra"
  ]
 }

@@ -2,13 +2,13 @@
  "escopo_id": "prsc_soja",
  "nome": "PRSC SOJA",
  "tipo": "regional",
- "gerado_em": "2026-07-07T00:35:45+00:00",
+ "gerado_em": "2026-07-10T20:09:17+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "PR e SC estão em entressafra da soja, com a safra anterior encerrada e a nova ainda sem início. O tempo na semana é marcado por dois momentos distintos: chuvas expressivas hoje e ontem (até 23,5 mm e 10,1 mm), seguidas de uma janela seca de dois dias (8 e 9/07) com temperaturas mínimas próximas de zero — risco de geada em três datas consecutivas. A partir de 10/07, nova rodada de chuvas chega com volumes relevantes, especialmente no dia 11/07 (até 69,9 mm previstos) e ventos com rajadas acima de 54 km/h. No mercado, a soja em Paranaguá (PR) está cotada a R$ 128,50/sc, referência para o planejamento da próxima safra.",
+ "texto": "PR e SC estão em entressafra da soja, com a safra anterior encerrada e a nova ainda sem início. O tempo domina a atenção nos próximos dias: chuvas intensas chegam hoje e amanhã, com acumulados que podem superar 67 mm e rajadas de vento acima de 60 km/h em partes da região. A partir de 13 e 14 de julho, a temperatura cai com mínimas próximas a 1°C, elevando o risco de geada em áreas mais frias de ambos os estados. A segunda metade da semana traz alívio, com chuva escassa e sol mais presente. No mercado, a soja em Paranaguá foi cotada a R$ 128,50/sc, referência para o produtor paranaense neste período de entressafra.",
  "pontos": [
-  "Risco de geada em 07, 08 e 09/07 com mínimas entre -1,3 °C e 1,9 °C — atenção para culturas de inverno e infraestrutura rural",
-  "Janela seca de apenas dois dias (8 e 9/07) antes de nova sequência chuvosa, limitando qualquer operação de campo",
-  "Evento de chuva intenso previsto para 11/07 (até 69,9 mm) com rajadas fortes — monitorar riscos de alagamento e erosão",
-  "Soja em Paranaguá cotada a R$ 128,50/sc — referência para decisões de comercialização e planejamento da safra 2026/27"
+  "Chuvas fortes de 53 a 67 mm com rajadas acima de 60 km/h marcam os dias 10 e 11 de julho em PR e SC",
+  "Risco de geada nos dias 13 e 14 de julho, com mínimas chegando a 1,2°C em pontos da região",
+  "Janela seca se abre a partir de 14 de julho, com até 3 dias consecutivos sem chuva relevante",
+  "Soja em Paranaguá cotada a R$ 128,50/sc, único referencial de preço disponível para o período de entressafra"
  ]
 }

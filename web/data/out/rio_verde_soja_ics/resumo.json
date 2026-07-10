@@ -1,16 +1,16 @@
 {
  "distrito_id": "rio_verde_soja_ics",
  "nome": "RIO VERDE-SOJA/ICS",
- "gerado_em": "2026-07-07T00:32:29+00:00",
+ "gerado_em": "2026-07-10T20:06:09+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "SITUAÇÃO ATUAL: Rio Verde está em plena seca de inverno. Hoje, 7 de julho, sem chuva e com máxima de 32°C e mínima de 15°C. Solo seco, condição típica de entressafra. Vento moderado, até 37 km/h. PRÓXIMOS DIAS: A semana toda segue sem chuva. As temperaturas sobem progressivamente, chegando a 35°C na sexta-feira, dia 11. No domingo, dia 12, o vento ganha força, podendo chegar a 46 km/h, e aparece uma chance de chuva de 37% — sinal de que uma mudança pode estar chegando, mas ainda incerta. A evaporação está alta todos os dias, em torno de 4,4 mm/dia. MERCADO: Soja em Goiás cotada a R$ 108,50 a saca.",
+ "texto": "Rio Verde, 10 de julho. Estamos em plena entressafra da soja em Goiás. O tempo hoje está seco e quente, com máxima de 34°C e vento moderado. O solo está perdendo umidade rápido: a evaporação média chega a 4,8 mm por dia sem nenhuma chuva repondo. Para os próximos dias, a semana segue predominantemente seca. Na segunda-feira aparece uma chance pequena de chuva fraca, e na segunda-feira à noite e terça há probabilidade maior, em torno de 55%, de alguma precipitação, mas volumes esperados são mínimos, menos de 1 mm. De quarta em diante o tempo abre de novo e segue seco até o fim da semana, com máximas acima de 34°C. Soja em entressafra: foco agora é manutenção de máquinas, pastagens e planejamento da próxima safra. Preço da saca em Goiás: R$ 108,50.",
  "pontos": [
-  "Semana toda seca: sete dias seguidos sem chuva confirmados até sábado, dia 11",
-  "Domingo, dia 12: vento forte até 46 km/h e chance de chuva de 37% — fique atento a mudança de tempo",
-  "Evaporação alta (média 4,4 mm/dia): atenção ao estresse hídrico em pastagens e culturas irrigadas"
+  "Semana seca: solo perdendo umidade a 4,8 mm por dia, atenção à irrigação de culturas de inverno e pastagens estabelecidas",
+  "Chance de chuva fraca na segunda-feira à noite e terça (até 0,8 mm): não resolve déficit hídrico, apenas pode dificultar trabalhos de campo pontuais",
+  "Ventas fortes ao longo da semana, com rajadas acima de 40 km/h na quinta: redobrar atenção com estruturas, silos e operações com defensivos"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:51:47+00:00",
+  "clima": "2026-07-10T12:20:36+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-06-17"
  }

@@ -2,13 +2,13 @@
  "escopo_id": "centro_soja",
  "nome": "CENTRO SOJA",
  "tipo": "regional",
- "gerado_em": "2026-07-07T00:35:13+00:00",
+ "gerado_em": "2026-07-10T20:08:44+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "A regional Centro Soja (ES, GO, MG, RJ, SP) atravessa a entressafra de julho com tempo instável nos próximos sete dias. Chuvas fracas a moderadas predominam até 09/07, com probabilidade acima de 80% nos primeiros três dias e rajadas que chegam a 53 km/h. Entre 10 e 11/07 abre uma janela mais seca, mas no dia 12/07 o volume sobe para quase 39 mm com ventos de até 61 km/h — o episódio mais expressivo da semana. Temperaturas oscilam bastante: mínimas chegam a 4 °C em parte da região, enquanto máximas alcançam 33 °C. No mercado, a soja é cotada a R$ 113/sc em MG e R$ 108,50/sc em GO, refletindo o período entre safras.",
+ "texto": "O Centro Soja (ES, GO, MG, RJ, SP) está em entressafra, com a safra anterior encerrada e a nova ainda sem início. O tempo na semana traz contraste claro: hoje e amanhã cedo ainda secos, mas entre 11 e 13/07 chega uma sequência de chuvas relevantes — até 21,7 mm em um único dia, com ventos em rajada acima de 60 km/h no pico. A partir de 15/07 o tempo volta a secar rapidamente. As temperaturas mínimas caem a 4,7 °C no fim do período, sinalizando frio intenso em pontos da região. Nos preços, MG lidera com R$ 113/sc e GO registra R$ 108,50/sc, ambas cotações de meses anteriores que refletem o ambiente de entressafra.",
  "pontos": [
-  "Chuvas fracas nos próximos três dias com alta probabilidade, seguidas de breve alívio entre 10 e 11/07",
-  "Evento chuvoso relevante (~39 mm) e rajadas fortes previstos para 12/07, merecendo atenção logística",
-  "Amplitude térmica elevada na semana: mínimas próximas a 4 °C e máximas de até 33 °C na mesma região",
-  "Preços na entressafra: MG cotada a R$ 113/sc e GO a R$ 108,50/sc, diferença de R$ 4,50/sc entre praças"
+  "Janela seca hoje (10/07), seguida de chuvas concentradas entre 11 e 13/07, com pico de 21,7 mm e rajadas acima de 60 km/h em 12/07",
+  "Após 14/07 o tempo abre novamente, com sequência de até 3 dias secos e mínimas caindo a 4,7 °C — frio relevante para a região",
+  "Preços em entressafra: MG cotada a R$ 113/sc e GO a R$ 108,50/sc, diferença de R$ 4,50/sc entre os dois estados monitorados",
+  "Nenhum alerta ativo do INMET nos 231 municípios monitorados, mas os ventos fortes de 11 a 14/07 merecem atenção operacional no campo"
  ]
 }

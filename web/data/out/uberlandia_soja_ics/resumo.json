@@ -1,16 +1,16 @@
 {
  "distrito_id": "uberlandia_soja_ics",
  "nome": "UBERLANDIA-SOJA/ICS",
- "gerado_em": "2026-07-07T00:34:42+00:00",
+ "gerado_em": "2026-07-10T20:08:12+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "SITUAÇÃO ATUAL: Uberlândia e região estão em plena seca de inverno. Hoje, terça-feira, céu aberto, temperatura máxima de 28,5°C e mínima de 13,8°C, sem chuva e solo seco. Vento moderado a forte ao longo do dia. PRÓXIMOS DIAS: A semana toda segue sem chuva relevante — quarta a sexta com máximas subindo até 32°C e mínimas caindo perto de 12°C na quinta. No sábado, dia 11, calor forte com 32,6°C. No domingo, dia 12, o tempo muda: probabilidade de chuva sobe para 42% com rajadas de vento fortes, indicando chegada de massa de ar mais úmida. Até lá, sete dias seguidos sem chuva confirmados. ENTRESSAFRA: Safra encerrada, nova temporada ainda não iniciou. Soja em MG cotada a R$ 113,00/sc 60kg no Triângulo Mineiro.",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 10 de julho, o tempo está seco e quente em Uberlândia e região, com máxima de 30°C e mínima de 10°C. Solo sem chuva recente, condições firmes no campo. PRÓXIMOS DIAS: Terça e quarta seguem secas e quentes. Na quinta, dia 12, o vento muda e chega uma frente com chance de chuva leve. Na sexta, dia 13, a probabilidade de chuva sobe para 76% com máxima caindo para 27°C — é quando a frente passa de vez. No fim de semana, o tempo abre novamente com mínimas baixas, chegando a 10°C no sábado. Semana fecha seca. ENTRESSAFRA: Safra encerrada, nova temporada ainda não começou. Aproveite a janela seca para manutenção de máquinas, preparo de solo e logística. Soja em MG cotada a R$ 113,00/sc 60kg.",
  "pontos": [
-  "Sete dias consecutivos sem chuva: solo seco, atenção à irrigação de pastagens e culturas de inverno em andamento",
-  "Mínimas caindo até 11,8°C na quinta, dia 10: monitorar risco de frio intenso para pastagens e mudas sensíveis",
-  "Domingo, dia 12: chegada de umidade com rajadas fortes acima de 52 km/h — fique atento a estruturas e equipamentos expostos"
+  "Janela seca firme até quarta, dia 11: ideal para manutenção de equipamentos e preparo de área",
+  "Frente chega na quinta, dia 12, com vento forte (até 44 km/h) e chuva leve possível",
+  "Maior risco de chuva na sexta, dia 13 (76% de probabilidade): evite operações de campo nesse dia"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:52:59+00:00",
+  "clima": "2026-07-10T12:21:50+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-05-06"
  }

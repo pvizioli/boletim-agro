@@ -1,16 +1,16 @@
 {
  "distrito_id": "ponta_grossa_soja",
  "nome": "PONTA GROSSA-SOJA",
- "gerado_em": "2026-07-07T00:31:31+00:00",
+ "gerado_em": "2026-07-10T20:05:10+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "SITUAÇÃO ATUAL: Julho começa com tempo instável em Ponta Grossa. Hoje, terça (07/07), chuva leve de 3,6 mm com temperatura máxima de apenas 19,8°C e vento moderado. O solo está recebendo chuva pelo segundo dia seguido, então espere umidade elevada no perfil. PRÓXIMOS DIAS: A partir de amanhã, quarta (08/07), o tempo vira: sem chuva prevista, temperatura mínima despencando para 2,2°C — risco de geada na madrugada de quarta para quinta. Quinta (09/07) também fria, mínima de 3,6°C. A janela seca dura até sexta (10/07), quando a chuva volta timidamente. No sábado (11/07) chega chuva forte, 21,7 mm previstos com rajadas de vento de até 45 km/h — tempo feio. PREÇO: soja em R$ 128,50/sc em Paranaguá.",
+ "texto": "Hoje, 10 de julho, o tempo está seco e aberto em Ponta Grossa, com máxima de 24°C e vento forte chegando a 41 km/h. Aproveite o dia. Amanhã, sexta-feira dia 11, chega uma frente fria com chuva forte — até 24,6 mm previstos e rajadas de 60 km/h: fique fora do campo. A partir de sábado o tempo abre, mas o frio aperta: mínimas caindo a 3,8°C na segunda-feira, dia 13, e 4,1°C na terça. De sábado até quinta da semana que vem a sequência é seca, com até 5 dias sem chuva relevante. Atenção especial para pastagens e culturas sensíveis ao frio nesse período. A soja está em entressafra — safra anterior encerrada, nova ainda não começou. Saca a R$ 128,50 em Paranaguá (referência de 17 de junho).",
  "pontos": [
-  "Geada na madrugada de quarta (08/07): mínima de 2,2°C — atenção a pastagens e culturas sensíveis na região",
-  "Janela seca de quarta (08/07) a sexta (10/07): aproveite para trabalhos de campo que exijam solo firme",
-  "Chuva forte chega no sábado (11/07): 21,7 mm previstos com rajadas de 45 km/h — evite operações externas a partir de sábado"
+  "Janela de trabalho fecha amanhã, sexta dia 11, com chegada de frente fria e chuva forte de até 24,6 mm — evite qualquer operação no campo",
+  "Frio intenso de domingo a terça: mínimas entre 3,8°C e 4,1°C — risco para pastagens e culturas sensíveis ao frio na região",
+  "Janela seca longa abre no sábado dia 12 e se estende até pelo menos quinta dia 16 — bom período para manutenção de máquinas e preparo de área"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:51:44+00:00",
+  "clima": "2026-07-10T12:19:29+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

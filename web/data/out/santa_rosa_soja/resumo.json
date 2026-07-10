@@ -1,16 +1,16 @@
 {
  "distrito_id": "santa_rosa_soja",
  "nome": "SANTA ROSA-SOJA",
- "gerado_em": "2026-07-07T00:33:02+00:00",
+ "gerado_em": "2026-07-10T20:06:43+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Hoje, 7 de julho, o frio chegou com força em Santa Rosa: mínima de 0,4°C e risco real de geada esta madrugada e amanhã cedo. O sol aparece e o solo está secando após a chuva fraca de ontem. Quarta e quinta seguem secas e com temperaturas subindo até quase 24°C, ótima janela para quem precisa trabalhar no campo. A virada vem na quinta à noite: chuva chega na sexta com até 8 mm e se intensifica no sábado, podendo acumular mais 22 mm. Domingo o tempo melhora. A soja está em entressafra, safra nova ainda não começou. Para quem pensa em comprar insumos ou fechar contrato, a saca está sendo negociada a R$ 129,00 em RS.",
+ "texto": "Hoje e amanha o tempo fecha com chuva forte em Santa Rosa: hoje já caíram 59,5 mm e amanhã vêm mais 63 mm previstos, com vento em rajadas de até 37 km/h. O solo está encharcado e sem condição de trabalho. A virada chega no domingo: a chuva some, o frio aperta com mínimas perto de 4°C na segunda e o solo começa a drenar. De segunda a quarta a semana abre uma janela seca e com sol, temperatura subindo até 29°C na quarta-feira. É o momento de aproveitar para qualquer serviço de campo que estiver represado. A soja está em entressafra, safra nova ainda não começou. Saca da soja está sendo negociada a R$ 129,00 no RS.",
  "pontos": [
-  "Geada hoje e amanhã cedo: mínimas abaixo de 1°C, proteja mudas, pastagens e culturas sensíveis ao frio",
-  "Janela seca até quinta: aproveite quarta e quinta para manutenção de máquinas, preparo de solo e aplicações",
-  "Chuva chega na sexta e se intensifica no sábado com até 22 mm: encerre operações de campo até quinta à tarde"
+  "Solo encharcado hoje e amanhã: nenhuma operação de campo possível até sábado à noite",
+  "Janela seca abre no domingo e se estende até quarta: aproveite para manutenção de máquinas e serviços de campo",
+  "Frio forte na segunda com mínima de 4°C: atenção para pastagens e culturas sensíveis ao frio"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:52:52+00:00",
+  "clima": "2026-07-10T12:20:38+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

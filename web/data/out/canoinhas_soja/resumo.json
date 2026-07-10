@@ -1,16 +1,16 @@
 {
  "distrito_id": "canoinhas_soja",
  "nome": "CANOINHAS-SOJA",
- "gerado_em": "2026-07-07T00:26:09+00:00",
+ "gerado_em": "2026-07-10T19:59:35+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "SITUAÇÃO ATUAL: Hoje, 7 de julho, o tempo está fechado com chuva e vento forte em Canoinhas. Ontem e hoje já caíram mais de 21 mm, então o solo está encharcado e sem janela de trabalho aberta agora.\n\nPRÓXIMOS DIAS: A partir de amanhã, quarta (8), o tempo abre e a chuva para. Quinta (9) segue seco. Essa janela dura pouco: na sexta (10) a chuva volta com chance moderada, e no sábado (11) chega uma massa de ar frio com chuva forte, podendo passar de 40 mm e vento de até 47 km/h. Atenção: quarta e quinta à noite a temperatura cai abaixo de zero — geada esperada nessas duas madrugadas.\n\nCLIMA E PREÇO: Distrito em entressafra. Soja em PR cotada a R$ 128,50/sc (Paranaguá, Canal Rural, 17/jun).",
+ "texto": "Hoje, sexta-feira (10/07), já chove com rajadas fortes na região. O solo está encharcado e não há janela de trabalho aberta. Amanhã, sábado (11/07), a chuva se intensifica — são esperados até 37,5 mm com ventos de até 53 km/h, o dia mais pesado da semana. No domingo (12/07) ainda chove pouco e o solo segue saturado. A virada vem na segunda (13/07), com chuva fraca e chance de 59%, e a partir de terça (14/07) o tempo abre de vez: chuva praticamente zero, sol e temperaturas subindo até 25°C na quinta (16/07). O solo começa a drenar a partir de terça, mas exige atenção: na madrugada de segunda para terça a mínima cai a 1,8°C, com risco real de geada. Soja em entressafra. Preço da saca em R$ 128,50 (Paranaguá, PR).",
  "pontos": [
-  "Geada nas madrugadas de quarta (8) e quinta (9): mínimas de -1,0 °C e 1,9 °C — risco para pastagens e culturas sensíveis expostas",
-  "Janela seca abre na quarta (8) e fecha na sexta (10) com retorno de chuva — aproveite os dois dias para serviços de campo",
-  "Sábado (11): massa de ar frio com chuva forte prevista (até 40 mm) e rajadas de até 47 km/h — evite operações e verifique estruturas"
+  "Chuva intensa hoje e amanhã (até 37,5 mm no sábado): campo fechado, solo encharcado",
+  "Tempo abre a partir de terça (14/07): solo começa a drenar, mas aguarde antes de entrar com máquinas",
+  "Geada na madrugada de segunda para terça (14/07): mínima de 1,8°C — atenção a pastagens e culturas sensíveis na região"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:47:03+00:00",
+  "clima": "2026-07-10T12:14:45+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

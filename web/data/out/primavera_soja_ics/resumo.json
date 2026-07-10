@@ -1,16 +1,16 @@
 {
  "distrito_id": "primavera_soja_ics",
  "nome": "PRIMAVERA-SOJA/ICS",
- "gerado_em": "2026-07-07T00:31:56+00:00",
+ "gerado_em": "2026-07-10T20:05:32+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "SITUAÇÃO ATUAL: Julho seco em Primavera do Leste. Hoje, terça-feira, sem chuva e sem previsão para os próximos sete dias. Solo secando rápido com evaporação alta, em torno de 5 mm por dia. Vento moderado a forte ao longo da semana. PRÓXIMOS DIAS: De quarta a sábado o tempo segue aberto, quente e seco, com máximas chegando a 35 °C no fim de semana. No domingo, dia 12, a probabilidade de chuva sobe para 33% — sinal de que uma mudança pode se aproximar, mas ainda sem confirmação de volume. Fique de olho na evolução para a semana seguinte. PREÇO: Saca de soja em MT cotada a R$ 108,63 em 3 de julho.",
+ "texto": "Hoje, 10 de julho, o tempo em Primavera do Leste está seco e quente, com máxima de 32°C e vento moderado. O solo está em condição seca — sem chuva relevante nos últimos dias e evaporação alta, perto de 5 mm por dia. A semana abre com boa janela de trabalho. A partir de domingo (12) e segunda (13), aumenta a chance de chuvas fracas, com probabilidade chegando a 55% na segunda — volumes pequenos, entre 0,7 e 1,7 mm, sem risco de encharcamento. Na terça (14) ainda pode pingar um pouco. De quarta (15) em diante, o tempo seca novamente e as temperaturas sobem, chegando a 34,7°C na quinta (16), com rajadas fortes. Sem alertas ativos. A soja está em entressafra. A saca está sendo negociada a R$ 108,63 no Nordeste do MT.",
  "pontos": [
-  "Janela seca total até pelo menos sábado, dia 11: condição ideal para manutenção de máquinas, estradas e infraestrutura de armazém",
-  "Evaporação alta (cerca de 5 mm/dia): monitore pastagens e culturas irrigadas que estejam em campo",
-  "Domingo, dia 12: probabilidade de chuva sobe para 33% — acompanhe a previsão para confirmar ou descartar mudança de tempo na semana seguinte"
+  "Janela seca e firme até sábado (11): ideal para manutenção de máquinas e preparo de área",
+  "Domingo a terça (12 a 14): chuvas fracas e passageiras, volumes baixos, sem risco de alagamento",
+  "De quarta (15) em diante: tempo abre novamente com calor e vento forte — rajadas chegam a 49 km/h na quinta"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:51:45+00:00",
+  "clima": "2026-07-10T12:19:30+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

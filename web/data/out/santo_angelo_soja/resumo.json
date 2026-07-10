@@ -1,16 +1,16 @@
 {
  "distrito_id": "santo_angelo_soja",
  "nome": "SANTO ANGELO-SOJA",
- "gerado_em": "2026-07-07T00:33:13+00:00",
+ "gerado_em": "2026-07-10T20:06:54+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Hoje, 7 de julho, o tempo está seco e frio em Santo Ângelo, com mínima de 1°C e risco real de geada esta madrugada e na de amanhã, quarta. O solo está drenando bem após chuvas fracas dos últimos dias. A janela seca segue aberta até quinta, quando a temperatura sobe e a chuva chega com força: cerca de 22 mm na quinta e mais 16 mm na sexta, deixando o solo encharcado no fim de semana. Sábado o tempo melhora, mas o campo vai precisar de tempo para drenar. A soja está em entressafra, safra nova ainda não começou. Para quem tem pastagens ou culturas sensíveis ao frio, o alerta é agora: geada possível hoje à noite e amanhã cedo. Saca da soja cotada a R$ 129,00 no RS em 3 de julho.",
+ "texto": "Hoje, 10 de julho, Santo Ângelo está com chuva forte — quase 35 mm previstos e probabilidade de 99%. O solo está encharcado e não há janela de trabalho aberta. Amanhã, sexta, ainda chove com chance de 86% e rajadas de até 40 km/h, então o campo segue parado. No sábado a chuva some e uma massa de ar frio chega, derrubando a máxima para 16°C e a mínima para 8°C. De domingo em diante o tempo abre de vez: cinco dias seguidos sem chuva, sol e temperaturas subindo até 28°C na quarta-feira. O vento forte no fim de semana pode atrasar a secagem do solo, mas a janela seca de domingo a quarta é real e longa. Soja está em entressafra. A saca está cotada a R$ 129,00 em 03/07.",
  "pontos": [
-  "Geada possível hoje à noite (7/jul) e amanhã cedo (8/jul): proteja pastagens e culturas sensíveis ao frio",
-  "Janela seca aberta até quarta (8/jul): aproveite para qualquer operação de campo que exija solo firme",
-  "Chuva chega na quinta (10/jul) com cerca de 22 mm e continua na sexta (11/jul) com mais 16 mm: solo encharcado no fim de semana"
+  "Solo encharcado hoje e amanhã: evite tráfego de máquinas pesadas no campo",
+  "Janela seca abre no sábado à tarde e se estende até quarta: aproveite para manutenção de equipamentos e preparo de solo",
+  "Massa de ar frio chega no sábado com mínima de 4°C na segunda: atenção a pastagens e culturas sensíveis ao frio"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:52:53+00:00",
+  "clima": "2026-07-10T12:20:39+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

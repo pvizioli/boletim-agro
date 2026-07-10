@@ -1,16 +1,16 @@
 {
  "distrito_id": "sao_paulo_soja_ics",
  "nome": "SAO PAULO-SOJA/ICS",
- "gerado_em": "2026-07-07T00:33:44+00:00",
+ "gerado_em": "2026-07-10T20:07:16+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Hoje, terça-feira (07/07), o dia começa com chuva leve e vento forte, chegando a rajadas de 52 km/h — massa de ar frio passando pela região. Amanhã, quarta (08/07), ainda tem chance alta de chuva fraca. A partir de quinta (09/07), o tempo abre com sol e temperaturas mais amenas, mínimas perto de 8°C, e a janela seca se mantém firme até sexta (10/07). No sábado (11/07) a probabilidade de chuva volta a subir, e no domingo (12/07) chega chuva forte — até 38 mm previstos com rajadas de 58 km/h, indicando nova frente de frio entrando. Mínima da semana bate 8,2°C na quinta e sexta: fique de olho em pastagens e culturas sensíveis ao frio nessas madrugadas. Estamos em entressafra, então o foco agora é gestão de campo e atenção ao clima.",
+ "texto": "Hoje, sexta-feira (10/07), o tempo está seco e com vento forte, boa condição para trabalhos de campo. A virada começa no sábado (11/07) com chance de chuva moderada, e o domingo (12/07) e a segunda (13/07) chegam com chuva forte — massa de ar úmida trazendo até 12 a 13 mm por dia e rajadas acima de 50 km/h no domingo. A partir de terça (14/07) o tempo abre rápido, com mínimas caindo para 6°C, e quarta e quinta (15 e 16/07) voltam secos e quentes. A mínima da semana bate 6,3°C — fique de olho nas pastagens e culturas sensíveis nas madrugadas de terça e quarta. Não há alertas ativos do INMET no momento.",
  "pontos": [
-  "Chuva e vento forte hoje (terça) e amanhã (quarta): evite operações de campo pesadas",
-  "Janela seca abre na quinta (09/07) e vai até sexta (10/07) — aproveite para manutenção de máquinas e estradas internas",
-  "Mínimas de 8°C na quinta e sexta: risco de frio intenso para pastagens e culturas sensíveis nessas madrugadas"
+  "Janela seca hoje (10/07): aproveite para qualquer operação de campo antes do sábado",
+  "Chuva forte chega no domingo (12/07) e segunda (13/07) — evite movimentação de máquinas e aplicações nesses dias",
+  "Tempo abre na terça (14/07), mas mínimas de 6°C na terça e quarta pedem atenção às pastagens e culturas sensíveis ao frio"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:52:56+00:00",
+  "clima": "2026-07-10T12:20:43+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "vilhena_soja",
  "nome": "VILHENA-SOJA",
- "gerado_em": "2026-07-07T00:34:53+00:00",
+ "gerado_em": "2026-07-10T20:08:23+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "SITUAÇÃO ATUAL: Hoje, 7 de julho, o tempo está fechado sobre a região de Vilhena, com chuva de 7,8 mm e vento forte chegando a 41 km/h. O solo está úmido após os 5,8 mm de ontem e os 7,8 mm de hoje. Não há janela de trabalho aberta no momento. PRÓXIMOS DIAS: A partir de amanhã, quarta, a chuva recua bastante e o tempo abre. Quinta e sexta seguem com pancadas isoladas e leves, menos de 2 mm por dia. No sábado e domingo a chuva volta a ganhar força, com até 4,8 mm e probabilidade acima de 70%. A semana termina mais instável. A temperatura máxima sobe até 34,5 °C e a mínima não cai abaixo de 15 °C, sem risco de frio intenso. PREÇO: Soja em MT cotada a R$ 108,63/sc 60 kg em 3 de julho.",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 10 de julho, o tempo está instável em Vilhena e região, com chuva leve (3,6 mm) e probabilidade de 90% de precipitação. O solo está úmido e sem janela de trabalho aberta no momento. PRÓXIMOS DIAS: A semana toda segue chuvosa, sem folga real. Domingo (12) é o dia mais crítico, com 15,6 mm previstos e quase certeza de chuva. Segunda (13) e terça (14) aliviam um pouco, mas ainda com risco. Quarta (15) e quinta (16) voltam a chover. A sequência máxima de dias secos na semana é de apenas um dia — não há janela confiável para operações de campo. Temperaturas entre 17,8 °C e 33,7 °C, sem risco de geada. PREÇO: Soja em MT cotada a R$ 108,63/sc (Nordeste MT, Grão Direto, 03/07).",
  "pontos": [
-  "Solo encharcado hoje: evite tráfego pesado na lavoura até quarta-feira",
-  "Janela de tempo mais seco abre na quarta e vai até sexta: aproveite para manutenção de máquinas e estradas internas",
-  "Chuvas voltam no fim de semana, sábado e domingo, com probabilidade acima de 70%"
+  "Semana toda chuvosa: sem janela de campo confiável nos próximos 7 dias",
+  "Domingo (12) é o pico de chuva da semana, com 15,6 mm previstos e 97% de probabilidade",
+  "Segunda e terça oferecem leve alívio, mas solo seguirá úmido — não planeje operações pesadas"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:54:05+00:00",
+  "clima": "2026-07-10T12:21:54+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "ijui_soja",
  "nome": "IJUI-SOJA",
- "gerado_em": "2026-07-07T00:28:49+00:00",
+ "gerado_em": "2026-07-10T20:02:17+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "SITUAÇÃO ATUAL: Hoje, 7 de julho, o frio chegou forte em Ijuí: mínima de 0,9°C com risco real de geada esta manhã. Sem chuva e solo secando rápido após dias com pouca precipitação. PRÓXIMOS DIAS: Quarta e quinta (8 e 9) seguem secos e mais amenos, com máximas subindo até 21°C — boa janela para trabalhos de campo. Na quinta à noite e sexta (10 e 11) chegam chuvas: até 11 mm esperados, com temperaturas subindo e solo voltando a ficar úmido. No sábado (12) o tempo melhora novamente. PREÇO: Soja em R$ 129,00 a saca de 60 kg no RS (Grão Direto, Centro Ocidental RS, 3/jul). Entressafra em andamento — safra nova ainda não começou.",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 10/07, Ijuí e região estão debaixo de chuva forte — 36 mm já registrados e probabilidade de 100%. Solo encharcado, sem condição nenhuma de trabalho no campo. Amanhã, dia 11, a chuva continua com mais 17 mm previstos e probabilidade de 94%, ainda sem janela. A PARTIR DE SÁBADO, DIA 12: a chuva cai para menos de 2 mm e o tempo começa a abrir. De domingo, dia 13, até quinta, dia 16, a previsão é de zero chuva — uma janela seca de cinco dias seguidos, com sol e temperaturas subindo até quase 27°C na quinta. O solo vai precisar de pelo menos um dia para drenar antes de qualquer operação. Atenção: na madrugada de segunda, dia 14, a mínima chega a 4,9°C — massa de ar frio passando pela região. Soja: distrito em entressafra. Preço da saca em RS: R$ 129,00.",
  "pontos": [
-  "Geada hoje (7/jul) e amanhã (8/jul): atenção a pastagens e culturas sensíveis expostas ao frio",
-  "Janela seca de quarta a quinta (8 e 9/jul): aproveite para manutenção de máquinas e preparo de solo",
-  "Chuva chega na quinta à noite e se estende pela sexta (10 e 11/jul): até 19 mm acumulados no período"
+  "Solo encharcado hoje e amanhã (10 e 11/07): nenhuma operação de campo possível",
+  "Janela seca abre a partir de domingo, dia 12, e se estende até pelo menos quinta, dia 16 — aproveite para manutenção de máquinas e infraestrutura",
+  "Mínima de 4,9°C na madrugada de segunda, dia 14: atenção com pastagens e culturas sensíveis ao frio"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:49:24+00:00",
+  "clima": "2026-07-10T12:17:07+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "querencia_soja_ics",
  "nome": "QUERENCIA SOJA & ICS",
- "gerado_em": "2026-07-07T00:32:07+00:00",
+ "gerado_em": "2026-07-10T20:05:45+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Querência está em plena entressafra, com tempo seco e quente dominando a semana. Hoje, terça-feira, o sol aparece forte, sem chuva e com vento moderado. O solo está secando bem, condição típica do inverno do MT. De quarta a quinta a situação continua igual: céu aberto, calor crescente chegando a 36°C e zero chance de chuva. A partir de sexta a tarde a probabilidade de chuva sobe para 14%, e no sábado e domingo chegam pancadas isoladas, com até 2 a 4 mm no acumulado da semana — volume baixo, sem risco de encharcamento. A saca de soja está cotada a R$ 108,63 em MT. Aproveite a janela seca desta semana para manutenção de máquinas, estradas e infraestrutura de armazenagem antes do início da próxima safra.",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 10 de julho, o tempo em Querência está quente e com chuva fraca (1,6 mm), sem alertas ativos. Solo seco, típico de entressafra no Cerrado mato-grossense. PRÓXIMOS DIAS: Amanhã, sábado, chega a chuva mais expressiva da semana, até 3,8 mm, com vento mudando de direção — sinal de massa de ar diferente passando pela região. De domingo a terça o tempo abre, chuvas abaixo de 1 mm por dia e calor subindo até 35,9 °C na quarta. Na quinta, dia 16, volta a chuva (2,4 mm) com rajadas mais fortes, chegando a 43,6 km/h. A semana toda fica seca na prática, com apenas um dia de chuva relevante. COLHEITA: Distrito em entressafra — safra anterior encerrada, nova ainda não começou. Soja em MT cotada a R$ 108,63/sc (referência 03/07).",
  "pontos": [
-  "Janela seca garantida até sexta de manhã: ideal para manutenção de máquinas e estradas",
-  "Pancadas isoladas possíveis a partir de sábado (11/07), mas volume esperado é baixo — até 3,9 mm no total da semana",
-  "Calor intenso toda a semana com máximas chegando a 36°C: atenção ao abastecimento de água para animais e equipes em campo"
+  "Semana praticamente seca: boa janela para manutenção de máquinas, estradas e infraestrutura de armazém",
+  "Rajada de vento forte na quinta (43,6 km/h): atenção a estruturas leves, silos e coberturas",
+  "Chuva mais intensa prevista para sábado (3,8 mm): sem impacto operacional relevante, mas monitore"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:51:46+00:00",
+  "clima": "2026-07-10T12:19:31+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

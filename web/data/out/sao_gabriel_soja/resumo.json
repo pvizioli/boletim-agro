@@ -1,16 +1,16 @@
 {
  "distrito_id": "sao_gabriel_soja",
  "nome": "SAO GABRIEL-SOJA",
- "gerado_em": "2026-07-07T00:33:32+00:00",
+ "gerado_em": "2026-07-10T20:07:06+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "SITUAÇÃO ATUAL: Hoje, 7 de julho, o tempo abriu depois da chuva fraca de ontem. Céu mais limpo, mas frio: mínima de 1,8°C com risco real de geada esta madrugada. Vento vindo do sul, rajadas até 42 km/h. Solo praticamente seco, boa janela de trabalho aberta.\n\nPRÓXIMOS DIAS: Quarta e quinta seguem secas e com temperatura subindo, chegando a 21°C na quinta. Na sexta, dia 10, chega umidade pelo leste com chance de chuva — até 3 mm. Sábado pode chover mais uns 5 mm. Domingo volta a secar. Janela seca firme até quinta à tarde.\n\nCOLHEITA: Distrito em entressafra — safra anterior encerrada, nova ainda não começou. Soja sendo negociada a R$ 129,00 a saca em RS (Grão Direto, 03/07).",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 10/07, o dia começa com chuva leve (4 mm, 82% de chance) e vento moderado. Solo ainda úmido pela precipitação recente. Não há janela de trabalho aberta hoje. PRÓXIMOS DIAS: Amanhã, sábado (11/07), ainda tem garoa fraca e vento. A partir de domingo (12/07) uma massa de ar frio chega, derrubando as temperaturas — mínima de 4,9°C na segunda e terça (13 e 14/07). De quarta (15/07) em diante o tempo abre, sol forte e sem chuva, com máxima chegando a 27,6°C na quinta (16/07), quando volta a chuva à tarde (14 mm, 57% de chance). A janela seca mais firme fica entre quarta e quinta de manhã. COLHEITA: Distrito em entressafra. Soja no RS está cotada a R$ 129,00/sc 60kg (referência de 03/07).",
  "pontos": [
-  "Geada hoje de madrugada: mínima de 1,8°C — atenção a pastagens e culturas sensíveis na região",
-  "Janela seca firme até quinta, dia 9 — bom período para manutenção de máquinas e preparo de área",
-  "Chuva chega na sexta, dia 10, com até 3 mm, e continua no sábado com mais 5 mm — planeje operações para antes disso"
+  "Massa de ar frio chega domingo (12/07): mínimas de 4,9°C na segunda e terça — atenção para pastagens e culturas sensíveis ao frio",
+  "Janela seca abre na quarta (15/07) e fecha na quinta à tarde (16/07) com chuva de até 14 mm e rajadas de 59 km/h",
+  "Rajadas fortes na quinta (16/07) chegam a 59 km/h: cuidado com operações em campo e estruturas expostas"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:52:54+00:00",
+  "clima": "2026-07-10T12:20:40+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

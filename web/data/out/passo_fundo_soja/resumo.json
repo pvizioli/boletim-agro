@@ -1,16 +1,16 @@
 {
  "distrito_id": "passo_fundo_soja",
  "nome": "PASSO FUNDO-SOJA",
- "gerado_em": "2026-07-07T00:30:47+00:00",
+ "gerado_em": "2026-07-10T20:04:22+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Hoje, 7 de julho, o tempo está frio e seco em Passo Fundo, com máxima de apenas 12,5°C e mínima de 1,9°C. A chuva de ontem (5,7 mm) foi fraca e o solo está drenando bem. Atenção: as mínimas ficam abaixo de 3°C hoje, amanhã e quinta-feira, com risco real de geada nas madrugadas — pastagens e qualquer cultura sensível no campo ficam expostas. A partir de quinta o tempo aquece um pouco, mas na sexta à tarde a chuva volta com chance de 45%, e no sábado chega uma frente mais expressiva com até 17,9 mm previstos. A semana toda segue fria, com máxima não passando de 20°C. Soja em entressafra, sem operações de campo em andamento. A saca está cotada a R$ 129,00 no RS.",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 10 de julho, o tempo está fechado em Passo Fundo, com chuva forte e solo encharcado em toda a região. Amanhã, dia 11, a chuva continua intensa, com mais 61,9 mm previstos e probabilidade de 100%. O campo está parado. PRÓXIMOS DIAS: Na tarde de sábado, dia 12, a chuva perde força e o tempo começa a abrir. De domingo, dia 13, em diante, o sol volta com força e o solo começa a drenar. Atenção: na segunda-feira, dia 14, a temperatura mínima cai para 2,7°C, com risco real de geada. De terça a quinta, dias 15 e 16, tempo seco e quente, com ventos fortes. ENTRESSAFRA: Safra encerrada, nova temporada ainda não começou. Soja em RS está cotada a R$ 129,00 a saca, conforme Grão Direto (Centro Ocidental RS), referência de 03/07.",
  "pontos": [
-  "Geada nas madrugadas de hoje (7/7), amanhã (8/7) e quinta (9/7): proteja pastagens e culturas sensíveis expostas",
-  "Janela seca vai até quinta-feira — aproveite para qualquer serviço de campo que exija solo firme",
-  "Chuva retorna na sexta (10/7) com chance de 45% e se intensifica no sábado (11/7) com até 17,9 mm previstos"
+  "Solo encharcado hoje e amanhã: campo totalmente parado até sábado",
+  "Geada na madrugada de segunda, dia 14: risco para pastagens e culturas sensíveis na região",
+  "Solo começa a drenar a partir de domingo, dia 13: avalie condições antes de entrar com máquinas"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:51:42+00:00",
+  "clima": "2026-07-10T12:19:26+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "porto_alegre_soja",
  "nome": "PORTO ALEGRE-SOJA",
- "gerado_em": "2026-07-07T00:31:44+00:00",
+ "gerado_em": "2026-07-10T20:05:21+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Hoje, 7 de julho, o tempo abriu depois da chuva forte de ontem (21,9 mm). O solo está úmido, mas a massa de ar frio que chegou derruba as mínimas: risco de geada hoje à noite e amanhã cedo, com termômetro podendo bater 2°C e 1,5°C. A janela seca se mantém firme até quarta (9/jul), com sol e temperatura subindo até quase 25°C — bom para o campo secar. Na quinta (10/jul) o tempo começa a virar, com chuva fraca possível. Na sexta (11/jul) chega uma frente fria trazendo chuva mais expressiva, cerca de 14 mm previstos, e o tempo segue instável no sábado (12/jul). Fique de olho nas pastagens e em qualquer cultura sensível ao frio nas próximas duas noites. Soja em entressafra: a saca está sendo negociada a R$ 129,00 no RS.",
+ "texto": "Hoje, 10 de julho, o dia começa com chuva forte — já caíram 34 mm e o solo está encharcado na região de Porto Alegre. O vento está em torno de 35 km/h, sem janela de trabalho aberta. Amanhã, sábado, ainda chove com rajadas de até 45 km/h e solo sem condição. No domingo, dia 12, chega massa de ar frio com mais 23 mm previstos e rajadas de 55 km/h — temperatura máxima de apenas 17°C e mínima de 5°C. Na segunda, dia 13, a chuva recua e o solo começa a drenar. A janela seca se abre de verdade na terça, dia 14, com sol e mínima de 3°C — atenção para possível geada nas madrugadas de terça e quarta. O tempo melhora e segura até quinta, dia 16, quando volta chance de chuva. Soja em entressafra; preço da saca em R$ 129,00 no RS.",
  "pontos": [
-  "Geada hoje à noite e amanhã cedo (7 e 8/jul): mínimas de 2°C e 1,5°C — risco para pastagens e culturas sensíveis ao frio",
-  "Janela seca aberta até quarta (9/jul): aproveite para qualquer serviço de campo que exija solo firme",
-  "Frente fria chega na sexta (11/jul) com chuva prevista de ~14 mm — planeje operações para antes disso"
+  "Solo encharcado hoje e até domingo: nenhuma operação de campo possível nos próximos três dias",
+  "Massa de ar frio chega no domingo, dia 12: mínima de 5°C — monitorar pastagens e culturas sensíveis",
+  "Geada possível nas madrugadas de terça (14) e quarta (15): mínimas de 3°C e 7°C — atenção a pastagens"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:51:45+00:00",
+  "clima": "2026-07-10T12:19:30+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

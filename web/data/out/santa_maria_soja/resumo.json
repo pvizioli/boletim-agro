@@ -1,16 +1,16 @@
 {
  "distrito_id": "santa_maria_soja",
  "nome": "SANTA MARIA-SOJA",
- "gerado_em": "2026-07-07T00:32:50+00:00",
+ "gerado_em": "2026-07-10T20:06:32+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "SITUAÇÃO ATUAL: Hoje, 7 de julho, o dia amanheceu frio, com mínima de 1,2°C e risco real de geada. Ontem choveu 3 mm, mas o solo já está drenando com o vento forte de norte. Janela de trabalho aberta. PRÓXIMOS DIAS: Quarta e quinta seguem secos e com temperatura subindo até 22°C — ótima janela. Na quinta à noite ou sexta o tempo vira: chega chuva que pode somar até 10 mm entre sexta e sábado, com vento forte e temperatura caindo. Domingo o tempo melhora, mas com frio voltando. ENTRESSAFRA: Safra encerrada, nova temporada ainda não começou. Soja em RS cotada a R$ 129/sc 60kg (Grão Direto, Centro Ocidental RS, 03/07).",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 10/07, o tempo está fechado em Santa Maria e região, com chuva de quase 4 mm e vento em rajadas de até 42 km/h. O solo está úmido e sem condição de trabalho pesado no campo. PRÓXIMOS DIAS: Sábado (11/07) ainda traz chuva, podendo chegar a 7 mm, e domingo (12/07) mantém o céu encoberto com mais 2,5 mm. A virada acontece na segunda (13/07): chuva cessa e o tempo abre. Terça (14/07) e quarta (15/07) chegam com sol, temperatura subindo até 22°C e mínimas baixas, de 3,5°C na terça — atenção para o frio na madrugada. Quinta (16/07) o calor aumenta com rajadas fortes de até 64 km/h e retorno de chuva. COLHEITA: Distrito em entressafra. Soja cotada a R$ 129/sc em 03/07.",
  "pontos": [
-  "Geada hoje e amanhã cedo: mínimas abaixo de 3°C — atenção a pastagens e culturas sensíveis no campo",
-  "Janela seca aberta até quinta: aproveite para manutenção de máquinas, preparo de solo e aplicações",
-  "Chuva chega na sexta com vento forte — encerre operações de campo até quinta à tarde"
+  "Solo encharcado hoje e amanhã: evite tráfego pesado e operações no campo até segunda-feira (13/07)",
+  "Janela seca abre na segunda (13/07) e vai até quarta (15/07): aproveite para manutenção de máquinas e infraestrutura",
+  "Madrugada de terça (14/07) com mínima de 3,5°C: risco de frio intenso para pastagens e culturas sensíveis em fase inicial"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:51:49+00:00",
+  "clima": "2026-07-10T12:20:37+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

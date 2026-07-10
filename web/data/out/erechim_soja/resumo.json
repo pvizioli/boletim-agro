@@ -1,16 +1,16 @@
 {
  "distrito_id": "erechim_soja",
  "nome": "ERECHIM-SOJA",
- "gerado_em": "2026-07-07T00:27:47+00:00",
+ "gerado_em": "2026-07-10T20:01:08+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Hoje, 7 de julho, o tempo abriu depois da chuva de ontem (6,5 mm). Céu mais limpo, frio de manhã com mínima perto de 2°C e risco de geada amanhã cedo, quando a temperatura pode cair a -0,6°C. A janela seca segura até quinta (10/07), quando a chuva volta com cerca de 6 mm e chance de 57%. Na sexta (11/07) o tempo piora de vez: previsão de 27 mm com rajadas fortes, massa de ar úmido chegando pelo noroeste. No sábado (12/07) ainda pode chover mais 4 mm. A semana fecha com acumulado entre 9 e 33 mm nos 38 municípios monitorados. Soja em entressafra. A saca está sendo negociada a R$ 129,00 (RS, Grão Direto, 03/07).",
+ "texto": "Hoje, 10 de julho, Erechim e região estão debaixo de chuva forte: 70,5 mm registrados com 100% de probabilidade, solo encharcado e sem janela de trabalho. Amanhã, dia 11, a chuva continua intensa, outros 53,7 mm previstos, ainda sem condição de campo. No sábado, dia 12, a chuva cede bastante, e a partir do domingo, dia 13, o tempo abre de vez: sequência de cinco dias secos até quarta, dia 16, com sol e temperatura subindo até 28°C. Atenção: domingo e segunda, dias 13 e 14, a mínima cai perto de 3°C, risco real de geada nas madrugadas. O solo vai precisar de pelo menos um dia para drenar após a chuva acumulada destes dois dias. Soja em entressafra. Preço da saca em RS: R$ 129,00 (referência 03/07).",
  "pontos": [
-  "Geada possível na madrugada de hoje para amanhã (07-08/jul): mínima prevista de -0,6°C — atenção a pastagens e culturas sensíveis expostas à geada.",
-  "Janela seca disponível hoje até quinta (10/jul): aproveite para manutenção de máquinas, estradas e operações de campo que dependem de solo firme.",
-  "Chuva forte chega na sexta (11/jul) com até 27 mm e rajadas de 40 km/h — encerre operações externas até quinta à tarde."
+  "Solo encharcado hoje e amanhã: mais de 124 mm acumulados em dois dias, sem condição de campo até sábado",
+  "Janela seca abre no domingo, dia 12, e se estende até quarta, dia 16: aproveite para manutenção de máquinas e preparo de área",
+  "Risco de geada nas madrugadas de domingo, dia 13, e segunda, dia 14: mínimas próximas de 3°C, atenção a pastagens e culturas sensíveis"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:48:15+00:00",
+  "clima": "2026-07-10T12:15:58+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

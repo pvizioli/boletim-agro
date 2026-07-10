@@ -1,16 +1,16 @@
 {
  "distrito_id": "londrina_soja",
  "nome": "LONDRINA-SOJA",
- "gerado_em": "2026-07-07T00:29:53+00:00",
+ "gerado_em": "2026-07-10T20:03:25+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "SITUAÇÃO ATUAL: Hoje, 7 de julho, o tempo abriu depois da chuva de ontem (4,9 mm). Céu mais limpo, temperatura amena, solo ainda levemente úmido mas drenando bem. Boa janela de trabalho aberta. PRÓXIMOS DIAS: Amanhã (8) e quinta (9) seguem secos e frescos, com mínimas perto de 5°C — atenção ao frio na madrugada. Sexta (10) ainda seca. A virada vem no sábado (11): chuva com 65% de chance e rajadas fortes acima de 50 km/h. Domingo (12) chove mais, com 12 mm previstos. A janela seca vai de hoje até sexta à tarde — aproveite. ENTRESSAFRA: Safra encerrada, nova ainda não começou. Soja em Paranaguá cotada a R$ 128,50/sc 60kg (referência de 17/06).",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 10 de julho, o dia está seco e com vento moderado em Londrina e região. O solo vem de um período sem chuva e está em condições normais para o inverno. PRÓXIMOS DIAS: Amanhã, sábado dia 11, chega chuva forte com vento — praticamente certo, com até 15,7 mm previstos e rajadas de quase 50 km/h. No domingo, dia 12, ainda tem chuva leve. A partir de segunda, dia 13, o tempo abre e fica seco até pelo menos quinta, dia 16, com temperaturas mais frias — mínima podendo chegar a 5,8°C na quarta, dia 15. Massa de ar frio entra após a chuva do fim de semana. PREÇO: Soja em Paranaguá cotada a R$ 128,50 a saca.",
  "pontos": [
-  "Janela seca aberta hoje até sexta (10): condição favorável para manutenção de máquinas e preparo de área",
-  "Sábado (11): chegada de chuva com rajadas acima de 50 km/h — recolha equipamentos e evite trabalho a campo",
-  "Mínimas de 5 a 7°C na quarta e quinta (8-9): monitorar pastagens e culturas sensíveis ao frio nas madrugadas"
+  "Chuva forte chega amanhã, sábado dia 11 — evite operações de campo e transporte pesado",
+  "Mínima de 5,8°C prevista para quarta, dia 15 — atenção a pastagens e culturas sensíveis ao frio",
+  "Janela seca de segunda a quinta (dias 13 a 16) favorece movimentação e manutenção de máquinas"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:50:34+00:00",
+  "clima": "2026-07-10T12:18:17+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "cascavel_soja",
  "nome": "CASCAVEL-SOJA",
- "gerado_em": "2026-07-07T00:26:29+00:00",
+ "gerado_em": "2026-07-10T19:59:56+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Hoje em Cascavel o tempo está fechado e frio, com vento forte e mínima de 4,9°C. Ontem choveu 9,5 mm, então o solo ainda está úmido. Amanhã, quarta, o tempo abre com sol e mínima baixa de 2,5°C — risco de geada nas primeiras horas da manhã. Quinta e sexta seguem secos e mais quentes, formando uma boa janela de trabalho. O problema chega no sábado: chuva de até 65 mm está prevista, com rajadas de vento fortes. Domingo ainda pode ter chuva residual. A soja está em entressafra, safra nova ainda não começou. A saca está cotada a R$ 128,50 em Paranaguá (referência de 17/06).",
+ "texto": "Hoje em Cascavel o tempo está instável, com chuva fraca já registrada e alta chance de chuva ao longo do dia. Amanhã, sábado, chega uma massa de ar frio com chuva forte prevista — até 25,8 mm — e vento em rajadas próximas de 49 km/h: dia para ficar fora do campo. No domingo o tempo melhora rápido, com chuva residual fraca, e a partir de segunda-feira abre uma janela seca que se estende até pelo menos quinta-feira, com mínimas caindo a 4,8°C na segunda e 5,8°C na terça — atenção para pastagens e culturas sensíveis nessas madrugadas. O calor volta gradualmente até quinta, com máxima de 26,7°C. Soja em entressafra. A saca está cotada a R$ 128,50 em Paranaguá.",
  "pontos": [
-  "Geada possível na madrugada de quarta (08/07): mínima prevista de 2,5°C — atenção a pastagens e culturas sensíveis",
-  "Janela seca de quarta a sexta (08 a 10/07): aproveite para trabalhos de campo enquanto o solo drena",
-  "Chuva forte chega no sábado (11/07): até 65 mm previstos com vento — encerre operações até sexta à tarde"
+  "Massa de ar frio chega sábado com chuva forte (até 25,8 mm) e rajadas de vento: evite operações de campo no sábado",
+  "Janela seca abre no domingo e se firma de segunda a quinta — aproveite para manutenção de máquinas e infraestrutura",
+  "Mínimas de 4,8°C na segunda e 5,8°C na terça: risco de geada leve nas madrugadas, fique atento a pastagens e culturas sensíveis ao frio"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:47:05+00:00",
+  "clima": "2026-07-10T12:15:51+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

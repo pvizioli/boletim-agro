@@ -1,16 +1,16 @@
 {
  "distrito_id": "balsas_soja_ics",
  "nome": "BALSAS-SOJA/ICS",
- "gerado_em": "2026-07-07T00:25:35+00:00",
+ "gerado_em": "2026-07-10T19:59:01+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "SITUAÇÃO ATUAL: Hoje, 7 de julho, o dia começa com chuva confirmada na região de Balsas — 4,3 mm previstos e probabilidade de 100%. O solo está recebendo água após ontem já ter registrado 1 mm. Não há janela de trabalho aberta no momento. PRÓXIMOS DIAS: A chuva segue firme até quarta (9/7), com o dia mais pesado sendo amanhã, terça (8/7), com até 9,4 mm. De quinta (10/7) a domingo (12/7) a chuva diminui, mas ainda aparece com probabilidade entre 69% e 88% — ou seja, o solo não vai secar nessa semana. Rajadas de vento chegam a 47 km/h entre quinta e sábado, o que exige atenção. Temperaturas máximas ficam entre 35 e 37°C ao longo da semana. COLHEITA: Região em entressafra — safra anterior encerrada e nova safra ainda não iniciada.",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 10 de julho, o distrito de Balsas está com chuva fraca (2,2 mm) e vento forte, chegando a 45 km/h. Estamos em entressafra, com a safra anterior encerrada e a nova ainda sem início. PRÓXIMOS DIAS: A semana toda vem com chuva. Sexta (11) e sábado (12) chegam com mais 3 a 4 mm por dia e probabilidade altíssima de chuva. Domingo (13) e segunda (14) mantêm o padrão úmido. O pico vem na terça (15), com quase 15 mm previstos e rajadas de vento acima de 58 km/h — o dia mais crítico da semana. Quarta (16) ainda fecha com mais 3 mm. Não há janela seca prevista para os próximos sete dias. Temperaturas altas ao longo da semana, com máximas chegando a 37°C.",
  "pontos": [
-  "Chuva todos os dias até domingo: solo encharcado durante toda a semana, sem janela seca prevista",
-  "Amanhã, terça (8/7), é o dia de maior volume de chuva — até 9,4 mm",
-  "Rajadas de vento fortes (até 47 km/h) de quinta a sábado: atenção a estruturas e equipamentos expostos"
+  "Semana inteira com chuva: nenhuma janela seca prevista até 16 de julho",
+  "Terça-feira (15) é o dia mais crítico: quase 15 mm e rajadas acima de 58 km/h — evite trabalhos de campo",
+  "Ventos fortes ao longo de toda a semana podem causar danos em estruturas e equipamentos expostos"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:45:54+00:00",
+  "clima": "2026-07-10T12:14:39+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

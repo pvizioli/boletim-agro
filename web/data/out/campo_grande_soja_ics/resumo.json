@@ -1,16 +1,16 @@
 {
  "distrito_id": "campo_grande_soja_ics",
  "nome": "CAMPO GRANDE-SOJA/ICS",
- "gerado_em": "2026-07-07T00:25:46+00:00",
+ "gerado_em": "2026-07-10T19:59:12+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "SITUAÇÃO ATUAL: Julho com tempo seco e firme em Campo Grande. Hoje, terça (07/07), praticamente sem chuva e solo bem drenado após semanas de estiagem — sequência de até 6 dias secos registrada. Janela de trabalho totalmente aberta. PRÓXIMOS DIAS: De quarta (08/07) a sexta (10/07), tempo continua seco, calor subindo até 33°C e mínimas amenas, entre 9°C e 16°C. Sábado (11/07) o risco de chuva sobe para 57% com vento girando para o norte, indicando mudança chegando. Domingo (12/07) a chuva se confirma, podendo chegar a 8 mm, encerrando a janela seca. Aproveite quarta, quinta e sexta para qualquer operação de campo que dependa de solo firme e tempo aberto. ENTRESSAFRA: Safra anterior encerrada e nova ainda não começou. Foco total no clima e no planejamento da próxima temporada.",
+ "texto": "Hoje, sexta-feira (10/07), o tempo em Campo Grande está seco com chuva insignificante e calor de quase 32°C. O solo está em condições normais para o inverno, sem encharcamento. Amanhã, sábado (11/07), a probabilidade de chuva sobe para 78% com vento forte, e no domingo (12/07) chega o pico de chuva da semana, cerca de 7 mm, com temperatura caindo para 29°C de máxima — sinal de massa de ar frio passando pela região. A partir de segunda (13/07) o tempo melhora rápido: segunda ainda tem leve chuvisco, mas de terça (14/07) em diante abre janela seca e firme até pelo menos quinta (16/07), com calor voltando a 33°C. Como a soja está em entressafra, o foco agora é acompanhar o tempo para planejamento da próxima safra. Fique de olho na mínima de 10°C prevista para segunda.",
  "pontos": [
-  "Janela seca firme de quarta (08/07) a sexta (10/07): aproveite para operações de campo",
-  "Sábado (11/07) risco de chuva sobe para 57% — encerre operações críticas até sexta à tarde",
-  "Domingo (12/07) chuva prevista de até 8 mm fecha a janela seca da semana"
+  "Massa de ar frio chega no domingo (12/07): temperatura cai e chuva de até 7 mm esperada",
+  "Mínima de 10°C na segunda (14/07): atenção a pastagens e culturas sensíveis ao frio na região",
+  "Janela seca e firme abre a partir de terça (14/07) e segura até pelo menos quinta (16/07)"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:45:56+00:00",
+  "clima": "2026-07-10T12:14:41+00:00",
   "colheita": "2026-05-26",
   "preco": null
  }

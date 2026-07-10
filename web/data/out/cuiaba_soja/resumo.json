@@ -1,16 +1,16 @@
 {
  "distrito_id": "cuiaba_soja",
  "nome": "CUIABA-SOJA",
- "gerado_em": "2026-07-07T00:27:24+00:00",
+ "gerado_em": "2026-07-10T20:00:45+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Cuiabá está em plena entressafra da soja, com tempo seco e quente dominando a região. Hoje, terça-feira, o sol aparece forte, sem nenhuma chance de chuva e vento moderado. O solo está seco há pelo menos sete dias seguidos, sem qualquer precipitação registrada. A semana inteira segue assim: quarta e quinta com calor intenso, chegando a 34°C, e zero chuva prevista. No fim de semana, domingo traz uma leve elevação na chance de chuva, chegando a 39%, mas ainda sem confirmação de precipitação relevante. O calor e o vento estão puxando bastante água do solo, com evaporação média de 4,7 mm por dia. Quem tem pastagens ou áreas em preparo precisa ficar atento à seca. A saca da soja está cotada a R$ 108,63 em Mato Grosso.",
+ "texto": "Cuiabá está em plena entressafra da soja, com tempo seco e quente dominando a semana. Hoje o sol aparece forte, sem chuva relevante, solo seco e condições boas para qualquer serviço de campo. De amanhã a domingo, o tempo segue firme na sexta e sábado, mas na segunda e terça a chance de chuva sobe para 49–65%, com rajadas mais fortes chegando de sul — massa de ar mais fria passando pela região. A partir de quarta da próxima semana o tempo volta a abrir. No geral, a semana tem no máximo 7 mm acumulados, sem risco de encharcamento. A soja vale R$ 108,63 a saca em MT, referência de 3 de julho.",
  "pontos": [
-  "Entressafra: nenhuma operação de colheita ou plantio de soja em andamento na região",
-  "Sete dias seguidos sem chuva e previsão de mais sete dias secos: atenção ao estresse hídrico em pastagens e culturas irrigadas",
-  "Domingo (12/07): chance de chuva sobe para 39%, mas sem confirmação de volume relevante — monitorar"
+  "Solo seco hoje: janela aberta para manutenção de máquinas, estradas e infraestrutura de fazenda",
+  "Segunda e terça com maior chance de chuva e rajadas fortes — evite operações sensíveis nesses dias",
+  "Massa de ar mais fria passa entre segunda e terça, mas mínimas acima de 18 °C afastam risco de geada"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:48:14+00:00",
+  "clima": "2026-07-10T12:15:56+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

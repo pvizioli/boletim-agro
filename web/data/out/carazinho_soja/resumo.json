@@ -1,16 +1,16 @@
 {
  "distrito_id": "carazinho_soja",
  "nome": "CARAZINHO-SOJA",
- "gerado_em": "2026-07-07T00:26:19+00:00",
+ "gerado_em": "2026-07-10T19:59:46+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "HOJE (07/jul): dia frio, mínima de 0,7°C, sem chuva. Risco de geada hoje e amanhã (08/jul), com temperaturas chegando perto de zero. Solo recebeu apenas 2,2 mm ontem, sem encharcamento. Janela seca está aberta. PRÓXIMOS DIAS: quinta (09) e sexta (10) aquecem, mas na sexta já chegam 4,6 mm com chance de chuva. No sábado (11) a chuva aumenta para 7,1 mm, com ventos mais fortes — massa de ar úmido toma conta do fim de semana. De quarta a sexta fica a melhor janela de trabalho da semana, antes da virada do tempo. PREÇO: soja em R$ 129,00/sc 60kg no RS (Grão Direto, 03/jul).",
+ "texto": "Hoje em Carazinho a chuva está forte, com mais de 42 mm já registrados e solo encharcado. Amanhã, sábado, a chuva continua intensa, com mais 31 mm previstos. No domingo a precipitação cai muito e a partir de segunda-feira o tempo vira: massa de ar frio chega derrubando as temperaturas, com mínimas perto de 4 a 5 graus de segunda a terça. De quarta em diante o sol volta e o solo começa a drenar, abrindo uma janela seca que se estende até o fim da semana, com temperaturas subindo progressivamente até 26 graus na quinta. A soja está em entressafra, safra nova ainda não começou. Saca da soja cotada a R$ 129,00 no RS (Grão Direto, 03/07).",
  "pontos": [
-  "Geada hoje (07/jul) e amanhã (08/jul): mínimas perto de zero — atenção para pastagens e culturas sensíveis na região",
-  "Janela seca aberta até sexta (10/jul) à tarde: aproveite para operações de campo que dependem de solo firme",
-  "Chuva chega na sexta (10/jul) e aumenta no sábado (11/jul): planeje e conclua trabalhos de campo até quinta (09/jul) para maior segurança"
+  "Solo encharcado hoje e amanhã: evite qualquer tráfego de máquinas pesadas na lavoura",
+  "Massa de ar frio chega na segunda com mínimas perto de 4°C: atenção para pastagens e culturas sensíveis ao frio",
+  "Janela seca se abre a partir de quarta-feira e segura até o fim da semana: bom momento para operações de campo"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:47:05+00:00",
+  "clima": "2026-07-10T12:14:47+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

@@ -2,13 +2,13 @@
  "escopo_id": "nacional",
  "nome": "Brasil",
  "tipo": "nacional",
- "gerado_em": "2026-07-07T00:35:03+00:00",
+ "gerado_em": "2026-07-10T20:08:33+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Brasil, 7 de julho de 2026 — O país está em entressafra da soja, com a safra anterior encerrada e a nova ainda sem início. O tempo na semana é marcado por forte contraste: chuvas persistentes atingem parte do território nos próximos dias, com acumulados que chegam a 84 mm e probabilidade acima de 84% em cinco dos sete dias monitorados. Ao mesmo tempo, temperaturas mínimas abaixo de 3 °C nos dias 7, 8 e 9 de julho indicam risco de geada nas regiões produtoras do Sul. Ventos com rajadas de até 60 km/h ampliam o alerta. Nos preços, o Sul lidera com RS e PR entre R$ 128,50 e R$ 129,00/sc, enquanto GO e MT registram os menores valores, entre R$ 108,50 e R$ 108,63/sc.",
+ "texto": "Brasil, 10 de julho de 2026 — O país está em entressafra da soja, com a safra anterior encerrada e a nova ainda sem início. O foco recai inteiramente sobre o clima e os preços. A semana traz chuvas intensas e generalizadas em 6 dos 7 dias, com acumulados que chegam a 110 mm em pontos isolados e rajadas de vento de até 69 km/h — condições atípicas para o inverno brasileiro. No Sul, mínimas de 1,2 °C nos dias 13 e 14 de julho acendem alerta de geada, especialmente em RS e PR. Nos preços, o RS lidera com R$ 129/sc, seguido de PR (R$ 128,50/sc), enquanto GO e MT ficam abaixo de R$ 109/sc, refletindo o diferencial de frete e logística.",
  "pontos": [
-  "Risco de geada nos dias 7, 8 e 9/07 com mínimas abaixo de 3 °C, exigindo atenção nas regiões Sul e Sudeste",
-  "Chuvas intensas previstas entre 10 e 12/07, com acumulados de até 70 mm/dia e rajadas de até 60 km/h em áreas do Centro-Norte",
-  "Preços no Sul (RS R$ 129,00/sc; PR R$ 128,50/sc) superam em até 19% os valores praticados em GO e MT (≈ R$ 108,50/sc)",
-  "Período de entressafra sem pressão imediata de colheita; atenção ao clima volta-se à proteção de estruturas e planejamento da próxima safra"
+  "Entressafra nacional: nenhuma operação de colheita ou plantio em curso; atenção voltada ao clima e ao mercado.",
+  "Risco de geada nos dias 13 e 14/07 com mínimas abaixo de 3 °C — Sul do Brasil (RS e PR) é a área mais exposta.",
+  "Chuvas intensas e ventos fortes ao longo de toda a semana em múltiplas regiões, com acumulados relevantes mesmo no período seco do ano.",
+  "Preços com forte contraste regional: Sul (RS e PR) acima de R$ 128/sc; Centro-Oeste (GO e MT) abaixo de R$ 109/sc, diferença superior a R$ 20/sc."
  ]
 }

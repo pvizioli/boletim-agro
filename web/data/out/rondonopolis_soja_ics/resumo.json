@@ -1,16 +1,16 @@
 {
  "distrito_id": "rondonopolis_soja_ics",
  "nome": "RONDONOPOLIS-SOJA/ICS",
- "gerado_em": "2026-07-07T00:32:40+00:00",
+ "gerado_em": "2026-07-10T20:06:20+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "SITUAÇÃO ATUAL: Rondonópolis está em plena entressafra da soja. O tempo hoje, 7 de julho, segue seco e quente, com máxima de 31,6 °C e mínima de 15 °C. Solo sem umidade relevante, sequência de dias secos já em curso. PRÓXIMOS DIAS: A semana inteira fica sem chuva — de quarta (8/7) a sábado (12/7) zero milímetros previstos, com máximas subindo até 35 °C no sábado. No domingo (12/7) a probabilidade de chuva sobe para 38%, indicando que uma mudança de tempo pode chegar no fim de semana, mas ainda sem confirmação de volume expressivo. As mínimas ficam entre 13 e 16 °C, sem risco de geada. Soja: distrito em entressafra, safra nova ainda não começou. Preço da saca em MT: R$ 108,63 (fonte: Grão Direto, Nordeste MT, 03/07).",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 10 de julho, o tempo está seco e quente em Rondonópolis, com sol forte e vento moderado. O solo está secando bem, sem chuva nos últimos dias. PRÓXIMOS DIAS: A janela seca segue firme hoje e amanhã, sexta-feira. No domingo, dia 12, chega umidade com chance real de chuva leve (até 1,9 mm) e vento mudando de direção, sinal de massa de ar diferente passando pela região. Na segunda, dia 13, ainda há chance de garoa. A partir de terça, dia 14, o tempo abre novamente e a semana fecha seca e quente, com temperaturas chegando a 34°C na quinta. Mínimas baixas, chegando a 13,8°C na quarta. PREÇO: Soja em MT cotada a R$ 108,63 a saca, referência de 3 de julho.",
  "pontos": [
-  "Semana totalmente seca até sábado (12/7): condições favoráveis para manutenção de máquinas e preparo de área",
-  "Domingo (12/7): probabilidade de chuva sobe para 38% — acompanhe a previsão para planejar operações de campo no fim de semana",
-  "Calor intenso a semana toda, máxima chegando a 35 °C no sábado: atenção ao bem-estar de equipes e animais em campo"
+  "Janela seca aberta hoje e amanhã, sexta: bom momento para qualquer operação de campo",
+  "Domingo e segunda com chance de chuva fraca: atenção para operações sensíveis à umidade nesses dias",
+  "Mínima de 13,8°C prevista para quarta, dia 15: monitorar pastagens e culturas sensíveis ao frio"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:51:48+00:00",
+  "clima": "2026-07-10T12:20:37+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

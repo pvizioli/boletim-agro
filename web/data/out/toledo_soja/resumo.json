@@ -1,16 +1,16 @@
 {
  "distrito_id": "toledo_soja",
  "nome": "TOLEDO-SOJA",
- "gerado_em": "2026-07-07T00:34:30+00:00",
+ "gerado_em": "2026-07-10T20:08:00+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Hoje em Toledo o tempo virou: depois da chuva de ontem (5,8 mm), a massa de ar frio tomou conta, com máxima de apenas 15,9 °C e mínima de 3,2 °C. O solo está levemente úmido mas longe de encharcado, e o dia abre janela seca. Amanhã, quarta, a temperatura sobe um pouco com mínima de 2,3 °C — risco de geada na madrugada. Quinta e sexta seguem secas e mais quentes, chegando a 26,5 °C na sexta. A chuva volta na sexta à noite ou sábado, com previsão de até 37 mm no sábado — o evento mais expressivo da semana. Domingo ainda pode ter garoa residual. A saca da soja está cotada a R$ 128,50 em Paranaguá (referência de 17/06). Estamos em entressafra, então o foco agora é gestão de pastagens e planejamento da próxima safra.",
+ "texto": "Hoje em Toledo a chuva já chegou com 5,7 mm e vento forte, e amanhã, sábado, vem o volume pesado: até 67 mm previstos com 100% de chance de chuva e massa de ar frio entrando pelo noroeste. O solo vai ficar encharcado até domingo. A partir de domingo o tempo vira: segunda e terça ficam frias, com mínima de 5°C na segunda, mas sem chuva. De quarta em diante abre uma janela seca que deve durar até o fim da semana, com sol e vento — o solo começa a drenar e as condições melhoram para qualquer operação de campo. A soja está em entressafra, safra nova ainda não começou. A saca está cotada a R$ 128,50 em Paranaguá.",
  "pontos": [
-  "Geada na madrugada de quarta (08/07): mínima de 2,3 °C — atenção a pastagens e culturas sensíveis em baixadas",
-  "Janela seca de hoje até sexta (10/07) à tarde: bom momento para manutenção de máquinas, preparo de solo e aplicações em pastagens",
-  "Chuva forte chega no sábado (11/07) com até 37 mm previstos e rajadas de até 45 km/h — evite operações de campo a partir de sexta à noite"
+  "Chuva pesada amanhã (sábado): até 67 mm — evite qualquer movimentação de máquinas no campo",
+  "Massa de ar frio chega no sábado à noite: mínima de 5°C na segunda — atenção a pastagens e culturas sensíveis ao frio",
+  "Solo encharcado até domingo; aguarde drenagem antes de entrar com equipamentos pesados"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:52:58+00:00",
+  "clima": "2026-07-10T12:21:49+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

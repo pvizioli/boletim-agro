@@ -2,13 +2,13 @@
  "escopo_id": "cerl_soja",
  "nome": "CERL SOJA",
  "tipo": "regional",
- "gerado_em": "2026-07-07T00:35:24+00:00",
+ "gerado_em": "2026-07-10T20:08:55+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "A regional CERL SOJA atravessa a entressafra com tempo instável ao longo dos próximos sete dias: chuvas estão previstas em todos os dias da semana, com volumes acumulados chegando a 32,8 mm e probabilidade acima de 84% em cada jornada. As temperaturas máximas ficam em torno de 36°C, enquanto as mínimas chegam a cair abaixo de 14°C, indicando amplitude térmica elevada típica do inverno no Cerrado. O vento em rajadas supera 49 km/h em alguns momentos, e a evapotranspiração média diária é alta (6,4 mm/dia), sinalizando demanda hídrica intensa apesar das chuvas. No mercado, a soja é cotada a R$ 112/sc em DF e R$ 108,50/sc em GO, referências recentes para o produtor acompanhar o momento de comercialização do grão estocado.",
+ "texto": "A regional CERL Soja atravessa a entressafra com tempo instável e quente ao longo dos próximos sete dias. As temperaturas máximas chegam a 37 °C, enquanto as mínimas caem a quase 13 °C, indicando amplitude térmica elevada. Chuvas estão previstas em praticamente toda a semana, com destaque para 15 de julho, quando os volumes podem superar 33 mm e as rajadas de vento ultrapassam 58 km/h — condição que merece atenção em áreas com solo exposto. A evapotranspiração média de 6,4 mm/dia reforça o estresse hídrico potencial nos intervalos sem precipitação. No mercado, a soja é cotada em R$ 112/sc no DF e R$ 108,50/sc em Goiás (Jataí), refletindo diferencial regional relevante para o produtor planejar a próxima safra.",
  "pontos": [
-  "Chuvas persistentes em toda a semana, sem nenhum dia seco previsto nos próximos 7 dias na regional",
-  "Amplitude térmica acentuada: máximas próximas a 36°C e mínimas abaixo de 14°C, padrão de inverno no Cerrado",
-  "Rajadas de vento frequentes acima de 45 km/h combinadas com alta evapotranspiração exigem atenção ao manejo de solos e estruturas",
-  "Preços da soja em entressafra: R$ 112/sc no DF e R$ 108,50/sc em Jataí (GO) — janela relevante para decisões de venda do estoque"
+  "Semana com chuvas frequentes em toda a regional, sem sequência de dias secos, mas volumes irregulares entre sub-áreas",
+  "Pico de precipitação e ventos fortes esperados em 15/jul, exigindo atenção ao manejo de solo exposto na entressafra",
+  "Amplitude térmica acentuada (até 24 °C de diferença entre máxima e mínima) pode influenciar o planejamento de insumos e preparo de área",
+  "Diferencial de preço entre DF (R$ 112/sc) e Goiás/Jataí (R$ 108,50/sc) sinaliza oportunidade de arbitragem regional para o produtor"
  ]
 }

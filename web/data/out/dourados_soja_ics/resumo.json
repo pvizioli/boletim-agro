@@ -1,16 +1,16 @@
 {
  "distrito_id": "dourados_soja_ics",
  "nome": "DOURADOS-SOJA/ICS",
- "gerado_em": "2026-07-07T00:27:35+00:00",
+ "gerado_em": "2026-07-10T20:00:57+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "SITUAÇÃO ATUAL: Hoje, 7 de julho, o tempo em Dourados está mais frio, com mínima de 6,5 °C e máxima de 21,6 °C. Chuva praticamente zero e solo em processo de secagem após a garoa de ontem (1,4 mm). Janela de trabalho aberta. PRÓXIMOS DIAS: Quarta e quinta (8 e 9) seguem secos e com temperatura subindo até quase 29 °C — ótima janela. Na sexta (10) aparece alguma instabilidade fraca. No sábado (11) a chuva chega com força (24,6 mm previstos) e vento forte de até 50 km/h. No domingo (12) vem a passagem de uma massa de ar frio com chuva intensa prevista de até 58 mm — solo deve ficar encharcado. Mínima da semana bate 4 °C na quarta: atenção para pastagens sensíveis ao frio. COLHEITA: Distrito em entressafra — safra anterior encerrada, nova safra ainda não começou.",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 10 de julho, o dia está quente (máx. 31°C) com pouca chuva e vento forte chegando a 45 km/h. O campo está em entressafra, safra anterior encerrada e nova ainda não começou. PRÓXIMOS DIAS: Amanhã, sábado dia 11, chega chuva forte — até 51 mm com vento de quase 50 km/h e probabilidade de 100%. Uma massa de ar frio passa no domingo, dia 12, derrubando a temperatura para mínima de 12°C com ainda alguma chuva. Na segunda, dia 13, o tempo muda: seco, frio de manhã (mínima 8,6°C) e sem chuva. De terça, dia 14, até quinta, dia 16, abre uma janela seca firme com quatro dias seguidos sem chuva, mas frio intenso nas madrugadas — mínima chegando a 8°C — e ventos fortes de até 57 km/h.",
  "pontos": [
-  "Janela seca aberta hoje até sexta (10) à tarde: aproveite para manutenção de máquinas e preparo de solo",
-  "Chuva forte chega no sábado (11) com rajadas de até 50 km/h — recolha equipamentos e estruturas expostas",
-  "Massa de ar frio e chuva intensa no domingo (12), até 58 mm previstos: risco de encharcamento e danos a pastagens"
+  "Chuva forte amanhã, dia 11: até 51 mm com vento de 50 km/h — evite qualquer operação de campo no sábado",
+  "Massa de ar frio chega no domingo, dia 12: mínimas caem para 8–9°C de segunda a terça — atenção com pastagens e culturas sensíveis ao frio",
+  "Janela seca abre na segunda, dia 13, e segura até pelo menos quinta, dia 16 — aproveite para manutenção de máquinas e preparo de área"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:48:14+00:00",
+  "clima": "2026-07-10T12:15:57+00:00",
   "colheita": "2026-05-26",
   "preco": null
  }

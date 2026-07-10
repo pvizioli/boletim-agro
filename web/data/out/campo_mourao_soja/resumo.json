@@ -1,16 +1,16 @@
 {
  "distrito_id": "campo_mourao_soja",
  "nome": "CAMPO MOURAO-SOJA",
- "gerado_em": "2026-07-07T00:25:56+00:00",
+ "gerado_em": "2026-07-10T19:59:23+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Hoje em Campo Mourão o tempo está fechando com massa de ar frio chegando: mínima de 6,8°C e máxima de apenas 20°C, com vento forte de até 37 km/h. Ontem choveu 6,2 mm, então o solo ainda está úmido, mas drenando. A partir de amanhã, quarta, abre uma janela seca e firme que dura até quinta: sem chuva prevista, temperaturas subindo até 25°C na quinta. Na sexta a tarde o tempo começa a virar, e no sábado chega chuva forte, com 24 mm previstos e rajadas de até 51 km/h. A mínima da semana bate 3,4°C na quarta de madrugada: fique de olho nas pastagens e culturas sensíveis. Soja em entressafra. Preço da saca em Paranaguá: R$ 128,50 (referência de 17/06).",
+ "texto": "Hoje, 10 de julho, o tempo está aberto e seco em Campo Mourão, com sol e vento moderado. O solo está em condição normal após dias sem chuva. Aproveite a janela de hoje, pois amanhã, sábado dia 11, chega chuva forte — até 32 mm com probabilidade de 100% e rajadas de vento acima de 48 km/h. Domingo e segunda ainda têm risco de chuva fraca. A partir de segunda-feira, dia 13, uma massa de ar frio entra pela região derrubando as mínimas para perto de 6°C, com tempo seco e vento. A janela seca se reabre na segunda e segue firme até o fim da semana, com mínimas baixas mas sem previsão de geada. A soja está em entressafra. A saca está cotada a R$ 128,50 em Paranaguá.",
  "pontos": [
-  "Mínima de 3,4°C na madrugada de quarta: risco de geada leve para pastagens e culturas sensíveis na região",
-  "Janela seca abre quarta e vai até quinta: bom período para qualquer operação de campo que dependa de solo firme",
-  "Chuva forte chega no sábado com até 24 mm e rajadas de 51 km/h: encerre operações externas até sexta no máximo"
+  "Chuva forte chega amanhã, sábado dia 11: até 32 mm com rajadas fortes — conclua qualquer operação de campo ainda hoje",
+  "Massa de ar frio entra na segunda, dia 13: mínimas caem para 5 a 7°C ao longo da semana — atenção com pastagens e culturas sensíveis ao frio",
+  "Janela seca reabre na segunda-feira, dia 13, e segue pelo menos até quinta, dia 16 — boa oportunidade para manutenção de máquinas e infraestrutura"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:45:57+00:00",
+  "clima": "2026-07-10T12:14:43+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "guarapuava_soja",
  "nome": "GUARAPUAVA-SOJA",
- "gerado_em": "2026-07-07T00:28:28+00:00",
+ "gerado_em": "2026-07-10T20:01:54+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "SITUAÇÃO ATUAL: Hoje, 7 de julho, o tempo está fechado com vento forte e possibilidade de chuva fraca. Ontem choveu quase 10 mm, então o solo ainda está úmido. PRÓXIMOS DIAS: Amanhã, quarta (8), e quinta (9) abrem uma janela seca e mais fria, com mínimas chegando perto de zero — risco real de geada nas duas madrugadas. A partir de quinta à tarde o vento muda e na sexta (10) já volta a chance de chuva. No sábado (11) chega uma massa de ar frio com chuva forte, podendo acumular até 37 mm. Domingo (12) ainda tem chuva residual. COLHEITA: Distrito em entressafra. Soja em PR está cotada a R$ 128,50/sc (Paranaguá, porto — Canal Rural, 17/jun).",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 10/07, o tempo está nublado com chuva fraca (1 mm) e vento forte, chegando a 48 km/h. Estamos em entressafra da soja em Guarapuava.\n\nPRÓXIMOS DIAS: Amanhã, sábado (11/07), chega uma frente fria com chuva pesada — quase 46 mm previstos e probabilidade de 100%. A partir de domingo (12/07) a chuva recua, e de segunda (13/07) a quinta (16/07) o tempo abre com sequência de cinco dias secos. Atenção: segunda e terça (13 e 14/07) as mínimas despencam para 2,6–2,7 °C, com risco real de geada.\n\nCOLHEITA: Distrito em entressafra — safra anterior encerrada e nova safra ainda não começou. Soja fora de campo. Preço de referência no porto de Paranaguá: R$ 128,50/sc (60 kg), dado de 17/06.",
  "pontos": [
-  "Geada possível na madrugada de quarta (8) e quinta (9): proteja pastagens e culturas sensíveis",
-  "Janela seca abre quarta e fecha na quinta à tarde — aproveite para serviços de campo",
-  "Massa de ar frio com chuva forte chega no sábado (11), podendo acumular até 37 mm"
+  "Frente fria chega sábado (11/07) com chuva de até 46 mm: evite movimentação de máquinas e transporte no dia",
+  "Geada possível na segunda e terça (13 e 14/07): mínimas abaixo de 3 °C — atenção a pastagens e culturas de inverno sensíveis ao frio",
+  "Janela seca de cinco dias abre a partir de domingo (12/07): boa oportunidade para manutenção de estradas, terraços e equipamentos"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:49:22+00:00",
+  "clima": "2026-07-10T12:17:06+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

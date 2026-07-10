@@ -1,16 +1,16 @@
 {
  "distrito_id": "imperatriz_soja",
  "nome": "IMPERATRIZ-SOJA",
- "gerado_em": "2026-07-07T00:28:59+00:00",
+ "gerado_em": "2026-07-10T20:02:28+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "SITUAÇÃO ATUAL: Julho começa chuvoso na região. Ontem choveu 11 mm e hoje a probabilidade de chuva segue alta, com mais 5 mm previstos. O solo está úmido e sem janela seca aberta no momento. PRÓXIMOS DIAS: A semana inteira é de chuva. Quarta tem o maior volume esperado, com 13 mm e vento forte. Quinta e sexta seguem com chuva e rajadas acima de 45 km/h. Sábado e domingo ainda registram precipitação. Não há nenhum dia seco na janela dos próximos 7 dias. As temperaturas ficam altas, entre 20 e 36 graus. PERÍODO: Estamos em entressafra — a safra anterior encerrou e a nova ainda não começou. O foco agora é acompanhar o clima para o planejamento da próxima temporada.",
+ "texto": "Hoje, 10 de julho, a região está com chuva desde cedo — 6 mm já registrados e probabilidade de 100% ao longo do dia. O solo está encharcado e não há janela de trabalho aberta. Nos próximos dias, a chuva não dá trégua: sábado (11) e domingo (12) seguem com pancadas, segunda (13) dá uma leve pausa com chance de 50%, mas a partir de terça (14) a chuva volta forte, com pico de 33 mm na quarta (15) e mais chuva na quinta (16). Em seis dos sete dias da semana há chuva relevante prevista — a sequência seca máxima é de apenas um dia. O calor segue alto, com máximas perto de 35°C. Não há alertas ativos do INMET. Como a região está em entressafra, o foco agora é acompanhar o comportamento das chuvas e planejar a entrada da próxima safra.",
  "pontos": [
-  "Semana inteira com chuva: nenhuma janela seca prevista até 12 de julho",
-  "Rajadas fortes de vento entre quinta e sábado, acima de 45 km/h: atenção a estruturas e equipamentos expostos",
-  "Solo encharcado: evite tráfego pesado nas áreas para não compactar o terreno"
+  "Solo encharcado hoje e sem janela de trabalho — evite tráfego de máquinas pesadas no campo",
+  "Segunda-feira (13) é o único dia com chance de pausa nas chuvas — aproveite para manutenção de equipamentos e logística",
+  "Chuva intensa volta na terça (14) e quarta (15), com pico de 33 mm — planeje qualquer movimentação antes disso"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:49:28+00:00",
+  "clima": "2026-07-10T12:17:10+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

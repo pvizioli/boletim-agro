@@ -1,16 +1,16 @@
 {
  "distrito_id": "julio_de_castilhos_soja",
  "nome": "JULIO DE CASTILHOS-SOJA",
- "gerado_em": "2026-07-07T00:29:32+00:00",
+ "gerado_em": "2026-07-10T20:03:01+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Hoje, 7 de julho, o tempo está seco e frio em Júlio de Castilhos, com mínima de 0,9°C e risco real de geada esta madrugada e amanhã cedo. O solo está praticamente seco após chuvas insignificantes nos últimos dias. A janela seca segue firme até quinta-feira, com temperaturas subindo e dias ensolarados na quarta e quinta. A partir de sexta, a chuva volta: são esperados cerca de 7 a 9 mm entre sexta e sábado, com temperaturas caindo no fim de semana. Sendo entressafra da soja, o foco agora é proteger pastagens e culturas sensíveis ao frio. A saca da soja está sendo negociada a R$ 129,00 no Centro Ocidental do RS, conforme referência de 3 de julho.",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 10/07, choveu forte em Júlio de Castilhos — 42,7 mm registrados, solo encharcado na região. Amanhã, sábado, ainda tem chuvisco e céu fechado, mas a chuva perde força. A partir de domingo, 12/07, o tempo começa a virar. PRÓXIMOS DIAS: Segunda-feira, 13/07, chega massa de ar frio com temperatura máxima de apenas 13,7°C e mínima de 4,6°C — fique atento às madrugadas. De terça, 14/07, até quinta, 16/07, abre uma janela seca de quatro dias seguidos, sem chuva prevista e com vento forte, especialmente na quinta com rajadas de até 68,8 km/h. O solo vai drenar bem nesse período. COLHEITA: Distrito em entressafra. Soja a R$ 129,00/sc 60kg no RS, conforme Grão Direto (03/07).",
  "pontos": [
-  "Geada hoje e amanhã cedo: mínimas abaixo de 2°C — proteja pastagens e culturas sensíveis nas baixadas",
-  "Janela seca garantida até quinta-feira: bom momento para manutenção de máquinas e infraestrutura de campo",
-  "Chuva retorna na sexta com 7 a 9 mm previstos entre sexta e sábado — planeje operações externas até quinta"
+  "Solo encharcado hoje: evite tráfego pesado na lavoura até segunda-feira",
+  "Massa de ar frio chega na segunda, 13/07: mínima de 4,6°C, atenção às pastagens nas madrugadas",
+  "Janela seca abre na terça, 14/07, e vai até pelo menos quinta, 16/07 — bom período para manutenção de máquinas e estradas internas"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:50:33+00:00",
+  "clima": "2026-07-10T12:18:16+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

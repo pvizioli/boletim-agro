@@ -1,16 +1,16 @@
 {
  "distrito_id": "formosa_soja_ics",
  "nome": "FORMOSA-SOJA/ICS",
- "gerado_em": "2026-07-07T00:27:58+00:00",
+ "gerado_em": "2026-07-10T20:01:19+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Estamos em plena entressafra na região de Formosa. O tempo hoje está seco e quente, com máxima de 31°C e mínima de 15°C, sem nenhuma chuva prevista para os próximos 7 dias. O solo está secando rápido: a evaporação média está em quase 5 mm por dia, o que exige atenção a qualquer cultura ou pastagem irrigada. A semana toda segue com céu aberto, calor crescente chegando a 33°C no domingo, e rajadas de vento que podem passar de 49 km/h no domingo. Não há alertas climáticos ativos. A soja nova ainda não começou, então o foco agora é manutenção de máquinas, pastagens e planejamento da próxima safra. Preço de referência no DF: R$ 112,00 por saca de 60 kg.",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 10 de julho, o tempo está seco e quente na região, com máxima de 31°C e mínimas amenas em torno de 16°C. Sem chuva nos últimos dias e solo bem drenado, o ar está seco e o vento moderado. PRÓXIMOS DIAS: A semana segue sem chuva relevante até quarta (12/07), com calor e sol firme. Na segunda metade da semana, entre segunda e terça-feira (13 e 14/07), aparecem pequenas chances de chuva isolada, mas os volumes previstos são mínimos — menos de 1 mm no acumulado dos 7 dias. O vento ganha força a partir de quarta, com rajadas acima de 47 km/h na sexta e sábado. Sem frente fria prevista. PREÇO: Soja cotada a R$ 112,00 por saca de 60 kg no DF.",
  "pontos": [
-  "Sete dias seguidos sem chuva: solo secando rápido, atenção ao manejo de pastagens e irrigação se houver culturas em campo",
-  "Rajada de vento forte no domingo (12/07): pode passar de 49 km/h, cuidado com estruturas, estufas e aplicações de defensivos",
-  "Calor crescente ao longo da semana com máximas chegando a 33°C: evaporação alta, monitorar reservatórios e bebedouros"
+  "Semana seca confirmada: zero risco de chuva relevante nos próximos 7 dias na região",
+  "Vento forte a partir de quarta (15/07): rajadas acima de 47 km/h — atenção a estruturas e pulverizações",
+  "Ar seco e evaporação alta (média de 4,8 mm/dia): monitorar pastagens e irrigação se houver cultivo de entressafra"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:48:17+00:00",
+  "clima": "2026-07-10T12:17:03+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-05-06"
  }

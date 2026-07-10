@@ -1,16 +1,16 @@
 {
  "distrito_id": "sorriso_soja_ics",
  "nome": "SORRISO-SOJA/ICS",
- "gerado_em": "2026-07-07T00:34:18+00:00",
+ "gerado_em": "2026-07-10T20:07:49+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "SITUAÇÃO ATUAL: Sorriso está em plena entressafra, com sol forte e sete dias seguidos sem chuva. O solo está seco e o calor segue firme, com máximas perto de 33°C hoje. Vento moderado ao longo do dia. PRÓXIMOS DIAS: A semana inteira segue seca e quente, com máximas chegando a 34-35°C de quarta a sábado. Apenas no sábado aparece uma chance pequena de chuva isolada, mas nada expressivo — a previsão aponta no máximo 0,3 mm em toda a semana. Não há frente fria nem massa de ar frio no horizonte dos próximos sete dias. O tempo seco e quente deve persistir. PREÇO: A saca de soja está sendo negociada a R$ 108,63 no Nordeste do MT, referência de 03/07.",
+ "texto": "Hoje, sexta-feira (10/07), o tempo em Sorriso está seco e quente, com máxima de 33°C e chuva insignificante. O solo está em condições normais para julho, sem excesso de umidade. A janela seca segue aberta até o fim de semana. A partir de sábado (12/07) a nebulosidade aumenta e a chuva aparece com mais força na segunda (13/07), quando a probabilidade chega a 65% e a estimativa é de até 7 mm. Na terça (14/07) o tempo melhora rapidamente, e de quarta (15/07) em diante volta o sol firme e sem chuva relevante até o fim da semana. Estamos em entressafra da soja: o foco agora é gestão de chuva para manutenção de estradas e estrutura de fazenda. Saca da soja em MT está cotada a R$ 108,63 (referência 03/07).",
  "pontos": [
-  "Entressafra em curso: sem operações de campo para soja no momento",
-  "Sete dias consecutivos sem chuva e previsão de zero chuva relevante até 12/07",
-  "Calor intenso com máximas acima de 34°C de quarta a sábado — atenção ao consumo de água em pastagens e irrigação eventual"
+  "Janela seca aberta hoje e sábado: aproveite para manutenção de estradas e terraços antes da chuva de domingo e segunda",
+  "Chuva mais expressiva esperada na segunda (13/07), até 7 mm: programe logística e evite tráfego pesado nesse dia",
+  "De terça (14/07) em diante o tempo abre novamente, com sol e calor até o fim da semana"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:52:58+00:00",
+  "clima": "2026-07-10T12:21:49+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

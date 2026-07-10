@@ -1,16 +1,16 @@
 {
  "distrito_id": "lagoa_vermelha_soja",
  "nome": "LAGOA VERMELHA-SOJA",
- "gerado_em": "2026-07-07T00:29:42+00:00",
+ "gerado_em": "2026-07-10T20:03:12+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "O solo está encharcado depois dos quase 30 mm que caíram ontem, dia 6. Hoje o tempo abriu, mas o frio chegou junto: mínima de 0,6°C com risco de geada esta madrugada e amanhã cedo, dia 8, quando a mínima cai para -0,4°C. Vento forte hoje, acima de 50 km/h, dificulta qualquer trabalho no campo. A janela seca se estende por quarta e quinta, dias 8 e 9, com sol e temperatura subindo até 22°C — melhor momento para o solo começar a drenar. Na sexta, dia 10, a chuva volta com chance moderada, e no sábado, dia 11, chega uma massa de ar úmido mais organizada com 16 mm previstos. A soja está em entressafra, safra nova ainda não começou. Preço da saca em RS: R$ 129,00.",
+ "texto": "Hoje e amanha o tempo está fechado em Lagoa Vermelha, com chuva forte e solo encharcado — já caíram quase 50 mm hoje e mais 54 mm são esperados amanhã. No sábado ainda chove, mas menos, e uma massa de ar frio chega trazendo temperaturas baixas: na segunda e terça a mínima bate em 2°C, com risco real de geada. A partir de segunda o tempo abre, o solo começa a drenar e a semana termina seca e quente, chegando a 27°C na quinta. Atenção para as pastagens e qualquer cultura sensível ao frio que esteja no campo. A soja está em entressafra. A saca de 60 kg está sendo negociada a R$ 129,00 no RS.",
  "pontos": [
-  "Geada hoje à noite e amanhã cedo, dia 8: risco para pastagens e culturas sensíveis na região de Lagoa Vermelha",
-  "Solo encharcado após 30 mm ontem: aguardar ao menos quarta e quinta para qualquer movimentação de máquinas",
-  "Janela seca de quarta a quinta, dias 8 e 9: melhor período para o solo drenar antes da próxima chuva"
+  "Solo encharcado hoje e amanhã: evite tráfego de máquinas pesadas para não compactar",
+  "Massa de ar frio chega no sábado: risco de geada na segunda (13/07) e terça (14/07), mínimas em torno de 2°C — atenção às pastagens",
+  "Janela seca abre a partir de segunda-feira (13/07) e se estende até o fim da semana"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:50:34+00:00",
+  "clima": "2026-07-10T12:18:16+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

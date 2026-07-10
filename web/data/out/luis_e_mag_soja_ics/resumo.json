@@ -1,16 +1,16 @@
 {
  "distrito_id": "luis_e_mag_soja_ics",
  "nome": "LUIS E MAG-SOJA/ICS",
- "gerado_em": "2026-07-07T00:30:03+00:00",
+ "gerado_em": "2026-07-10T20:03:37+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Hoje, 7 de julho, o tempo está seco e quente na região de Luís Eduardo Magalhães, com temperatura chegando a 32,6°C e praticamente sem chuva — apenas 0,6 mm com chance de 6%. O solo está perdendo água rápido com esse calor e vento. A semana inteira segue assim: de quarta a sábado, zero chuva prevista, calor firme acima de 33°C e rajadas de vento chegando a 37 km/h na quinta e sexta. A maior sequência seca da região já está em 7 dias seguidos, e a evaporação média está alta, em quase 5 mm por dia. Não há alertas climáticos ativos. O distrito está em entressafra — a safra anterior encerrou e a nova ainda não começou. Fique de olho na umidade do solo se houver pastagens ou culturas de inverno estabelecidas, pois o ressecamento é intenso.",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 10 de julho, o tempo está seco e quente, com máxima de 32,6°C e rajadas de vento chegando a 41 km/h. Sem chuva nos últimos dias, o solo está perdendo umidade rápido — o campo está em entressafra, safra anterior encerrada e nova ainda não começou.\n\nPRÓXIMOS DIAS: A janela seca segue hoje e amanhã, sábado. No domingo, dia 12, a chance de chuva sobe para 86%, com até 0,5 mm previstos — pouco, mas sinal de mudança. Na segunda, dia 13, alivia. Na terça, dia 14, a probabilidade volta a 71% com até 1,8 mm. Na quarta, dia 15, chegam até 4,3 mm com rajadas fortes de 47 km/h — massa de ar diferente entrando pela tarde. A semana fecha com chuvas fracas e vento forte.\n\nCOLHEITA: Distrito em entressafra. Nenhuma operação de campo em andamento.",
  "pontos": [
-  "Janela seca estendida: sem chuva relevante prevista até pelo menos sábado, dia 12",
-  "Evaporação alta — quase 5 mm por dia: solo secando rápido, atenção a pastagens e culturas de inverno",
-  "Rajadas de vento fortes na quinta e sexta, acima de 35 km/h: cuidado com operações de pulverização"
+  "Solo perdendo umidade rápido: evapotranspiração média de 4,9 mm/dia com vento forte — atenção ao estoque hídrico para planejamento da próxima safra",
+  "Domingo, dia 12: maior risco de chuva da semana (86% de probabilidade) — evite operações de preparo de solo nesse dia",
+  "Quarta-feira, dia 15: chegada de massa de ar com rajadas até 47 km/h e chuva de até 4,3 mm — recolha equipamentos e estruturas expostas"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:50:36+00:00",
+  "clima": "2026-07-10T12:18:19+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

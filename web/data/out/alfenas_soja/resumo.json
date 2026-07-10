@@ -1,16 +1,16 @@
 {
  "distrito_id": "alfenas_soja",
  "nome": "ALFENAS-SOJA",
- "gerado_em": "2026-07-07T00:25:13+00:00",
+ "gerado_em": "2026-07-10T19:58:39+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "SITUAÇÃO ATUAL: Hoje, 7 de julho, o tempo está instável na região, com chuvas leves e ventos chegando a 47 km/h. O solo está recebendo pouca água, mas a sequência de dias úmidos desde ontem mantém o terreno com umidade. Não há janela de trabalho aberta no momento. PRÓXIMOS DIAS: Quarta e quinta (8 e 9) ainda trazem chuva fraca com probabilidade moderada e ventos fortes, até 53 km/h na quarta. A virada acontece na sexta (10): chuva cai a zero e o fim de semana abre uma janela seca com temperaturas subindo até 32,8°C no sábado (12). Atenção: no sábado à noite a chuva volta com força, podendo chegar a 8,4 mm. As mínimas da semana chegam a 7,2°C na quinta, pedindo atenção com pastagens sensíveis ao frio. COLHEITA: Distrito em entressafra. Soja em MG cotada a R$ 113,00/sc.",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 10 de julho, o tempo está seco e com vento forte na região de Alfenas. Solo sem chuva recente, condições firmes para qualquer operação de campo. PRÓXIMOS DIAS: Amanhã, sábado, já aparecem algumas pancadas isoladas. No domingo o vento aumenta bastante e a chuva ganha força. Na segunda-feira, dia 13, chega uma massa de ar frio com chuva expressiva — até 21,7 mm previstos, com vento forte. Na terça ainda chove um pouco e o frio aperta, mínima de 5,7°C. Na quarta e quinta o tempo abre novamente, mas as mínimas ficam baixas, chegando a 4,7°C na quarta. TEMPO E PREÇO: A soja está em entressafra. Referência de preço em MG: R$ 113,00 a saca de 60 kg.",
  "pontos": [
-  "Janela seca abre na sexta (10) e vai até sábado (12) ao meio-dia: aproveite para operações de campo",
-  "Sábado à noite (12): chuva de até 8,4 mm encerra a janela seca — programe e conclua as atividades antes disso",
-  "Mínima de 7,2°C na quinta (9): fique atento com pastagens e culturas sensíveis ao frio"
+  "Janela seca disponível hoje, sexta-feira: aproveite para qualquer serviço de campo antes do fim de semana",
+  "Chuva forte chega na segunda-feira, dia 13: até 21,7 mm com vento intenso — recolha equipamentos e proteja insumos",
+  "Mínima de 4,7°C prevista para quarta-feira, dia 15: atenção a pastagens e culturas sensíveis ao frio"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:45:47+00:00",
+  "clima": "2026-07-10T12:14:28+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-05-06"
  }

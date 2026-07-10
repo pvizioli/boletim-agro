@@ -1,16 +1,16 @@
 {
  "distrito_id": "goiania_soja_ics",
  "nome": "GOIANIA-SOJA/ICS",
- "gerado_em": "2026-07-07T00:28:08+00:00",
+ "gerado_em": "2026-07-10T20:01:30+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "SITUAÇÃO ATUAL: Goiás está em plena entressafra da soja. O tempo hoje, 7 de julho, é seco e quente, com máxima de 34°C e mínima de 15°C. Sem chuva e sem previsão de chuva nos próximos dias, o solo está secando rápido — o campo evapora em torno de 5 mm por dia. PRÓXIMOS DIAS: A semana toda segue sem chuva e com calor crescente, chegando a 35°C na quinta e sexta. No domingo, dia 12, o vento muda de direção e aumenta para rajadas de 45 km/h, com alguma chance de chuva — mas ainda baixa, em torno de 33%. Nada que mude o cenário seco da semana. PREÇO: A saca de soja em GO está cotada a R$ 108,50.",
+ "texto": "SITUAÇÃO ATUAL: Goiás está em plena entressafra da soja. O tempo hoje, 10 de julho, está seco e quente, com máxima de 34°C e mínima de 17°C. Solo sem chuva relevante, ar seco e vento moderado. PRÓXIMOS DIAS: A semana segue predominantemente seca. Na segunda-feira, dia 13, há chance maior de chuva isolada, mas volumes previstos são mínimos, abaixo de 1 mm. Do dia 14 ao 16, o tempo abre novamente com calor forte, máximas chegando a 36°C e mínimas caindo até 15°C na quarta e quinta. Vento forte esperado na quarta e quinta, com rajadas acima de 45 km/h. Semana seca no geral, sem frente fria nem massa de ar frio significativa. PREÇO: Soja em Goiás cotada a R$ 108,50 a saca de 60 kg, referência Jataí.",
  "pontos": [
-  "Entressafra confirmada: sem colheita ou plantio em andamento na região",
-  "Sete dias seguidos sem chuva e mais uma semana seca pela frente — atenção ao manejo de pastagens e irrigação",
-  "Domingo, dia 12: vento forte (45 km/h) e leve chance de chuva — monitore estruturas e equipamentos expostos"
+  "Entressafra: sem operações de colheita ou plantio de soja no momento",
+  "Vento forte na quarta (15/07) e quinta (16/07), rajadas acima de 45 km/h: atenção para estruturas, silos e secadores",
+  "Temperaturas mínimas baixas entre 15°C e 17°C ao longo da semana: monitorar pastagens e culturas sensíveis ao frio"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:48:18+00:00",
+  "clima": "2026-07-10T12:17:04+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-06-17"
  }

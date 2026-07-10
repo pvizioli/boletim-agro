@@ -1,16 +1,16 @@
 {
  "distrito_id": "ibiruba_soja",
  "nome": "IBIRUBA-SOJA",
- "gerado_em": "2026-07-07T00:28:38+00:00",
+ "gerado_em": "2026-07-10T20:02:04+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Hoje, 7 de julho, o frio chegou de vez em Ibirubá e região: mínima de 0,6°C com risco real de geada esta madrugada e também na quinta-feira (8). O dia está seco e com vento, solo firme. A janela seca se estende até sexta (10), quando uma chuva de cerca de 3,6 mm deve aparecer, seguida de chuva mais expressiva no sábado (11), podendo chegar a 11 mm. De domingo em diante o tempo melhora, mas o solo pode estar úmido. A semana toda fica fria, com máximas não passando de 20°C. Soja na entressafra: foco total no clima e no mercado. A saca está sendo negociada a R$ 129,00 (Grão Direto, Centro Ocidental RS, 03/07).",
+ "texto": "Hoje, 10 de julho, a região de Ibirubá está com chuva forte — 33,5 mm registrados e probabilidade de 100%. O solo está encharcado e não há janela de trabalho aberta. Amanhã, dia 11, a chuva continua com mais 10 mm esperados. No domingo, dia 12, uma massa de ar frio chega com vento forte e temperatura caindo para 5°C, ainda com possibilidade de chuva fraca. A partir de segunda-feira, dia 13, o tempo abre: os dias 13, 14 e 15 ficam secos, com o solo começando a drenar. Atenção: na segunda-feira, dia 14, a mínima cai para 2,7°C — risco real de geada para pastagens e culturas sensíveis. A janela seca se estende até quarta, dia 15. A soja está em entressafra. A saca está cotada a R$ 129,00 no RS.",
  "pontos": [
-  "Geada hoje (7/jul) e amanhã (8/jul): risco para pastagens e culturas sensíveis na região de Ibirubá",
-  "Janela seca aberta até sexta (10/jul) à tarde — aproveite para qualquer operação de campo necessária",
-  "Chuva chega na sexta à noite e se intensifica no sábado (11/jul), com até 11 mm previstos"
+  "Solo encharcado hoje e amanhã: evite qualquer tráfego de máquinas na lavoura até domingo",
+  "Massa de ar frio chega no domingo, dia 12, com vento forte e queda brusca de temperatura",
+  "Geada na segunda-feira, dia 14: mínima de 2,7°C — risco para pastagens e culturas sensíveis expostas"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:49:23+00:00",
+  "clima": "2026-07-10T12:17:07+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

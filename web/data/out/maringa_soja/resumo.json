@@ -1,16 +1,16 @@
 {
  "distrito_id": "maringa_soja",
  "nome": "MARINGA-SOJA",
- "gerado_em": "2026-07-07T00:30:14+00:00",
+ "gerado_em": "2026-07-10T20:03:49+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "SITUAÇÃO ATUAL: Hoje, 7 de julho, o tempo abriu depois da chuva de ontem (7,7 mm). Céu mais limpo, temperatura caindo para mínima de 8,8°C e vento moderado. Solo ainda absorvendo a umidade de ontem, mas sem encharcamento. PRÓXIMOS DIAS: Quarta e quinta (8 e 9) seguem secas e frescas, com mínimas próximas de 5°C na quarta — atenção ao frio na madrugada. Sexta e sábado (10 e 11) o calor volta, mas na sexta à noite e sábado a chuva chega com força: até 18,8 mm no sábado e 32,6 mm no domingo, com rajadas fortes de vento no sábado. A janela seca vai até sexta de manhã. ENTRESSAFRA: Safra encerrada e nova safra ainda não começou. Soja em Paranaguá cotada a R$ 128,50/sc.",
+ "texto": "HOJE (10/jul) o tempo está seco e aberto em Maringá, com sol forte e vento moderado — boa janela para trabalhos de campo. AMANHÃ (11/jul) a situação muda: chega chuva certa, com até 18 mm e rajadas fortes de vento, seguida de mais chuva no domingo (12/jul) com cerca de 10 mm. A partir de segunda-feira (13/jul) o tempo fecha o torneirão: quatro dias seguidos sem chuva prevista, mínimas caindo para perto de 6°C na segunda e terça. O frio chega junto com a massa de ar frio que entra após a chuva do fim de semana — atenção para pastagens e culturas sensíveis expostas nesse período. A soja está em entressafra, safra nova ainda não começou. Saca a R$ 128,50 em Paranaguá (PR), referência de 17/jun.",
  "pontos": [
-  "Janela seca aberta até sexta (10) de manhã — aproveite para manutenção de máquinas e preparo de área",
-  "Madrugada de quarta (8) com mínima de 5,3°C: atenção a culturas sensíveis ao frio no campo",
-  "Sábado (11) com rajadas de até 54 km/h e chuva forte: evite trabalhos externos e recolha equipamentos"
+  "Janela de trabalho aberta HOJE (10/jul): aproveite o dia seco antes da chuva de amanhã",
+  "Chuva chega na manhã de sábado (11/jul) com rajadas fortes — recolha equipamentos e evite operações a campo",
+  "Massa de ar frio entra a partir de segunda (13/jul): mínimas perto de 6°C até terça — risco para pastagens e culturas sensíveis"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:50:37+00:00",
+  "clima": "2026-07-10T12:18:20+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

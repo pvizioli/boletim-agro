@@ -1,16 +1,16 @@
 {
  "distrito_id": "itapeva_soja",
  "nome": "ITAPEVA-SOJA",
- "gerado_em": "2026-07-07T00:29:10+00:00",
+ "gerado_em": "2026-07-10T20:02:40+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "HOJE (07/07) a chuva chega com força — quase 4 mm previstos e vento em rajadas de até 44 km/h. O solo, que já recebeu 1 mm ontem, vai entrar o dia encharcado. A partir de AMANHÃ (08/07) o tempo vira: massa de ar frio derruba as mínimas para 4°C na quarta e 4,5°C na quinta, mas o céu abre e começa uma janela seca que vai até sexta (10/07) com sol e sem chuva. No fim de semana o risco volta: sábado (11/07) já aparece chance de chuva de 57% e domingo (12/07) chega com 12 mm previstos e rajadas de 60 km/h, indicando nova frente. Estamos em entressafra — nenhuma lavoura de soja no campo. Atenção apenas para pastagens e culturas de inverno que ficam expostas às mínimas de 4°C na quarta e quinta.",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 10 de julho, o dia está seco e com vento moderado em Itapeva. O solo segue em condição normal para o inverno, sem excesso de umidade. Janela de trabalho aberta. PRÓXIMOS DIAS: A chuva chega já amanhã, sábado dia 11, com boa probabilidade e rajadas fortes de vento. O pico da chuva fica para domingo, dia 12, com até 20 mm previstos e vento em torno de 46 km/h. Na segunda, dia 13, o tempo vira com ar mais frio entrando — mínima cai para 6°C na terça, dia 14. De quarta, dia 15, em diante o tempo abre e a semana termina seca e mais quente. ENTRESSAFRA: Distrito em entressafra. Atenção para as mínimas de 6°C na segunda e terça — risco para pastagens e culturas sensíveis ao frio.",
  "pontos": [
-  "Chuva e vento forte hoje (07/07): evite qualquer operação de campo",
-  "Janela seca abre amanhã (08/07) e vai até sexta (10/07): aproveite para manutenção de máquinas e infraestrutura",
-  "Mínimas de 4°C na quarta e quinta: risco para pastagens e culturas sensíveis ao frio"
+  "Chuva chega sábado (11) e domingo (12): até 20 mm e rajadas fortes — evite trabalhos de campo nesses dias",
+  "Massa de ar frio entra na segunda (13): mínimas caem a 6°C na terça (14), risco de geada leve para pastagens e culturas sensíveis",
+  "Janela seca reabre na quarta (15) e segue até o fim da semana — bom período para manutenção de máquinas e infraestrutura"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:50:32+00:00",
+  "clima": "2026-07-10T12:18:14+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

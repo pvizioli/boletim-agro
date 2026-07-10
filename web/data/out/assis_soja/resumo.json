@@ -1,16 +1,16 @@
 {
  "distrito_id": "assis_soja",
  "nome": "ASSIS-SOJA",
- "gerado_em": "2026-07-07T00:25:25+00:00",
+ "gerado_em": "2026-07-10T19:58:50+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "SITUAÇÃO ATUAL: Julho seco em Assis. Ontem e hoje caíram menos de 2 mm no total, o solo está seco e o tempo abre bem para qualquer operação de campo. Vento mais forte hoje, até 42 km/h, mas sem impedimento. PRÓXIMOS DIAS: Quarta e quinta seguem sem chuva e com temperatura subindo até 30 °C — janela seca firme. Na sexta à noite uma massa de ar mais frio chega com vento forte (rajadas de 46 km/h) e eleva a chance de chuva. No sábado a chuva se confirma, podendo chegar a 9,3 mm com rajadas de 58 km/h — solo pode ficar úmido no fim de semana. Mínimas caem para perto de 9 °C na quarta e quinta: atenção com pastagens sensíveis ao frio. COLHEITA: Distrito em entressafra — safra anterior encerrada e nova safra ainda não começou.",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 10 de julho, o tempo está seco e aberto na região de Assis, com temperatura máxima de quase 30°C e sem chuva. O solo está em condição normal para o inverno, sem encharcamento. PRÓXIMOS DIAS: Amanhã, sábado, há chance de chuva fraca (até 1,7 mm) com vento mais forte chegando a 53 km/h — atenção nas estruturas. No domingo, uma massa de ar mais úmido traz a chuva mais expressiva da semana, podendo chegar a 13,5 mm. A partir de segunda-feira, o tempo abre de vez e uma sequência de pelo menos quatro dias secos se instala até quinta ou além, com mínimas caindo para perto de 9°C na terça e quarta. Aproveite essa janela seca para manutenção de máquinas e infraestrutura. COLHEITA: Distrito em entressafra — safra anterior encerrada e nova safra ainda não iniciada.",
  "pontos": [
-  "Janela seca aberta até sexta de manhã: aproveite para preparo de solo, aplicações e manutenção de máquinas",
-  "Frente chega na sexta à noite com vento forte (até 46 km/h) e chuva prevista no sábado — encerre operações externas até sexta ao meio-dia",
-  "Mínimas de 8,7 °C na quarta e 9,1 °C na quinta: risco de frio para pastagens e mudas sensíveis na região"
+  "Chuva de até 13,5 mm prevista para domingo (12/07): programe atividades externas para antes ou após esse dia",
+  "A partir de segunda (13/07), janela seca de pelo menos quatro dias: ideal para manutenção de máquinas e equipamentos",
+  "Mínimas caindo para 9°C entre terça e quarta (14 e 15/07): atenção com pastagens e culturas sensíveis ao frio"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:45:48+00:00",
+  "clima": "2026-07-10T12:14:29+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

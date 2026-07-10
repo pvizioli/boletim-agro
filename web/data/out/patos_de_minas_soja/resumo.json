@@ -1,16 +1,16 @@
 {
  "distrito_id": "patos_de_minas_soja",
  "nome": "PATOS DE MINAS-SOJA",
- "gerado_em": "2026-07-07T00:31:10+00:00",
+ "gerado_em": "2026-07-10T20:04:46+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Patos de Minas está em plena entressafra da soja, com tempo firme e seco dominando a região. Hoje, terça-feira, o dia começa frio pela manhã, com mínima de 13,8°C, e aquece bem durante o dia, chegando a 30°C. O solo está seco há pelo menos uma semana sem chuva relevante, e a previsão não muda: de quarta a sábado, zero chuva, calor na casa dos 30°C e noites frescas entre 13 e 14°C. O único sinal de mudança aparece no domingo, dia 12, quando a probabilidade de chuva sobe para 34% e o vento ganha força, indicando uma possível virada do tempo no fim de semana. Aproveite a janela seca desta semana para manutenção de máquinas, preparo de solo e qualquer serviço de campo que dependa de tempo firme. Soja em MG está cotada a R$ 113,00 a saca.",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 10 de julho, o tempo em Patos de Minas está seco e com vento moderado. O solo está secando bem após o inverno, sem chuva nos últimos dias. Janela de trabalho aberta para qualquer operação de campo. PRÓXIMOS DIAS: Sexta (10) e sábado (11) seguem secos e quentes, até 30-32°C. No domingo (12) o vento gira e aumenta, sinalizando mudança. Na segunda (13) chega chuva com 90% de chance e até 5,3 mm — passagem rápida de frente. A partir de terça (14) o tempo abre de novo, mas as mínimas caem para 9-10°C até quinta (16). Fique atento às madrugadas frias. ENTRESSAFRA: Safra anterior encerrada. Soja nova ainda não começou. Preço de referência em MG: R$ 113,00 a saca.",
  "pontos": [
-  "Semana inteira seca: janela de trabalho aberta de quarta a sábado sem risco de chuva",
-  "Noites frias com mínimas entre 13 e 14°C até sábado: atenção a culturas sensíveis ao frio que estejam no campo",
-  "Domingo, dia 12: vento forte e probabilidade de chuva de 34% indicam possível virada do tempo, fique atento"
+  "Janela seca aberta hoje até domingo: aproveite para manutenção de máquinas e preparo de solo",
+  "Chuva chega na segunda (13) com 90% de chance — evite aplicações de defensivos no domingo à tarde e na segunda",
+  "Mínimas caem para 9°C entre terça e quinta: atenção a pastagens e mudas sensíveis em viveiro"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:51:43+00:00",
+  "clima": "2026-07-10T12:19:27+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-05-06"
  }

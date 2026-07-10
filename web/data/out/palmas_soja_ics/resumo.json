@@ -1,16 +1,16 @@
 {
  "distrito_id": "palmas_soja_ics",
  "nome": "PALMAS-SOJA/ICS",
- "gerado_em": "2026-07-07T00:30:25+00:00",
+ "gerado_em": "2026-07-10T20:03:59+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Palmas e região estão em plena seca de inverno. Hoje, terça-feira, o céu segue aberto, sol forte e temperatura chegando a 36°C, sem nenhuma chuva. O solo está seco e a evaporação está alta, passando de 5,9 mm por dia. Essa condição se mantém firme até quarta e quinta, com zero chance de chuva. A partir de quinta à noite e sexta, uma leve possibilidade de chuva aparece, mas os volumes previstos são mínimos, no máximo 1,8 mm em toda a semana nos 26 municípios monitorados. No fim de semana, sábado e domingo, a chance de chuva sobe um pouco mais, mas ainda sem volume expressivo. Não há alertas ativos do INMET para a região. O campo está em entressafra, com a safra anterior encerrada e a nova ainda sem início.",
+ "texto": "SITUAÇÃO ATUAL: Palmas e região estão em plena entressafra da soja. Hoje, sexta-feira (10/07), o calor segue firme com máxima de 34,6°C e vento forte de até 41 km/h. Chuva fraca de 1 mm não muda o quadro seco. PRÓXIMOS DIAS: O calor continua forte até sexta (17/07), com máximas entre 35 e 37°C. A semana toda fica seca, com chuvas insignificantes até sexta-feira (15/07), quando chega uma pancada mais expressiva de até 11,4 mm com rajadas de vento de quase 59 km/h — atenção para estruturas e equipamentos. O vento forte e o calor intenso estão secando o solo rapidamente, com evaporação média de quase 6 mm por dia. Sem alertas ativos do INMET para a região.",
  "pontos": [
-  "Seca prolongada: sete dias seguidos sem chuva e solo muito seco em toda a região",
-  "Evaporação alta acima de 5,7 mm por dia: atenção ao manejo de irrigação e pastagens",
-  "Chuva fraca possível a partir de sexta e no fim de semana, mas volumes abaixo de 2 mm, sem alívio real para o solo"
+  "Entressafra em curso: sem operações de colheita ou plantio de soja no momento",
+  "Calor intenso e vento forte até sexta (15/07): evaporação alta, solo perdendo umidade rápido",
+  "Pancada prevista na quarta-feira (15/07) com rajadas de até 59 km/h: recolha equipamentos e proteja estruturas"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:50:38+00:00",
+  "clima": "2026-07-10T12:18:21+00:00",
   "colheita": "2026-06-11",
   "preco": null
  }

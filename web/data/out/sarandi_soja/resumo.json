@@ -1,16 +1,16 @@
 {
  "distrito_id": "sarandi_soja",
  "nome": "SARANDI-SOJA",
- "gerado_em": "2026-07-07T00:33:56+00:00",
+ "gerado_em": "2026-07-10T20:07:27+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "SITUAÇÃO ATUAL: Hoje, 7 de julho, o dia está frio e seco em Sarandi. A mínima chegou a 0,3°C, com risco real de geada esta madrugada e amanhã cedo (8/jul), quando a mínima prevista é de -0,2°C. Solo ainda com alguma umidade da chuva de ontem (4,2 mm), mas drenando com o tempo aberto e vento moderado. PRÓXIMOS DIAS: Quarta (8) e quinta (9) seguem secos e frios, com geada possível nas madrugadas. Sexta (10) o tempo começa a mudar: chegam nuvens e chuva moderada (até 7,8 mm). Sábado (11) é o dia mais crítico da semana, com chuva forte prevista — até 36,5 mm — e temperaturas mais amenas. Domingo (12) o tempo melhora. COLHEITA: Distrito em entressafra. Soja em RS está cotada a R$ 129,00/sc 60kg (Grão Direto, 03/jul).",
+ "texto": "Hoje e amanha o tempo fecha com chuva forte e vento: hoje já caíram 55 mm e amanhã vêm mais 74 mm previstos, com praticamente 100% de chance de chuva. O solo está encharcado e não há janela de trabalho aberta. A partir de domingo o tempo vira: a chuva para, o frio chega com mínimas perto de 3 a 4 graus na segunda e terça, e o sol aparece. De domingo até quinta a semana fica seca, com máximas subindo até 28 graus na quinta. Atenção para as mínimas baixas de segunda e terça, que podem causar geada nas áreas mais frias da região, colocando pastagens em risco. O distrito está em entressafra. Soja em RS está cotada a R$ 129,00 a saca, conforme referência de 03 de julho.",
  "pontos": [
-  "Geada nas madrugadas de hoje (7/jul) e amanhã (8/jul): risco para pastagens e culturas sensíveis em campo",
-  "Janela seca vai até quinta (9/jul): aproveite para manutenção de máquinas e preparo de área",
-  "Chuva forte chega no sábado (11/jul), com até 36,5 mm previstos: evite movimentação de solo e aplicações nesse dia"
+  "Solo encharcado hoje e amanhã: evite qualquer tráfego de máquinas na lavoura até domingo",
+  "Chuva encerra no sábado: janela seca se abre a partir de domingo e vai até pelo menos quinta",
+  "Mínimas de 3 a 4 graus na segunda e terça: risco de geada nas baixadas, atenção às pastagens"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:52:56+00:00",
+  "clima": "2026-07-10T12:21:47+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

@@ -1,16 +1,16 @@
 {
  "distrito_id": "palotina_soja",
  "nome": "PALOTINA-SOJA",
- "gerado_em": "2026-07-07T00:30:37+00:00",
+ "gerado_em": "2026-07-10T20:04:11+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Hoje, 7 de julho, o tempo está fechado e frio em Palotina, com máxima de apenas 17,9°C e vento moderado. A chuva de ontem (3,6 mm) foi fraca e o solo segue em condição normal para o inverno. A semana abre uma boa janela seca: quarta e quinta ficam sem chuva e com temperaturas subindo até 24–26°C, ótimo para qualquer serviço de campo. Na sexta a probabilidade de chuva já sobe, e no sábado chega uma chuva mais forte, com previsão de 28,5 mm e rajadas de vento acima de 40 km/h — sinal de frente passando. O domingo ainda pode ter chuva residual (9,9 mm). A temperatura mínima da semana chega a 4°C na quarta-feira: atenção para pastagens e culturas sensíveis. Soja em entressafra. Preço da saca em Paranaguá: R$ 128,50 (ref. 17/06).",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 10 de julho, o tempo está aberto em Palotina, com chuva insignificante e temperatura agradável. Solo sem excesso de umidade, boa janela para qualquer operação de campo. PRÓXIMOS DIAS: Amanhã, sábado dia 11, chega uma frente fria com chuva forte — até 40 mm previstos e vento em rajadas. No domingo o tempo ainda fica instável com chuva fraca. A partir de segunda-feira, dia 13, o tempo abre de vez e a semana segue seca até pelo menos quinta, dia 16, com temperaturas mínimas baixando a 7°C entre segunda e terça. Depois da chuva de sábado, o solo vai precisar de um ou dois dias para drenar antes de qualquer trabalho mais pesado. COLHEITA: Distrito em entressafra — safra anterior encerrada e nova safra ainda não iniciada. Soja em PR cotada a R$ 128,50/sc em Paranaguá.",
  "pontos": [
-  "Janela seca de quarta (08/07) a quinta (09/07): aproveite para manutenção de máquinas, estradas e serviços de campo",
-  "Sábado (11/07) traz chuva forte (~28,5 mm) com rajadas acima de 40 km/h — evite operações externas a partir de sexta à tarde",
-  "Mínima de 4°C na madrugada de quarta (08/07): risco para pastagens e plantas sensíveis ao frio"
+  "Frente fria chega sábado dia 11 com até 40 mm e rajadas fortes: evite operações de campo no sábado",
+  "Solo encharcado no domingo: aguarde drenagem antes de entrar com máquinas — retomada mais segura a partir de segunda-feira dia 13",
+  "Mínimas de 7°C entre segunda e terça: fique atento a pastagens e culturas de inverno sensíveis ao frio"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:50:38+00:00",
+  "clima": "2026-07-10T12:19:25+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

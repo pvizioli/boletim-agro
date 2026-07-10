@@ -1,16 +1,16 @@
 {
  "distrito_id": "cornelio_procop_soja",
  "nome": "CORNELIO PROCOP-SOJA",
- "gerado_em": "2026-07-07T00:27:12+00:00",
+ "gerado_em": "2026-07-10T20:00:34+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "SITUAÇÃO ATUAL: Hoje, 7 de julho, o tempo está firme em Cornélio Procópio, com chuva insignificante (0,3 mm) e solo em processo de secagem após a garoa dos últimos dias. Janela de trabalho aberta para operações de campo. PRÓXIMOS DIAS: De quarta (8) a sexta (10) temos sequência seca, com mínimas baixas chegando a 4,5°C na quarta — atenção ao frio. No sábado (11) o tempo vira: chuva de 9,5 mm com rajadas fortes de vento, e no domingo (12) chegam mais 18,9 mm. A janela seca fecha na sexta à noite. COLHEITA: Distrito em entressafra — safra anterior encerrada e nova safra ainda não começou. Soja em PR cotada a R$ 128,50/sc em Paranaguá (referência de 17/06).",
+ "texto": "Hoje, sexta-feira (10/07), o tempo está aberto e seco em Cornélio Procópio, com máxima de 27°C e vento moderado. Aproveite o dia. Amanhã, sábado (11/07), chega uma massa de ar úmido com chuva forte e rajadas de até 60 km/h — atenção redobrada. A chuva continua no domingo (12/07), com mais 12 mm previstos e solo encharcado ao final do fim de semana. A partir de segunda (13/07), o tempo vira: massa de ar frio entra, temperaturas caem forte — mínima de 3,9°C na segunda e terça — e o céu abre. De quarta (15/07) em diante, janela seca e firme até o fim da semana, com sol e solo drenando. Estamos em entressafra: soja nova ainda não começou. Saca da soja em Paranaguá cotada a R$ 128,50 (referência 17/06).",
  "pontos": [
-  "Janela seca de quarta (8) a sexta (10): aproveite para manutenção de máquinas e preparo de solo",
-  "Frio na quarta (8): mínima de 4,5°C — monitore pastagens e culturas sensíveis ao frio",
-  "Sábado (11) e domingo (12): chuva forte com rajadas de até 51 km/h — evite trabalhos de campo"
+  "Hoje é o último dia seco antes da chuva: resolva o que puder no campo ainda nesta sexta",
+  "Sábado e domingo com chuva e rajadas de até 60 km/h — evite trabalho externo e recolha equipamentos",
+  "Massa de ar frio entra na segunda (13/07): mínimas perto de 4°C na segunda e terça — atenção com pastagens e culturas sensíveis"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:48:12+00:00",
+  "clima": "2026-07-10T12:15:55+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

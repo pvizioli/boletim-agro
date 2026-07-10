@@ -1,16 +1,16 @@
 {
  "distrito_id": "jatai_soja",
  "nome": "JATAI-SOJA",
- "gerado_em": "2026-07-07T00:29:21+00:00",
+ "gerado_em": "2026-07-10T20:02:50+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Jataí e região estão em plena entressafra, com tempo firme e seco dominando a semana. Hoje o dia começa com mínima de 14°C e máxima de 28°C, sem chuva relevante. O solo está seco há pelo menos sete dias seguidos, e a evaporação está alta, passando de 4 mm por dia. De amanhã, quarta, até sexta, o tempo segue aberto, seco e quente, com máximas chegando a 30°C. No sábado o vento gira e aumenta, chegando a rajadas de 42 km/h, e a probabilidade de chuva sobe para 50% — sinal de mudança chegando no fim de semana. A soja está em entressafra, então o foco agora é gestão de pastagens e planejamento da próxima safra. Preço da saca em GO: R$ 108,50.",
+ "texto": "Hoje, 10 de julho, o tempo está seco e com vento moderado na região de Jataí. O solo está em condição adequada para trabalhos de campo, com janela aberta. Amanhã, sábado, segue seco. No domingo, dia 12, chega umidade com chance de chuva fraca (até 2,5 mm), e na segunda, dia 13, a probabilidade sobe para 71% com mais 3 mm previstos — sinal de frente fria passando pela região. A partir de terça, dia 14, o tempo abre novamente e segue seco até o fim da semana, com temperaturas mínimas caindo para perto de 13°C na terça e quarta. A soja está em entressafra, safra nova ainda não começou. A saca de soja em GO está cotada a R$ 108,50.",
  "pontos": [
-  "Sete dias sem chuva: solo seco, condição favorável para manutenção de máquinas e infraestrutura de fazenda",
-  "Evaporação alta a semana toda — atenção ao estresse hídrico em pastagens e culturas de inverno irrigadas",
-  "Sábado com vento forte (até 42 km/h) e 50% de chance de chuva: sinal de mudança de tempo no fim de semana"
+  "Janela seca aberta hoje e amanhã: bom momento para manutenção de máquinas e preparo de área",
+  "Domingo e segunda com chuva fraca e frente passando: evite operações de campo nesses dois dias",
+  "Terça e quarta com mínimas em torno de 13°C após a frente: atenção para pastagens e culturas sensíveis ao frio"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:50:32+00:00",
+  "clima": "2026-07-10T12:18:15+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-06-17"
  }

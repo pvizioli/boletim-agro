@@ -1,16 +1,16 @@
 {
  "distrito_id": "pelotas_soja",
  "nome": "PELOTAS-SOJA",
- "gerado_em": "2026-07-07T00:31:20+00:00",
+ "gerado_em": "2026-07-10T20:04:58+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Hoje, 7 de julho, o tempo abriu depois da chuva de ontem (3,1 mm). O solo está drenando, mas a temperatura mínima chegou a 2,3 °C — risco de geada esta madrugada, especialmente em baixadas. Vento forte de oeste ainda sopra, mas o céu está limpo e a janela de trabalho está aberta. De amanhã, quarta, até quinta (8 e 9/07), o tempo segue seco e as máximas sobem até 20,8 °C — melhor janela da semana para qualquer operação de campo. A partir de sexta (10/07), o vento muda de direção e a chance de chuva aumenta gradualmente, com 1,8 mm previstos no sábado (11/07). Volumes pequenos, mas o tempo fecha. Quanto ao preço, a saca de soja está cotada a R$ 129,00 em RS (Grão Direto, 03/07).",
+ "texto": "Hoje, 10 de julho, o tempo está parcialmente nublado com chuva fraca e vento moderado em Pelotas. O solo ainda está em condição razoável, sem encharcamento relevante. Amanhã, sábado, e no domingo chegam chuvas mais expressivas — cerca de 15 a 13 mm respectivamente — com vento forte e queda de temperatura, chegando a 13°C de máxima no domingo. A partir de segunda-feira, 13, o tempo melhora rapidamente: segunda e terça ficam secas, com mínimas baixas, chegando a 5,8°C na terça. Quinta-feira, 16, nova chuva chega com força — até 20 mm previstos e rajadas de vento intensas. A janela seca entre segunda e quarta é a melhor oportunidade da semana para qualquer operação de campo. Soja em entressafra: preço em R$ 129/sc em RS, referência de 3 de julho.",
  "pontos": [
-  "Geada hoje (07/07): mínima de 2,3 °C — atenção a pastagens e culturas sensíveis em baixadas",
-  "Janela seca aberta hoje até quinta (09/07): aproveite para operações de campo com solo drenando",
-  "A partir de sexta (10/07) o tempo começa a fechar; sábado tem previsão de chuva fraca (1,8 mm)"
+  "Chuva de sábado a domingo (15 a 13 mm): evite operações de campo nesses dois dias",
+  "Janela seca abre na segunda-feira, 13, e vai até quarta, 15 — aproveite para manutenção de máquinas e preparo de área",
+  "Mínimas de 5,8°C na terça, 14: atenção a pastagens e culturas sensíveis ao frio"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:51:44+00:00",
+  "clima": "2026-07-10T12:19:28+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-07-03"
  }

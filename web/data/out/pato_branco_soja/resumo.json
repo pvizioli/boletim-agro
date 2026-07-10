@@ -1,16 +1,16 @@
 {
  "distrito_id": "pato_branco_soja",
  "nome": "PATO BRANCO-SOJA",
- "gerado_em": "2026-07-07T00:30:59+00:00",
+ "gerado_em": "2026-07-10T20:04:34+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Hoje, 7 de julho, o tempo abriu após a chuva de ontem (11,7 mm), mas o frio chegou junto: mínima de 1,9 °C com risco de geada esta madrugada e amanhã cedo (mínima de 0,1 °C na quarta). Solo ainda úmido drenando. A janela seca se mantém quarta e quinta, com temperaturas subindo até 24 °C na quinta. Na sexta o tempo vira: chuva de 5,8 mm à tarde abre caminho para um evento mais forte no sábado, com previsão de até 69,9 mm e rajadas de 47 km/h — massa de ar frio chegando pelo noroeste. Domingo ainda pode pingar mais 8 mm. Estamos em entressafra, sem operações de campo em andamento. Soja em Paranaguá está cotada a R$ 128,50/sc (referência de 17/06).",
+ "texto": "Hoje, sexta-feira (10/07), o dia começa com chuva fraca e vento forte, solo já úmido. Amanhã, sábado (11/07), chega o pico da chuva: até 44 mm previstos com 100% de probabilidade, vento de noroeste e solo encharcando. No domingo (12/07) ainda há chance de garoa isolada, mas a partir de segunda-feira (13/07) o tempo vira: massa de ar frio entra, céu abre e começa uma janela seca que se estende até quinta (16/07) pelo menos. Atenção: na segunda e terça as mínimas chegam a 2,5 °C e 3,4 °C, risco real de geada nas áreas mais baixas. O sol forte de quarta em diante vai ajudar o solo a drenar. Soja em entressafra na região. Preço da saca em R$ 128,50 (Paranaguá, referência de 17/06).",
  "pontos": [
-  "Geada hoje à noite e amanhã cedo: mínimas de 1,9 °C e 0,1 °C — atenção a pastagens e culturas sensíveis na região de Pato Branco",
-  "Janela seca aberta de quarta (08/07) a quinta (09/07): aproveite para manutenção de máquinas e infraestrutura",
-  "Chuva forte chega no sábado (11/07), com previsão de até 70 mm e rajadas de 47 km/h — reforce estruturas e drenos antes da sexta"
+  "Chuva intensa no sábado (11/07): até 44 mm, solo vai encharcar — evite qualquer tráfego pesado na lavoura",
+  "Geada possível na segunda (13/07): mínima de 2,5 °C — risco para pastagens e culturas sensíveis nas baixadas",
+  "Janela seca abre na segunda (13/07) e vai até pelo menos quinta (16/07) — aproveite para manutenção de máquinas e preparo de solo"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:51:43+00:00",
+  "clima": "2026-07-10T12:19:26+00:00",
   "colheita": "2026-05-25",
   "preco": "2026-06-17"
  }

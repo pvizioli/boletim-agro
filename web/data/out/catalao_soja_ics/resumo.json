@@ -1,16 +1,16 @@
 {
  "distrito_id": "catalao_soja_ics",
  "nome": "CATALAO-SOJA & ICS",
- "gerado_em": "2026-07-07T00:26:45+00:00",
+ "gerado_em": "2026-07-10T20:00:09+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "SITUAÇÃO ATUAL: Julho seco e quente em Catalão e região. Sem chuva nos últimos dias e solo bem drenado, com ventos moderados hoje. A semana toda segue assim: sete dias consecutivos sem chuva relevante, temperaturas máximas entre 28 e 32°C e mínimas em torno de 14 a 17°C. PRÓXIMOS DIAS: De hoje até domingo o tempo fica aberto e seco. Na sexta (10/07) há uma chance pequena de chuva isolada, menos de 1 mm, sem impacto prático. No domingo (12/07) o vento aumenta bastante, com rajadas previstas fortes, e a probabilidade de chuva sobe um pouco, mas ainda baixa. Nada que mude o cenário seco da semana. PREÇO: Soja em GO cotada a R$ 108,50 a saca, referência de Jataí.",
+ "texto": "SITUAÇÃO ATUAL: Hoje, 10 de julho, o tempo está seco e ensolarado no distrito Catalão. Sem chuva nos últimos dias, o solo está perdendo umidade rápido com o calor e o vento forte. Janela de trabalho totalmente aberta. PRÓXIMOS DIAS: De hoje até quarta (12), tempo firme, quente, com rajadas de vento aumentando. Na segunda-feira (13) chega uma perturbação com 77% de chance de chuva e até 1,2 mm previstos — pouco, mas o vento forte (42 km/h) pode atrapalhar operações de campo. De terça (14) em diante, tempo abre novamente com mínimas caindo para 13°C na quarta (15), trazendo noites e madrugadas frias. Semana segue predominantemente seca. COLHEITA: Distrito em entressafra — safra anterior encerrada, nova safra ainda não começou. Soja em GO cotada a R$ 108,50/sc.",
  "pontos": [
-  "Semana inteiramente seca: sete dias sem chuva relevante prevista na região",
-  "Domingo (12/07): rajadas de vento fortes esperadas, atenção a estruturas e instalações no campo",
-  "Sexta (10/07): chance mínima de chuva isolada, sem impacto operacional"
+  "Segunda-feira (13): única janela de chuva da semana, 77% de chance — evite pulverizações e operações sensíveis nesse dia",
+  "Vento forte de quarta a domingo (12 a 16), rajadas acima de 40 km/h: atenção para aplicações de defensivos e movimentação de grãos a granel",
+  "Mínimas caindo para 13°C na quarta e quinta (15-16): fique atento às pastagens e culturas sensíveis ao frio nessas madrugadas"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:47:07+00:00",
+  "clima": "2026-07-10T12:15:53+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-06-17"
  }

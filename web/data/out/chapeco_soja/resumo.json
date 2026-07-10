@@ -1,16 +1,16 @@
 {
  "distrito_id": "chapeco_soja",
  "nome": "CHAPECO-SOJA",
- "gerado_em": "2026-07-07T00:26:56+00:00",
+ "gerado_em": "2026-07-10T20:00:21+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Ontem choveu quase 10 mm em Chapecó e região, então o solo ainda está úmido. Hoje o tempo abre com baixa chance de chuva, mas o frio é sério: mínima de 0,1 °C e risco de geada. Amanhã, quarta, e quinta o céu fica aberto e seco, com mínimas negativas na quarta (-1,3 °C) e frias na quinta — três dias seguidos com risco de geada. Na sexta a chuva volta com força: 18 mm previstos, e no sábado chegam até 62 mm, com vento forte. Domingo ainda pode chover mais 6 mm. A semana fecha úmida e fria, com o solo encharcando novamente no fim de semana. Estamos em entressafra da soja: acompanhe o tempo pensando nas pastagens e culturas de inverno que estão no campo agora.",
+ "texto": "HOJE e AMANHA o tempo está fechado em Chapecó e região: chuva forte com mais de 50 mm hoje e outros 63 mm previstos para amanhã, vento em rajadas de até 50 km/h e solo encharcado. Na SEXTA o tempo começa a abrir com chuva residual fraca, e a partir de DOMINGO o sol volta com força, abrindo uma janela seca que vai até pelo menos QUINTA da semana que vem, com temperaturas subindo até 28°C. Atenção: na SEGUNDA e TERÇA as mínimas caem para perto de 2°C, com risco real de geada nas áreas mais baixas e abertas da região. Pastagens e qualquer cultura sensível no campo ficam expostas nessas duas noites. Aproveite a janela seca de domingo em diante para serviços de manutenção e preparo, mas fique de olho na geada.",
  "pontos": [
-  "Geada hoje à noite e nas madrugadas de quarta e quinta: risco real para pastagens e culturas sensíveis em toda a região",
-  "Janela seca de hoje até quinta: aproveite para serviços de campo que precisam de solo firme",
-  "Chuva forte chega na sexta com até 62 mm no sábado — solo vai encharcar no fim de semana"
+  "Solo encharcado hoje e amanhã: evite tráfego de máquinas pesadas para não compactar",
+  "Geada provável na Segunda (13/07) e Terça (14/07): risco para pastagens e culturas sensíveis a frio",
+  "Janela seca abre no Domingo (12/07) e segura até pelo menos Quinta (16/07): bom período para serviços de campo"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:48:11+00:00",
+  "clima": "2026-07-10T12:15:54+00:00",
   "colheita": "2026-05-01",
   "preco": null
  }

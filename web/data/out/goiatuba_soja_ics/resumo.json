@@ -1,16 +1,16 @@
 {
  "distrito_id": "goiatuba_soja_ics",
  "nome": "GOIATUBA-SOJA/ICS",
- "gerado_em": "2026-07-07T00:28:18+00:00",
+ "gerado_em": "2026-07-10T20:01:41+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Goiatuba está em plena entressafra da soja, com tempo seco e quente dominando a região. Hoje, 7 de julho, o sol aparece forte, mínima de 14°C e máxima de 30°C, vento mais firme chegando a 42 km/h. O solo está seco há pelo menos 7 dias seguidos, sem nenhuma chuva relevante prevista para a semana. De quarta a sábado o calor aumenta progressivamente, chegando a 35°C no sábado, dia 12. Nesse mesmo sábado a probabilidade de chuva sobe para 35%, sinal de que uma mudança de tempo se aproxima no fim de semana, mas ainda sem garantia de volume. A saca da soja em Goiás está cotada a R$ 108,50.",
+ "texto": "SITUAÇÃO ATUAL: Goiatuba está em plena seca de inverno. Hoje, 10 de julho, sem chuva e solo seco, com temperatura máxima de 32°C e mínima de 15°C. Vento moderado ao longo do dia. PRÓXIMOS DIAS: A semana segue sem chuva relevante até quarta. Na segunda e terça o vento aumenta, com rajadas fortes. Na segunda-feira uma leve possibilidade de chuva aparece no domingo, dia 13, mas é pouca coisa, menos de 1 mm, sem molhar o solo de verdade. De segunda, dia 14, em diante, volta o tempo seco e quente até o fim da semana, com máximas chegando a 34°C no dia 16. A sequência seca já dura 7 dias e deve continuar. PREÇO: Soja em Goiás cotada a R$ 108,50 a saca.",
  "pontos": [
-  "Entressafra: nenhuma operação de colheita ou plantio de soja em andamento na região",
-  "Sete dias seguidos sem chuva e nenhuma precipitação relevante prevista até sexta-feira, dia 11",
-  "Sábado, dia 12: probabilidade de chuva sobe para 35% com vento forte de 44 km/h — fique atento à mudança de tempo no fim de semana"
+  "Seca prolongada: solo sem recarga há pelo menos 7 dias, evaporação alta, atenção ao estresse em pastagens e culturas de inverno irrigadas",
+  "Rajadas de vento fortes de segunda a quarta, acima de 35 km/h: cuidado com operações de pulverização nesse período",
+  "Domingo, dia 13, tem chance de chuva fraca (menos de 1 mm): não conta como recarga, solo continua seco"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:49:22+00:00",
+  "clima": "2026-07-10T12:17:05+00:00",
   "colheita": "2026-06-11",
   "preco": "2026-06-17"
  }

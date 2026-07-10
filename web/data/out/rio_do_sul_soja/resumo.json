@@ -1,16 +1,16 @@
 {
  "distrito_id": "rio_do_sul_soja",
  "nome": "RIO DO SUL-SOJA",
- "gerado_em": "2026-07-07T00:32:18+00:00",
+ "gerado_em": "2026-07-10T20:05:57+00:00",
  "modelo": "claude-sonnet-4-6",
- "texto": "Hoje, 7 de julho, o tempo segue fechado em Rio do Sul com chuva e mínima de 1,2°C — solo encharcado após 23,5 mm ontem e mais 8,9 mm hoje. Risco de geada esta noite e amanhã cedo, com mínimas abaixo de zero na quarta-feira (8/7). A partir de quarta o tempo abre: dois dias secos e com sol, quinta (9/7) também firme. Na sexta (10/7) a chuva volta com chance de 61%, e sábado (11/7) chega forte, com até 48,6 mm previstos — tempo fechando de vez no fim de semana. A região está em entressafra: aproveite a janela de quarta e quinta para manutenção de máquinas, correção de solo e organização de insumos antes do retorno das chuvas no fim de semana.",
+ "texto": "HOJE o distrito está sob chuva forte, com 42 mm previstos e solo encharcado em boa parte das lavouras. AMANHÃ, sábado, mais 47 mm chegam com vento em rajadas de até 45 km/h, mantendo o solo saturado. No domingo a chuva cessa, mas o solo ainda estará drenando. A partir de segunda-feira abre uma janela seca que deve durar até o fim da semana, com sol e temperaturas subindo até 28°C na quinta. Atenção: na segunda e terça a mínima cai para 1,2°C e 1,9°C, com risco real de geada nas madrugadas. Pastagens e qualquer cultura sensível no campo ficam expostas. Como o distrito está em entressafra, o foco agora é proteger o que está plantado e aguardar o solo firmar antes de qualquer operação de preparo.",
  "pontos": [
-  "Geada esta noite (7/7) e madrugada de quarta (8/7): mínimas de 1,2°C e -1,2°C — atenção a pastagens e mudas sensíveis",
-  "Janela seca abre na quarta (8/7) e vai até quinta (9/7): aproveite para trabalhos de campo e manutenção",
-  "Chuva retorna na sexta (10/7) e se intensifica no sábado (11/7) com até 48,6 mm previstos"
+  "Solo encharcado hoje e amanhã: evite tráfego de máquinas pesadas para não compactar",
+  "Geada provável na madrugada de segunda (13/07) e terça (14/07): mínimas de 1,2°C e 1,9°C, risco para pastagens e culturas sensíveis",
+  "Janela seca abre na segunda à tarde e se estende até o fim da semana: momento para preparo de solo assim que o terreno firmar"
  ],
  "insumos_ref": {
-  "clima": "2026-07-06T22:51:47+00:00",
+  "clima": "2026-07-10T12:20:35+00:00",
   "colheita": "2026-05-01",
   "preco": null
  }
