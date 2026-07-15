@@ -17,3 +17,6 @@ MT,nordeste,Nordeste,QUERÊNCIA,5107065,soja,2025/2026,2026-06-20,2026-06-20,0.4
 MT,nordeste,Nordeste,QUERÊNCIA,5107065,soja,2025/2026,2026-06-25,2026-06-25,0.445,0.1576,,,coleta_bruta,cdse_sentinel2_statapi,2026-07-10T20:25:00.415686+00:00
 MT,nordeste,Nordeste,QUERÊNCIA,5107065,soja,2025/2026,2026-06-30,2026-06-30,0.4436,0.1451,,,coleta_bruta,cdse_sentinel2_statapi,2026-07-10T20:25:00.415686+00:00
 MT,nordeste,Nordeste,QUERÊNCIA,5107065,soja,2025/2026,2026-07-05,2026-07-05,0.4179,0.1305,,,coleta_bruta,cdse_sentinel2_statapi,2026-07-10T20:25:00.415686+00:00
+MT,medio_norte,Médio-Norte,SORRISO,5107925,soja,2025/2026,2026-07-10,2026-07-10,0.3999,0.145,,,coleta_bruta,cdse_sentinel2_statapi,2026-07-15T16:52:46.048166+00:00
+MT,medio_norte,Médio-Norte,NOVA UBIRATÃ,5106240,soja,2025/2026,2026-07-10,2026-07-10,0.4455,0.0916,,,coleta_bruta,cdse_sentinel2_statapi,2026-07-15T16:52:46.048166+00:00
+MT,nordeste,Nordeste,QUERÊNCIA,5107065,soja,2025/2026,2026-07-10,2026-07-10,0.3573,0.1321,,,coleta_bruta,cdse_sentinel2_statapi,2026-07-15T16:52:46.048166+00:00
