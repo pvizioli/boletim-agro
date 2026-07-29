@@ -224,6 +224,40 @@
   .foot{font-family:'IBM Plex Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.15em;color:var(--vdim);text-align:center}
   .src{font-size:12px;color:var(--mut);text-align:center;margin-bottom:10px;line-height:1.6}
 
+  /* ===== ACABAMENTO: FOCO, MOVIMENTO, NUMEROS TABULARES ===== */
+  :focus-visible{outline:2px solid var(--brand);outline-offset:2px;border-radius:5px}
+  .kpi .val,.metric .mv,.colh-row,.wday .wmax,.wday .wmin,.preco-v,.side-sub,.fonte-row .fd,.mono{font-variant-numeric:tabular-nums}
+  .skip{position:absolute;left:-9999px;top:0;z-index:100;background:var(--brand);color:var(--on-accent);padding:10px 16px;border-radius:0 0 8px 0;font-family:'IBM Plex Mono',monospace;font-size:12px;text-decoration:none}
+  .skip:focus{left:0}
+  @media(prefers-reduced-motion:reduce){*,*::before,*::after{transition-duration:.01ms !important;animation-duration:.01ms !important}}
+
+  /* ===== BUSCA NA NAVEGACAO ===== */
+  .side-busca{display:flex;align-items:center;gap:8px;margin:0 8px 12px;padding:8px 10px;background:var(--panel2);border:1px solid var(--border);border-radius:8px}
+  .side-busca:focus-within{border-color:var(--brand)}
+  .side-busca svg{flex-shrink:0;color:var(--dim)}
+  .side-busca input{flex:1;min-width:0;background:none;border:none;color:var(--tx);font-family:'IBM Plex Mono',monospace;font-size:12px;outline:none}
+  .side-busca input::placeholder{color:var(--vdim)}
+  .side-vazio{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--dim);padding:12px 10px;line-height:1.6}
+  .side-hit{color:var(--brand);font-weight:600}
+
+  /* ===== FAIXA SEMANAL: AMPLITUDE TERMICA E CHUVA ===== */
+  .wrange{position:relative;height:38px;margin:8px 0 6px}
+  .wrange::before{content:"";position:absolute;left:50%;top:0;bottom:0;width:1px;background:var(--grid);transform:translateX(-50%)}
+  .wrange i{position:absolute;left:50%;transform:translateX(-50%);width:7px;border-radius:4px;background:linear-gradient(to bottom,var(--chartMax),var(--chartMin))}
+  .wrain{height:4px;border-radius:2px;background:var(--grid);margin-top:6px;overflow:hidden}
+  .wrain i{display:block;height:100%;background:var(--sky);border-radius:2px}
+
+  /* ===== BARRAS DE PROGRESSO NA TABELA DE COLHEITA ===== */
+  .prog{position:relative;display:inline-block;vertical-align:middle;width:54px;height:7px;background:var(--grid);border-radius:4px;overflow:hidden;margin-right:8px}
+  .prog i{position:absolute;left:0;top:0;bottom:0;background:var(--brand);border-radius:4px}
+  .prog.plant i{background:var(--sky)}
+
+  /* ===== ESTADO DE ERRO ===== */
+  .erro{border:1px solid var(--border);background:var(--panel);border-radius:10px;padding:34px 26px;text-align:center;max-width:520px;margin:44px auto;box-shadow:0 1px 3px var(--shadow)}
+  .erro-t{font-family:'Fraunces',Georgia,serif;font-size:21px;margin-bottom:8px}
+  .erro-d{font-size:13px;color:var(--mut);line-height:1.6;margin-bottom:16px}
+  .erro-m{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--vdim);margin-top:14px;word-break:break-word}
+
   @media(max-width:900px){
     .app{flex-direction:column}
     .nav-toggle{display:flex;align-items:center;gap:10px;width:100%;padding:14px 16px;background:var(--panel2);border:none;border-bottom:1px solid var(--border);color:var(--tx);font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.1em;text-transform:uppercase;cursor:pointer}
@@ -231,7 +265,8 @@
     .sidebar.aberta{display:block}
     .content{padding:22px 20px 50px}
   }
-  @page{margin:10mm}
+  @page{size:A4;margin:12mm 10mm 14mm}
+  @page :first{margin-top:9mm}
   @media print{
     body > header, body > .app, body > footer{display:none !important}
     body{background:#ffffff}
@@ -256,6 +291,8 @@
     .pr-tab{width:100%;border-collapse:collapse;margin:2px 0 4px}
     .pr-tab th{font-family:'IBM Plex Mono',monospace;font-size:8px;letter-spacing:.06em;text-transform:uppercase;color:#5d7466;text-align:left;border-bottom:1.5px solid #b9c7aa;padding:2.5px 6px}
     .pr-tab td{font-size:10.5px;color:#22302a;border-bottom:1px solid #e3e9dd;padding:3px 6px;vertical-align:middle}
+    .pr-tab thead{display:table-header-group}
+    .pr-tab tr{break-inside:avoid;page-break-inside:avoid}
     .pr-prog{position:relative;width:74px;height:8px;background:#e3e9dd;border-radius:4px;overflow:hidden;display:inline-block;vertical-align:middle;margin-right:6px}
     .pr-prog i{position:absolute;left:0;top:0;bottom:0;background:#2f7d54;border-radius:4px}
     .pr-mun{page-break-inside:avoid;margin-bottom:7px;border:1px solid #dde4d5;border-radius:8px;padding:6px 9px}
@@ -305,6 +342,7 @@
 </style>
 </head>
 <body>
+<a class="skip" href="#conteudo">Ir para o conte&uacute;do</a>
 <header>
   <div class="wrap head-in">
     <div>
@@ -328,7 +366,7 @@
     <span id="navToggleLabel">Navegar</span>
   </button>
   <aside class="sidebar" id="sidebar"></aside>
-  <main class="content"><div id="view"><div class="loading">Carregando...</div></div></main>
+  <main class="content" id="conteudo" tabindex="-1"><div id="view"><div class="loading">Carregando...</div></div></main>
 </div>
 
 <footer>
@@ -351,11 +389,11 @@ function aplicaTema(t){
   tema = t;
   document.documentElement.setAttribute("data-theme", t);
   var ico = document.getElementById("themeIco"), txt = document.getElementById("themeTxt");
-  if(t === "dark"){ ico.innerHTML = iconeLua(16,"#7dd1a4"); txt.textContent = "Tema escuro"; }
-  else { ico.innerHTML = iconeSol(16,"#2f7d54"); txt.textContent = "Tema claro"; }
+  if(t === "dark"){ ico.innerHTML = iconeLua(16,"#7dd1a4"); txt.textContent = "Usar tema claro"; }
+  else { ico.innerHTML = iconeSol(16,"#2f7d54"); txt.textContent = "Usar tema escuro"; }
   try{ localStorage.setItem("tema_obs", t); }catch(e){}
   if(nav.distrito && tabAtiva==="clima" && cacheDistrito[nav.distrito]){
-    setTimeout(function(){ desenhaGraficos(cacheDistrito[nav.distrito]); }, 30);
+    agendaGraficos(nav.distrito,30);
   }
 }
 function toggleTema(){ aplicaTema(tema === "dark" ? "light" : "dark"); }
@@ -404,6 +442,26 @@ function diaSemana(iso){ try{ return new Date(iso+"T12:00").toLocaleDateString("
 function ddmm(iso){ return iso?iso.slice(8,10)+"/"+iso.slice(5,7):""; }
 function hoje(){ return new Date().toISOString().slice(0,10); }
 function rnd(v){ return Math.round(v==null?0:v); }
+function fmtRelativo(iso){
+  var ts=Date.parse(iso); if(isNaN(ts)) return "";
+  var min=Math.round((Date.now()-ts)/60000);
+  if(min<2) return "agora mesmo";
+  if(min<60) return "h\u00e1 "+min+" min";
+  var hh=Math.round(min/60); if(hh<24) return "h\u00e1 "+hh+" h";
+  var dd=Math.round(hh/24); return "h\u00e1 "+dd+(dd===1?" dia":" dias");
+}
+function marcaAtualizacao(iso){
+  var el=$("upd"); if(el&&iso) el.textContent=fmtData(iso);
+  var sub=$("upd-sub"); if(!sub) return;
+  var rel=fmtRelativo(iso);
+  sub.textContent = rel ? (rel+" \u00b7 atualiza\u00e7\u00e3o autom\u00e1tica") : "atualiza\u00e7\u00e3o autom\u00e1tica";
+}
+function telaErro(msg,acao){
+  return '<div class="erro"><div class="erro-t">N\u00e3o foi poss\u00edvel carregar os dados</div>'
+    +'<p class="erro-d">Verifique a conex\u00e3o e tente de novo. Se o problema continuar, os dados podem estar sendo regerados neste momento.</p>'
+    +'<button class="fbtn" onclick="'+(acao||"location.reload()")+'">Tentar de novo</button>'
+    +'<div class="erro-m">'+escX(msg||"")+'</div></div>';
+}
 function escX(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
 function carregaJSON(url){ return fetch(url,{cache:"no-store"}).then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); }); }
 function slugReg(nome){
@@ -414,32 +472,58 @@ function slugReg(nome){
 function regNomePorId(id){ var rs=(INDEX&&INDEX.regionais)||[]; for(var i=0;i<rs.length;i++){ if(slugReg(rs[i].nome)===id) return rs[i].nome; } return null; }
 function regPorNome(nome){ var rs=(INDEX&&INDEX.regionais)||[]; for(var i=0;i<rs.length;i++){ if(rs[i].nome===nome) return rs[i]; } return null; }
 
-// ===== MENU LATERAL =====
+// ===== MENU LATERAL (com busca) =====
+var navBusca="";
+function norm(s){ return String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase(); }
+function filtraNav(v){ navBusca=String(v||""); renderSideLista(); }
+function limpaBusca(){ navBusca=""; var i=$("sideBusca"); if(i) i.value=""; renderSideLista(); }
+function marcaHit(nome,q){
+  if(!q) return escX(nome);
+  var i=norm(nome).indexOf(q); if(i<0) return escX(nome);
+  return escX(nome.slice(0,i))+'<span class="side-hit">'+escX(nome.slice(i,i+q.length))+'</span>'+escX(nome.slice(i+q.length));
+}
 function renderSidebar(){
   var sb=$("sidebar"); if(!sb) return;
+  if(sb.getAttribute("data-pronto")!=="1"){
+    sb.innerHTML='<div class="side-title">Navega&ccedil;&atilde;o</div>'
+      +'<div class="side-busca">'
+      +'<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21" stroke-linecap="round"/></svg>'
+      +'<input id="sideBusca" type="search" placeholder="Buscar distrito, regional ou UF" autocomplete="off" aria-label="Buscar distrito, regional ou UF" oninput="filtraNav(this.value)">'
+      +'</div><div id="side-lista"></div>';
+    sb.setAttribute("data-pronto","1");
+  }
+  renderSideLista();
+}
+function renderSideLista(){
+  var el=$("side-lista"); if(!el) return;
   var rs=(INDEX&&INDEX.regionais)||[];
-  var h='<div class="side-title">Navega&ccedil;&atilde;o</div>';
-  h+='<button class="side-item side-brasil'+(!nav.regional?" on":"")+'" onclick="voltarBrasil()">'+icoMapa(15,"currentColor")+'<span>Brasil - vis&atilde;o geral</span></button>';
+  var q=norm(navBusca).trim();
+  var h='<button class="side-item side-brasil'+(!nav.regional?" on":"")+'"'+(!nav.regional?' aria-current="page"':'')+' onclick="voltarBrasil()">'+icoMapa(15,"currentColor")+'<span>Brasil - vis&atilde;o geral</span></button>';
   h+='<div class="side-title" style="margin-top:14px">Regionais</div>';
+  var achou=0;
   for(var i=0;i<rs.length;i++){
-    var r=rs[i], id=slugReg(r.nome), nm=0;
-    for(var j=0;j<r.distritos.length;j++) nm+=(r.distritos[j].n_municipios||0);
-    var aberta=(nav.regional===r.nome);
-    h+='<button class="side-item side-reg'+(aberta?" on":"")+'" onclick="selRegional(\''+r.nome.replace(/'/g,"\\'")+'\')">'
-      +'<span class="swatch" style="background:'+(REG_CORES[id]||"#888")+'"></span><span>'+escX(r.nome)+'</span>'
+    var r=rs[i], id=slugReg(r.nome);
+    var regHit = !!q && norm(r.nome).indexOf(q)>=0;
+    var ds=r.distritos.slice().sort(function(a,b){ return a.nome<b.nome?-1:1; });
+    var dsF = q ? ds.filter(function(d){ return regHit || norm(d.nome).indexOf(q)>=0 || norm(d.uf||"").indexOf(q)>=0; }) : ds;
+    if(q && !regHit && !dsF.length) continue;
+    achou++;
+    var aberta = q ? true : (nav.regional===r.nome);
+    h+='<button class="side-item side-reg'+(nav.regional===r.nome?" on":"")+'" onclick="selRegional(\''+r.nome.replace(/'/g,"\\'")+'\')">'
+      +'<span class="swatch" style="background:'+(REG_CORES[id]||"#888")+'"></span><span>'+marcaHit(r.nome,q)+'</span>'
       +'<span class="side-sub">'+r.distritos.length+'d</span></button>';
     if(aberta){
       h+='<div class="side-dist">';
-      var ds=r.distritos.slice().sort(function(a,b){ return a.nome<b.nome?-1:1; });
-      for(var k=0;k<ds.length;k++){
-        var d=ds[k];
-        h+='<button class="side-item'+(nav.distrito===d.id?" on":"")+'" onclick="selDistrito(\''+d.id+'\')">'
-          +'<span>'+escX(d.nome)+'</span><span class="side-sub">'+(d.uf||"")+' - '+d.n_municipios+'</span></button>';
+      for(var k=0;k<dsF.length;k++){
+        var d=dsF[k];
+        h+='<button class="side-item'+(nav.distrito===d.id?" on":"")+'"'+(nav.distrito===d.id?' aria-current="page"':'')+' onclick="selDistrito(\''+d.id+'\')">'
+          +'<span>'+marcaHit(d.nome,q)+'</span><span class="side-sub">'+escX(d.uf||"")+' - '+d.n_municipios+'</span></button>';
       }
       h+='</div>';
     }
   }
-  sb.innerHTML=h;
+  if(q && !achou) h+='<div class="side-vazio">Nada encontrado para "'+escX(navBusca)+'".<br>Tente parte do nome do distrito, da regional ou a sigla da UF.</div>';
+  el.innerHTML=h;
 }
 var cacheResumo={};
 function htmlResumo(r){
@@ -466,10 +550,51 @@ function carregaResumoIA(id){
 function toggleNav(){ var s=document.getElementById("sidebar"); if(s) s.classList.toggle("aberta"); }
 function fecharNav(){ var s=document.getElementById("sidebar"); if(s) s.classList.remove("aberta"); }
 function rotuloNav(){ var el=document.getElementById("navToggleLabel"); if(!el) return; el.textContent = nav.distrito ? "Trocar distrito ou regi\u00e3o" : (nav.regional ? nav.regional : "Navegar"); }
-function voltarBrasil(){ nav={regional:null,distrito:null}; render(); fecharNav(); rotuloNav(); window.scrollTo(0,0); }
-function selRegional(nome){ if(nav.regional===nome && !nav.distrito){ nav={regional:null,distrito:null}; } else { nav={regional:nome,distrito:null}; } render(); rotuloNav(); }
-function selDistrito(id){ nav.distrito=id; tabAtiva="clima"; render(); fecharNav(); rotuloNav(); window.scrollTo(0,0); }
-function selEstado(uf){ var nomeId=BR.dominante[uf]; var nome=regNomePorId(nomeId); if(nome){ nav={regional:nome,distrito:null}; render(); } }
+function voltarBrasil(){ nav={regional:null,distrito:null}; aposNavegar(); fecharNav(); window.scrollTo(0,0); }
+function selRegional(nome){ if(nav.regional===nome && !nav.distrito){ nav={regional:null,distrito:null}; } else { nav={regional:nome,distrito:null}; } aposNavegar(); }
+function selDistrito(id){ nav.distrito=id; if(!nav.regional) nav.regional=regionalDoDistrito(id); tabAtiva="clima"; aposNavegar(); fecharNav(); window.scrollTo(0,0); }
+function selEstado(uf){ var nomeId=BR.dominante[uf]; var nome=regNomePorId(nomeId); if(nome){ nav={regional:nome,distrito:null}; aposNavegar(); } }
+function aposNavegar(){ atualizaHash(); render(); rotuloNav(); atualizaTitulo(); }
+
+// ===== ROTAS: LINK DIRETO E BOTAO VOLTAR DO NAVEGADOR =====
+function regionalDoDistrito(id){
+  var rs=(INDEX&&INDEX.regionais)||[];
+  for(var i=0;i<rs.length;i++){ for(var j=0;j<rs[i].distritos.length;j++){ if(rs[i].distritos[j].id===id) return rs[i].nome; } }
+  return null;
+}
+function nomeDistrito(id){
+  var rs=(INDEX&&INDEX.regionais)||[];
+  for(var i=0;i<rs.length;i++){ for(var j=0;j<rs[i].distritos.length;j++){ if(rs[i].distritos[j].id===id) return rs[i].distritos[j].nome; } }
+  return null;
+}
+var hashInterno=false;
+function rotaAtual(){
+  if(nav.distrito) return "#/d/"+nav.distrito;
+  if(nav.regional) return "#/r/"+slugReg(nav.regional);
+  return "#/";
+}
+function atualizaHash(){ var h=rotaAtual(); if(location.hash!==h){ hashInterno=true; location.hash=h; } }
+function aplicaRota(){
+  var p=String(location.hash||"").replace(/^#\/?/,"").split("/").filter(Boolean);
+  var reg=null, dist=null;
+  if(p[0]==="d" && p[1]){ dist=p[1]; reg=regionalDoDistrito(dist); if(!reg) dist=null; }
+  else if(p[0]==="r" && p[1]){ reg=regNomePorId(p[1]); }
+  else if(p[0]){
+    reg=regNomePorId(p[0]);
+    if(!reg){ var rr=regionalDoDistrito(p[0]); if(rr){ reg=rr; dist=p[0]; } }
+  }
+  nav={regional:reg,distrito:dist};
+}
+function atualizaTitulo(){
+  var base="Boletim de Clima e Colheita";
+  if(nav.distrito){ var n=nomeDistrito(nav.distrito); document.title=(n||"Distrito")+" - "+base; }
+  else if(nav.regional){ document.title=nav.regional+" - "+base; }
+  else document.title=base;
+}
+window.addEventListener("hashchange",function(){
+  if(hashInterno){ hashInterno=false; return; }
+  aplicaRota(); tabAtiva="clima"; render(); rotuloNav(); atualizaTitulo(); fecharNav();
+});
 
 // ===== RESUMO (area + colheita) PARA HOME E REGIONAL =====
 function fmtArea(ha){
@@ -560,15 +685,17 @@ function iconePorTempo(t,s){
   if(t==="chuva"||t==="trovoada") return iconeChuva(s);
   return iconeNuvem(s);
 }
-function agrega(d){
-  var ms=d.municipios||[],tmaxMax=-99,tminMin=99,chuva7=0,n=0;
+function agrega(d,sel){
+  var ms=d.municipios||[],tmaxMax=-99,tminMin=99,chuva7=0,n=0,total=0;
   for(var i=0;i<ms.length;i++){
     if(!ms[i].clima) continue;
+    total++;
+    if(sel && !sel[ms[i].id]) continue;
     var a=climaAtual(ms[i]); if(a.tmax!=null&&a.tmax>tmaxMax)tmaxMax=a.tmax; if(a.tmin!=null&&a.tmin<tminMin)tminMin=a.tmin;
     chuva7+=somaChuva7(ms[i]); n++;
   }
   if(n===0){ tmaxMax=0; tminMin=0; }
-  return {tmaxMax:rnd(tmaxMax),tminMin:rnd(tminMin),chuva7:(chuva7/(n||1)).toFixed(0),n:n};
+  return {tmaxMax:rnd(tmaxMax),tminMin:rnd(tminMin),chuva7:(chuva7/(n||1)).toFixed(0),n:n,total:total};
 }
 
 // ===== DISTRITO (abas) =====
@@ -576,7 +703,7 @@ function viewDistrito(){
   var id=nav.distrito;
   if(cacheDistrito[id]) return Promise.resolve(montaDistrito(cacheDistrito[id]));
   return carregaJSON(BASE+"/"+id+"/latest.json?t="+Date.now()).then(function(d){ cacheDistrito[id]=d; return montaDistrito(d); })
-    .catch(function(e){ return '<div class="loading">N&atilde;o foi poss&iacute;vel carregar este distrito.<br><span style="color:var(--vdim)">'+e.message+'</span></div>'; });
+    .catch(function(e){ return telaErro(e.message,"render()"); });
 }
 function breadDistrito(d){
   return '<div class="cbread"><button onclick="voltarBrasil()">Brasil</button><span class="sep">&rsaquo;</span>'
@@ -587,7 +714,7 @@ function breadDistrito(d){
     +'<span>Imprimir / PDF</span></button></div>';
 }
 function montaDistrito(d){
-  if(d.gerado_em) $("upd").textContent=fmtData(d.gerado_em);
+  if(d.gerado_em) marcaAtualizacao(d.gerado_em);
   var tabs=[["clima",icoTermo(15,"currentColor"),"Clima e Previs&atilde;o"],["colheita",icoBroto(15,"currentColor"),"Colheita"],["municipios",icoMapa(15,"currentColor"),"Munic&iacute;pios"]];
   var h=breadDistrito(d)+precoDistrito(d)+'<div id="resumo-ia"></div>'+fontesDistrito(d)+'<div class="tabs">';
   for(var i=0;i<tabs.length;i++){ h+='<button class="tab '+(tabAtiva===tabs[i][0]?"on":"")+'" onclick="setTab(\''+tabs[i][0]+'\')"><span class="ic">'+tabs[i][1]+'</span>'+tabs[i][2]+'</button>'; }
@@ -626,13 +753,15 @@ function fontesDistrito(d){
 }
 
 function tabClima(d){
-  var a=agrega(d), al=(d.alertas&&d.alertas.ativos)||[];
+  var selKpi=selDoDistrito(d);
+  var a=agrega(d,selKpi), al=(d.alertas&&d.alertas.ativos)||[];
   var ufs=(d.distrito.ufs&&d.distrito.ufs.join(", "))||d.distrito.uf||"a UF";
+  var escopo=(a.total&&a.n<a.total)?"entre os selecionados":"entre os munic&iacute;pios";
   var h='<div class="kpis">';
-  h+=kpi("tmax",icoTermo(18,"currentColor"),"Temp. m&aacute;xima hoje",a.tmaxMax+"&deg;","maior entre os munic&iacute;pios");
-  h+=kpi("tmin",icoTermo(18,"currentColor"),"Temp. m&iacute;nima hoje",a.tminMin+"&deg;","menor entre os munic&iacute;pios");
-  h+=kpi("sky",icoGota(18),"Chuva pr&oacute;x. 7 dias",a.chuva7+" mm","m&eacute;dia do distrito");
-  h+=kpi("brand",icoMapa(18,"#46b27a"),"Munic&iacute;pios",a.n,"com dados de clima");
+  h+=kpi("tmax",icoTermo(18,"currentColor"),"Temp. m&aacute;xima hoje",a.tmaxMax+"&deg;","maior "+escopo);
+  h+=kpi("tmin",icoTermo(18,"currentColor"),"Temp. m&iacute;nima hoje",a.tminMin+"&deg;","menor "+escopo);
+  h+=kpi("sky",icoGota(18),"Chuva pr&oacute;x. 7 dias",a.chuva7+" mm","m&eacute;dia "+escopo);
+  h+=kpi("brand",icoMapa(18,"#46b27a"),"Munic&iacute;pios",a.n+((a.total&&a.total!==a.n)?('<span style="font-size:17px;color:var(--dim)"> de '+a.total+'</span>'):""),"selecionados para compara&ccedil;&atilde;o");
   h+="</div>";
   if(al.length){
     for(var i=0;i<al.length&&i<6;i++){ var x=al[i];
@@ -675,13 +804,16 @@ function tabColheita(d){
   }
   function pos(v){ if(v==null) return '<span class="cmut">-</span>'; var s=v>0?"+":""; var cls=v>0?"cpos":(v<0?"cneg":"cmut"); return '<span class="'+cls+'">'+s+v+" p.p.</span>"; }
   function cond(t){ if(!t) return ""; var M={boa:"cpos",media:"cmut",ruim:"cneg"}; return '<span class="'+(M[String(t).toLowerCase()]||"cmut")+'">'+escX(t)+'</span>'; }
+  function barra(v,tipo){ if(v==null) return '<span class="cmut">-</span>';
+    var w=Math.min(100,Math.max(0,Number(v)));
+    return '<span class="prog'+(tipo==="plant"?" plant":"")+'"><i style="width:'+w+'%"></i></span>'+v+'%'; }
   var h='<div class="panel colh-uf"><div class="stitle">'+icoBroto(14,"currentColor")+' Colheita &amp; plantio - posi&ccedil;&atilde;o</div>';
   h+='<div class="fonte-banner">Fonte: '+escX(c.fonte||"-")+(c.granularidade?(" &middot; "+escX(c.granularidade)):"")+(c.data_referencia?(" &middot; ref. "+fmtDia(c.data_referencia)):"")+'</div>';
   h+='<div class="colh-head"><span>Regi&atilde;o</span><span>Plantado</span><span>Colhido</span><span>vs m&eacute;dia 5a</span><span>vs safra ant.</span></div>';
   for(var i=0;i<c.itens.length;i++){ var it=c.itens[i];
     h+='<div class="colh-row"><span class="cr-nome">'+escX(it.regiao||it.uf||it.municipio||"-")+(it.granularidade?'<span class="cr-gran">'+escX(it.granularidade)+'</span>':'')+'</span>'
-      +'<span>'+(it.pct_plantado!=null?it.pct_plantado+"%":"-")+'</span>'
-      +'<span class="cr-colh">'+(it.pct_colhido!=null?it.pct_colhido+"%":"-")+'</span>'
+      +'<span>'+barra(it.pct_plantado,"plant")+'</span>'
+      +'<span class="cr-colh">'+barra(it.pct_colhido)+'</span>'
       +'<span>'+pos(it.vs_media5anos)+'</span><span>'+pos(it.vs_safra_anterior)+'</span></div>';
     if(it.condicao_lavoura||it.fonte||it.produtividade_kg_ha){ var prodm=it.produtividade_kg_ha?("Produtividade: "+Math.round(it.produtividade_kg_ha/60)+" sc/ha ("+fmtMil(it.produtividade_kg_ha)+" kg/ha) &middot; "):""; h+='<div class="cr-meta">'+prodm+(it.condicao_lavoura?("Lavoura: "+cond(it.condicao_lavoura)+" &middot; "):"")+(it.fonte?("Fonte: "+escX(it.fonte)):"")+(it.data_referencia?(" &middot; "+fmtDia(it.data_referencia)):"")+'</div>'; }
   }
@@ -689,6 +821,9 @@ function tabColheita(d){
   h+=colheitaMunicipios(d);
   return h;
 }
+function barraMun(v,tipo){ if(v==null) return '<span class="cmut">-</span>';
+  var w=Math.min(100,Math.max(0,Number(v)));
+  return '<span class="prog'+(tipo==="plant"?" plant":"")+'"><i style="width:'+w+'%"></i></span>'+v+'%'; }
 function colheitaMunicipios(d){
   var ms=(d.municipios||[]).filter(function(m){return m.colheita;});
   if(!ms.length) return "";
@@ -698,8 +833,8 @@ function colheitaMunicipios(d){
   for(var i=0;i<ms.length;i++){ var m=ms[i], mc=m.colheita;
     h+='<div class="colh-row"><span class="cr-nome">'+escX(m.nome)+'</span>'
       +'<span>'+fmtMil(mc.area_soja_ha)+'</span>'
-      +'<span>'+(mc.pct_plantado!=null?mc.pct_plantado+"%":"-")+'</span>'
-      +'<span class="cr-colh">'+(mc.pct_colhido!=null?mc.pct_colhido+"%":"-")+'</span>'
+      +'<span>'+barraMun(mc.pct_plantado,"plant")+'</span>'
+      +'<span class="cr-colh">'+barraMun(mc.pct_colhido)+'</span>'
       +'<span>'+fmtMil(mc.ha_colhido_estim)+'</span></div>';
   }
   return h+"</div>";
@@ -723,14 +858,28 @@ function muncard(m){
   h+='<div class="muncard-body">';
   h+=metric("sky",(a.precip_mm==null?0:a.precip_mm)+" mm","chuva hoje");
   h+=metric("cyan",(a.prob_chuva==null?0:a.prob_chuva)+"%","prob. chuva");
+  h+=metric("sky",Number(somaChuva7(m).toFixed(1))+" mm","chuva 7 dias");
   h+=metric("brand",escX(rotuloTempo(a.tempo)),"condi&ccedil;&atilde;o");
   h+="</div>";
+  var fs=f.slice(0,7), wmin=999, wmax=-999, pmax=0;
+  for(var q=0;q<fs.length;q++){
+    if(fs[q].tmin!=null&&fs[q].tmin<wmin) wmin=fs[q].tmin;
+    if(fs[q].tmax!=null&&fs[q].tmax>wmax) wmax=fs[q].tmax;
+    if((fs[q].precip_mm||0)>pmax) pmax=fs[q].precip_mm||0;
+  }
+  if(wmin>wmax){ wmin=0; wmax=1; }
+  var amp=(wmax-wmin)||1;
   h+='<div class="week">';
-  for(var k=0;k<f.length&&k<7;k++){ var dia=f[k], today=dia.data===hoje();
+  for(var k=0;k<fs.length;k++){ var dia=fs[k], today=dia.data===hoje();
+    var tx=(dia.tmax!=null?dia.tmax:wmax), tn=(dia.tmin!=null?dia.tmin:wmin);
+    var alt=Math.max(7,((tx-tn)/amp)*100), topo=Math.max(0,Math.min(100-alt,((wmax-tx)/amp)*100));
+    var chuvaPct=pmax>0?Math.round(((dia.precip_mm||0)/pmax)*100):0;
     h+='<div class="wday'+(today?" today":"")+'"><div class="wd">'+diaSemana(dia.data)+" "+ddmm(dia.data)+'</div>'
       +'<div class="wi">'+iconePorTempo(dia.tempo,34)+'</div>'
+      +'<div class="wrange" title="'+rnd(tn)+' a '+rnd(tx)+' graus na semana"><i style="top:'+topo.toFixed(1)+'%;height:'+alt.toFixed(1)+'%"></i></div>'
       +'<div class="wmax">'+rnd(dia.tmax)+'&deg;</div><div class="wmin">'+rnd(dia.tmin)+'&deg;</div>'
-      +'<div class="wr">'+((dia.precip_mm||0)>0?(dia.precip_mm+" mm"):"&mdash;")+'</div></div>';
+      +'<div class="wr">'+((dia.precip_mm||0)>0?(dia.precip_mm+" mm"):"&mdash;")+'</div>'
+      +'<div class="wrain"><i style="width:'+chuvaPct+'%"></i></div></div>';
   }
   h+="</div>";
   if(m.colheita && emSafra(m.colheita.pct_plantado,m.colheita.pct_colhido)){ var mc=m.colheita;
@@ -763,7 +912,8 @@ function graficoBarras(nomes,grupos,opts){
   var step=Math.pow(10,Math.floor(Math.log(maxV)/Math.LN10)),topo=Math.ceil(maxV/step)*step; if(topo<=maxV) topo+=step;
   var slot=plotW/n, bw=Math.min(slot*0.66/ng,24);
   var cgrid=corVar("--grid"),cmut=corVar("--mut"),cdim=corVar("--dim");
-  var svg='<svg viewBox="0 0 '+W+' '+H+'" width="'+W+'" height="'+H+'" preserveAspectRatio="xMinYMid meet" style="font-family:IBM Plex Mono,monospace">';
+  var rotulo=(opts.rotulo||"Gr\u00e1fico de barras")+" - "+n+" munic\u00edpio(s)";
+  var svg='<svg viewBox="0 0 '+W+' '+H+'" width="'+W+'" height="'+H+'" preserveAspectRatio="xMinYMid meet" role="img" aria-label="'+escX(rotulo)+'" style="font-family:IBM Plex Mono,monospace">';
   for(var L=0;L<=4;L++){ var val=topo*L/4,y=padT+plotH-(val/topo)*plotH;
     svg+='<line x1="'+padL+'" y1="'+y.toFixed(1)+'" x2="'+(W-padR)+'" y2="'+y.toFixed(1)+'" stroke="'+cgrid+'" stroke-width="1"/>';
     svg+='<text x="'+(padL-6)+'" y="'+(y+3).toFixed(1)+'" fill="'+cdim+'" font-size="9" text-anchor="end">'+Math.round(val)+'</text>';
@@ -784,6 +934,7 @@ function graficoBarras(nomes,grupos,opts){
   return svg+"</svg>";
 }
 function desenhaGraficos(d){
+  if(!d||!d.distrito) return;
   var sel=selDoDistrito(d), all=d.municipios||[], ms=[];
   for(var i=0;i<all.length;i++){ if(all[i].clima && sel[all[i].id]) ms.push(all[i]); }
   var cT=$("chTemp"),cC=$("chChuva");
@@ -794,8 +945,8 @@ function desenhaGraficos(d){
     tipsT.push(nm+" - max "+rnd(a.tmax)+"\u00b0 / min "+rnd(a.tmin)+"\u00b0");
     tipsC.push(nm+" - "+s+" mm em 7 dias");
   }
-  if(cT) cT.innerHTML=graficoBarras(nomes,[{nome:"Max",cor:corVar("--chartMax"),dados:tmax},{nome:"Min",cor:corVar("--chartMin"),dados:tmin}],{legenda:true,tips:tipsT});
-  if(cC) cC.innerHTML=graficoBarras(nomes,[{nome:"Chuva 7d (mm)",cor:corVar("--sky"),dados:chuva}],{legenda:true,tips:tipsC});
+  if(cT) cT.innerHTML=graficoBarras(nomes,[{nome:"Max",cor:corVar("--chartMax"),dados:tmax},{nome:"Min",cor:corVar("--chartMin"),dados:tmin}],{legenda:true,tips:tipsT,rotulo:"Temperatura m\u00e1xima e m\u00ednima por munic\u00edpio"});
+  if(cC) cC.innerHTML=graficoBarras(nomes,[{nome:"Chuva 7d (mm)",cor:corVar("--sky"),dados:chuva}],{legenda:true,tips:tipsC,rotulo:"Chuva acumulada de 7 dias por munic\u00edpio"});
 }
 
 // ===== FILTRO DE MUNICIPIOS =====
@@ -863,7 +1014,7 @@ function imprimirBoletim(){
   }
   var c=d.colheita;
   if(c&&c.itens&&c.itens.length&&algumEmSafra(c.itens)){
-    h+='<div class="pr-sec">'+icoBroto(13,"#2f7d54")+' Colheita &amp; plantio</div><table class="pr-tab"><tr><th>Regi&atilde;o</th><th>Plantado</th><th>Colhido</th><th>Produtividade</th><th>Fonte</th></tr>';
+    h+='<div class="pr-sec">'+icoBroto(13,"#2f7d54")+' Colheita &amp; plantio</div><table class="pr-tab"><thead><tr><th>Regi&atilde;o</th><th>Plantado</th><th>Colhido</th><th>Produtividade</th><th>Fonte</th></tr></thead><tbody>';
     for(var j=0;j<c.itens.length;j++){ var it=c.itens[j];
       var pl=(it.pct_plantado!=null)?('<span class="pr-prog"><i style="width:'+Math.min(100,it.pct_plantado)+'%"></i></span>'+it.pct_plantado+"%"):"-";
       var co=(it.pct_colhido!=null)?('<span class="pr-prog"><i style="width:'+Math.min(100,it.pct_colhido)+'%"></i></span>'+it.pct_colhido+"%"):"-";
@@ -871,10 +1022,11 @@ function imprimirBoletim(){
         +'<td>'+(it.produtividade_kg_ha?(Math.round(it.produtividade_kg_ha/60)+" sc/ha"):"-")+'</td>'
         +'<td>'+escX(it.fonte||"")+(it.data_referencia?(" ("+fmtDia(it.data_referencia)+")"):"")+'</td></tr>';
     }
-    h+='</table>';
+    h+='</tbody></table>';
   }
   var ms=(d.municipios||[]).filter(function(m){ return m.clima && sel[m.id]; });
-  h+='<div class="pr-sec">'+icoMapa(13,"#2f7d54")+' Previs&atilde;o 7 dias - munic&iacute;pios selecionados ('+ms.length+')</div>';
+  var totalCl=(d.municipios||[]).filter(function(m){ return m.clima; }).length;
+  h+='<div class="pr-sec">'+icoMapa(13,"#2f7d54")+' Previs&atilde;o 7 dias - '+ms.length+' de '+totalCl+' munic&iacute;pios (sele&ccedil;&atilde;o da tela)</div>';
   for(var k=0;k<ms.length;k++){ var m=ms[k], prev=(m.clima.previsao_7d||[]).slice(0,7);
     h+='<div class="pr-mun"><div class="pr-mun-h">'+escX(m.nome)+(m.area_soja_ha?('<span class="pr-mun-a">'+fmtMil(m.area_soja_ha)+' ha de soja</span>'):'')+'</div>';
     if(m.colheita && emSafra(m.colheita.pct_plantado,m.colheita.pct_colhido)){ var mc=m.colheita;
@@ -907,11 +1059,22 @@ function imprimirBoletim(){
 var muniSel={};
 function selDoDistrito(d){
   var id=d.distrito.id;
-  if(!muniSel[id]){ muniSel[id]={}; var ms=d.municipios||[]; for(var i=0;i<ms.length;i++){ if(ms[i].clima) muniSel[id][ms[i].id]=true; } }
+  if(!muniSel[id]){
+    var salvo=null;
+    try{ salvo=JSON.parse(localStorage.getItem("muniSel_"+id)||"null"); }catch(e){}
+    muniSel[id]={};
+    var ms=d.municipios||[];
+    for(var i=0;i<ms.length;i++){
+      if(!ms[i].clima) continue;
+      var mid=ms[i].id;
+      muniSel[id][mid] = (salvo && salvo[mid]!==undefined) ? !!salvo[mid] : true;
+    }
+  }
   return muniSel[id];
 }
-function toggleMuni(mid){ var s=muniSel[nav.distrito]; if(!s) return; s[mid]=!s[mid]; render(); }
-function todosMuni(v){ var s=muniSel[nav.distrito]; if(!s) return; for(var k in s){ s[k]=v; } render(); }
+function salvaSel(id){ try{ localStorage.setItem("muniSel_"+id, JSON.stringify(muniSel[id]||{})); }catch(e){} }
+function toggleMuni(mid){ var s=muniSel[nav.distrito]; if(!s) return; s[mid]=!s[mid]; salvaSel(nav.distrito); render(); }
+function todosMuni(v){ var s=muniSel[nav.distrito]; if(!s) return; for(var k in s){ s[k]=v; } salvaSel(nav.distrito); render(); }
 function filtroMunicipios(d){
   var all=(d.municipios||[]).filter(function(m){ return m.clima; });
   if(all.length<=1) return "";
@@ -925,29 +1088,41 @@ function filtroMunicipios(d){
 }
 
 // ===== ROTEADOR =====
+function agendaGraficos(id,ms){
+  setTimeout(function(){
+    if(nav.distrito!==id) return;
+    var d=cacheDistrito[id];
+    if(d) desenhaGraficos(d);
+  }, ms||30);
+}
 function render(){
   renderSidebar();
   var v=$("view");
   if(!nav.distrito){ v.innerHTML=viewMapa(); carregaResumoEscopo(); return; }
-  if(cacheDistrito[nav.distrito]){
-    v.innerHTML=montaDistrito(cacheDistrito[nav.distrito]);
-    carregaResumoIA(nav.distrito);
-    if(tabAtiva==="clima") setTimeout(function(){ desenhaGraficos(cacheDistrito[nav.distrito]); },30);
+  var idAlvo=nav.distrito;
+  if(cacheDistrito[idAlvo]){
+    v.innerHTML=montaDistrito(cacheDistrito[idAlvo]);
+    carregaResumoIA(idAlvo);
+    if(tabAtiva==="clima") agendaGraficos(idAlvo,30);
     return;
   }
   v.innerHTML='<div class="loading">Carregando distrito...</div>';
-  viewDistrito().then(function(html){ v.innerHTML=html;
-    carregaResumoIA(nav.distrito);
-    if(tabAtiva==="clima"&&cacheDistrito[nav.distrito]) setTimeout(function(){ desenhaGraficos(cacheDistrito[nav.distrito]); },40);
+  viewDistrito().then(function(html){
+    if(nav.distrito!==idAlvo) return;
+    v.innerHTML=html;
+    carregaResumoIA(idAlvo);
+    if(tabAtiva==="clima"&&cacheDistrito[idAlvo]) agendaGraficos(idAlvo,40);
   });
 }
 
 // ===== BOOT =====
 (function(){ try{ var t=localStorage.getItem("tema_obs"); if(t) tema=t; }catch(e){} aplicaTema(tema); })();
 carregaJSON(BASE+"/index.json?t="+Date.now()).then(function(idx){
-  INDEX=idx; if(idx.gerado_em) $("upd").textContent=fmtData(idx.gerado_em); render();
+  INDEX=idx;
+  if(idx.gerado_em) marcaAtualizacao(idx.gerado_em);
+  aplicaRota(); render(); rotuloNav(); atualizaTitulo();
 }).catch(function(e){
-  $("view").innerHTML='<div class="loading">N&atilde;o foi poss&iacute;vel carregar o &iacute;ndice.<br><span style="color:var(--vdim)">'+e.message+'</span></div>';
+  $("view").innerHTML=telaErro(e.message);
 });
 </script>
 </body>
