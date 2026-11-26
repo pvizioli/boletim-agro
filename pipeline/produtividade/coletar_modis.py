@@ -72,7 +72,7 @@ def coletar_municipio(m, km):
         for chave, banda in BANDAS.items():
             blocos = {}
             tarefas = []
-            with cf.ThreadPoolExecutor(max_workers=4) as ex:
+            with cf.ThreadPoolExecutor(max_workers=3) as ex:
                 for lote in lotes:
                     tarefas.append(ex.submit(subset, prod, m["lat"], m["lon"],
                                              banda, lote[0], lote[-1], km))
@@ -96,12 +96,14 @@ def coletar_municipio(m, km):
 def main():
     n = int(sys.argv[1]) if len(sys.argv) > 1 else 20
     km = int(sys.argv[2]) if len(sys.argv) > 2 else 5
+    parte = int(sys.argv[3]) if len(sys.argv) > 3 else 0
+    partes = int(sys.argv[4]) if len(sys.argv) > 4 else 1
     muns = json.load(open(os.path.join(RAW, "municipios_backtest.json"),
                           encoding="utf-8"))
     chave = [m for m in muns if m["ibge"] in CHAVE]
     resto = sorted([m for m in muns if m["ibge"] not in CHAVE],
                    key=lambda m: -m["area"])
-    alvo = (chave + resto)[:n]
+    alvo = (chave + resto)[:n][parte::partes]
     print("municipios:", len(alvo), "raio km:", km, flush=True)
     for i, m in enumerate(alvo):
         t = time.time()
