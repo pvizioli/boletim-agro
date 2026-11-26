@@ -1,0 +1,45 @@
+name: macroclima
+
+on:
+  push:
+    branches: [backtest-produtividade]
+    paths:
+      - "pipeline/produtividade/coletar_macro.py"
+      - ".github/workflows/macro.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Commit helper
+        run: |
+          cat > /tmp/commit.sh << 'SH'
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/produtividade/raw
+          git diff --cached --quiet && exit 0
+          git commit -m "macro: dados brutos ($1)"
+          for i in 1 2 3; do git pull --rebase origin backtest-produtividade && git push origin HEAD:backtest-produtividade && exit 0; sleep 5; done
+          exit 1
+          SH
+          chmod +x /tmp/commit.sh
+      - run: python pipeline/produtividade/coletar_macro.py indices
+        continue-on-error: true
+      - run: python pipeline/produtividade/coletar_macro.py sidra
+        continue-on-error: true
+      - run: /tmp/commit.sh "indices e sidra"
+      - run: python pipeline/produtividade/coletar_macro.py poligonos
+        continue-on-error: true
+      - run: /tmp/commit.sh poligonos
+      - run: python pipeline/produtividade/coletar_macro.py hist
+        continue-on-error: true
+      - run: /tmp/commit.sh "historico municipal"
