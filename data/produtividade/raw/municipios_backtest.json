@@ -1,0 +1,826 @@
+[
+{
+"ibge": "4101705",
+"nome": "ARARUNA",
+"distrito": "campo_mourao_soja",
+"area": 28100.0,
+"lat": -23.9315,
+"lon": -52.5021
+},
+{
+"ibge": "4103008",
+"nome": "BOA ESPERANÇA",
+"distrito": "campo_mourao_soja",
+"area": 25500.0,
+"lat": -24.2467,
+"lon": -52.7876
+},
+{
+"ibge": "4103909",
+"nome": "CAMPINA DA LAGOA",
+"distrito": "campo_mourao_soja",
+"area": 37000.0,
+"lat": -24.5893,
+"lon": -52.7976
+},
+{
+"ibge": "4104303",
+"nome": "CAMPO MOURÃO",
+"distrito": "campo_mourao_soja",
+"area": 49500.0,
+"lat": -24.0463,
+"lon": -52.378
+},
+{
+"ibge": "4104402",
+"nome": "CÂNDIDO DE ABREU",
+"distrito": "campo_mourao_soja",
+"area": 24800.0,
+"lat": -24.5649,
+"lon": -51.3372
+},
+{
+"ibge": "4107504",
+"nome": "ENGENHEIRO BELTRÃO",
+"distrito": "campo_mourao_soja",
+"area": 34200.0,
+"lat": -23.797,
+"lon": -52.2659
+},
+{
+"ibge": "4107553",
+"nome": "FAROL",
+"distrito": "campo_mourao_soja",
+"area": 23250.0,
+"lat": -24.0958,
+"lon": -52.6217
+},
+{
+"ibge": "4108601",
+"nome": "GOIOERÊ",
+"distrito": "campo_mourao_soja",
+"area": 35000.0,
+"lat": -24.1835,
+"lon": -53.0248
+},
+{
+"ibge": "4111506",
+"nome": "IVAIPORÃ",
+"distrito": "campo_mourao_soja",
+"area": 22000.0,
+"lat": -24.2485,
+"lon": -51.6754
+},
+{
+"ibge": "4112207",
+"nome": "JANIÓPOLIS",
+"distrito": "campo_mourao_soja",
+"area": 22500.0,
+"lat": -24.1401,
+"lon": -52.7784
+},
+{
+"ibge": "4112959",
+"nome": "JURANDA",
+"distrito": "campo_mourao_soja",
+"area": 29300.0,
+"lat": -24.4209,
+"lon": -52.8413
+},
+{
+"ibge": "4113734",
+"nome": "LUIZIANA",
+"distrito": "campo_mourao_soja",
+"area": 50000.0,
+"lat": -24.2853,
+"lon": -52.269
+},
+{
+"ibge": "4114005",
+"nome": "MAMBORÊ",
+"distrito": "campo_mourao_soja",
+"area": 60400.0,
+"lat": -24.317,
+"lon": -52.5271
+},
+{
+"ibge": "4114500",
+"nome": "MANOEL RIBAS",
+"distrito": "campo_mourao_soja",
+"area": 29000.0,
+"lat": -24.5144,
+"lon": -51.6658
+},
+{
+"ibge": "4116802",
+"nome": "NOVA CANTU",
+"distrito": "campo_mourao_soja",
+"area": 25200.0,
+"lat": -24.6723,
+"lon": -52.5661
+},
+{
+"ibge": "4118808",
+"nome": "PEABIRU",
+"distrito": "campo_mourao_soja",
+"area": 30100.0,
+"lat": -23.914,
+"lon": -52.3431
+},
+{
+"ibge": "4120655",
+"nome": "QUARTO CENTENÁRIO",
+"distrito": "campo_mourao_soja",
+"area": 25500.0,
+"lat": -24.2775,
+"lon": -53.0759
+},
+{
+"ibge": "4121109",
+"nome": "QUINTA DO SOL",
+"distrito": "campo_mourao_soja",
+"area": 22850.0,
+"lat": -23.8533,
+"lon": -52.1309
+},
+{
+"ibge": "4122503",
+"nome": "RONCADOR",
+"distrito": "campo_mourao_soja",
+"area": 34400.0,
+"lat": -24.5958,
+"lon": -52.2716
+},
+{
+"ibge": "4128005",
+"nome": "UBIRATÃ",
+"distrito": "campo_mourao_soja",
+"area": 49850.0,
+"lat": -24.5393,
+"lon": -52.9865
+},
+{
+"ibge": "4113205",
+"nome": "LAPA",
+"distrito": "canoinhas_soja",
+"area": 61890.0,
+"lat": -25.7671,
+"lon": -49.7168
+},
+{
+"ibge": "4118709",
+"nome": "PAULO FRONTIN",
+"distrito": "canoinhas_soja",
+"area": 20700.0,
+"lat": -26.0466,
+"lon": -50.8304
+},
+{
+"ibge": "4121505",
+"nome": "REBOUÇAS",
+"distrito": "canoinhas_soja",
+"area": 23500.0,
+"lat": -25.6232,
+"lon": -50.6877
+},
+{
+"ibge": "4125605",
+"nome": "SÃO MATEUS DO SUL",
+"distrito": "canoinhas_soja",
+"area": 42000.0,
+"lat": -25.8677,
+"lon": -50.384
+},
+{
+"ibge": "4104808",
+"nome": "CASCAVEL",
+"distrito": "cascavel_soja",
+"area": 86600.0,
+"lat": -24.9573,
+"lon": -53.459
+},
+{
+"ibge": "4106308",
+"nome": "CORBÉLIA",
+"distrito": "cascavel_soja",
+"area": 33675.0,
+"lat": -24.7971,
+"lon": -53.3006
+},
+{
+"ibge": "4109302",
+"nome": "GUARANIAÇU",
+"distrito": "cascavel_soja",
+"area": 26200.0,
+"lat": -25.0968,
+"lon": -52.8755
+},
+{
+"ibge": "4120903",
+"nome": "QUEDAS DO IGUAÇU",
+"distrito": "cascavel_soja",
+"area": 35900.0,
+"lat": -25.4492,
+"lon": -52.9102
+},
+{
+"ibge": "4101606",
+"nome": "ARAPOTI",
+"distrito": "cornelio_procop_soja",
+"area": 33600.0,
+"lat": -24.1548,
+"lon": -49.8285
+},
+{
+"ibge": "4101903",
+"nome": "ASSAÍ",
+"distrito": "cornelio_procop_soja",
+"area": 27000.0,
+"lat": -23.3697,
+"lon": -50.8459
+},
+{
+"ibge": "4103602",
+"nome": "CAMBARÁ",
+"distrito": "cornelio_procop_soja",
+"area": 17500.0,
+"lat": -23.0423,
+"lon": -50.0753
+},
+{
+"ibge": "4106407",
+"nome": "CORNÉLIO PROCÓPIO",
+"distrito": "cornelio_procop_soja",
+"area": 30305.0,
+"lat": -23.1829,
+"lon": -50.6498
+},
+{
+"ibge": "4112009",
+"nome": "JAGUARIAÍVA",
+"distrito": "cornelio_procop_soja",
+"area": 25400.0,
+"lat": -24.2439,
+"lon": -49.7066
+},
+{
+"ibge": "4119400",
+"nome": "PIRAÍ DO SUL",
+"distrito": "cornelio_procop_soja",
+"area": 36100.0,
+"lat": -24.5306,
+"lon": -49.9433
+},
+{
+"ibge": "4123907",
+"nome": "SANTA MARIANA",
+"distrito": "cornelio_procop_soja",
+"area": 30305.0,
+"lat": -23.1465,
+"lon": -50.5167
+},
+{
+"ibge": "4126405",
+"nome": "SERTANEJA",
+"distrito": "cornelio_procop_soja",
+"area": 30305.0,
+"lat": -23.0361,
+"lon": -50.8317
+},
+{
+"ibge": "4127502",
+"nome": "TIBAGI",
+"distrito": "cornelio_procop_soja",
+"area": 99900.0,
+"lat": -24.5153,
+"lon": -50.4176
+},
+{
+"ibge": "4128534",
+"nome": "VENTANIA",
+"distrito": "cornelio_procop_soja",
+"area": 21000.0,
+"lat": -24.2458,
+"lon": -50.2376
+},
+{
+"ibge": "4103040",
+"nome": "BOA VENTURA DE SÃO ROQUE",
+"distrito": "guarapuava_soja",
+"area": 22500.0,
+"lat": -24.8688,
+"lon": -51.6276
+},
+{
+"ibge": "4104428",
+"nome": "CANDÓI",
+"distrito": "guarapuava_soja",
+"area": 51300.0,
+"lat": -25.5758,
+"lon": -52.0409
+},
+{
+"ibge": "4104451",
+"nome": "CANTAGALO",
+"distrito": "guarapuava_soja",
+"area": 20600.0,
+"lat": -25.3734,
+"lon": -52.1198
+},
+{
+"ibge": "4108650",
+"nome": "GOIOXIM",
+"distrito": "guarapuava_soja",
+"area": 21600.0,
+"lat": -25.1927,
+"lon": -51.9911
+},
+{
+"ibge": "4109401",
+"nome": "GUARAPUAVA",
+"distrito": "guarapuava_soja",
+"area": 79600.0,
+"lat": -25.3902,
+"lon": -51.4623
+},
+{
+"ibge": "4110102",
+"nome": "IMBITUVA",
+"distrito": "guarapuava_soja",
+"area": 31200.0,
+"lat": -25.2285,
+"lon": -50.5989
+},
+{
+"ibge": "4110706",
+"nome": "IRATI",
+"distrito": "guarapuava_soja",
+"area": 38000.0,
+"lat": -25.4697,
+"lon": -50.6493
+},
+{
+"ibge": "4113304",
+"nome": "LARANJEIRAS DO SUL",
+"distrito": "guarapuava_soja",
+"area": 23100.0,
+"lat": -25.4077,
+"lon": -52.4109
+},
+{
+"ibge": "4119301",
+"nome": "PINHÃO",
+"distrito": "guarapuava_soja",
+"area": 40400.0,
+"lat": -25.6944,
+"lon": -51.6536
+},
+{
+"ibge": "4119608",
+"nome": "PITANGA",
+"distrito": "guarapuava_soja",
+"area": 55800.0,
+"lat": -24.7588,
+"lon": -51.7596
+},
+{
+"ibge": "4120606",
+"nome": "PRUDENTÓPOLIS",
+"distrito": "guarapuava_soja",
+"area": 42550.0,
+"lat": -25.2111,
+"lon": -50.9754
+},
+{
+"ibge": "4122156",
+"nome": "RIO BONITO DO IGUAÇU",
+"distrito": "guarapuava_soja",
+"area": 31200.0,
+"lat": -25.4874,
+"lon": -52.5292
+},
+{
+"ibge": "4123857",
+"nome": "SANTA MARIA DO OESTE",
+"distrito": "guarapuava_soja",
+"area": 21700.0,
+"lat": -24.9377,
+"lon": -51.8696
+},
+{
+"ibge": "4100806",
+"nome": "ALVORADA DO SUL",
+"distrito": "londrina_soja",
+"area": 20450.0,
+"lat": -22.7813,
+"lon": -51.2297
+},
+{
+"ibge": "4101408",
+"nome": "APUCARANA",
+"distrito": "londrina_soja",
+"area": 22500.0,
+"lat": -23.55,
+"lon": -51.4635
+},
+{
+"ibge": "4101507",
+"nome": "ARAPONGAS",
+"distrito": "londrina_soja",
+"area": 22200.0,
+"lat": -23.4153,
+"lon": -51.4259
+},
+{
+"ibge": "4103701",
+"nome": "CAMBÉ",
+"distrito": "londrina_soja",
+"area": 35200.0,
+"lat": -23.2766,
+"lon": -51.2798
+},
+{
+"ibge": "4113700",
+"nome": "LONDRINA",
+"distrito": "londrina_soja",
+"area": 70000.0,
+"lat": -23.304,
+"lon": -51.1691
+},
+{
+"ibge": "4114906",
+"nome": "MARILÂNDIA DO SUL",
+"distrito": "londrina_soja",
+"area": 22550.0,
+"lat": -23.7425,
+"lon": -51.3137
+},
+{
+"ibge": "4117305",
+"nome": "ORTIGUEIRA",
+"distrito": "londrina_soja",
+"area": 30050.0,
+"lat": -24.2058,
+"lon": -50.9185
+},
+{
+"ibge": "4120507",
+"nome": "PRIMEIRO DE MAIO",
+"distrito": "londrina_soja",
+"area": 22950.0,
+"lat": -22.8517,
+"lon": -51.0293
+},
+{
+"ibge": "4122404",
+"nome": "ROLÂNDIA",
+"distrito": "londrina_soja",
+"area": 32500.0,
+"lat": -23.3101,
+"lon": -51.3659
+},
+{
+"ibge": "4126504",
+"nome": "SERTANÓPOLIS",
+"distrito": "londrina_soja",
+"area": 31500.0,
+"lat": -23.0571,
+"lon": -51.0399
+},
+{
+"ibge": "4102109",
+"nome": "ASTORGA",
+"distrito": "maringa_soja",
+"area": 25700.0,
+"lat": -23.2318,
+"lon": -51.6668
+},
+{
+"ibge": "4105508",
+"nome": "CIANORTE",
+"distrito": "maringa_soja",
+"area": 12650.0,
+"lat": -23.6599,
+"lon": -52.6054
+},
+{
+"ibge": "4114807",
+"nome": "MARIALVA",
+"distrito": "maringa_soja",
+"area": 28000.0,
+"lat": -23.4843,
+"lon": -51.7928
+},
+{
+"ibge": "4115200",
+"nome": "MARINGÁ",
+"distrito": "maringa_soja",
+"area": 25000.0,
+"lat": -23.4205,
+"lon": -51.9333
+},
+{
+"ibge": "4118402",
+"nome": "PARANAVAÍ",
+"distrito": "maringa_soja",
+"area": 242.0,
+"lat": -23.0816,
+"lon": -52.4617
+},
+{
+"ibge": "4125308",
+"nome": "SÃO JORGE DO IVAÍ",
+"distrito": "maringa_soja",
+"area": 26623.0,
+"lat": -23.4336,
+"lon": -52.2929
+},
+{
+"ibge": "4100707",
+"nome": "ALTO PIQUIRI",
+"distrito": "palotina_soja",
+"area": 33400.0,
+"lat": -24.0224,
+"lon": -53.44
+},
+{
+"ibge": "4102000",
+"nome": "ASSIS CHATEAUBRIAND",
+"distrito": "palotina_soja",
+"area": 71820.0,
+"lat": -24.4168,
+"lon": -53.5213
+},
+{
+"ibge": "4103370",
+"nome": "BRASILÂNDIA DO SUL",
+"distrito": "palotina_soja",
+"area": 22800.0,
+"lat": -24.1978,
+"lon": -53.5275
+},
+{
+"ibge": "4103453",
+"nome": "CAFELÂNDIA",
+"distrito": "palotina_soja",
+"area": 23727.0,
+"lat": -24.6189,
+"lon": -53.3207
+},
+{
+"ibge": "4108809",
+"nome": "GUAÍRA",
+"distrito": "palotina_soja",
+"area": 33955.0,
+"lat": -24.085,
+"lon": -54.2573
+},
+{
+"ibge": "4110607",
+"nome": "IPORÃ",
+"distrito": "palotina_soja",
+"area": 25800.0,
+"lat": -24.0083,
+"lon": -53.706
+},
+{
+"ibge": "4114609",
+"nome": "MARECHAL CÂNDIDO RONDON",
+"distrito": "palotina_soja",
+"area": 33100.0,
+"lat": -24.557,
+"lon": -54.0571
+},
+{
+"ibge": "4115101",
+"nome": "MARILUZ",
+"distrito": "palotina_soja",
+"area": 22820.0,
+"lat": -24.0089,
+"lon": -53.1432
+},
+{
+"ibge": "4115358",
+"nome": "MARIPÁ",
+"distrito": "palotina_soja",
+"area": 22650.0,
+"lat": -24.42,
+"lon": -53.8286
+},
+{
+"ibge": "4116703",
+"nome": "NOVA AURORA",
+"distrito": "palotina_soja",
+"area": 34190.0,
+"lat": -24.5289,
+"lon": -53.2575
+},
+{
+"ibge": "4117909",
+"nome": "PALOTINA",
+"distrito": "palotina_soja",
+"area": 45790.0,
+"lat": -24.2868,
+"lon": -53.8404
+},
+{
+"ibge": "4127403",
+"nome": "TERRA ROXA",
+"distrito": "palotina_soja",
+"area": 58000.0,
+"lat": -24.1575,
+"lon": -54.0988
+},
+{
+"ibge": "4127957",
+"nome": "TUPÃSSI",
+"distrito": "palotina_soja",
+"area": 23155.0,
+"lat": -24.5879,
+"lon": -53.5105
+},
+{
+"ibge": "4128104",
+"nome": "UMUARAMA",
+"distrito": "palotina_soja",
+"area": 2375.0,
+"lat": -23.7656,
+"lon": -53.3201
+},
+{
+"ibge": "4105409",
+"nome": "CHOPINZINHO",
+"distrito": "pato_branco_soja",
+"area": 32800.0,
+"lat": -25.8515,
+"lon": -52.5173
+},
+{
+"ibge": "4105706",
+"nome": "CLEVELÂNDIA",
+"distrito": "pato_branco_soja",
+"area": 37700.0,
+"lat": -26.4043,
+"lon": -52.3508
+},
+{
+"ibge": "4106456",
+"nome": "CORONEL DOMINGOS SOARES",
+"distrito": "pato_branco_soja",
+"area": 20050.0,
+"lat": -26.2277,
+"lon": -52.0356
+},
+{
+"ibge": "4106506",
+"nome": "CORONEL VIVIDA",
+"distrito": "pato_branco_soja",
+"area": 30450.0,
+"lat": -25.9767,
+"lon": -52.5641
+},
+{
+"ibge": "4108403",
+"nome": "FRANCISCO BELTRÃO",
+"distrito": "pato_branco_soja",
+"area": 25700.0,
+"lat": -26.0817,
+"lon": -53.0535
+},
+{
+"ibge": "4109658",
+"nome": "HONÓRIO SERPA",
+"distrito": "pato_branco_soja",
+"area": 23400.0,
+"lat": -26.139,
+"lon": -52.3848
+},
+{
+"ibge": "4114401",
+"nome": "MANGUEIRINHA",
+"distrito": "pato_branco_soja",
+"area": 48000.0,
+"lat": -25.9421,
+"lon": -52.1743
+},
+{
+"ibge": "4117602",
+"nome": "PALMAS",
+"distrito": "pato_branco_soja",
+"area": 34000.0,
+"lat": -26.4839,
+"lon": -51.9888
+},
+{
+"ibge": "4118501",
+"nome": "PATO BRANCO",
+"distrito": "pato_branco_soja",
+"area": 27900.0,
+"lat": -26.2292,
+"lon": -52.6706
+},
+{
+"ibge": "4121604",
+"nome": "RENASCENÇA",
+"distrito": "pato_branco_soja",
+"area": 27300.0,
+"lat": -26.1588,
+"lon": -52.9703
+},
+{
+"ibge": "4124806",
+"nome": "SÃO JOÃO",
+"distrito": "pato_branco_soja",
+"area": 23820.0,
+"lat": -25.8214,
+"lon": -52.7252
+},
+{
+"ibge": "4128708",
+"nome": "VITORINO",
+"distrito": "pato_branco_soja",
+"area": 24050.0,
+"lat": -26.2683,
+"lon": -52.7843
+},
+{
+"ibge": "4104659",
+"nome": "CARAMBEÍ",
+"distrito": "ponta_grossa_soja",
+"area": 21850.0,
+"lat": -24.9152,
+"lon": -50.0986
+},
+{
+"ibge": "4104907",
+"nome": "CASTRO",
+"distrito": "ponta_grossa_soja",
+"area": 54500.0,
+"lat": -24.7891,
+"lon": -50.0108
+},
+{
+"ibge": "4110508",
+"nome": "IPIRANGA",
+"distrito": "ponta_grossa_soja",
+"area": 31450.0,
+"lat": -25.0238,
+"lon": -50.5794
+},
+{
+"ibge": "4117701",
+"nome": "PALMEIRA",
+"distrito": "ponta_grossa_soja",
+"area": 59100.0,
+"lat": -25.4257,
+"lon": -50.007
+},
+{
+"ibge": "4119905",
+"nome": "PONTA GROSSA",
+"distrito": "ponta_grossa_soja",
+"area": 64900.0,
+"lat": -25.0916,
+"lon": -50.1668
+},
+{
+"ibge": "4121703",
+"nome": "RESERVA",
+"distrito": "ponta_grossa_soja",
+"area": 27050.0,
+"lat": -24.6492,
+"lon": -50.8466
+},
+{
+"ibge": "4127007",
+"nome": "TEIXEIRA SOARES",
+"distrito": "ponta_grossa_soja",
+"area": 44500.0,
+"lat": -25.3701,
+"lon": -50.4571
+},
+{
+"ibge": "4123501",
+"nome": "SANTA HELENA",
+"distrito": "toledo_soja",
+"area": 27895.0,
+"lat": -24.8585,
+"lon": -54.336
+},
+{
+"ibge": "4125704",
+"nome": "SÃO MIGUEL DO IGUAÇU",
+"distrito": "toledo_soja",
+"area": 47300.0,
+"lat": -25.3492,
+"lon": -54.2405
+},
+{
+"ibge": "4127700",
+"nome": "TOLEDO",
+"distrito": "toledo_soja",
+"area": 70700.0,
+"lat": -24.7246,
+"lon": -53.7412
+}
+]
