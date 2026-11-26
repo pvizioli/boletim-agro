@@ -1,0 +1,2333 @@
+{
+ "modis": {
+  "calibracao": {
+   "lag": 17,
+   "rmse_pp": 5.5,
+   "vies_pp": 1.3,
+   "n": 7,
+   "rmse_pp_fora_da_amostra": 7.1
+  },
+  "n_obs": 194,
+  "modelos": {
+   "Media historica do municipio": {
+    "safra_nova": {
+     "n": 194,
+     "acerto_medio_pct": 85.4,
+     "dentro_5pct": 36.6,
+     "dentro_10pct": 58.8,
+     "dentro_15pct": 79.4,
+     "rmse_sc_ha": 8.9,
+     "acerto_agregado_pct": 92.3,
+     "acerto_producao_pct": 92.3,
+     "por_safra": {
+      "2013": {
+       "real_sc_ha": 58.1,
+       "prev_sc_ha": 59.3,
+       "acerto_pct": 97.9,
+       "prod_real_mil_t": 2998.7,
+       "prod_prev_mil_t": 3060.5
+      },
+      "2014": {
+       "real_sc_ha": 54.5,
+       "prev_sc_ha": 59.4,
+       "acerto_pct": 91.0,
+       "prod_real_mil_t": 2904.4,
+       "prod_prev_mil_t": 3164.9
+      },
+      "2015": {
+       "real_sc_ha": 57.5,
+       "prev_sc_ha": 59.2,
+       "acerto_pct": 96.9,
+       "prod_real_mil_t": 3154.6,
+       "prod_prev_mil_t": 3251.2
+      },
+      "2016": {
+       "real_sc_ha": 56.2,
+       "prev_sc_ha": 59.4,
+       "acerto_pct": 94.2,
+       "prod_real_mil_t": 3168.4,
+       "prod_prev_mil_t": 3351.2
+      },
+      "2017": {
+       "real_sc_ha": 63.2,
+       "prev_sc_ha": 58.7,
+       "acerto_pct": 92.9,
+       "prod_real_mil_t": 3378.5,
+       "prod_prev_mil_t": 3140.0
+      },
+      "2018": {
+       "real_sc_ha": 60.2,
+       "prev_sc_ha": 59.0,
+       "acerto_pct": 98.1,
+       "prod_real_mil_t": 3286.0,
+       "prod_prev_mil_t": 3225.0
+      },
+      "2019": {
+       "real_sc_ha": 53.1,
+       "prev_sc_ha": 59.5,
+       "acerto_pct": 87.9,
+       "prod_real_mil_t": 2892.0,
+       "prod_prev_mil_t": 3241.2
+      },
+      "2020": {
+       "real_sc_ha": 66.9,
+       "prev_sc_ha": 58.4,
+       "acerto_pct": 87.3,
+       "prod_real_mil_t": 3666.6,
+       "prod_prev_mil_t": 3199.2
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 58.9,
+       "acerto_pct": 97.6,
+       "prod_real_mil_t": 3243.6,
+       "prod_prev_mil_t": 3164.8
+      },
+      "2022": {
+       "real_sc_ha": 49.6,
+       "prev_sc_ha": 60.4,
+       "acerto_pct": 78.2,
+       "prod_real_mil_t": 2506.4,
+       "prod_prev_mil_t": 3053.4
+      },
+      "2023": {
+       "real_sc_ha": 63.6,
+       "prev_sc_ha": 58.6,
+       "acerto_pct": 92.0,
+       "prod_real_mil_t": 3451.7,
+       "prod_prev_mil_t": 3175.8
+      },
+      "2024": {
+       "real_sc_ha": 58.0,
+       "prev_sc_ha": 59.0,
+       "acerto_pct": 98.2,
+       "prod_real_mil_t": 3176.0,
+       "prod_prev_mil_t": 3232.4
+      },
+      "2025": {
+       "real_sc_ha": 67.0,
+       "prev_sc_ha": 58.3,
+       "acerto_pct": 86.9,
+       "prod_real_mil_t": 3727.9,
+       "prod_prev_mil_t": 3240.1
+      }
+     }
+    },
+    "municipio_novo": {
+     "n": 194,
+     "acerto_medio_pct": 84.7,
+     "dentro_5pct": 32.0,
+     "dentro_10pct": 58.8,
+     "dentro_15pct": 75.3,
+     "rmse_sc_ha": 9.4,
+     "acerto_agregado_pct": 93.2,
+     "acerto_producao_pct": 93.2,
+     "por_safra": {
+      "2013": {
+       "real_sc_ha": 58.1,
+       "prev_sc_ha": 58.3,
+       "acerto_pct": 99.6,
+       "prod_real_mil_t": 2998.7,
+       "prod_prev_mil_t": 3011.0
+      },
+      "2014": {
+       "real_sc_ha": 54.5,
+       "prev_sc_ha": 58.3,
+       "acerto_pct": 93.1,
+       "prod_real_mil_t": 2904.4,
+       "prod_prev_mil_t": 3106.0
+      },
+      "2015": {
+       "real_sc_ha": 57.5,
+       "prev_sc_ha": 58.3,
+       "acerto_pct": 98.6,
+       "prod_real_mil_t": 3154.6,
+       "prod_prev_mil_t": 3199.9
+      },
+      "2016": {
+       "real_sc_ha": 56.2,
+       "prev_sc_ha": 58.3,
+       "acerto_pct": 96.2,
+       "prod_real_mil_t": 3168.4,
+       "prod_prev_mil_t": 3288.8
+      },
+      "2017": {
+       "real_sc_ha": 63.2,
+       "prev_sc_ha": 58.3,
+       "acerto_pct": 92.3,
+       "prod_real_mil_t": 3378.5,
+       "prod_prev_mil_t": 3117.3
+      },
+      "2018": {
+       "real_sc_ha": 60.2,
+       "prev_sc_ha": 58.3,
+       "acerto_pct": 96.9,
+       "prod_real_mil_t": 3286.0,
+       "prod_prev_mil_t": 3184.4
+      },
+      "2019": {
+       "real_sc_ha": 53.1,
+       "prev_sc_ha": 58.3,
+       "acerto_pct": 90.2,
+       "prod_real_mil_t": 2892.0,
+       "prod_prev_mil_t": 3174.9
+      },
+      "2020": {
+       "real_sc_ha": 66.9,
+       "prev_sc_ha": 58.3,
+       "acerto_pct": 87.1,
+       "prod_real_mil_t": 3666.6,
+       "prod_prev_mil_t": 3194.6
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 58.3,
+       "acerto_pct": 96.6,
+       "prod_real_mil_t": 3243.6,
+       "prod_prev_mil_t": 3133.8
+      },
+      "2022": {
+       "real_sc_ha": 49.6,
+       "prev_sc_ha": 58.3,
+       "acerto_pct": 82.5,
+       "prod_real_mil_t": 2506.4,
+       "prod_prev_mil_t": 2944.1
+      },
+      "2023": {
+       "real_sc_ha": 63.6,
+       "prev_sc_ha": 58.3,
+       "acerto_pct": 91.6,
+       "prod_real_mil_t": 3451.7,
+       "prod_prev_mil_t": 3162.8
+      },
+      "2024": {
+       "real_sc_ha": 58.0,
+       "prev_sc_ha": 58.3,
+       "acerto_pct": 99.4,
+       "prod_real_mil_t": 3176.0,
+       "prod_prev_mil_t": 3193.8
+      },
+      "2025": {
+       "real_sc_ha": 67.0,
+       "prev_sc_ha": 58.3,
+       "acerto_pct": 87.0,
+       "prod_real_mil_t": 3727.9,
+       "prod_prev_mil_t": 3243.2
+      }
+     }
+    }
+   },
+   "Tendencia + efeito do municipio": {
+    "safra_nova": {
+     "n": 194,
+     "acerto_medio_pct": 84.9,
+     "dentro_5pct": 28.9,
+     "dentro_10pct": 55.2,
+     "dentro_15pct": 75.8,
+     "rmse_sc_ha": 9.16,
+     "acerto_agregado_pct": 92.0,
+     "acerto_producao_pct": 92.0,
+     "por_safra": {
+      "2013": {
+       "real_sc_ha": 58.1,
+       "prev_sc_ha": 55.3,
+       "acerto_pct": 95.2,
+       "prod_real_mil_t": 2998.7,
+       "prod_prev_mil_t": 2854.0
+      },
+      "2014": {
+       "real_sc_ha": 54.5,
+       "prev_sc_ha": 57.1,
+       "acerto_pct": 95.4,
+       "prod_real_mil_t": 2904.4,
+       "prod_prev_mil_t": 3039.1
+      },
+      "2015": {
+       "real_sc_ha": 57.5,
+       "prev_sc_ha": 56.7,
+       "acerto_pct": 98.6,
+       "prod_real_mil_t": 3154.6,
+       "prod_prev_mil_t": 3109.9
+      },
+      "2016": {
+       "real_sc_ha": 56.2,
+       "prev_sc_ha": 57.3,
+       "acerto_pct": 97.9,
+       "prod_real_mil_t": 3168.4,
+       "prod_prev_mil_t": 3233.8
+      },
+      "2017": {
+       "real_sc_ha": 63.2,
+       "prev_sc_ha": 56.9,
+       "acerto_pct": 90.1,
+       "prod_real_mil_t": 3378.5,
+       "prod_prev_mil_t": 3042.9
+      },
+      "2018": {
+       "real_sc_ha": 60.2,
+       "prev_sc_ha": 57.7,
+       "acerto_pct": 95.9,
+       "prod_real_mil_t": 3286.0,
+       "prod_prev_mil_t": 3151.5
+      },
+      "2019": {
+       "real_sc_ha": 53.1,
+       "prev_sc_ha": 58.7,
+       "acerto_pct": 89.5,
+       "prod_real_mil_t": 2892.0,
+       "prod_prev_mil_t": 3194.8
+      },
+      "2020": {
+       "real_sc_ha": 66.9,
+       "prev_sc_ha": 57.9,
+       "acerto_pct": 86.5,
+       "prod_real_mil_t": 3666.6,
+       "prod_prev_mil_t": 3172.9
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 58.8,
+       "acerto_pct": 97.4,
+       "prod_real_mil_t": 3243.6,
+       "prod_prev_mil_t": 3158.0
+      },
+      "2022": {
+       "real_sc_ha": 49.6,
+       "prev_sc_ha": 62.5,
+       "acerto_pct": 74.1,
+       "prod_real_mil_t": 2506.4,
+       "prod_prev_mil_t": 3155.4
+      },
+      "2023": {
+       "real_sc_ha": 63.6,
+       "prev_sc_ha": 59.0,
+       "acerto_pct": 92.6,
+       "prod_real_mil_t": 3451.7,
+       "prod_prev_mil_t": 3197.7
+      },
+      "2024": {
+       "real_sc_ha": 58.0,
+       "prev_sc_ha": 60.8,
+       "acerto_pct": 95.2,
+       "prod_real_mil_t": 3176.0,
+       "prod_prev_mil_t": 3327.5
+      },
+      "2025": {
+       "real_sc_ha": 67.0,
+       "prev_sc_ha": 58.5,
+       "acerto_pct": 87.2,
+       "prod_real_mil_t": 3727.9,
+       "prod_prev_mil_t": 3251.1
+      }
+     }
+    },
+    "municipio_novo": {
+     "n": 194,
+     "acerto_medio_pct": 84.6,
+     "dentro_5pct": 28.9,
+     "dentro_10pct": 54.6,
+     "dentro_15pct": 75.3,
+     "rmse_sc_ha": 9.38,
+     "acerto_agregado_pct": 93.0,
+     "acerto_producao_pct": 93.0,
+     "por_safra": {
+      "2013": {
+       "real_sc_ha": 58.1,
+       "prev_sc_ha": 54.8,
+       "acerto_pct": 94.5,
+       "prod_real_mil_t": 2998.7,
+       "prod_prev_mil_t": 2832.3
+      },
+      "2014": {
+       "real_sc_ha": 54.5,
+       "prev_sc_ha": 55.2,
+       "acerto_pct": 98.7,
+       "prod_real_mil_t": 2904.4,
+       "prod_prev_mil_t": 2942.3
+      },
+      "2015": {
+       "real_sc_ha": 57.5,
+       "prev_sc_ha": 55.6,
+       "acerto_pct": 96.8,
+       "prod_real_mil_t": 3154.6,
+       "prod_prev_mil_t": 3052.7
+      },
+      "2016": {
+       "real_sc_ha": 56.2,
+       "prev_sc_ha": 56.0,
+       "acerto_pct": 99.7,
+       "prod_real_mil_t": 3168.4,
+       "prod_prev_mil_t": 3159.5
+      },
+      "2017": {
+       "real_sc_ha": 63.2,
+       "prev_sc_ha": 56.4,
+       "acerto_pct": 89.3,
+       "prod_real_mil_t": 3378.5,
+       "prod_prev_mil_t": 3015.9
+      },
+      "2018": {
+       "real_sc_ha": 60.2,
+       "prev_sc_ha": 56.8,
+       "acerto_pct": 94.4,
+       "prod_real_mil_t": 3286.0,
+       "prod_prev_mil_t": 3102.4
+      },
+      "2019": {
+       "real_sc_ha": 53.1,
+       "prev_sc_ha": 57.2,
+       "acerto_pct": 92.3,
+       "prod_real_mil_t": 2892.0,
+       "prod_prev_mil_t": 3114.9
+      },
+      "2020": {
+       "real_sc_ha": 66.9,
+       "prev_sc_ha": 57.6,
+       "acerto_pct": 86.1,
+       "prod_real_mil_t": 3666.6,
+       "prod_prev_mil_t": 3156.1
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 58.0,
+       "acerto_pct": 96.1,
+       "prod_real_mil_t": 3243.6,
+       "prod_prev_mil_t": 3117.9
+      },
+      "2022": {
+       "real_sc_ha": 49.6,
+       "prev_sc_ha": 58.4,
+       "acerto_pct": 82.4,
+       "prod_real_mil_t": 2506.4,
+       "prod_prev_mil_t": 2948.1
+      },
+      "2023": {
+       "real_sc_ha": 63.6,
+       "prev_sc_ha": 58.8,
+       "acerto_pct": 92.4,
+       "prod_real_mil_t": 3451.7,
+       "prod_prev_mil_t": 3190.8
+      },
+      "2024": {
+       "real_sc_ha": 58.0,
+       "prev_sc_ha": 59.3,
+       "acerto_pct": 97.8,
+       "prod_real_mil_t": 3176.0,
+       "prod_prev_mil_t": 3244.8
+      },
+      "2025": {
+       "real_sc_ha": 67.0,
+       "prev_sc_ha": 59.7,
+       "acerto_pct": 89.0,
+       "prod_real_mil_t": 3727.9,
+       "prod_prev_mil_t": 3318.2
+      }
+     }
+    }
+   },
+   "Clima, calendario fixo (base)": {
+    "safra_nova": {
+     "n": 194,
+     "acerto_medio_pct": 88.0,
+     "dentro_5pct": 39.7,
+     "dentro_10pct": 58.8,
+     "dentro_15pct": 75.8,
+     "rmse_sc_ha": 7.48,
+     "acerto_agregado_pct": 95.3,
+     "acerto_producao_pct": 95.3,
+     "por_safra": {
+      "2013": {
+       "real_sc_ha": 58.1,
+       "prev_sc_ha": 55.4,
+       "acerto_pct": 95.4,
+       "prod_real_mil_t": 2998.7,
+       "prod_prev_mil_t": 2861.0
+      },
+      "2014": {
+       "real_sc_ha": 54.5,
+       "prev_sc_ha": 48.9,
+       "acerto_pct": 89.7,
+       "prod_real_mil_t": 2904.4,
+       "prod_prev_mil_t": 2606.6
+      },
+      "2015": {
+       "real_sc_ha": 57.5,
+       "prev_sc_ha": 59.3,
+       "acerto_pct": 96.9,
+       "prod_real_mil_t": 3154.6,
+       "prod_prev_mil_t": 3253.1
+      },
+      "2016": {
+       "real_sc_ha": 56.2,
+       "prev_sc_ha": 62.1,
+       "acerto_pct": 89.5,
+       "prod_real_mil_t": 3168.4,
+       "prod_prev_mil_t": 3500.1
+      },
+      "2017": {
+       "real_sc_ha": 63.2,
+       "prev_sc_ha": 61.9,
+       "acerto_pct": 98.0,
+       "prod_real_mil_t": 3378.5,
+       "prod_prev_mil_t": 3309.4
+      },
+      "2018": {
+       "real_sc_ha": 60.2,
+       "prev_sc_ha": 59.8,
+       "acerto_pct": 99.4,
+       "prod_real_mil_t": 3286.0,
+       "prod_prev_mil_t": 3266.6
+      },
+      "2019": {
+       "real_sc_ha": 53.1,
+       "prev_sc_ha": 53.7,
+       "acerto_pct": 98.9,
+       "prod_real_mil_t": 2892.0,
+       "prod_prev_mil_t": 2924.2
+      },
+      "2020": {
+       "real_sc_ha": 66.9,
+       "prev_sc_ha": 62.4,
+       "acerto_pct": 93.2,
+       "prod_real_mil_t": 3666.6,
+       "prod_prev_mil_t": 3417.5
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 65.4,
+       "acerto_pct": 91.7,
+       "prod_real_mil_t": 3243.6,
+       "prod_prev_mil_t": 3513.8
+      },
+      "2022": {
+       "real_sc_ha": 49.6,
+       "prev_sc_ha": 48.0,
+       "acerto_pct": 96.8,
+       "prod_real_mil_t": 2506.4,
+       "prod_prev_mil_t": 2425.3
+      },
+      "2023": {
+       "real_sc_ha": 63.6,
+       "prev_sc_ha": 61.1,
+       "acerto_pct": 95.9,
+       "prod_real_mil_t": 3451.7,
+       "prod_prev_mil_t": 3311.0
+      },
+      "2024": {
+       "real_sc_ha": 58.0,
+       "prev_sc_ha": 61.3,
+       "acerto_pct": 94.3,
+       "prod_real_mil_t": 3176.0,
+       "prod_prev_mil_t": 3357.6
+      },
+      "2025": {
+       "real_sc_ha": 67.0,
+       "prev_sc_ha": 67.0,
+       "acerto_pct": 99.9,
+       "prod_real_mil_t": 3727.9,
+       "prod_prev_mil_t": 3723.2
+      }
+     }
+    },
+    "municipio_novo": {
+     "n": 194,
+     "acerto_medio_pct": 88.0,
+     "dentro_5pct": 34.0,
+     "dentro_10pct": 64.9,
+     "dentro_15pct": 80.4,
+     "rmse_sc_ha": 7.55,
+     "acerto_agregado_pct": 95.2,
+     "acerto_producao_pct": 95.2,
+     "por_safra": {
+      "2013": {
+       "real_sc_ha": 58.1,
+       "prev_sc_ha": 55.6,
+       "acerto_pct": 95.7,
+       "prod_real_mil_t": 2998.7,
+       "prod_prev_mil_t": 2870.2
+      },
+      "2014": {
+       "real_sc_ha": 54.5,
+       "prev_sc_ha": 50.3,
+       "acerto_pct": 92.2,
+       "prod_real_mil_t": 2904.4,
+       "prod_prev_mil_t": 2677.7
+      },
+      "2015": {
+       "real_sc_ha": 57.5,
+       "prev_sc_ha": 58.0,
+       "acerto_pct": 99.1,
+       "prod_real_mil_t": 3154.6,
+       "prod_prev_mil_t": 3183.8
+      },
+      "2016": {
+       "real_sc_ha": 56.2,
+       "prev_sc_ha": 60.2,
+       "acerto_pct": 92.9,
+       "prod_real_mil_t": 3168.4,
+       "prod_prev_mil_t": 3394.6
+      },
+      "2017": {
+       "real_sc_ha": 63.2,
+       "prev_sc_ha": 61.1,
+       "acerto_pct": 96.7,
+       "prod_real_mil_t": 3378.5,
+       "prod_prev_mil_t": 3265.7
+      },
+      "2018": {
+       "real_sc_ha": 60.2,
+       "prev_sc_ha": 59.4,
+       "acerto_pct": 98.7,
+       "prod_real_mil_t": 3286.0,
+       "prod_prev_mil_t": 3242.8
+      },
+      "2019": {
+       "real_sc_ha": 53.1,
+       "prev_sc_ha": 52.9,
+       "acerto_pct": 99.6,
+       "prod_real_mil_t": 2892.0,
+       "prod_prev_mil_t": 2880.5
+      },
+      "2020": {
+       "real_sc_ha": 66.9,
+       "prev_sc_ha": 62.5,
+       "acerto_pct": 93.4,
+       "prod_real_mil_t": 3666.6,
+       "prod_prev_mil_t": 3423.5
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 63.8,
+       "acerto_pct": 94.3,
+       "prod_real_mil_t": 3243.6,
+       "prod_prev_mil_t": 3427.6
+      },
+      "2022": {
+       "real_sc_ha": 49.6,
+       "prev_sc_ha": 42.3,
+       "acerto_pct": 85.4,
+       "prod_real_mil_t": 2506.4,
+       "prod_prev_mil_t": 2139.4
+      },
+      "2023": {
+       "real_sc_ha": 63.6,
+       "prev_sc_ha": 61.0,
+       "acerto_pct": 95.8,
+       "prod_real_mil_t": 3451.7,
+       "prod_prev_mil_t": 3306.1
+      },
+      "2024": {
+       "real_sc_ha": 58.0,
+       "prev_sc_ha": 60.4,
+       "acerto_pct": 95.9,
+       "prod_real_mil_t": 3176.0,
+       "prod_prev_mil_t": 3306.2
+      },
+      "2025": {
+       "real_sc_ha": 67.0,
+       "prev_sc_ha": 65.5,
+       "acerto_pct": 97.7,
+       "prod_real_mil_t": 3727.9,
+       "prod_prev_mil_t": 3642.7
+      }
+     }
+    }
+   },
+   "Clima + semeadura/ciclo do satelite": {
+    "safra_nova": {
+     "n": 194,
+     "acerto_medio_pct": 86.3,
+     "dentro_5pct": 32.0,
+     "dentro_10pct": 57.2,
+     "dentro_15pct": 72.7,
+     "rmse_sc_ha": 8.79,
+     "acerto_agregado_pct": 94.0,
+     "acerto_producao_pct": 94.0,
+     "por_safra": {
+      "2013": {
+       "real_sc_ha": 58.1,
+       "prev_sc_ha": 52.2,
+       "acerto_pct": 89.8,
+       "prod_real_mil_t": 2998.7,
+       "prod_prev_mil_t": 2694.3
+      },
+      "2014": {
+       "real_sc_ha": 54.5,
+       "prev_sc_ha": 50.3,
+       "acerto_pct": 92.3,
+       "prod_real_mil_t": 2904.4,
+       "prod_prev_mil_t": 2679.4
+      },
+      "2015": {
+       "real_sc_ha": 57.5,
+       "prev_sc_ha": 57.7,
+       "acerto_pct": 99.7,
+       "prod_real_mil_t": 3154.6,
+       "prod_prev_mil_t": 3164.6
+      },
+      "2016": {
+       "real_sc_ha": 56.2,
+       "prev_sc_ha": 63.0,
+       "acerto_pct": 87.8,
+       "prod_real_mil_t": 3168.4,
+       "prod_prev_mil_t": 3555.1
+      },
+      "2017": {
+       "real_sc_ha": 63.2,
+       "prev_sc_ha": 61.9,
+       "acerto_pct": 98.0,
+       "prod_real_mil_t": 3378.5,
+       "prod_prev_mil_t": 3311.4
+      },
+      "2018": {
+       "real_sc_ha": 60.2,
+       "prev_sc_ha": 60.0,
+       "acerto_pct": 99.7,
+       "prod_real_mil_t": 3286.0,
+       "prod_prev_mil_t": 3276.1
+      },
+      "2019": {
+       "real_sc_ha": 53.1,
+       "prev_sc_ha": 56.3,
+       "acerto_pct": 93.9,
+       "prod_real_mil_t": 2892.0,
+       "prod_prev_mil_t": 3067.7
+      },
+      "2020": {
+       "real_sc_ha": 66.9,
+       "prev_sc_ha": 58.7,
+       "acerto_pct": 87.8,
+       "prod_real_mil_t": 3666.6,
+       "prod_prev_mil_t": 3218.3
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 66.1,
+       "acerto_pct": 90.5,
+       "prod_real_mil_t": 3243.6,
+       "prod_prev_mil_t": 3552.4
+      },
+      "2022": {
+       "real_sc_ha": 49.6,
+       "prev_sc_ha": 53.4,
+       "acerto_pct": 92.4,
+       "prod_real_mil_t": 2506.4,
+       "prod_prev_mil_t": 2696.5
+      },
+      "2023": {
+       "real_sc_ha": 63.6,
+       "prev_sc_ha": 62.5,
+       "acerto_pct": 98.3,
+       "prod_real_mil_t": 3451.7,
+       "prod_prev_mil_t": 3391.7
+      },
+      "2024": {
+       "real_sc_ha": 58.0,
+       "prev_sc_ha": 59.8,
+       "acerto_pct": 96.9,
+       "prod_real_mil_t": 3176.0,
+       "prod_prev_mil_t": 3273.4
+      },
+      "2025": {
+       "real_sc_ha": 67.0,
+       "prev_sc_ha": 63.7,
+       "acerto_pct": 95.0,
+       "prod_real_mil_t": 3727.9,
+       "prod_prev_mil_t": 3540.5
+      }
+     }
+    },
+    "municipio_novo": {
+     "n": 194,
+     "acerto_medio_pct": 87.5,
+     "dentro_5pct": 32.0,
+     "dentro_10pct": 63.4,
+     "dentro_15pct": 78.4,
+     "rmse_sc_ha": 7.98,
+     "acerto_agregado_pct": 94.9,
+     "acerto_producao_pct": 94.9,
+     "por_safra": {
+      "2013": {
+       "real_sc_ha": 58.1,
+       "prev_sc_ha": 52.7,
+       "acerto_pct": 90.8,
+       "prod_real_mil_t": 2998.7,
+       "prod_prev_mil_t": 2723.8
+      },
+      "2014": {
+       "real_sc_ha": 54.5,
+       "prev_sc_ha": 51.2,
+       "acerto_pct": 93.9,
+       "prod_real_mil_t": 2904.4,
+       "prod_prev_mil_t": 2726.5
+      },
+      "2015": {
+       "real_sc_ha": 57.5,
+       "prev_sc_ha": 56.7,
+       "acerto_pct": 98.6,
+       "prod_real_mil_t": 3154.6,
+       "prod_prev_mil_t": 3110.3
+      },
+      "2016": {
+       "real_sc_ha": 56.2,
+       "prev_sc_ha": 60.8,
+       "acerto_pct": 91.8,
+       "prod_real_mil_t": 3168.4,
+       "prod_prev_mil_t": 3428.7
+      },
+      "2017": {
+       "real_sc_ha": 63.2,
+       "prev_sc_ha": 61.0,
+       "acerto_pct": 96.5,
+       "prod_real_mil_t": 3378.5,
+       "prod_prev_mil_t": 3260.9
+      },
+      "2018": {
+       "real_sc_ha": 60.2,
+       "prev_sc_ha": 59.7,
+       "acerto_pct": 99.1,
+       "prod_real_mil_t": 3286.0,
+       "prod_prev_mil_t": 3257.9
+      },
+      "2019": {
+       "real_sc_ha": 53.1,
+       "prev_sc_ha": 55.3,
+       "acerto_pct": 96.0,
+       "prod_real_mil_t": 2892.0,
+       "prod_prev_mil_t": 3008.6
+      },
+      "2020": {
+       "real_sc_ha": 66.9,
+       "prev_sc_ha": 59.9,
+       "acerto_pct": 89.4,
+       "prod_real_mil_t": 3666.6,
+       "prod_prev_mil_t": 3279.4
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 64.3,
+       "acerto_pct": 93.4,
+       "prod_real_mil_t": 3243.6,
+       "prod_prev_mil_t": 3456.9
+      },
+      "2022": {
+       "real_sc_ha": 49.6,
+       "prev_sc_ha": 46.0,
+       "acerto_pct": 92.7,
+       "prod_real_mil_t": 2506.4,
+       "prod_prev_mil_t": 2322.7
+      },
+      "2023": {
+       "real_sc_ha": 63.6,
+       "prev_sc_ha": 62.4,
+       "acerto_pct": 98.0,
+       "prod_real_mil_t": 3451.7,
+       "prod_prev_mil_t": 3382.0
+      },
+      "2024": {
+       "real_sc_ha": 58.0,
+       "prev_sc_ha": 58.9,
+       "acerto_pct": 98.5,
+       "prod_real_mil_t": 3176.0,
+       "prod_prev_mil_t": 3223.6
+      },
+      "2025": {
+       "real_sc_ha": 67.0,
+       "prev_sc_ha": 63.7,
+       "acerto_pct": 95.0,
+       "prod_real_mil_t": 3727.9,
+       "prod_prev_mil_t": 3540.8
+      }
+     }
+    }
+   },
+   "Clima fixo + vigor do satelite": {
+    "safra_nova": {
+     "n": 194,
+     "acerto_medio_pct": 88.3,
+     "dentro_5pct": 34.5,
+     "dentro_10pct": 60.8,
+     "dentro_15pct": 80.9,
+     "rmse_sc_ha": 7.27,
+     "acerto_agregado_pct": 96.5,
+     "acerto_producao_pct": 96.5,
+     "por_safra": {
+      "2013": {
+       "real_sc_ha": 58.1,
+       "prev_sc_ha": 57.2,
+       "acerto_pct": 98.5,
+       "prod_real_mil_t": 2998.7,
+       "prod_prev_mil_t": 2954.0
+      },
+      "2014": {
+       "real_sc_ha": 54.5,
+       "prev_sc_ha": 50.7,
+       "acerto_pct": 92.9,
+       "prod_real_mil_t": 2904.4,
+       "prod_prev_mil_t": 2699.5
+      },
+      "2015": {
+       "real_sc_ha": 57.5,
+       "prev_sc_ha": 58.9,
+       "acerto_pct": 97.5,
+       "prod_real_mil_t": 3154.6,
+       "prod_prev_mil_t": 3233.7
+      },
+      "2016": {
+       "real_sc_ha": 56.2,
+       "prev_sc_ha": 60.5,
+       "acerto_pct": 92.4,
+       "prod_real_mil_t": 3168.4,
+       "prod_prev_mil_t": 3410.8
+      },
+      "2017": {
+       "real_sc_ha": 63.2,
+       "prev_sc_ha": 61.3,
+       "acerto_pct": 96.9,
+       "prod_real_mil_t": 3378.5,
+       "prod_prev_mil_t": 3274.4
+      },
+      "2018": {
+       "real_sc_ha": 60.2,
+       "prev_sc_ha": 60.4,
+       "acerto_pct": 99.5,
+       "prod_real_mil_t": 3286.0,
+       "prod_prev_mil_t": 3301.1
+      },
+      "2019": {
+       "real_sc_ha": 53.1,
+       "prev_sc_ha": 52.7,
+       "acerto_pct": 99.1,
+       "prod_real_mil_t": 2892.0,
+       "prod_prev_mil_t": 2867.3
+      },
+      "2020": {
+       "real_sc_ha": 66.9,
+       "prev_sc_ha": 63.7,
+       "acerto_pct": 95.1,
+       "prod_real_mil_t": 3666.6,
+       "prod_prev_mil_t": 3487.6
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 66.7,
+       "acerto_pct": 89.5,
+       "prod_real_mil_t": 3243.6,
+       "prod_prev_mil_t": 3583.1
+      },
+      "2022": {
+       "real_sc_ha": 49.6,
+       "prev_sc_ha": 47.7,
+       "acerto_pct": 96.2,
+       "prod_real_mil_t": 2506.4,
+       "prod_prev_mil_t": 2410.2
+      },
+      "2023": {
+       "real_sc_ha": 63.6,
+       "prev_sc_ha": 62.9,
+       "acerto_pct": 98.7,
+       "prod_real_mil_t": 3451.7,
+       "prod_prev_mil_t": 3408.4
+      },
+      "2024": {
+       "real_sc_ha": 58.0,
+       "prev_sc_ha": 59.0,
+       "acerto_pct": 98.3,
+       "prod_real_mil_t": 3176.0,
+       "prod_prev_mil_t": 3229.1
+      },
+      "2025": {
+       "real_sc_ha": 67.0,
+       "prev_sc_ha": 66.7,
+       "acerto_pct": 99.5,
+       "prod_real_mil_t": 3727.9,
+       "prod_prev_mil_t": 3711.0
+      }
+     }
+    },
+    "municipio_novo": {
+     "n": 194,
+     "acerto_medio_pct": 87.1,
+     "dentro_5pct": 32.5,
+     "dentro_10pct": 56.2,
+     "dentro_15pct": 75.8,
+     "rmse_sc_ha": 8.01,
+     "acerto_agregado_pct": 95.6,
+     "acerto_producao_pct": 95.6,
+     "por_safra": {
+      "2013": {
+       "real_sc_ha": 58.1,
+       "prev_sc_ha": 55.8,
+       "acerto_pct": 96.1,
+       "prod_real_mil_t": 2998.7,
+       "prod_prev_mil_t": 2880.7
+      },
+      "2014": {
+       "real_sc_ha": 54.5,
+       "prev_sc_ha": 50.6,
+       "acerto_pct": 92.8,
+       "prod_real_mil_t": 2904.4,
+       "prod_prev_mil_t": 2695.5
+      },
+      "2015": {
+       "real_sc_ha": 57.5,
+       "prev_sc_ha": 57.6,
+       "acerto_pct": 99.8,
+       "prod_real_mil_t": 3154.6,
+       "prod_prev_mil_t": 3160.0
+      },
+      "2016": {
+       "real_sc_ha": 56.2,
+       "prev_sc_ha": 58.9,
+       "acerto_pct": 95.2,
+       "prod_real_mil_t": 3168.4,
+       "prod_prev_mil_t": 3321.4
+      },
+      "2017": {
+       "real_sc_ha": 63.2,
+       "prev_sc_ha": 60.5,
+       "acerto_pct": 95.7,
+       "prod_real_mil_t": 3378.5,
+       "prod_prev_mil_t": 3232.7
+      },
+      "2018": {
+       "real_sc_ha": 60.2,
+       "prev_sc_ha": 59.4,
+       "acerto_pct": 98.7,
+       "prod_real_mil_t": 3286.0,
+       "prod_prev_mil_t": 3243.2
+      },
+      "2019": {
+       "real_sc_ha": 53.1,
+       "prev_sc_ha": 52.3,
+       "acerto_pct": 98.4,
+       "prod_real_mil_t": 2892.0,
+       "prod_prev_mil_t": 2846.8
+      },
+      "2020": {
+       "real_sc_ha": 66.9,
+       "prev_sc_ha": 62.6,
+       "acerto_pct": 93.5,
+       "prod_real_mil_t": 3666.6,
+       "prod_prev_mil_t": 3428.5
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 63.5,
+       "acerto_pct": 94.8,
+       "prod_real_mil_t": 3243.6,
+       "prod_prev_mil_t": 3412.7
+      },
+      "2022": {
+       "real_sc_ha": 49.6,
+       "prev_sc_ha": 42.9,
+       "acerto_pct": 86.5,
+       "prod_real_mil_t": 2506.4,
+       "prod_prev_mil_t": 2168.3
+      },
+      "2023": {
+       "real_sc_ha": 63.6,
+       "prev_sc_ha": 61.6,
+       "acerto_pct": 96.8,
+       "prod_real_mil_t": 3451.7,
+       "prod_prev_mil_t": 3341.1
+      },
+      "2024": {
+       "real_sc_ha": 58.0,
+       "prev_sc_ha": 59.5,
+       "acerto_pct": 97.4,
+       "prod_real_mil_t": 3176.0,
+       "prod_prev_mil_t": 3258.7
+      },
+      "2025": {
+       "real_sc_ha": 67.0,
+       "prev_sc_ha": 65.1,
+       "acerto_pct": 97.2,
+       "prod_real_mil_t": 3727.9,
+       "prod_prev_mil_t": 3622.7
+      }
+     }
+    }
+   },
+   "Hibrido completo (calendario + vigor)": {
+    "safra_nova": {
+     "n": 194,
+     "acerto_medio_pct": 87.1,
+     "dentro_5pct": 33.0,
+     "dentro_10pct": 58.2,
+     "dentro_15pct": 76.3,
+     "rmse_sc_ha": 8.35,
+     "acerto_agregado_pct": 95.5,
+     "acerto_producao_pct": 95.5,
+     "por_safra": {
+      "2013": {
+       "real_sc_ha": 58.1,
+       "prev_sc_ha": 53.6,
+       "acerto_pct": 92.3,
+       "prod_real_mil_t": 2998.7,
+       "prod_prev_mil_t": 2767.1
+      },
+      "2014": {
+       "real_sc_ha": 54.5,
+       "prev_sc_ha": 51.8,
+       "acerto_pct": 94.9,
+       "prod_real_mil_t": 2904.4,
+       "prod_prev_mil_t": 2757.6
+      },
+      "2015": {
+       "real_sc_ha": 57.5,
+       "prev_sc_ha": 56.9,
+       "acerto_pct": 99.1,
+       "prod_real_mil_t": 3154.6,
+       "prod_prev_mil_t": 3124.8
+      },
+      "2016": {
+       "real_sc_ha": 56.2,
+       "prev_sc_ha": 61.8,
+       "acerto_pct": 89.9,
+       "prod_real_mil_t": 3168.4,
+       "prod_prev_mil_t": 3488.6
+      },
+      "2017": {
+       "real_sc_ha": 63.2,
+       "prev_sc_ha": 62.1,
+       "acerto_pct": 98.3,
+       "prod_real_mil_t": 3378.5,
+       "prod_prev_mil_t": 3320.9
+      },
+      "2018": {
+       "real_sc_ha": 60.2,
+       "prev_sc_ha": 61.0,
+       "acerto_pct": 98.6,
+       "prod_real_mil_t": 3286.0,
+       "prod_prev_mil_t": 3332.1
+      },
+      "2019": {
+       "real_sc_ha": 53.1,
+       "prev_sc_ha": 54.7,
+       "acerto_pct": 97.1,
+       "prod_real_mil_t": 2892.0,
+       "prod_prev_mil_t": 2976.9
+      },
+      "2020": {
+       "real_sc_ha": 66.9,
+       "prev_sc_ha": 60.3,
+       "acerto_pct": 90.1,
+       "prod_real_mil_t": 3666.6,
+       "prod_prev_mil_t": 3302.6
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 66.6,
+       "acerto_pct": 89.6,
+       "prod_real_mil_t": 3243.6,
+       "prod_prev_mil_t": 3580.6
+      },
+      "2022": {
+       "real_sc_ha": 49.6,
+       "prev_sc_ha": 51.6,
+       "acerto_pct": 96.0,
+       "prod_real_mil_t": 2506.4,
+       "prod_prev_mil_t": 2605.8
+      },
+      "2023": {
+       "real_sc_ha": 63.6,
+       "prev_sc_ha": 63.1,
+       "acerto_pct": 99.2,
+       "prod_real_mil_t": 3451.7,
+       "prod_prev_mil_t": 3423.8
+      },
+      "2024": {
+       "real_sc_ha": 58.0,
+       "prev_sc_ha": 56.1,
+       "acerto_pct": 96.7,
+       "prod_real_mil_t": 3176.0,
+       "prod_prev_mil_t": 3071.0
+      },
+      "2025": {
+       "real_sc_ha": 67.0,
+       "prev_sc_ha": 66.5,
+       "acerto_pct": 99.2,
+       "prod_real_mil_t": 3727.9,
+       "prod_prev_mil_t": 3698.0
+      }
+     }
+    },
+    "municipio_novo": {
+     "n": 194,
+     "acerto_medio_pct": 86.9,
+     "dentro_5pct": 31.4,
+     "dentro_10pct": 57.7,
+     "dentro_15pct": 79.4,
+     "rmse_sc_ha": 8.3,
+     "acerto_agregado_pct": 95.8,
+     "acerto_producao_pct": 95.8,
+     "por_safra": {
+      "2013": {
+       "real_sc_ha": 58.1,
+       "prev_sc_ha": 53.1,
+       "acerto_pct": 91.4,
+       "prod_real_mil_t": 2998.7,
+       "prod_prev_mil_t": 2742.1
+      },
+      "2014": {
+       "real_sc_ha": 54.5,
+       "prev_sc_ha": 51.7,
+       "acerto_pct": 94.8,
+       "prod_real_mil_t": 2904.4,
+       "prod_prev_mil_t": 2753.8
+      },
+      "2015": {
+       "real_sc_ha": 57.5,
+       "prev_sc_ha": 56.1,
+       "acerto_pct": 97.5,
+       "prod_real_mil_t": 3154.6,
+       "prod_prev_mil_t": 3076.0
+      },
+      "2016": {
+       "real_sc_ha": 56.2,
+       "prev_sc_ha": 59.7,
+       "acerto_pct": 93.7,
+       "prod_real_mil_t": 3168.4,
+       "prod_prev_mil_t": 3367.5
+      },
+      "2017": {
+       "real_sc_ha": 63.2,
+       "prev_sc_ha": 61.0,
+       "acerto_pct": 96.5,
+       "prod_real_mil_t": 3378.5,
+       "prod_prev_mil_t": 3260.3
+      },
+      "2018": {
+       "real_sc_ha": 60.2,
+       "prev_sc_ha": 60.3,
+       "acerto_pct": 99.8,
+       "prod_real_mil_t": 3286.0,
+       "prod_prev_mil_t": 3291.8
+      },
+      "2019": {
+       "real_sc_ha": 53.1,
+       "prev_sc_ha": 54.2,
+       "acerto_pct": 98.0,
+       "prod_real_mil_t": 2892.0,
+       "prod_prev_mil_t": 2949.0
+      },
+      "2020": {
+       "real_sc_ha": 66.9,
+       "prev_sc_ha": 60.8,
+       "acerto_pct": 90.8,
+       "prod_real_mil_t": 3666.6,
+       "prod_prev_mil_t": 3330.2
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 63.5,
+       "acerto_pct": 94.9,
+       "prod_real_mil_t": 3243.6,
+       "prod_prev_mil_t": 3410.0
+      },
+      "2022": {
+       "real_sc_ha": 49.6,
+       "prev_sc_ha": 46.9,
+       "acerto_pct": 94.5,
+       "prod_real_mil_t": 2506.4,
+       "prod_prev_mil_t": 2369.7
+      },
+      "2023": {
+       "real_sc_ha": 63.6,
+       "prev_sc_ha": 62.5,
+       "acerto_pct": 98.2,
+       "prod_real_mil_t": 3451.7,
+       "prod_prev_mil_t": 3391.3
+      },
+      "2024": {
+       "real_sc_ha": 58.0,
+       "prev_sc_ha": 57.3,
+       "acerto_pct": 98.8,
+       "prod_real_mil_t": 3176.0,
+       "prod_prev_mil_t": 3137.1
+      },
+      "2025": {
+       "real_sc_ha": 67.0,
+       "prev_sc_ha": 64.7,
+       "acerto_pct": 96.6,
+       "prod_real_mil_t": 3727.9,
+       "prod_prev_mil_t": 3599.6
+      }
+     }
+    }
+   }
+  }
+ },
+ "s2": {
+  "calibracao": {
+   "lag": 25,
+   "rmse_pp": 5.4,
+   "vies_pp": 1.6,
+   "n": 7,
+   "rmse_pp_fora_da_amostra": 6.0
+  },
+  "area": {
+   "n": 123,
+   "corr": 0.867,
+   "razao_mediana_sat_pam": 1.049,
+   "acerto_area_pct": 87.3
+  },
+  "n_obs": 123,
+  "modelos": {
+   "Media historica do municipio": {
+    "safra_nova": {
+     "n": 123,
+     "acerto_medio_pct": 77.4,
+     "dentro_5pct": 26.8,
+     "dentro_10pct": 51.2,
+     "dentro_15pct": 73.2,
+     "rmse_sc_ha": 10.96,
+     "acerto_agregado_pct": 88.6,
+     "acerto_producao_pct": 88.6,
+     "por_safra": {
+      "2019": {
+       "real_sc_ha": 53.5,
+       "prev_sc_ha": 60.3,
+       "acerto_pct": 87.3,
+       "prod_real_mil_t": 3372.6,
+       "prod_prev_mil_t": 3800.3
+      },
+      "2020": {
+       "real_sc_ha": 66.5,
+       "prev_sc_ha": 58.1,
+       "acerto_pct": 87.4,
+       "prod_real_mil_t": 4271.2,
+       "prod_prev_mil_t": 3734.8
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 59.1,
+       "acerto_pct": 97.9,
+       "prod_real_mil_t": 3816.8,
+       "prod_prev_mil_t": 3735.0
+      },
+      "2022": {
+       "real_sc_ha": 47.7,
+       "prev_sc_ha": 61.7,
+       "acerto_pct": 70.8,
+       "prod_real_mil_t": 3028.5,
+       "prod_prev_mil_t": 3912.9
+      },
+      "2023": {
+       "real_sc_ha": 63.9,
+       "prev_sc_ha": 58.7,
+       "acerto_pct": 91.9,
+       "prod_real_mil_t": 3917.8,
+       "prod_prev_mil_t": 3602.2
+      },
+      "2024": {
+       "real_sc_ha": 58.2,
+       "prev_sc_ha": 59.7,
+       "acerto_pct": 97.5,
+       "prod_real_mil_t": 3610.3,
+       "prod_prev_mil_t": 3702.3
+      },
+      "2025": {
+       "real_sc_ha": 66.7,
+       "prev_sc_ha": 58.2,
+       "acerto_pct": 87.2,
+       "prod_real_mil_t": 4192.0,
+       "prod_prev_mil_t": 3656.9
+      }
+     }
+    },
+    "municipio_novo": {
+     "n": 123,
+     "acerto_medio_pct": 74.5,
+     "dentro_5pct": 31.7,
+     "dentro_10pct": 49.6,
+     "dentro_15pct": 71.5,
+     "rmse_sc_ha": 11.99,
+     "acerto_agregado_pct": 90.3,
+     "acerto_producao_pct": 90.3,
+     "por_safra": {
+      "2019": {
+       "real_sc_ha": 53.5,
+       "prev_sc_ha": 59.2,
+       "acerto_pct": 89.4,
+       "prod_real_mil_t": 3372.6,
+       "prod_prev_mil_t": 3728.5
+      },
+      "2020": {
+       "real_sc_ha": 66.5,
+       "prev_sc_ha": 59.2,
+       "acerto_pct": 89.0,
+       "prod_real_mil_t": 4271.2,
+       "prod_prev_mil_t": 3802.5
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 59.2,
+       "acerto_pct": 98.0,
+       "prod_real_mil_t": 3816.8,
+       "prod_prev_mil_t": 3739.6
+      },
+      "2022": {
+       "real_sc_ha": 47.7,
+       "prev_sc_ha": 59.2,
+       "acerto_pct": 76.0,
+       "prod_real_mil_t": 3028.5,
+       "prod_prev_mil_t": 3755.1
+      },
+      "2023": {
+       "real_sc_ha": 63.9,
+       "prev_sc_ha": 59.2,
+       "acerto_pct": 92.6,
+       "prod_real_mil_t": 3917.8,
+       "prod_prev_mil_t": 3629.2
+      },
+      "2024": {
+       "real_sc_ha": 58.2,
+       "prev_sc_ha": 59.2,
+       "acerto_pct": 98.3,
+       "prod_real_mil_t": 3610.3,
+       "prod_prev_mil_t": 3671.8
+      },
+      "2025": {
+       "real_sc_ha": 66.7,
+       "prev_sc_ha": 59.2,
+       "acerto_pct": 88.7,
+       "prod_real_mil_t": 4192.0,
+       "prod_prev_mil_t": 3717.8
+      }
+     }
+    }
+   },
+   "Tendencia + efeito do municipio": {
+    "safra_nova": {
+     "n": 123,
+     "acerto_medio_pct": 76.2,
+     "dentro_5pct": 23.6,
+     "dentro_10pct": 43.1,
+     "dentro_15pct": 63.4,
+     "rmse_sc_ha": 12.21,
+     "acerto_agregado_pct": 86.7,
+     "acerto_producao_pct": 86.7,
+     "por_safra": {
+      "2019": {
+       "real_sc_ha": 53.5,
+       "prev_sc_ha": 58.1,
+       "acerto_pct": 91.5,
+       "prod_real_mil_t": 3372.6,
+       "prod_prev_mil_t": 3660.2
+      },
+      "2020": {
+       "real_sc_ha": 66.5,
+       "prev_sc_ha": 52.9,
+       "acerto_pct": 79.6,
+       "prod_real_mil_t": 4271.2,
+       "prod_prev_mil_t": 3400.1
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 56.6,
+       "acerto_pct": 93.6,
+       "prod_real_mil_t": 3816.8,
+       "prod_prev_mil_t": 3573.2
+      },
+      "2022": {
+       "real_sc_ha": 47.7,
+       "prev_sc_ha": 61.4,
+       "acerto_pct": 71.4,
+       "prod_real_mil_t": 3028.5,
+       "prod_prev_mil_t": 3895.9
+      },
+      "2023": {
+       "real_sc_ha": 63.9,
+       "prev_sc_ha": 58.0,
+       "acerto_pct": 90.8,
+       "prod_real_mil_t": 3917.8,
+       "prod_prev_mil_t": 3558.4
+      },
+      "2024": {
+       "real_sc_ha": 58.2,
+       "prev_sc_ha": 60.5,
+       "acerto_pct": 96.0,
+       "prod_real_mil_t": 3610.3,
+       "prod_prev_mil_t": 3753.9
+      },
+      "2025": {
+       "real_sc_ha": 66.7,
+       "prev_sc_ha": 56.3,
+       "acerto_pct": 84.3,
+       "prod_real_mil_t": 4192.0,
+       "prod_prev_mil_t": 3535.7
+      }
+     }
+    },
+    "municipio_novo": {
+     "n": 123,
+     "acerto_medio_pct": 74.0,
+     "dentro_5pct": 22.8,
+     "dentro_10pct": 43.9,
+     "dentro_15pct": 61.0,
+     "rmse_sc_ha": 12.18,
+     "acerto_agregado_pct": 90.5,
+     "acerto_producao_pct": 90.5,
+     "por_safra": {
+      "2019": {
+       "real_sc_ha": 53.5,
+       "prev_sc_ha": 54.7,
+       "acerto_pct": 97.7,
+       "prod_real_mil_t": 3372.6,
+       "prod_prev_mil_t": 3448.5
+      },
+      "2020": {
+       "real_sc_ha": 66.5,
+       "prev_sc_ha": 55.5,
+       "acerto_pct": 83.5,
+       "prod_real_mil_t": 4271.2,
+       "prod_prev_mil_t": 3566.6
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 56.3,
+       "acerto_pct": 93.2,
+       "prod_real_mil_t": 3816.8,
+       "prod_prev_mil_t": 3557.4
+      },
+      "2022": {
+       "real_sc_ha": 47.7,
+       "prev_sc_ha": 57.1,
+       "acerto_pct": 80.4,
+       "prod_real_mil_t": 3028.5,
+       "prod_prev_mil_t": 3622.2
+      },
+      "2023": {
+       "real_sc_ha": 63.9,
+       "prev_sc_ha": 57.9,
+       "acerto_pct": 90.6,
+       "prod_real_mil_t": 3917.8,
+       "prod_prev_mil_t": 3550.3
+      },
+      "2024": {
+       "real_sc_ha": 58.2,
+       "prev_sc_ha": 58.7,
+       "acerto_pct": 99.1,
+       "prod_real_mil_t": 3610.3,
+       "prod_prev_mil_t": 3642.5
+      },
+      "2025": {
+       "real_sc_ha": 66.7,
+       "prev_sc_ha": 59.5,
+       "acerto_pct": 89.2,
+       "prod_real_mil_t": 4192.0,
+       "prod_prev_mil_t": 3739.7
+      }
+     }
+    }
+   },
+   "Clima, calendario fixo (base)": {
+    "safra_nova": {
+     "n": 123,
+     "acerto_medio_pct": 84.8,
+     "dentro_5pct": 33.3,
+     "dentro_10pct": 50.4,
+     "dentro_15pct": 65.9,
+     "rmse_sc_ha": 8.71,
+     "acerto_agregado_pct": 95.0,
+     "acerto_producao_pct": 95.0,
+     "por_safra": {
+      "2019": {
+       "real_sc_ha": 53.5,
+       "prev_sc_ha": 54.2,
+       "acerto_pct": 98.7,
+       "prod_real_mil_t": 3372.6,
+       "prod_prev_mil_t": 3416.7
+      },
+      "2020": {
+       "real_sc_ha": 66.5,
+       "prev_sc_ha": 64.1,
+       "acerto_pct": 96.4,
+       "prod_real_mil_t": 4271.2,
+       "prod_prev_mil_t": 4118.3
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 68.6,
+       "acerto_pct": 86.5,
+       "prod_real_mil_t": 3816.8,
+       "prod_prev_mil_t": 4332.4
+      },
+      "2022": {
+       "real_sc_ha": 47.7,
+       "prev_sc_ha": 43.3,
+       "acerto_pct": 90.7,
+       "prod_real_mil_t": 3028.5,
+       "prod_prev_mil_t": 2747.2
+      },
+      "2023": {
+       "real_sc_ha": 63.9,
+       "prev_sc_ha": 62.6,
+       "acerto_pct": 98.0,
+       "prod_real_mil_t": 3917.8,
+       "prod_prev_mil_t": 3839.9
+      },
+      "2024": {
+       "real_sc_ha": 58.2,
+       "prev_sc_ha": 60.8,
+       "acerto_pct": 95.5,
+       "prod_real_mil_t": 3610.3,
+       "prod_prev_mil_t": 3772.8
+      },
+      "2025": {
+       "real_sc_ha": 66.7,
+       "prev_sc_ha": 67.3,
+       "acerto_pct": 99.2,
+       "prod_real_mil_t": 4192.0,
+       "prod_prev_mil_t": 4225.3
+      }
+     }
+    },
+    "municipio_novo": {
+     "n": 123,
+     "acerto_medio_pct": 84.5,
+     "dentro_5pct": 32.5,
+     "dentro_10pct": 61.0,
+     "dentro_15pct": 74.0,
+     "rmse_sc_ha": 8.64,
+     "acerto_agregado_pct": 94.4,
+     "acerto_producao_pct": 94.4,
+     "por_safra": {
+      "2019": {
+       "real_sc_ha": 53.5,
+       "prev_sc_ha": 53.2,
+       "acerto_pct": 99.3,
+       "prod_real_mil_t": 3372.6,
+       "prod_prev_mil_t": 3348.9
+      },
+      "2020": {
+       "real_sc_ha": 66.5,
+       "prev_sc_ha": 64.6,
+       "acerto_pct": 97.2,
+       "prod_real_mil_t": 4271.2,
+       "prod_prev_mil_t": 4153.4
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 66.0,
+       "acerto_pct": 90.7,
+       "prod_real_mil_t": 3816.8,
+       "prod_prev_mil_t": 4170.7
+      },
+      "2022": {
+       "real_sc_ha": 47.7,
+       "prev_sc_ha": 38.8,
+       "acerto_pct": 81.3,
+       "prod_real_mil_t": 3028.5,
+       "prod_prev_mil_t": 2461.0
+      },
+      "2023": {
+       "real_sc_ha": 63.9,
+       "prev_sc_ha": 61.9,
+       "acerto_pct": 97.0,
+       "prod_real_mil_t": 3917.8,
+       "prod_prev_mil_t": 3798.7
+      },
+      "2024": {
+       "real_sc_ha": 58.2,
+       "prev_sc_ha": 60.2,
+       "acerto_pct": 96.6,
+       "prod_real_mil_t": 3610.3,
+       "prod_prev_mil_t": 3732.4
+      },
+      "2025": {
+       "real_sc_ha": 66.7,
+       "prev_sc_ha": 66.0,
+       "acerto_pct": 98.9,
+       "prod_real_mil_t": 4192.0,
+       "prod_prev_mil_t": 4147.2
+      }
+     }
+    }
+   },
+   "Clima + semeadura/ciclo do satelite": {
+    "safra_nova": {
+     "n": 123,
+     "acerto_medio_pct": 81.3,
+     "dentro_5pct": 30.1,
+     "dentro_10pct": 51.2,
+     "dentro_15pct": 70.7,
+     "rmse_sc_ha": 10.15,
+     "acerto_agregado_pct": 92.1,
+     "acerto_producao_pct": 92.1,
+     "por_safra": {
+      "2019": {
+       "real_sc_ha": 53.5,
+       "prev_sc_ha": 54.0,
+       "acerto_pct": 99.2,
+       "prod_real_mil_t": 3372.6,
+       "prod_prev_mil_t": 3399.5
+      },
+      "2020": {
+       "real_sc_ha": 66.5,
+       "prev_sc_ha": 57.0,
+       "acerto_pct": 85.8,
+       "prod_real_mil_t": 4271.2,
+       "prod_prev_mil_t": 3665.1
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 66.4,
+       "acerto_pct": 90.2,
+       "prod_real_mil_t": 3816.8,
+       "prod_prev_mil_t": 4192.7
+      },
+      "2022": {
+       "real_sc_ha": 47.7,
+       "prev_sc_ha": 56.6,
+       "acerto_pct": 81.4,
+       "prod_real_mil_t": 3028.5,
+       "prod_prev_mil_t": 3591.3
+      },
+      "2023": {
+       "real_sc_ha": 63.9,
+       "prev_sc_ha": 64.8,
+       "acerto_pct": 98.5,
+       "prod_real_mil_t": 3917.8,
+       "prod_prev_mil_t": 3976.5
+      },
+      "2024": {
+       "real_sc_ha": 58.2,
+       "prev_sc_ha": 59.4,
+       "acerto_pct": 98.0,
+       "prod_real_mil_t": 3610.3,
+       "prod_prev_mil_t": 3684.0
+      },
+      "2025": {
+       "real_sc_ha": 66.7,
+       "prev_sc_ha": 61.3,
+       "acerto_pct": 91.8,
+       "prod_real_mil_t": 4192.0,
+       "prod_prev_mil_t": 3849.4
+      }
+     }
+    },
+    "municipio_novo": {
+     "n": 123,
+     "acerto_medio_pct": 88.0,
+     "dentro_5pct": 41.5,
+     "dentro_10pct": 63.4,
+     "dentro_15pct": 78.0,
+     "rmse_sc_ha": 7.9,
+     "acerto_agregado_pct": 95.9,
+     "acerto_producao_pct": 95.9,
+     "por_safra": {
+      "2019": {
+       "real_sc_ha": 53.5,
+       "prev_sc_ha": 53.9,
+       "acerto_pct": 99.3,
+       "prod_real_mil_t": 3372.6,
+       "prod_prev_mil_t": 3396.6
+      },
+      "2020": {
+       "real_sc_ha": 66.5,
+       "prev_sc_ha": 60.3,
+       "acerto_pct": 90.7,
+       "prod_real_mil_t": 4271.2,
+       "prod_prev_mil_t": 3874.4
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 64.7,
+       "acerto_pct": 92.8,
+       "prod_real_mil_t": 3816.8,
+       "prod_prev_mil_t": 4089.8
+      },
+      "2022": {
+       "real_sc_ha": 47.7,
+       "prev_sc_ha": 45.9,
+       "acerto_pct": 96.1,
+       "prod_real_mil_t": 3028.5,
+       "prod_prev_mil_t": 2909.9
+      },
+      "2023": {
+       "real_sc_ha": 63.9,
+       "prev_sc_ha": 64.6,
+       "acerto_pct": 98.9,
+       "prod_real_mil_t": 3917.8,
+       "prod_prev_mil_t": 3959.6
+      },
+      "2024": {
+       "real_sc_ha": 58.2,
+       "prev_sc_ha": 59.6,
+       "acerto_pct": 97.6,
+       "prod_real_mil_t": 3610.3,
+       "prod_prev_mil_t": 3698.2
+      },
+      "2025": {
+       "real_sc_ha": 66.7,
+       "prev_sc_ha": 63.8,
+       "acerto_pct": 95.7,
+       "prod_real_mil_t": 4192.0,
+       "prod_prev_mil_t": 4010.3
+      }
+     }
+    }
+   },
+   "Clima fixo + vigor do satelite": {
+    "safra_nova": {
+     "n": 123,
+     "acerto_medio_pct": 84.5,
+     "dentro_5pct": 32.5,
+     "dentro_10pct": 52.8,
+     "dentro_15pct": 62.6,
+     "rmse_sc_ha": 9.05,
+     "acerto_agregado_pct": 95.0,
+     "acerto_producao_pct": 95.0,
+     "por_safra": {
+      "2019": {
+       "real_sc_ha": 53.5,
+       "prev_sc_ha": 52.9,
+       "acerto_pct": 98.9,
+       "prod_real_mil_t": 3372.6,
+       "prod_prev_mil_t": 3334.3
+      },
+      "2020": {
+       "real_sc_ha": 66.5,
+       "prev_sc_ha": 66.2,
+       "acerto_pct": 99.6,
+       "prod_real_mil_t": 4271.2,
+       "prod_prev_mil_t": 4255.0
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 70.9,
+       "acerto_pct": 82.7,
+       "prod_real_mil_t": 3816.8,
+       "prod_prev_mil_t": 4477.5
+      },
+      "2022": {
+       "real_sc_ha": 47.7,
+       "prev_sc_ha": 43.9,
+       "acerto_pct": 91.9,
+       "prod_real_mil_t": 3028.5,
+       "prod_prev_mil_t": 2782.9
+      },
+      "2023": {
+       "real_sc_ha": 63.9,
+       "prev_sc_ha": 62.9,
+       "acerto_pct": 98.4,
+       "prod_real_mil_t": 3917.8,
+       "prod_prev_mil_t": 3854.5
+      },
+      "2024": {
+       "real_sc_ha": 58.2,
+       "prev_sc_ha": 61.2,
+       "acerto_pct": 94.8,
+       "prod_real_mil_t": 3610.3,
+       "prod_prev_mil_t": 3797.3
+      },
+      "2025": {
+       "real_sc_ha": 66.7,
+       "prev_sc_ha": 67.6,
+       "acerto_pct": 98.7,
+       "prod_real_mil_t": 4192.0,
+       "prod_prev_mil_t": 4245.0
+      }
+     }
+    },
+    "municipio_novo": {
+     "n": 123,
+     "acerto_medio_pct": 84.7,
+     "dentro_5pct": 34.1,
+     "dentro_10pct": 63.4,
+     "dentro_15pct": 73.2,
+     "rmse_sc_ha": 8.52,
+     "acerto_agregado_pct": 94.6,
+     "acerto_producao_pct": 94.6,
+     "por_safra": {
+      "2019": {
+       "real_sc_ha": 53.5,
+       "prev_sc_ha": 52.6,
+       "acerto_pct": 98.2,
+       "prod_real_mil_t": 3372.6,
+       "prod_prev_mil_t": 3310.7
+      },
+      "2020": {
+       "real_sc_ha": 66.5,
+       "prev_sc_ha": 65.0,
+       "acerto_pct": 97.7,
+       "prod_real_mil_t": 4271.2,
+       "prod_prev_mil_t": 4173.4
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 65.5,
+       "acerto_pct": 91.6,
+       "prod_real_mil_t": 3816.8,
+       "prod_prev_mil_t": 4137.7
+      },
+      "2022": {
+       "real_sc_ha": 47.7,
+       "prev_sc_ha": 38.8,
+       "acerto_pct": 81.4,
+       "prod_real_mil_t": 3028.5,
+       "prod_prev_mil_t": 2464.0
+      },
+      "2023": {
+       "real_sc_ha": 63.9,
+       "prev_sc_ha": 62.3,
+       "acerto_pct": 97.6,
+       "prod_real_mil_t": 3917.8,
+       "prod_prev_mil_t": 3822.1
+      },
+      "2024": {
+       "real_sc_ha": 58.2,
+       "prev_sc_ha": 59.8,
+       "acerto_pct": 97.2,
+       "prod_real_mil_t": 3610.3,
+       "prod_prev_mil_t": 3711.6
+      },
+      "2025": {
+       "real_sc_ha": 66.7,
+       "prev_sc_ha": 65.9,
+       "acerto_pct": 98.8,
+       "prod_real_mil_t": 4192.0,
+       "prod_prev_mil_t": 4141.8
+      }
+     }
+    }
+   },
+   "Hibrido completo (calendario + vigor)": {
+    "safra_nova": {
+     "n": 123,
+     "acerto_medio_pct": 81.5,
+     "dentro_5pct": 21.1,
+     "dentro_10pct": 52.0,
+     "dentro_15pct": 70.7,
+     "rmse_sc_ha": 10.14,
+     "acerto_agregado_pct": 92.3,
+     "acerto_producao_pct": 92.3,
+     "por_safra": {
+      "2019": {
+       "real_sc_ha": 53.5,
+       "prev_sc_ha": 55.0,
+       "acerto_pct": 97.3,
+       "prod_real_mil_t": 3372.6,
+       "prod_prev_mil_t": 3463.7
+      },
+      "2020": {
+       "real_sc_ha": 66.5,
+       "prev_sc_ha": 57.7,
+       "acerto_pct": 86.8,
+       "prod_real_mil_t": 4271.2,
+       "prod_prev_mil_t": 3707.6
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 68.0,
+       "acerto_pct": 87.4,
+       "prod_real_mil_t": 3816.8,
+       "prod_prev_mil_t": 4298.6
+      },
+      "2022": {
+       "real_sc_ha": 47.7,
+       "prev_sc_ha": 55.0,
+       "acerto_pct": 84.7,
+       "prod_real_mil_t": 3028.5,
+       "prod_prev_mil_t": 3491.7
+      },
+      "2023": {
+       "real_sc_ha": 63.9,
+       "prev_sc_ha": 65.2,
+       "acerto_pct": 97.9,
+       "prod_real_mil_t": 3917.8,
+       "prod_prev_mil_t": 3999.0
+      },
+      "2024": {
+       "real_sc_ha": 58.2,
+       "prev_sc_ha": 56.4,
+       "acerto_pct": 96.9,
+       "prod_real_mil_t": 3610.3,
+       "prod_prev_mil_t": 3496.8
+      },
+      "2025": {
+       "real_sc_ha": 66.7,
+       "prev_sc_ha": 63.4,
+       "acerto_pct": 95.1,
+       "prod_real_mil_t": 4192.0,
+       "prod_prev_mil_t": 3985.3
+      }
+     }
+    },
+    "municipio_novo": {
+     "n": 123,
+     "acerto_medio_pct": 87.9,
+     "dentro_5pct": 37.4,
+     "dentro_10pct": 63.4,
+     "dentro_15pct": 77.2,
+     "rmse_sc_ha": 7.97,
+     "acerto_agregado_pct": 96.4,
+     "acerto_producao_pct": 96.4,
+     "por_safra": {
+      "2019": {
+       "real_sc_ha": 53.5,
+       "prev_sc_ha": 53.7,
+       "acerto_pct": 99.7,
+       "prod_real_mil_t": 3372.6,
+       "prod_prev_mil_t": 3382.5
+      },
+      "2020": {
+       "real_sc_ha": 66.5,
+       "prev_sc_ha": 60.8,
+       "acerto_pct": 91.5,
+       "prod_real_mil_t": 4271.2,
+       "prod_prev_mil_t": 3907.1
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 64.1,
+       "acerto_pct": 93.9,
+       "prod_real_mil_t": 3816.8,
+       "prod_prev_mil_t": 4051.4
+      },
+      "2022": {
+       "real_sc_ha": 47.7,
+       "prev_sc_ha": 45.9,
+       "acerto_pct": 96.2,
+       "prod_real_mil_t": 3028.5,
+       "prod_prev_mil_t": 2912.6
+      },
+      "2023": {
+       "real_sc_ha": 63.9,
+       "prev_sc_ha": 64.5,
+       "acerto_pct": 99.0,
+       "prod_real_mil_t": 3917.8,
+       "prod_prev_mil_t": 3956.7
+      },
+      "2024": {
+       "real_sc_ha": 58.2,
+       "prev_sc_ha": 59.0,
+       "acerto_pct": 98.6,
+       "prod_real_mil_t": 3610.3,
+       "prod_prev_mil_t": 3659.3
+      },
+      "2025": {
+       "real_sc_ha": 66.7,
+       "prev_sc_ha": 64.1,
+       "acerto_pct": 96.1,
+       "prod_real_mil_t": 4192.0,
+       "prod_prev_mil_t": 4027.8
+      }
+     }
+    }
+   },
+   "Em safra, 15/jan: clima ate 15/jan": {
+    "safra_nova": {
+     "n": 123,
+     "acerto_medio_pct": 84.9,
+     "dentro_5pct": 34.1,
+     "dentro_10pct": 51.2,
+     "dentro_15pct": 67.5,
+     "rmse_sc_ha": 8.56,
+     "acerto_agregado_pct": 95.2,
+     "acerto_producao_pct": 95.2,
+     "por_safra": {
+      "2019": {
+       "real_sc_ha": 53.5,
+       "prev_sc_ha": 54.5,
+       "acerto_pct": 98.1,
+       "prod_real_mil_t": 3372.6,
+       "prod_prev_mil_t": 3436.3
+      },
+      "2020": {
+       "real_sc_ha": 66.5,
+       "prev_sc_ha": 64.8,
+       "acerto_pct": 97.5,
+       "prod_real_mil_t": 4271.2,
+       "prod_prev_mil_t": 4166.4
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 67.5,
+       "acerto_pct": 88.2,
+       "prod_real_mil_t": 3816.8,
+       "prod_prev_mil_t": 4266.9
+      },
+      "2022": {
+       "real_sc_ha": 47.7,
+       "prev_sc_ha": 43.9,
+       "acerto_pct": 92.1,
+       "prod_real_mil_t": 3028.5,
+       "prod_prev_mil_t": 2788.1
+      },
+      "2023": {
+       "real_sc_ha": 63.9,
+       "prev_sc_ha": 62.0,
+       "acerto_pct": 97.0,
+       "prod_real_mil_t": 3917.8,
+       "prod_prev_mil_t": 3802.0
+      },
+      "2024": {
+       "real_sc_ha": 58.2,
+       "prev_sc_ha": 60.3,
+       "acerto_pct": 96.4,
+       "prod_real_mil_t": 3610.3,
+       "prod_prev_mil_t": 3738.7
+      },
+      "2025": {
+       "real_sc_ha": 66.7,
+       "prev_sc_ha": 68.6,
+       "acerto_pct": 97.2,
+       "prod_real_mil_t": 4192.0,
+       "prod_prev_mil_t": 4308.6
+      }
+     }
+    },
+    "municipio_novo": {
+     "n": 123,
+     "acerto_medio_pct": 84.0,
+     "dentro_5pct": 35.0,
+     "dentro_10pct": 61.8,
+     "dentro_15pct": 74.0,
+     "rmse_sc_ha": 8.83,
+     "acerto_agregado_pct": 94.7,
+     "acerto_producao_pct": 94.7,
+     "por_safra": {
+      "2019": {
+       "real_sc_ha": 53.5,
+       "prev_sc_ha": 53.2,
+       "acerto_pct": 99.4,
+       "prod_real_mil_t": 3372.6,
+       "prod_prev_mil_t": 3351.4
+      },
+      "2020": {
+       "real_sc_ha": 66.5,
+       "prev_sc_ha": 65.1,
+       "acerto_pct": 97.9,
+       "prod_real_mil_t": 4271.2,
+       "prod_prev_mil_t": 4181.5
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 65.3,
+       "acerto_pct": 91.9,
+       "prod_real_mil_t": 3816.8,
+       "prod_prev_mil_t": 4125.4
+      },
+      "2022": {
+       "real_sc_ha": 47.7,
+       "prev_sc_ha": 38.5,
+       "acerto_pct": 80.7,
+       "prod_real_mil_t": 3028.5,
+       "prod_prev_mil_t": 2445.2
+      },
+      "2023": {
+       "real_sc_ha": 63.9,
+       "prev_sc_ha": 61.5,
+       "acerto_pct": 96.3,
+       "prod_real_mil_t": 3917.8,
+       "prod_prev_mil_t": 3772.2
+      },
+      "2024": {
+       "real_sc_ha": 58.2,
+       "prev_sc_ha": 60.0,
+       "acerto_pct": 96.9,
+       "prod_real_mil_t": 3610.3,
+       "prod_prev_mil_t": 3721.4
+      },
+      "2025": {
+       "real_sc_ha": 66.7,
+       "prev_sc_ha": 66.7,
+       "acerto_pct": 100.0,
+       "prod_real_mil_t": 4192.0,
+       "prod_prev_mil_t": 4191.0
+      }
+     }
+    }
+   },
+   "Em safra, 15/jan: clima + satelite ate 15/jan": {
+    "safra_nova": {
+     "n": 123,
+     "acerto_medio_pct": 77.3,
+     "dentro_5pct": 21.1,
+     "dentro_10pct": 35.8,
+     "dentro_15pct": 57.7,
+     "rmse_sc_ha": 12.54,
+     "acerto_agregado_pct": 91.7,
+     "acerto_producao_pct": 91.7,
+     "por_safra": {
+      "2019": {
+       "real_sc_ha": 53.5,
+       "prev_sc_ha": 53.1,
+       "acerto_pct": 99.1,
+       "prod_real_mil_t": 3372.6,
+       "prod_prev_mil_t": 3342.1
+      },
+      "2020": {
+       "real_sc_ha": 66.5,
+       "prev_sc_ha": 60.0,
+       "acerto_pct": 90.3,
+       "prod_real_mil_t": 4271.2,
+       "prod_prev_mil_t": 3858.0
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 61.9,
+       "acerto_pct": 97.6,
+       "prod_real_mil_t": 3816.8,
+       "prod_prev_mil_t": 3910.3
+      },
+      "2022": {
+       "real_sc_ha": 47.7,
+       "prev_sc_ha": 55.8,
+       "acerto_pct": 83.1,
+       "prod_real_mil_t": 3028.5,
+       "prod_prev_mil_t": 3540.0
+      },
+      "2023": {
+       "real_sc_ha": 63.9,
+       "prev_sc_ha": 62.2,
+       "acerto_pct": 97.4,
+       "prod_real_mil_t": 3917.8,
+       "prod_prev_mil_t": 3815.0
+      },
+      "2024": {
+       "real_sc_ha": 58.2,
+       "prev_sc_ha": 63.4,
+       "acerto_pct": 91.1,
+       "prod_real_mil_t": 3610.3,
+       "prod_prev_mil_t": 3930.6
+      },
+      "2025": {
+       "real_sc_ha": 66.7,
+       "prev_sc_ha": 55.6,
+       "acerto_pct": 83.4,
+       "prod_real_mil_t": 4192.0,
+       "prod_prev_mil_t": 3494.2
+      }
+     }
+    },
+    "municipio_novo": {
+     "n": 123,
+     "acerto_medio_pct": 82.1,
+     "dentro_5pct": 24.4,
+     "dentro_10pct": 46.3,
+     "dentro_15pct": 71.5,
+     "rmse_sc_ha": 9.86,
+     "acerto_agregado_pct": 95.5,
+     "acerto_producao_pct": 95.5,
+     "por_safra": {
+      "2019": {
+       "real_sc_ha": 53.5,
+       "prev_sc_ha": 53.0,
+       "acerto_pct": 99.1,
+       "prod_real_mil_t": 3372.6,
+       "prod_prev_mil_t": 3341.9
+      },
+      "2020": {
+       "real_sc_ha": 66.5,
+       "prev_sc_ha": 60.1,
+       "acerto_pct": 90.4,
+       "prod_real_mil_t": 4271.2,
+       "prod_prev_mil_t": 3859.3
+      },
+      "2021": {
+       "real_sc_ha": 60.4,
+       "prev_sc_ha": 62.1,
+       "acerto_pct": 97.1,
+       "prod_real_mil_t": 3816.8,
+       "prod_prev_mil_t": 3925.7
+      },
+      "2022": {
+       "real_sc_ha": 47.7,
+       "prev_sc_ha": 49.0,
+       "acerto_pct": 97.3,
+       "prod_real_mil_t": 3028.5,
+       "prod_prev_mil_t": 3110.2
+      },
+      "2023": {
+       "real_sc_ha": 63.9,
+       "prev_sc_ha": 60.2,
+       "acerto_pct": 94.1,
+       "prod_real_mil_t": 3917.8,
+       "prod_prev_mil_t": 3688.6
+      },
+      "2024": {
+       "real_sc_ha": 58.2,
+       "prev_sc_ha": 58.7,
+       "acerto_pct": 99.2,
+       "prod_real_mil_t": 3610.3,
+       "prod_prev_mil_t": 3639.5
+      },
+      "2025": {
+       "real_sc_ha": 66.7,
+       "prev_sc_ha": 61.0,
+       "acerto_pct": 91.5,
+       "prod_real_mil_t": 4192.0,
+       "prod_prev_mil_t": 3833.7
+      }
+     }
+    }
+   }
+  },
+  "producao_area_satelite": {
+   "n": 123,
+   "acerto_medio_pct": 81.5,
+   "dentro_5pct": 21.1,
+   "dentro_10pct": 52.0,
+   "dentro_15pct": 70.7,
+   "rmse_sc_ha": 10.14,
+   "acerto_agregado_pct": 92.3,
+   "acerto_producao_pct": 91.4,
+   "por_safra": {
+    "2019": {
+     "real_sc_ha": 53.5,
+     "prev_sc_ha": 55.0,
+     "acerto_pct": 97.3,
+     "prod_real_mil_t": 3372.6,
+     "prod_prev_mil_t": 3445.9
+    },
+    "2020": {
+     "real_sc_ha": 66.5,
+     "prev_sc_ha": 57.7,
+     "acerto_pct": 86.8,
+     "prod_real_mil_t": 4271.2,
+     "prod_prev_mil_t": 4041.1
+    },
+    "2021": {
+     "real_sc_ha": 60.4,
+     "prev_sc_ha": 68.0,
+     "acerto_pct": 87.4,
+     "prod_real_mil_t": 3816.8,
+     "prod_prev_mil_t": 4764.5
+    },
+    "2022": {
+     "real_sc_ha": 47.7,
+     "prev_sc_ha": 55.0,
+     "acerto_pct": 84.7,
+     "prod_real_mil_t": 3028.5,
+     "prod_prev_mil_t": 3184.7
+    },
+    "2023": {
+     "real_sc_ha": 63.9,
+     "prev_sc_ha": 65.2,
+     "acerto_pct": 97.9,
+     "prod_real_mil_t": 3917.8,
+     "prod_prev_mil_t": 4460.2
+    },
+    "2024": {
+     "real_sc_ha": 58.2,
+     "prev_sc_ha": 56.4,
+     "acerto_pct": 96.9,
+     "prod_real_mil_t": 3610.3,
+     "prod_prev_mil_t": 3406.7
+    },
+    "2025": {
+     "real_sc_ha": 66.7,
+     "prev_sc_ha": 63.4,
+     "acerto_pct": 95.1,
+     "prod_real_mil_t": 4192.0,
+     "prod_prev_mil_t": 4051.8
+    }
+   }
+  }
+ }
+}
