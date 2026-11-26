@@ -1,0 +1,50 @@
+name: s2-fenologia
+
+# Fenologia da soja por municipio inteiro (Sentinel-2, CDSE Statistical API).
+# Roda so no branch backtest-produtividade e commita os JSONs de estatistica.
+on:
+  push:
+    branches: [backtest-produtividade]
+    paths:
+      - "pipeline/produtividade/coletar_s2.py"
+      - "pipeline/produtividade/fenologia_s2.js"
+      - ".github/workflows/s2_fenologia.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: s2-fenologia
+  cancel-in-progress: false
+
+jobs:
+  s2:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Teste rapido (1 municipio, 1 safra)
+        env:
+          CDSE_CLIENT_ID: ${{ secrets.CDSE_CLIENT_ID }}
+          CDSE_CLIENT_SECRET: ${{ secrets.CDSE_CLIENT_SECRET }}
+        run: python pipeline/produtividade/coletar_s2.py 1 2022 2022 200
+      - name: Coleta completa
+        timeout-minutes: 160
+        env:
+          CDSE_CLIENT_ID: ${{ secrets.CDSE_CLIENT_ID }}
+          CDSE_CLIENT_SECRET: ${{ secrets.CDSE_CLIENT_SECRET }}
+        run: python pipeline/produtividade/coletar_s2.py 30 2018 2024 7000
+      - name: Commit
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/produtividade/s2 data/produtividade/geo || true
+          git diff --cached --quiet && exit 0
+          git commit -m "s2: estatisticas de fenologia por municipio"
+          for i in 1 2 3; do git pull --rebase origin backtest-produtividade && git push origin HEAD:backtest-produtividade && exit 0; sleep 5; done
+          exit 1
