@@ -29,7 +29,7 @@ jobs:
       - run: pip install numpy
       - name: Coleta MODIS
         timeout-minutes: 190
-        run: python pipeline/produtividade/coletar_modis.py 20 5 ${{ matrix.parte }} 5
+        run: python pipeline/produtividade/coletar_modis.py 20 3 ${{ matrix.parte }} 5
       - uses: actions/upload-artifact@v4
         if: always()
         with:

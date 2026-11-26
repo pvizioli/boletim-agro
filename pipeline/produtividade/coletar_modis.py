@@ -23,7 +23,7 @@ RAW = os.path.join(BASE, "data", "produtividade", "raw")
 OUT = os.path.join(BASE, "data", "produtividade", "modis")
 API = "https://modis.ornl.gov/rst/api/v1/"
 PRODUTOS = ("MOD13Q1", "MYD13Q1")
-BANDAS = {"ndvi": "250m_16_days_NDVI", "evi": "250m_16_days_EVI",
+BANDAS = {"evi": "250m_16_days_EVI",
           "rel": "250m_16_days_pixel_reliability",
           "doy": "250m_16_days_composite_day_of_the_year"}
 INICIO = "2012-08-01"
