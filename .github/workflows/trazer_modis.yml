@@ -1,0 +1,40 @@
+name: trazer-modis
+
+# Copia os artifacts MODIS (npz) de uma rodada do satelite-fenologia para
+# data/produtividade/modis/ no branch backtest-produtividade.
+on:
+  push:
+    branches: [backtest-produtividade]
+    paths:
+      - "data/produtividade/modis_run.txt"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  trazer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run de origem
+        id: run
+        run: echo "id=$(head -1 data/produtividade/modis_run.txt | tr -d '[:space:]')" >> "$GITHUB_OUTPUT"
+      - uses: actions/download-artifact@v4
+        with:
+          run-id: ${{ steps.run.outputs.id }}
+          github-token: ${{ github.token }}
+          pattern: modis-npz-*
+          merge-multiple: true
+          path: data/produtividade/modis/
+      - name: Commit
+        run: |
+          ls -la data/produtividade/modis/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/produtividade/modis
+          git diff --cached --quiet && exit 0
+          git commit -m "satelite: npz MODIS da rodada ${{ steps.run.outputs.id }}"
+          for i in 1 2 3; do git pull --rebase origin backtest-produtividade && git push origin HEAD:backtest-produtividade && exit 0; sleep 5; done
+          exit 1
