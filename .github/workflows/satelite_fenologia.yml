@@ -1,0 +1,32 @@
+name: satelite-fenologia
+
+# Coleta serie MODIS 250 m (ORNL DAAC) para o backtest de fenologia.
+# Roda so no branch backtest-produtividade; resultado vai como artifact.
+on:
+  push:
+    branches: [backtest-produtividade]
+    paths:
+      - "pipeline/produtividade/coletar_modis.py"
+      - ".github/workflows/satelite_fenologia.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  modis:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install numpy
+      - name: Coleta MODIS
+        run: python pipeline/produtividade/coletar_modis.py 20 5
+      - uses: actions/upload-artifact@v4
+        with:
+          name: modis-npz
+          path: data/produtividade/modis/
+          retention-days: 30
