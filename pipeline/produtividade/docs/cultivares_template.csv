@@ -1,0 +1,4 @@
+regiao_id,cultivar,gmr,participacao_pct,ciclo_dias,populacao_mil_plantas_ha,habito,tecnologia,observacao
+cascavel,EXEMPLO-A,5.9,40,,280,indeterminado,IPRO,linha de exemplo: substituir
+cascavel,EXEMPLO-B,6.3,35,,260,indeterminado,I2X,linha de exemplo: substituir
+cascavel,EXEMPLO-C,6.8,25,,240,indeterminado,IPRO,linha de exemplo: substituir

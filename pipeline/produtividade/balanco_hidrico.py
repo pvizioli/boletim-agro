@@ -37,6 +37,15 @@ def _dias(plantio, n):
     return [(d0 + datetime.timedelta(days=i)).isoformat() for i in range(n)]
 
 
+def fases_escaladas(ciclo):
+    """Duracoes das 4 fases proporcionais a um ciclo de `ciclo` dias
+    (proporcoes da tese: 20/50/40/40 de 150)."""
+    base = config.CICLO_DIAS
+    durs = [max(1, int(round(d * ciclo / float(base)))) for _, d in config.FASES]
+    durs[-1] += int(ciclo) - sum(durs)
+    return tuple((n, d) for (n, _), d in zip(config.FASES, durs))
+
+
 def simular(serie, plantio, cad_mm=None, p=config.P_DEPLECAO,
             arm_inicial_frac=0.5, spinup_dias=30, ciclo=config.CICLO_DIAS):
     """Simula o ciclo a partir da data de plantio (AAAA-MM-DD).
@@ -63,7 +72,10 @@ def simular(serie, plantio, cad_mm=None, p=config.P_DEPLECAO,
             continue
         arm = _passo(arm, cad, p, reg["prec"], 0.30 * reg["eto"])[0]
 
-    fases = limites_fases()
+    ciclo = int(ciclo)
+    fases_def = fases_escaladas(ciclo)
+    fases = limites_fases(fases_def)
+    escala = config.CICLO_DIAS / float(ciclo)
     acum = [{"etr": 0.0, "etm": 0.0, "dias": 0, "faltantes": 0,
              "prec": 0.0} for _ in fases]
     diario = []
@@ -75,7 +87,7 @@ def simular(serie, plantio, cad_mm=None, p=config.P_DEPLECAO,
             acum[idx]["faltantes"] += 1
             diario.append({"data": dia, "dap": k, "faltante": True})
             continue
-        etm = kc_por_dap(k) * eto
+        etm = kc_por_dap(k * escala) * eto
         arm, etr, ks = _passo(arm, cad, p, pr, etm)
         acum[idx]["etr"] += etr
         acum[idx]["etm"] += etm
@@ -86,7 +98,7 @@ def simular(serie, plantio, cad_mm=None, p=config.P_DEPLECAO,
                        "ks": round(ks, 3), "arm": round(arm, 2)})
 
     por_fase = []
-    for (nome, _), a in zip(config.FASES, acum):
+    for (nome, _), a in zip(fases_def, acum):
         razao = (a["etr"] / a["etm"]) if a["etm"] > 0 else None
         por_fase.append({
             "fase": nome, "etr_mm": round(a["etr"], 1),
@@ -94,7 +106,7 @@ def simular(serie, plantio, cad_mm=None, p=config.P_DEPLECAO,
             "razao": None if razao is None else round(razao, 4),
             "prec_mm": round(a["prec"], 1),
             "dias_ok": a["dias"], "dias_faltantes": a["faltantes"]})
-    return {"plantio": plantio, "cad_mm": cad, "por_fase": por_fase,
+    return {"plantio": plantio, "cad_mm": cad, "ciclo_dias": ciclo, "por_fase": por_fase,
             "diario": diario,
             "dias_faltantes": sum(a["faltantes"] for a in acum),
             "etr_total_mm": round(sum(a["etr"] for a in acum), 1),
