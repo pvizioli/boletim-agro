@@ -1,0 +1,225 @@
+{
+  "aviso": "Dados sinteticos: validam a implementacao e o efeito de sobreajuste; nao medem acuracia no mundo real.",
+  "E1_sem_efeito": [
+    {
+      "ano": 2003,
+      "k": [
+        3,
+        6,
+        4,
+        6
+      ],
+      "n_obs": 26,
+      "n_parametros_modificado": 20,
+      "melhora_agrupamento_real_pct": 62.1,
+      "melhora_rotulos_aleatorios_pct_media": 72.5,
+      "melhora_rotulos_aleatorios_pct_p90": 87.4
+    },
+    {
+      "ano": 2004,
+      "k": [
+        12,
+        10,
+        5,
+        8
+      ],
+      "n_obs": 26,
+      "n_parametros_modificado": 36,
+      "melhora_agrupamento_real_pct": 92.8,
+      "melhora_rotulos_aleatorios_pct_media": 100.0,
+      "melhora_rotulos_aleatorios_pct_p90": 100.0
+    },
+    {
+      "ano": 2005,
+      "k": [
+        10,
+        3,
+        10,
+        5
+      ],
+      "n_obs": 26,
+      "n_parametros_modificado": 29,
+      "melhora_agrupamento_real_pct": 95.6,
+      "melhora_rotulos_aleatorios_pct_media": 99.8,
+      "melhora_rotulos_aleatorios_pct_p90": 100.0
+    },
+    {
+      "ano": 2006,
+      "k": [
+        6,
+        3,
+        3,
+        4
+      ],
+      "n_obs": 26,
+      "n_parametros_modificado": 17,
+      "melhora_agrupamento_real_pct": 40.2,
+      "melhora_rotulos_aleatorios_pct_media": 51.8,
+      "melhora_rotulos_aleatorios_pct_p90": 75.0
+    },
+    {
+      "ano": 2007,
+      "k": [
+        3,
+        4,
+        7,
+        3
+      ],
+      "n_obs": 26,
+      "n_parametros_modificado": 18,
+      "melhora_agrupamento_real_pct": 46.3,
+      "melhora_rotulos_aleatorios_pct_media": 65.3,
+      "melhora_rotulos_aleatorios_pct_p90": 80.9
+    }
+  ],
+  "E2_sem_efeito": {
+    "loyo": {
+      "media_mun": {
+        "rmse_sc_ha_media": 9.38,
+        "rmse_sc_ha_dp": 0.82
+      },
+      "jensen": {
+        "rmse_sc_ha_media": 4.69,
+        "rmse_sc_ha_dp": 0.45
+      },
+      "jensen_grupos": {
+        "rmse_sc_ha_media": 4.03,
+        "rmse_sc_ha_dp": 0.48
+      },
+      "grupos_melhor_que_jensen_em_n_de": "20/20"
+    },
+    "lomo": {
+      "media_mun": {
+        "rmse_sc_ha_media": 9.95,
+        "rmse_sc_ha_dp": 0.63
+      },
+      "jensen": {
+        "rmse_sc_ha_media": 3.5,
+        "rmse_sc_ha_dp": 0.49
+      },
+      "jensen_grupos": {
+        "rmse_sc_ha_media": 4.24,
+        "rmse_sc_ha_dp": 0.68
+      },
+      "grupos_melhor_que_jensen_em_n_de": "2/20"
+    }
+  },
+  "E1_clusters_reais": [
+    {
+      "ano": 2003,
+      "k": [
+        3,
+        6,
+        4,
+        6
+      ],
+      "n_obs": 26,
+      "n_parametros_modificado": 20,
+      "melhora_agrupamento_real_pct": 65.6,
+      "melhora_rotulos_aleatorios_pct_media": 72.3,
+      "melhora_rotulos_aleatorios_pct_p90": 87.3
+    },
+    {
+      "ano": 2004,
+      "k": [
+        12,
+        10,
+        5,
+        8
+      ],
+      "n_obs": 26,
+      "n_parametros_modificado": 36,
+      "melhora_agrupamento_real_pct": 92.8,
+      "melhora_rotulos_aleatorios_pct_media": 100.0,
+      "melhora_rotulos_aleatorios_pct_p90": 100.0
+    },
+    {
+      "ano": 2005,
+      "k": [
+        10,
+        3,
+        10,
+        5
+      ],
+      "n_obs": 26,
+      "n_parametros_modificado": 29,
+      "melhora_agrupamento_real_pct": 95.7,
+      "melhora_rotulos_aleatorios_pct_media": 99.9,
+      "melhora_rotulos_aleatorios_pct_p90": 100.0
+    },
+    {
+      "ano": 2006,
+      "k": [
+        6,
+        3,
+        3,
+        4
+      ],
+      "n_obs": 26,
+      "n_parametros_modificado": 17,
+      "melhora_agrupamento_real_pct": 51.2,
+      "melhora_rotulos_aleatorios_pct_media": 53.1,
+      "melhora_rotulos_aleatorios_pct_p90": 73.5
+    },
+    {
+      "ano": 2007,
+      "k": [
+        3,
+        4,
+        7,
+        3
+      ],
+      "n_obs": 26,
+      "n_parametros_modificado": 18,
+      "melhora_agrupamento_real_pct": 53.0,
+      "melhora_rotulos_aleatorios_pct_media": 65.0,
+      "melhora_rotulos_aleatorios_pct_p90": 81.0
+    }
+  ],
+  "E2_clusters_reais": {
+    "loyo": {
+      "media_mun": {
+        "rmse_sc_ha_media": 9.33,
+        "rmse_sc_ha_dp": 0.83
+      },
+      "jensen": {
+        "rmse_sc_ha_media": 4.66,
+        "rmse_sc_ha_dp": 0.45
+      },
+      "jensen_grupos": {
+        "rmse_sc_ha_media": 4.01,
+        "rmse_sc_ha_dp": 0.48
+      },
+      "grupos_melhor_que_jensen_em_n_de": "20/20"
+    },
+    "lomo": {
+      "media_mun": {
+        "rmse_sc_ha_media": 9.63,
+        "rmse_sc_ha_dp": 0.63
+      },
+      "jensen": {
+        "rmse_sc_ha_media": 3.38,
+        "rmse_sc_ha_dp": 0.46
+      },
+      "jensen_grupos": {
+        "rmse_sc_ha_media": 3.91,
+        "rmse_sc_ha_dp": 0.58
+      },
+      "grupos_melhor_que_jensen_em_n_de": "2/20"
+    }
+  },
+  "E3_recuperacao_lambda": {
+    "lambda_verdade": [
+      0.1,
+      0.25,
+      0.55,
+      0.2
+    ],
+    "lambda_estimado": [
+      0.122,
+      0.173,
+      0.509,
+      0.154
+    ]
+  }
+}

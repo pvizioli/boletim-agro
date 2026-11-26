@@ -1,0 +1,52 @@
+name: backtest-produtividade
+
+# Coleta dados brutos (IBGE PAM + NASA POWER + Open-Meteo) para o backtest
+# do modelo de produtividade. Roda so no branch backtest-produtividade.
+on:
+  push:
+    branches: [backtest-produtividade]
+    paths:
+      - "pipeline/produtividade/coletar_backtest.py"
+      - ".github/workflows/backtest_produtividade.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: backtest-produtividade
+  cancel-in-progress: false
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Commit helper
+        run: |
+          cat > /tmp/commit.sh << 'SH'
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/produtividade/raw
+          git diff --cached --quiet && exit 0
+          git commit -m "backtest: dados brutos ($1)"
+          for i in 1 2 3; do git pull --rebase origin backtest-produtividade && git push origin HEAD:backtest-produtividade && exit 0; sleep 5; done
+          exit 1
+          SH
+          chmod +x /tmp/commit.sh
+      - name: SIDRA (IBGE PAM)
+        run: python pipeline/produtividade/coletar_backtest.py sidra
+        continue-on-error: true
+      - run: /tmp/commit.sh sidra
+      - name: NASA POWER
+        run: python pipeline/produtividade/coletar_backtest.py power
+        continue-on-error: true
+      - run: /tmp/commit.sh power
+      - name: Open-Meteo (municipios-chave)
+        run: python pipeline/produtividade/coletar_backtest.py openmeteo
+        continue-on-error: true
+      - run: /tmp/commit.sh openmeteo
