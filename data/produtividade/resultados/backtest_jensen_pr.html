@@ -1,0 +1,129 @@
+<title>Backtest Jensen PR</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Relatório técnico em coluna única; tabelas densas, um gráfico-âncora */
+:root{--bg:#f6f7f3;--surface:#ffffff;--fg:#1d231c;--muted:#5d665a;--line:#d9ddd3;--accent:#2f6b3a;--obs:#1d231c;--pre:#c2661d;--ten:#8a9386;--good:#2f6b3a;--bad:#a8321e;--warn:#9a6a00;
+--f-body:"IBM Plex Sans",system-ui,sans-serif;--f-head:"IBM Plex Sans Condensed","IBM Plex Sans",system-ui,sans-serif;--f-num:"IBM Plex Mono",ui-monospace,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141813;--surface:#1b2019;--fg:#e4e8df;--muted:#9aa395;--line:#2e352b;--accent:#7cc08a;--obs:#e4e8df;--pre:#f0974f;--ten:#7d8678;--good:#7cc08a;--bad:#f0866f;--warn:#e0b44f;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#141813;--surface:#1b2019;--fg:#e4e8df;--muted:#9aa395;--line:#2e352b;--accent:#7cc08a;--obs:#e4e8df;--pre:#f0974f;--ten:#7d8678;--good:#7cc08a;--bad:#f0866f;--warn:#e0b44f;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:15px/1.6 var(--f-body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 64px}
+main{max-width:860px;margin:0 auto;display:grid;gap:36px}main>*{min-width:0}.tw{max-width:100%}
+h1,h2{font-family:var(--f-head);line-height:1.15;text-wrap:balance;margin:0}
+h1{font-size:2rem}h2{font-size:1.3rem;margin-bottom:10px}
+p{margin:0 0 10px;max-width:68ch}.muted{color:var(--muted)}
+.eyebrow{font:500 .75rem/1 var(--f-num);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.verdict{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.verdict div{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 16px;min-width:0}
+.verdict b{display:block;font:600 1.5rem/1.2 var(--f-num);font-variant-numeric:tabular-nums}
+.verdict .ok b{color:var(--good)}.verdict .no b{color:var(--bad)}.verdict .mid b{color:var(--warn)}
+.verdict span{color:var(--muted);font-size:.85rem}
+.tw{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:6px}
+table{border-collapse:collapse;width:100%;font-size:.88rem}
+th,td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+th{font-weight:600;color:var(--muted);font-size:.78rem;text-transform:uppercase;letter-spacing:.04em}
+tr:last-child td{border-bottom:0}
+td.n,th.n{text-align:right;font-family:var(--f-num);font-variant-numeric:tabular-nums}
+.strong{font-weight:600}.best{color:var(--good);font-weight:600}.worse{color:var(--bad)}
+figure{margin:0;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px}
+figure svg{width:100%;height:auto;display:block}
+.grid{stroke:var(--line);stroke-width:1}.ax{fill:var(--muted);font:11px var(--f-num)}@media (max-width:520px){.ax{font-size:16px}}
+.l-obs,.l-pre,.l-ten{fill:none;stroke-width:2.2}.l-obs{stroke:var(--obs)}.l-pre{stroke:var(--pre)}.l-ten{stroke:var(--ten);stroke-dasharray:5 4;stroke-width:1.6}
+.p-obs{fill:var(--obs)}.p-pre{fill:var(--pre)}.ann{fill:var(--bad);font:600 11px var(--f-num)}
+.leg{display:flex;flex-wrap:wrap;gap:16px;font-size:.82rem;color:var(--muted);margin-top:8px}
+.leg i{display:inline-block;width:18px;height:3px;vertical-align:middle;margin-right:6px}
+ol{margin:0;padding-left:1.3em;display:grid;gap:8px;max-width:72ch}
+code{font-family:var(--f-num);font-size:.85em}
+</style>
+<main>
+<header>
+<div class="eyebrow">Paraná · soja · safras 2012/13 a 2024/25</div>
+<h1>Backtest do modelo de Jensen com dados reais</h1>
+<p class="muted">103 municípios do PR com mais de 20 mil ha de soja (inclui os 7 da dissertação). Produtividade observada: IBGE PAM, 1.339 municípios-safra. Clima: NASA POWER (103 municípios) e Open-Meteo (12). Validação fora da amostra: uma safra inteira fica de fora a cada rodada (LOYO).</p>
+</header>
+
+<section>
+<h2>Resumo</h2>
+<div class="verdict">
+<div class="ok"><b>r = 0,79</b><span>acerto do ano no estadual: erro de 4,0 sc/ha; previu a seca de 21/22 (43,9 contra 41,6)</span></div>
+<div class="mid"><b>R² = 0,39</b><span>no município: RMSE 8,5 sc/ha contra 10,1 da média histórica (−16%)</span></div>
+<div class="mid"><b>60% / 40%</b><span>quebras municipais detectadas / precisão dos alarmes (taxa-base 13,5%)</span></div>
+<div class="no"><b>zero</b><span>ganho fora da amostra dos agrupamentos da tese</span></div>
+</div>
+</section>
+
+<section>
+<h2>Média estadual por safra</h2>
+<figure><svg viewBox="0 0 720 300" role="img" aria-label="Produtividade média do PR por safra: observado IBGE x modelo x tendência"><line x1="44" x2="704" y1="247.5" y2="247.5" class="grid"/><text x="38" y="251.5" class="ax" text-anchor="end">40</text><line x1="44" x2="704" y1="206.1" y2="206.1" class="grid"/><text x="38" y="210.1" class="ax" text-anchor="end">45</text><line x1="44" x2="704" y1="164.8" y2="164.8" class="grid"/><text x="38" y="168.8" class="ax" text-anchor="end">50</text><line x1="44" x2="704" y1="123.5" y2="123.5" class="grid"/><text x="38" y="127.5" class="ax" text-anchor="end">55</text><line x1="44" x2="704" y1="82.1" y2="82.1" class="grid"/><text x="38" y="86.1" class="ax" text-anchor="end">60</text><line x1="44" x2="704" y1="40.8" y2="40.8" class="grid"/><text x="38" y="44.8" class="ax" text-anchor="end">65</text><text x="44.0" y="288" class="ax" text-anchor="middle">2013</text><text x="99.0" y="288" class="ax" text-anchor="middle">2014</text><text x="154.0" y="288" class="ax" text-anchor="middle">2015</text><text x="209.0" y="288" class="ax" text-anchor="middle">2016</text><text x="264.0" y="288" class="ax" text-anchor="middle">2017</text><text x="319.0" y="288" class="ax" text-anchor="middle">2018</text><text x="374.0" y="288" class="ax" text-anchor="middle">2019</text><text x="429.0" y="288" class="ax" text-anchor="middle">2020</text><text x="484.0" y="288" class="ax" text-anchor="middle">2021</text><text x="539.0" y="288" class="ax" text-anchor="middle">2022</text><text x="594.0" y="288" class="ax" text-anchor="middle">2023</text><text x="649.0" y="288" class="ax" text-anchor="middle">2024</text><text x="704.0" y="288" class="ax" text-anchor="middle">2025</text><path d="M44.0 131.7 L99.0 116.0 L154.0 125.1 L209.0 120.2 L264.0 129.3 L319.0 125.1 L374.0 117.7 L429.0 125.1 L484.0 121.8 L539.0 88.7 L594.0 129.3 L649.0 113.5 L704.0 132.6" class="l-ten"/><path d="M44.0 115.2 L99.0 154.9 L154.0 120.2 L209.0 138.3 L264.0 64.8 L319.0 84.6 L374.0 151.6 L429.0 52.4 L484.0 92.9 L539.0 234.2 L594.0 53.2 L649.0 118.5 L704.0 59.8" class="l-obs"/><path d="M44.0 152.4 L99.0 213.6 L154.0 104.5 L209.0 66.4 L264.0 70.6 L319.0 90.4 L374.0 154.9 L429.0 69.7 L484.0 59.8 L539.0 215.2 L594.0 97.8 L649.0 102.8 L704.0 65.6" class="l-pre"/><circle cx="44.0" cy="115.2" r="3.2" class="p-obs"/><circle cx="99.0" cy="154.9" r="3.2" class="p-obs"/><circle cx="154.0" cy="120.2" r="3.2" class="p-obs"/><circle cx="209.0" cy="138.3" r="3.2" class="p-obs"/><circle cx="264.0" cy="64.8" r="3.2" class="p-obs"/><circle cx="319.0" cy="84.6" r="3.2" class="p-obs"/><circle cx="374.0" cy="151.6" r="3.2" class="p-obs"/><circle cx="429.0" cy="52.4" r="3.2" class="p-obs"/><circle cx="484.0" cy="92.9" r="3.2" class="p-obs"/><circle cx="539.0" cy="234.2" r="3.2" class="p-obs"/><circle cx="594.0" cy="53.2" r="3.2" class="p-obs"/><circle cx="649.0" cy="118.5" r="3.2" class="p-obs"/><circle cx="704.0" cy="59.8" r="3.2" class="p-obs"/><circle cx="44.0" cy="152.4" r="3.2" class="p-pre"/><circle cx="99.0" cy="213.6" r="3.2" class="p-pre"/><circle cx="154.0" cy="104.5" r="3.2" class="p-pre"/><circle cx="209.0" cy="66.4" r="3.2" class="p-pre"/><circle cx="264.0" cy="70.6" r="3.2" class="p-pre"/><circle cx="319.0" cy="90.4" r="3.2" class="p-pre"/><circle cx="374.0" cy="154.9" r="3.2" class="p-pre"/><circle cx="429.0" cy="69.7" r="3.2" class="p-pre"/><circle cx="484.0" cy="59.8" r="3.2" class="p-pre"/><circle cx="539.0" cy="215.2" r="3.2" class="p-pre"/><circle cx="594.0" cy="97.8" r="3.2" class="p-pre"/><circle cx="649.0" cy="102.8" r="3.2" class="p-pre"/><circle cx="704.0" cy="65.6" r="3.2" class="p-pre"/><text x="539.0" y="250.2" class="ann" text-anchor="middle">seca 21/22</text></svg>
+<div class="leg"><span><i style="background:var(--obs)"></i>IBGE PAM (observado)</span><span><i style="background:var(--pre)"></i>Modelo, fora da amostra</span><span><i style="background:var(--ten)"></i>Só tendência + município</span></div>
+</figure>
+<p class="muted" style="margin-top:10px">Média ponderada pela área colhida, em sc/ha. Ano no eixo = ano da colheita (PAM). Plantio assumido em 20/out, CAD 72 mm. O modelo acompanha 2019, 2020, 2022 e 2025. Erra 2014 (previu estresse que não virou quebra) e 2016 (superestimou: provável perda por chuva na colheita do El Niño 15/16, que o balanço hídrico não enxerga).</p>
+</section>
+
+<section>
+<h2>Município a município</h2>
+<div class="tw"><table>
+<tr><th>Modelo</th><th class="n">RMSE safra nova</th><th class="n">R²</th><th class="n">RMSE município novo</th><th class="n">R²</th></tr>
+<tr><td>Média histórica do município</td><td class="n">10,14</td><td class="n">0,12</td><td class="n">10,85</td><td class="n">−0,01</td></tr>
+<tr><td>Jensen da tese (1/nov, CAD 42)</td><td class="n worse">11,13</td><td class="n">−0,06</td><td class="n">9,74</td><td class="n">0,19</td></tr>
+<tr><td>Jensen + grupos da tese (20/out, CAD 72)</td><td class="n">8,81</td><td class="n">0,34</td><td class="n">8,87</td><td class="n">0,33</td></tr>
+<tr><td>Jensen sem grupos (20/out, CAD 72)</td><td class="n">8,84</td><td class="n">0,33</td><td class="n">8,82</td><td class="n">0,34</td></tr>
+<tr><td class="strong">Jensen + tendência + efeito do município</td><td class="n best">8,48</td><td class="n best">0,39</td><td class="n best">8,35</td><td class="n best">0,41</td></tr>
+</table></div>
+<p class="muted" style="margin-top:10px">RMSE em sc/ha. "Município novo": o município fica de fora do ajuste (LOMO). A tendência tecnológica estimada é de 1,5% ao ano. A fase vegetativa até o início da floração concentra a sensibilidade (λ = 0,91). A fase de enchimento vem em seguida (λ = 0,22). Estabelecimento e maturação ficam em zero.</p>
+</section>
+
+<section>
+<h2>Sensibilidade à data de plantio</h2>
+<div class="tw"><table>
+<tr><th>Plantio</th><th class="n">CAD 42 mm</th><th class="n">CAD 72 mm</th></tr>
+<tr><td>20/set</td><td class="n">9,79</td><td class="n">9,02</td></tr>
+<tr><td>05/out</td><td class="n worse">10,63</td><td class="n">9,39</td></tr>
+<tr><td>20/out</td><td class="n">9,15</td><td class="n best">8,48</td></tr>
+<tr><td>01/nov (tese)</td><td class="n">9,33</td><td class="n">n/d</td></tr>
+<tr><td>escalonado (25/set, 15/out, 05/nov)</td><td class="n">10,48</td><td class="n">9,36</td></tr>
+</table></div>
+<p class="muted" style="margin-top:10px">RMSE fora da amostra (safra nova) do melhor modelo. O erro varia de 8,5 a 10,6 sc/ha só pela data assumida, e a melhor configuração foi escolhida nos mesmos dados. Data de plantio é a premissa mais frágil hoje.</p>
+</section>
+
+<section>
+<h2>O protocolo da tese em dado real</h2>
+<p>Ajustei um modelo por safra com os 26 municípios de maior área, como na dissertação, e medi a melhora do erro dentro da amostra. O controle usa rótulos sorteados, sem informação climática.</p>
+<div class="tw"><table>
+<tr><th>Safra</th><th class="n">grupos (silhueta)</th><th class="n">melhora real</th><th class="n">melhora aleatória</th><th class="n">real, k da tese</th><th class="n">aleatória, k da tese</th></tr>
+<tr><td>2013</td><td class="n">2-2-3-2</td><td class="n">34%</td><td class="n">24%</td><td class="n">84%</td><td class="n">100%</td></tr><tr><td>2014</td><td class="n">2-2-2-2</td><td class="n">40%</td><td class="n">17%</td><td class="n">97%</td><td class="n">100%</td></tr><tr><td>2015</td><td class="n">2-2-2-2</td><td class="n">26%</td><td class="n">19%</td><td class="n">92%</td><td class="n">100%</td></tr><tr><td>2016</td><td class="n">2-2-2-2</td><td class="n">41%</td><td class="n">16%</td><td class="n">85%</td><td class="n">100%</td></tr><tr><td>2017</td><td class="n">2-2-2-2</td><td class="n">8%</td><td class="n">18%</td><td class="n">73%</td><td class="n">100%</td></tr><tr><td>2018</td><td class="n">2-2-2-2</td><td class="n">6%</td><td class="n">17%</td><td class="n">37%</td><td class="n">100%</td></tr><tr><td>2019</td><td class="n">2-6-3-2</td><td class="n">35%</td><td class="n">38%</td><td class="n">92%</td><td class="n">100%</td></tr><tr><td>2020</td><td class="n">2-2-2-2</td><td class="n">4%</td><td class="n">19%</td><td class="n">59%</td><td class="n">100%</td></tr><tr><td>2021</td><td class="n">2-2-4-2</td><td class="n">28%</td><td class="n">28%</td><td class="n">92%</td><td class="n">100%</td></tr><tr><td>2022</td><td class="n">2-2-2-2</td><td class="n">5%</td><td class="n">1%</td><td class="n">96%</td><td class="n">100%</td></tr><tr><td>2023</td><td class="n">2-2-3-2</td><td class="n">42%</td><td class="n">22%</td><td class="n">90%</td><td class="n">100%</td></tr><tr><td>2024</td><td class="n">2-2-2-2</td><td class="n">8%</td><td class="n">16%</td><td class="n">81%</td><td class="n">100%</td></tr><tr><td>2025</td><td class="n">2-2-2-2</td><td class="n">7%</td><td class="n">19%</td><td class="n">63%</td><td class="n">100%</td></tr>
+</table></div>
+<p class="muted" style="margin-top:10px">"k da tese" = 12-10-5-8 grupos por fase (Tabela 4.1, safra 2004), que dá 36 parâmetros para 26 municípios. Nessa configuração, rótulos aleatórios melhoram o erro em ~100%. A faixa de 49% a 99% da dissertação é compatível com sobreajuste. Fora da amostra, os grupos não ganham do Jensen simples.</p>
+</section>
+
+<section>
+<h2>Fonte de clima</h2>
+<p>Nos 12 municípios da tese, com plantio em 20/out e CAD 72, o Open-Meteo (ERA5) deu RMSE 8,59 sc/ha contra 9,20 do NASA POWER (MERRA-2) no modelo completo. São só 156 observações, então a diferença indica uma direção, não prova. A chuva de reanálise em grade de 25 a 50 km é uma das limitações do resultado municipal.</p>
+</section>
+
+<section>
+<h2>Safra 26/27 com os JSONs do boletim</h2>
+<p>O histórico do repositório vai de 14/jun a 26/nov/2026 e traz o valor do dia de cada coleta (dia 0 da previsão Open-Meteo), não estação observada. Não cobre nenhuma safra colhida, por isso não serve para o backtest. Serve para a safra em curso: usei os 38 dias já ocorridos desde o plantio assumido (20/out) e completei o ciclo com as 13 safras históricas como cenários.</p>
+<div class="tw"><table>
+<tr><th>Município</th><th class="n">chuva 1/out–26/nov mm</th><th class="n">média PAM 13–25</th><th class="n">P10</th><th class="n">P50</th><th class="n">P90</th><th class="n">PAM 2025</th></tr>
+<tr><td>Cambará</td><td class="n">294</td><td class="n">53.1</td><td class="n">46.0</td><td class="n strong">65.0</td><td class="n">70.9</td><td class="n">51.7</td></tr><tr><td>Paranavaí</td><td class="n">298</td><td class="n">37.7</td><td class="n">36.5</td><td class="n strong">46.9</td><td class="n">50.8</td><td class="n">41.0</td></tr><tr><td>Londrina</td><td class="n">332</td><td class="n">52.5</td><td class="n">50.7</td><td class="n strong">62.1</td><td class="n">68.4</td><td class="n">58.3</td></tr><tr><td>Maringá</td><td class="n">351</td><td class="n">52.3</td><td class="n">49.7</td><td class="n strong">60.9</td><td class="n">68.4</td><td class="n">58.3</td></tr><tr><td>Cianorte</td><td class="n">445</td><td class="n">42.2</td><td class="n">42.2</td><td class="n strong">55.2</td><td class="n">58.1</td><td class="n">44.7</td></tr><tr><td>Umuarama</td><td class="n">457</td><td class="n">40.1</td><td class="n">39.1</td><td class="n strong">45.7</td><td class="n">50.7</td><td class="n">36.7</td></tr><tr><td>Apucarana</td><td class="n">419</td><td class="n">55.9</td><td class="n">54.2</td><td class="n strong">66.3</td><td class="n">73.1</td><td class="n">61.7</td></tr><tr><td>Cascavel</td><td class="n">528</td><td class="n">59.6</td><td class="n">63.0</td><td class="n strong">71.3</td><td class="n">79.0</td><td class="n">70.1</td></tr><tr><td>Toledo</td><td class="n">523</td><td class="n">54.1</td><td class="n">52.1</td><td class="n strong">61.6</td><td class="n">70.2</td><td class="n">62.0</td></tr><tr><td>Campo Mourão</td><td class="n">456</td><td class="n">57.4</td><td class="n">59.5</td><td class="n strong">72.1</td><td class="n">75.5</td><td class="n">57.0</td></tr><tr><td>Ponta Grossa</td><td class="n">438</td><td class="n">63.5</td><td class="n">63.8</td><td class="n strong">73.6</td><td class="n">77.2</td><td class="n">72.5</td></tr><tr><td>Guarapuava</td><td class="n">573</td><td class="n">64.2</td><td class="n">69.5</td><td class="n strong">74.7</td><td class="n">76.4</td><td class="n">75.0</td></tr>
+</table></div>
+<p class="muted" style="margin-top:10px">sc/ha. Até agora não há estresse hídrico em nenhum dos 12 (ETR/ETm = 1,0 nas fases já ocorridas), com início de safra muito chuvoso. O P50 fica acima da média histórica porque soma a tendência até 2027 a um começo sem estresse. Com 25% do ciclo observado, a confiança é baixa. O intervalo P10–P90 cobre só o clima que falta e não inclui o erro do modelo (±8,5 sc/ha no município).</p>
+</section>
+
+<section>
+<h2>O que funciona e o que precisa melhorar</h2>
+<ol>
+<li><b>Funciona:</b> balanço hídrico + Jensen detecta anos de seca no agregado estadual (r = 0,79) e já reduz o erro municipal em 16% frente à média histórica.</li>
+<li><b>Funciona:</b> tendência tecnológica e efeito fixo de município, que a tese não tinha, deram o maior ganho isolado.</li>
+<li><b>Descartar:</b> agrupamentos da tese. Sem ganho fora da amostra; a melhora reportada é reproduzível com rótulos aleatórios.</li>
+<li><b>Prioridade 1, calendário de plantio real.</b> O Deral publica o avanço semanal do plantio por núcleo regional. Hoje o <code>colheita.csv</code> do boletim guarda só o retrato atual. Gravar essa série e ponderar coortes de plantio por ela ataca a premissa mais frágil.</li>
+<li><b>Prioridade 2, estresses que faltam.</b> Excesso de chuva na colheita (provável causa do erro em 2016), calor acima de 35 °C na floração e falta de radiação. Hoje o modelo só vê déficit hídrico.</li>
+<li><b>Prioridade 3, chuva melhor.</b> CHIRPS (5 km) ou estações INMET no lugar de reanálise de 25 a 50 km.</li>
+<li><b>Prioridade 4, dado observado no boletim.</b> Passar a gravar o dia anterior do Open-Meteo archive (observado) e não só o dia 0 da previsão, para o repo virar base de calibração.</li>
+<li><b>Fase satélite:</b> NDVI para data de emergência e para o pico de biomassa, os dois pontos onde o modelo de clima é mais cego.</li>
+</ol>
+</section>
+
+<footer class="muted" style="font-size:.82rem">Dados brutos e scripts no branch <code>backtest-produtividade</code> do repositório boletim-agro. Fontes: IBGE/SIDRA tabela 1612 (rendimento médio e área colhida), NASA POWER diário, Open-Meteo Historical (ERA5). Gerado em 26/11/2026.</footer>
+</main>

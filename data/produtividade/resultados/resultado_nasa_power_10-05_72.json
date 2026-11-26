@@ -1,0 +1,195 @@
+{
+ "fonte": "nasa_power",
+ "plantio_md": "10-05",
+ "cad": 72.0,
+ "n_obs": 1339,
+ "n_mun": 103,
+ "anos": [
+  2013,
+  2014,
+  2015,
+  2016,
+  2017,
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025
+ ],
+ "cv": {
+  "loyo": {
+   "media_mun": {
+    "n": 1339,
+    "rmse": 10.137,
+    "mae": 7.089,
+    "vies": 0.0,
+    "r2": 0.122,
+    "corr": 0.374
+   },
+   "tendencia": {
+    "n": 1339,
+    "rmse": 10.825,
+    "mae": 7.738,
+    "vies": -1.198,
+    "r2": -0.001,
+    "corr": 0.301
+   },
+   "jensen": {
+    "n": 1339,
+    "rmse": 10.467,
+    "mae": 7.971,
+    "vies": 0.047,
+    "r2": 0.064,
+    "corr": 0.422
+   },
+   "jensen_grupos": {
+    "n": 1339,
+    "rmse": 10.55,
+    "mae": 8.014,
+    "vies": 0.117,
+    "r2": 0.049,
+    "corr": 0.411
+   },
+   "jensen_tendencia": {
+    "n": 1339,
+    "rmse": 9.392,
+    "mae": 7.052,
+    "vies": 0.072,
+    "r2": 0.246,
+    "corr": 0.566
+   }
+  },
+  "lomo": {
+   "media_mun": {
+    "n": 1339,
+    "rmse": 10.846,
+    "mae": 7.717,
+    "vies": -0.0,
+    "r2": -0.005,
+    "corr": -0.502
+   },
+   "tendencia": {
+    "n": 1339,
+    "rmse": 10.931,
+    "mae": 8.058,
+    "vies": -1.546,
+    "r2": -0.021,
+    "corr": 0.016
+   },
+   "jensen": {
+    "n": 1339,
+    "rmse": 9.422,
+    "mae": 7.389,
+    "vies": -0.738,
+    "r2": 0.242,
+    "corr": 0.53
+   },
+   "jensen_grupos": {
+    "n": 1339,
+    "rmse": 9.456,
+    "mae": 7.417,
+    "vies": -0.773,
+    "r2": 0.236,
+    "corr": 0.526
+   },
+   "jensen_tendencia": {
+    "n": 1339,
+    "rmse": 8.731,
+    "mae": 6.804,
+    "vies": -0.79,
+    "r2": 0.349,
+    "corr": 0.615
+   }
+  }
+ },
+ "por_ano": {
+  "2013": {
+   "obs": 56.0,
+   "tendencia": 54.0,
+   "jensen_tendencia": 49.5,
+   "jensen": 52.9
+  },
+  "2014": {
+   "obs": 51.2,
+   "tendencia": 55.9,
+   "jensen_tendencia": 46.0,
+   "jensen": 53.3
+  },
+  "2015": {
+   "obs": 55.4,
+   "tendencia": 54.8,
+   "jensen_tendencia": 56.2,
+   "jensen": 60.4
+  },
+  "2016": {
+   "obs": 53.2,
+   "tendencia": 55.4,
+   "jensen_tendencia": 64.7,
+   "jensen": 66.6
+  },
+  "2017": {
+   "obs": 62.1,
+   "tendencia": 54.3,
+   "jensen_tendencia": 60.9,
+   "jensen": 61.7
+  },
+  "2018": {
+   "obs": 59.7,
+   "tendencia": 54.8,
+   "jensen_tendencia": 59.3,
+   "jensen": 60.5
+  },
+  "2019": {
+   "obs": 51.6,
+   "tendencia": 55.7,
+   "jensen_tendencia": 52.1,
+   "jensen": 52.3
+  },
+  "2020": {
+   "obs": 63.6,
+   "tendencia": 54.8,
+   "jensen_tendencia": 62.3,
+   "jensen": 60.1
+  },
+  "2021": {
+   "obs": 58.7,
+   "tendencia": 55.2,
+   "jensen_tendencia": 60.3,
+   "jensen": 55.5
+  },
+  "2022": {
+   "obs": 41.6,
+   "tendencia": 59.2,
+   "jensen_tendencia": 49.6,
+   "jensen": 51.1
+  },
+  "2023": {
+   "obs": 63.5,
+   "tendencia": 54.3,
+   "jensen_tendencia": 59.6,
+   "jensen": 54.9
+  },
+  "2024": {
+   "obs": 55.6,
+   "tendencia": 56.2,
+   "jensen_tendencia": 54.8,
+   "jensen": 51.0
+  },
+  "2025": {
+   "obs": 62.7,
+   "tendencia": 53.9,
+   "jensen_tendencia": 60.4,
+   "jensen": 53.6
+  }
+ },
+ "lambdas_full": [
+  0.0,
+  0.479,
+  0.521,
+  0.0
+ ],
+ "tendencia_pct_ano": 2.14
+}
